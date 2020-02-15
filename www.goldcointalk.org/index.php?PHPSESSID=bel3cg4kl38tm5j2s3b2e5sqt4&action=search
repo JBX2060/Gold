@@ -1,0 +1,387 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<link rel="stylesheet" type="text/css" href="https://www.goldcointalk.org/Themes/horizon-smf20/css/index.css?fin20" />
+	<link href="https://fonts.googleapis.com/css?family=Ubuntu:400,300,500" rel="stylesheet" type="text/css">
+	<meta property="og:image" content="https://www.goldcointalk.org/img/goldcoin_fb.png" />
+	<meta property="og:url" content="https://www.goldcointalk.org/" />
+	<script type="text/javascript" src="https://www.goldcointalk.org/Themes/default/scripts/script.js?fin20"></script>
+	<script type="text/javascript" src="https://www.goldcointalk.org/Themes/horizon-smf20/scripts/theme.js?fin20"></script>
+	<script type="text/javascript"><!-- // --><![CDATA[
+		var smf_theme_url = "https://www.goldcointalk.org/Themes/horizon-smf20";
+		var smf_default_theme_url = "https://www.goldcointalk.org/Themes/default";
+		var smf_images_url = "https://www.goldcointalk.org/Themes/horizon-smf20/images";
+		var smf_scripturl = "https://www.goldcointalk.org/index.php?PHPSESSID=bel3cg4kl38tm5j2s3b2e5sqt4&amp;";
+		var smf_iso_case_folding = false;
+		var smf_charset = "UTF-8";
+		var ajax_notification_text = "Loading...";
+		var ajax_notification_cancel_text = "Cancel";
+	// ]]></script>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="description" content="Set Search Parameters" />
+	<title>Set Search Parameters</title>
+	<link rel="help" href="https://www.goldcointalk.org/index.php?PHPSESSID=bel3cg4kl38tm5j2s3b2e5sqt4&amp;action=help" />
+	<link rel="search" href="https://www.goldcointalk.org/index.php?PHPSESSID=bel3cg4kl38tm5j2s3b2e5sqt4&amp;action=search" />
+	<link rel="contents" href="https://www.goldcointalk.org/index.php?PHPSESSID=bel3cg4kl38tm5j2s3b2e5sqt4&amp;" />
+	<link rel="alternate" type="application/rss+xml" title="GoldCoin Talk - RSS" href="https://www.goldcointalk.org/index.php?PHPSESSID=bel3cg4kl38tm5j2s3b2e5sqt4&amp;type=rss;action=.xml" />
+</head>
+<body>
+	<div id="topbar">
+		<div class="wrapper">
+			<div id="horizon-time">
+				July 13, 2018, 09:29:42 am
+			</div>
+			<div id="account">
+				<ul>
+					<li class="btn-login"><a href="https://www.goldcointalk.org/index.php?PHPSESSID=bel3cg4kl38tm5j2s3b2e5sqt4&amp;action=login">Login</a></li>
+					<li class="btn-signup"><a href="https://www.goldcointalk.org/index.php?PHPSESSID=bel3cg4kl38tm5j2s3b2e5sqt4&amp;action=register">Register</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div id="header">
+		<div id="logo">
+			<a title="GoldCoin Talk" href="https://www.goldcointalk.org/index.php?PHPSESSID=bel3cg4kl38tm5j2s3b2e5sqt4&amp;"></a>
+		</div>
+		<div class="wrapper">
+			<div id="navbar">
+				
+		<ul id="topnav">
+				<li id="button_home">
+					<a class="firstlevel" href="https://www.goldcointalk.org/index.php?PHPSESSID=bel3cg4kl38tm5j2s3b2e5sqt4&amp;">
+						<span class="last firstlevel">Home</span>
+					</a>
+				</li>
+				<li id="button_help">
+					<a class="firstlevel" href="https://www.goldcointalk.org/index.php?PHPSESSID=bel3cg4kl38tm5j2s3b2e5sqt4&amp;action=help">
+						<span class="firstlevel">Help</span>
+					</a>
+				</li>
+				<li id="button_search">
+					<a class="active firstlevel" href="https://www.goldcointalk.org/index.php?PHPSESSID=bel3cg4kl38tm5j2s3b2e5sqt4&amp;action=search">
+						<span class="firstlevel">Search</span>
+					</a>
+				</li>
+				<li id="button_menu_action">
+					<a class="firstlevel" href="https://www.goldcointalk.org/index.php?PHPSESSID=bel3cg4kl38tm5j2s3b2e5sqt4&amp;">
+						<span class="firstlevel">Social Bookmarks</span>
+					</a>
+					<ul>
+						<li>
+							<a href="https://www.facebook.com/groups/goldcointalk/" target="_blank"">
+								<span>Facebook Group</span>
+							</a>
+						</li>
+						<li>
+							<a href="https://bitcointalk.org/index.php?topic=317568.0" target="_blank"">
+								<span>Bitcointalk Thread</span>
+							</a>
+						</li>
+						<li>
+							<a href="https://twitter.com/GoldCoin" target="_blank"">
+								<span>Twitter Feed</span>
+							</a>
+						</li>
+						<li>
+							<a href="https://t.me/goldcoin" target="_blank"">
+								<span>Telegram Group</span>
+							</a>
+						</li>
+						<li>
+							<a href="http://www.reddit.com/r/goldcoin" target="_blank"">
+								<span>Goldcoin Reddit</span>
+							</a>
+						</li>
+					</ul>
+				</li>
+				<li id="button_login">
+					<a class="firstlevel" href="https://www.goldcointalk.org/index.php?PHPSESSID=bel3cg4kl38tm5j2s3b2e5sqt4&amp;action=login">
+						<span class="firstlevel">Login</span>
+					</a>
+				</li>
+				<li id="button_register">
+					<a class="firstlevel" href="https://www.goldcointalk.org/index.php?PHPSESSID=bel3cg4kl38tm5j2s3b2e5sqt4&amp;action=register">
+						<span class="last firstlevel">Register</span>
+					</a>
+				</li>
+			</ul>
+			</div>
+			<div id="toolbar">
+				<div id="quicknav">
+					<ul>
+						<li class="facebook social"><a href="https://www.facebook.com/groups/goldcointalk/" title="Facebook" target="_blank"></a></li>
+						<li class="twitter social"><a href="https://twitter.com/goldcoin" title="Twitter" target="_blank"></a></li>
+						<li class="skype social"><a href="skype:greggory.matthews?call" title="Skype" target="_blank"></a></li>
+						<li><a href="https://www.goldcoin.org/">Official Website</a></li>
+						<li><a href="https://www.goldcoin.org/get-started/">Get Wallet</a></li>
+						<li><a href="https://www.bittrex.com/Market/Index?MarketName=BTC-GLD">Trade on Bittrex</a></li>
+						<li><a href="https://t.me/goldcoin">Telegram</a></li>
+						<li><a href="https://chainz.cryptoid.info/gld/">Block Explorer</a></li>
+					</ul>
+				</div>
+				<div id="search">
+					<form action="https://www.goldcointalk.org/index.php?PHPSESSID=bel3cg4kl38tm5j2s3b2e5sqt4&amp;action=search2" method="post" accept-charset="UTF-8">
+						<input type="text" name="search" value="Search..." onfocus="this.value = '';" onblur="if(this.value=='') this.value='Search...';" />
+						<input type="submit" name="submit" value="" />
+					</form>
+				</div>
+			</div>
+			<div id="board-notice">
+			</div>
+		</div>
+	</div>
+	<div id="main">
+		<div class="wrapper">
+	<div class="navigate_section">
+		<ul>
+			<li>
+				<a href="https://www.goldcointalk.org/index.php?PHPSESSID=bel3cg4kl38tm5j2s3b2e5sqt4&amp;"><span>GoldCoin Talk</span></a>
+			</li>
+			<li class="last">
+				<a href="https://www.goldcointalk.org/index.php?PHPSESSID=bel3cg4kl38tm5j2s3b2e5sqt4&amp;action=search"><span>Search</span></a>
+			</li>
+		</ul>
+	</div>
+	<form action="https://www.goldcointalk.org/index.php?PHPSESSID=bel3cg4kl38tm5j2s3b2e5sqt4&amp;action=search2" method="post" accept-charset="UTF-8" name="searchform" id="searchform">
+		<div class="cat_bar">
+			<h3 class="catbg">
+				<span class="ie6_header floatleft"><img src="https://www.goldcointalk.org/Themes/horizon-smf20/images/buttons/search.gif" alt="" class="icon" />Set Search Parameters</span>
+			</h3>
+		</div>
+		<fieldset id="advanced_search">
+			<span class="upperframe"><span></span></span>
+			<div class="roundframe">
+				<input type="hidden" name="advanced" value="1" />
+				<span class="enhanced">
+					<strong>Search for:</strong>
+					<input type="text" name="search" maxlength="100" size="40" class="input_text" />
+					<script type="text/javascript"><!-- // --><![CDATA[
+						function initSearch()
+						{
+							if (document.forms.searchform.search.value.indexOf("%u") != -1)
+								document.forms.searchform.search.value = unescape(document.forms.searchform.search.value);
+						}
+						createEventListener(window);
+						window.addEventListener("load", initSearch, false);
+					// ]]></script>
+					<select name="searchtype">
+						<option value="1" selected="selected">Match all words</option>
+						<option value="2">Match any words</option>
+					</select>
+				</span>
+				<em class="smalltext"><em>e.g.</em> Orwell "Animal Farm" -movie</em>
+				<dl id="search_options">
+					<dt>By user:</dt>
+					<dd><input id="userspec" type="text" name="userspec" value="*" size="40" class="input_text" /></dd>
+					<dt>Search order:</dt>
+					<dd>
+						<select id="sort" name="sort">
+							<option value="relevance|desc">Most relevant results first</option>
+							<option value="num_replies|desc">Largest topics first</option>
+							<option value="num_replies|asc">Smallest topics first</option>
+							<option value="id_msg|desc">Most recent topics first</option>
+							<option value="id_msg|asc">Oldest topics first</option>
+						</select>
+					</dd>
+					<dt class="options">Options:</dt>
+					<dd class="options">
+						<label for="show_complete"><input type="checkbox" name="show_complete" id="show_complete" value="1" class="input_check" /> Show results as messages</label><br />
+						<label for="subject_only"><input type="checkbox" name="subject_only" id="subject_only" value="1" class="input_check" /> Search in topic subjects only</label>
+					</dd>
+					<dt class="between">Message age: </dt>
+					<dd>between <input type="text" name="minage" value="0" size="5" maxlength="4" class="input_text" />&nbsp;and&nbsp;<input type="text" name="maxage" value="9999" size="5" maxlength="4" class="input_text" /> days</dd>
+				</dl>
+			</div>
+			<span class="lowerframe"><span></span></span>
+		</fieldset>
+		<fieldset class="flow_hidden">
+			<span class="upperframe"><span></span></span>
+			<div class="roundframe">
+				<div class="title_bar">
+					<h4 class="titlebg">
+						<a href="javascript:void(0);" onclick="expandCollapseBoards(); return false;"><img src="https://www.goldcointalk.org/Themes/horizon-smf20/images/expand.gif" id="expandBoardsIcon" alt="" /></a> <a href="javascript:void(0);" onclick="expandCollapseBoards(); return false;"><strong>Choose a board to search in, or search all</strong></a>
+					</h4>
+				</div>
+				<div class="flow_auto" id="searchBoardsExpand" style="display: none;">
+					<ul class="ignoreboards floatleft">
+						<li class="category">
+							<a href="javascript:void(0);" onclick="selectBoards([29, 6]); return false;">Lobby</a>
+							<ul>
+								<li class="board">
+									<label for="brd29" style="margin-left: 0em;"><input type="checkbox" id="brd29" name="brd[29]" value="29" checked="checked" class="input_check" /> Newbie Central</label>
+								</li>
+								<li class="board">
+									<label for="brd6" style="margin-left: 1em;"><input type="checkbox" id="brd6" name="brd[6]" value="6" checked="checked" class="input_check" /> How-To Guides</label>
+								</li>
+							</ul>
+						</li>
+						<li class="category">
+							<a href="javascript:void(0);" onclick="selectBoards([1, 56, 18, 7, 2, 11]); return false;">Main Category</a>
+							<ul>
+								<li class="board">
+									<label for="brd1" style="margin-left: 0em;"><input type="checkbox" id="brd1" name="brd[1]" value="1" checked="checked" class="input_check" /> GoldCoin Discussion</label>
+								</li>
+								<li class="board">
+									<label for="brd56" style="margin-left: 1em;"><input type="checkbox" id="brd56" name="brd[56]" value="56" checked="checked" class="input_check" /> Important Bulletins</label>
+								</li>
+								<li class="board">
+									<label for="brd18" style="margin-left: 0em;"><input type="checkbox" id="brd18" name="brd[18]" value="18" checked="checked" class="input_check" /> Project Development</label>
+								</li>
+								<li class="board">
+									<label for="brd7" style="margin-left: 0em;"><input type="checkbox" id="brd7" name="brd[7]" value="7" checked="checked" class="input_check" /> Mining &amp; Pools</label>
+								</li>
+								<li class="board">
+									<label for="brd2" style="margin-left: 0em;"><input type="checkbox" id="brd2" name="brd[2]" value="2" checked="checked" class="input_check" /> Technical Discussion</label>
+								</li>
+								<li class="board">
+									<label for="brd11" style="margin-left: 1em;"><input type="checkbox" id="brd11" name="brd[11]" value="11" checked="checked" class="input_check" /> Archives</label>
+								</li>
+							</ul>
+						</li>
+						<li class="category">
+							<a href="javascript:void(0);" onclick="selectBoards([32, 34, 3, 8, 53]); return false;">Economy</a>
+							<ul>
+								<li class="board">
+									<label for="brd32" style="margin-left: 0em;"><input type="checkbox" id="brd32" name="brd[32]" value="32" checked="checked" class="input_check" /> Service Discussion</label>
+								</li>
+								<li class="board">
+									<label for="brd34" style="margin-left: 0em;"><input type="checkbox" id="brd34" name="brd[34]" value="34" checked="checked" class="input_check" /> Currency Exchange</label>
+								</li>
+								<li class="board">
+									<label for="brd3" style="margin-left: 0em;"><input type="checkbox" id="brd3" name="brd[3]" value="3" checked="checked" class="input_check" /> Marketplace</label>
+								</li>
+								<li class="board">
+									<label for="brd8" style="margin-left: 0em;"><input type="checkbox" id="brd8" name="brd[8]" value="8" checked="checked" class="input_check" /> Trading Discussion</label>
+								</li>
+								<li class="board">
+									<label for="brd53" style="margin-left: 0em;"><input type="checkbox" id="brd53" name="brd[53]" value="53" checked="checked" class="input_check" /> Economics</label>
+								</li>
+							</ul>
+						</li>
+						<li class="category">
+							<a href="javascript:void(0);" onclick="selectBoards([14, 60]); return false;">Alternate Currencies</a>
+							<ul>
+								<li class="board">
+									<label for="brd14" style="margin-left: 0em;"><input type="checkbox" id="brd14" name="brd[14]" value="14" checked="checked" class="input_check" /> Altcoin Discussion</label>
+								</li>
+								<li class="board">
+									<label for="brd60" style="margin-left: 0em;"><input type="checkbox" id="brd60" name="brd[60]" value="60" checked="checked" class="input_check" /> Bitcoin Discussion</label>
+								</li>
+							</ul>
+						</li>
+						<li class="category">
+							<a href="javascript:void(0);" onclick="selectBoards([22, 24, 27]); return false;">Support</a>
+							<ul>
+							</ul>
+						</li>
+					</ul>
+					<ul class="ignoreboards floatright">
+						<li class="category">
+							<ul>
+								<li class="board">
+									<label for="brd22" style="margin-left: 0em;"><input type="checkbox" id="brd22" name="brd[22]" value="22" checked="checked" class="input_check" /> Technical Support</label>
+								</li>
+								<li class="board">
+									<label for="brd24" style="margin-left: 0em;"><input type="checkbox" id="brd24" name="brd[24]" value="24" checked="checked" class="input_check" /> Android App Support</label>
+								</li>
+								<li class="board">
+									<label for="brd27" style="margin-left: 0em;"><input type="checkbox" id="brd27" name="brd[27]" value="27" checked="checked" class="input_check" /> Bug Reports</label>
+								</li>
+							</ul>
+						</li>
+						<li class="category">
+							<a href="javascript:void(0);" onclick="selectBoards([51, 5, 33]); return false;">Other</a>
+							<ul>
+								<li class="board">
+									<label for="brd51" style="margin-left: 0em;"><input type="checkbox" id="brd51" name="brd[51]" value="51" checked="checked" class="input_check" /> Digital Currency News</label>
+								</li>
+								<li class="board">
+									<label for="brd5" style="margin-left: 0em;"><input type="checkbox" id="brd5" name="brd[5]" value="5" checked="checked" class="input_check" /> The Break Room</label>
+								</li>
+								<li class="board">
+									<label for="brd33" style="margin-left: 0em;"><input type="checkbox" id="brd33" name="brd[33]" value="33" checked="checked" class="input_check" /> Meta</label>
+								</li>
+							</ul>
+						</li>
+						<li class="category">
+							<a href="javascript:void(0);" onclick="selectBoards([35, 41, 38, 50, 39, 40, 36, 43, 37]); return false;">Local Boards</a>
+							<ul>
+								<li class="board">
+									<label for="brd35" style="margin-left: 0em;"><input type="checkbox" id="brd35" name="brd[35]" value="35" checked="checked" class="input_check" /> 中文 (Chinese)</label>
+								</li>
+								<li class="board">
+									<label for="brd41" style="margin-left: 0em;"><input type="checkbox" id="brd41" name="brd[41]" value="41" checked="checked" class="input_check" /> Nederlands (Dutch)</label>
+								</li>
+								<li class="board">
+									<label for="brd38" style="margin-left: 0em;"><input type="checkbox" id="brd38" name="brd[38]" value="38" checked="checked" class="input_check" /> Deutsch (German)</label>
+								</li>
+								<li class="board">
+									<label for="brd50" style="margin-left: 0em;"><input type="checkbox" id="brd50" name="brd[50]" value="50" checked="checked" class="input_check" /> Indonesian</label>
+								</li>
+								<li class="board">
+									<label for="brd39" style="margin-left: 0em;"><input type="checkbox" id="brd39" name="brd[39]" value="39" checked="checked" class="input_check" /> Español (Spanish)</label>
+								</li>
+								<li class="board">
+									<label for="brd40" style="margin-left: 0em;"><input type="checkbox" id="brd40" name="brd[40]" value="40" checked="checked" class="input_check" /> Français (French)</label>
+								</li>
+								<li class="board">
+									<label for="brd36" style="margin-left: 0em;"><input type="checkbox" id="brd36" name="brd[36]" value="36" checked="checked" class="input_check" /> भारत (India)</label>
+								</li>
+								<li class="board">
+									<label for="brd43" style="margin-left: 0em;"><input type="checkbox" id="brd43" name="brd[43]" value="43" checked="checked" class="input_check" /> Português (Portuguese)</label>
+								</li>
+								<li class="board">
+									<label for="brd37" style="margin-left: 0em;"><input type="checkbox" id="brd37" name="brd[37]" value="37" checked="checked" class="input_check" /> Русский (Russian)</label>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+				<br class="clear" />
+				<div class="padding">
+					<input type="checkbox" name="all" id="check_all" value="" checked="checked" onclick="invertAll(this, this.form, 'brd');" class="input_check floatleft" />
+					<label for="check_all" class="floatleft">Check all</label>
+					<input type="submit" name="submit" value="Search" class="button_submit floatright" />
+				</div>
+				<br class="clear" />
+			</div>
+			<span class="lowerframe"><span></span></span>
+		</fieldset>
+	</form>
+
+	<script type="text/javascript"><!-- // --><![CDATA[
+		function selectBoards(ids)
+		{
+			var toggle = true;
+
+			for (i = 0; i < ids.length; i++)
+				toggle = toggle & document.forms.searchform["brd" + ids[i]].checked;
+
+			for (i = 0; i < ids.length; i++)
+				document.forms.searchform["brd" + ids[i]].checked = !toggle;
+		}
+
+		function expandCollapseBoards()
+		{
+			var current = document.getElementById("searchBoardsExpand").style.display != "none";
+
+			document.getElementById("searchBoardsExpand").style.display = current ? "none" : "";
+			document.getElementById("expandBoardsIcon").src = smf_images_url + (current ? "/expand.gif" : "/collapse.gif");
+		}
+	// ]]></script>
+		</div>
+	</div>
+	<div id="footer">
+		<div class="wrapper">
+			<div id="footer-content">
+				<a class="backtop" href="#">TOP</a>
+				<p>
+			<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="https://www.goldcointalk.org/index.php?PHPSESSID=bel3cg4kl38tm5j2s3b2e5sqt4&amp;action=credits" title="Simple Machines Forum" target="_blank" class="new_win">SMF 2.0.14</a> |
+ <a href="http://www.simplemachines.org/about/smf/license.php" title="License" target="_blank" class="new_win">SMF &copy; 2017</a>, <a href="http://www.simplemachines.org" title="Simple Machines" target="_blank" class="new_win">Simple Machines</a><br /><span class="smalltext"><a href="http://www.smfads.com" target="_blank">SMFAds</a> for <a href="http://www.createaforum.com" title="Forum Hosting">Free Forums</a></span>
+			</span> | Site Security by <a href="http://www.microguy.com/">MicroGuy</a></p>
+				<p class="loadtime smalltext">Page created in 0.047 seconds with 8 queries.</p>
+			</div>
+		</div>
+	</div>
+	</div>	
+</body></html>

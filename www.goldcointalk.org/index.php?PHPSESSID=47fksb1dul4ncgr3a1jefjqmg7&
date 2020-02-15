@@ -1,0 +1,1013 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<link rel="stylesheet" type="text/css" href="https://www.goldcointalk.org/Themes/horizon-smf20/css/index.css?fin20" />
+	<link href="https://fonts.googleapis.com/css?family=Ubuntu:400,300,500" rel="stylesheet" type="text/css">
+	<meta property="og:image" content="https://www.goldcointalk.org/img/goldcoin_fb.png" />
+	<meta property="og:url" content="https://www.goldcointalk.org/" />
+	<script type="text/javascript" src="https://www.goldcointalk.org/Themes/default/scripts/script.js?fin20"></script>
+	<script type="text/javascript" src="https://www.goldcointalk.org/Themes/horizon-smf20/scripts/theme.js?fin20"></script>
+	<script type="text/javascript"><!-- // --><![CDATA[
+		var smf_theme_url = "https://www.goldcointalk.org/Themes/horizon-smf20";
+		var smf_default_theme_url = "https://www.goldcointalk.org/Themes/default";
+		var smf_images_url = "https://www.goldcointalk.org/Themes/horizon-smf20/images";
+		var smf_scripturl = "https://www.goldcointalk.org/index.php?PHPSESSID=47fksb1dul4ncgr3a1jefjqmg7&amp;";
+		var smf_iso_case_folding = false;
+		var smf_charset = "UTF-8";
+		var ajax_notification_text = "Loading...";
+		var ajax_notification_cancel_text = "Cancel";
+	// ]]></script>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="description" content="A professional community working together to create the World's first Hard Money. A super secure value store and cash payment system for the New Digital World. " />
+	<title>GoldCoin Talk - The Official Community of Goldcoin (GLD)</title>
+	<meta name="robots" content="noindex" />
+	<link rel="canonical" href="https://www.goldcointalk.org/index.php" />
+	<link rel="help" href="https://www.goldcointalk.org/index.php?PHPSESSID=47fksb1dul4ncgr3a1jefjqmg7&amp;action=help" />
+	<link rel="search" href="https://www.goldcointalk.org/index.php?PHPSESSID=47fksb1dul4ncgr3a1jefjqmg7&amp;action=search" />
+	<link rel="contents" href="https://www.goldcointalk.org/index.php?PHPSESSID=47fksb1dul4ncgr3a1jefjqmg7&amp;" />
+	<link rel="alternate" type="application/rss+xml" title="GoldCoin Talk - RSS" href="https://www.goldcointalk.org/index.php?PHPSESSID=47fksb1dul4ncgr3a1jefjqmg7&amp;type=rss;action=.xml" />
+</head>
+<body>
+	<div id="topbar">
+		<div class="wrapper">
+			<div id="horizon-time">
+				October 24, 2017, 10:10:33 pm
+			</div>
+			<div id="account">
+				<ul>
+					<li class="btn-login"><a href="https://www.goldcointalk.org/index.php?PHPSESSID=47fksb1dul4ncgr3a1jefjqmg7&amp;action=login">Login</a></li>
+					<li class="btn-signup"><a href="https://www.goldcointalk.org/index.php?PHPSESSID=47fksb1dul4ncgr3a1jefjqmg7&amp;action=register">Register</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div id="header">
+		<div id="logo">
+			<a title="GoldCoin Talk" href="https://www.goldcointalk.org/index.php?PHPSESSID=47fksb1dul4ncgr3a1jefjqmg7&amp;"></a>
+		</div>
+		<div class="wrapper">
+			<div id="navbar">
+				
+		<ul id="topnav">
+				<li id="button_home">
+					<a class="active firstlevel" href="https://www.goldcointalk.org/index.php?PHPSESSID=47fksb1dul4ncgr3a1jefjqmg7&amp;">
+						<span class="last firstlevel">Home</span>
+					</a>
+				</li>
+				<li id="button_help">
+					<a class="firstlevel" href="https://www.goldcointalk.org/index.php?PHPSESSID=47fksb1dul4ncgr3a1jefjqmg7&amp;action=help">
+						<span class="firstlevel">Help</span>
+					</a>
+				</li>
+				<li id="button_search">
+					<a class="firstlevel" href="https://www.goldcointalk.org/index.php?PHPSESSID=47fksb1dul4ncgr3a1jefjqmg7&amp;action=search">
+						<span class="firstlevel">Search</span>
+					</a>
+				</li>
+				<li id="button_menu_action">
+					<a class="firstlevel" href="https://www.goldcointalk.org/index.php?PHPSESSID=47fksb1dul4ncgr3a1jefjqmg7&amp;">
+						<span class="firstlevel">Social Bookmarks</span>
+					</a>
+					<ul>
+						<li>
+							<a href="https://www.facebook.com/groups/goldcointalk/" target="_blank"">
+								<span>Facebook Group</span>
+							</a>
+						</li>
+						<li>
+							<a href="https://bitcointalk.org/index.php?topic=317568.0" target="_blank"">
+								<span>Bitcointalk Thread</span>
+							</a>
+						</li>
+						<li>
+							<a href="https://twitter.com/GoldCoin" target="_blank"">
+								<span>Twitter Feed</span>
+							</a>
+						</li>
+						<li>
+							<a href="https://t.me/goldcoin" target="_blank"">
+								<span>Telegram Group</span>
+							</a>
+						</li>
+						<li>
+							<a href="http://www.reddit.com/r/goldcoin" target="_blank"">
+								<span>Goldcoin Reddit</span>
+							</a>
+						</li>
+					</ul>
+				</li>
+				<li id="button_login">
+					<a class="firstlevel" href="https://www.goldcointalk.org/index.php?PHPSESSID=47fksb1dul4ncgr3a1jefjqmg7&amp;action=login">
+						<span class="firstlevel">Login</span>
+					</a>
+				</li>
+				<li id="button_register">
+					<a class="firstlevel" href="https://www.goldcointalk.org/index.php?PHPSESSID=47fksb1dul4ncgr3a1jefjqmg7&amp;action=register">
+						<span class="last firstlevel">Register</span>
+					</a>
+				</li>
+			</ul>
+			</div>
+			<div id="toolbar">
+				<div id="quicknav">
+					<ul>
+						<li class="facebook social"><a href="https://www.facebook.com/groups/goldcointalk/" title="Facebook" target="_blank"></a></li>
+						<li class="twitter social"><a href="https://twitter.com/goldcoin" title="Twitter" target="_blank"></a></li>
+						<li class="skype social"><a href="skype:greggory.matthews?call" title="Skype" target="_blank"></a></li>
+						<li><a href="http://www.gldcoin.com/">Official Website</a></li>
+						<li><a href="http://www.gldcoin.com/get-started/">Get Wallet</a></li>
+						<li><a href="https://www.bittrex.com/Market/Index?MarketName=BTC-GLD">Trade on Bittrex</a></li>
+						<li><a href="http://www.trygoldcoin.com/">Try GoldCoin</a></li>
+						<li><a href="https://chainz.cryptoid.info/gld/">Block Explorer</a></li>
+					</ul>
+				</div>
+				<div id="search">
+					<form action="https://www.goldcointalk.org/index.php?PHPSESSID=47fksb1dul4ncgr3a1jefjqmg7&amp;action=search2" method="post" accept-charset="UTF-8">
+						<input type="text" name="search" value="Search..." onfocus="this.value = '';" onblur="if(this.value=='') this.value='Search...';" />
+						<input type="submit" name="submit" value="" />
+					</form>
+				</div>
+			</div>
+			<div id="board-notice">
+			</div>
+		</div>
+	</div>
+	<div id="main">
+		<div class="wrapper">
+	<div class="navigate_section">
+		<ul>
+			<li class="last">
+				<a href="https://www.goldcointalk.org/index.php?PHPSESSID=47fksb1dul4ncgr3a1jefjqmg7&amp;"><span>GoldCoin Talk</span></a>
+			</li>
+		</ul>
+	</div>
+	<div id="boardindex_table">
+		<table class="table_list">
+			<tbody class="header" id="category_5">
+				<tr>
+					<td colspan="4">
+						<div class="cat_bar">
+							<h3 class="catbg">
+								<a id="c5"></a>Lobby
+							</h3>
+						</div>
+					</td>
+				</tr>
+			</tbody>
+			<tbody class="content" id="category_5_boards">
+				<tr id="board_29" class="windowbg2">
+					<td class="icon windowbg" rowspan="2">
+						<a href="https://www.goldcointalk.org/index.php?PHPSESSID=47fksb1dul4ncgr3a1jefjqmg7&amp;board=29.0">
+							<img src="https://www.goldcointalk.org/Themes/horizon-smf20/images/off.png" alt="No New Posts" title="No New Posts" />
+						</a>
+					</td>
+					<td class="info">
+						<a class="subject" href="https://www.goldcointalk.org/index.php?PHPSESSID=47fksb1dul4ncgr3a1jefjqmg7&amp;board=29.0" name="b29">Newbie Central</a>
+
+						<p class="desc">A great place for new members to get started and introduce themselves. Join today and become part of the growing GoldCoin™ community.</p>
+					</td>
+					<td class="stats windowbg">
+						<p><span>2156 Posts</span><br />
+						555 Topics
+						</p>
+					</td>
+					<td class="lastpost">
+						<p><strong><a href="https://www.goldcointalk.org/index.php?PHPSESSID=47fksb1dul4ncgr3a1jefjqmg7&amp;action=profile;u=1">MicroGuy</a></strong> in <a href="https://www.goldcointalk.org/index.php?PHPSESSID=47fksb1dul4ncgr3a1jefjqmg7&amp;topic=3956.msg18287#new" title="Re: Software Engineer introduction">Re: Software Engineer in...</a><br />
+						October 23, 2017, 02:08:36 pm
+						</p>
+					</td>
+				</tr>
+					<tr id="board_29_children">
+						<td colspan="3" class="children windowbg">
+							<strong>Child Boards</strong>: <a href="https://www.goldcointalk.org/index.php?PHPSESSID=47fksb1dul4ncgr3a1jefjqmg7&amp;board=6.0" title="No New Posts (Topics: 15, Posts: 109)">How-To Guides</a>, <a href="https://www.goldcointalk.org/index.php?PHPSESSID=47fksb1dul4ncgr3a1jefjqmg7&amp;board=26.0" title="6411 Redirects">File Downloads</a>
+						</td>
+					</tr>
+			</tbody>
+			<tbody class="divider">
+				<tr>
+					<td colspan="4"></td>
+				</tr>
+			</tbody><tbody><tr><td colspan="4">			</td></tr></tbody>
+			<tbody class="header" id="category_1">
+				<tr>
+					<td colspan="4">
+						<div class="cat_bar">
+							<h3 class="catbg">
+								<a id="c1"></a>Main Category
+							</h3>
+						</div>
+					</td>
+				</tr>
+			</tbody>
+			<tbody class="content" id="category_1_boards">
+				<tr id="board_1" class="windowbg2">
+					<td class="icon windowbg" rowspan="2">
+						<a href="https://www.goldcointalk.org/index.php?PHPSESSID=47fksb1dul4ncgr3a1jefjqmg7&amp;board=1.0">
+							<img src="https://www.goldcointalk.org/Themes/horizon-smf20/images/off.png" alt="No New Posts" title="No New Posts" />
+						</a>
+					</td>
+					<td class="info">
+						<a class="subject" href="https://www.goldcointalk.org/index.php?PHPSESSID=47fksb1dul4ncgr3a1jefjqmg7&amp;board=1.0" name="b1">GoldCoin Discussion</a>
+
+						<p class="desc">Main discussion of the Goldcoin (GLD) currency. The publicly viewable epicenter for news, ideas, and central topics.</p>
+					</td>
+					<td class="stats windowbg">
+						<p><span>2009 Posts</span><br />
+						327 Topics
+						</p>
+					</td>
+					<td class="lastpost">
+						<p><strong><a href="https://www.goldcointalk.org/index.php?PHPSESSID=47fksb1dul4ncgr3a1jefjqmg7&amp;action=profile;u=1">MicroGuy</a></strong> in <a href="https://www.goldcointalk.org/index.php?PHPSESSID=47fksb1dul4ncgr3a1jefjqmg7&amp;topic=3959.msg18284#new" title="Re: The price of GoldCoin is stuck">Re: The price of GoldCoi...</a><br />
+						October 23, 2017, 11:19:23 am
+						</p>
+					</td>
+				</tr>
+					<tr id="board_1_children">
+						<td colspan="3" class="children windowbg">
+							<strong>Child Boards</strong>: <a href="https://www.goldcointalk.org/index.php?PHPSESSID=47fksb1dul4ncgr3a1jefjqmg7&amp;board=56.0" title="No New Posts (Topics: 4, Posts: 35)">Important Bulletins</a>
+						</td>
+					</tr>
+				<tr id="board_18" class="windowbg2">
+					<td class="icon windowbg">
+						<a href="https://www.goldcointalk.org/index.php?PHPSESSID=47fksb1dul4ncgr3a1jefjqmg7&amp;board=18.0">
+							<img src="https://www.goldcointalk.org/Themes/horizon-smf20/images/off.png" alt="No New Posts" title="No New Posts" />
+						</a>
+					</td>
+					<td class="info">
+						<a class="subject" href="https://www.goldcointalk.org/index.php?PHPSESSID=47fksb1dul4ncgr3a1jefjqmg7&amp;board=18.0" name="b18">Project Development</a>
+
+						<p class="desc">Discussion of GoldCoin related projects, bounty campaigns, advertising etc.</p>
+					</td>
+					<td class="stats windowbg">
+						<p><span>1520 Posts</span><br />
+						173 Topics
+						</p>
+					</td>
+					<td class="lastpost">
+						<p><strong><a href="https://www.goldcointalk.org/index.php?PHPSESSID=47fksb1dul4ncgr3a1jefjqmg7&amp;action=profile;u=1">MicroGuy</a></strong> in <a href="https://www.goldcointalk.org/index.php?PHPSESSID=47fksb1dul4ncgr3a1jefjqmg7&amp;topic=3965.msg18288#new" title="MOVED: The price of GoldCoin is stuck">MOVED: The price of Gold...</a><br />
+						October 23, 2017, 10:50:43 pm
+						</p>
+					</td>
+				</tr>
+				<tr id="board_7" class="windowbg2">
+					<td class="icon windowbg">
+						<a href="https://www.goldcointalk.org/index.php?PHPSESSID=47fksb1dul4ncgr3a1jefjqmg7&amp;board=7.0">
+							<img src="https://www.goldcointalk.org/Themes/horizon-smf20/images/off.png" alt="No New Posts" title="No New Posts" />
+						</a>
+					</td>
+					<td class="info">
+						<a class="subject" href="https://www.goldcointalk.org/index.php?PHPSESSID=47fksb1dul4ncgr3a1jefjqmg7&amp;board=7.0" name="b7">Mining &amp; Pools</a>
+
+						<p class="desc">Topics related to generating Goldcoins. Get started with mining, find a pool, or show off your rig. Anything related to mining goes on this board.</p>
+					</td>
+					<td class="stats windowbg">
+						<p><span>1521 Posts</span><br />
+						204 Topics
+						</p>
+					</td>
+					<td class="lastpost">
+						<p><strong><a href="https://www.goldcointalk.org/index.php?PHPSESSID=47fksb1dul4ncgr3a1jefjqmg7&amp;action=profile;u=2847">Zodamacoomza</a></strong> in <a href="https://www.goldcointalk.org/index.php?PHPSESSID=47fksb1dul4ncgr3a1jefjqmg7&amp;topic=3887.msg18258#new" title="Re: Mining with a 1070 and windows 10 - Looking for help">Re: Mining with a 1070 a...</a><br />
+						October 18, 2017, 11:54:52 pm
+						</p>
+					</td>
+				</tr>
+				<tr id="board_2" class="windowbg2">
+					<td class="icon windowbg" rowspan="2">
+						<a href="https://www.goldcointalk.org/index.php?PHPSESSID=47fksb1dul4ncgr3a1jefjqmg7&amp;board=2.0">
+							<img src="https://www.goldcointalk.org/Themes/horizon-smf20/images/off.png" alt="No New Posts" title="No New Posts" />
+						</a>
+					</td>
+					<td class="info">
+						<a class="subject" href="https://www.goldcointalk.org/index.php?PHPSESSID=47fksb1dul4ncgr3a1jefjqmg7&amp;board=2.0" name="b2">Technical Discussion</a>
+
+						<p class="desc">Technical discussions related to the client and the Goldcoin network.</p>
+					</td>
+					<td class="stats windowbg">
+						<p><span>496 Posts</span><br />
+						93 Topics
+						</p>
+					</td>
+					<td class="lastpost">
+						<p><strong><a href="https://www.goldcointalk.org/index.php?PHPSESSID=47fksb1dul4ncgr3a1jefjqmg7&amp;action=profile;u=1">MicroGuy</a></strong> in <a href="https://www.goldcointalk.org/index.php?PHPSESSID=47fksb1dul4ncgr3a1jefjqmg7&amp;topic=3936.msg18166#new" title="MOVED: How Do I get my GOLDCOIN back from a formatted Computer?">MOVED: How Do I get my G...</a><br />
+						September 15, 2017, 09:02:44 am
+						</p>
+					</td>
+				</tr>
+					<tr id="board_2_children">
+						<td colspan="3" class="children windowbg">
+							<strong>Child Boards</strong>: <a href="https://www.goldcointalk.org/index.php?PHPSESSID=47fksb1dul4ncgr3a1jefjqmg7&amp;board=11.0" title="No New Posts (Topics: 19, Posts: 775)">Archives</a>
+						</td>
+					</tr>
+			</tbody>
+			<tbody class="divider">
+				<tr>
+					<td colspan="4"></td>
+				</tr>
+			</tbody><tbody><tr><td colspan="4">			</td></tr></tbody>
+			<tbody class="header" id="category_3">
+				<tr>
+					<td colspan="4">
+						<div class="cat_bar">
+							<h3 class="catbg">
+								<a id="c3"></a>Economy
+							</h3>
+						</div>
+					</td>
+				</tr>
+			</tbody>
+			<tbody class="content" id="category_3_boards">
+				<tr id="board_53" class="windowbg2">
+					<td class="icon windowbg">
+						<a href="https://www.goldcointalk.org/index.php?PHPSESSID=47fksb1dul4ncgr3a1jefjqmg7&amp;board=53.0">
+							<img src="https://www.goldcointalk.org/Themes/horizon-smf20/images/off.png" alt="No New Posts" title="No New Posts" />
+						</a>
+					</td>
+					<td class="info">
+						<a class="subject" href="https://www.goldcointalk.org/index.php?PHPSESSID=47fksb1dul4ncgr3a1jefjqmg7&amp;board=53.0" name="b53">Economics</a>
+
+						<p class="desc">Discussions related to the economy, banking, and monetary policy.</p>
+					</td>
+					<td class="stats windowbg">
+						<p><span>63 Posts</span><br />
+						38 Topics
+						</p>
+					</td>
+					<td class="lastpost">
+						<p><strong><a href="https://www.goldcointalk.org/index.php?PHPSESSID=47fksb1dul4ncgr3a1jefjqmg7&amp;action=profile;u=50">tadspoles</a></strong> in <a href="https://www.goldcointalk.org/index.php?PHPSESSID=47fksb1dul4ncgr3a1jefjqmg7&amp;topic=3833.msg17716#new" title="Re: Total Altcoin Market Cap Grows 4X in Two Months">Re: Total Altcoin Market...</a><br />
+						April 25, 2017, 03:10:57 pm
+						</p>
+					</td>
+				</tr>
+				<tr id="board_8" class="windowbg2">
+					<td class="icon windowbg">
+						<a href="https://www.goldcointalk.org/index.php?PHPSESSID=47fksb1dul4ncgr3a1jefjqmg7&amp;board=8.0">
+							<img src="https://www.goldcointalk.org/Themes/horizon-smf20/images/off.png" alt="No New Posts" title="No New Posts" />
+						</a>
+					</td>
+					<td class="info">
+						<a class="subject" href="https://www.goldcointalk.org/index.php?PHPSESSID=47fksb1dul4ncgr3a1jefjqmg7&amp;board=8.0" name="b8">Trading Discussion</a>
+
+						<p class="desc">Topics related to trading and doing business with Goldcoin. For topics related to specific exchanges please use the service discussion forum.</p>
+					</td>
+					<td class="stats windowbg">
+						<p><span>519 Posts</span><br />
+						99 Topics
+						</p>
+					</td>
+					<td class="lastpost">
+						<p><strong><a href="https://www.goldcointalk.org/index.php?PHPSESSID=47fksb1dul4ncgr3a1jefjqmg7&amp;action=profile;u=1">MicroGuy</a></strong> in <a href="https://www.goldcointalk.org/index.php?PHPSESSID=47fksb1dul4ncgr3a1jefjqmg7&amp;topic=2930.msg18141#new" title="Re: Goldcoin Exchanges">Re: Goldcoin Exchanges</a><br />
+						August 11, 2017, 07:36:25 pm
+						</p>
+					</td>
+				</tr>
+				<tr id="board_32" class="windowbg2">
+					<td class="icon windowbg">
+						<a href="https://www.goldcointalk.org/index.php?PHPSESSID=47fksb1dul4ncgr3a1jefjqmg7&amp;board=32.0">
+							<img src="https://www.goldcointalk.org/Themes/horizon-smf20/images/off.png" alt="No New Posts" title="No New Posts" />
+						</a>
+					</td>
+					<td class="info">
+						<a class="subject" href="https://www.goldcointalk.org/index.php?PHPSESSID=47fksb1dul4ncgr3a1jefjqmg7&amp;board=32.0" name="b32">Service Discussion</a>
+
+						<p class="desc">Find and discuss Goldcoin related services like exchanges and payment processors. For pools please refer to the Mining &amp; Pools forum.
+</p>
+					</td>
+					<td class="stats windowbg">
+						<p><span>497 Posts</span><br />
+						67 Topics
+						</p>
+					</td>
+					<td class="lastpost">
+						<p><strong><a href="https://www.goldcointalk.org/index.php?PHPSESSID=47fksb1dul4ncgr3a1jefjqmg7&amp;action=profile;u=672">stemis</a></strong> in <a href="https://www.goldcointalk.org/index.php?PHPSESSID=47fksb1dul4ncgr3a1jefjqmg7&amp;topic=3865.msg17906#new" title="Re: Goldcoin investment site?">Re: Goldcoin investment ...</a><br />
+						June 18, 2017, 03:36:35 pm
+						</p>
+					</td>
+				</tr>
+				<tr id="board_3" class="windowbg2">
+					<td class="icon windowbg" rowspan="2">
+						<a href="https://www.goldcointalk.org/index.php?PHPSESSID=47fksb1dul4ncgr3a1jefjqmg7&amp;board=3.0">
+							<img src="https://www.goldcointalk.org/Themes/horizon-smf20/images/off.png" alt="No New Posts" title="No New Posts" />
+						</a>
+					</td>
+					<td class="info">
+						<a class="subject" href="https://www.goldcointalk.org/index.php?PHPSESSID=47fksb1dul4ncgr3a1jefjqmg7&amp;board=3.0" name="b3">Marketplace</a>
+
+						<p class="desc">Listings of goods, services, and places where Goldcoin is accepted.</p>
+					</td>
+					<td class="stats windowbg">
+						<p><span>300 Posts</span><br />
+						78 Topics
+						</p>
+					</td>
+					<td class="lastpost">
+						<p><strong><a href="https://www.goldcointalk.org/index.php?PHPSESSID=47fksb1dul4ncgr3a1jefjqmg7&amp;action=profile;u=2621">GoldKing</a></strong> in <a href="https://www.goldcointalk.org/index.php?PHPSESSID=47fksb1dul4ncgr3a1jefjqmg7&amp;topic=3856.msg17831#new" title="Selling Steam Games Only 10 Gold Each (10 Key Package 90 Gold) ">Selling Steam Games Only...</a><br />
+						May 21, 2017, 05:08:46 am
+						</p>
+					</td>
+				</tr>
+					<tr id="board_3_children">
+						<td colspan="3" class="children windowbg">
+							<strong>Child Boards</strong>: <a href="https://www.goldcointalk.org/index.php?PHPSESSID=47fksb1dul4ncgr3a1jefjqmg7&amp;board=34.0" title="No New Posts (Topics: 59, Posts: 193)">Currency Exchange</a>
+						</td>
+					</tr>
+			</tbody>
+			<tbody class="divider">
+				<tr>
+					<td colspan="4"></td>
+				</tr>
+			</tbody><tbody><tr><td colspan="4">			</td></tr></tbody>
+			<tbody class="header" id="category_9">
+				<tr>
+					<td colspan="4">
+						<div class="cat_bar">
+							<h3 class="catbg">
+								<a id="c9"></a>Alternate Currencies
+							</h3>
+						</div>
+					</td>
+				</tr>
+			</tbody>
+			<tbody class="content" id="category_9_boards">
+				<tr id="board_14" class="windowbg2">
+					<td class="icon windowbg">
+						<a href="https://www.goldcointalk.org/index.php?PHPSESSID=47fksb1dul4ncgr3a1jefjqmg7&amp;board=14.0">
+							<img src="https://www.goldcointalk.org/Themes/horizon-smf20/images/off.png" alt="No New Posts" title="No New Posts" />
+						</a>
+					</td>
+					<td class="info">
+						<a class="subject" href="https://www.goldcointalk.org/index.php?PHPSESSID=47fksb1dul4ncgr3a1jefjqmg7&amp;board=14.0" name="b14">Altcoin Discussion</a>
+
+						<p class="desc">Discussion of alternative currencies.</p>
+					</td>
+					<td class="stats windowbg">
+						<p><span>467 Posts</span><br />
+						57 Topics
+						</p>
+					</td>
+					<td class="lastpost">
+						<p><strong><a href="https://www.goldcointalk.org/index.php?PHPSESSID=47fksb1dul4ncgr3a1jefjqmg7&amp;action=profile;u=1">MicroGuy</a></strong> in <a href="https://www.goldcointalk.org/index.php?PHPSESSID=47fksb1dul4ncgr3a1jefjqmg7&amp;topic=3789.msg18285#new" title="Re: Cryptsy Community Relief Project">Re: Cryptsy Community Re...</a><br />
+						October 23, 2017, 11:34:29 am
+						</p>
+					</td>
+				</tr>
+				<tr id="board_60" class="windowbg2">
+					<td class="icon windowbg">
+						<a href="https://www.goldcointalk.org/index.php?PHPSESSID=47fksb1dul4ncgr3a1jefjqmg7&amp;board=60.0">
+							<img src="https://www.goldcointalk.org/Themes/horizon-smf20/images/off.png" alt="No New Posts" title="No New Posts" />
+						</a>
+					</td>
+					<td class="info">
+						<a class="subject" href="https://www.goldcointalk.org/index.php?PHPSESSID=47fksb1dul4ncgr3a1jefjqmg7&amp;board=60.0" name="b60">Bitcoin Discussion</a>
+
+						<p class="desc">Board for topics related to Bitcoin.</p>
+					</td>
+					<td class="stats windowbg">
+						<p><span>6 Posts</span><br />
+						3 Topics
+						</p>
+					</td>
+					<td class="lastpost">
+						<p><strong><a href="https://www.goldcointalk.org/index.php?PHPSESSID=47fksb1dul4ncgr3a1jefjqmg7&amp;action=profile;u=672">stemis</a></strong> in <a href="https://www.goldcointalk.org/index.php?PHPSESSID=47fksb1dul4ncgr3a1jefjqmg7&amp;topic=3854.msg17836#new" title="Re: Bitcoin price is about to hit 2000$">Re: Bitcoin price is abo...</a><br />
+						May 22, 2017, 04:29:50 am
+						</p>
+					</td>
+				</tr>
+			</tbody>
+			<tbody class="divider">
+				<tr>
+					<td colspan="4"></td>
+				</tr>
+			</tbody><tbody><tr><td colspan="4">			</td></tr></tbody>
+			<tbody class="header" id="category_4">
+				<tr>
+					<td colspan="4">
+						<div class="cat_bar">
+							<h3 class="catbg">
+								<a id="c4"></a>Support
+							</h3>
+						</div>
+					</td>
+				</tr>
+			</tbody>
+			<tbody class="content" id="category_4_boards">
+				<tr id="board_22" class="windowbg2">
+					<td class="icon windowbg">
+						<a href="https://www.goldcointalk.org/index.php?PHPSESSID=47fksb1dul4ncgr3a1jefjqmg7&amp;board=22.0">
+							<img src="https://www.goldcointalk.org/Themes/horizon-smf20/images/off.png" alt="No New Posts" title="No New Posts" />
+						</a>
+					</td>
+					<td class="info">
+						<a class="subject" href="https://www.goldcointalk.org/index.php?PHPSESSID=47fksb1dul4ncgr3a1jefjqmg7&amp;board=22.0" name="b22">Technical Support</a>
+
+						<p class="desc">Request technical support and find common solutions.</p>
+					</td>
+					<td class="stats windowbg">
+						<p><span>264 Posts</span><br />
+						45 Topics
+						</p>
+					</td>
+					<td class="lastpost">
+						<p><strong><a href="https://www.goldcointalk.org/index.php?PHPSESSID=47fksb1dul4ncgr3a1jefjqmg7&amp;action=profile;u=2819">Mike</a></strong> in <a href="https://www.goldcointalk.org/index.php?PHPSESSID=47fksb1dul4ncgr3a1jefjqmg7&amp;topic=3944.msg18241#new" title="Re: I have lost my Goldcoins from my wallet. How to get them back?">Re: I have lost my Goldc...</a><br />
+						October 15, 2017, 03:21:31 pm
+						</p>
+					</td>
+				</tr>
+				<tr id="board_24" class="windowbg2">
+					<td class="icon windowbg">
+						<a href="https://www.goldcointalk.org/index.php?PHPSESSID=47fksb1dul4ncgr3a1jefjqmg7&amp;board=24.0">
+							<img src="https://www.goldcointalk.org/Themes/horizon-smf20/images/off.png" alt="No New Posts" title="No New Posts" />
+						</a>
+					</td>
+					<td class="info">
+						<a class="subject" href="https://www.goldcointalk.org/index.php?PHPSESSID=47fksb1dul4ncgr3a1jefjqmg7&amp;board=24.0" name="b24">Android App Support</a>
+
+						<p class="desc">Get technical support for the Goldcoin Android App.</p>
+					</td>
+					<td class="stats windowbg">
+						<p><span>189 Posts</span><br />
+						22 Topics
+						</p>
+					</td>
+					<td class="lastpost">
+						<p><strong><a href="https://www.goldcointalk.org/index.php?PHPSESSID=47fksb1dul4ncgr3a1jefjqmg7&amp;action=profile;u=15">Stouse49</a></strong> in <a href="https://www.goldcointalk.org/index.php?PHPSESSID=47fksb1dul4ncgr3a1jefjqmg7&amp;topic=3609.msg17526#new" title="Re: GoldCoin Wallet v4.x">Re: GoldCoin Wallet v4.x</a><br />
+						April 08, 2017, 10:42:38 pm
+						</p>
+					</td>
+				</tr>
+				<tr id="board_27" class="windowbg2">
+					<td class="icon windowbg">
+						<a href="https://www.goldcointalk.org/index.php?PHPSESSID=47fksb1dul4ncgr3a1jefjqmg7&amp;board=27.0">
+							<img src="https://www.goldcointalk.org/Themes/horizon-smf20/images/off.png" alt="No New Posts" title="No New Posts" />
+						</a>
+					</td>
+					<td class="info">
+						<a class="subject" href="https://www.goldcointalk.org/index.php?PHPSESSID=47fksb1dul4ncgr3a1jefjqmg7&amp;board=27.0" name="b27">Bug Reports</a>
+
+						<p class="desc">Think you've found a bug? If so please report it in this forum. </p>
+					</td>
+					<td class="stats windowbg">
+						<p><span>47 Posts</span><br />
+						10 Topics
+						</p>
+					</td>
+					<td class="lastpost">
+						<p><strong><a href="https://www.goldcointalk.org/index.php?PHPSESSID=47fksb1dul4ncgr3a1jefjqmg7&amp;action=profile;u=18">akumaburn</a></strong> in <a href="https://www.goldcointalk.org/index.php?PHPSESSID=47fksb1dul4ncgr3a1jefjqmg7&amp;topic=3245.msg14419#new" title="Re: Problems with new wallet">Re: Problems with new wa...</a><br />
+						August 05, 2015, 04:03:21 pm
+						</p>
+					</td>
+				</tr>
+			</tbody>
+			<tbody class="divider">
+				<tr>
+					<td colspan="4"></td>
+				</tr>
+			</tbody><tbody><tr><td colspan="4">			</td></tr></tbody>
+			<tbody class="header" id="category_2">
+				<tr>
+					<td colspan="4">
+						<div class="cat_bar">
+							<h3 class="catbg">
+								<a id="c2"></a>Other
+							</h3>
+						</div>
+					</td>
+				</tr>
+			</tbody>
+			<tbody class="content" id="category_2_boards">
+				<tr id="board_51" class="windowbg2">
+					<td class="icon windowbg">
+						<a href="https://www.goldcointalk.org/index.php?PHPSESSID=47fksb1dul4ncgr3a1jefjqmg7&amp;board=51.0">
+							<img src="https://www.goldcointalk.org/Themes/horizon-smf20/images/off.png" alt="No New Posts" title="No New Posts" />
+						</a>
+					</td>
+					<td class="info">
+						<a class="subject" href="https://www.goldcointalk.org/index.php?PHPSESSID=47fksb1dul4ncgr3a1jefjqmg7&amp;board=51.0" name="b51">Digital Currency News</a>
+
+						<p class="desc">News links and discussion of digital currency in the press.</p>
+					</td>
+					<td class="stats windowbg">
+						<p><span>306 Posts</span><br />
+						262 Topics
+						</p>
+					</td>
+					<td class="lastpost">
+						<p><strong><a href="https://www.goldcointalk.org/index.php?PHPSESSID=47fksb1dul4ncgr3a1jefjqmg7&amp;action=profile;u=2356">Aurophilicity</a></strong> in <a href="https://www.goldcointalk.org/index.php?PHPSESSID=47fksb1dul4ncgr3a1jefjqmg7&amp;topic=3894.msg17984#new" title="Bix Weir: Horn of Zeese">Bix Weir: Horn of Zeese</a><br />
+						June 23, 2017, 03:51:24 pm
+						</p>
+					</td>
+				</tr>
+				<tr id="board_5" class="windowbg2">
+					<td class="icon windowbg">
+						<a href="https://www.goldcointalk.org/index.php?PHPSESSID=47fksb1dul4ncgr3a1jefjqmg7&amp;board=5.0">
+							<img src="https://www.goldcointalk.org/Themes/horizon-smf20/images/off.png" alt="No New Posts" title="No New Posts" />
+						</a>
+					</td>
+					<td class="info">
+						<a class="subject" href="https://www.goldcointalk.org/index.php?PHPSESSID=47fksb1dul4ncgr3a1jefjqmg7&amp;board=5.0" name="b5">The Break Room</a>
+
+						<p class="desc">The place to have off-topic discussions.</p>
+					</td>
+					<td class="stats windowbg">
+						<p><span>1091 Posts</span><br />
+						161 Topics
+						</p>
+					</td>
+					<td class="lastpost">
+						<p><strong><a href="https://www.goldcointalk.org/index.php?PHPSESSID=47fksb1dul4ncgr3a1jefjqmg7&amp;action=profile;u=2356">Aurophilicity</a></strong> in <a href="https://www.goldcointalk.org/index.php?PHPSESSID=47fksb1dul4ncgr3a1jefjqmg7&amp;topic=909.msg18286#new" title="Re: [MUSIC] What Are You Listening to at the Moment?">Re: [MUSIC] What Are You...</a><br />
+						October 23, 2017, 01:17:53 pm
+						</p>
+					</td>
+				</tr>
+				<tr id="board_33" class="windowbg2">
+					<td class="icon windowbg">
+						<a href="https://www.goldcointalk.org/index.php?PHPSESSID=47fksb1dul4ncgr3a1jefjqmg7&amp;board=33.0">
+							<img src="https://www.goldcointalk.org/Themes/horizon-smf20/images/off.png" alt="No New Posts" title="No New Posts" />
+						</a>
+					</td>
+					<td class="info">
+						<a class="subject" href="https://www.goldcointalk.org/index.php?PHPSESSID=47fksb1dul4ncgr3a1jefjqmg7&amp;board=33.0" name="b33">Meta</a>
+
+						<p class="desc">Discussion of the Goldcoin Forum.</p>
+					</td>
+					<td class="stats windowbg">
+						<p><span>109 Posts</span><br />
+						47 Topics
+						</p>
+					</td>
+					<td class="lastpost">
+						<p><strong><a href="https://www.goldcointalk.org/index.php?PHPSESSID=47fksb1dul4ncgr3a1jefjqmg7&amp;action=profile;u=1">MicroGuy</a></strong> in <a href="https://www.goldcointalk.org/index.php?PHPSESSID=47fksb1dul4ncgr3a1jefjqmg7&amp;topic=3898.msg18095#new" title="Re: The iFly Chatbox Will be Retuning Soon!">Re: The iFly Chatbox Wil...</a><br />
+						July 07, 2017, 08:26:25 am
+						</p>
+					</td>
+				</tr>
+			</tbody>
+			<tbody class="divider">
+				<tr>
+					<td colspan="4"></td>
+				</tr>
+			</tbody><tbody><tr><td colspan="4">			</td></tr></tbody>
+			<tbody class="header" id="category_6">
+				<tr>
+					<td colspan="4">
+						<div class="cat_bar">
+							<h3 class="catbg">
+								<a id="c6"></a>Local Boards
+							</h3>
+						</div>
+					</td>
+				</tr>
+			</tbody>
+			<tbody class="content" id="category_6_boards">
+				<tr id="board_35" class="windowbg2">
+					<td class="icon windowbg">
+						<a href="https://www.goldcointalk.org/index.php?PHPSESSID=47fksb1dul4ncgr3a1jefjqmg7&amp;board=35.0">
+							<img src="https://www.goldcointalk.org/Themes/horizon-smf20/images/off.png" alt="No New Posts" title="No New Posts" />
+						</a>
+					</td>
+					<td class="info">
+						<a class="subject" href="https://www.goldcointalk.org/index.php?PHPSESSID=47fksb1dul4ncgr3a1jefjqmg7&amp;board=35.0" name="b35">中文 (Chinese)</a>
+
+						<p class="desc"></p>
+						<p class="moderators">Moderator: <a href="https://www.goldcointalk.org/index.php?PHPSESSID=47fksb1dul4ncgr3a1jefjqmg7&amp;action=profile;u=2179" title="Board Moderator">DeepLee</a></p>
+					</td>
+					<td class="stats windowbg">
+						<p><span>32 Posts</span><br />
+						18 Topics
+						</p>
+					</td>
+					<td class="lastpost">
+						<p><strong><a href="https://www.goldcointalk.org/index.php?PHPSESSID=47fksb1dul4ncgr3a1jefjqmg7&amp;action=profile;u=2179">DeepLee</a></strong> in <a href="https://www.goldcointalk.org/index.php?PHPSESSID=47fksb1dul4ncgr3a1jefjqmg7&amp;topic=3302.msg14756#new" title="金币地理寻宝活动二">金币地理寻宝活动二</a><br />
+						October 02, 2015, 11:27:01 pm
+						</p>
+					</td>
+				</tr>
+				<tr id="board_41" class="windowbg2">
+					<td class="icon windowbg">
+						<a href="https://www.goldcointalk.org/index.php?PHPSESSID=47fksb1dul4ncgr3a1jefjqmg7&amp;board=41.0">
+							<img src="https://www.goldcointalk.org/Themes/horizon-smf20/images/off.png" alt="No New Posts" title="No New Posts" />
+						</a>
+					</td>
+					<td class="info">
+						<a class="subject" href="https://www.goldcointalk.org/index.php?PHPSESSID=47fksb1dul4ncgr3a1jefjqmg7&amp;board=41.0" name="b41">Nederlands (Dutch)</a>
+
+						<p class="desc"></p>
+					</td>
+					<td class="stats windowbg">
+						<p><span>12 Posts</span><br />
+						2 Topics
+						</p>
+					</td>
+					<td class="lastpost">
+						<p><strong><a href="https://www.goldcointalk.org/index.php?PHPSESSID=47fksb1dul4ncgr3a1jefjqmg7&amp;action=profile;u=1523">nol</a></strong> in <a href="https://www.goldcointalk.org/index.php?PHPSESSID=47fksb1dul4ncgr3a1jefjqmg7&amp;topic=2081.msg11702#new" title="Re: Lage Koers">Re: Lage Koers</a><br />
+						April 16, 2014, 05:56:06 am
+						</p>
+					</td>
+				</tr>
+				<tr id="board_38" class="windowbg2">
+					<td class="icon windowbg">
+						<a href="https://www.goldcointalk.org/index.php?PHPSESSID=47fksb1dul4ncgr3a1jefjqmg7&amp;board=38.0">
+							<img src="https://www.goldcointalk.org/Themes/horizon-smf20/images/off.png" alt="No New Posts" title="No New Posts" />
+						</a>
+					</td>
+					<td class="info">
+						<a class="subject" href="https://www.goldcointalk.org/index.php?PHPSESSID=47fksb1dul4ncgr3a1jefjqmg7&amp;board=38.0" name="b38">Deutsch (German)</a>
+
+						<p class="desc"></p>
+					</td>
+					<td class="stats windowbg">
+						<p><span>98 Posts</span><br />
+						9 Topics
+						</p>
+					</td>
+					<td class="lastpost">
+						<p><strong><a href="https://www.goldcointalk.org/index.php?PHPSESSID=47fksb1dul4ncgr3a1jefjqmg7&amp;action=profile;u=1544">cryptosolar</a></strong> in <a href="https://www.goldcointalk.org/index.php?PHPSESSID=47fksb1dul4ncgr3a1jefjqmg7&amp;topic=3630.msg18198#new" title="Re: Nachrichten">Re: Nachrichten</a><br />
+						October 03, 2017, 01:27:54 pm
+						</p>
+					</td>
+				</tr>
+				<tr id="board_50" class="windowbg2">
+					<td class="icon windowbg">
+						<a href="https://www.goldcointalk.org/index.php?PHPSESSID=47fksb1dul4ncgr3a1jefjqmg7&amp;board=50.0">
+							<img src="https://www.goldcointalk.org/Themes/horizon-smf20/images/off.png" alt="No New Posts" title="No New Posts" />
+						</a>
+					</td>
+					<td class="info">
+						<a class="subject" href="https://www.goldcointalk.org/index.php?PHPSESSID=47fksb1dul4ncgr3a1jefjqmg7&amp;board=50.0" name="b50">Indonesian</a>
+
+						<p class="desc"></p>
+						<p class="moderators">Moderator: <a href="https://www.goldcointalk.org/index.php?PHPSESSID=47fksb1dul4ncgr3a1jefjqmg7&amp;action=profile;u=1577" title="Board Moderator">coinspumper</a></p>
+					</td>
+					<td class="stats windowbg">
+						<p><span>68 Posts</span><br />
+						4 Topics
+						</p>
+					</td>
+					<td class="lastpost">
+						<p><strong><a href="https://www.goldcointalk.org/index.php?PHPSESSID=47fksb1dul4ncgr3a1jefjqmg7&amp;action=profile;u=2419">rsyahn</a></strong> in <a href="https://www.goldcointalk.org/index.php?PHPSESSID=47fksb1dul4ncgr3a1jefjqmg7&amp;topic=2584.msg17003#new" title="Re: Selamat datang di Goldcoin forum local indonesia ">Re: Selamat datang di Go...</a><br />
+						September 12, 2016, 07:42:23 am
+						</p>
+					</td>
+				</tr>
+				<tr id="board_39" class="windowbg2">
+					<td class="icon windowbg">
+						<a href="https://www.goldcointalk.org/index.php?PHPSESSID=47fksb1dul4ncgr3a1jefjqmg7&amp;board=39.0">
+							<img src="https://www.goldcointalk.org/Themes/horizon-smf20/images/off.png" alt="No New Posts" title="No New Posts" />
+						</a>
+					</td>
+					<td class="info">
+						<a class="subject" href="https://www.goldcointalk.org/index.php?PHPSESSID=47fksb1dul4ncgr3a1jefjqmg7&amp;board=39.0" name="b39">Español (Spanish)</a>
+
+						<p class="desc"></p>
+					</td>
+					<td class="stats windowbg">
+						<p><span>33 Posts</span><br />
+						17 Topics
+						</p>
+					</td>
+					<td class="lastpost">
+						<p><strong><a href="https://www.goldcointalk.org/index.php?PHPSESSID=47fksb1dul4ncgr3a1jefjqmg7&amp;action=profile;u=2250">Hyde</a></strong> in <a href="https://www.goldcointalk.org/index.php?PHPSESSID=47fksb1dul4ncgr3a1jefjqmg7&amp;topic=3584.msg16286#new" title="Minar Goldcoin Con Tarjetas Nvidia">Minar Goldcoin Con Tarje...</a><br />
+						May 12, 2016, 12:15:14 am
+						</p>
+					</td>
+				</tr>
+				<tr id="board_40" class="windowbg2">
+					<td class="icon windowbg">
+						<a href="https://www.goldcointalk.org/index.php?PHPSESSID=47fksb1dul4ncgr3a1jefjqmg7&amp;board=40.0">
+							<img src="https://www.goldcointalk.org/Themes/horizon-smf20/images/off.png" alt="No New Posts" title="No New Posts" />
+						</a>
+					</td>
+					<td class="info">
+						<a class="subject" href="https://www.goldcointalk.org/index.php?PHPSESSID=47fksb1dul4ncgr3a1jefjqmg7&amp;board=40.0" name="b40">Français (French)</a>
+
+						<p class="desc"></p>
+					</td>
+					<td class="stats windowbg">
+						<p><span>13 Posts</span><br />
+						5 Topics
+						</p>
+					</td>
+					<td class="lastpost">
+						<p><strong><a href="https://www.goldcointalk.org/index.php?PHPSESSID=47fksb1dul4ncgr3a1jefjqmg7&amp;action=profile;u=2311">zeuxis27</a></strong> in <a href="https://www.goldcointalk.org/index.php?PHPSESSID=47fksb1dul4ncgr3a1jefjqmg7&amp;topic=3572.msg16206#new" title="Re: Goldcoin (french description ) ">Re: Goldcoin (french des...</a><br />
+						April 03, 2016, 05:58:25 pm
+						</p>
+					</td>
+				</tr>
+				<tr id="board_36" class="windowbg2">
+					<td class="icon windowbg">
+						<a href="https://www.goldcointalk.org/index.php?PHPSESSID=47fksb1dul4ncgr3a1jefjqmg7&amp;board=36.0">
+							<img src="https://www.goldcointalk.org/Themes/horizon-smf20/images/off.png" alt="No New Posts" title="No New Posts" />
+						</a>
+					</td>
+					<td class="info">
+						<a class="subject" href="https://www.goldcointalk.org/index.php?PHPSESSID=47fksb1dul4ncgr3a1jefjqmg7&amp;board=36.0" name="b36">भारत (India)</a>
+
+						<p class="desc"></p>
+						<p class="moderators">Moderator: <a href="https://www.goldcointalk.org/index.php?PHPSESSID=47fksb1dul4ncgr3a1jefjqmg7&amp;action=profile;u=2839" title="Board Moderator">Srinivas Peesapaty</a></p>
+					</td>
+					<td class="stats windowbg">
+						<p><span>10 Posts</span><br />
+						5 Topics
+						</p>
+					</td>
+					<td class="lastpost">
+						<p><strong><a href="https://www.goldcointalk.org/index.php?PHPSESSID=47fksb1dul4ncgr3a1jefjqmg7&amp;action=profile;u=2839">Srinivas Peesapaty</a></strong> in <a href="https://www.goldcointalk.org/index.php?PHPSESSID=47fksb1dul4ncgr3a1jefjqmg7&amp;topic=3958.msg18267#new" title="Roadmap and Vision Document for GOLDCoin India">Roadmap and Vision Docum...</a><br />
+						October 20, 2017, 08:02:18 pm
+						</p>
+					</td>
+				</tr>
+				<tr id="board_43" class="windowbg2">
+					<td class="icon windowbg">
+						<a href="https://www.goldcointalk.org/index.php?PHPSESSID=47fksb1dul4ncgr3a1jefjqmg7&amp;board=43.0">
+							<img src="https://www.goldcointalk.org/Themes/horizon-smf20/images/off.png" alt="No New Posts" title="No New Posts" />
+						</a>
+					</td>
+					<td class="info">
+						<a class="subject" href="https://www.goldcointalk.org/index.php?PHPSESSID=47fksb1dul4ncgr3a1jefjqmg7&amp;board=43.0" name="b43">Português (Portuguese)</a>
+
+						<p class="desc"></p>
+					</td>
+					<td class="stats windowbg">
+						<p><span>3 Posts</span><br />
+						1 Topics
+						</p>
+					</td>
+					<td class="lastpost">
+						<p><strong><a href="https://www.goldcointalk.org/index.php?PHPSESSID=47fksb1dul4ncgr3a1jefjqmg7&amp;action=profile;u=794">zechinelo</a></strong> in <a href="https://www.goldcointalk.org/index.php?PHPSESSID=47fksb1dul4ncgr3a1jefjqmg7&amp;topic=1880.msg9119#new" title="Re: Olá a todos!">Re: Olá a todos!</a><br />
+						December 15, 2013, 05:58:43 pm
+						</p>
+					</td>
+				</tr>
+				<tr id="board_37" class="windowbg2">
+					<td class="icon windowbg">
+						<a href="https://www.goldcointalk.org/index.php?PHPSESSID=47fksb1dul4ncgr3a1jefjqmg7&amp;board=37.0">
+							<img src="https://www.goldcointalk.org/Themes/horizon-smf20/images/off.png" alt="No New Posts" title="No New Posts" />
+						</a>
+					</td>
+					<td class="info">
+						<a class="subject" href="https://www.goldcointalk.org/index.php?PHPSESSID=47fksb1dul4ncgr3a1jefjqmg7&amp;board=37.0" name="b37">Русский (Russian)</a>
+
+						<p class="desc"></p>
+					</td>
+					<td class="stats windowbg">
+						<p><span>13 Posts</span><br />
+						3 Topics
+						</p>
+					</td>
+					<td class="lastpost">
+						<p><strong><a href="https://www.goldcointalk.org/index.php?PHPSESSID=47fksb1dul4ncgr3a1jefjqmg7&amp;action=profile;u=2460">alfaprimelord</a></strong> in <a href="https://www.goldcointalk.org/index.php?PHPSESSID=47fksb1dul4ncgr3a1jefjqmg7&amp;topic=3590.msg17126#new" title="Re: Инструкция по майнингу ">Re: Инструкция по майнин...</a><br />
+						October 05, 2016, 06:55:57 am
+						</p>
+					</td>
+				</tr>
+			</tbody>
+			<tbody class="divider">
+				<tr>
+					<td colspan="4"></td>
+				</tr>
+			</tbody><tbody><tr><td colspan="4">			</td></tr></tbody>
+		</table>
+	</div>
+	<div id="posting_icons" class="flow_hidden">
+		<ul class="reset">
+			<li class="floatleft"><img src="https://www.goldcointalk.org/Themes/horizon-smf20/images/new_none.png" alt="" /> No New Posts</li>
+			<li class="floatleft"><img src="https://www.goldcointalk.org/Themes/horizon-smf20/images/new_redirect.png" alt="" /> Redirect Board</li>
+		</ul>
+	</div>
+	<span class="clear upperframe"><span></span></span>
+	<div class="roundframe"><div class="innerframe">
+		<div class="cat_bar">
+			<h3 class="catbg">
+				<img class="icon" id="upshrink_ic" src="https://www.goldcointalk.org/Themes/horizon-smf20/images/collapse.gif" alt="*" title="Shrink or expand the header." style="display: none;" />
+				GoldCoin Talk - Info Center
+			</h3>
+		</div>
+		<div id="upshrinkHeaderIC" class="infocenter" >
+			<div class="title_barIC">
+				<h4 class="titlebg">
+					<span class="ie6_header floatleft">
+						<a href="https://www.goldcointalk.org/index.php?PHPSESSID=47fksb1dul4ncgr3a1jefjqmg7&amp;action=recent"><img class="icon" src="https://www.goldcointalk.org/Themes/horizon-smf20/images/icons/recent.png" alt="Recent Posts" /></a>
+						Recent Posts
+					</span>
+				</h4>
+			</div>
+			<div class="hslice" id="recent_posts_content">
+				<div class="entry-title" style="display: none;">GoldCoin Talk - Recent Posts</div>
+				<div class="entry-content" style="display: none;">
+					<a rel="feedurl" href="https://www.goldcointalk.org/index.php?PHPSESSID=47fksb1dul4ncgr3a1jefjqmg7&amp;action=.xml;type=webslice">Subscribe to Webslice</a>
+				</div>
+				<dl id="ic_recentposts" class="middletext">
+					<dt><strong><a href="https://www.goldcointalk.org/index.php?PHPSESSID=47fksb1dul4ncgr3a1jefjqmg7&amp;topic=3965.msg18288;topicseen#msg18288" rel="nofollow">MOVED: The price of GoldCoin is stuck</a></strong> by <a href="https://www.goldcointalk.org/index.php?PHPSESSID=47fksb1dul4ncgr3a1jefjqmg7&amp;action=profile;u=1">MicroGuy</a> (<a href="https://www.goldcointalk.org/index.php?PHPSESSID=47fksb1dul4ncgr3a1jefjqmg7&amp;board=18.0">Project Development</a>)</dt>
+					<dd>October 23, 2017, 10:50:43 pm</dd>
+					<dt><strong><a href="https://www.goldcointalk.org/index.php?PHPSESSID=47fksb1dul4ncgr3a1jefjqmg7&amp;topic=3956.msg18287;topicseen#msg18287" rel="nofollow">Re: Software Engineer introduction</a></strong> by <a href="https://www.goldcointalk.org/index.php?PHPSESSID=47fksb1dul4ncgr3a1jefjqmg7&amp;action=profile;u=1">MicroGuy</a> (<a href="https://www.goldcointalk.org/index.php?PHPSESSID=47fksb1dul4ncgr3a1jefjqmg7&amp;board=29.0">Newbie Central</a>)</dt>
+					<dd>October 23, 2017, 02:08:36 pm</dd>
+					<dt><strong><a href="https://www.goldcointalk.org/index.php?PHPSESSID=47fksb1dul4ncgr3a1jefjqmg7&amp;topic=909.msg18286;topicseen#msg18286" rel="nofollow">Re: [MUSIC] What Are You Listening to at the Moment?</a></strong> by <a href="https://www.goldcointalk.org/index.php?PHPSESSID=47fksb1dul4ncgr3a1jefjqmg7&amp;action=profile;u=2356">Aurophilicity</a> (<a href="https://www.goldcointalk.org/index.php?PHPSESSID=47fksb1dul4ncgr3a1jefjqmg7&amp;board=5.0">The Break Room</a>)</dt>
+					<dd>October 23, 2017, 01:17:53 pm</dd>
+					<dt><strong><a href="https://www.goldcointalk.org/index.php?PHPSESSID=47fksb1dul4ncgr3a1jefjqmg7&amp;topic=3789.msg18285;topicseen#msg18285" rel="nofollow">Re: Cryptsy Community Relief Project</a></strong> by <a href="https://www.goldcointalk.org/index.php?PHPSESSID=47fksb1dul4ncgr3a1jefjqmg7&amp;action=profile;u=1">MicroGuy</a> (<a href="https://www.goldcointalk.org/index.php?PHPSESSID=47fksb1dul4ncgr3a1jefjqmg7&amp;board=14.0">Altcoin Discussion</a>)</dt>
+					<dd>October 23, 2017, 11:34:29 am</dd>
+					<dt><strong><a href="https://www.goldcointalk.org/index.php?PHPSESSID=47fksb1dul4ncgr3a1jefjqmg7&amp;topic=3959.msg18284;topicseen#msg18284" rel="nofollow">Re: The price of GoldCoin is stuck</a></strong> by <a href="https://www.goldcointalk.org/index.php?PHPSESSID=47fksb1dul4ncgr3a1jefjqmg7&amp;action=profile;u=1">MicroGuy</a> (<a href="https://www.goldcointalk.org/index.php?PHPSESSID=47fksb1dul4ncgr3a1jefjqmg7&amp;board=1.0">GoldCoin Discussion</a>)</dt>
+					<dd>October 23, 2017, 11:19:23 am</dd>
+					<dt><strong><a href="https://www.goldcointalk.org/index.php?PHPSESSID=47fksb1dul4ncgr3a1jefjqmg7&amp;topic=3959.msg18283;topicseen#msg18283" rel="nofollow">Re: The price of GoldCoin is stuck</a></strong> by <a href="https://www.goldcointalk.org/index.php?PHPSESSID=47fksb1dul4ncgr3a1jefjqmg7&amp;action=profile;u=2800">DoucetClan</a> (<a href="https://www.goldcointalk.org/index.php?PHPSESSID=47fksb1dul4ncgr3a1jefjqmg7&amp;board=1.0">GoldCoin Discussion</a>)</dt>
+					<dd>October 23, 2017, 10:59:14 am</dd>
+					<dt><strong><a href="https://www.goldcointalk.org/index.php?PHPSESSID=47fksb1dul4ncgr3a1jefjqmg7&amp;topic=3789.msg18282;topicseen#msg18282" rel="nofollow">Re: Cryptsy Community Relief Project</a></strong> by <a href="https://www.goldcointalk.org/index.php?PHPSESSID=47fksb1dul4ncgr3a1jefjqmg7&amp;action=profile;u=2850">bitcoinbob</a> (<a href="https://www.goldcointalk.org/index.php?PHPSESSID=47fksb1dul4ncgr3a1jefjqmg7&amp;board=14.0">Altcoin Discussion</a>)</dt>
+					<dd>October 22, 2017, 03:49:49 pm</dd>
+					<dt><strong><a href="https://www.goldcointalk.org/index.php?PHPSESSID=47fksb1dul4ncgr3a1jefjqmg7&amp;topic=3959.msg18275;topicseen#msg18275" rel="nofollow">Re: The price of GoldCoin is stuck</a></strong> by <a href="https://www.goldcointalk.org/index.php?PHPSESSID=47fksb1dul4ncgr3a1jefjqmg7&amp;action=profile;u=672">stemis</a> (<a href="https://www.goldcointalk.org/index.php?PHPSESSID=47fksb1dul4ncgr3a1jefjqmg7&amp;board=1.0">GoldCoin Discussion</a>)</dt>
+					<dd>October 22, 2017, 08:32:37 am</dd>
+					<dt><strong><a href="https://www.goldcointalk.org/index.php?PHPSESSID=47fksb1dul4ncgr3a1jefjqmg7&amp;topic=3957.msg18274;topicseen#msg18274" rel="nofollow">Re: Systems Administrator and Developer from Craigslist</a></strong> by <a href="https://www.goldcointalk.org/index.php?PHPSESSID=47fksb1dul4ncgr3a1jefjqmg7&amp;action=profile;u=1">MicroGuy</a> (<a href="https://www.goldcointalk.org/index.php?PHPSESSID=47fksb1dul4ncgr3a1jefjqmg7&amp;board=29.0">Newbie Central</a>)</dt>
+					<dd>October 22, 2017, 05:53:57 am</dd>
+					<dt><strong><a href="https://www.goldcointalk.org/index.php?PHPSESSID=47fksb1dul4ncgr3a1jefjqmg7&amp;topic=3789.msg18273;topicseen#msg18273" rel="nofollow">Re: Cryptsy Community Relief Project</a></strong> by <a href="https://www.goldcointalk.org/index.php?PHPSESSID=47fksb1dul4ncgr3a1jefjqmg7&amp;action=profile;u=1">MicroGuy</a> (<a href="https://www.goldcointalk.org/index.php?PHPSESSID=47fksb1dul4ncgr3a1jefjqmg7&amp;board=14.0">Altcoin Discussion</a>)</dt>
+					<dd>October 22, 2017, 05:41:28 am</dd>
+					<dt><strong><a href="https://www.goldcointalk.org/index.php?PHPSESSID=47fksb1dul4ncgr3a1jefjqmg7&amp;topic=909.msg18272;topicseen#msg18272" rel="nofollow">Re: [MUSIC] What Are You Listening to at the Moment?</a></strong> by <a href="https://www.goldcointalk.org/index.php?PHPSESSID=47fksb1dul4ncgr3a1jefjqmg7&amp;action=profile;u=1">MicroGuy</a> (<a href="https://www.goldcointalk.org/index.php?PHPSESSID=47fksb1dul4ncgr3a1jefjqmg7&amp;board=5.0">The Break Room</a>)</dt>
+					<dd>October 21, 2017, 12:45:14 pm</dd>
+					<dt><strong><a href="https://www.goldcointalk.org/index.php?PHPSESSID=47fksb1dul4ncgr3a1jefjqmg7&amp;topic=3959.msg18271;topicseen#msg18271" rel="nofollow">The price of GoldCoin is stuck</a></strong> by <a href="https://www.goldcointalk.org/index.php?PHPSESSID=47fksb1dul4ncgr3a1jefjqmg7&amp;action=profile;u=2800">DoucetClan</a> (<a href="https://www.goldcointalk.org/index.php?PHPSESSID=47fksb1dul4ncgr3a1jefjqmg7&amp;board=1.0">GoldCoin Discussion</a>)</dt>
+					<dd>October 21, 2017, 09:31:21 am</dd>
+					<dt><strong><a href="https://www.goldcointalk.org/index.php?PHPSESSID=47fksb1dul4ncgr3a1jefjqmg7&amp;topic=2665.msg18270;topicseen#msg18270" rel="nofollow">Price Of GoldCoin is stuck?</a></strong> by <a href="https://www.goldcointalk.org/index.php?PHPSESSID=47fksb1dul4ncgr3a1jefjqmg7&amp;action=profile;u=2800">DoucetClan</a> (<a href="https://www.goldcointalk.org/index.php?PHPSESSID=47fksb1dul4ncgr3a1jefjqmg7&amp;board=18.0">Project Development</a>)</dt>
+					<dd>October 21, 2017, 09:28:39 am</dd>
+					<dt><strong><a href="https://www.goldcointalk.org/index.php?PHPSESSID=47fksb1dul4ncgr3a1jefjqmg7&amp;topic=3950.msg18269;topicseen#msg18269" rel="nofollow">Re: Promote Goldcoin in India</a></strong> by <a href="https://www.goldcointalk.org/index.php?PHPSESSID=47fksb1dul4ncgr3a1jefjqmg7&amp;action=profile;u=1">MicroGuy</a> (<a href="https://www.goldcointalk.org/index.php?PHPSESSID=47fksb1dul4ncgr3a1jefjqmg7&amp;board=1.0">GoldCoin Discussion</a>)</dt>
+					<dd>October 20, 2017, 10:14:58 pm</dd>
+					<dt><strong><a href="https://www.goldcointalk.org/index.php?PHPSESSID=47fksb1dul4ncgr3a1jefjqmg7&amp;topic=3950.msg18268;topicseen#msg18268" rel="nofollow">Re: Promote Goldcoin in India</a></strong> by <a href="https://www.goldcointalk.org/index.php?PHPSESSID=47fksb1dul4ncgr3a1jefjqmg7&amp;action=profile;u=2800">DoucetClan</a> (<a href="https://www.goldcointalk.org/index.php?PHPSESSID=47fksb1dul4ncgr3a1jefjqmg7&amp;board=1.0">GoldCoin Discussion</a>)</dt>
+					<dd>October 20, 2017, 09:51:20 pm</dd>
+				</dl>
+			</div>
+			<div class="title_barIC">
+				<h4 class="titlebg">
+					<span class="ie6_header floatleft">
+						<a href="https://www.goldcointalk.org/index.php?PHPSESSID=47fksb1dul4ncgr3a1jefjqmg7&amp;action=stats"><img class="icon" src="https://www.goldcointalk.org/Themes/horizon-smf20/images/icons/info.png" alt="Forum Stats" /></a>
+						Forum Stats
+					</span>
+				</h4>
+			</div>
+			<p>
+				14308 Posts in 2581 Topics by 1678 Members. Latest Member: <strong> <a href="https://www.goldcointalk.org/index.php?PHPSESSID=47fksb1dul4ncgr3a1jefjqmg7&amp;action=profile;u=2858">Nakamoto</a></strong><br />
+				Latest Post: <strong>&quot;<a href="https://www.goldcointalk.org/index.php?PHPSESSID=47fksb1dul4ncgr3a1jefjqmg7&amp;topic=3965.msg18288#new" title="MOVED: The price of GoldCoin is stuck">MOVED: The price of Gold...</a>&quot;</strong>  ( October 23, 2017, 10:50:43 pm )<br />
+				<a href="https://www.goldcointalk.org/index.php?PHPSESSID=47fksb1dul4ncgr3a1jefjqmg7&amp;action=recent">View the most recent posts on the forum.</a><br />
+				<a href="https://www.goldcointalk.org/index.php?PHPSESSID=47fksb1dul4ncgr3a1jefjqmg7&amp;action=stats">[More Stats]</a>
+			</p>
+			<div class="title_barIC">
+				<h4 class="titlebg">
+					<span class="ie6_header floatleft">
+						<img class="icon" src="https://www.goldcointalk.org/Themes/horizon-smf20/images/icons/online.png" alt="Users Online" />
+						Users Online
+					</span>
+				</h4>
+			</div>
+			<p class="inline stats">
+				30 Guests, 1 User (1 Hidden)
+			</p>
+			<p class="inline smalltext">
+			</p>
+			<p class="last smalltext">
+				Most Online Today: <strong>105</strong>.
+				Most Online Ever: 193 (July 17, 2017, 09:46:07 pm)
+			</p>
+		</div>
+	</div></div>
+	<span class="lowerframe"><span></span></span>
+	<script type="text/javascript"><!-- // --><![CDATA[
+		var oInfoCenterToggle = new smc_Toggle({
+			bToggleEnabled: true,
+			bCurrentlyCollapsed: false,
+			aSwappableContainers: [
+				'upshrinkHeaderIC'
+			],
+			aSwapImages: [
+				{
+					sId: 'upshrink_ic',
+					srcExpanded: smf_images_url + '/collapse.gif',
+					altExpanded: 'Shrink or expand the header.',
+					srcCollapsed: smf_images_url + '/expand.gif',
+					altCollapsed: 'Shrink or expand the header.'
+				}
+			],
+			oThemeOptions: {
+				bUseThemeSettings: false,
+				sOptionName: 'collapse_header_ic',
+				sSessionVar: 'fe7b83dddb',
+				sSessionId: '30593eed1d93ba97b0171d0390fccdb2'
+			},
+			oCookieOptions: {
+				bUseCookie: true,
+				sCookieName: 'upshrinkIC'
+			}
+		});
+	// ]]></script>
+		</div>
+	</div>
+	<div id="footer">
+		<div class="wrapper">
+			<div id="footer-content">
+				<a class="backtop" href="#">TOP</a>
+				<p>
+			<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="https://www.goldcointalk.org/index.php?PHPSESSID=47fksb1dul4ncgr3a1jefjqmg7&amp;action=credits" title="Simple Machines Forum" target="_blank" class="new_win">SMF 2.0.14</a> |
+ <a href="http://www.simplemachines.org/about/smf/license.php" title="License" target="_blank" class="new_win">SMF &copy; 2017</a>, <a href="http://www.simplemachines.org" title="Simple Machines" target="_blank" class="new_win">Simple Machines</a><br /><span class="smalltext"><a href="http://www.smfads.com" target="_blank">SMFAds</a> for <a href="http://www.createaforum.com" title="Forum Hosting">Free Forums</a></span>
+			</span> | Site Security by <a href="http://www.microguy.com/">MicroGuy</a></p>
+				<p class="loadtime smalltext">Page created in 0.094 seconds with 15 queries.</p>
+			</div>
+		</div>
+	</div>
+	</div>	
+
+					<script type="text/javascript" src="https://www.goldcointalk.org/index.php?PHPSESSID=47fksb1dul4ncgr3a1jefjqmg7&amp;action=iflychat-init"></script>
+					<script type="text/javascript" src="https://www.goldcointalk.org/Themes/default/iflychat/js/jquery.min.js"></script>
+					<script type="text/javascript" src="https://www.goldcointalk.org/Themes/default/iflychat/js/iflychat.admin.script.js"></script>
+					<script type="text/javascript" src="https://www.goldcointalk.org/Themes/default/iflychat/js/load.js"></script>
+					</body></html>;<script type="text/javascript" src="https://www.goldcointalk.org/Themes/default/iflychat/js/iflychat-popup.js"></script>

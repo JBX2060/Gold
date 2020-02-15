@@ -1,0 +1,188 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<link rel="stylesheet" type="text/css" href="https://www.goldcointalk.org/Themes/horizon-smf20/css/index.css?fin20" />
+	<link href="https://fonts.googleapis.com/css?family=Ubuntu:400,300,500" rel="stylesheet" type="text/css">
+	<meta name="twitter:card" content="summary" />
+	<meta name="twitter:site" content="@goldcoin" />
+	<meta property="og:image" content="https://www.goldcointalk.org/img/goldcoin_fb.png" />
+	<meta property="og:url" content="https://www.goldcointalk.org/" />
+	<script type="text/javascript" src="https://www.goldcointalk.org/Themes/default/scripts/script.js?fin20"></script>
+	<script type="text/javascript" src="https://www.goldcointalk.org/Themes/horizon-smf20/scripts/theme.js?fin20"></script>
+	<script type="text/javascript"><!-- // --><![CDATA[
+		var smf_theme_url = "https://www.goldcointalk.org/Themes/horizon-smf20";
+		var smf_default_theme_url = "https://www.goldcointalk.org/Themes/default";
+		var smf_images_url = "https://www.goldcointalk.org/Themes/horizon-smf20/images";
+		var smf_scripturl = "https://www.goldcointalk.org/index.php?PHPSESSID=pf5ql6nqvhnlkdbaosbms2hc07&amp;";
+		var smf_iso_case_folding = false;
+		var smf_charset = "UTF-8";
+		var ajax_notification_text = "Loading...";
+		var ajax_notification_cancel_text = "Cancel";
+	// ]]></script>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="description" content="SMF User Help" />
+	<title>SMF User Help</title>
+	<link rel="help" href="https://www.goldcointalk.org/index.php?PHPSESSID=pf5ql6nqvhnlkdbaosbms2hc07&amp;action=help" />
+	<link rel="search" href="https://www.goldcointalk.org/index.php?PHPSESSID=pf5ql6nqvhnlkdbaosbms2hc07&amp;action=search" />
+	<link rel="contents" href="https://www.goldcointalk.org/index.php?PHPSESSID=pf5ql6nqvhnlkdbaosbms2hc07&amp;" />
+	<link rel="alternate" type="application/rss+xml" title="GoldCoin Talk - RSS" href="https://www.goldcointalk.org/index.php?PHPSESSID=pf5ql6nqvhnlkdbaosbms2hc07&amp;type=rss;action=.xml" />
+</head>
+<body>
+	<div id="topbar">
+		<div class="wrapper">
+			<div id="horizon-time">
+				March 24, 2019, 02:49:57 pm
+			</div>
+			<div id="account">
+				<ul>
+					<li class="btn-login"><a href="https://www.goldcointalk.org/index.php?PHPSESSID=pf5ql6nqvhnlkdbaosbms2hc07&amp;action=login">Login</a></li>
+					<li class="btn-signup"><a href="https://www.goldcointalk.org/index.php?PHPSESSID=pf5ql6nqvhnlkdbaosbms2hc07&amp;action=register">Register</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div id="header">
+		<div id="logo">
+			<a title="GoldCoin Talk" href="https://www.goldcointalk.org/index.php?PHPSESSID=pf5ql6nqvhnlkdbaosbms2hc07&amp;"></a>
+		</div>
+		<div class="wrapper">
+			<div id="navbar">
+				
+		<ul id="topnav">
+				<li id="button_home">
+					<a class="firstlevel" href="https://www.goldcointalk.org/index.php?PHPSESSID=pf5ql6nqvhnlkdbaosbms2hc07&amp;">
+						<span class="last firstlevel">Home</span>
+					</a>
+				</li>
+				<li id="button_help">
+					<a class="active firstlevel" href="https://www.goldcointalk.org/index.php?PHPSESSID=pf5ql6nqvhnlkdbaosbms2hc07&amp;action=help">
+						<span class="firstlevel">Help</span>
+					</a>
+				</li>
+				<li id="button_search">
+					<a class="firstlevel" href="https://www.goldcointalk.org/index.php?PHPSESSID=pf5ql6nqvhnlkdbaosbms2hc07&amp;action=search">
+						<span class="firstlevel">Search</span>
+					</a>
+				</li>
+				<li id="button_menu_action">
+					<a class="firstlevel" href="https://www.goldcointalk.org/index.php?PHPSESSID=pf5ql6nqvhnlkdbaosbms2hc07&amp;">
+						<span class="firstlevel">Social Bookmarks</span>
+					</a>
+					<ul>
+						<li>
+							<a href="https://www.facebook.com/groups/goldcointalk/" target="_blank"">
+								<span>Facebook Group</span>
+							</a>
+						</li>
+						<li>
+							<a href="https://bitcointalk.org/index.php?topic=317568.0" target="_blank"">
+								<span>Bitcointalk Thread</span>
+							</a>
+						</li>
+						<li>
+							<a href="https://twitter.com/GoldCoin" target="_blank"">
+								<span>Twitter Feed</span>
+							</a>
+						</li>
+						<li>
+							<a href="https://t.me/goldcoin" target="_blank"">
+								<span>Telegram Group</span>
+							</a>
+						</li>
+						<li>
+							<a href="http://www.reddit.com/r/goldcoin" target="_blank"">
+								<span>Goldcoin Reddit</span>
+							</a>
+						</li>
+					</ul>
+				</li>
+				<li id="button_login">
+					<a class="firstlevel" href="https://www.goldcointalk.org/index.php?PHPSESSID=pf5ql6nqvhnlkdbaosbms2hc07&amp;action=login">
+						<span class="firstlevel">Login</span>
+					</a>
+				</li>
+				<li id="button_register">
+					<a class="firstlevel" href="https://www.goldcointalk.org/index.php?PHPSESSID=pf5ql6nqvhnlkdbaosbms2hc07&amp;action=register">
+						<span class="last firstlevel">Register</span>
+					</a>
+				</li>
+			</ul>
+			</div>
+			<div id="toolbar">
+				<div id="quicknav">
+					<ul>
+						<li class="facebook social"><a href="https://www.facebook.com/groups/goldcointalk/" title="Facebook" target="_blank"></a></li>
+						<li class="twitter social"><a href="https://twitter.com/goldcoin" title="Twitter" target="_blank"></a></li>
+						<li class="skype social"><a href="skype:greggory.matthews?call" title="Skype" target="_blank"></a></li>
+						<li><a href="https://www.goldcoin.org/">Official Website</a></li>
+						<li><a href="https://www.goldcoin.org/downloads.html">Get Wallet</a></li>
+						<li><a href="https://www.bittrex.com/Market/Index?MarketName=BTC-GLD">Trade on Bittrex</a></li>
+						<li><a href="https://t.me/goldcoin">Telegram</a></li>
+						<li><a href="https://chainz.cryptoid.info/gld/">Block Explorer</a></li>
+					</ul>
+				</div>
+				<div id="search">
+					<form action="https://www.goldcointalk.org/index.php?PHPSESSID=pf5ql6nqvhnlkdbaosbms2hc07&amp;action=search2" method="post" accept-charset="UTF-8">
+						<input type="text" name="search" value="Search..." onfocus="this.value = '';" onblur="if(this.value=='') this.value='Search...';" />
+						<input type="submit" name="submit" value="" />
+					</form>
+				</div>
+			</div>
+			<div id="board-notice">
+			</div>
+		</div>
+	</div>
+	<div id="main">
+		<div class="wrapper">
+	<div class="navigate_section">
+		<ul>
+			<li>
+				<a href="https://www.goldcointalk.org/index.php?PHPSESSID=pf5ql6nqvhnlkdbaosbms2hc07&amp;"><span>GoldCoin Talk</span></a>
+			</li>
+			<li class="last">
+				<a href="https://www.goldcointalk.org/index.php?PHPSESSID=pf5ql6nqvhnlkdbaosbms2hc07&amp;action=help"><span>Help</span></a>
+			</li>
+		</ul>
+	</div>
+			<div class="cat_bar">
+				<h3 class="catbg">SMF User Help</h3>
+			</div>
+			<div id="help_container">
+				<div class="windowbg2">
+					<span class="topslice"><span></span></span>
+					<div id="helpmain">
+						<p>Welcome to GoldCoin Talk, powered by Simple Machines&reg; Forum (SMF) software!</p>
+						<p>SMF is the elegant, effective, powerful and free forum software solution that this site is running. It allows users to communicate in discussion topics on a given subject in a clever and organized manner. Furthermore, it has a number of powerful features which end users can take advantage of. Help for many of SMF's features can be found by either clicking the question mark icon next to the relevant section or by selecting one of the links on this page. These links will take you to SMF's centrally-located documentation on the Simple Machines official site.</p>
+						<ul>
+							<li><a href="http://wiki.simplemachines.org/smf/Registering" target="_blank" class="new_win">Registering</a> - Many forums require users to register to gain full access.</li>
+							<li><a href="http://wiki.simplemachines.org/smf/Logging_In" target="_blank" class="new_win">Logging In</a> - Once registered, users must login to access their account.</li>
+							<li><a href="http://wiki.simplemachines.org/smf/Profile" target="_blank" class="new_win">Profile</a> - Each member has their own personal profile.</li>
+							<li><a href="http://wiki.simplemachines.org/smf/Search" target="_blank" class="new_win">Search</a> - Searching is an extremely helpful tool for finding information in posts and topics.</li>
+							<li><a href="http://wiki.simplemachines.org/smf/Posting" target="_blank" class="new_win">Posting</a> - The whole point of a forum, posting allows users to express themselves.</li>
+							<li><a href="http://wiki.simplemachines.org/smf/Bulletin_board_code" target="_blank" class="new_win">Bulletin Board Code (BBC)</a> - Posts can be spiced up with a little BBC.</li>
+							<li><a href="http://wiki.simplemachines.org/smf/Personal_messages" target="_blank" class="new_win">Personal Messages</a> - Users can send personal messages to each other.</li>
+							<li><a href="http://wiki.simplemachines.org/smf/Memberlist" target="_blank" class="new_win">Memberlist</a> - The memberlist shows all the members of a forum.</li>
+							<li><a href="http://wiki.simplemachines.org/smf/Calendar" target="_blank" class="new_win">Calendar</a> - Users can keep track of events, holidays, and birthdays with the calendar.</li>
+							<li><a href="http://wiki.simplemachines.org/smf/Features" target="_blank" class="new_win">Features</a> - Here is a list of the most popular features in SMF.</li>
+						</ul>
+						<p>For more information about how to use SMF, please see the <a href="http://wiki.simplemachines.org/smf" target="_blank" class="new_win">Simple Machines Documentation Wiki</a> and check out the <a href="https://www.goldcointalk.org/index.php?PHPSESSID=pf5ql6nqvhnlkdbaosbms2hc07&amp;action=credits">credits</a> to find out who has made SMF what it is today.</p>
+					</div>
+					<span class="botslice"><span></span></span>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="footer">
+		<div class="wrapper">
+			<div id="footer-content">
+				<a class="backtop" href="#">TOP</a>
+				<p>
+			<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="https://www.goldcointalk.org/index.php?PHPSESSID=pf5ql6nqvhnlkdbaosbms2hc07&amp;action=credits" title="Simple Machines Forum" target="_blank" class="new_win">SMF 2.0.15</a> |
+ <a href="http://www.simplemachines.org/about/smf/license.php" title="License" target="_blank" class="new_win">SMF &copy; 2018</a>, <a href="http://www.simplemachines.org" title="Simple Machines" target="_blank" class="new_win">Simple Machines</a><br /><span class="smalltext"><a href="http://www.smfads.com" target="_blank">SMFAds</a> for <a href="http://www.createaforum.com" title="Forum Hosting">Free Forums</a></span>
+			</span> | Site Security by <a href="http://www.microguy.com/">MicroGuy</a></p>
+				<p class="loadtime smalltext">Page created in 0.047 seconds with 11 queries.</p>
+			</div>
+		</div>
+	</div>
+	</div>	
+</body></html>
