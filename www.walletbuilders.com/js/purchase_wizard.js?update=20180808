@@ -1,0 +1,759 @@
+$(document).ready(function () {
+
+    $(".paid-elements").hide();
+    $('#purchase_type').change(function () {
+        if ($(this).val() === "free") {
+
+            $("#wallet_maxmoney").prop("disabled", true);
+            $("#wallet_blockreward").prop("disabled", false);
+            $("#wallet_subsidy").prop("disabled", false);
+
+            $(".paid-elements").hide();
+            $(".free-elements").show();
+            paidcheck = false;
+        }
+
+        if ($(this).val() === "paid") {
+
+            $("#PremineEnabled").prop("disabled", false);
+            $("#PreminePercent").prop("disabled", false);
+            $('#Premine100percent').prop('checked', false);
+
+            $(".paid-elements").show();
+            $(".free-elements").hide();
+            paidcheck = true;
+        }
+
+        $("#wallet_blockreward").val(50);
+        $("#wallet_premineamount").val(0);
+        $("#wallet_premineamount_hidden").val(0);
+        $("#wallet_subsidy").val(210000);
+        $("#wallet_maxmoney").val(21000000);
+        $("#wallet_maxmoney_hidden").val(21000000);
+        $("#wallet_maxmoney_total").val(21000000);
+
+        $("#PreminePercent").val(0);
+    });
+
+    $(".pos-elements").hide();
+    $('#wallet_type').change(function () {
+        if ($(this).val() === "scrypt-pos") {
+            $(".pow-elements").hide();
+            $(".pos-elements").show();
+            $("#wallet_maxmoney").prop("disabled", false);
+        }
+
+        if ($(this).val() === "scrypt-pow") {
+            $(".pow-elements").show();
+            $(".pos-elements").hide();
+            $("#wallet_maxmoney").prop("disabled", true);
+        }
+
+        if ($(this).val() === "sha256-pow") {
+            $(".pow-elements").show();
+            $(".pos-elements").hide();
+            $("#wallet_maxmoney").prop("disabled", true);
+        }
+
+        $("#wallet_blockreward").val(50);
+        $("#wallet_premineamount").val(0);
+        $("#wallet_premineamount_hidden").val(0);
+        $("#wallet_subsidy").val(210000);
+        $("#wallet_maxmoney").val(21000000);
+        $("#wallet_maxmoney_hidden").val(21000000);
+        $("#wallet_maxmoney_total").val(21000000);
+
+        $("#PreminePercent").val(0);
+
+        $("#wallet_blockreward").prop("disabled", false);
+        $("#wallet_subsidy").prop("disabled", false);
+
+        $("#PremineEnabled").prop("disabled", false);
+        $("#PreminePercent").prop("disabled", false);
+        $('#Premine100percent').prop('checked', false);
+    });
+
+    $('#HardSeed').change(function () {
+        if ($('#HardSeed').is(':checked')) {
+            $(".node-elements").show();
+        } else {
+            $(".node-elements").hide();
+        }
+    });
+
+    $('#Premine100percent').change(function () {
+        if ($('#Premine100percent').is(':checked')) {
+
+            $("#wallet_maxmoney").keyup(function () {
+                var WalletMaxMoney = Number($("#wallet_maxmoney").val());
+
+                $("#wallet_premineamount").val(Math.round(WalletMaxMoney));
+                $("#wallet_premineamount_hidden").val(Math.round(WalletMaxMoney));
+
+                $("#wallet_maxmoney_total").val(Math.round(WalletMaxMoney));
+                $("#wallet_maxmoney_hidden").val(Math.round(WalletMaxMoney));
+            });
+
+            var WalletPremine = Number($("#wallet_premineamount").val());
+            var WalletMaxMoney = Number($("#wallet_maxmoney").val());
+
+            var WalletTotal = WalletMaxMoney - WalletPremine;
+
+            $("#PreminePercent").val(100);
+            $("#PreminePercent").prop("disabled", true);
+
+            $("#PremineEnabled").val("true");
+            $("#PremineEnabled").prop("disabled", true);
+
+            $("#PremineEnabled_hidden").val("true");
+
+            $("#wallet_blockreward").val(0);
+            $("#wallet_blockreward").prop("disabled", true);
+
+            $("#wallet_blockreward_hidden").val(0);
+
+            $("#wallet_subsidy").prop("disabled", true);
+
+            var SubsidyHidden = Number($("#wallet_subsidy").val());
+            $("#wallet_subsidy_hidden").val(SubsidyHidden);
+
+            $("#wallet_maxmoney").prop("disabled", false);
+
+            $("#wallet_premineamount").val(Math.round(WalletTotal));
+            $("#wallet_premineamount_hidden").val(Math.round(WalletTotal));
+            $("#wallet_maxmoney").val(Math.round(WalletTotal));
+            $("#wallet_maxmoney_hidden").val(Math.round(WalletTotal));
+
+            if ($('#wallet_type').val() === "scrypt-pos") {
+                $("#wallet_maxmoney_total").val(Math.round(WalletTotal));
+            }
+
+        } else {
+            $("#wallet_blockreward").val(50);
+            $("#wallet_blockreward").prop("disabled", false);
+
+            $("#wallet_subsidy").val(210000);
+            $("#wallet_subsidy").prop("disabled", false);
+
+            $("#wallet_maxmoney").prop("disabled", true);
+            $("#wallet_maxmoney").val(21000000);
+            $("#wallet_maxmoney_hidden").val(21000000);
+
+            $("#PreminePercent").val(0);
+            $("#PreminePercent").prop("disabled", false);
+
+            $("#PremineEnabled").prop("disabled", false);
+
+            $("#wallet_premineamount").val(0);
+            $("#wallet_premineamount_hidden").val(0);
+        }
+    });
+
+    $('#PremineEnabled').change(function () {
+
+        if ($(this).val() === "false") {
+
+            $(".premine-elements").show();
+            $("#wallet_premineamount").val(0);
+            $("#wallet_premineamount_hidden").val(0);
+
+            $("#PreminePercent").val(0);
+            $("#PreminePercent").prop("disabled", true);
+            $("#wallet_premineamount").prop("disabled", true);
+
+            if ($('#wallet_type').val() === "scrypt-pos") {
+                $(".pow-elements").hide();
+                $(".pos-elements").show();
+            }
+
+            if ($('#wallet_type').val() === "scrypt-pow") {
+                $(".pow-elements").show();
+                $(".pos-elements").hide();
+            }
+        }
+
+        if ($(this).val() === "true") {
+
+            $(".premine-elements").show();
+            $("#wallet_premineamount").val(0);
+            $("#wallet_premineamount_hidden").val(0);
+
+            $("#PreminePercent").val(0);
+            $("#PreminePercent").prop("disabled", false);
+            $("#wallet_premineamount").prop("disabled", true);
+
+            if ($('#wallet_type').val() === "scrypt-pos") {
+                $(".pow-elements").hide();
+                $(".pos-elements").show();
+            }
+
+            if ($('#wallet_type').val() === "scrypt-pow") {
+                $(".pow-elements").show();
+                $(".pos-elements").hide();
+            }
+        }
+    });
+
+    $("#wallet_blockreward, #wallet_subsidy, #PreminePercent").keyup(function () {
+        if (($('#wallet_type').val() === "scrypt-pow") || ($('#wallet_type').val() === "sha256-pow")) {
+            //console.log("Algorithm:" +$('#wallet_type').val()); 
+
+            var BlockReward = Number($("#wallet_blockreward").val());
+            var Subsidy = Number($("#wallet_subsidy").val());
+            var PreminePercent = Number($("#PreminePercent").val());
+
+            $.getJSON('/include/json/calculate_moneysupply.php?block_reward=' + BlockReward + '&subsidy=' + Subsidy, function (WalletMaxMoney) {
+
+                var WalletPremine = (WalletMaxMoney / 100) * PreminePercent;
+                $("#wallet_premineamount").val(Math.round(WalletPremine));
+                $("#wallet_premineamount_hidden").val(Math.round(WalletPremine));
+
+                var TotalWalletMaxMoney = WalletMaxMoney + WalletPremine;
+
+                $("#wallet_maxmoney").val(Math.round(TotalWalletMaxMoney));
+                $("#wallet_maxmoney_hidden").val(Math.round(TotalWalletMaxMoney));
+            });
+        }
+    });
+
+    $("#wallet_maxmoney, #PreminePercent").keyup(function () {
+        if ($('#wallet_type').val() === "scrypt-pos") {
+            //console.log("Algorithm:" +$('#wallet_type').val()); 
+
+            var PreminePercent = Number($("#PreminePercent").val());
+            var WalletMaxMoney = Number($("#wallet_maxmoney").val());
+
+            var WalletPremine = (WalletMaxMoney / 100) * PreminePercent;
+            $("#wallet_premineamount").val(Math.round(WalletPremine));
+            $("#wallet_premineamount_hidden").val(Math.round(WalletPremine));
+
+            var TotalWalletMaxMoney = WalletMaxMoney + WalletPremine;
+
+            $("#wallet_maxmoney_total").val(Math.round(TotalWalletMaxMoney));
+            $("#wallet_maxmoney_hidden").val(Math.round(TotalWalletMaxMoney));
+        }
+    });
+
+    $('#purchase-wizard').bootstrapWizard({onTabShow: function (tab, navigation, index) {
+            var current = index + 1;
+            if (current === 5) {
+                $(".next").hide();
+            } else {
+                $(".next").show();
+            }
+        },
+        onTabClick: function (tab, navigation, index) {
+            var current = index + 1;
+
+            if (current - 1) {
+                return true;
+            } else {
+                return false;
+            }
+            return validateTab(index);
+        },
+        'tabClass': 'nav nav-pills',
+        'onNext': function (tab, navigation, index) {
+            var numTabs = $('#purchase-form').find('.tab-pane').length,
+                    isValidTab = validateTab(index - 1);
+            if (!isValidTab) {
+                return false;
+            }
+
+            if (index === numTabs) {
+                // We are at the last tab
+
+                // Uncomment the following line to submit the form using the defaultSubmit() method
+                // $('#installationForm').formValidation('defaultSubmit');
+
+                // For testing purpose
+                // $('#completeModal').modal();
+            }
+
+            return true;
+        }
+    });
+});
+
+(function ($) {
+    FormValidation.Validator.divisible = {
+
+        validate: function (validator, $field, options) {
+            var value = $field.val();
+
+            if (value === '') {
+                return true;
+            }
+
+            if (parseInt(value) % parseInt($("#wallet_targetspacing").val())) {
+                return false;
+            }
+            if (parseInt(value) < parseInt($("#wallet_targetspacing").val())) {
+                return false;
+            }
+
+            return true;
+        }
+    };
+}(window.jQuery));
+
+function validateTab(index) {
+    var fv = $('#purchase-form').data('formValidation'), // FormValidation instance
+            // The current tab
+            $tab = $('#purchase-form').find('.tab-pane').eq(index);
+
+    // Validate the container
+    fv.validateContainer($tab);
+
+    var isValidStep = fv.isValidContainer($tab);
+    if (isValidStep === false || isValidStep === null) {
+        // Do not jump to the target tab
+        return false;
+    }
+
+    return true;
+}
+
+$(document).ready(function () {
+
+    $('#purchase-form')
+            .formValidation({
+                framework: 'bootstrap',
+                icon: {
+                    valid: 'glyphicon glyphicon-ok',
+                    invalid: 'glyphicon glyphicon-remove',
+                    validating: 'glyphicon glyphicon-refresh'
+                },
+                fields: {
+                    purchase_email: {
+                        validators: {
+                            notEmpty: {
+                                message: 'Enter your email address.'
+                            },
+                            emailAddress: {
+                                message: 'Enter your email address.'
+                            }
+                        }
+                    },
+                    wallet_name: {
+                        validators: {
+                            notEmpty: {
+                                message: 'Enter the name of your blockchain.'
+                            },
+                            stringLength: {
+                                min: 2,
+                                max: 255,
+                                message: 'The “Blockchain name” value must be at least 2 characters with a maximum of 255 characters.'
+                            },
+                            regexp: {
+                                regexp: /^[a-z0-9]+$/i,
+                                message: 'The “Blockchain name” value can only consist of alphabetical characters.'
+                            }
+                        }
+                    },
+                    wallet_abbreviation: {
+                        validators: {
+                            notEmpty: {
+                                message: 'Enter the abbreviation of your blockchain.'
+                            },
+                            stringLength: {
+                                min: 2,
+                                max: 255,
+                                message: 'The “Blockchain abbreviation” value must be at least 2 characters.'
+                            },
+                            regexp: {
+                                regexp: /^[a-z0-9]+$/i,
+                                message: 'The “Blockchain abbreviation” value can only consist of alphabetical characters.'
+                            }
+                        }
+                    },
+                    wallet_timestamp: {
+                        validators: {
+                            notEmpty: {
+                                message: 'Enter the verbal timestap of your blockchain.'
+                            },
+                            stringLength: {
+                                min: 2,
+                                max: 70,
+                                message: 'The “Verbal timestamp” value must be at least 3 characters with a maximum of 70 characters.'
+                            },
+                            regexp: {
+                                regexp: /^[a-z0-9.\s]+$/i,
+                                message: 'The “Verbal timestamp” value can only consist of alphabetical characters, and spaces.'
+                            }
+                        }
+                    },
+                    wallet_blockreward: {
+                        validators: {
+                            notEmpty: {
+                                message: 'Enter the block reward of your blockchain.'
+                            },
+                            digits: {
+                                message: 'The “Block reward” value can only consist of digits.'
+                            },
+                            between: {
+                                min: 1,
+                                max: 10000,
+                                message: 'The “Block reward” value must be a number between 1 and 10000.'
+                            }
+                        }
+                    },
+                    wallet_subsidy: {
+                        validators: {
+                            notEmpty: {
+                                message: 'Enter the block halving of your blockchain.'
+                            },
+                            digits: {
+                                message: 'The “Block halving” value can only consist of digits.'
+                            },
+                            between: {
+                                min: 10,
+                                max: 4000000,
+                                message: 'The “Block halving” value must be number between 10 and 4000000.'
+                            }
+                        }
+                    },
+                    wallet_maxmoney: {
+                        validators: {
+                            notEmpty: {
+                                message: 'Enter the coin supply of your blockchain.'
+                            },
+                            digits: {
+                                message: 'The “Coin supply” value can only consist of digits.'
+                            },
+                            between: {
+                                min: 10,
+                                max: 56000000000,
+                                message: 'The “Coin supply” value must be a number between 10 and 56000000000.'
+                            }
+                        }
+                    },
+                    PreminePercent: {
+                        validators: {
+                            notEmpty: {
+                                message: 'Enter the premine percentage of your blockchain.'
+                            },
+                            digits: {
+                                message: 'The “Premine percent %” value can only consist of digits.'
+                            },
+                            between: {
+                                min: 1,
+                                max: 70,
+                                message: 'The “Premine percent %” value must be a number between 1 and 70.'
+                            }
+                        }
+                    },
+                    wallet_premineamount: {
+                        validators: {
+                            notEmpty: {
+                                message: 'Enter the premine amount of your blockchain.'
+                            },
+                            digits: {
+                                message: 'The “Premine amount” value can only consist of digits.'
+                            }
+                        }
+                    },
+                    wallet_maturity: {
+                        validators: {
+                            notEmpty: {
+                                message: 'Enter the coinbase maturity of your blockchain.'
+                            },
+                            digits: {
+                                message: 'The “Coinbase maturity” value can only consist of digits.'
+                            },
+                            greaterThan: {
+                                value: 1,
+                                message: 'The “Coinbase maturity” value must be a number greater than 0.'
+                            }
+                        }
+                    },
+                    wallet_confirmations: {
+                        validators: {
+                            notEmpty: {
+                                message: 'Enter the number of confirmations of your blockchain.'
+                            },
+                            digits: {
+                                message: 'The “number of confirmations” value can only consist of digits.'
+                            },
+                            greaterThan: {
+                                value: 1,
+                                message: 'The “number of confirmations” value must be a number greater than 0.'
+                            }
+                        }
+                    },
+                    wallet_targettimespan: {
+                        validators: {
+                            notEmpty: {
+                                message: 'Enter the target timespan of your blockchain.'
+                            },
+                            digits: {
+                                message: 'The “Target timespan in minutes” value can only consist of digits.'
+                            },
+                            divisible: {
+                                message: 'The “Target timespan in minutes” value must be divisible by the “target spacing” value.'
+                            },
+                            greaterThan: {
+                                value: 1,
+                                message: 'The “Target timespan in minutes” value must be a number greater than 0.'
+                            }
+                        }
+                    },
+                    wallet_targetspacing: {
+                        validators: {
+                            notEmpty: {
+                                message: 'Enter the target spacing of your blockchain.'
+                            },
+                            digits: {
+                                message: 'The “Target spacing in minutes” value can only consist of digits.'
+                            },
+                            greaterThan: {
+                                value: 1,
+                                message: 'The “Target spacing in minutes” value must be a number greater than 0.'
+                            }
+                        }
+                    },
+                    wallet_lastpowblock: {
+                        validators: {
+                            notEmpty: {
+                                message: 'Enter the last PoW block of your blockchain.'
+                            },
+                            digits: {
+                                message: 'The “Last PoW block” value can only consist of digits.'
+                            },
+                            between: {
+                                min: 1000,
+                                max: 100000,
+                                message: 'The “Last PoW block” value must be a number between 1000 and 100000.'
+                            }
+                        }
+                    },
+                    wallet_minstakeage: {
+                        validators: {
+                            notEmpty: {
+                                message: 'Enter the minimum coin age of your blockchain.'
+                            },
+                            digits: {
+                                message: 'The “Minimum coin age” value can only consist of digits.'
+                            },
+                            between: {
+                                min: 1,
+                                max: 8,
+                                message: 'The “Minimum coin age” value must be a number between 1 and 8.'
+                            }
+                        }
+                    },
+                    wallet_coinyearreward: {
+                        validators: {
+                            notEmpty: {
+                                message: 'Enter the PoS interest per year of your blockchain.'
+                            },
+                            digits: {
+                                message: 'The “PoS interest % per year” value can only consist of digits.'
+                            },
+                            between: {
+                                min: 1,
+                                max: 999,
+                                message: 'The “PoS interest % per year” value must be a number between 1 and 999.'
+                            }
+                        }
+                    },
+                    ImageSplash: {
+                        validators: {
+                            notEmpty: {
+                                message: 'Select a PNG image for the splash screen of your wallet.'
+                            },
+                            file: {
+                                extension: 'png',
+                                type: 'image/png',
+                                message: 'The “Wallet splash” image must be a PNG file.'
+                            }
+                        }
+                    },
+                    wallet_seednodeip0: {
+                        validators: {
+                            notEmpty: {
+                                message: 'Enter the first seed node of your blockchain.'
+                            },
+                            regexp: {
+                                regexp: /^[a-z0-9.]+$/i,
+                                message: 'The “Seed Node 1” value can only consist of alphabetical characters.'
+                            }
+                        }
+                    },
+                    wallet_seednodeip1: {
+                        validators: {
+                            regexp: {
+                                regexp: /^[a-z0-9.]+$/i,
+                                message: 'The “Seed Node 2” value can only consist of alphabetical characters.'
+                            }
+                        }
+                    },
+                    ImageSplashTestnet: {
+                        validators: {
+                            notEmpty: {
+                                message: 'Select a PNG image for the testnet splash screen of your wallet.'
+                            },
+                            file: {
+                                extension: 'png',
+                                type: 'image/png',
+                                message: 'The “Wallet testnet splash” image must be a PNG file.'
+                            }
+                        }
+                    },
+                    ImageBitcoin: {
+                        validators: {
+                            notEmpty: {
+                                message: 'Select a PNG image for the icon of your wallet.'
+                            },
+                            file: {
+                                extension: 'png',
+                                type: 'image/png',
+                                message: 'The “Wallet icon” image must be a PNG file.'
+                            }
+                        }
+                    },
+                    ImageBitcoinTestnet: {
+                        validators: {
+                            notEmpty: {
+                                message: 'Select a PNG image for the testnet icon of your wallet.'
+                            },
+                            file: {
+                                extension: 'png',
+                                type: 'image/png',
+                                message: 'The “Wallet testnet icon” image must be a PNG file.'
+                            }
+                        }
+                    }
+                }
+            }).on('success.form.fv', function (e) {
+
+        e.preventDefault();
+        $("#loading").show();
+        $.ajax({
+            url: "/include/ajax/ajax.purchase.wizard.php",
+            dataType: 'text',
+            data: new FormData($('#purchase-form')[0]),
+            cache: false,
+            contentType: false,
+            processData: false,
+            type: 'POST',
+            success: function (data) {
+                //console.log(data);
+                $("#loading").hide();
+                if (data === 'status_code_1') {
+                    BootstrapDialog.show({
+                        closable: true,
+                        animate: false,
+                        title: 'Free blockchain order',
+                        message: 'Your free blockchain order has been accepted.<br />You will receive an email with details when your blockchain is ready.',
+                        buttons: [{
+                                label: 'OK',
+                                action: function (dialogItself) {
+                                    dialogItself.close();
+                                }
+                            }]
+                    });
+                    $('#purchase-content').load("/include/ajax/ajax.purchase.status.php?status_code=1");
+                    window.scrollTo(0, document.body.scrollHeight);
+                }
+                if (data === 'status_code_2') {
+                    BootstrapDialog.show({
+                        closable: true,
+                        animate: false,
+                        title: 'Free blockchain order',
+                        message: 'Your free blockchain order is not accepted.<br />We offer one free blockchain per customer.',
+                        buttons: [{
+                                label: 'OK',
+                                action: function (dialogItself) {
+                                    dialogItself.close();
+                                }
+                            }]
+                    });
+                    $('#purchase-content').load("/include/ajax/ajax.purchase.status.php?status_code=2");
+                    window.scrollTo(0, document.body.scrollHeight);
+                }
+                if (data === 'status_code_3') {
+                    BootstrapDialog.show({
+                        closable: true,
+                        animate: false,
+                        title: 'Paid blockchain order',
+                        message: 'Your paid blockchain order has been accepted.<br />Please check your email for payment instructions.',
+                        buttons: [{
+                                label: 'OK',
+                                action: function (dialogItself) {
+                                    dialogItself.close();
+                                }
+                            }]
+                    });
+                    $('#purchase-content').load("/include/ajax/ajax.purchase.status.php?status_code=3");
+                    window.scrollTo(0, document.body.scrollHeight);
+                }
+                if (data === 'status_code_4') {
+                    BootstrapDialog.show({
+                        closable: true,
+                        animate: false,
+                        title: 'Paid blockchain order',
+                        message: 'Your paid blockchain order is NOT accepted.<br />Please make sure that dimensions of your uploaded images are correct.',
+                        buttons: [{
+                                label: 'OK',
+                                action: function (dialogItself) {
+                                    dialogItself.close();
+                                }
+                            }]
+                    });
+                    $('#purchase-content').load("/include/ajax/ajax.purchase.status.php?status_code=4");
+                    window.scrollTo(0, document.body.scrollHeight);
+                }
+                if (data === 'status_code_5') {
+                    BootstrapDialog.show({
+                        closable: true,
+                        animate: false,
+                        title: 'Paid blockchain order',
+                        message: 'Payment address cannot be generated, please contact the support department.',
+                        buttons: [{
+                                label: 'OK',
+                                action: function (dialogItself) {
+                                    dialogItself.close();
+                                }
+                            }]
+                    });
+                    $('#purchase-content').load("/include/ajax/ajax.purchase.status.php?status_code=5");
+                    window.scrollTo(0, document.body.scrollHeight);
+                }
+                if (data === 'status_code_6') {
+                    BootstrapDialog.show({
+                        closable: true,
+                        animate: false,
+                        title: 'Free blockchain order',
+                        message: 'The free blockchain order queue is full, please try again in a few hours.',
+                        buttons: [{
+                                label: 'OK',
+                                action: function (dialogItself) {
+                                    dialogItself.close();
+                                }
+                            }]
+                    });
+                    $('#purchase-content').load("/include/ajax/ajax.purchase.status.php?status_code=6");
+                    window.scrollTo(0, document.body.scrollHeight);
+                }
+                if (data === 'status_code_7') {
+                    BootstrapDialog.show({
+                        closable: true,
+                        animate: false,
+                        title: 'Paid blockchain order',
+                        message: 'You can purchase one blockchain per 15 minutes, please try again in 15 minutes.',
+                        buttons: [{
+                                label: 'OK',
+                                action: function (dialogItself) {
+                                    dialogItself.close();
+                                }
+                            }]
+                    });
+                    $('#purchase-content').load("/include/ajax/ajax.purchase.status.php?status_code=7");
+                    window.scrollTo(0, document.body.scrollHeight);
+                }
+            }
+        });
+        return false;
+    });
+});
