@@ -1,0 +1,152 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+		<link rel="canonical" href="https://bitcointalk.org/index.php?topic=140572.0" />
+		<title>Print Page - *......Please Help want to start own mining pool.....**</title>
+		<style type="text/css">
+			body
+			{
+				color: black;
+				background-color: white;
+			}
+			body, td, .normaltext
+			{
+				font-family: Verdana, arial, helvetica, serif;
+				font-size: small;
+			}
+			*, a:link, a:visited, a:hover, a:active
+			{
+				color: black !important;
+			}
+			table
+			{
+				empty-cells: show;
+			}
+			.code
+			{
+				font-size: x-small;
+				font-family: monospace;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.quote
+			{
+				font-size: x-small;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.smalltext, .quoteheader, .codeheader
+			{
+				font-size: x-small;
+			}
+			.largetext
+			{
+				font-size: large;
+			}
+			hr
+			{
+				height: 1px;
+				border: 0;
+				color: black;
+				background-color: black;
+			}
+		</style>
+	</head>
+	<body>
+		<h1 class="largetext">Bitcoin Forum</h1>
+		<h2 class="normaltext">Bitcoin => Bitcoin Technical Support => Topic started by: QualitySeeds on February 01, 2013, 08:56:41 PM</h2>
+
+		<table width="90%" cellpadding="0" cellspacing="0" border="0">
+			<tr>
+				<td>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>*......Please Help want to start own mining pool.....**</b><br />
+					Post by: <b>QualitySeeds</b> on <b>February 01, 2013, 08:56:41 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><b>Hi there forum members..<br /><br />i would like to know where to begin looking on how to build a own mining pool website like deepbit,50btc, And sow on...<br /><br />Is it possible and where do i start..? Hope you guys can help me out<br /><br />Cheers... ;)</b></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: *......Please Help want to start own mining pool.....**</b><br />
+					Post by: <b>QualitySeeds</b> on <b>February 01, 2013, 09:12:41 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">What are that for answers not usble at all<br /><br />I know how to search and i did but just a little help is that to much to ask.... ???</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: *......Please Help want to start own mining pool.....**</b><br />
+					Post by: <b>QualitySeeds</b> on <b>February 01, 2013, 09:32:27 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Its allot indeed and yes i do know about github...<br /><br />There are source codes that does not seem to work that good and mostly only backend <br /><br />And regular ? What you need to be then ?<br /><br />sow i do not sound sow technical well i think the same way over u....<br /><br />And if other guys can help me out with a more structure answer would be nice </div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: *......Please Help want to start own mining pool.....**</b><br />
+					Post by: <b>hardcore-fs</b> on <b>February 01, 2013, 09:35:49 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><br />1.What sort of a pool &#039;system&#039; are you going to use?<br />2. How are YOU going to fund it, if you think that it will initially self fund, then boy are you in for a surprise.<br />3. what is your infrastructure going to be<br /><br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: *......Please Help want to start own mining pool.....**</b><br />
+					Post by: <b>QualitySeeds</b> on <b>February 01, 2013, 09:46:19 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">1.Would like to mine Bitcoins and Litecoin if that&#039;s what u mean<br /><br />2.I got money that&#039;s not the problem (just little knowledge)<br /><br />3.Would answer that if i knew what u are meaning by that <br /><br />Thanks for the reply </div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: *......Please Help want to start own mining pool.....**</b><br />
+					Post by: <b>Walter Rothbard</b> on <b>February 01, 2013, 10:00:34 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">What mining have you done so far?&nbsp; What mining software packages have you tried?<br /><br />Do you know what a share is, yet?<br /><br />Have you built any bitcoin code from source?<br /><br />I would want to have all of the above experience (and more) under my belt before trying to create a new mining pool.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: *......Please Help want to start own mining pool.....**</b><br />
+					Post by: <b>wtfvanity</b> on <b>February 01, 2013, 10:06:00 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=140572.msg1496518#msg1496518">Quote from: Walter Rothbard on February 01, 2013, 10:00:34 PM</a></div><div class="quote">What mining have you done so far?&nbsp; What mining software packages have you tried?<br /><br />Do you know what a share is, yet?<br /><br />Have you built any bitcoin code from source?<br /><br />I would want to have all of the above experience (and more) under my belt before trying to create a new mining pool.<br /></div><br />You can do all of that on the testnet blockchain. Point some miners at it, and see it work. You said you see a lot of code for back end. Yes, that&#039;s right. Are there any stratum open source projects? That&#039;s where you need to go with ASIC&#039;s appearing in the wild now. <br /><br />There is no good front end and no open source secure one. You&#039;ll need to do the front on by yourself. That&#039;s what all the big players have done and most of their back ends are proprietary as well. If you can&#039;t build bitcoin from source and don&#039;t even know where to start, you should probably move on right now.<br /><br />The only way you could probably really attract a crowd is offering PPS and you&#039;ll need plenty of coin to front until you can build some hash behind you and start getting some blocks.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: *......Please Help want to start own mining pool.....**</b><br />
+					Post by: <b>QualitySeeds</b> on <b>February 01, 2013, 10:14:22 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">That&#039;s pretty clear info you have gave me <br /><br />Will contact a coder to see what possible and what the cost is gonna be <br /><br />I appreciated the help and time </div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: *......Please Help want to start own mining pool.....**</b><br />
+					Post by: <b>Walter Rothbard</b> on <b>February 01, 2013, 11:04:44 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=140572.msg1496545#msg1496545">Quote from: QualitySeeds on February 01, 2013, 10:14:22 PM</a></div><div class="quote">That&#039;s pretty clear info you have gave me</div><br />You didn&#039;t answer my questions.<br /><br /><div class="quoteheader">Quote</div><div class="quote">Will contact a coder to see what possible and what the cost is gonna be </div><br />Anything&#039;s possible with enough cost.&nbsp; But I don&#039;t think you&#039;re going to be able to hire a coder to do this without a pretty hefty bankroll.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: *......Please Help want to start own mining pool.....**</b><br />
+					Post by: <b>Walter Rothbard</b> on <b>February 02, 2013, 12:49:14 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=140572.msg1496517#msg1496517">Quote from: QualitySeeds on February 01, 2013, 09:46:19 PM</a></div><div class="quote">2.I got money that&#039;s not the problem (just little knowledge)</div><br />I would love to have you finance me while I acquire this knowledge and build this product for me.&nbsp; If you&#039;ll start with a deposit of 50 BTC to my address, I&#039;ll start discussing rates with you.&nbsp; If you don&#039;t like the proposed deal after that, I&#039;ll refund the 50.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: *......Please Help want to start own mining pool.....**</b><br />
+					Post by: <b>hardcore-fs</b> on <b>February 02, 2013, 12:52:22 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=140572.msg1496517#msg1496517">Quote from: QualitySeeds on February 01, 2013, 09:46:19 PM</a></div><div class="quote">1.Would like to mine Bitcoins and Litecoin if that&#039;s what u mean<br /><br />2.I got money that&#039;s not the problem (just little knowledge)<br /><br />3.Would answer that if i knew what u are meaning by that <br /><br />Thanks for the reply <br /></div><br />Its clear you are way out of your depth....... first thing ... do some more research into PPS etc.<br />If you carry on like this then you won&#039;t have any money.<br /><br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: *......Please Help want to start own mining pool.....**</b><br />
+					Post by: <b>Lethn</b> on <b>February 02, 2013, 09:55:41 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">I think they&#039;re right unfortunately, Bitcoin is going to start being used more like a currency now, the difficulty is just going to get too high for most people to make any profit from it, so I suggest you go and do stuff for Bitcoins instead, thankfully that can actually be done because of it being decentralised etc. unlike paper money :P</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: *......Please Help want to start own mining pool.....**</b><br />
+					Post by: <b>QualitySeeds</b> on <b>February 02, 2013, 01:01:28 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=140572.msg1496592#msg1496592">Quote from: gweedo on February 01, 2013, 10:33:20 PM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=140572.msg1496488#msg1496488">Quote from: QualitySeeds on February 01, 2013, 09:32:27 PM</a></div><div class="quote">Its allot indeed and yes i do know about github...<br /><br />There are source codes that does not seem to work that good and mostly only backend <br /><br />And regular ? What you need to be then ?<br /><br />sow i do not sound sow technical well i think the same way over u....<br /><br />And if other guys can help me out with a more structure answer would be nice <br /></div><br />WOW you want a mining pool yet no backend, a mining pool is backend software... And of course I don&#039;t sound technical when i am answering dumb questions from dumb people. LOL your going to lose all your coins trying to setup something that is a failure.<br /></div>I never said that i do not want/need Backend of a project (I need the back to make the Front) To call me dumb is a big understatement just like you are sow please leave this thread alone&nbsp; <br /><br />And thanks guys for pointing it out...i have contacted a good coder with enough experience to see what he thinks about it..<br /><br />If it cost to much what you all are saying then i&#039;m thinking of building a new marketplace where u can pay with BTC cost is less and only one i know is SR..<br /><br />Thanks for the support<br /><br />And i will let you know whatever comes out when i get my message back<br /><br />Cheers<br /></div>
+					<br /><br />
+					<div align="center" class="smalltext">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank">Powered by SMF 1.1.19</a> | 
+<a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank">SMF &copy; 2006-2009, Simple Machines</a>
+		</span></div>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

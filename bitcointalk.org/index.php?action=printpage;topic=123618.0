@@ -1,0 +1,164 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+		<link rel="canonical" href="https://bitcointalk.org/index.php?topic=123618.0" />
+		<title>Print Page - Customer sent bitcoins to a deposit address he can't retrieve . Sorted</title>
+		<style type="text/css">
+			body
+			{
+				color: black;
+				background-color: white;
+			}
+			body, td, .normaltext
+			{
+				font-family: Verdana, arial, helvetica, serif;
+				font-size: small;
+			}
+			*, a:link, a:visited, a:hover, a:active
+			{
+				color: black !important;
+			}
+			table
+			{
+				empty-cells: show;
+			}
+			.code
+			{
+				font-size: x-small;
+				font-family: monospace;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.quote
+			{
+				font-size: x-small;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.smalltext, .quoteheader, .codeheader
+			{
+				font-size: x-small;
+			}
+			.largetext
+			{
+				font-size: large;
+			}
+			hr
+			{
+				height: 1px;
+				border: 0;
+				color: black;
+				background-color: black;
+			}
+		</style>
+	</head>
+	<body>
+		<h1 class="largetext">Bitcoin Forum</h1>
+		<h2 class="normaltext">Bitcoin => Bitcoin Technical Support => Topic started by: Mjbmonetarymetals on November 10, 2012, 02:21:39 PM</h2>
+
+		<table width="90%" cellpadding="0" cellspacing="0" border="0">
+			<tr>
+				<td>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Customer sent bitcoins to a deposit address he can't retrieve . Sorted</b><br />
+					Post by: <b>Mjbmonetarymetals</b> on <b>November 10, 2012, 02:21:39 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">&nbsp;<span style="font-size: 20pt !important; line-height: 1.3em;"><b><span style="font-family: Verdana;">Coins recovered excellent work !!!!!!!</span></b></span><br /><br /><br /><del></del>I&#039;ve sent 24btc to a customer who is having issues , he&#039;s not a member of the forum so im posting this here in hopes there someone with greater tech knowledge than me (not difficult) to help him . This would be much appreciated . I can contact him for more information if this is needed &nbsp;. &nbsp;???<br /><br /><br />24btc deposited to 1J4KbPT1Ba4Ut3tML2L2gYGHhrJGpQKxX6<br /><br />Customers email -- <br /><br />Basically, the wallet on the laptop (bitcoind v0.70-beta) isn&#039;t synchronising with the network so won&#039;t update the balance.<br /><br />I have put the address on my regular blockchain online wallet and can see the balance, but need a way to export the address to the online account so that I can access the coins.<br /><br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Customer sent bitcoins to a deposit address he can't retrieve . </b><br />
+					Post by: <b>piuk</b> on <b>November 10, 2012, 02:37:48 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">You can import the Bitcoin-Qt wallet.dat into a new blockchain wallet using this tool https://blockchain.info/wallet/import-wallet<br /><br />Otherwise pywallet (https://github.com/joric/pywallet) is needed to dump the private keys. </div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Customer sent bitcoins to a deposit address he can't retrieve . </b><br />
+					Post by: <b>BCB</b> on <b>November 10, 2012, 02:50:28 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Sounds like he need to wait for the wallet to sync (which can take FOREVER these days)<br /><br />If not, down load 0.7.1 <br /><br />go to to the terminal and use &quot;walletpassphrase &lt;passphrase&gt; &lt;timeout&gt;&quot; to unlock the wallet (if it is encrypted)<br />use &quot;dumpprivkey &lt;bitcoinaddress&gt;&quot; to dump the private key.<br /><br />The import that private key into a client that is in snyc.<br /><br />a running, in sync bitcoind<br />blockchain.info<br />mtgox.com<br /><br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Customer sent bitcoins to a deposit address he can't retrieve . </b><br />
+					Post by: <b>Mjbmonetarymetals</b> on <b>November 10, 2012, 03:01:58 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">He&#039;s viewing the thread, I hope this helps !! <br /><br />Thanks BCB and piuk for taking time to assist on this . It really appreciated !! </div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Customer sent bitcoins to a deposit address he can't retrieve . </b><br />
+					Post by: <b>BCB</b> on <b>November 10, 2012, 03:06:52 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=123618.msg1327818#msg1327818">Quote from: Mjbmonetarymetals on November 10, 2012, 03:01:58 PM</a></div><div class="quote">He&#039;s viewing the thread, I hope this helps !! <br /><br />Thanks BCB and piuk for taking time to assist on this . It really appreciated !! <br /></div><br />As long as he owns the address and has access to the private key your fine.<br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Customer sent bitcoins to a deposit address he can't retrieve . </b><br />
+					Post by: <b>Mjbmonetarymetals</b> on <b>November 10, 2012, 03:21:12 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Hes having some difficulty,.....<br /><br />His reply as follows .........<br /><br />I have downloaded the latest version of the wallet, but have no idea what to do with the code the people helped with in the forum. <br /><br />I tried typing it in the console screen as is, but don&#039;t know if I was supposed to put the &quot;&lt;&gt;&quot; signs in the code line, nor what to enter where they said &lt;timeout&gt;?<br /><br />The newer version doesn&#039;t appear to be synching any faster, so help with the code line would be greatif at all poss?</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Customer sent bitcoins to a deposit address he can't retrieve . </b><br />
+					Post by: <b>BCB</b> on <b>November 10, 2012, 03:28:46 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=123618.msg1327860#msg1327860">Quote from: Mjbmonetarymetals on November 10, 2012, 03:21:12 PM</a></div><div class="quote">Hes having some difficulty,.....<br /><br />His reply as follows .........<br /><br />I have downloaded the latest version of the wallet, but have no idea what to do with the code the people helped with in the forum. <br /><br />I tried typing it in the console screen as is, but don&#039;t know if I was supposed to put the &quot;&lt;&gt;&quot; signs in the code line, nor what to enter where they said &lt;timeout&gt;?<br /><br />The newer version doesn&#039;t appear to be synching any faster, so help with the code line would be greatif at all poss?<br /></div><br /><br />Changing clients will not cause the blockchain to download any faster.&nbsp; <br /><br />Last time on I downloaded the block chain on a local machine Windows xp pro with a DLS connection I know I had to leaving it running over night at the very least before it down loaded the full block chain.<br /><br />If you are not in a hurry just let the blockchain down load and you will be fine.<br /><br />The other suggestions are a bit more complicated so if you are having trouble with this I&#039;d strongly suggest you wait.<br /><br />You can also skype me at fdajkddcek.<br /><br />Glad to help if I can.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Customer sent bitcoins to a deposit address he can't retrieve . </b><br />
+					Post by: <b>BCB</b> on <b>November 10, 2012, 11:32:58 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">I have no idea why his bitcoind was not functioning.&nbsp; I believe it was a windows permission problem.<br /><br />He as able to download and install pywallet,<br />https://github.com/joric/pywallet<br /><br />Extracted the private keys<br /><br />Then import the private key of the receive address into blockchain.info using the &quot;sweep&quot; method.<br /><br />on Windows install<br />http://www.python.org/ftp/python/2.7.2/python-2.7.2.msi<br /><br />then download and unzip <br />https://github.com/joric/pywallet/archive/master.zip<br /><br />unzip master.zip in you your &quot;My Documents&quot; folder<br /><br />type &quot;cmd&quot; in the &quot;run&quot; box (above Start in Windows7)<br /><br />also on windows 7 you&#039;ll need to run as administrator<br />so type &quot;cmd&quot; in the command box then hit &quot;Ctrl+Shift + Enter&quot;<br /><br />Then hit &quot;YES&quot;<br /><br />then in the command prompt (the black screen) navigate to to location of pywallet.py (it is in pywallet-master folder)<br /><br />then type:<br /><br />pywallet.py --password=your_password --dumpwallet &gt; c:\wallet.txt<br />(only use &quot;--password=your_password&quot; if you walled it encrypted.)<br /><br />you should now have a new file &quot;wallet.txt&quot; which is a PLAINTEXT list of every Public and Private&nbsp; Key in you wallet.<br /><br />Find the Public Key or Keys you want to import (or you could import the whole wallet if you don&#039;t have more then a few hundred addressed in there)<br /><br /><br />Remember any funds you had in the wallet or in those individual address in that are now fully accessable to anyone who has access to that unencrypted plaintext wallet.txt file so be careful what you do with it.<br /><br /><br /><br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Customer sent bitcoins to a deposit address he can't retrieve . </b><br />
+					Post by: <b>Binford 6100</b> on <b>November 10, 2012, 11:56:21 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Hi Mick, hi customer,<br /><br />just nitpicking here, you&#039;re not synchronizing your wallet but the blockchain.<br />wallet - your collection of keys &amp; addresses and transactions funding/spending addresses you control (small file)<br />blockchain - public ledger, complete history of all bitcoin transactions.<br /><br />what happened (my guess) is that your wallet is OK, you have the keys and address <br />but you have issues to find out if you received the funds (blockchain synchronization pending).<br /><br />I hope you&#039;ll solve the issue. just take good care of your wallet.dat file. <br />you can always download a copy of the blockchain but the wallet has some really unique and secret info that can not be recovered once lost.<br />Pywallet is great tool to view/modify your wallet.<br />&amp; please make backups of your wallet on regular basis, especially before tinkering with it.<br /><br />once you run pywallet.py you can also try http://localhost:8989/ - that should be your wallet in a browser with some tools to work with it. </div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Customer sent bitcoins to a deposit address he can't retrieve . </b><br />
+					Post by: <b>BCB</b> on <b>November 11, 2012, 12:04:34 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Binford 6100<br /><br />He was able to access the wallet and recover the funds.<br /><br />After 3 days his client was still not synced with the block chain.<br /><br />he was also not able to run commands from the console.<br /><br />He was getting the following error:<br /><br />Safe mode: Warning: Displayed transactions may not be correct! You may need to upgrade, or other nodes may need to upgrade. (code -2)<br /><br />I&#039;m guessing Windows Permission error but I have not idea for sure.<br /><br /><br />**Also I have never been able to get pywalled working using http://localhost:8989/&nbsp; on a windows machine.<br /><br />That is why I described the method we used in my previous post which worked just fine.<br /><br />Thanks.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Customer sent bitcoins to a deposit address he can't retrieve . Sorted</b><br />
+					Post by: <b>Binford 6100</b> on <b>November 11, 2012, 02:11:13 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">there&#039;s also an unofficial torrent file with first 200k blocks that dramatically reduces the time needed to get the client synchronized with the network. maybe too late for that now. but other new users might find it interesting peace of info.<br /><br />BCB thanks for the info. I had no issues with pywallet what so ever but, including the browser and local webserver. I liked your method description, good read and easy to follow. <br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Customer sent bitcoins to a deposit address he can't retrieve . Sorted</b><br />
+					Post by: <b>BCB</b> on <b>November 11, 2012, 02:36:31 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Thanks.<br /><br />What is the location of the Torrent file.&nbsp; I&#039;m actually going to install bitcoind on a new clean install laptop.&nbsp; I&#039;ll give it a try.<br /><br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Customer sent bitcoins to a deposit address he can't retrieve . Sorted</b><br />
+					Post by: <b>Raoul Duke</b> on <b>November 11, 2012, 02:42:54 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Only JackJack&#039;s version of pywallet includes the server.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Customer sent bitcoins to a deposit address he can't retrieve . Sorted</b><br />
+					Post by: <b>BCB</b> on <b>November 11, 2012, 02:49:37 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">ahhhh<br /><br />no wonder the server didn&#039;t work. I was using joric&#039;s.&nbsp; So there are two versions of pywallet.<br /><br />https://github.com/joric/pywallet<br /><br />https://github.com/jackjack-jj/pywallet (with server)<br /><br /><br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Customer sent bitcoins to a deposit address he can't retrieve . Sorted</b><br />
+					Post by: <b>Binford 6100</b> on <b>November 11, 2012, 11:57:08 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">@BCB <br />here&#039;s the torrent thread (jgarzik&#039;s torrent of the blockchain) https://bitcointalk.org/index.php?topic=117982.0<br /><br />and as for the pywallet, I didn&#039;t pay attention to the source, my fault. I&#039;m using jackjack&#039;s. that would explain the webserver part.<br /><br />and if you already run bitcoin on local network, you could try start it with -addnode IP of the other LAN bitcoin to sync from it over the local network.</div>
+					<br /><br />
+					<div align="center" class="smalltext">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank">Powered by SMF 1.1.19</a> | 
+<a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank">SMF &copy; 2006-2009, Simple Machines</a>
+		</span></div>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

@@ -1,0 +1,92 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+		<link rel="canonical" href="https://bitcointalk.org/index.php?topic=133769.0" />
+		<title>Print Page - What is the format for createrawtransaction() parameters using jsonRPCClient.php</title>
+		<style type="text/css">
+			body
+			{
+				color: black;
+				background-color: white;
+			}
+			body, td, .normaltext
+			{
+				font-family: Verdana, arial, helvetica, serif;
+				font-size: small;
+			}
+			*, a:link, a:visited, a:hover, a:active
+			{
+				color: black !important;
+			}
+			table
+			{
+				empty-cells: show;
+			}
+			.code
+			{
+				font-size: x-small;
+				font-family: monospace;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.quote
+			{
+				font-size: x-small;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.smalltext, .quoteheader, .codeheader
+			{
+				font-size: x-small;
+			}
+			.largetext
+			{
+				font-size: large;
+			}
+			hr
+			{
+				height: 1px;
+				border: 0;
+				color: black;
+				background-color: black;
+			}
+		</style>
+	</head>
+	<body>
+		<h1 class="largetext">Bitcoin Forum</h1>
+		<h2 class="normaltext">Bitcoin => Bitcoin Technical Support => Topic started by: querior on December 29, 2012, 03:36:19 AM</h2>
+
+		<table width="90%" cellpadding="0" cellspacing="0" border="0">
+			<tr>
+				<td>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>What is the format for createrawtransaction() parameters using jsonRPCClient.php</b><br />
+					Post by: <b>querior</b> on <b>December 29, 2012, 03:36:19 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Hi,<br /><br />I&#039;ve been playing with the rpc interface, and using the php library successfully up until now. I&#039;m trying to create a raw transaction.<br /><br />The satoshi client debug console &#039;help&#039; describes the command:<br /><div class="codeheader">Code:</div><div class="code">createrawtransaction [{&quot;txid&quot;:txid,&quot;vout&quot;:n},...] {address:amount,...}</div><br />But I&#039;m not clear on how that should translate here. So, for example, the following command (without the carriage returns) works fine in my satoshi client debug console:<br /><br /><div class="codeheader">Code:</div><div class="code">createrawtransaction [{\&quot;txid\&quot;:\&quot;aed23bb3ec7e93d69450d7e5ea49d52fcfbef9d380108f2be8fe14ef705fcea5\&quot;,<br />\&quot;vout\&quot;:2},<br />{\&quot;txid\&quot;:\&quot;b28c740c66726ab2f0397be29f2d25f091b8ab353b98b9ebf9e6ccfd080cdf49\&quot;,<br />\&quot;vout\&quot;:3}]<br />{\&quot;1GTDT3hYk4x4wzaa9k38pRsHy9SPJ7qPzT\&quot;:0.006,<br />\&quot;1ApD64wpNUM6GBeSmKYhsyaNwFot3FMC5y\&quot;:0.004}</div><br />It generates a raw transaction without problem.<br /><br /><b><span style="font-size: 12pt !important; line-height: 1.3em;">My question</span></b> is how to pass these parameters via the jsonRPCClient interface.<br /><br /><div class="codeheader">Code:</div><div class="code">$bitcoin = new jsonRPCClient(&#039;http://user:pwd@127.0.0.1:8332/&#039;);<br /><br />echo $bitcoin-&gt;createrawtransaction( ??? );</div><br /><br />Thanks in advance.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: What is the format for createrawtransaction() parameters using jsonRPCClient.php</b><br />
+					Post by: <b>kjj</b> on <b>December 30, 2012, 06:12:39 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">They are arrays.&nbsp; The first one is an array of arrays, the second is not nested.<br /><br /><div class="codeheader">Code: (php)</div><div class="code">$bitcoin-&gt;createrawtransaction(<br />&nbsp; &nbsp; array(<br />&nbsp; &nbsp; &nbsp; &nbsp; array(<br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &quot;txid&quot;=&gt;&quot;aed23bb3ec7e93d69450d7e5ea49d52fcfbef9d380108f2be8fe14ef705fcea5&quot;,<br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &quot;vout&quot;=&gt;2<br />&nbsp; &nbsp; &nbsp; &nbsp; ),<br />&nbsp; &nbsp; &nbsp; &nbsp; array(<br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &quot;txid&quot;=&gt;&quot;b28c740c66726ab2f0397be29f2d25f091b8ab353b98b9ebf9e6ccfd080cdf49&quot;,<br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &quot;vout&quot;=&gt;3<br />&nbsp; &nbsp; &nbsp; &nbsp; ),<br />&nbsp; &nbsp; ),<br />&nbsp; &nbsp; array(<br />&nbsp; &nbsp; &nbsp; &nbsp; &quot;1GTDT3hYk4x4wzaa9k38pRsHy9SPJ7qPzT&quot;=&gt;0.006,<br />&nbsp; &nbsp; &nbsp; &nbsp; &quot;1ApD64wpNUM6GBeSmKYhsyaNwFot3FMC5y&quot;=&gt;0.004,<br />&nbsp; &nbsp; )<br />);<br /></div></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: What is the format for createrawtransaction() parameters using jsonRPCClient.php</b><br />
+					Post by: <b>querior</b> on <b>December 30, 2012, 10:35:15 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">You, sir, are a gentleman and a scholar.<br /><br />Thank you very much.</div>
+					<br /><br />
+					<div align="center" class="smalltext">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank">Powered by SMF 1.1.19</a> | 
+<a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank">SMF &copy; 2006-2009, Simple Machines</a>
+		</span></div>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

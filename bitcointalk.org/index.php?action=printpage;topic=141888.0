@@ -1,0 +1,104 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+		<link rel="canonical" href="https://bitcointalk.org/index.php?topic=141888.0" />
+		<title>Print Page - Which balance should I believe? Client 7.0 version or blockchain.info</title>
+		<style type="text/css">
+			body
+			{
+				color: black;
+				background-color: white;
+			}
+			body, td, .normaltext
+			{
+				font-family: Verdana, arial, helvetica, serif;
+				font-size: small;
+			}
+			*, a:link, a:visited, a:hover, a:active
+			{
+				color: black !important;
+			}
+			table
+			{
+				empty-cells: show;
+			}
+			.code
+			{
+				font-size: x-small;
+				font-family: monospace;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.quote
+			{
+				font-size: x-small;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.smalltext, .quoteheader, .codeheader
+			{
+				font-size: x-small;
+			}
+			.largetext
+			{
+				font-size: large;
+			}
+			hr
+			{
+				height: 1px;
+				border: 0;
+				color: black;
+				background-color: black;
+			}
+		</style>
+	</head>
+	<body>
+		<h1 class="largetext">Bitcoin Forum</h1>
+		<h2 class="normaltext">Bitcoin => Bitcoin Technical Support => Topic started by: johnyj on February 08, 2013, 02:58:13 AM</h2>
+
+		<table width="90%" cellpadding="0" cellspacing="0" border="0">
+			<tr>
+				<td>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Which balance should I believe? Client 7.0 version or blockchain.info</b><br />
+					Post by: <b>johnyj</b> on <b>February 08, 2013, 02:58:13 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">I just discovered that some old transactions do not displayed the same way:<br /><br />In my bitcoin client 7.0 beta, the transaction I sent out is an integer, for example 40<br />But in blockchain.info, same transaction include 2 transactions, besides the original transaction, there is another one charging the transaction fee:<br /><br />xxxxxxxxxxxxxxxxxxxx&nbsp; 0.55126951 BTC<br />yyyyyyyyyyyyyyyyyyyy&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 40 BTC<br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;-40.49513626 BTC<br /><br />The transaction towards xxxxxxxxxxxxxxxx in the above case did not get recorded in my QT client, so client recorded only -40 BTC spending,&nbsp; but the blockchain.info recorded -40.49513626 BTC, which is not the total of these 2 transactions either, very confusing...<br /><br />The result is that my QT client showed a higher total balance than the blockchain.info for a certain address<br /><br />currently I&#039;m not able to check this out in blockexplorer.com (seems search function dead), so I have no other more authoritive info</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Which balance should I believe? Client 7.0 version or blockchain.info</b><br />
+					Post by: <b>grue</b> on <b>February 08, 2013, 03:05:13 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">pretty sure that was the &quot;change&quot; address</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Which balance should I believe? Client 7.0 version or blockchain.info</b><br />
+					Post by: <b>deepceleron</b> on <b>February 08, 2013, 05:37:30 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Bitcoin &quot;the wallet&quot; has many addresses that are yours (and are not show to you if it is a reserve or change address), which all add up to your balance. Other people&#039;s Bitcoins, or web services, can&#039;t know your balance because they don&#039;t know what addresses belong to you.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Which balance should I believe? Client 7.0 version or blockchain.info</b><br />
+					Post by: <b>DannyHamilton</b> on <b>February 08, 2013, 03:46:40 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">As grue and deepceleron have explained, this is probably &quot;change&quot; from your transaction.&nbsp; Here is a more detailed explanation:<br /><br /><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=140639.msg1497321#msg1497321">Quote from: DannyHamilton on February 02, 2013, 05:12:24 AM</a></div><div class="quote">With the way bitcoin works, you can&#039;t partially spend a previous output that you received.&nbsp; It has to be completely spent.&nbsp; So, if you receive 10 BTC all in a single transaction from someone/somewhere at an address, then that address now has a single 10 BTC output.<br /><br />Later if you want to send 2 BTC to somebody, the program can use the previous 10 BTC output as an input into the transaction, and create a 2 BTC output to the address where you want to send it.&nbsp; This leaves 8 BTC leftover in the transaction.&nbsp; If you don&#039;t send those 8 BTC somewhere, then they become miner fees and end up in the coinbase transaction of the new block for the miner to keep.&nbsp; If you don&#039;t want to give those 8 BTC away as fees to the miner, then you need to include a second output in your transaction sending the 8 BTC back to your own wallet.&nbsp; As an analogy, think of pulling a $10 bill out of your pocket to pay for something that costs $2, you get $8 back in &quot;change&quot;.<br /><br />The way Bitcoin-Qt does this is to create a new bitcoin address that it doesn&#039;t tell you about and keep track of that address and the associated private key in your wallet.dat.&nbsp; Since this isn&#039;t an address that you requested in the &quot;Receive Coins&quot; tab of the user interface, it doesn&#039;t show up in that list.&nbsp; Bitcoin-Qt knows about the address since it is in the wallet.dat file, so it includes it in the balance that it shows you.&nbsp; Bitcoin-Qt uses a new change address for every transaction.&nbsp; So if you create 10 different transactions, each sending bitcoins somewhere, then your wallet will have used 10 different change addresses (although some of them may be empty if Bitcoin-Qt used the bitcoins associated with some of those address as inputs into other transactions).<br /></div></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Which balance should I believe? Client 7.0 version or blockchain.info</b><br />
+					Post by: <b>johnyj</b> on <b>February 09, 2013, 03:18:17 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Thanks for the explaination!&nbsp; :)</div>
+					<br /><br />
+					<div align="center" class="smalltext">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank">Powered by SMF 1.1.19</a> | 
+<a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank">SMF &copy; 2006-2009, Simple Machines</a>
+		</span></div>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

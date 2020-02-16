@@ -1,0 +1,110 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+		<link rel="canonical" href="https://bitcointalk.org/index.php?topic=115005.0" />
+		<title>Print Page - Ecoinpool test_launch.config</title>
+		<style type="text/css">
+			body
+			{
+				color: black;
+				background-color: white;
+			}
+			body, td, .normaltext
+			{
+				font-family: Verdana, arial, helvetica, serif;
+				font-size: small;
+			}
+			*, a:link, a:visited, a:hover, a:active
+			{
+				color: black !important;
+			}
+			table
+			{
+				empty-cells: show;
+			}
+			.code
+			{
+				font-size: x-small;
+				font-family: monospace;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.quote
+			{
+				font-size: x-small;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.smalltext, .quoteheader, .codeheader
+			{
+				font-size: x-small;
+			}
+			.largetext
+			{
+				font-size: large;
+			}
+			hr
+			{
+				height: 1px;
+				border: 0;
+				color: black;
+				background-color: black;
+			}
+		</style>
+	</head>
+	<body>
+		<h1 class="largetext">Bitcoin Forum</h1>
+		<h2 class="normaltext">Bitcoin => Bitcoin Technical Support => Topic started by: betatest512 on October 02, 2012, 09:54:25 PM</h2>
+
+		<table width="90%" cellpadding="0" cellspacing="0" border="0">
+			<tr>
+				<td>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Ecoinpool test_launch.config</b><br />
+					Post by: <b>betatest512</b> on <b>October 02, 2012, 09:54:25 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">my ecoinpool test_launch.config :<br /><br /><br />% This is an example configuration file. Lists are denoted with [...] and tuples<br />% are denoted with {...}. Together they form a nested structure of names and<br />% parameters. If you make changes and add or remove options, make sure not to<br />% have a comma before a closing bracket or curly brace.<br /><br />[<br />&nbsp;&nbsp; &nbsp;% SASL is Erlang&#039;s internal error and crash logger; it also logs starting<br />&nbsp;&nbsp; &nbsp;% and stopping of certain processes. I set it to &quot;error&quot; here so it won&#039;t<br />&nbsp;&nbsp; &nbsp;% pollute stdout/stderr.<br />&nbsp;&nbsp; &nbsp;{sasl, [<br />&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;{errlog_type, error}<br />&nbsp;&nbsp; &nbsp;]},<br />&nbsp;&nbsp; &nbsp;<br />&nbsp;&nbsp; &nbsp;% This is ecoinpool&#039;s main configuration. The CouchDB connection is<br />&nbsp;&nbsp; &nbsp;% configured here.<br />&nbsp;&nbsp; &nbsp;{ecoinpool, [<br />&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;% The following commented lines are default settings.<br />&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;{db_host, &quot;localhost&quot;},<br />&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;{db_port, 5984},<br />&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;{db_prefix, &quot;&quot;},<br />&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;<br />&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;% The next line should be changed, depending on your CouchDB<br />&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;% authentication settings: &nbsp; username &nbsp; &nbsp; &nbsp;password<br />&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;{db_options, [{basic_auth, {&quot;admin&quot;, &quot;admin&quot;}}]},<br />&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;<br />&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;% Here you can change ecoinpool&#039;s HTTP service port, currently used to<br />&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;% serve global RPC functions used by the frontend.<br />&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;%{service_port, 8080},<br />&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;<br />&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;% The last line in this section contains your blowfish secret key, share<br />&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;% this among your servers and don&#039;t tell it to anyone else. Minimum key<br />&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;% length is 4 bytes, maximum is 56 bytes.<br />&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;% If you have pwgen (a password generator), try &quot;pwgen -s 56 1&quot; to get<br />&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;% 56 random characters.<br />&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;{blowfish_secret, &quot;1a2a3a4a5a&quot;}<br />&nbsp;&nbsp; &nbsp;]},<br />&nbsp;&nbsp; &nbsp;<br />&nbsp;&nbsp; &nbsp;% This is the ebitcoin configuration. ebitcoin forms a separate application,<br />&nbsp;&nbsp; &nbsp;% thus it doesn&#039;t share ecoinpool&#039;s database settings. If you use the same<br />&nbsp;&nbsp; &nbsp;% CouchDB server and authentication, copy it from above.<br />&nbsp;&nbsp; &nbsp;{ebitcoin, [<br />&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;% You can also disable ebitcoin altogether by uncommenting the following<br />&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;% line. Note that you will fall back to the polling system then.<br />&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;%{enabled, false},<br />&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;<br />&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;{db_host, &quot;localhost&quot;},<br />&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;{db_port, 5984},<br />&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;{db_prefix, &quot;&quot;},<br />&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;{db_options, [{basic_auth, {&quot;admin&quot;, &quot;admin&quot;}}]}<br />&nbsp;&nbsp; &nbsp;]},<br />&nbsp;&nbsp; &nbsp;<br />&nbsp;&nbsp; &nbsp;% The third separate application (it also has to be started separately) is<br />&nbsp;&nbsp; &nbsp;% the MySQL Replicator. It is used to bridge legacy MySQL worker tables to<br />&nbsp;&nbsp; &nbsp;% CouchDB and also stores copies of the shares into a MySQL table.<br />&nbsp;&nbsp; &nbsp;{ecoinpool_mysql_replicator, [<br />&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;% Again, commented lines are default settings.<br />&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;{couchdb_host, &quot;localhost&quot;},<br />&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;{couchdb_port, 5984},<br />&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;{couchdb_prefix, &quot;&quot;},<br />&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;{couchdb_options, [{basic_auth, {&quot;admin&quot;, &quot;admin&quot;}}]},<br />&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;{couchdb_database, &quot;ecoinpool&quot;},<br />&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;<br />&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;{mysql_host, &quot;localhost&quot;},<br />&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;{mysql_port, 3306},<br />&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;{mysql_prefix, &quot;&quot;},<br />&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;{mysql_options, [{auth, {&quot;admin&quot;, &quot;admin&quot;}}]},<br />&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;{mysql_database, &quot;ecoinpool&quot;},<br />&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;<br />&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;% This is a setting that certainly has to be changed. Configure one or<br />&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;% more worker table replicators here (if you have multiple sub-pools).<br />&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;% Please only connect one sub-pool to one table or things get jammed up.<br />&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;{replicator_configs, [<br />&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Format: {&lt;ecoinpool sub-pool ID&gt;, &lt;MySQL worker table&gt;, &lt;MySQL sync interval in seconds, 1 or more&gt;}<br />&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;{&quot;24aa68ec6c910de0850ed0c575621ec9&quot;, &quot;pool_worker&quot;, 15}<br />&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;]},<br />&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;<br />&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;% Next is your blowfish secret key. Copy it from above.<br />&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;{blowfish_secret, &quot;1a2a3a4a5a&quot;},<br />&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;<br />&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;% And the last one, also to be likely changed, is the shares deployer<br />&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;% configuration. There are two possible formats here, one with and one<br />&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;% without using merged mining. The config ID is used as basename for<br />&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;% saving the deployment state file and for the &quot;source&quot; column.<br />&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;{share_deployer_configs, [<br />&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;% Non-MM Format: {&lt;config ID string&gt;, &lt;pool name&gt;, &lt;MySQL shares table&gt;, &lt;MySQL write interval in seconds, 0 allowed&gt;}<br />&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;{&quot;ltc_test_shares&quot;, &quot;ltc-test&quot;, &quot;shares&quot;, 60},<br />&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; MM Format: {&lt;config ID string&gt;, &lt;main pool name&gt;, &lt;aux pool name&gt;, &lt;MySQL shares table&gt;, &lt;MySQL write interval in seconds, 0 allowed&gt;}<br />&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;{&quot;btc_nmc_test_shares&quot;, &quot;btc-test&quot;, &quot;nmc-test&quot;, &quot;shares&quot;, 60}<br />&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;]}<br />&nbsp;&nbsp; &nbsp;]}<br />].<br /><br />i use ubuntu 11.10<br />when i run Ecoinpool i get error <br /><br />{&quot;could not start kernel pid&quot;,application_controller,&quot;error in config file \&quot;./test_launch.config\&quot; (88): syntax error before: Format&quot;}<br /><br />Crash dump was written to: erl_crash.dump<br />could not start kernel pid (application_controller) (error in config file &quot;./test_launch.config&quot; (88): syntax error before: Format)</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Ecoinpool test_launch.config</b><br />
+					Post by: <b>sippsnapp</b> on <b>October 03, 2012, 06:20:09 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">As it says, line 88.<br /><div class="codeheader">Code:</div><div class="code">% MM Format: {&lt;config ID string&gt;, &lt;main pool name&gt;, &lt;aux pool name&gt;, &lt;MySQL shares table&gt;, &lt;MySQL write interval in seconds, 0 allowed&gt;}<br />&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;{&quot;btc_nmc_test_shares&quot;, &quot;btc-test&quot;, &quot;nmc-test&quot;, &quot;shares&quot;, 60}<br />&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;]}<br />&nbsp;&nbsp; &nbsp;]}<br />].</div><br />Im not a coder, so maybe im wrong but i would try to unkomment it was default.<br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Ecoinpool test_launch.config</b><br />
+					Post by: <b>sippsnapp</b> on <b>October 03, 2012, 06:22:18 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">BTW, i recognized you posting multiple times about ecoinpool and pushpool, why not try eloi or poolserverj, both are mostprobably more easy to setup and eloi is still supported.<br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Ecoinpool test_launch.config</b><br />
+					Post by: <b>betatest512</b> on <b>October 03, 2012, 04:05:53 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">anyway in my code line number 88 is not commented<br /><br />and i am trying to make a pool that can mine LTC and BTC</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Ecoinpool test_launch.config</b><br />
+					Post by: <b>Graet</b> on <b>October 03, 2012, 11:59:04 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=115005.msg1241228#msg1241228">Quote from: sippsnapp on October 03, 2012, 06:22:18 AM</a></div><div class="quote">BTW, i recognized you posting multiple times about ecoinpool and pushpool, why not try eloi or poolserverj, both are mostprobably more easy to setup and eloi is still supported.<br /><br /></div>ecoinpool is supported, unfortunately the author has been busy with a (well paid) irl project. I spoke to him recently and he is working on the next version with stratum support and variable diff.<br />poolserverj however hasn&#039;t been updated since before last December and the one time I saw its author since December he asked me to buy his Bitcoins but didn&#039;t respond to the email I sent in reply &lt;- this is the unsupported one :)<br /><br />OP https://bitcointalk.org/index.php?topic=56068.0 would seem to be a more logical place to ask your questions re ecoinpool</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Ecoinpool test_launch.config</b><br />
+					Post by: <b>arruah</b> on <b>April 05, 2013, 06:41:03 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">can someone help me with that ?<br /><br />root@feinman:~/ltc/ecoinpool# ./test_launch.sh <br />==&gt; ecoinpool (compile)<br />==&gt; ebitcoin (compile)<br />==&gt; rel (compile)<br />==&gt; ecoinpool (compile)<br />Erlang R15B03 (erts-5.9.3.1) [source] [64-bit] [smp:4:4] [async-threads:0] [hipe] [kernel-poll:true]<br /><br />Eshell V5.9.3.1&nbsp; (abort with ^G)<br />(ecoinpool_test@feinman)1&gt; {&quot;init terminating in do_boot&quot;,{{badmatch,{error,{shutdown,{ebitcoin_app,start,[normal,&#91;]]}}}},[{ecoinpool_test_launch,start,0,[{file,&quot;src/ecoinpool_test_launch.erl&quot;},{line,34}]},{init,start_it,1,&#91;]},{init,start_em,1,&#91;]}]}}<br /><br />Crash dump was written to: erl_crash.dump<br />init terminating in do_boot ()<br /></div>
+					<br /><br />
+					<div align="center" class="smalltext">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank">Powered by SMF 1.1.19</a> | 
+<a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank">SMF &copy; 2006-2009, Simple Machines</a>
+		</span></div>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

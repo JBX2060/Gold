@@ -1,0 +1,224 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+		<link rel="canonical" href="https://bitcointalk.org/index.php?topic=138688.0" />
+		<title>Print Page - [10 btc reward] protocol, wallet and client version mismatch errors</title>
+		<style type="text/css">
+			body
+			{
+				color: black;
+				background-color: white;
+			}
+			body, td, .normaltext
+			{
+				font-family: Verdana, arial, helvetica, serif;
+				font-size: small;
+			}
+			*, a:link, a:visited, a:hover, a:active
+			{
+				color: black !important;
+			}
+			table
+			{
+				empty-cells: show;
+			}
+			.code
+			{
+				font-size: x-small;
+				font-family: monospace;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.quote
+			{
+				font-size: x-small;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.smalltext, .quoteheader, .codeheader
+			{
+				font-size: x-small;
+			}
+			.largetext
+			{
+				font-size: large;
+			}
+			hr
+			{
+				height: 1px;
+				border: 0;
+				color: black;
+				background-color: black;
+			}
+		</style>
+	</head>
+	<body>
+		<h1 class="largetext">Bitcoin Forum</h1>
+		<h2 class="normaltext">Bitcoin => Bitcoin Technical Support => Topic started by: kohlanta on January 24, 2013, 10:55:31 PM</h2>
+
+		<table width="90%" cellpadding="0" cellspacing="0" border="0">
+			<tr>
+				<td>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>[10 btc reward] protocol, wallet and client version mismatch errors</b><br />
+					Post by: <b>kohlanta</b> on <b>January 24, 2013, 10:55:31 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">I am running 2 bitcoind instances on ubuntu 12.04.1 LTS server, wallet a and wallet b.&nbsp; The version info from getinfo() for wallet a is<br /><div class="codeheader">Code:</div><div class="code">&nbsp; &nbsp; &quot;version&quot; : 60300,<br />&nbsp; &nbsp; &quot;protocolversion&quot; : 60001,<br />&nbsp; &nbsp; &quot;walletversion&quot; : 60000,<br /></div><br />The version info from getinfo() for wallet b is<br /><div class="codeheader">Code:</div><div class="code">&nbsp; &nbsp; &quot;version&quot; : 70200,<br />&nbsp; &nbsp; &quot;protocolversion&quot; : 60002,<br />&nbsp; &nbsp; &quot;walletversion&quot; : 60000,<br /></div><br />If I try to export wallet.dat from wallet a, put it in an empty .bitcoin directory and run it with the latest client version (7.0.2) I get the following error<br /><div class="codeheader">Code:</div><div class="code">Bitcoin: wallet.dat corrupt, salvage failed<br /></div><br />Obviously wallet b will run with the latest client as seen in the version output.&nbsp; This leads me to believe that the issue is the protocol version.&nbsp; For some reason 60001 is incompatible with the latest client, and 60002 is.<br /><br />So, here is the 10 btc question:<br />How can I get wallet a to run on the latest client?&nbsp; It doesn&#039;t work for me to just transfer the balance to a new wallet, because I need the addresses in wallet a.&nbsp; Also, wallet a has a bunch of addys.&nbsp; It&#039;s around 1 gb in size.<br /><br />First person to post a solution that I can get to work wins the 10 btc.&nbsp; Thanks in advance!</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [10 btc reward] protocol, wallet and client version mismatch errors</b><br />
+					Post by: <b>Raoul Duke</b> on <b>January 24, 2013, 11:04:11 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Try to detach databases on shutdown and then replace the wallet.<br />You have to do that when upgrading from 0.6.x to 0.7.x<br /><br />Not sure if you should also copy the blockchain data, to make it think you are upgrading.<br /><br />BTW, this is a wild guess ;D</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [10 btc reward] protocol, wallet and client version mismatch errors</b><br />
+					Post by: <b>kohlanta</b> on <b>January 24, 2013, 11:06:57 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=138688.msg1477194#msg1477194">Quote from: psy on January 24, 2013, 11:04:11 PM</a></div><div class="quote">Try to detach databases on shutdown and then replace the wallet.<br />You have to do that when upgrading from 0.6.x to 0.7.x<br /><br />Not sure if you should also copy the blockchain data, to make it think you are upgrading.<br /><br />BTW, this is a wild guess ;D<br /></div><br />a wild guess is better than none.&nbsp; how do I &quot;detach databases on shutdown&quot;?</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [10 btc reward] protocol, wallet and client version mismatch errors</b><br />
+					Post by: <b>Raoul Duke</b> on <b>January 24, 2013, 11:10:14 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">On the options window there is a checkbox with that text. Check it. Close the client. It will take a few minutes to completely close while it detaches the DB&#039;s.<br /><br />Your best option will be to probably copy the entire bitcoin data dir to the new location, instead of copying just the wallet.dat.<br />Don&#039;t forget to backup any data before replacing it. &lt;--- can&#039;t be said enough times :)</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [10 btc reward] protocol, wallet and client version mismatch errors</b><br />
+					Post by: <b>kohlanta</b> on <b>January 24, 2013, 11:15:55 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=138688.msg1477212#msg1477212">Quote from: psy on January 24, 2013, 11:10:14 PM</a></div><div class="quote">On the options window there is a checkbox with that text. Check it. Close the client. It will take a few minutes to completely close while it detaches the DB&#039;s.<br /></div><br />I&#039;m using the headless client on a server, so there must be a flag or something.&nbsp; I usually shutdown by doing <div class="codeheader">Code:</div><div class="code">bitcoind stop</div></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [10 btc reward] protocol, wallet and client version mismatch errors</b><br />
+					Post by: <b>Raoul Duke</b> on <b>January 24, 2013, 11:17:12 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Start bitcoind with<br /><div class="codeheader">Code:</div><div class="code">bitcoind -detachdb=1</div> and after shut it down as usual.<br /><br /><br />EDIT: Reading further I found that the wallet.dat is always detached at shutdown.<br /><br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [10 btc reward] protocol, wallet and client version mismatch errors</b><br />
+					Post by: <b>kohlanta</b> on <b>January 24, 2013, 11:28:05 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=138688.msg1477230#msg1477230">Quote from: psy on January 24, 2013, 11:17:12 PM</a></div><div class="quote">Start bitcoind with<br /><div class="codeheader">Code:</div><div class="code">bitcoind -detachdb=1</div> and after shut it down as usual.<br /><br /></div><br />Let me make sure I have this straight.&nbsp; I start wallet a with bitcoind -detachdb=1, then stop it with bitcoind stop, then take the wallet.dat for wallet a and try to run the latest client with it?</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [10 btc reward] protocol, wallet and client version mismatch errors</b><br />
+					Post by: <b>Raoul Duke</b> on <b>January 24, 2013, 11:33:28 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Yup, that would be it.<br /><br />Also: Read my edit above.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [10 btc reward] protocol, wallet and client version mismatch errors</b><br />
+					Post by: <b>nethead</b> on <b>January 24, 2013, 11:52:26 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Ideas i got:<br /><br />1. import your wallet.dat to blockchain, and extract it from there (maybe it will fix it)<br />2. There is a program somewhere around here, that extracts the private keys from the wallet.dat file (and then you import them to the other wallet)<br />3. I tried googling how to get private keys from old wallet, and got manyyy results, i think you will too &nbsp;:P<br /><br /><br />Hope i helped a little, and even a little part of those 10 btc would make me very happy :)<br /><br />(im trying to find the program name)<br /><br /><br />EDIT: blockchain.info can also hand you your private keys after you imported the wallet.dat <br />see https://blockchain.info/wallet/import-wallet<br /><br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [10 btc reward] protocol, wallet and client version mismatch errors</b><br />
+					Post by: <b>Raoul Duke</b> on <b>January 25, 2013, 12:00:53 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">nethead, blockchain.info My Wallet has a limit of 400 private keys in each wallet. That&#039;s probably an important detail to keep in mind.<br />I would need 10 or more My Wallet accounts to be able to import my 15MB wallet.dat with 4000+ addresses.<br />OP says his wallet.dat is 1GB in size.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [10 btc reward] protocol, wallet and client version mismatch errors</b><br />
+					Post by: <b>kjj</b> on <b>January 25, 2013, 12:02:25 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">The <i>stop</i> RPC command can also take an optional argument to force (or prevent) a full database detach.<br /><br /><div class="codeheader">Code:</div><div class="code">bitcoind stop true<br /></div></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [10 btc reward] protocol, wallet and client version mismatch errors</b><br />
+					Post by: <b>nethead</b> on <b>January 25, 2013, 12:13:30 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=138688.msg1477322#msg1477322">Quote from: psy on January 25, 2013, 12:00:53 AM</a></div><div class="quote">nethead, blockchain.info My Wallet has a limit of 400 private keys in each wallet. That&#039;s probably an important detail to keep in mind.<br />I would need 10 or more My Wallet accounts to be able to import my 15MB wallet.dat with 4000+ addresses.<br />OP says his wallet.dat is 1GB in size.<br /></div><br />Didnt know that, and didnt see the 1gb part, sorry from my side.<br />The other way with the program that exports the keys so do it i guess, but still didnt find the name of it, im sure it here in the forum though</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [10 btc reward] protocol, wallet and client version mismatch errors</b><br />
+					Post by: <b>Raoul Duke</b> on <b>January 25, 2013, 12:14:40 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=138688.msg1477348#msg1477348">Quote from: nethead on January 25, 2013, 12:13:30 AM</a></div><div class="quote">The other way with the program that exports the keys so do it i guess, but still didnt find the name of it, im sure it here in the forum though<br /></div><br />pywallet</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [10 btc reward] protocol, wallet and client version mismatch errors</b><br />
+					Post by: <b>nethead</b> on <b>January 25, 2013, 12:16:36 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=138688.msg1477351#msg1477351">Quote from: psy on January 25, 2013, 12:14:40 AM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=138688.msg1477348#msg1477348">Quote from: nethead on January 25, 2013, 12:13:30 AM</a></div><div class="quote">The other way with the program that exports the keys so do it i guess, but still didnt find the name of it, im sure it here in the forum though<br /></div><br />pywallet<br /></div><br />Yup thats it, i really hope that if the way you previously said does not work pywallet will, split reward :D</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [10 btc reward] protocol, wallet and client version mismatch errors</b><br />
+					Post by: <b>kohlanta</b> on <b>January 25, 2013, 12:25:22 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">ok, im looking into pywallet.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [10 btc reward] protocol, wallet and client version mismatch errors</b><br />
+					Post by: <b>Raoul Duke</b> on <b>January 25, 2013, 12:30:24 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=138688.msg1477365#msg1477365">Quote from: kohlanta on January 25, 2013, 12:25:22 AM</a></div><div class="quote">ok, im looking into pywallet.<br /></div><br />pywallet will only help you to retrieve/dump your private keys in bulk. You&#039;ll still need to find a way to import them on a new wallet, beacuse AFAIK pywallet only let&#039;s you import 1 private key at a time.<br /><br />BTW, could you do one small thing, just to troubleshoot?<br />Can you rename your wallet a and let the 0.6.1 client create a new wallet.dat and try running that newly created wallet on the 0.7.2 client, just to see if it works?<br />Or maybe you already did that :)</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [10 btc reward] protocol, wallet and client version mismatch errors</b><br />
+					Post by: <b>bitfarmer</b> on <b>January 25, 2013, 01:25:55 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">A 1 gb wallet? Yikes! Dare I ask how and why?</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [10 btc reward] protocol, wallet and client version mismatch errors</b><br />
+					Post by: <b>paraipan</b> on <b>January 25, 2013, 01:28:42 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=138688.msg1477174#msg1477174">Quote from: kohlanta on January 24, 2013, 10:55:31 PM</a></div><div class="quote">...<br /><div class="codeheader">Code:</div><div class="code">Bitcoin: wallet.dat corrupt, salvage failed<br /></div><br />...<br /></div><br />First of all try running the wallet A with &quot;-detachdb=1&quot;, as psy suggested, and then stop it so you have a consistent database file (wallet) before you copy it over.<br /><br />If it doesn&#039;t work you can use the db4.8_dump and db4.8_load utilities to recover it completely. You may need to install db4.8-util package first.<br /><br /><div class="codeheader">Code:</div><div class="code">db4.8_dump -p wallet.dat &gt;wallet.txt</div><br />Import the purged dump again:<br /><br /><div class="codeheader">Code:</div><div class="code">db4.8_load -f wallet.txt wallet.dat.new</div><br />Replace wallet.dat with wallet.dat.new, and start bitcoin.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [10 btc reward] protocol, wallet and client version mismatch errors</b><br />
+					Post by: <b>kohlanta</b> on <b>January 25, 2013, 01:31:44 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">I think pywallet plus some scripting will do the trick. &nbsp;I&#039;ll check back in here when/if I get it to work and hit you guys up for payment addresses for the bounty.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [10 btc reward] protocol, wallet and client version mismatch errors</b><br />
+					Post by: <b>kohlanta</b> on <b>January 26, 2013, 01:10:24 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">ok, pywallet works well to get the privkeys from wallet a, but unfortunately it is not designed to work with wallets with versions later than 32500, so when I try to import into a new wallet, the wallet gets corrupted.<br /><br />So, I am very close, and I like this bulk import/export method because I can prune this giant wallet I have, but I am at a loss how to import the addresses.&nbsp; The new client has the importprivkey function, but it takes 1-2 minutes per address to import.<br /><br />Does anyone know a way to import privkeys into a wallet quickly?</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [10 btc reward] protocol, wallet and client version mismatch errors</b><br />
+					Post by: <b>kohlanta</b> on <b>January 26, 2013, 02:03:39 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">found and confirmed a hack that takes the import time down to 6 seconds per key.<br /><br />psy please provide an address for your 10 btc reward for helping me find pywallet.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [10 btc reward] protocol, wallet and client version mismatch errors</b><br />
+					Post by: <b>Raoul Duke</b> on <b>January 26, 2013, 02:56:18 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">yay!&nbsp; :o Thanks!<br /><br />Maybe you could post the hack you used, in the Open Source spirit, you know :P, so it can help other users who face the same problem now or in the future. That would be really great.<br /><br />Here&#039;s my address: 1PKyq6aMKcCwn8cmb9Jc5SkNydLsQb5n7K</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [10 btc reward] protocol, wallet and client version mismatch errors</b><br />
+					Post by: <b>kohlanta</b> on <b>January 27, 2013, 02:43:34 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">that part of the solution was actually on these forums:<br /><br />https://bitcointalk.org/index.php?topic=43496.msg1065765#msg1065765</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [10 btc reward] protocol, wallet and client version mismatch errors</b><br />
+					Post by: <b>chufchuf</b> on <b>April 13, 2013, 02:11:03 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=138688.msg1480024#msg1480024">Quote from: kohlanta on January 26, 2013, 01:10:24 AM</a></div><div class="quote">ok, pywallet works well to get the privkeys from wallet a, but unfortunately it is not designed to work with wallets with versions later than 32500, so when I try to import into a new wallet, the wallet gets corrupted.<br /><br />So, I am very close, and I like this bulk import/export method because I can prune this giant wallet I have, but I am at a loss how to import the addresses.&nbsp; The new client has the importprivkey function, but it takes 1-2 minutes per address to import.<br /><br />Does anyone know a way to import privkeys into a wallet quickly?<br /></div><br />What did you mean by versions later than 32500?</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [10 btc reward] protocol, wallet and client version mismatch errors</b><br />
+					Post by: <b>jackjack</b> on <b>April 13, 2013, 10:36:01 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">He meant 0.3.25<br />BTW pywallet now works with last wallet versions</div>
+					<br /><br />
+					<div align="center" class="smalltext">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank">Powered by SMF 1.1.19</a> | 
+<a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank">SMF &copy; 2006-2009, Simple Machines</a>
+		</span></div>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

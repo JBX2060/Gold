@@ -1,0 +1,152 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+		<link rel="canonical" href="https://bitcointalk.org/index.php?topic=118717.0" />
+		<title>Print Page - Why do hashes begin with 0000000...?</title>
+		<style type="text/css">
+			body
+			{
+				color: black;
+				background-color: white;
+			}
+			body, td, .normaltext
+			{
+				font-family: Verdana, arial, helvetica, serif;
+				font-size: small;
+			}
+			*, a:link, a:visited, a:hover, a:active
+			{
+				color: black !important;
+			}
+			table
+			{
+				empty-cells: show;
+			}
+			.code
+			{
+				font-size: x-small;
+				font-family: monospace;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.quote
+			{
+				font-size: x-small;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.smalltext, .quoteheader, .codeheader
+			{
+				font-size: x-small;
+			}
+			.largetext
+			{
+				font-size: large;
+			}
+			hr
+			{
+				height: 1px;
+				border: 0;
+				color: black;
+				background-color: black;
+			}
+		</style>
+	</head>
+	<body>
+		<h1 class="largetext">Bitcoin Forum</h1>
+		<h2 class="normaltext">Bitcoin => Bitcoin Technical Support => Topic started by: TradeFortress &#127957; on October 16, 2012, 07:02:53 AM</h2>
+
+		<table width="90%" cellpadding="0" cellspacing="0" border="0">
+			<tr>
+				<td>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Why do hashes begin with 0000000...?</b><br />
+					Post by: <b>TradeFortress &#127957;</b> on <b>October 16, 2012, 07:02:53 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">For example, this page: http://blockchain.info/blocks/BTC%20Guild<br /><br />Is there any reason for the hash being like that? </div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Why do hashes begin with 0000000...?</b><br />
+					Post by: <b>Fjordbit</b> on <b>October 16, 2012, 07:07:27 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=118717.msg1275390#msg1275390">Quote from: TradeFortress on October 16, 2012, 07:02:53 AM</a></div><div class="quote">For example, this page: http://blockchain.info/blocks/BTC%20Guild<br /><br />Is there any reason for the hash being like that? <br /></div><br />Yes, this is how the difficulty works. For a miner to successfully record the blocks, they have to have the transactions and block header all work out to have a hash less than a certain number. So the beginning will always have a bunch of zeros because the hash has to work out less than a certain target.<br /><br />See the article on difficulty (https://en.bitcoin.it/wiki/Difficulty) for more details.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Why do hashes begin with 0000000...?</b><br />
+					Post by: <b>CIYAM</b> on <b>October 16, 2012, 07:10:03 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">The SHA256 &quot;solution&quot; hash for a block requires x number of zeros at the start as the way of controlling the &quot;difficulty&quot; to find such a hash by continually trying to hash the block header with a different &quot;nonce&quot; until such a solution is found.<br /><br />This is the &quot;proof of work&quot; that is fundamental to the Bitcoin block chain method to prevent double spends.<br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Why do hashes begin with 0000000...?</b><br />
+					Post by: <b>herzmeister</b> on <b>October 16, 2012, 07:42:26 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">You will know that we have reached the economic, technological and cosmological singularity once we&#039;ve reached the 00000000000000000000000000000000000000000000000000000000000000000 hash.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Why do hashes begin with 0000000...?</b><br />
+					Post by: <b>waspoza</b> on <b>October 16, 2012, 08:37:15 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=118717.msg1275439#msg1275439">Quote from: herzmeister on October 16, 2012, 07:42:26 AM</a></div><div class="quote">You will know that we have reached the economic, technological and cosmological singularity once we&#039;ve reached the 00000000000000000000000000000000000000000000000000000000000000000 hash.<br /></div><br />And when that happens, division by zero will became possible and universe will cease to exist. &nbsp;;)</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Why do hashes begin with 0000000...?</b><br />
+					Post by: <b>Come-from-Beyond</b> on <b>October 16, 2012, 08:52:44 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=118717.msg1275494#msg1275494">Quote from: waspoza on October 16, 2012, 08:37:15 AM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=118717.msg1275439#msg1275439">Quote from: herzmeister on October 16, 2012, 07:42:26 AM</a></div><div class="quote">You will know that we have reached the economic, technological and cosmological singularity once we&#039;ve reached the 00000000000000000000000000000000000000000000000000000000000000000 hash.<br /></div><br />And when that happens, division by zero will became possible and universe will cease to exist. &nbsp;;)<br /></div><br />To find &quot;00000000000000000000000000000000000000000000000000000000000000000&quot; hash is not harder than to find &quot;458264a810936934867095f02578963498570298345702946587165c845698074&quot; one.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Why do hashes begin with 0000000...?</b><br />
+					Post by: <b>Meni Rosenfeld</b> on <b>October 16, 2012, 10:03:41 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=118717.msg1275510#msg1275510">Quote from: Come-from-Beyond on October 16, 2012, 08:52:44 AM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=118717.msg1275494#msg1275494">Quote from: waspoza on October 16, 2012, 08:37:15 AM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=118717.msg1275439#msg1275439">Quote from: herzmeister on October 16, 2012, 07:42:26 AM</a></div><div class="quote">You will know that we have reached the economic, technological and cosmological singularity once we&#039;ve reached the 00000000000000000000000000000000000000000000000000000000000000000 hash.<br /></div><br />And when that happens, division by zero will became possible and universe will cease to exist. &nbsp;;)<br /></div><br />To find &quot;00000000000000000000000000000000000000000000000000000000000000000&quot; hash is not harder than to find &quot;458264a810936934867095f02578963498570298345702946587165c845698074&quot; one.<br /></div>&quot;00000000000000000000000000000000000000000000000000000000000000000&quot; has a lower Kolmogorov complexity, making finding it a more impressive achievement than &quot;458264a810936934867095f02578963498570298345702946587165c845698074&quot;.<br /><br />Of course, all it would mean is that SHA-256 has been sufficiently broken.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Why do hashes begin with 0000000...?</b><br />
+					Post by: <b>TangibleCryptography</b> on <b>October 16, 2012, 11:15:04 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=118717.msg1275582#msg1275582">Quote from: Meni Rosenfeld on October 16, 2012, 10:03:41 AM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=118717.msg1275510#msg1275510">Quote from: Come-from-Beyond on October 16, 2012, 08:52:44 AM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=118717.msg1275494#msg1275494">Quote from: waspoza on October 16, 2012, 08:37:15 AM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=118717.msg1275439#msg1275439">Quote from: herzmeister on October 16, 2012, 07:42:26 AM</a></div><div class="quote">You will know that we have reached the economic, technological and cosmological singularity once we&#039;ve reached the 00000000000000000000000000000000000000000000000000000000000000000 hash.<br /></div><br />And when that happens, division by zero will became possible and universe will cease to exist.&nbsp; ;)<br /></div><br />To find &quot;00000000000000000000000000000000000000000000000000000000000000000&quot; hash is not harder than to find &quot;458264a810936934867095f02578963498570298345702946587165c845698074&quot; one.<br /></div>&quot;00000000000000000000000000000000000000000000000000000000000000000&quot; has a lower Kolmogorov complexity, making finding it a more impressive achievement than &quot;458264a810936934867095f02578963498570298345702946587165c845698074&quot;.<br /><br />Of course, all it would mean is that SHA-256 has been sufficiently broken.<br /></div><br />It could mean that however it could simply be pure luck.&nbsp; A solution for a block (any block) today could be found that produces an all zero hash.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Why do hashes begin with 0000000...?</b><br />
+					Post by: <b>Come-from-Beyond</b> on <b>October 16, 2012, 11:32:34 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=118717.msg1275670#msg1275670">Quote from: TangibleCryptography on October 16, 2012, 11:15:04 AM</a></div><div class="quote">It could mean that however it could simply be pure luck.&nbsp; A solution for a block (any block) today could be found that produces an all zero hash.<br /></div><br />Doubtful. Who will calc 2<sup>255</sup> hashes in average to find such a solution?</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Why do hashes begin with 0000000...?</b><br />
+					Post by: <b>TangibleCryptography</b> on <b>October 16, 2012, 11:48:21 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=118717.msg1275694#msg1275694">Quote from: Come-from-Beyond on October 16, 2012, 11:32:34 AM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=118717.msg1275670#msg1275670">Quote from: TangibleCryptography on October 16, 2012, 11:15:04 AM</a></div><div class="quote">It could mean that however it could simply be pure luck. &nbsp;A solution for a block (any block) today could be found that produces an all zero hash.<br /></div><br />Doubtful. Who will calc 2<sup>255</sup> hashes in average to find such a solution?<br /></div><br />Well that is the thing about probability. &nbsp;While on AVERAGE (over an infinite number of universes) it will take 2^255 attempts to find that hash the same thing can be said of any individual hash.<br /><br />The odds of finding this exact hash:<br />000000000000006472e36fb3dc1f77b846feabe001b2b86fc78fe8110cd6ce4f&nbsp; (solution for the most recent block #203545)<br />is also one in 2^256 and if you were looking for this specific hash using random inputs it would take on average 2^255 attempts.<br /><br /><br />There isn&#039;t anything special or harder about an all zero hash. &nbsp;Difficulty simply reduces the <b>set of valid hashes</b> relative to the <b>set of all possible hashes</b> and thus controls how many attempts on average will be necessary to find a valid one.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Why do hashes begin with 0000000...?</b><br />
+					Post by: <b>Come-from-Beyond</b> on <b>October 16, 2012, 11:54:36 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">I see. Btw, is there any proof that output of SHA256 is distributed uniformly? I suspect that some outputs r met more often than others.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Why do hashes begin with 0000000...?</b><br />
+					Post by: <b>TangibleCryptography</b> on <b>October 16, 2012, 12:02:35 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=118717.msg1275721#msg1275721">Quote from: Come-from-Beyond on October 16, 2012, 11:54:36 AM</a></div><div class="quote">I see. Btw, is there any proof that output of SHA256 is distributed uniformly? I suspect that some outputs r met more often than others.<br /></div><br />No hashing algorithm is perfectly distributed. &nbsp;That goal isn&#039;t even realistic or attempted. &nbsp;The theoretical &quot;perfect&quot; hashing function would be a Random Oracle (http://en.wikipedia.org/wiki/Random_oracle). &nbsp;All practical implementations fall short of this ideal. &nbsp;SHA256 has been studied extensively to ensure its distribution is (for lack of a better term) &quot;randomly distributed enough&quot; to make using any imperfections in distribution an ineffective attack vector.<br /><br /><br />Here is a paper on forcing a collision attack (a method of exploiting non-random distribution) on a round reduced version of SHA256.<br />http://eprint.iacr.org/2008/131.pdf<br /><br />By round reduced it means that this &quot;attack&quot; is only theoretical at best because it involves a shortened version of the SHA256 algorithm.&nbsp; In theory similar attacks could eventually be found on longer versions and possibly someday even the full length version.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Why do hashes begin with 0000000...?</b><br />
+					Post by: <b>Meni Rosenfeld</b> on <b>October 16, 2012, 12:14:16 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=118717.msg1275711#msg1275711">Quote from: TangibleCryptography on October 16, 2012, 11:48:21 AM</a></div><div class="quote">There isn&#039;t anything special or harder about an all zero hash.<br /></div>If you ask me, &quot;will you bet your life on the fact that no SHA-256 hash will be found by 2020 with a value of 00000000000000000000000000000000000000000000000000000000000000000, without SHA-256 being broken?&quot;, I&#039;ll say &quot;sure&quot;, because this has a probability of about 1 in 10^50, and will thus not happen.<br /><br />If you ask me the same about b0867d52439eedac556187087c69bbe6fdb3c47f266780775931068f18fae223, I will refuse. Why? Because I don&#039;t know how you came up with b0867d52439eedac556187087c69bbe6fdb3c47f266780775931068f18fae223. Maybe you generated it truly randomly (and then the answer is the same). But maybe you came up with it by calculating some SHA-256 hash, and then I will lose even before the bet began.<br /><br />What makes me so confident in the 00000000000000000000000000000000000000000000000000000000000000000 case, and not in the b0867d52439eedac556187087c69bbe6fdb3c47f266780775931068f18fae223 case, is that 0 has a much lower Kolmogorov complexity (and the describing program has no reference to anything remotely relevant to SHA-256).</div>
+					<br /><br />
+					<div align="center" class="smalltext">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank">Powered by SMF 1.1.19</a> | 
+<a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank">SMF &copy; 2006-2009, Simple Machines</a>
+		</span></div>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

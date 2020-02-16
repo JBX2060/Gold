@@ -1,0 +1,104 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+		<link rel="canonical" href="https://bitcointalk.org/index.php?topic=119710.0" />
+		<title>Print Page - mined coins mixed with other coins, can I pull just the mined ones offline?</title>
+		<style type="text/css">
+			body
+			{
+				color: black;
+				background-color: white;
+			}
+			body, td, .normaltext
+			{
+				font-family: Verdana, arial, helvetica, serif;
+				font-size: small;
+			}
+			*, a:link, a:visited, a:hover, a:active
+			{
+				color: black !important;
+			}
+			table
+			{
+				empty-cells: show;
+			}
+			.code
+			{
+				font-size: x-small;
+				font-family: monospace;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.quote
+			{
+				font-size: x-small;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.smalltext, .quoteheader, .codeheader
+			{
+				font-size: x-small;
+			}
+			.largetext
+			{
+				font-size: large;
+			}
+			hr
+			{
+				height: 1px;
+				border: 0;
+				color: black;
+				background-color: black;
+			}
+		</style>
+	</head>
+	<body>
+		<h1 class="largetext">Bitcoin Forum</h1>
+		<h2 class="normaltext">Bitcoin => Bitcoin Technical Support => Topic started by: jjiimm_64 on October 22, 2012, 02:50:05 AM</h2>
+
+		<table width="90%" cellpadding="0" cellspacing="0" border="0">
+			<tr>
+				<td>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>mined coins mixed with other coins, can I pull just the mined ones offline?</b><br />
+					Post by: <b>jjiimm_64</b> on <b>October 22, 2012, 02:50:05 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">excuse my ignorance if this has been covered before<br /><br />I have a couple of mined blocks in my wallet. &nbsp;I would like to pull just those out of the wallet to try and keep a couple of &#039;pure&#039; blocks offline for later use. &nbsp;I checked the transactions id and my bitcoind has not used any of the btc&#039;s in the block addy for any sends ...yet<br /><br />Is there a way to pull just those coins offline?</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: mined coins mixed with other coins, can I pull just the mined ones offline?</b><br />
+					Post by: <b>casascius</b> on <b>October 22, 2012, 02:54:42 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Export all the private keys and use something else (blockchain.info) to import them and spend the non-mined ones away from the wallet.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: mined coins mixed with other coins, can I pull just the mined ones offline?</b><br />
+					Post by: <b>Stephen Gornick</b> on <b>October 22, 2012, 05:04:38 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=119710.msg1288958#msg1288958">Quote from: casascius on October 22, 2012, 02:54:42 AM</a></div><div class="quote">Export all the private keys and use something else (blockchain.info) to import them and spend the non-mined ones away from the wallet.<br /></div><br />Along the same vein, make a copy of your wallet, and with that wallet use pywallet to delete the addresses you don&#039;t want to spend. (and -rescan after that is done)&nbsp; Then it won&#039;t show the balance that included those blocks you want to keep and you can spend the remainder of that wallet.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: mined coins mixed with other coins, can I pull just the mined ones offline?</b><br />
+					Post by: <b>BookLover</b> on <b>October 22, 2012, 01:35:20 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">I believe Armory (it&#039;s an extension for the Bitcoin-QT client) will allow you to send specific coins.&nbsp; You can download it and then separate the random coins from the coins you want to keep.&nbsp; If Armory won&#039;t work for you I&#039;ve read the Electrum client will do the same thing.&nbsp; This should be easier than exporting private keys. :P</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: mined coins mixed with other coins, can I pull just the mined ones offline?</b><br />
+					Post by: <b>jjiimm_64</b> on <b>October 22, 2012, 02:47:50 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=119710.msg1289169#msg1289169">Quote from: Stephen Gornick on October 22, 2012, 05:04:38 AM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=119710.msg1288958#msg1288958">Quote from: casascius on October 22, 2012, 02:54:42 AM</a></div><div class="quote">Export all the private keys and use something else (blockchain.info) to import them and spend the non-mined ones away from the wallet.<br /></div><br />Along the same vein, make a copy of your wallet, and with that wallet use pywallet to delete the addresses you don&#039;t want to spend. (and -rescan after that is done)&nbsp; Then it won&#039;t show the balance that included those blocks you want to keep and you can spend the remainder of that wallet.<br /></div><br />Thanks for all the ideas.&nbsp; casascius long time no see..<br /><br />pywallet looks promising . thank you<br /><br /><br /></div>
+					<br /><br />
+					<div align="center" class="smalltext">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank">Powered by SMF 1.1.19</a> | 
+<a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank">SMF &copy; 2006-2009, Simple Machines</a>
+		</span></div>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

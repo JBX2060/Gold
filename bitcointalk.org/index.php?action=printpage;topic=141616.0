@@ -1,0 +1,194 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+		<link rel="canonical" href="https://bitcointalk.org/index.php?topic=141616.0" />
+		<title>Print Page - The Coinbase Transaction Question</title>
+		<style type="text/css">
+			body
+			{
+				color: black;
+				background-color: white;
+			}
+			body, td, .normaltext
+			{
+				font-family: Verdana, arial, helvetica, serif;
+				font-size: small;
+			}
+			*, a:link, a:visited, a:hover, a:active
+			{
+				color: black !important;
+			}
+			table
+			{
+				empty-cells: show;
+			}
+			.code
+			{
+				font-size: x-small;
+				font-family: monospace;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.quote
+			{
+				font-size: x-small;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.smalltext, .quoteheader, .codeheader
+			{
+				font-size: x-small;
+			}
+			.largetext
+			{
+				font-size: large;
+			}
+			hr
+			{
+				height: 1px;
+				border: 0;
+				color: black;
+				background-color: black;
+			}
+		</style>
+	</head>
+	<body>
+		<h1 class="largetext">Bitcoin Forum</h1>
+		<h2 class="normaltext">Bitcoin => Bitcoin Technical Support => Topic started by: BitcoinScholar on February 06, 2013, 09:55:55 PM</h2>
+
+		<table width="90%" cellpadding="0" cellspacing="0" border="0">
+			<tr>
+				<td>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>The Coinbase Transaction Question</b><br />
+					Post by: <b>BitcoinScholar</b> on <b>February 06, 2013, 09:55:55 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">So, referring to this link I reference : https://en.bitcoin.it/wiki/Transactions<br /><br />I just want to know how this will look with a coinbase transaction. I understand the basis of the reward system, the miners and the solving of the block&#039;s hash through SHA-256 and all continuous transaction following but since there is no input in coinbase transaction is there still something to be represented for the input.<br /><br />Referring to the link above, will there be nothing following the previous tx, index and scriptsig?<br /><br />This is given as the input for a tx:<br /><br />Input:<br />Previous tx: f5d8ee39a430901c91a5917b9f2dc19d6d1a0e9cea205b009ca73dd04470b9a6<br />Index: 0<br />scriptSig: 304502206e21798a42fae0e854281abd38bacd1aeed3ee3738d9e1446618c4571d10<br />90db022100e2ac980643b0b82c0e88ffdfec6b64e3e6ba35e7ba5fdd7d5d6cc8d25c6b241501<br /><br />Will the coinbase transaction look like this:<br /><br />Input:<br />Previous tx:<br />Index: 0<br />scriptSig:<br /><br />Or will something be represented in each section including previous tx, Index and scriptSig?If so, what?<br />&nbsp;<br />It not, what? I just need something very explicit to know what the eventual reference will be. Basically, since BTC are are a series of signatures there must be a first reference point for the signature. Is it just some code originating from the block of the coinbase transaction? If it is, what is that reference? and when we trace a bitcoin back to its creation (or prior to the original possessors signature) what exactly will it look like?<br /><br />Also, on another note, is an address just a public-key?</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: The Coinbase Transaction Question</b><br />
+					Post by: <b>DannyHamilton</b> on <b>February 06, 2013, 10:41:07 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=141616.msg1508577#msg1508577">Quote from: BitcoinScholar on February 06, 2013, 09:55:55 PM</a></div><div class="quote">Also, on another note, is an address just a public-key?<br /></div>I believe this has already been answered for you here:<br /><br /><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=141059.msg1502024#msg1502024">Quote from: Stephen Gornick on February 04, 2013, 04:09:13 AM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=141059.msg1501984#msg1501984">Quote from: BitcoinScholar on February 04, 2013, 03:36:48 AM</a></div><div class="quote">What&#039;s the algorithm the hash uses and how was this determined? </div><br />A bitcoin address is a derivative of a hash of a private key.<br /><br /><div class="quoteheader">Quote</div><div class="quote">A Bitcoin address is a 160-bit hash of the public portion of a public/private ECDSA keypair.</div> - http://en.bitcoin.it/wiki/Technical_background_of_Bitcoin_addresses<br /><br />&nbsp;- http://en.bitcoin.it/wiki/Private_key<br />&nbsp;- http://en.bitcoin.it/wiki/Address<br /></div><br />If you don&#039;t want to click on the http://en.bitcoin.it/wiki/Address link, I can explain that the public key is hashed using SHA-256.&nbsp; That hash is then hashed again using RIPEMD-160.&nbsp; A 1-byte version number is prepended to the hash, a 4 byte checksum is appended to the hash, and then that resulting value is encoded with Base58Check encoding.&nbsp; The result is a bitcoin address.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: The Coinbase Transaction Question</b><br />
+					Post by: <b>DannyHamilton</b> on <b>February 06, 2013, 10:56:02 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Based on this section of main.h from the reference client<br /><br /><div class="codeheader">Code:</div><div class="code">bool IsCoinBase() const<br />{<br />&nbsp;&nbsp; &nbsp;return (vin.size() == 1 &amp;&amp; vin[0].prevout.IsNull());<br />}<br /></div><br /><br />I&#039;d guess the &quot;Previous tx:&quot; will contain something like the following:<br /><div class="codeheader">Code:</div><div class="code">00 00 00 00 00 00 00 00 &nbsp; &nbsp;00 00 00 00 00 00 00 00<br />00 00 00 00 00 00 00 00 &nbsp; &nbsp;00 00 00 00 00 00 00 00<br /></div><br />Other than that, I don&#039;t think the values of any of the other fields will matter much since the only thing the code looks at is the values stored as previous output hash.<br />&nbsp;<br />Perhaps the &quot;Index:&quot; will contain something like:<br /><div class="codeheader">Code:</div><div class="code">ff ff ff ff<br /></div><br />The &quot;Response Script Length&quot; will probably be a single byte:<br /><div class="codeheader">Code:</div><div class="code">00<br /></div><br />And therefore there won&#039;t be a ScriptSig (or any response script at all). The very next byte of data after the Response Script Length will probably be the &quot;Sequence Number&quot;, and it will probably also be:<br /><div class="codeheader">Code:</div><div class="code">ff ff ff ff<br /></div><br />After that you&#039;ll probably find a variable length integer indicating the number of outputs.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: The Coinbase Transaction Question</b><br />
+					Post by: <b>DeathAndTaxes</b> on <b>February 06, 2013, 11:06:31 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Coinbase tx has a special structure. &nbsp;There is NO prior output. &nbsp;The coins are minted from nothing. <br /><br />Input:<br />Previous tx: - Null<br />Index: IIRC it is 0 but it isn&#039;t checked. &nbsp;The tx index value of a null output is kinda irrelevant.<br />scriptSig: - There is no script sig for coinbase tx.&nbsp; In its place is the coinbase parameter which is used to store the exta-nonce among other things.&nbsp; It can contain arbitrary data and isn&#039;t parsed by the network.<br /><br />Since no tx except the coinbase can contain a null prior tx (think the first node in a linked list) the coinbase can be identified by the tx which has no prior tx value.&nbsp; If more or less than one tx in the block has a null prior tx value then the block is invalid.&nbsp; A block must contain exactly one coinbase.<br /><br />The coins don&#039;t come from anywhere. &nbsp;They simply never existed prior to the block and they exist (as unspent outputs at the address(es) in the output of coinbase tx) once the block is added to the blockchain.<br /><br />There is no pool or account with all of the not yet unminted coins which slowly decrements as miners mint them if that is what you are thinking. &nbsp; You can&#039;t trace back further than the coinbase. &nbsp;The input tx is simply null.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: The Coinbase Transaction Question</b><br />
+					Post by: <b>DannyHamilton</b> on <b>February 06, 2013, 11:13:20 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=141616.msg1508577#msg1508577">Quote from: BitcoinScholar on February 06, 2013, 09:55:55 PM</a></div><div class="quote">. . . there must be a first reference point for the signature . . .<br /></div>The coinbase transaction is the first reference point for the first signature. &nbsp;The coinbase transaction is unsigned and only contains outputs. &nbsp;Each transaction that spends an output from a coinbase transaction will have a reference to the coinbase transaction output being spent and that is where you&#039;ll find the first signature in the chain.<br /><br />Since there can only be one coinbase transaction per block, I suppose you could sort of think of the block hash as a coinbase &quot;signature&quot; since you can&#039;t change the coinbase transaction without modifying the block hash and doing so would require you to perform the proper proof-of-work to replace the block. If you could manage to add your own output to the coinbase of the most recently mined block, and then find an appropriate hash for that block AND then mine the next block before anyone else does (making your chain one block longer than the existing one, you would replace the original block in the blockchain for everyone and your block would become the official one.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: The Coinbase Transaction Question</b><br />
+					Post by: <b>BitcoinScholar</b> on <b>February 06, 2013, 11:31:02 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">I understand! So the coinbase transaction is just an output with no signatures that is rewarded to the person solves the hash which then gets transferred to the corresponding person&#039;s address in which they sign it while sending it which officially claims the reward. Is that about right? The address is also the hash of a public key. <br /><br />When each new address is created does that create a new public and private key or is a person&#039;s private key always retained and reused no matter the change in the public key? Now I understand the coinbase transaction, the money supply creation, and more but the last thing is just what the creation of a new address entails.<br /><br />Seriously, thanks everyone who helped to understand so far. I just couldn&#039;t conceptualize before the notion of creating something from nothing(the question of reality that still and will forever plague man) but I see now the nature of it in relation to BTC.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: The Coinbase Transaction Question</b><br />
+					Post by: <b>DannyHamilton</b> on <b>February 06, 2013, 11:49:43 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=141616.msg1508744#msg1508744">Quote from: BitcoinScholar on February 06, 2013, 11:31:02 PM</a></div><div class="quote">I understand! So the coinbase transaction is just an output with no signatures that is rewarded to the person solves the hash which then gets transferred to the corresponding person&#039;s address in which they sign it while sending it which officially claims the reward. <br /></div>You are getting close, but you aren&#039;t quite there yet.<br /><br />The coinbase is just an list of outputs with no signatures. &nbsp;The person (or mining pool) that solves the block hash can list as many outputs as they want with what ever values they want assigned to each output in the list, as long as the total of the outputs is not greater than the sum of the allowed block subsidy value and the transaction fees of all the transactions in the block. Each of the outputs in the list is a bitcoin address and a value. &nbsp;By the nature of being in the list of the outputs with an associated value, the output in the unsigned coinbase transaction is recognized as having that additional value and the right to spend that output to any other address in the future by simply including a reference to the output and a signature from the private key associated with the address that is stored in the output. &nbsp;There is no need to &quot;officially claim the reward&quot;, unless you mean that in spending the reward someone claims that it is theirs to spend by signing it.<br /><br /><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=141616.msg1508744#msg1508744">Quote from: BitcoinScholar on February 06, 2013, 11:31:02 PM</a></div><div class="quote">When each new address is created does that create a new public and private key or is a person&#039;s private key always retained and reused no matter the change in the public key?<br /></div>Each bitcoin address is associated with a separate private key (there are some technical details that make this not exactly true, but it is generally true in real world use).<br /><br /><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=141616.msg1508744#msg1508744">Quote from: BitcoinScholar on February 06, 2013, 11:31:02 PM</a></div><div class="quote">the last thing is just what the creation of a new address entails.<br /></div>To create a new address, you start by generating a completely random 256-bit number. &nbsp;This random number is the private key.<br /><br />Next you use the secp256k1 curve and calculate the 512-bit ECDSA public key from this private key. &nbsp;For all intents and purposes, this is generally considered to be a one-to-one relationship. &nbsp;I&#039;m not sure if it has ever been proven that 2 different private keys can&#039;t generate the same public key, but if they can the odds of it happening are so small that it can be realistically considered impossible.<br /><br />From there you follow the directions I specified earlier SHA-256, RIPEMD-160, Version, Checksum, Base58Check.<br /><br />Note that while there are 2^256 possible private keys (just a bit less than 1.58 x 10<sup>77</sup>)<br />There are only 2^160 (due to the RIPEMD-160 Hash) possible bitcoin addresses (just a bit more than 1.46 x 10<sup>48</sup>)<br /><br />This would seem to suggest that it might be possible for 2 different private keys to sign transactions spending outputs assigned to the same bitcoin address.<br /><br />In reality, unless a weakness is ever found in ECDSA and/or the secp256k1 curve &nbsp;it would be impossible to find these &quot;other private keys&quot;. As long as the random private key is being generated from a source with sufficient entropy, the odds of someone accidentally picking a private key that matches a bitcoin address that is being used are so long that it can be considered impossible.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: The Coinbase Transaction Question</b><br />
+					Post by: <b>DeathAndTaxes</b> on <b>February 06, 2013, 11:52:40 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Almost. &nbsp;There is no such thing as signing it to claim the reward. &nbsp;The unspent output of the coinbase tx is available to the private key holder of coinbase tx once the block is validated* just like any other transaction.&nbsp; You don&#039;t need to claim transactions Bitcoin is a push technology.&nbsp; If you are the recipient of a tx you have the coins (even if you don&#039;t want them).&nbsp; Remember the blockchain is simply a ledger of the current status and history of the minted coins.&nbsp; As soon as that history is updated (new block created and validated) all nodes instantly &quot;know&quot; you have the coins.<br /><br />Take this coinbase tx for example.<br />http://blockchain.info/tx/1779421745deee5ba44b40a36405e151adcbe64913c0cd617067db28858e653c<br /><br />25 BTC was generated out of thin air and 0.24561883 BTD in tx fees collected.&nbsp; The output of the tx (25.24561883 BTC) matches those combined values.&nbsp; Other nodes will verify that the output of the coinbase matches what is expected (current subsidy + fees).&nbsp; The 25.24561883 was transfered to the list of addresses you see. &nbsp;There is nothing to &quot;claim&quot;, nothing the receivers need to do. &nbsp;The owners of those private keys have the coins simply by the existence of this coinbase tx.<br /><br />Now take the address 13CnZaL3AwZrFwKdyi4TokHbz1VTajpoDa (the first output) for example. &nbsp;This address received an unspent output worth 0.70738238 BTC.&nbsp; If the holder of the private key wanted to transfer it (and spending is simply a transfer of ownership) he would create a tx which has this unspent outputs as the input of the new tx, the output would be the intended recipient&#039;s addresse(s) and the tx would be signed by the private key for address 13CnZaL3AwZrFwKdyi4TokHbz1VTajpoDa. &nbsp;<br /><br />Each address has a corresponding public &amp; private ECDSA keypair . &nbsp; The address is the checksummed hash of the public key. &nbsp;It includes the version identifier, the RIPEMD-160 &amp; SHA-256 double hash of the public key and a 32 bit checksum. &nbsp; To transfer ownership of coins (and spending is merely transfering coins), you sign the unspent output of an address you control with the corresponding private key. Your wallet.dat among other things is a collection of private keys for your addresses which is why it needs to be kept secure.&nbsp; He who controls the private key controls the coins.&nbsp; <br /><br />* Technically newly minted coins can&#039;t be spent for 120 blocks.<br /><br />On edit: Damn Danny is fast, beat me again.<br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: The Coinbase Transaction Question</b><br />
+					Post by: <b>DannyHamilton</b> on <b>February 06, 2013, 11:57:57 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=141616.msg1508785#msg1508785">Quote from: DeathAndTaxes on February 06, 2013, 11:52:40 PM</a></div><div class="quote">On edit: Damn Danny is fast, beat me again.<br /></div>I cheated. &nbsp;I answered most of it (with typos, grammatical errors, and formatting errors), then posted, then went back and cleaned up the post and added additional details.<br /><br /><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=141616.msg1508785#msg1508785">Quote from: DeathAndTaxes on February 06, 2013, 11:52:40 PM</a></div><div class="quote">. . . You sign the unspent output of an address you control with the corresponding private key . . .<br /></div>Be careful about this explanation. &nbsp;I read it they way you just stated it many times when I was first learning about bitcoin, and it had me really confused for the first 5 months. &nbsp;I couldn&#039;t figure out: if I include a signed previous output as an input in a transaction, what would keep someone from modifying the outputs of my transaction before relaying it (since the previous output is already signed). &nbsp;As I eventually learned, the entire transaction is signed (or rather a hash of the entire transaction, I think) with the private key of the previous output.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: The Coinbase Transaction Question</b><br />
+					Post by: <b>BitcoinScholar</b> on <b>February 07, 2013, 03:15:23 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">I see. When you create a new address in a wallet application, say, it really creates a new private-key that&#039;s a 256 bit unit. Then from that the public-key is formed from a series of hashes and from the public-key another series of hashes creates the address. That means it&#039;s always possible to deduce from the private-key what the public-key and address are because you can run the private-key through the series of hashes to get the result. That means that anyone with possession of the private-key has access to the address but knowledge of the address wont yield any knowledge of the private key because of the mathematical impossibility of inducing back up through the hashes. <br /><br />Also, with the coinbase tx, the scriptPubKey is kind of replaced by another script that handles sending the earner the BTC and this is ultimatly verified through miners working for BTC + transaction fees. What does an index deal with in the index portion of a transaction? I know above for the coinbase transaction it doesn&#039;t matter much but what about the others? Also, if anyone wants to put in any input on scriptPubKey and scriptKey meaning I&#039;d be grateful. I keep asking more questions even after you guys do a good job answering other ones but it&#039;s like the moment I realize the meaning of one thing it yields five other questions about the deeper nature of the concept.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: The Coinbase Transaction Question</b><br />
+					Post by: <b>DeathAndTaxes</b> on <b>February 07, 2013, 03:30:59 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=141616.msg1509082#msg1509082">Quote from: BitcoinScholar on February 07, 2013, 03:15:23 AM</a></div><div class="quote">I see. When you create a new address in a wallet application, say, it really creates a new private-key that&#039;s a 256 bit unit. Then from that the public-key is formed from a series of hashes and[ from the public-key another series of hashes creates the address. That means it&#039;s always possible to deduce from the private-key what the public-key and address are because you can run the private-key through the series of hashes to get the result. </div><br />Close but not exactly. &nbsp;Bitcoin uses ECDSA specifically curve SECP256K1.<br />https://en.bitcoin.it/wiki/Secp256k1<br /><br />The private key is a random 256 bit number. &nbsp;The private key is combined with the SECP256K1 curve to produce the public key. &nbsp;There is no hashing involved in the generation of the public key. &nbsp;The public key is a 512 bit value (unless compressed but lets save that for another day) which represents a point (256 bit x value, 256 bit y value) on the SECP256K1 curve. &nbsp;The math behind Elliptical Curve Cryptography (http://en.wikipedia.org/wiki/Elliptic_curve_cryptography) is complex but the strength comes from the fact that if you have the private key and the curve (public knowledge) you can generate the public key easily but if you only have the public key you can&#039;t determine the private key because it would be computationally infeasible.<br /><br />As an extra level of security (and to prevent things like typos) the public key is then double hashed and a checksum generated. &nbsp;The 8 bits representing the version number (reason most Bitcoin address begin with 1 = version number), the 160 bit hash and 32 bit checksum are concatenated to form public address. &nbsp;The public address (simply a 200 bit number) is formatted using Base58 to make it more compact.<br /><br />https://en.bitcoin.it/wiki/Technical_background_of_Bitcoin_addresses<br /><br />Private Key - Random 256bit number<br />Public Key - Produced from Private key using ECC<br />Public Address - RIPEMD160(SHA256(public key)) combined with version number and checksum<br /><br /><br /><div class="quoteheader">Quote</div><div class="quote">That means that anyone with possession of the private-key has access to the address but knowledge of the address wont yield any knowledge of the private key because of the mathematical impossibility of inducing back up through the hashes. </div><br />Knowledge of the public address won&#039;t give you the public key but even if you have the public key you won&#039;t be able to determine the private key due to the one way nature of ECDA keypairs.<br /><br />Public Key -&gt; Public Address = trivially easy<br />Public Address -&gt; Public Key = protected by the one way nature of RIPEMD160 &amp; SHA256 hashing functions<br /><br />Private Key -&gt; Public Key = trivially easy<br />Public Key -&gt; Private Key = protected by the one way nature of ECC<br /><br /><br /><div class="quoteheader">Quote</div><div class="quote">What does an index deal with in the index portion of a transaction? I know above for the coinbase transaction it doesn&#039;t matter much but what about the others? </div>A transaction consists of multiple inputs and multiple outputs. &nbsp;Unspent outputs of prior tx become the inputs for new txs. &nbsp;The tx hash identifies the tx but it doesn&#039;t identify which unspent output from that tx is being used.&nbsp; The index identifies the specific output (first one, second first, 23rd one, etc).</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: The Coinbase Transaction Question</b><br />
+					Post by: <b>DannyHamilton</b> on <b>February 07, 2013, 04:13:32 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=141616.msg1509082#msg1509082">Quote from: BitcoinScholar on February 07, 2013, 03:15:23 AM</a></div><div class="quote">. . . Also, with the coinbase tx, the scriptPubKey is kind of replaced by another script that handles sending the earner the BTC and this is ultimatly verified through miners working for BTC + transaction fees . . .<br /></div>So close, but it still sounds like you&#039;re a bit confused on the specifics.<br /><br />In a coinbase transaction, there is no &quot;script&quot; that replaces scriptPubKey. The coinbase transaction has no scriptSig in the inputs, but it still has a normal scriptPubKey for each and every output setting up the requirements for someone to spend that output in the future.<br /><br />Nothing &quot;handles sending the earner the BTC&quot;, BTC are never &quot;sent&quot; anywhere.&nbsp; Transactions are simply added to the blockchain.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: The Coinbase Transaction Question</b><br />
+					Post by: <b>BitcoinScholar</b> on <b>February 07, 2013, 09:35:51 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Alright, I see. Does the index reference the value (BTC) of the referenced output? I think I really get the coinbase now and the private-key, public-key and address. When I first started looking into this I thought that I private-key and public-key was always retained as the SOLE keys that a person has but I see now they&#039;re generated with each new address and keys are just stored. </div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: The Coinbase Transaction Question</b><br />
+					Post by: <b>DannyHamilton</b> on <b>February 07, 2013, 09:46:56 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=141616.msg1510862#msg1510862">Quote from: BitcoinScholar on February 07, 2013, 09:35:51 PM</a></div><div class="quote">. . . Does the index reference the value (BTC) of the referenced output? . . .<br /></div><br />Each transaction is hashed using SHA-256 resulting in a unique ID for the transaction. &nbsp;A single transaction can have multiple outputs, each with their own &quot;Value:&quot; and &quot;scriptPubKey:&quot;. &nbsp;The &quot;Previous Tx:&quot; is the hash value indicating which previous transaction contains the output that is being spent, but you still need to identify which of the potentially many outputs in that transaction is the one being spent. &nbsp;The &quot;Index:&quot; indicates which of the outputs from the previous transaction are being used as the input of the current transaction. It references the entire output, not just the value.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: The Coinbase Transaction Question</b><br />
+					Post by: <b>BitcoinScholar</b> on <b>February 07, 2013, 10:08:31 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Oh, so a person can send in one transaction to many different places thus creating many different outputs(or in the case of change). When the person receives that payment and then spends it they need to reference the transaction that sent the payment to them. Since there can be many outputs in that transaction they need to specify the exact output in that transaction which is represented by the index.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: The Coinbase Transaction Question</b><br />
+					Post by: <b>DannyHamilton</b> on <b>February 07, 2013, 10:11:38 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=141616.msg1510914#msg1510914">Quote from: BitcoinScholar on February 07, 2013, 10:08:31 PM</a></div><div class="quote">Oh, so a person can send in one transaction to many different places thus creating many different outputs(or in the case of change). When the person receives that payment and then spends it they need to reference the transaction that sent the payment to them. Since there can be many outputs in that transaction they need to specify the exact output in that transaction which is represented by the index.<br /></div>Yes. Exactly.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: The Coinbase Transaction Question</b><br />
+					Post by: <b>BitcoinScholar</b> on <b>February 07, 2013, 10:24:46 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Great. Thanks DannyHamilton and thanks DeathAndTaxes. I learned a lot, you guys helped a lot. I might have more questions a little while in the future but I&#039;ll call this one a wrap. You guys know your stuff. </div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: The Coinbase Transaction Question</b><br />
+					Post by: <b>247saver</b> on <b>February 07, 2013, 11:35:01 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><br />This thread seems to cover most of the basics nicely and clearly explained in one page thread, could it be &#039;pinned&#039; ?<br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: The Coinbase Transaction Question</b><br />
+					Post by: <b>BitcoinScholar</b> on <b>February 08, 2013, 12:03:16 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">I&#039;m not sure. Do I have control over pinning it as the creator or is that a moderator decision? I&#039;ll pin it if I can.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: The Coinbase Transaction Question</b><br />
+					Post by: <b>DannyHamilton</b> on <b>February 08, 2013, 12:07:46 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">I believe that&#039;s a moderator action, and I doubt this will get pinned. There have been plenty of discussions on the technical aspects of bitcoin in the &quot;Technical Support&quot; sub-forum.&nbsp; How many of them do you see pinned?</div>
+					<br /><br />
+					<div align="center" class="smalltext">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank">Powered by SMF 1.1.19</a> | 
+<a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank">SMF &copy; 2006-2009, Simple Machines</a>
+		</span></div>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

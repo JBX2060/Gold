@@ -1,0 +1,86 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+		<link rel="canonical" href="https://bitcointalk.org/index.php?topic=117022.0" />
+		<title>Print Page - Wallet Brute Force Cracker</title>
+		<style type="text/css">
+			body
+			{
+				color: black;
+				background-color: white;
+			}
+			body, td, .normaltext
+			{
+				font-family: Verdana, arial, helvetica, serif;
+				font-size: small;
+			}
+			*, a:link, a:visited, a:hover, a:active
+			{
+				color: black !important;
+			}
+			table
+			{
+				empty-cells: show;
+			}
+			.code
+			{
+				font-size: x-small;
+				font-family: monospace;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.quote
+			{
+				font-size: x-small;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.smalltext, .quoteheader, .codeheader
+			{
+				font-size: x-small;
+			}
+			.largetext
+			{
+				font-size: large;
+			}
+			hr
+			{
+				height: 1px;
+				border: 0;
+				color: black;
+				background-color: black;
+			}
+		</style>
+	</head>
+	<body>
+		<h1 class="largetext">Bitcoin Forum</h1>
+		<h2 class="normaltext">Bitcoin => Bitcoin Technical Support => Topic started by: Jutarul on October 07, 2012, 05:06:45 PM</h2>
+
+		<table width="90%" cellpadding="0" cellspacing="0" border="0">
+			<tr>
+				<td>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Wallet Brute Force Cracker</b><br />
+					Post by: <b>Jutarul</b> on <b>October 07, 2012, 05:06:45 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Hi, <br /><br />is there an open-source wallet brute force cracker, which takes the input from a wordlist file and reports the successful passphrase?<br />It is not uncommon for people to lose part of their passphrase and they need to test a few 10000 variations. <br /><br />A feasible solution right now is to use the RPC interface and wrap it in a script, this way I achieve about 10 trial keys per second. So if the wordlist is &lt; 100,000 keys, a full scan should be completed in about 3-4 hours. (since the procedure is embarrassingly parallel you can easily increase the cracking speed, e.g. 1000 instances should give you about 25 million trial keys / hour)<br /><br />procedure:<br />0) create a wordlist with one of the major password cracking tools (e.g. john the ripper)<br />1) run bitcoind as a server with RPC active<br />2) adjust the following python script to your operating system and environment (link:http://ubuntuone.com/7XJaHf4OH4Ak91DUGhscvG (http://ubuntuone.com/7XJaHf4OH4Ak91DUGhscvG)):<br /><div class="codeheader">Code:</div><div class="code">import subprocess<br />import sys<br /><br />wordfile=open(sys.argv[1],&quot;r&quot;)<br />logfile=open(sys.argv[2],&quot;a&quot;)<br /><br />for l in wordfile:<br />&nbsp;sys.stdout.write(&quot;trying %s&quot; % l)<br />&nbsp;w=l.strip()<br />&nbsp;p=subprocess.Popen([&#039;./bitcoind&#039;,&#039;walletpassphrase&#039;,w,&quot;1&quot;],stdout=subprocess.PIPE,stderr=subprocess.STDOUT)<br />&nbsp;s=p.communicate()[0]<br />&nbsp;if (&quot;incorrect&quot; in s):<br />&nbsp; logfile.write(&quot;%s: incorrect\n&quot; % (w))<br />&nbsp;elif (&quot;unlocked&quot; in s):<br />&nbsp; logfile.write(&quot;%s: unlocked\n&quot; % (w))<br />&nbsp;else:<br />&nbsp; logfile.write(&quot;%s: likely passphrase\n&quot; % (w))<br />&nbsp; print &quot;success!&quot;<br />&nbsp; print &quot;likely passphrase: %s&quot; % (w)<br />&nbsp; break<br /><br />logfile.close()<br /></div>3) run the script local to your bitcoin directory:<br /><div class="codeheader">Code:</div><div class="code">python crack.py wordlist.txt log.txt<br /></div><br />I&#039;d appreciate if people could extend this thread by explicit instructions for their specific operating system and environment. </div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Wallet Brute Force Cracker</b><br />
+					Post by: <b>Revalin</b> on <b>October 07, 2012, 06:25:42 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Related: I wrote a brute force script that takes your best guess at the passphrase and tries possible typos. <br /><br />https://bitcointalk.org/index.php?topic=85495.msg942171#msg942171</div>
+					<br /><br />
+					<div align="center" class="smalltext">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank">Powered by SMF 1.1.19</a> | 
+<a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank">SMF &copy; 2006-2009, Simple Machines</a>
+		</span></div>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

@@ -1,0 +1,98 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+		<link rel="canonical" href="https://bitcointalk.org/index.php?topic=118811.0" />
+		<title>Print Page - wallet blockchain apparently stuck</title>
+		<style type="text/css">
+			body
+			{
+				color: black;
+				background-color: white;
+			}
+			body, td, .normaltext
+			{
+				font-family: Verdana, arial, helvetica, serif;
+				font-size: small;
+			}
+			*, a:link, a:visited, a:hover, a:active
+			{
+				color: black !important;
+			}
+			table
+			{
+				empty-cells: show;
+			}
+			.code
+			{
+				font-size: x-small;
+				font-family: monospace;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.quote
+			{
+				font-size: x-small;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.smalltext, .quoteheader, .codeheader
+			{
+				font-size: x-small;
+			}
+			.largetext
+			{
+				font-size: large;
+			}
+			hr
+			{
+				height: 1px;
+				border: 0;
+				color: black;
+				background-color: black;
+			}
+		</style>
+	</head>
+	<body>
+		<h1 class="largetext">Bitcoin Forum</h1>
+		<h2 class="normaltext">Bitcoin => Bitcoin Technical Support => Topic started by: pirate1 on October 16, 2012, 08:20:36 PM</h2>
+
+		<table width="90%" cellpadding="0" cellspacing="0" border="0">
+			<tr>
+				<td>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>wallet blockchain apparently stuck</b><br />
+					Post by: <b>pirate1</b> on <b>October 16, 2012, 08:20:36 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">A couple days ago I noticed my wallet was not up to date and a couple of my transactions were not showing.&nbsp; It seemed to be stuck at block 202762.&nbsp; I have a warning at the bottom of the wallet that says, &quot;Warning: Displayed transactions may not be correct!&nbsp; You may need to upgrade, or other nodes r&quot; and it stops there.&nbsp; I can&#039;t see what else it is saying.&nbsp; I went to Bitcoin.org and got the latest client which is version 7.0 beta.&nbsp; I downloaded it and saw it was a little different.&nbsp; It was still stuck at block 202762.&nbsp; I let it run for over a day and it didn&#039;t change.&nbsp; It said it was 99.6% complete but never went past 202762 though it did say out of 203,000 something.&nbsp; After running it over a day I went ahead and deleted my Bitcoin folder from the programs (86) file.&nbsp; I then redownloaded the new client and tried starting over.&nbsp; Same result.&nbsp; It starts out stuck at block 202762.&nbsp; The wallet shows it is &quot;out of sync&quot;.&nbsp; The little arrow in the corner is turning as it was the first time and says, &quot;Catching up.&nbsp; Downloaded 202762 of 203,593 blocks of transaction history (99.59% done).&nbsp; Last recieved block was generated 5 days ago.&quot;&nbsp; I am showing 17 active connections and the same Warning is displaying.&nbsp; So any ideas on what could be going wrong?&nbsp; I do use the Armory wallet but it depends on the Bitcoin-QT client working and being up to date.&nbsp; Strangely, my Armory wallet shows, &quot;Connected (202,789 blocks)&quot; at the bottom of the page which is a little different than the 202,762 that Bitcoin-QT seems to be stuck at.&nbsp; Anyway I am not sure what is wrong or how to fix it can anyone help?</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: wallet blockchain apparently stuck</b><br />
+					Post by: <b>BookLover</b> on <b>October 17, 2012, 01:56:44 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Make sure the Bitcoin client is not running and then go to the directory &quot;C:/Users/&quot;your username&quot;/Appdata/Roaming/Bitcoin&quot; and move the files blk001, blk002, and blkindex to My Documents.&nbsp; You will have to show hidden files and folders.&nbsp; (if you don&#039;t know how to do this just search show hidden files and folders in the start menu)&nbsp; Then start the Bitcoin client and wait for it to re-download the blockchain. :P&nbsp; The block chain is over four GB so leave the client running overnight.&nbsp; This is a semi-common problem, and the only way I&#039;ve ever heard to fix it was to either let the Bitcoin client re-download the blockchain, or to download and replace the blockchain manually(This is more difficult yet faster and more reliable fix.)</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: wallet blockchain apparently stuck</b><br />
+					Post by: <b>pirate1</b> on <b>October 17, 2012, 03:58:21 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">That seems like a good idea.&nbsp; Thanks, BookLover.&nbsp; I moved the files and then deleted them from the AppData file and restarted the program.&nbsp; It is now loading the whole block chain.&nbsp; Hopefully this will solve the problem.&nbsp; I will know tomorrow.&nbsp; I think this is going to work.&nbsp; I guess when it does I can just delete those files from my Documents as I won&#039;t need them anymore once the whole blockchain downloads.&nbsp; It looks like it might not take till tomorrow.&nbsp; I&#039;ve gone through the first 100,000 in less than ten minutes.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: wallet blockchain apparently stuck</b><br />
+					Post by: <b>BookLover</b> on <b>October 17, 2012, 05:19:33 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">I&#039;m glad things are looking up for you. :D&nbsp; Unfortunately, the blockchain download becomes much slower during the later blocks due to the increased transaction activity, so it may take longer than expected. :-\</div>
+					<br /><br />
+					<div align="center" class="smalltext">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank">Powered by SMF 1.1.19</a> | 
+<a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank">SMF &copy; 2006-2009, Simple Machines</a>
+		</span></div>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

@@ -1,0 +1,170 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+		<link rel="canonical" href="https://bitcointalk.org/index.php?topic=128884.0" />
+		<title>Print Page - Blockchain.info not sending confirmation emails</title>
+		<style type="text/css">
+			body
+			{
+				color: black;
+				background-color: white;
+			}
+			body, td, .normaltext
+			{
+				font-family: Verdana, arial, helvetica, serif;
+				font-size: small;
+			}
+			*, a:link, a:visited, a:hover, a:active
+			{
+				color: black !important;
+			}
+			table
+			{
+				empty-cells: show;
+			}
+			.code
+			{
+				font-size: x-small;
+				font-family: monospace;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.quote
+			{
+				font-size: x-small;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.smalltext, .quoteheader, .codeheader
+			{
+				font-size: x-small;
+			}
+			.largetext
+			{
+				font-size: large;
+			}
+			hr
+			{
+				height: 1px;
+				border: 0;
+				color: black;
+				background-color: black;
+			}
+		</style>
+	</head>
+	<body>
+		<h1 class="largetext">Bitcoin Forum</h1>
+		<h2 class="normaltext">Economy => Service Discussion => Topic started by: sinner on December 03, 2012, 07:30:12 AM</h2>
+
+		<table width="90%" cellpadding="0" cellspacing="0" border="0">
+			<tr>
+				<td>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Blockchain.info not sending confirmation emails</b><br />
+					Post by: <b>sinner</b> on <b>December 03, 2012, 07:30:12 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">I have made a few transactions with my blockchain.info wallet and I am not getting the email notifications.<br /><br />I have confirmed my email and the settings are correct:<br /><br /><a href="http://i.imgur.com/RAJsL.jpg">http://i.imgur.com/RAJsL.jpg</a><br /><br />I&#039;m gonna try setting it to email me after 1 confirmation to see if that works instead.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Blockchain.info not sending confirmation emails</b><br />
+					Post by: <b>Stephen Gornick</b> on <b>December 03, 2012, 08:18:09 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=128884.msg1374587#msg1374587">Quote from: sinner on December 03, 2012, 07:30:12 AM</a></div><div class="quote">I have confirmed my email and the settings are correct:<br /></div><br />Just to eliminate the obvious, ... nothing is in your spam folder?</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Blockchain.info not sending confirmation emails</b><br />
+					Post by: <b>sinner</b> on <b>December 03, 2012, 09:29:04 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">no--i checked that several times. &nbsp;blockchain.info email does not go to my spambox anyway. &nbsp;i have received email from them before.<br /><br />i tried SMS notifications, which also didn&#039;t work. &nbsp;which is weird cuz blockchain DOES send me texts as part of 2 factor authentication when i login.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Blockchain.info not sending confirmation emails</b><br />
+					Post by: <b>piuk</b> on <b>December 03, 2012, 12:04:38 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Notifications will no longer be sent for SatoshiDICE transactions or any transactions involving addresses on this page http://blockchain.info/popular-addresses. This is to help reduce increasing costs of SMS messages.<br /><br />If the transactions do not involve popular addresses then I am not sure what the problem is. Perhaps you have reached the daily notifications limit?<br /><br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Blockchain.info not sending confirmation emails</b><br />
+					Post by: <b>sinner</b> on <b>December 03, 2012, 12:36:38 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=128884.msg1374845#msg1374845">Quote from: piuk on December 03, 2012, 12:04:38 PM</a></div><div class="quote">Notifications will no longer be sent for SatoshiDICE transactions or any transactions involving addresses on this page http://blockchain.info/popular-addresses. This is to help reduce increasing costs of SMS messages.<br /><br />If the transactions do not involve popular addresses then I am not sure what the problem is. Perhaps you have reached the daily notifications limit?<br /><br /><br /></div><br />i&#039;m not trying to get SMS notifications--just email ones when my wallet receives/sends coins.&nbsp; its not to/from the popular addresses you listed.<br /><br />i havent received any daily notifications yet :(</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Blockchain.info not sending confirmation emails</b><br />
+					Post by: <b>NABiT</b> on <b>December 11, 2013, 06:24:53 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">I also did not receive a confirmation email for bitcoin received today.<br /><br />I have the same notification settings as in the original post.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Blockchain.info not sending confirmation emails</b><br />
+					Post by: <b>alientida</b> on <b>February 10, 2014, 03:21:09 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Same here. It worked until I imported a private key, and now I dont get email notifications for any BTC received under the new address.<br /><br />Anybody else have similar problems?</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Blockchain.info not sending confirmation emails</b><br />
+					Post by: <b>jedimstr</b> on <b>March 07, 2014, 11:59:28 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">I&#039;m seeing the same thing... it happened when I created some new addresses to track my various mining pools separately.<br />I&#039;m still getting notifications for older addresses, but newer ones I recently created get no notification emails for sent nor received transactions.<br /><br />I&#039;ve reset my email and notifications settings on the site, hoping this will fix the issue.&nbsp; I&#039;ll find out on the next block payment from one of the newer pools I added.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Blockchain.info not sending confirmation emails</b><br />
+					Post by: <b>faiza1990</b> on <b>March 07, 2014, 12:05:25 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">I have never this issue I use this site nearly daily for last 7 days and all transactions ok with email notifications </div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Blockchain.info not sending confirmation emails</b><br />
+					Post by: <b>medUSA</b> on <b>March 07, 2014, 12:12:30 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=128884.msg5567350#msg5567350">Quote from: jedimstr on March 07, 2014, 11:59:28 AM</a></div><div class="quote">I&#039;m seeing the same thing... it happened when I created some new addresses to track my various mining pools separately.<br />I&#039;m still getting notifications for older addresses, but newer ones I recently created get no notification emails for sent nor received transactions.<br /></div><br />I received 2 payment notifications and 1 wallet backup email yesterday, so it is working for me at least.<br /><br />Edit:<br />Just realised OP posted this on December 03 <b>2012</b>, nevermind... &nbsp;:D</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Blockchain.info not sending confirmation emails</b><br />
+					Post by: <b>faiza1990</b> on <b>March 07, 2014, 12:16:13 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=128884.msg5567525#msg5567525">Quote from: medUSA on March 07, 2014, 12:12:30 PM</a></div><div class="quote">I received 2 payment notifications and 1 wallet backup email yesterday, so it is working for me at least.<br /><br />Edit:<br />Just realised OP posted this on December 03 <b>2012</b>, nevermind...&nbsp; :D<br /></div>OH sorry my bad I not check this but 2 persons already post before me just because of this I also do this thanks for update</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Blockchain.info not sending confirmation emails</b><br />
+					Post by: <b>jedimstr</b> on <b>March 07, 2014, 04:09:33 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Just because OP posted this issue two years ago doesn&#039;t mean it&#039;s not happening again.<br /><br />I&#039;m seeing it only occur with new addresses I&#039;ve created in the last few days.&nbsp; Older addresses trigger notification emails no problem, but any new transactions involving my new addresses are not triggering an email notification.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Blockchain.info not sending confirmation emails</b><br />
+					Post by: <b>klaasic</b> on <b>April 09, 2014, 05:56:08 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">same here. I added a &quot;watch only&quot; address and didn&#039;t get any notifications for transactions to that address.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Blockchain.info not sending confirmation emails</b><br />
+					Post by: <b>theFed</b> on <b>April 12, 2014, 05:27:27 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">I created a blockchain.info wallet one year ago in April 2013.&nbsp; I have my settings configured to provide email notification upon sending or receiving BTC, just like OP&#039;s screenshot.&nbsp; I&#039;ve had 16 transactions sending and receiving BTC and not once have I received an email notification.&nbsp; &nbsp;???<br /><br />My email address is confirmed, I&#039;ve checked my spam folder, I&#039;ve tried switching from @yahoo.com to @gmail.com address.&nbsp; I&#039;ve submitted a support ticket, to which there has been no reply for 1 month.&nbsp; <br /><br />Multiple people are experiencing this issue and there seems to be no effort by blockchain.info to fix it.<br /><br /><b>It&#039;s concerning because if this settings isn&#039;t working, then what other settings are not working?</b>&nbsp; If I tick the box to restrict the login to my IP address or to prevent login from the torr network, I fear that those settings may not be functioning properly either and my BTC is not secure on this service.&nbsp; :(<br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Blockchain.info not sending confirmation emails</b><br />
+					Post by: <b>PilotofBTC</b> on <b>May 02, 2014, 02:23:49 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Add me to the list of people not getting an email notification. I turned it on yesterday and since then two transactions have occurred and 0 notifications. I do instantly get my wallet emailed to me every time it changes (new address, etc) and my email address is confirmed.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Blockchain.info not sending confirmation emails</b><br />
+					Post by: <b>MrNiceGuy22</b> on <b>October 10, 2017, 09:07:16 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">This free service sends you a text or email when your bitcoin transaction has been confirmed:<br />http://BSIPro.com/bitcoin</div>
+					<br /><br />
+					<div align="center" class="smalltext">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank">Powered by SMF 1.1.19</a> | 
+<a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank">SMF &copy; 2006-2009, Simple Machines</a>
+		</span></div>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

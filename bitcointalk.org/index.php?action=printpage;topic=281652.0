@@ -1,0 +1,104 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+		<link rel="canonical" href="https://bitcointalk.org/index.php?topic=281652.0" />
+		<title>Print Page - Android client to bitcoind server ?</title>
+		<style type="text/css">
+			body
+			{
+				color: black;
+				background-color: white;
+			}
+			body, td, .normaltext
+			{
+				font-family: Verdana, arial, helvetica, serif;
+				font-size: small;
+			}
+			*, a:link, a:visited, a:hover, a:active
+			{
+				color: black !important;
+			}
+			table
+			{
+				empty-cells: show;
+			}
+			.code
+			{
+				font-size: x-small;
+				font-family: monospace;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.quote
+			{
+				font-size: x-small;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.smalltext, .quoteheader, .codeheader
+			{
+				font-size: x-small;
+			}
+			.largetext
+			{
+				font-size: large;
+			}
+			hr
+			{
+				height: 1px;
+				border: 0;
+				color: black;
+				background-color: black;
+			}
+		</style>
+	</head>
+	<body>
+		<h1 class="largetext">Bitcoin Forum</h1>
+		<h2 class="normaltext">Bitcoin => Development &amp; Technical Discussion => Topic started by: azw409 on August 26, 2013, 04:37:20 PM</h2>
+
+		<table width="90%" cellpadding="0" cellspacing="0" border="0">
+			<tr>
+				<td>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Android client to bitcoind server ?</b><br />
+					Post by: <b>azw409</b> on <b>August 26, 2013, 04:37:20 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">I run a bitcoind server but would like a client with a similar interface to bitcoin-qt on Android. Does such a thing exist ?<br /><br />Thanks<br /><br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Android client to bitcoind server ?</b><br />
+					Post by: <b>Remember remember the 5th of November</b> on <b>August 26, 2013, 08:46:05 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">If you want a full bitcoin node on Android, that will be tough, most Android clients are SPV clients or they don&#039;t store the entire blockchain.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Android client to bitcoind server ?</b><br />
+					Post by: <b>Mike Hearn</b> on <b>August 29, 2013, 01:23:17 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">If you run your own bitcoind you can just use Bitcoin Wallet and set your server as the trusted peer.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Android client to bitcoind server ?</b><br />
+					Post by: <b>P_Shep</b> on <b>August 29, 2013, 03:15:34 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=281652.msg3035134#msg3035134">Quote from: Mike Hearn on August 29, 2013, 01:23:17 PM</a></div><div class="quote">If you run your own bitcoind you can just use Bitcoin Wallet and set your server as the trusted peer.<br /></div><br />And for that you&#039;ll need either a static IP or dymamic DNS setup.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Android client to bitcoind server ?</b><br />
+					Post by: <b>azw409</b> on <b>September 03, 2013, 08:51:41 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Thanks, that sounds like a possibility. Is Bitcoin Wallet the app that adds an extortionate fee onto every transaction ?</div>
+					<br /><br />
+					<div align="center" class="smalltext">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank">Powered by SMF 1.1.19</a> | 
+<a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank">SMF &copy; 2006-2009, Simple Machines</a>
+		</span></div>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

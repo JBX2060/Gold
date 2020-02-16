@@ -1,0 +1,104 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+		<link rel="canonical" href="https://bitcointalk.org/index.php?topic=118113.0" />
+		<title>Print Page - How can I transact in BTC &quot;more quickly&quot; than waiting for my wallet to get </title>
+		<style type="text/css">
+			body
+			{
+				color: black;
+				background-color: white;
+			}
+			body, td, .normaltext
+			{
+				font-family: Verdana, arial, helvetica, serif;
+				font-size: small;
+			}
+			*, a:link, a:visited, a:hover, a:active
+			{
+				color: black !important;
+			}
+			table
+			{
+				empty-cells: show;
+			}
+			.code
+			{
+				font-size: x-small;
+				font-family: monospace;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.quote
+			{
+				font-size: x-small;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.smalltext, .quoteheader, .codeheader
+			{
+				font-size: x-small;
+			}
+			.largetext
+			{
+				font-size: large;
+			}
+			hr
+			{
+				height: 1px;
+				border: 0;
+				color: black;
+				background-color: black;
+			}
+		</style>
+	</head>
+	<body>
+		<h1 class="largetext">Bitcoin Forum</h1>
+		<h2 class="normaltext">Bitcoin => Bitcoin Technical Support => Topic started by: Rockford99 on October 12, 2012, 06:38:21 PM</h2>
+
+		<table width="90%" cellpadding="0" cellspacing="0" border="0">
+			<tr>
+				<td>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>How can I transact in BTC &quot;more quickly&quot; than waiting for my wallet to get </b><br />
+					Post by: <b>Rockford99</b> on <b>October 12, 2012, 06:38:21 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">credited/debited?<br /><br />In my opinion, there are two impediments that are slowing BTC&#039;s adoption.&nbsp; As we all know, coins can be sent frictionlessly across borders. However, it takes at least 10 minutes for them to show up.&nbsp; If we want more transactions to occur, don&#039;t we need to have a way for the BTCs to swipe &quot;immediately?&quot;&nbsp; If so, then we have to rely on some sort of trusted third party like Mt.Gox that issues it&#039;s own code and keeps reserves from both counterparties that it immediately honors.<br /><br />I&#039;ve been away for a while so pardon me if I touch on a redundant subject, but does anyone have any insight for how to speed up verification?<br /><br />My guess is that once trusted third parties that offer immediate clearing arise and smart phones that (unlike the evil swine at Apple) allow BTC apps, then BTC is off to the races and gains wide acceptance. My prediction: third parties will issue BTC backed parallel currency that will transact immediately and people keep small amounts of their BTC deposited as escrow at those third parties.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: How can I transact in BTC &quot;more quickly&quot; than waiting for my wallet to get </b><br />
+					Post by: <b>DannyHamilton</b> on <b>October 12, 2012, 06:56:31 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=118113.msg1267896#msg1267896">Quote from: Rockford99 on October 12, 2012, 06:38:21 PM</a></div><div class="quote">credited/debited?<br /><br />In my opinion, there are two impediments that are slowing BTC&#039;s adoption.&nbsp; As we all know, coins can be sent frictionlessly across borders. However, it takes <i>an average of</i> 10 minutes for them to show up.&nbsp; If we want more transactions to occur, don&#039;t we need to have a way for the BTCs to swipe &quot;immediately?&quot;&nbsp; If so, then we have to rely on some sort of trusted third party like Mt.Gox that issues it&#039;s own code and keeps reserves from both counterparties that it immediately honors.<br /><br />I&#039;ve been away for a while so pardon me if I touch on a redundant subject, but does anyone have any insight for how to speed up verification?<br /><br />My guess is that once trusted third parties that offer immediate clearing arise and smart phones that (unlike the evil swine at Apple) allow BTC apps, then BTC is off to the races and gains wide acceptance. My prediction: third parties will issue BTC backed parallel currency that will transact immediately and people keep small amounts of their BTC deposited as escrow at those third parties.<br /></div>FTFY<br /><br />Note, if the receiver is willing to accept a very small risk for very small payments, they can consider the transaction complete as soon as they see the 0-confirmation transaction relayed through the network.&nbsp; They don&#039;t have to wait for confirmations.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: How can I transact in BTC &quot;more quickly&quot; than waiting for my wallet to get </b><br />
+					Post by: <b>MoreCowbell</b> on <b>October 12, 2012, 09:04:46 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">I&#039;ve seen double-spend analysis worked out by gurus on this forum.&nbsp; The conclusion was that trying to execute a double-spend isn&#039;t economical for low value transactions.&nbsp; I can&#039;t remember specifically, but the low end for it to POSSIBLY be profitable was something like $2k-$10k.<br /><br />When your client/wallet service is well connected to the bitcoin network (like a blockchain.info wallet), transactions show up almost instantly.&nbsp; The easy solution is to just accept zero confirmation transactions under a certain value (like in the $1k range), and require confirmations for higher values.&nbsp; This could either be you or your payment processor, who may have insurance that would allow them to offer higher values for zero confirmation instant payment.<br /><br />Another option is just to have a credit card that transacts in bitcoins instead of traditional currency.&nbsp; Credit cards only need approval from their servers, so this would be instant just as it is today.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: How can I transact in BTC &quot;more quickly&quot; than waiting for my wallet to get </b><br />
+					Post by: <b>Rockford99</b> on <b>October 13, 2012, 03:31:02 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Thanks for the intelligent points.&nbsp; I should just accept the risk once I see it clear if it is a face-to-face transaction.&nbsp; Are there BTC credit cards?&nbsp; If so, where can I get one?<br /><br />Thanks again.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: How can I transact in BTC &quot;more quickly&quot; than waiting for my wallet to get </b><br />
+					Post by: <b>Zeek_W</b> on <b>October 14, 2012, 10:08:55 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">You can use MtGox redeemable code to transfer between you and the person you want to transfer to. I&#039;ve done it a few times in the past.</div>
+					<br /><br />
+					<div align="center" class="smalltext">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank">Powered by SMF 1.1.19</a> | 
+<a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank">SMF &copy; 2006-2009, Simple Machines</a>
+		</span></div>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

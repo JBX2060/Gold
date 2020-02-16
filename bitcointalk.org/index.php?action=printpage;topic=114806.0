@@ -1,0 +1,98 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+		<link rel="canonical" href="https://bitcointalk.org/index.php?topic=114806.0" />
+		<title>Print Page - Running ecoinpool without CouchDB</title>
+		<style type="text/css">
+			body
+			{
+				color: black;
+				background-color: white;
+			}
+			body, td, .normaltext
+			{
+				font-family: Verdana, arial, helvetica, serif;
+				font-size: small;
+			}
+			*, a:link, a:visited, a:hover, a:active
+			{
+				color: black !important;
+			}
+			table
+			{
+				empty-cells: show;
+			}
+			.code
+			{
+				font-size: x-small;
+				font-family: monospace;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.quote
+			{
+				font-size: x-small;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.smalltext, .quoteheader, .codeheader
+			{
+				font-size: x-small;
+			}
+			.largetext
+			{
+				font-size: large;
+			}
+			hr
+			{
+				height: 1px;
+				border: 0;
+				color: black;
+				background-color: black;
+			}
+		</style>
+	</head>
+	<body>
+		<h1 class="largetext">Bitcoin Forum</h1>
+		<h2 class="normaltext">Bitcoin => Bitcoin Technical Support => Topic started by: betatest512 on October 02, 2012, 12:51:31 AM</h2>
+
+		<table width="90%" cellpadding="0" cellspacing="0" border="0">
+			<tr>
+				<td>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Running ecoinpool without CouchDB</b><br />
+					Post by: <b>betatest512</b> on <b>October 02, 2012, 12:51:31 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">i installed ubuntu 12.04 and tried to install ecoinpool then when i tried to install couchdb from the step&#039;s here http://pastebin.com/vjHVuJxq&nbsp; couchdb did not install<br /><br />is there anyway to run ecoinpool without couchdb if yes please can someone post how?</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Running ecoinpool without CouchDB</b><br />
+					Post by: <b>sippsnapp</b> on <b>October 02, 2012, 03:09:17 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">http://onabai.wordpress.com/2012/05/10/installing-couchdb-1-2-in-ubuntu-12-04/<br /><br />Got couchdb working without issues on ubuntu 12.04, think it was the faq above.<br />Graet mentioned one time that he only got exoinpool to work on ubuntu 11, not 12, i dont know why.<br /><br />However, i never could start ecoinpool at all, always got the error message as documented in the thread.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Running ecoinpool without CouchDB</b><br />
+					Post by: <b>betatest512</b> on <b>October 02, 2012, 05:29:32 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=114806.msg1239272#msg1239272">Quote from: sippsnapp on October 02, 2012, 03:09:17 PM</a></div><div class="quote">http://onabai.wordpress.com/2012/05/10/installing-couchdb-1-2-in-ubuntu-12-04/<br /><br />Got couchdb working without issues on ubuntu 12.04, think it was the faq above.<br />Graet mentioned one time that he only got exoinpool to work on ubuntu 11, not 12, i dont know why.<br /><br />However, i never could start ecoinpool at all, always got the error message as documented in the thread.<br /></div><br />did you get ecoinpool to start in ubuntu 11.10</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Running ecoinpool without CouchDB</b><br />
+					Post by: <b>sippsnapp</b> on <b>October 02, 2012, 05:44:54 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=114806.msg1239272#msg1239272">Quote from: sippsnapp on October 02, 2012, 03:09:17 PM</a></div><div class="quote">i never could start ecoinpool at all.<br /></div><br /><br />After looking in all the public available poolsoftwares i ended up with eloipool and poolserverj, both working.<br />From a buddy i know pushpool is relatively fragile on load while poolserverj handled the same load easily but poolj development is discontinued/stalled for now.<br />About eloipool i only know its still maintained and used in luke-jr official pool eligius and in inabas eclipsemining pool.<br /></div>
+					<br /><br />
+					<div align="center" class="smalltext">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank">Powered by SMF 1.1.19</a> | 
+<a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank">SMF &copy; 2006-2009, Simple Machines</a>
+		</span></div>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

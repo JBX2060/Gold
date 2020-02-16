@@ -1,0 +1,182 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+		<link rel="canonical" href="https://bitcointalk.org/index.php?topic=121354.0" />
+		<title>Print Page - Is it the 52 char compressed key, or is this the worst keypair ever? (bounty)</title>
+		<style type="text/css">
+			body
+			{
+				color: black;
+				background-color: white;
+			}
+			body, td, .normaltext
+			{
+				font-family: Verdana, arial, helvetica, serif;
+				font-size: small;
+			}
+			*, a:link, a:visited, a:hover, a:active
+			{
+				color: black !important;
+			}
+			table
+			{
+				empty-cells: show;
+			}
+			.code
+			{
+				font-size: x-small;
+				font-family: monospace;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.quote
+			{
+				font-size: x-small;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.smalltext, .quoteheader, .codeheader
+			{
+				font-size: x-small;
+			}
+			.largetext
+			{
+				font-size: large;
+			}
+			hr
+			{
+				height: 1px;
+				border: 0;
+				color: black;
+				background-color: black;
+			}
+		</style>
+	</head>
+	<body>
+		<h1 class="largetext">Bitcoin Forum</h1>
+		<h2 class="normaltext">Bitcoin => Bitcoin Technical Support => Topic started by: BitBlitz on October 31, 2012, 12:10:06 AM</h2>
+
+		<table width="90%" cellpadding="0" cellspacing="0" border="0">
+			<tr>
+				<td>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Is it the 52 char compressed key, or is this the worst keypair ever? (bounty)</b><br />
+					Post by: <b>BitBlitz</b> on <b>October 31, 2012, 12:10:06 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">I have a 52 character private key (starts with &#039;L&#039;). &nbsp;The wallet.dat was encrypted some time after the block was solved, and became corrupted to the point that the bitcoin.org client would not open with it. &nbsp;I extracted the keys with pywallet and managed to import and spend all of the block rewards in the wallet except this one. <br /><br />Here is what is interesting:<br />1) I can NOT import the key into an unencrypted wallet with pywallet.<br />2) I can import the key into an encrypted wallet with pywallet, and the balance is shown.<br />3) If I attempt to send all or part of that amount, the client reports &quot;Transaction creation failed&quot;.<br />4) Nothing shows up in the debug log.<br />5) I can import the key to a blockchain wallet and the balance is shown (still cannot send). <br /><br />Is pywallet able to handle 52 character keys correctly? &nbsp;<br />Any ideas why this works with encrypted wallets only?<br /><br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Is it the 52 byte compressed key, or is this the worst keypair ever? (bounty)</b><br />
+					Post by: <b>casascius</b> on <b>October 31, 2012, 12:39:13 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Private keys are 51 characters. <br /><br />Maybe your key has an invisible character in it. Has caught me by surprise. Hand retype and see if it works. </div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Is it the 52char compressed key, or is this the worst keypair ever? (bounty)</b><br />
+					Post by: <b>BitBlitz</b> on <b>October 31, 2012, 03:43:35 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">The 52 character private keys are paired with compressed public keys. I&#039;ve imported and tried this key in 0.3.x, 0.4.x, and more current clients.&nbsp; Always the same story...&nbsp; It is a valid key---at least it imports to the right address with the lost block reward.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Is it the 52 byte compressed key, or is this the worst keypair ever? (bounty)</b><br />
+					Post by: <b>Stephen Gornick</b> on <b>October 31, 2012, 03:52:08 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=121354.msg1308191#msg1308191">Quote from: BitBlitz on October 31, 2012, 12:10:06 AM</a></div><div class="quote">The wallet.dat was encrypted some time after the block was solved, and became corrupted to the point that the bitcoin.org client would not open with it.<br /></div><br />The Bitcoin.org client version 0.7.1 has a &quot;-salvagewallet&quot; option. &nbsp;You might want to try that on a copy of the wallet.dat, <br />then if that loads, you can use the console from the Debug window to dumpprivkey.<br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Is it the 52 char compressed key, or is this the worst keypair ever? (bounty)</b><br />
+					Post by: <b>BCB</b> on <b>October 31, 2012, 03:58:41 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">BitBlitz<br /><br />I believe I saw a discussion about a similar issue on bitcoin-dev&nbsp; irc channel recently.&nbsp; Have you tried there?</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Is it the 52 byte compressed key, or is this the worst keypair ever? (bounty)</b><br />
+					Post by: <b>BitBlitz</b> on <b>October 31, 2012, 04:01:23 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=121354.msg1308466#msg1308466">Quote from: Stephen Gornick on October 31, 2012, 03:52:08 AM</a></div><div class="quote">The Bitcoin.org client version 0.7.1 has a &quot;-salvagewallet&quot; option. &nbsp;You might want to try that on a copy of the wallet.dat, <br />then if that loads, you can use the console from the Debug window to dumpprivkey.<br /></div>I tried salvagewallet a few times (and I forgot a data point). &nbsp;Salvagewallet just deletes the key :o</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Is it the 52 char compressed key, or is this the worst keypair ever? (bounty)</b><br />
+					Post by: <b>OpenYourEyes</b> on <b>October 31, 2012, 05:37:16 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">This isn&#039;t really my area, but have you tried using Armoury to import the key.<br /><br />I had issues importing private keys before, tried many clients and blockchain.info, but Armoury came to the rescue in the end.<br /><br />Edit: Post the key :) Lol.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Is it the 52 char compressed key, or is this the worst keypair ever? (bounty)</b><br />
+					Post by: <b>Garr255</b> on <b>October 31, 2012, 05:54:32 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">PM me the privkey (and wallet if you&#039;d like) and I&#039;ll try my hand at it.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Is it the 52 byte compressed key, or is this the worst keypair ever? (bounty)</b><br />
+					Post by: <b>flatfly</b> on <b>October 31, 2012, 07:15:54 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=121354.msg1308211#msg1308211">Quote from: casascius on October 31, 2012, 12:39:13 AM</a></div><div class="quote">Private keys are 51 characters. <br /><br />Maybe your key has an invisible character in it. Has caught me by surprise. Hand retype and see if it works. <br /></div><br />Actually compressed private keys are 52 characters, so the length is not the issue here.&nbsp; <br /><br />Also bitcoind releases prior to 0.6.0 do not support compressed keys so I&#039;m not surprised you couldn&#039;t spend it from older releases.<br /><br />There is a new python patch for Electrum (not merged in the release code yet) that supports importing of such keys - perhaps you could give that a try? It would probably work.&nbsp; If you&#039;re willing to try this out and need some help, I&#039;ll be available to guide you through getting and merging the patch later today.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Is it the 52 char compressed key, or is this the worst keypair ever? (bounty)</b><br />
+					Post by: <b>casascius</b> on <b>October 31, 2012, 07:22:05 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">I just updated my Casascius Bitcoin Address Utility to fully support compressed private keys.&nbsp; So yeah, now I definitely agree, 52 characters for a private key if it&#039;s compressed...<br /><br />There is no way to use a compressed private key with a client that doesn&#039;t support it.&nbsp; There is no &quot;uncompressed equivalent&quot; (well, there is, but it will have a different bitcoin address so it&#039;s useless).</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Is it the 52 char compressed key, or is this the worst keypair ever? (bounty)</b><br />
+					Post by: <b>kjj</b> on <b>November 02, 2012, 06:25:02 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">I&#039;d try the raw transaction API and see if I could move it that way.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Is it the 52 char compressed key, or is this the worst keypair ever? (bounty)</b><br />
+					Post by: <b>BitBlitz</b> on <b>November 04, 2012, 04:14:48 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Still working on this one... &gt;:(&nbsp; &nbsp;I can get compressed key compatible clients to show the balance, but they all fail when I try to send them. ???<br /><br />Mike, The Casascius Address tool confirms that the &#039;other address&#039; that I see in some tools or clients is an import of the private key without compressing the public key.&nbsp; </div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Is it the 52 char compressed key, or is this the worst keypair ever? (bounty)</b><br />
+					Post by: <b>kjj</b> on <b>November 04, 2012, 05:06:10 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Have you tried the importprivkey RPC call on a normal bitcoin 0.7.1 node?<br /><br />Sounds to me like the WIF is incorrect, but the tools you are using aren&#039;t checking the checksum, so they happily import it, but since it isn&#039;t right, they can&#039;t actually make a valid signature for it.<br /><br />It would be hard to know more without seeing it, and you probably don&#039;t want to hand a stranger on the internet what could be $500.&nbsp; That said, I&#039;d be willing to take a look at it if you&#039;d like.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Is it the 52 char compressed key, or is this the worst keypair ever? (bounty)</b><br />
+					Post by: <b>casascius</b> on <b>November 05, 2012, 02:10:54 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">https://casascius.com/btcaddress-alpha.zip is the only version that recognizes compressed public keys. <br /><br />My utility can ignore a bad checksum if you put a ? after the address. Converting it back from hex to WIF will give you one with a recalculated checksum. <br /><br />Perhaps you can share the public key (starts with 02, 03, or 04). This is safe to share and may help. </div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Is it the 52 char compressed key, or is this the worst keypair ever? (bounty)</b><br />
+					Post by: <b>J-Norm</b> on <b>November 23, 2012, 01:29:29 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">I had a funny private key that the client would not accept.<br /><br />I went to my blockchain.info wallet, then imported it as a private key. It worked, then I went to the &quot;paper wallet&quot; page and it gave me a normal private key that would import to the regular client.<br /><br />If this works sent the bounty to: 1JNv6WZsh8rPfXYaKXXMnuKvsjZKhnoL5d</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Is it the 52 char compressed key, or is this the worst keypair ever? (bounty)</b><br />
+					Post by: <b>casascius</b> on <b>November 23, 2012, 01:34:59 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">An example of a potential &quot;funny&quot; private key is one that starts with &quot;y&quot;. <br /><br />These are formed when pywallet misbehaves when encountering a private key that starts with a 00 byte. It is malformed but many utilities will still accept it. Others won&#039;t.&nbsp; I believe mine will, since I am aware of the problem and likely would have accommodated it.&nbsp; It can be converted to the proper format with no loss of funds.&nbsp; </div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Is it the 52 char compressed key, or is this the worst keypair ever? (bounty)</b><br />
+					Post by: <b>BitBlitz</b> on <b>November 30, 2012, 04:38:36 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><br />Circling back to this... (I&#039;ve been way too busy) <br />--By the way Mike, I missed the chance to meet you at DefCon. &nbsp;Maybe next time.<br /><br />J-Norm: paper wallet or key exports just issue the same privkey. &nbsp; :(<br /><br />Anyways, I think I just need to find a client that can sign a transaction with this key. &nbsp;<br /><br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Is it the 52 char compressed key, or is this the worst keypair ever? (bounty)</b><br />
+					Post by: <b>sunnankar</b> on <b>November 30, 2012, 05:14:59 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=121354.msg1352314#msg1352314">Quote from: J-Norm on November 23, 2012, 01:29:29 AM</a></div><div class="quote">I went to my blockchain.info wallet, then imported it as a private key. It worked, then I went to the &quot;paper wallet&quot; page and it gave me a normal private key that would import to the regular client.<br /></div><br />That should work. Using BrainWallet.org (http://brainwallet.org/) and BitAddress.org (https://www.bitaddress.org/) tools may be a shorter method.</div>
+					<br /><br />
+					<div align="center" class="smalltext">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank">Powered by SMF 1.1.19</a> | 
+<a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank">SMF &copy; 2006-2009, Simple Machines</a>
+		</span></div>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

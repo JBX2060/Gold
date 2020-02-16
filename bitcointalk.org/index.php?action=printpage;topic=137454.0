@@ -1,0 +1,110 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+		<link rel="canonical" href="https://bitcointalk.org/index.php?topic=137454.0" />
+		<title>Print Page - Bitcoin isnt opening - is my wallet corrupt? [GOT IT FIXED!!]</title>
+		<style type="text/css">
+			body
+			{
+				color: black;
+				background-color: white;
+			}
+			body, td, .normaltext
+			{
+				font-family: Verdana, arial, helvetica, serif;
+				font-size: small;
+			}
+			*, a:link, a:visited, a:hover, a:active
+			{
+				color: black !important;
+			}
+			table
+			{
+				empty-cells: show;
+			}
+			.code
+			{
+				font-size: x-small;
+				font-family: monospace;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.quote
+			{
+				font-size: x-small;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.smalltext, .quoteheader, .codeheader
+			{
+				font-size: x-small;
+			}
+			.largetext
+			{
+				font-size: large;
+			}
+			hr
+			{
+				height: 1px;
+				border: 0;
+				color: black;
+				background-color: black;
+			}
+		</style>
+	</head>
+	<body>
+		<h1 class="largetext">Bitcoin Forum</h1>
+		<h2 class="normaltext">Bitcoin => Bitcoin Technical Support => Topic started by: yesterday on January 20, 2013, 02:40:00 AM</h2>
+
+		<table width="90%" cellpadding="0" cellspacing="0" border="0">
+			<tr>
+				<td>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Bitcoin isnt opening - is my wallet corrupt? [GOT IT FIXED!!]</b><br />
+					Post by: <b>yesterday</b> on <b>January 20, 2013, 02:40:00 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">I get this error when I try to open bitcoin:<br /><br /><a href="http://i.imgur.com/dbHi7Vo.png">http://i.imgur.com/dbHi7Vo.png</a><br /><br />I am using Win 7 64bit with an encrypted wallet and Bitcoin v0.6.2-beta.<br /><br />To fix it, I tried running bitcoin after moving all files (except wallet.dat) out of the Bitcoin AppData directory. It didnt work.<br /><br />Then I tried installing bitcoin on a second computer, redownloading the entire blockchain on that computer, and then copying my &quot;wallet.dat&quot; file to the Bitcoin AppData directory. This didnt work either. I got this error (http://i.imgur.com/ErOG6JC.png).<br /><br />Lastly I tried running bitcoin with &quot;-detachdb&quot;, but that also didnt work.<br /><br />Is there anything else I can do?</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Bitcoin isnt opening - is my wallet corrupt?</b><br />
+					Post by: <b>DannyHamilton</b> on <b>January 20, 2013, 03:07:44 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Assuming you don&#039;t have multiple backups, or an older backup that you can try, you might want to look into pywallet.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Bitcoin isnt opening - is my wallet corrupt?</b><br />
+					Post by: <b>DannyHamilton</b> on <b>January 20, 2013, 04:19:18 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">I&#039;m not much of a Windows guy, so I&#039;ll leave it to someone else to assist you.&nbsp; Be careful who you get assistance from.&nbsp; There are some very intelligent, helpful, and trustworthy people on this forum, but there are also quite a few talented scammers.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Bitcoin isnt opening - is my wallet corrupt?</b><br />
+					Post by: <b>kjj</b> on <b>January 20, 2013, 04:20:08 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Try the -salvagewallet startup option.<br /><br />https://github.com/bitcoin/bitcoin/pull/1895</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Bitcoin isnt opening - is my wallet corrupt?</b><br />
+					Post by: <b>memvola</b> on <b>January 20, 2013, 04:33:13 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=137454.msg1465320#msg1465320">Quote from: yesterday on January 20, 2013, 03:27:26 AM</a></div><div class="quote">Ill give $25 USD worth of bitcoins to anyone who can help me fix it. PM me.<br /></div><br />Please report after you&#039;ve run bitcoin with the -salvagewallet command-line parameter.<br /><br />If that fails, you may try pywallet, but that might require a little more expertise. This version reportedly works on encrypted wallets, but I&#039;m not sure how it would perform on a corrupt one:<br /><br />https://github.com/joric/pywallet<br /><br /><tt>pywallet --dumpwallet --password=...</tt><br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Bitcoin isnt opening - is my wallet corrupt?</b><br />
+					Post by: <b>Kris</b> on <b>January 20, 2013, 04:36:12 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Send the wallet.dat file to me at http://support.walletbit.com/ &quot;submit a ticket&quot; and I&#039;ll help you out. Remember to include the password you used for encrypting, or change it if you can and provide me with this.<br /><br />I&#039;ll fix what looks like a database error in your wallet.dat file and send it back to you clean. Or if that doesn&#039;t work I&#039;ll parse out the private keys and send the coins to a new bitcoin address you generate with a new wallet.dat file.<br /><br />No payment needed for this service. I&#039;m just in a good mood.<br /><br />Regards<br />Kris</div>
+					<br /><br />
+					<div align="center" class="smalltext">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank">Powered by SMF 1.1.19</a> | 
+<a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank">SMF &copy; 2006-2009, Simple Machines</a>
+		</span></div>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

@@ -1,0 +1,86 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+		<link rel="canonical" href="https://bitcointalk.org/index.php?topic=133246.0" />
+		<title>Print Page - Mt Gox Api gives error after ~6 hours</title>
+		<style type="text/css">
+			body
+			{
+				color: black;
+				background-color: white;
+			}
+			body, td, .normaltext
+			{
+				font-family: Verdana, arial, helvetica, serif;
+				font-size: small;
+			}
+			*, a:link, a:visited, a:hover, a:active
+			{
+				color: black !important;
+			}
+			table
+			{
+				empty-cells: show;
+			}
+			.code
+			{
+				font-size: x-small;
+				font-family: monospace;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.quote
+			{
+				font-size: x-small;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.smalltext, .quoteheader, .codeheader
+			{
+				font-size: x-small;
+			}
+			.largetext
+			{
+				font-size: large;
+			}
+			hr
+			{
+				height: 1px;
+				border: 0;
+				color: black;
+				background-color: black;
+			}
+		</style>
+	</head>
+	<body>
+		<h1 class="largetext">Bitcoin Forum</h1>
+		<h2 class="normaltext">Bitcoin => Bitcoin Technical Support => Topic started by: gweedo on December 25, 2012, 06:55:59 AM</h2>
+
+		<table width="90%" cellpadding="0" cellspacing="0" border="0">
+			<tr>
+				<td>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Mt Gox Api gives error after ~6 hours</b><br />
+					Post by: <b>gweedo</b> on <b>December 25, 2012, 06:55:59 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">So I started rewriting my trading bot to be optimized and to implement new trading strategies, so I thought at first that it was cause I was getting the USD and BTC funds in my account then executing a trade and that I had a web socket connection open all at the same time. Then I rewrote the entire way I handle Mt Gox so I can make 2 calls back to back almost every 25 seconds (to be in the 10 seconds window so I am not caught by anti-DDOS measures), then I am only checking USD and BTC funds during startup, after a trade but after my open orders close. But it is always hitting this wall at 6 hours and needs to be turned off for a while before being startup right now it is all simulations (no trade is actually going thru) but I need to fix this before turning on for a live trading. Any help?<br /><br />P.S.&nbsp; I don&#039;t want to shut it down and restart it, with weird cron scripts, this is written in java</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Mt Gox Api gives error after ~6 hours</b><br />
+					Post by: <b>K1773R</b> on <b>December 25, 2012, 06:30:17 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=133246.msg1419135#msg1419135">Quote from: gweedo on December 25, 2012, 06:55:59 AM</a></div><div class="quote">So I started rewriting my trading bot to be optimized and to implement new trading strategies, so I thought at first that it was cause I was getting the USD and BTC funds in my account then executing a trade and that I had a web socket connection open all at the same time. Then I rewrote the entire way I handle Mt Gox so I can make 2 calls back to back almost every 25 seconds (to be in the 10 seconds window so I am not caught by anti-DDOS measures), then I am only checking USD and BTC funds during startup, after a trade but after my open orders close. But it is always hitting this wall at 6 hours and needs to be turned off for a while before being startup right now it is all simulations (no trade is actually going thru) but I need to fix this before turning on for a live trading. Any help?<br /><br />P.S.&nbsp; I don&#039;t want to shut it down and restart it, with weird cron scripts, this is written in java<br /></div>why dont u post the Error from the API or the source? otherwise this is just guessing and is a waste of time.</div>
+					<br /><br />
+					<div align="center" class="smalltext">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank">Powered by SMF 1.1.19</a> | 
+<a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank">SMF &copy; 2006-2009, Simple Machines</a>
+		</span></div>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

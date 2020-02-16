@@ -1,0 +1,92 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+		<link rel="canonical" href="https://bitcointalk.org/index.php?topic=130687.0" />
+		<title>Print Page - MtGox taking a long time to show deposits</title>
+		<style type="text/css">
+			body
+			{
+				color: black;
+				background-color: white;
+			}
+			body, td, .normaltext
+			{
+				font-family: Verdana, arial, helvetica, serif;
+				font-size: small;
+			}
+			*, a:link, a:visited, a:hover, a:active
+			{
+				color: black !important;
+			}
+			table
+			{
+				empty-cells: show;
+			}
+			.code
+			{
+				font-size: x-small;
+				font-family: monospace;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.quote
+			{
+				font-size: x-small;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.smalltext, .quoteheader, .codeheader
+			{
+				font-size: x-small;
+			}
+			.largetext
+			{
+				font-size: large;
+			}
+			hr
+			{
+				height: 1px;
+				border: 0;
+				color: black;
+				background-color: black;
+			}
+		</style>
+	</head>
+	<body>
+		<h1 class="largetext">Bitcoin Forum</h1>
+		<h2 class="normaltext">Bitcoin => Bitcoin Technical Support => Topic started by: SynOps on December 13, 2012, 11:16:36 PM</h2>
+
+		<table width="90%" cellpadding="0" cellspacing="0" border="0">
+			<tr>
+				<td>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>MtGox taking a long time to show deposits</b><br />
+					Post by: <b>SynOps</b> on <b>December 13, 2012, 11:16:36 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">I have sent 4 deposits totaling 10.88025073 BTC to my account on mtgox.<br /><br />As of right now.<br />Mtgox Address 1:<br />Deposit 1; 27 Confirmations<br />Deposit 2; 11 Confirmations<br /><br />Mtgox Address 2:<br />Deposit 1; 11 Confirmations<br />Deposit 2; 11 Confirmations<br /><br />It has never taken this long so I am pretty pissed that its not showing my coins.<br /><br />Has this happened to anyone today? Or ever before?<br /><br />Best bet to contact mtgox support?<br /><br />Any help is appreciated.<br /><br />(I ordered a Mtgox yubikey this morning before those deposits, could that cause any issue---I would not think it would)</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: MtGox taking a long time to show deposits</b><br />
+					Post by: <b>Stephen Gornick</b> on <b>December 14, 2012, 01:21:44 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=130687.msg1398499#msg1398499">Quote from: SynOps on December 13, 2012, 11:16:36 PM</a></div><div class="quote">Any help is appreciated.<br /></div><br />From another thread:<br /><br /><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=130643.msg1398611#msg1398611">Quote from: kakobrekla on December 14, 2012, 12:13:10 AM</a></div><div class="quote"><div class="quoteheader">Quote</div><div class="quote">00:57.17 ( @MagicalTux ) there&#039;s some lag on incoming txs but it&#039;s getting better<br />00:58.38 ( @MagicalTux ) 26628 operations pending processing<br />...<br />01:08.40 ( @MagicalTux ) there was an exception with an overly strange transaction in the blockchain<br />01:08.54 ( @MagicalTux ) if our system sees anything out of the ordinary, it halts talking with the bitcoin network<br />01:09.15 ( @MagicalTux ) and sends an alert to the operators<br /></div><br />Also smpake.com still has some coins in it.<br /></div><br />So it was a site-wide technical issue that is being worked on.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: MtGox taking a long time to show deposits</b><br />
+					Post by: <b>SynOps</b> on <b>December 14, 2012, 01:36:12 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Ah. Thanks.<br /><br />Just checked and they all came in about 10-15 minutes ago...took 3 about 17-20 confirmations and another took 34 confirmations.<br /><br />But they came in.<br /><br />KUDOS!</div>
+					<br /><br />
+					<div align="center" class="smalltext">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank">Powered by SMF 1.1.19</a> | 
+<a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank">SMF &copy; 2006-2009, Simple Machines</a>
+		</span></div>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

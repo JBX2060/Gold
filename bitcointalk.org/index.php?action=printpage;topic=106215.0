@@ -1,0 +1,92 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+		<link rel="canonical" href="https://bitcointalk.org/index.php?topic=106215.0" />
+		<title>Print Page - Sent bitcoins, closed buggy client, coins never sent / unconfirmed</title>
+		<style type="text/css">
+			body
+			{
+				color: black;
+				background-color: white;
+			}
+			body, td, .normaltext
+			{
+				font-family: Verdana, arial, helvetica, serif;
+				font-size: small;
+			}
+			*, a:link, a:visited, a:hover, a:active
+			{
+				color: black !important;
+			}
+			table
+			{
+				empty-cells: show;
+			}
+			.code
+			{
+				font-size: x-small;
+				font-family: monospace;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.quote
+			{
+				font-size: x-small;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.smalltext, .quoteheader, .codeheader
+			{
+				font-size: x-small;
+			}
+			.largetext
+			{
+				font-size: large;
+			}
+			hr
+			{
+				height: 1px;
+				border: 0;
+				color: black;
+				background-color: black;
+			}
+		</style>
+	</head>
+	<body>
+		<h1 class="largetext">Bitcoin Forum</h1>
+		<h2 class="normaltext">Bitcoin => Bitcoin Technical Support => Topic started by: JohnnyCashout on September 06, 2012, 05:18:26 PM</h2>
+
+		<table width="90%" cellpadding="0" cellspacing="0" border="0">
+			<tr>
+				<td>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Sent bitcoins, closed buggy client, coins never sent / unconfirmed</b><br />
+					Post by: <b>JohnnyCashout</b> on <b>September 06, 2012, 05:18:26 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">So I had some BTC on an older Windows computer with an old version of the BTC client, 0.3.x.&nbsp; &nbsp; It was crashing on me after a minute or so of being open, and I kept restarting it and finally sent all my BTC to an address of a wallet I had stored on another computer<br /><br />I closed the bitcoin client that was buggy/crashing on me right after sending the coins.&nbsp; &nbsp;I backed up the wallet.dat and moved it to a computer with a working (latest) version of the bitcoin client.&nbsp; It was fully synced up with the blockchain before overwriting the wallet.dat.&nbsp; When I launched the client it showed my transaction in the tx list but it was 0/confirmed, and still is (this is about a week after sending the coins).&nbsp; The balance is 0 so the coins are out there &#039;in limbo&#039; and blockchain.info doensn&#039;t have any record of the transaction and they never arrived at the destination<br /><br />what do?</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Sent bitcoins, closed buggy client, coins never sent / unconfirmed</b><br />
+					Post by: <b>JohnnyCashout</b> on <b>September 06, 2012, 05:19:46 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">nevermind, it looks like it is now starting to get confirmations.&nbsp; &nbsp;:)<br />so I guess you shouldn&#039;t send BTC and immediately close the client or it might never start getting confirmed..?</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Sent bitcoins, closed buggy client, coins never sent / unconfirmed</b><br />
+					Post by: <b>Stephen Gornick</b> on <b>September 06, 2012, 09:55:23 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=106215.msg1165167#msg1165167">Quote from: JohnnyCashout on September 06, 2012, 05:19:46 PM</a></div><div class="quote">nevermind, it looks like it is now starting to get confirmations.&nbsp; &nbsp;:)<br />so I guess you shouldn&#039;t send BTC and immediately close the client or it might never start getting confirmed..?<br /></div><br />The client will notice that it isn&#039;t getting confirmed and will eventually (e.g., in a half hour or less) rebroadcast&nbsp; the transaction.&nbsp; &nbsp;It will keep doing this (checking and sending about every half hour) until it does eventually get confirmed.&nbsp; &nbsp; Obviously, if the program isn&#039;t running it can&#039;t perform this check.&nbsp; But you&#039;ll never lose this transaction ...&nbsp; with the exception where from another copy of the same wallet you might end up doing a double spend of the coins that this poorly transmitted transaction was also using.</div>
+					<br /><br />
+					<div align="center" class="smalltext">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank">Powered by SMF 1.1.19</a> | 
+<a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank">SMF &copy; 2006-2009, Simple Machines</a>
+		</span></div>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

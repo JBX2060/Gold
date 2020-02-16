@@ -1,0 +1,98 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+		<link rel="canonical" href="https://bitcointalk.org/index.php?topic=108677.0" />
+		<title>Print Page - Tips for Recovering A Locked Wallet</title>
+		<style type="text/css">
+			body
+			{
+				color: black;
+				background-color: white;
+			}
+			body, td, .normaltext
+			{
+				font-family: Verdana, arial, helvetica, serif;
+				font-size: small;
+			}
+			*, a:link, a:visited, a:hover, a:active
+			{
+				color: black !important;
+			}
+			table
+			{
+				empty-cells: show;
+			}
+			.code
+			{
+				font-size: x-small;
+				font-family: monospace;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.quote
+			{
+				font-size: x-small;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.smalltext, .quoteheader, .codeheader
+			{
+				font-size: x-small;
+			}
+			.largetext
+			{
+				font-size: large;
+			}
+			hr
+			{
+				height: 1px;
+				border: 0;
+				color: black;
+				background-color: black;
+			}
+		</style>
+	</head>
+	<body>
+		<h1 class="largetext">Bitcoin Forum</h1>
+		<h2 class="normaltext">Bitcoin => Bitcoin Technical Support => Topic started by: The-Real-Link on September 11, 2012, 05:07:31 AM</h2>
+
+		<table width="90%" cellpadding="0" cellspacing="0" border="0">
+			<tr>
+				<td>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Tips for Recovering A Locked Wallet</b><br />
+					Post by: <b>The-Real-Link</b> on <b>September 11, 2012, 05:07:31 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">&nbsp;&nbsp;Hi all,<br /><br />&nbsp;&nbsp;So today I was faced with the unthinkable - I somehow mistyped my password when I was wanting to change it and somehow must&#039;ve made the same mistake twice when locking in a password over 26+ characters.<br /><br />&nbsp;&nbsp;Spent a good while attempting to re-crack it by testing capslock, double letters, double numbers, transposed letters, etc. without luck.<br /><br />&nbsp;&nbsp;So depending on how many transactions you&#039;ve made, here are my thoughts:<br /><br />&nbsp;&nbsp;1. &nbsp;The Wiki bit on &quot;Recovery&quot; is a good first step. &nbsp;Go into your directory (C:\Users\Username\AppData\Roaming\Bitcoin and find the wallet.dat. &nbsp;Back that up. &nbsp;Drop in a previously backed up wallet (you&#039;ve been backing them up, right?). &nbsp;Delete the blk##.dat files and index and allow the client to redownload the entire thing. &nbsp;Given minimal use, you might be able to restore all your coins from a semi-recent file.<br /><br />&nbsp;&nbsp;2. &nbsp;Since #1 did not work for me, I also gave it a go and looked for other ways to restore my wallet. &nbsp;Found the rarely-used right-click &quot;Restore Previous Versions&quot; in Windows Explorer. &nbsp;Mine had 3 backups - yesterday, a couple days ago, and last week. &nbsp;If you restore one, it will not wipe out the dialogue&#039;s other versions, just FYI. &nbsp;Again, make sure your current wallet that has all the coins is zipped or in a different folder. &nbsp;Close the client and overwrite the *.dat. &nbsp;Test your password.<br /><br />&nbsp;&nbsp;In this case, I had to go to my very last backup (before I knew I had overwritten my password wrongly since I caught it within a day or so). &nbsp;Sure enough, all my coins were intact and the proper secure password that worked for me did indeed unlock the wallet ;)<br /><br />&nbsp;&nbsp;3. &nbsp;I suppose it could be brute-forced or password cracked but I&#039;ve found no tools to do this to a *.dat file as opposed to zips or other regular files.<br /><br />&nbsp;&nbsp;4. &nbsp;If your wallet has lots of transactions and you&#039;ve gone over 100, I&#039;m also not sure how well the two options short of figuring out your mistaken password could be done without losing any of the coins.<br /><br />&nbsp;&nbsp;I did look at Armory but I don&#039;t believe that can outright recover a password. &nbsp;Just thought I&#039;d mention that in this case, I must&#039;ve goofed so badly (TWICE...argh!) that trying restoring the file via Windows itself could help. &nbsp;It&#039;s an extra step to try when you feel out of luck and worried. &nbsp;<br /><br />&nbsp;&nbsp;As long as you take the current wallet.dat (presumably that has all your coins in it) and back it up or move it, you can test freely with older copies or backup dats and don&#039;t have to worry about overwriting the good file!<br /><br />&nbsp;&nbsp; </div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Tips for Recovering A Locked Wallet</b><br />
+					Post by: <b>Revalin</b> on <b>September 11, 2012, 05:14:26 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=108677.msg1180391#msg1180391">Quote from: The-Real-Link on September 11, 2012, 05:07:31 AM</a></div><div class="quote">I suppose it could be brute-forced or password cracked but I&#039;ve found no tools to do this to a *.dat file as opposed to zips or other regular files.</div><br />For anyone who stumbles on this in the future: I wrote a simple brute force script which may work if you know most of your password.&nbsp; Get it here:<br /><br />https://bitcointalk.org/index.php?topic=85495.msg942171#msg942171</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Tips for Recovering A Locked Wallet</b><br />
+					Post by: <b>scintill</b> on <b>September 11, 2012, 05:21:45 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=108677.msg1180391#msg1180391">Quote from: The-Real-Link on September 11, 2012, 05:07:31 AM</a></div><div class="quote"> &nbsp;So today I was faced with the unthinkable - I somehow mistyped my password when I was wanting to change it and somehow must&#039;ve made the same mistake twice when locking in a password over 26+ characters.<br /><br />&nbsp;&nbsp;Spent a good while attempting to re-crack it by testing capslock, double letters, double numbers, transposed letters, etc. without luck.<br /></div><br />Glad you got your coins back, and thanks for the tips! &nbsp;I&#039;ve wondered about this sort of situation -- does anyone know of a tool for this situation that can generate a bunch of passwords to test, based on common key transpositions, holding down shift too long/not long enough, etc? &nbsp;If you could get a good list this way it should be pretty easy to plug into a script to try them all (maybe via RPC, try unlocking the wallet with each candidate passphrase and see if it worked.)<br /><br />Ah, looks like Revalin&#039;s script does some of this.&nbsp; Awesome!</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Tips for Recovering A Locked Wallet</b><br />
+					Post by: <b>The-Real-Link</b> on <b>September 11, 2012, 06:11:52 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">&nbsp;&nbsp;Yeah I was just thinking the same. &nbsp;I&#039;m no programmer but couldn&#039;t someone on this board write up a neat little dialog that would have tick boxes for a-z, A-Z, 0-9, @!%; (symbols) and the options:<br /><br />1. &nbsp;Crack! &nbsp;(brute-force starting at one character and progressively going)<br />2. &nbsp;Enter-what-you-think-your-password-is (and intelligently guess from there)<br />3. &nbsp;Not sure what other method you can put in...<br /><br />&nbsp;&nbsp;I don&#039;t know, I just thought a utility for just this very issue could save more than a couple of us some heartache. &nbsp;Especially if we made simple mistakes and are locked out of who knows how many coins.<br /><br />&nbsp; That looks great Revalin but for those of us who don&#039;t script, how would you run that in Windows?</div>
+					<br /><br />
+					<div align="center" class="smalltext">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank">Powered by SMF 1.1.19</a> | 
+<a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank">SMF &copy; 2006-2009, Simple Machines</a>
+		</span></div>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

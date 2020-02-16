@@ -1,0 +1,272 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+		<link rel="canonical" href="https://bitcointalk.org/index.php?topic=336514.0" />
+		<title>Print Page - Zerocoin proofs reduced by 98%, will be released as an alternative coin.</title>
+		<style type="text/css">
+			body
+			{
+				color: black;
+				background-color: white;
+			}
+			body, td, .normaltext
+			{
+				font-family: Verdana, arial, helvetica, serif;
+				font-size: small;
+			}
+			*, a:link, a:visited, a:hover, a:active
+			{
+				color: black !important;
+			}
+			table
+			{
+				empty-cells: show;
+			}
+			.code
+			{
+				font-size: x-small;
+				font-family: monospace;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.quote
+			{
+				font-size: x-small;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.smalltext, .quoteheader, .codeheader
+			{
+				font-size: x-small;
+			}
+			.largetext
+			{
+				font-size: large;
+			}
+			hr
+			{
+				height: 1px;
+				border: 0;
+				color: black;
+				background-color: black;
+			}
+		</style>
+	</head>
+	<body>
+		<h1 class="largetext">Bitcoin Forum</h1>
+		<h2 class="normaltext">Bitcoin => Development &amp; Technical Discussion => Topic started by: drawingthesun on November 17, 2013, 12:37:48 PM</h2>
+
+		<table width="90%" cellpadding="0" cellspacing="0" border="0">
+			<tr>
+				<td>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Zerocoin proofs reduced by 98%, will be released as an alternative coin.</b><br />
+					Post by: <b>drawingthesun</b> on <b>November 17, 2013, 12:37:48 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">http://www.reddit.com/r/Bitcoin/comments/1qtevg/zerocoin_reduces_proof_size_by_98_plans_to/ (http://www.reddit.com/r/Bitcoin/comments/1qtevg/zerocoin_reduces_proof_size_by_98_plans_to/)<br /><br />Of course the Bitcoin developers can easily take the improvements and add them into Bitcoin, making the alt-coin redundant.<br /><br />However the time between release and testing to implementation into Bitcoin is important. If we wait too long Zerocoin might become a thing on its own and a worthy competitor (Especially if the Bitcoin developers refuse to add zerocoin because of the US government)<br /><br />Remember that yes, we scoff at the alt-coins because they bring nothing new to the table, however an early developer of Bitcoin once said that if an alternative coin overtakes Bitcoin for no reason, it will destroy all confidence in crypto-currencies, but remember that this alt-coin would be the first ever to bring something truly beneficial and novel to the table.<br /><br />We want this functionality, but in case Zerocoin does become a competitor getting in early might be a wise move to hedge against the prospect that the Bitcoin developers deciding that anonymous crypto-currency is bad.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Zerocoin proofs reduced by 98%, will be released as an alternative coin.</b><br />
+					Post by: <b>oakpacific</b> on <b>November 17, 2013, 01:05:02 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">If I understand it correctly, we can immediately take advantage of what they offer.<br /><br />Create some cryptocoin exchanges on Tor, which trades both Bitcoins and zerocoins, people can then start laundering their money through the zerocoin blockchain.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Zerocoin proofs reduced by 98%, will be released as an alternative coin.</b><br />
+					Post by: <b>ShadowOfHarbringer</b> on <b>November 17, 2013, 01:13:25 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Zerocoin is pretty complicated comparing to the Bitcoin alternatives: CoinJoin, CoinSwap and CoinControl which offer practically the same functionality.<br /><br />I don&#039;t think we need ZeroCoin anymore.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Zerocoin proofs reduced by 98%, will be released as an alternative coin.</b><br />
+					Post by: <b>archangel689</b> on <b>November 17, 2013, 04:20:15 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Subverting the states power too much would result in the deployment of their nearly unlimited resources to combat the &quot;problem.&quot; This makes me question whether or not these less complex solutions are adequate--or if any of the proposed solutions are.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Zerocoin proofs reduced by 98%, will be released as an alternative coin.</b><br />
+					Post by: <b>o</b> on <b>November 17, 2013, 05:37:39 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=336514.msg3611835#msg3611835">Quote from: ShadowOfHarbringer on November 17, 2013, 01:13:25 PM</a></div><div class="quote">Zerocoin is pretty complicated comparing to the Bitcoin alternatives: CoinJoin, CoinSwap and CoinControl which offer practically the same functionality.<br /><br />I don&#039;t think we need ZeroCoin anymore.<br /></div><br />The difference is that those are optional in Bitcoin. In order for them to work, it requires a critical mass which is not yet exist.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Zerocoin proofs reduced by 98%, will be released as an alternative coin.</b><br />
+					Post by: <b>justusranvier</b> on <b>November 17, 2013, 06:25:59 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=175156.msg3614083#msg3614083">Quote from: justusranvier on November 17, 2013, 05:51:11 PM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=175156.msg3611746#msg3611746">Quote from: Hyperbolical on November 17, 2013, 01:04:18 PM</a></div><div class="quote">I think so, Matthew Green mentioned that he was planning to implement Zerocoin into its own cryptocurrency. This seems like a reasonable idea me, it lets us test Zerocoin, and if it works well, we can merge it into Bitcoin (without the risk of damaging Bitcoin if something goes wrong).<br /></div>That&#039;s a great idea from a purely technical perspective.<br /><br />Realize that when money is at stake other factors will come into play.<br /><br />Zerocoin is a highly desired feature. As soon as they release this coin, it&#039;s going to attract investment and it&#039;s exchange rate will rise quickly. People are going to put a considerable amount of money into Zerocoin.<br /><br />When Bitcoin implements these features, it will threaten the value of their investment. Do you think they are going let that happen calmly? They will do everything they can to obstruct the change. They&#039;ll come over here and spread FUD, start arguments, and in general make life difficult for any developer seeking to push the change.<br /><br />This happens already - If you go back to the beginning of this year and read through flamewars regarding scalability and the blocksize and pay attention to the people most fervently opposed to large transaction rates, with the most ridiculous and economically absurd arguments, and then check their posting history you&#039;ll find that in almost all cases they were heavily involved with altcoins.<br /></div></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Zerocoin proofs reduced by 98%, will be released as an alternative coin.</b><br />
+					Post by: <b>archangel689</b> on <b>November 17, 2013, 09:21:13 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=336514.msg3614415#msg3614415">Quote from: justusranvier on November 17, 2013, 06:25:59 PM</a></div><div class="quote">When Bitcoin implements these features, it will threaten the value of their investment. Do you think they are going let that happen calmly? They will do everything they can to obstruct the change. </div><br />Including lobbying for the state to stop it, as if there isn&#039;t already enough incentive.<br /><br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Zerocoin proofs reduced by 98%, will be released as an alternative coin.</b><br />
+					Post by: <b>crazy_rabbit</b> on <b>November 18, 2013, 03:55:55 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=336514.msg3611569#msg3611569">Quote from: drawingthesun on November 17, 2013, 12:37:48 PM</a></div><div class="quote">http://www.reddit.com/r/Bitcoin/comments/1qtevg/zerocoin_reduces_proof_size_by_98_plans_to/ (http://www.reddit.com/r/Bitcoin/comments/1qtevg/zerocoin_reduces_proof_size_by_98_plans_to/)<br /><br />Of course the Bitcoin developers can easily take the improvements and add them into Bitcoin, making the alt-coin redundant.<br /><br />However the time between release and testing to implementation into Bitcoin is important. If we wait too long Zerocoin might become a thing on its own and a worthy competitor (Especially if the Bitcoin developers refuse to add zerocoin because of the US government)<br /><br />Remember that yes, we scoff at the alt-coins because they bring nothing new to the table, however an early developer of Bitcoin once said that if an alternative coin overtakes Bitcoin for no reason, it will destroy all confidence in crypto-currencies, but remember that this alt-coin would be the first ever to bring something truly beneficial and novel to the table.<br /><br />We want this functionality, but in case Zerocoin does become a competitor getting in early might be a wise move to hedge against the prospect that the Bitcoin developers deciding that anonymous crypto-currency is bad.<br /></div><br />Why not just implement Zerocoin now in Testnet to see if people actually care enough to use it? </div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Zerocoin proofs reduced by 98%, will be released as an alternative coin.</b><br />
+					Post by: <b>moderate</b> on <b>November 18, 2013, 04:24:20 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=336514.msg3611835#msg3611835">Quote from: ShadowOfHarbringer on November 17, 2013, 01:13:25 PM</a></div><div class="quote">Zerocoin is pretty complicated comparing to the Bitcoin alternatives: CoinJoin, CoinSwap and CoinControl which offer practically the same functionality.<br /><br />I don&#039;t think we need ZeroCoin anymore.<br /></div><br />Zerocoin being released as an alt-coin is surprisingly needed, but it is okay if you don&#039;t notice that.<br /><br />Why is it needed, you ask ? Well, because except for Litecoin, 99.999999% of all the other alt-coins are just crappy-coins from people that can manage to search-copy-replace text. Litecoin is only valuable to bitcoin because the main developer there can manage to contribute back.<br /><br />Why, again, is it needed, you ask ? Well, start following some of the key developers for bitcoin and you will quickly realize that their line of thought are no longer aligned with the original proposal, or even with the idea of open source software.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Zerocoin proofs reduced by 98%, will be released as an alternative coin.</b><br />
+					Post by: <b>amincd</b> on <b>November 18, 2013, 04:48:55 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader">Quote</div><div class="quote">Why, again, is it needed, you ask ? Well, start following some of the key developers for bitcoin and you will quickly realize that their line of thought are no longer aligned with the original proposal, or even with the idea of open source software.</div><br />This is FUD. I&#039;ve seen nothing at all to show that, and I have followed their statements and positions closely. They&#039;ve shown themselves to be as committed to an open source, decentralized currency that protects user privacy as anyone.<br /><br />Anyway, this is a good proposal for how Zerocoin can be launched to work symbiotically with Bitcoin: <br /><br />https://bitcointalk.org/index.php?topic=248865.0</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Zerocoin proofs reduced by 98%, will be released as an alternative coin.</b><br />
+					Post by: <b>moderate</b> on <b>November 18, 2013, 04:56:16 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=336514.msg3619557#msg3619557">Quote from: amincd on November 18, 2013, 04:48:55 AM</a></div><div class="quote"><div class="quoteheader">Quote</div><div class="quote">Why, again, is it needed, you ask ? Well, start following some of the key developers for bitcoin and you will quickly realize that their line of thought are no longer aligned with the original proposal, or even with the idea of open source software.</div><br />This is FUD. I&#039;ve seen nothing at all to show that, and I have followed their statements and positions closely. They&#039;ve shown themselves to be as committed to an open source, decentralized currency that protects user privacy as anyone.<br /><br /></div><br />The fact you haven&#039;t seen anything doesn&#039;t make it FUD, it just disqualifies your claim that you have followed their positions closely.<br /><br />See Mike Hearn (no need to point out where, should be obvious enough for you that follows everything so closely), see the interests of the Bitcoin Foundation, see others talking about certifications.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Zerocoin proofs reduced by 98%, will be released as an alternative coin.</b><br />
+					Post by: <b>amincd</b> on <b>November 18, 2013, 05:17:00 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">About the Mike Hearn comment controversy:<br /><br />http://www.reddit.com/r/Bitcoin/comments/1qtevg/zerocoin_reduces_proof_size_by_98_plans_to/cdgb3ov<br /><br />Hearn explaining himself:<br /><br />https://bitcointalk.org/index.php?topic=334112.msg3614537#msg3614537<br /><br />Certifications:<br /><br />https://bitcointalk.org/index.php?topic=300809.0<br /><br />You need to actually read what people have written instead of accepting the claims being made at face value.<br /><br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Zerocoin proofs reduced by 98%, will be released as an alternative coin.</b><br />
+					Post by: <b>moderate</b> on <b>November 18, 2013, 05:26:43 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=336514.msg3619743#msg3619743">Quote from: amincd on November 18, 2013, 05:17:00 AM</a></div><div class="quote">About the Mike Hearn comment controversy:<br /><br />http://www.reddit.com/r/Bitcoin/comments/1qtevg/zerocoin_reduces_proof_size_by_98_plans_to/cdgb3ov<br /><br />Hearn explaining himself:<br /><br />https://bitcointalk.org/index.php?topic=334112.msg3614537#msg3614537<br /><br />Certifications:<br /><br />https://bitcointalk.org/index.php?topic=300809.0<br /><br />You need to actually read what people have written instead of accepting the claims being made at face value.<br /><br /><br /></div><br />That certifications link missed by a long shot the certifications I&#039;m referring to, I&#039;m talking about people (core developers) mixing open source with certifications based on features (HINT: it is even more recent than mike&#039;s thing).<br /><br />I see you like Mike as all your links are from him, so here is another one: http://www.reddit.com/r/Bitcoin/comments/1qmbtu/mike_hearn_chair_of_the_bitcoin_foundations_law/cdeicu0. You have to weight in the company funding Mike&#039;s development, you can&#039;t ignore that and you also can&#039;t completely blame Mike for his actions, or attempts, after knowing that.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Zerocoin proofs reduced by 98%, will be released as an alternative coin.</b><br />
+					Post by: <b>amincd</b> on <b>November 18, 2013, 05:43:35 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">If you&#039;d back up your claims about certifications with a link I could actually check it. I&#039;m not going to just take your word for it.<br /><br />As for Hearn&#039;s comment, there&#039;s nothing there that hasn&#039;t been addressed.<br /><br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Zerocoin proofs reduced by 98%, will be released as an alternative coin.</b><br />
+					Post by: <b>Peter Todd</b> on <b>November 18, 2013, 06:50:30 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=336514.msg3619792#msg3619792">Quote from: moderate on November 18, 2013, 05:26:43 AM</a></div><div class="quote">That certifications link missed by a long shot the certifications I&#039;m referring to, I&#039;m talking about people (core developers) mixing open source with certifications based on features (HINT: it is even more recent than mike&#039;s thing).<br /></div><br />Ha, the Dark Wallet Certification (https://bitcointalk.org/index.php?topic=334241.0) thing? You are so incredibly wrong:<br /><br /><div class="quoteheader">Quote</div><div class="quote">We propose that the outcome of this meeting be, at minimum, the establishment of a v1 &quot;Dark Wallet Certification&quot;, a <b>set of best-practice guidelines</b> for wallets focused on decentralization and anonymity.<br /></div><br />Emphasis mine. It&#039;s going to end up as some fancy wiki page or manual or something with a bunch of strongly worded and not so strongly worded recommendations. I&#039;m not going to be surprised if there&#039;s multiple competing versions. Some respected developers might go and publicly state that they believe &quot;Electrum v1.2.foo&quot; complies with all the recommendations and isn&#039;t trying to steal your coins and sell your data to the NSA.<br /><br />You know, if a bunch of anarchists can&#039;t meet up in some commune in Italy and collectively agree on that, I dunno what it takes to be decentralized these days...<br /><br /><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=336514.msg3619792#msg3619792">Quote from: moderate on November 18, 2013, 05:26:43 AM</a></div><div class="quote">I see you like Mike as all your links are from him, so here is another one: http://www.reddit.com/r/Bitcoin/comments/1qmbtu/mike_hearn_chair_of_the_bitcoin_foundations_law/cdeicu0. You have to weight in the company funding Mike&#039;s development, you can&#039;t ignore that and you also can&#039;t completely blame Mike for his actions, or attempts, after knowing that.<br /></div><br />For the sake of argument, lets assume Mike is a android built by the NSA to infiltrate us all.<br /><br />Do you think you&#039;re going to to a better job of stopping said Bitcoin-development subverting android by a: complaining, or b: getting shit done.<br /><br />I&#039;ll give you a hint: someone else already did the job of complaining much (http://www.reddit.com/r/Bitcoin/comments/1qmbtu/mike_hearn_chair_of_the_bitcoin_foundations_law/) better (https://bitcointalk.org/index.php?topic=333824.msg3581480) than you&#039;re doing. Lets count that: four tightly written paragraphs, one verbatim quote, cross-posted on two forums, and results? Over three main threads we&#039;ve got 32k hits and 811 replies on this forum alone, including responses by people worth listening to like Adam Back and Gregory Maxwell, an article on CoinDesk (http://www.coindesk.com/bitcoin-tracking-proposal-divides-bitcoin-community/), CoinJoin bounty is up +8 BTC and the Dark Wallet campaign is nearly fully funded (http://www.indiegogo.com/projects/bitcoin-dark-wallet) - that&#039;s some effective complaining. Not so effective computer security, but yeah... I&#039;m pissed off about that.<br /><br />You on the other hand, you&#039;re just annoying people like myself who are actually flying halfway across the world in two weeks to go make CoinJoin happen and make Mike&#039;s misguided ideas about blacklists irrelevant. So I dunno, unless you want to surprise me by showing me that you&#039;re good at getting shit done, go away. Delete your trolling posts while you&#039;re at it.<br /><br />And you know, if you want to get better at it, you can start by saying things that actually make sense.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Zerocoin proofs reduced by 98%, will be released as an alternative coin.</b><br />
+					Post by: <b>moderate</b> on <b>November 18, 2013, 01:05:54 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=336514.msg3620264#msg3620264">Quote from: retep on November 18, 2013, 06:50:30 AM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=336514.msg3619792#msg3619792">Quote from: moderate on November 18, 2013, 05:26:43 AM</a></div><div class="quote">That certifications link missed by a long shot the certifications I&#039;m referring to, I&#039;m talking about people (core developers) mixing open source with certifications based on features (HINT: it is even more recent than mike&#039;s thing).<br /></div><br />Ha, the Dark Wallet Certification (https://bitcointalk.org/index.php?topic=334241.0) thing? You are so incredibly wrong:<br /><br /><div class="quoteheader">Quote</div><div class="quote">We propose that the outcome of this meeting be, at minimum, the establishment of a v1 &quot;Dark Wallet Certification&quot;, a <b>set of best-practice guidelines</b> for wallets focused on decentralization and anonymity.<br /></div><br />Emphasis mine. It&#039;s going to end up as some fancy wiki page or manual or something with a bunch of strongly worded and not so strongly worded recommendations. I&#039;m not going to be surprised if there&#039;s multiple competing versions. Some respected developers might go and publicly state that they believe &quot;Electrum v1.2.foo&quot; complies with all the recommendations and isn&#039;t trying to steal your coins and sell your data to the NSA.<br /><br />You know, if a bunch of anarchists can&#039;t meet up in some commune in Italy and collectively agree on that, I dunno what it takes to be decentralized these days...<br /><br /><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=336514.msg3619792#msg3619792">Quote from: moderate on November 18, 2013, 05:26:43 AM</a></div><div class="quote">I see you like Mike as all your links are from him, so here is another one: http://www.reddit.com/r/Bitcoin/comments/1qmbtu/mike_hearn_chair_of_the_bitcoin_foundations_law/cdeicu0. You have to weight in the company funding Mike&#039;s development, you can&#039;t ignore that and you also can&#039;t completely blame Mike for his actions, or attempts, after knowing that.<br /></div><br />For the sake of argument, lets assume Mike is a android built by the NSA to infiltrate us all.<br /><br /></div><br />I stopped here, but I tried very hard to not stop earlier. Your guidelines thing is exactly what I mentioned in a thread where another developer is wishing for certifications, several of them.<br /><br />I have no idea why you put NSA there, I&#039;m talking about Google.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Zerocoin proofs reduced by 98%, will be released as an alternative coin.</b><br />
+					Post by: <b>tacotime</b> on <b>November 18, 2013, 01:46:03 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">As others have said, it looks like CoinJoin etc which already function through the blockchain work and are available to use now rather than later.<br /><br />It just looks like the end user at this point doesn&#039;t have a lot of interest in it.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Zerocoin proofs reduced by 98%, will be released as an alternative coin.</b><br />
+					Post by: <b>behindtext</b> on <b>November 19, 2013, 04:22:34 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=336514.msg3623518#msg3623518">Quote from: tacotime on November 18, 2013, 01:46:03 PM</a></div><div class="quote">As others have said, it looks like CoinJoin etc which already function through the blockchain work and are available to use now rather than later.<br /><br />It just looks like the end user at this point doesn&#039;t have a lot of interest in it.<br /></div><br />suffice it to say that i&#039;m rather familiar with the fact that users rarely seek out security.<br /><br />if mixing and privacy protection is a bolt-on service for BTC, you are right to call out that few people will opt in. having a coin that is private by default would be a big win imo.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Zerocoin proofs reduced by 98%, will be released as an alternative coin.</b><br />
+					Post by: <b>corebob</b> on <b>November 19, 2013, 05:04:41 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=336514.msg3611569#msg3611569">Quote from: drawingthesun on November 17, 2013, 12:37:48 PM</a></div><div class="quote"><br />however an early developer of Bitcoin once said that if an alternative coin overtakes Bitcoin for no reason, it will destroy all confidence in crypto-currencies<br /><br /></div><br />I would not buy that argument just yet. If bitcoin dies, sure, but there is no reason why several alternative coins can&#039;t be in flux at the same time.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Zerocoin proofs reduced by 98%, will be released as an alternative coin.</b><br />
+					Post by: <b>anti-scam</b> on <b>November 22, 2013, 03:36:26 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Could a Bitcoin developer clarify whether these changes make Zerocoin appropriate for inclusion in Bitcoin or not? As far as I understand it the privacy provided by things like CoinJoin and CoinSwap aren&#039;t really comparable. </div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Zerocoin proofs reduced by 98%, will be released as an alternative coin.</b><br />
+					Post by: <b>wumpus</b> on <b>November 22, 2013, 08:53:40 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=336514.msg3670626#msg3670626">Quote from: anti-scam on November 22, 2013, 03:36:26 AM</a></div><div class="quote">Could a Bitcoin developer clarify whether these changes make Zerocoin appropriate for inclusion in Bitcoin or not? As far as I understand it the privacy provided by things like CoinJoin and CoinSwap aren&#039;t really comparable. <br /></div>Until they release details (ie a paper or source code) on what they are actually going to do, that&#039;s impossible to do.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Zerocoin proofs reduced by 98%, will be released as an alternative coin.</b><br />
+					Post by: <b>anti-scam</b> on <b>November 22, 2013, 09:39:15 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=336514.msg3672485#msg3672485">Quote from: John Smith on November 22, 2013, 08:53:40 AM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=336514.msg3670626#msg3670626">Quote from: anti-scam on November 22, 2013, 03:36:26 AM</a></div><div class="quote">Could a Bitcoin developer clarify whether these changes make Zerocoin appropriate for inclusion in Bitcoin or not? As far as I understand it the privacy provided by things like CoinJoin and CoinSwap aren&#039;t really comparable. <br /></div>Until they release details (ie a paper or source code) on what they are actually going to do, that&#039;s impossible to do.<br /></div><br />My understanding was that the size of the proofs was the primary hurdle to implementation. Is that true?</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Zerocoin proofs reduced by 98%, will be released as an alternative coin.</b><br />
+					Post by: <b>drawingthesun</b> on <b>November 22, 2013, 09:44:11 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=336514.msg3672802#msg3672802">Quote from: anti-scam on November 22, 2013, 09:39:15 AM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=336514.msg3672485#msg3672485">Quote from: John Smith on November 22, 2013, 08:53:40 AM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=336514.msg3670626#msg3670626">Quote from: anti-scam on November 22, 2013, 03:36:26 AM</a></div><div class="quote">Could a Bitcoin developer clarify whether these changes make Zerocoin appropriate for inclusion in Bitcoin or not? As far as I understand it the privacy provided by things like CoinJoin and CoinSwap aren&#039;t really comparable. <br /></div>Until they release details (ie a paper or source code) on what they are actually going to do, that&#039;s impossible to do.<br /></div><br />My understanding was that the size of the proofs was the primary hurdle to implementation. Is that true?<br /></div><br />Yes, when the original paper was released the main point to dismiss zerocoin was the size of the transactions and the strain that would cause on the blockchain.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Zerocoin proofs reduced by 98%, will be released as an alternative coin.</b><br />
+					Post by: <b>anti-scam</b> on <b>November 22, 2013, 10:11:11 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=336514.msg3672838#msg3672838">Quote from: drawingthesun on November 22, 2013, 09:44:11 AM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=336514.msg3672802#msg3672802">Quote from: anti-scam on November 22, 2013, 09:39:15 AM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=336514.msg3672485#msg3672485">Quote from: John Smith on November 22, 2013, 08:53:40 AM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=336514.msg3670626#msg3670626">Quote from: anti-scam on November 22, 2013, 03:36:26 AM</a></div><div class="quote">Could a Bitcoin developer clarify whether these changes make Zerocoin appropriate for inclusion in Bitcoin or not? As far as I understand it the privacy provided by things like CoinJoin and CoinSwap aren&#039;t really comparable. <br /></div>Until they release details (ie a paper or source code) on what they are actually going to do, that&#039;s impossible to do.<br /></div><br />My understanding was that the size of the proofs was the primary hurdle to implementation. Is that true?<br /></div><br />Yes, when the original paper was released the main point to dismiss zerocoin was the size of the transactions and the strain that would cause on the blockchain.<br /></div><br />Then assuming they&#039;re not lying the prospects for implementation look good as long as certain political forces don&#039;t get involved.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Zerocoin proofs reduced by 98%, will be released as an alternative coin.</b><br />
+					Post by: <b>El Dude</b> on <b>November 22, 2013, 11:45:33 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">bitcoin and litecoin can just add the zerocoin protocol once its a altcoin .</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Zerocoin proofs reduced by 98%, will be released as an alternative coin.</b><br />
+					Post by: <b>anti-scam</b> on <b>November 22, 2013, 12:03:26 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=336514.msg3673622#msg3673622">Quote from: El Dude on November 22, 2013, 11:45:33 AM</a></div><div class="quote">bitcoin and litecoin can just add the zerocoin protocol once its a altcoin .<br /></div><br />I don&#039;t know much about Litecoin&#039;s internal politics but with all of the forces surrounding Bitcoin these days it&#039;s not guaranteed that the developers would rush to implement Zerocoin. That&#039;s why it&#039;s important that the community stays on top of the situation.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Zerocoin proofs reduced by 98%, will be released as an alternative coin.</b><br />
+					Post by: <b>gmaxwell</b> on <b>November 22, 2013, 02:32:40 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=336514.msg3672802#msg3672802">Quote from: anti-scam on November 22, 2013, 09:39:15 AM</a></div><div class="quote">My understanding was that the size of the proofs was the primary hurdle to implementation. Is that true?<br /></div>There were several other additional limitations:<br /><br />* Very slow to validate (e.g. on the order of 1-2 tx per second)<br />* Required a trusted party to initiate the accumulator, and if they violate that trust they could steal coins<br />* Uses cryptography which is less well studied<br />* Only handled anonymized coins with one value, reducing the anonymity set size substantially<br />* Didn&#039;t conceal values<br />* Spent coins list is needed for validation and grows forever (e.g. no pruning of the critical validation state).<br /><br />Of these only the first two and the last are probably real barriers, the others are more &quot;doesn&#039;t work as well as some hypothetical future system might&quot;.<br /><br />There was no way within their prior system to achieve size reductions to the currently mentioned, I&#039;d speculated in some other threads (https://bitcointalk.org/index.php?topic=277389.0) on some technology that could make the proofs smaller and faster, but if they&#039;ve gone that route there may be some other consequences. It&#039;s hard to say much of anything useful without more information being made public.<br /><br />I would note that the prior ZC implementation has been made available for some time now, and no altcoin has picked it up.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Zerocoin proofs reduced by 98%, will be released as an alternative coin.</b><br />
+					Post by: <b>prospector1</b> on <b>November 24, 2013, 01:51:56 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">There are people very interested in ZC and who are watching closely. For various reasons they will not be appearing on BTCtalk :)</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Zerocoin proofs reduced by 98%, will be released as an alternative coin.</b><br />
+					Post by: <b>LiteCoinGuy</b> on <b>November 24, 2013, 02:11:30 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">who are the Devs behind this idea?</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Zerocoin proofs reduced by 98%, will be released as an alternative coin.</b><br />
+					Post by: <b>maaku</b> on <b>November 25, 2013, 09:20:48 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=336514.msg3674938#msg3674938">Quote from: gmaxwell on November 22, 2013, 02:32:40 PM</a></div><div class="quote">* Spent coins list is needed for validation and grows forever (e.g. no pruning of the critical validation state).<br /></div><br />I&#039;ve found away around this limitation using a variant of the UTXO proof tree structure. A tree containing all spent tokens is constructible from the spend history visible in the chain history. Anyone holding an unspent token maintains an insertion-proof into this tree, which is included as part of the spend. Validating nodes need only keep the root hash for a given series, which is updated after validating each spend.<br /><br />But the other two points remain as major obstacles...</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Zerocoin proofs reduced by 98%, will be released as an alternative coin.</b><br />
+					Post by: <b>gmaxwell</b> on <b>November 25, 2013, 09:32:35 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=336514.msg3706056#msg3706056">Quote from: maaku on November 25, 2013, 09:20:48 AM</a></div><div class="quote">I&#039;ve found away around this limitation using a variant of the UTXO proof tree structure. A tree containing all spent tokens is constructible from the spend history visible in the chain history. Anyone holding an unspent token maintains an insertion-proof into this tree, which is included as part of the spend. Validating nodes need only keep the root hash for a given series, which is updated after validating each spend.<br /></div>Sounds a lot like the MMR stuff Peter Todd has been talking about, but I don&#039;t think it applies in the anonymous context.<br /><br />In an anonymous system the unspent coins are blinded in some way or another and you use a proof to show that your spend is spending a coin from the set of unspent coins (without revealing which blind-unspent coin it was), and then that unblinded coin is put into a list to prevent spending it again.<br /><br />Any way that avoids the storage problem by linking the spend to the particular unspent coin (e.g. removing it) isn&#039;t anonymous.<br /><br />I know how to prevent it from growing forever though, but it trades off the anonymity set and the reliability of storage:. E.g. you have generations of unspent coins, and all unspent coins from a particular generation must be spent before a certain time. Once that time passes your spent list can also be purged.<br /><br />At least in what Peter Todd&#039;s been thinking about there is an additional complication that when adjacent branches in this updating tree of unspent outputs you must update your proof... so it creates an interesting business opportunity for nodes that track the whole state in order to help offline spenders figure out the proof they need.<br /><br />&nbsp;<br /><br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Zerocoin proofs reduced by 98%, will be released as an alternative coin.</b><br />
+					Post by: <b>maaku</b> on <b>November 25, 2013, 06:03:07 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Yes, it&#039;s exactly MMR applied to the Chaum token double-spend db. This solves the problem of maintaining that ever-increasing list of unblinded, spent tokens by pushing the problem out of the validators and onto the people holding the coins. Proof size grows with log2 the number of spent tokens, but the proofs can be thrown away once validated (as they can be reconstructed from the block chain history).<br /><br />It doesn&#039;t link the spend to the original coin however, as we&#039;re only dealing with revelation of the unblinded tokens. You still need some sort of ZKP that the unblinded token was out of the original set of blinded tokens.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Zerocoin proofs reduced by 98%, will be released as an alternative coin.</b><br />
+					Post by: <b>gmaxwell</b> on <b>November 25, 2013, 11:36:27 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Got it, for some reason I was not seeing that the coin owner knows their (blinded) coin ID from the moment the coin is created, and thus can track the proof for where that coin belongs in the spent tree... or they could not do so and trust that they&#039;ll be able to find someone else who has when they need it. Makes sense.<br /></div>
+					<br /><br />
+					<div align="center" class="smalltext">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank">Powered by SMF 1.1.19</a> | 
+<a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank">SMF &copy; 2006-2009, Simple Machines</a>
+		</span></div>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

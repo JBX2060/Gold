@@ -1,0 +1,134 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+		<link rel="canonical" href="https://bitcointalk.org/index.php?topic=113713.0" />
+		<title>Print Page - 0 Connections on bitcoin client</title>
+		<style type="text/css">
+			body
+			{
+				color: black;
+				background-color: white;
+			}
+			body, td, .normaltext
+			{
+				font-family: Verdana, arial, helvetica, serif;
+				font-size: small;
+			}
+			*, a:link, a:visited, a:hover, a:active
+			{
+				color: black !important;
+			}
+			table
+			{
+				empty-cells: show;
+			}
+			.code
+			{
+				font-size: x-small;
+				font-family: monospace;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.quote
+			{
+				font-size: x-small;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.smalltext, .quoteheader, .codeheader
+			{
+				font-size: x-small;
+			}
+			.largetext
+			{
+				font-size: large;
+			}
+			hr
+			{
+				height: 1px;
+				border: 0;
+				color: black;
+				background-color: black;
+			}
+		</style>
+	</head>
+	<body>
+		<h1 class="largetext">Bitcoin Forum</h1>
+		<h2 class="normaltext">Bitcoin => Bitcoin Technical Support => Topic started by: Shiver on September 28, 2012, 04:18:30 PM</h2>
+
+		<table width="90%" cellpadding="0" cellspacing="0" border="0">
+			<tr>
+				<td>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>0 Connections on bitcoin client</b><br />
+					Post by: <b>Shiver</b> on <b>September 28, 2012, 04:18:30 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">I recently backed up my wallet then installed Bitcoin version v0.7.0beta.&nbsp; I encrypted the wallet, which it says is locked, and it&#039;s telling me the wallet is out of sync, which I presume it because I have zero connections.&nbsp; I read somewhere that I need to make sure port 8333 needs to be open, but I haven&#039;e changed anything about the router.<br /><br />I apologise in advance if this is a simple fix already on the forum, but I&#039;ve scanned around and cannot see anything about it.<br /><br />How do I get connections and let the wallet update?<br /><br />Regards<br />Paul</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: 0 Connections on bitcoin client</b><br />
+					Post by: <b>Stephen Gornick</b> on <b>September 28, 2012, 06:21:53 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=113713.msg1228592#msg1228592">Quote from: Shiver on September 28, 2012, 04:18:30 PM</a></div><div class="quote">I read somewhere that I need to make sure port 8333 needs to be open, but I haven&#039;e changed anything about the router.<br /></div><br />Perhaps your Windows &quot;firewall&quot; is not letting the app communicate?&nbsp; &nbsp;It should automatically connect out and discover peers so if that isn&#039;t happening then check your operating system first, then the router next.<br /><br />You could try to manually connect using telnet.&nbsp; Try to connect to an external node.&nbsp; If it times out without connecting, the problem isn&#039;t Bitoin then it is your o/s or network getting in the way.<br /><br />Here&#039;s some nodes that you can try to connect to (not all necessarily will work but if more than a few are tried and you still can&#039;t connect, then the problem is on your end.)<br /><br />&nbsp;- http://blockchain.info/hub-nodes</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: 0 Connections on bitcoin client</b><br />
+					Post by: <b>Shiver</b> on <b>September 30, 2012, 06:59:24 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">I&#039;ve tried disabling the firewall and checked the router which has no restrictions.&nbsp; Any other ideas?</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: 0 Connections on bitcoin client</b><br />
+					Post by: <b>Shiver</b> on <b>September 30, 2012, 07:25:16 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">One other point I forgot to mention is that the wallet is encrypted and currently locked.&nbsp; Do I need to unlock it somehow to allow it to resynch with the blockchain?</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: 0 Connections on bitcoin client</b><br />
+					Post by: <b>BookLover</b> on <b>September 30, 2012, 06:57:51 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Forgive me for hijacking the thread, :-[ but under what circumstances does the the latest bitcoin client warn you that the wallet is out of sync? ???</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: 0 Connections on bitcoin client</b><br />
+					Post by: <b>Stephen Gornick</b> on <b>September 30, 2012, 08:07:59 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=113713.msg1233004#msg1233004">Quote from: Shiver on September 30, 2012, 06:59:24 AM</a></div><div class="quote">I&#039;ve tried disabling the firewall and checked the router which has no restrictions.&nbsp; Any other ideas?<br /></div><br />Did you try the telnet suggestion?&nbsp; That will tell you if the problem is there is no path for the client to get an outgoing connection or if instead the client simply isn&#039;t trying to do so.<br /><br /><br /><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=113713.msg1233026#msg1233026">Quote from: Shiver on September 30, 2012, 07:25:16 AM</a></div><div class="quote">One other point I forgot to mention is that the wallet is encrypted and currently locked.&nbsp; Do I need to unlock it somehow to allow it to resynch with the blockchain?<br /></div><br />The wallet being encrypted will not stop anything as far as connecting or synching.&nbsp; &nbsp;The only actions that require the wallet pass phrase are to get a new address or to spend.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: 0 Connections on bitcoin client</b><br />
+					Post by: <b>Stephen Gornick</b> on <b>September 30, 2012, 08:09:55 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=113713.msg1234092#msg1234092">Quote from: BookLover on September 30, 2012, 06:57:51 PM</a></div><div class="quote">Forgive me for hijacking the thread, :-[ but under what circumstances does the the latest bitcoin client warn you that the wallet is out of sync? ???<br /></div><br />I believe simply nothing more than is the timestamp for the last block in the longest chain older than it should be.&nbsp; I don&#039;t know if that is like 30 minutes or two hours, but if it hasn&#039;t gotten a block in a while, then more blocks are needed, and thus the warning.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: 0 Connections on bitcoin client</b><br />
+					Post by: <b>Shiver</b> on <b>October 01, 2012, 01:55:26 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Clicking on the link you gave me allows me to see transactions on any of the countries listed.<br />I also have another copy of the app on a laptop which is still updating the block chain, so when that&#039;s finished I&#039;ll try replacing the wallet.dat with my actual wallet.dat and see what happens there.&nbsp; The desktop I&#039;m having issues with at the moment was always okay until I upgraded.<br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: 0 Connections on bitcoin client</b><br />
+					Post by: <b>BookLover</b> on <b>October 01, 2012, 01:05:51 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=113713.msg1234254#msg1234254">Quote from: Stephen Gornick on September 30, 2012, 08:09:55 PM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=113713.msg1234092#msg1234092">Quote from: BookLover on September 30, 2012, 06:57:51 PM</a></div><div class="quote">Forgive me for hijacking the thread, :-[ but under what circumstances does the the latest bitcoin client warn you that the wallet is out of sync? ???<br /></div><br />I believe simply nothing more than is the timestamp for the last block in the longest chain older than it should be.&nbsp; I don&#039;t know if that is like 30 minutes or two hours, but if it hasn&#039;t gotten a block in a while, then more blocks are needed, and thus the warning.<br /></div><br />Thank you.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: 0 Connections on bitcoin client</b><br />
+					Post by: <b>deepceleron</b> on <b>October 04, 2012, 10:06:45 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">The latest version of Bitcoin has changed the way that previously connected clients are cached. In older versions, in the Bitcoin data directory, the file addr.dat contained a list of known peers so that you could quickly restart. The newest version of Bitcoin creates a file peers.dat that contains the same information. Perhaps one of these files is corrupted and the peer-to-peer component can&#039;t start correctly - deleting them both and restarting may be the solution.<br /><br />Antivirus (Microsoft security essentials) may have it&#039;s own crap firewall that doesn&#039;t let unapproved software make connections. Discover if any AV package has a firewall component and disable it.<br /><br />Did you put port forwarding rules into your router? It may be that your desktop PC was assigned a different IP address than was previously valid for the rules - remove any port forwarding and be happy with 8 connections.<br /><br />Finally, if there is an actual program fault when launching Bitcoin, it may be recorded near the end of the debug.log file or db.log file.</div>
+					<br /><br />
+					<div align="center" class="smalltext">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank">Powered by SMF 1.1.19</a> | 
+<a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank">SMF &copy; 2006-2009, Simple Machines</a>
+		</span></div>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

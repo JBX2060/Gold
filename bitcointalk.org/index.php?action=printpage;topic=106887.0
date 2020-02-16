@@ -1,0 +1,110 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+		<link rel="canonical" href="https://bitcointalk.org/index.php?topic=106887.0" />
+		<title>Print Page - Bitcoin wallet for android won't send any transactions.</title>
+		<style type="text/css">
+			body
+			{
+				color: black;
+				background-color: white;
+			}
+			body, td, .normaltext
+			{
+				font-family: Verdana, arial, helvetica, serif;
+				font-size: small;
+			}
+			*, a:link, a:visited, a:hover, a:active
+			{
+				color: black !important;
+			}
+			table
+			{
+				empty-cells: show;
+			}
+			.code
+			{
+				font-size: x-small;
+				font-family: monospace;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.quote
+			{
+				font-size: x-small;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.smalltext, .quoteheader, .codeheader
+			{
+				font-size: x-small;
+			}
+			.largetext
+			{
+				font-size: large;
+			}
+			hr
+			{
+				height: 1px;
+				border: 0;
+				color: black;
+				background-color: black;
+			}
+		</style>
+	</head>
+	<body>
+		<h1 class="largetext">Bitcoin Forum</h1>
+		<h2 class="normaltext">Bitcoin => Bitcoin Technical Support => Topic started by: dburdett84 on September 08, 2012, 08:29:44 PM</h2>
+
+		<table width="90%" cellpadding="0" cellspacing="0" border="0">
+			<tr>
+				<td>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Bitcoin wallet for android won't send any transactions.</b><br />
+					Post by: <b>dburdett84</b> on <b>September 08, 2012, 08:29:44 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">I am trying to empty the wallet on my android after having a few issues with it, but the wallet won&#039;t actually send anything, it receives coins fine but won&#039;t ever send any.&nbsp; After about 16 hours i do a blockchain/transaction reset and my coins come back so that makes me believe that it obviously never makes it to the net.&nbsp; Can I get some help here.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Bitcoin wallet for android won't send any transactions.</b><br />
+					Post by: <b>Raoul Duke</b> on <b>September 08, 2012, 08:39:11 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">export the private keys holding the coins and import them into another wallet, maybe?</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Bitcoin wallet for android won't send any transactions.</b><br />
+					Post by: <b>dburdett84</b> on <b>September 08, 2012, 08:39:47 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">ill give it a shot whats the worse that could happen, thanks.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Bitcoin wallet for android won't send any transactions.</b><br />
+					Post by: <b>Raoul Duke</b> on <b>September 08, 2012, 08:42:56 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=106887.msg1171488#msg1171488">Quote from: dburdett84 on September 08, 2012, 08:39:47 PM</a></div><div class="quote">ill give it a shot whats the worse that could happen, thanks.<br /></div><br />I&#039;m not even sure you can export the private keys.<br />I use BitcoinSpinner on my android, not the full client.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Bitcoin wallet for android won't send any transactions.</b><br />
+					Post by: <b>dburdett84</b> on <b>September 08, 2012, 08:48:24 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">I was able to get the private key, dropped in in drop box, added the .key extension, loaded up multibit and imported the key, worked like a charm.&nbsp; Thank you for the help, i didn&#039;t think the key was going to be compatible because the extensions were different.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Bitcoin wallet for android won't send any transactions.</b><br />
+					Post by: <b>Raoul Duke</b> on <b>September 08, 2012, 08:50:11 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Glad it worked :)</div>
+					<br /><br />
+					<div align="center" class="smalltext">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank">Powered by SMF 1.1.19</a> | 
+<a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank">SMF &copy; 2006-2009, Simple Machines</a>
+		</span></div>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

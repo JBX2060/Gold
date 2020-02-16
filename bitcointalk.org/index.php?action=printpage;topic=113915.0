@@ -1,0 +1,128 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+		<link rel="canonical" href="https://bitcointalk.org/index.php?topic=113915.0" />
+		<title>Print Page - Midstate -  Python3.2 from source</title>
+		<style type="text/css">
+			body
+			{
+				color: black;
+				background-color: white;
+			}
+			body, td, .normaltext
+			{
+				font-family: Verdana, arial, helvetica, serif;
+				font-size: small;
+			}
+			*, a:link, a:visited, a:hover, a:active
+			{
+				color: black !important;
+			}
+			table
+			{
+				empty-cells: show;
+			}
+			.code
+			{
+				font-size: x-small;
+				font-family: monospace;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.quote
+			{
+				font-size: x-small;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.smalltext, .quoteheader, .codeheader
+			{
+				font-size: x-small;
+			}
+			.largetext
+			{
+				font-size: large;
+			}
+			hr
+			{
+				height: 1px;
+				border: 0;
+				color: black;
+				background-color: black;
+			}
+		</style>
+	</head>
+	<body>
+		<h1 class="largetext">Bitcoin Forum</h1>
+		<h2 class="normaltext">Bitcoin => Bitcoin Technical Support => Topic started by: sippsnapp on September 29, 2012, 09:17:18 AM</h2>
+
+		<table width="90%" cellpadding="0" cellspacing="0" border="0">
+			<tr>
+				<td>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Midstate -  Python3.2 from source</b><br />
+					Post by: <b>sippsnapp</b> on <b>September 29, 2012, 09:17:18 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Python 3.2 is installed like this:<br /><div class="codeheader">Code:</div><div class="code">./configure --prefix=/opt/python3<br />make<br />make install<br /></div><br />How do i have to edit the makefile to work with the python installation?<br /><br />Problem:<br />Midstate &quot;make&quot; does print an error:<br /><div class="codeheader">Code:</div><div class="code">root@j064:/opt/midstate# make<br />gcc -march=native -Wall -funroll-all-loops -O3 -fstrict-aliasing -Wall -std=c99 -I/opt/python3/ &nbsp;midstatemodule.c -o test -Wl,-O1 -Wl,--as-needed -lpython3<br />midstatemodule.c:5:20: error: Python.h: Datei oder Verzeichnis nicht gefunden<br />midstatemodule.c:96: error: expected â=â, â,â, â;â, âasmâ or â__attribute__â before â*â token<br />midstatemodule.c:138: error: array type has incomplete element type<br />midstatemodule.c:139: error: âmidstate_helperâ undeclared here (not in a function)<br />midstatemodule.c:139: error: âMETH_Oâ undeclared here (not in a function)<br />midstatemodule.c:144: error: variable âmidstatemoduleâ has initializer but incomplete type<br />midstatemodule.c:145: error: âPyModuleDef_HEAD_INITâ undeclared here (not in a function)<br />midstatemodule.c:145: warning: excess elements in struct initializer<br />midstatemodule.c:145: warning: (near initialization for âmidstatemoduleâ)<br />midstatemodule.c:146: warning: excess elements in struct initializer<br />midstatemodule.c:146: warning: (near initialization for âmidstatemoduleâ)<br />midstatemodule.c:147: warning: excess elements in struct initializer<br />midstatemodule.c:147: warning: (near initialization for âmidstatemoduleâ)<br />midstatemodule.c:148: warning: excess elements in struct initializer<br />midstatemodule.c:148: warning: (near initialization for âmidstatemoduleâ)<br />midstatemodule.c:149: warning: excess elements in struct initializer<br />midstatemodule.c:149: warning: (near initialization for âmidstatemoduleâ)<br />midstatemodule.c:150: warning: excess elements in struct initializer<br />midstatemodule.c:150: warning: (near initialization for âmidstatemoduleâ)<br />midstatemodule.c:151: warning: excess elements in struct initializer<br />midstatemodule.c:151: warning: (near initialization for âmidstatemoduleâ)<br />midstatemodule.c:152: warning: excess elements in struct initializer<br />midstatemodule.c:152: warning: (near initialization for âmidstatemoduleâ)<br />midstatemodule.c:154: warning: excess elements in struct initializer<br />midstatemodule.c:154: warning: (near initialization for âmidstatemoduleâ)<br />midstatemodule.c:157: error: expected â=â, â,â, â;â, âasmâ or â__attribute__â before âPyInit_midstateâ<br />make: *** [test] Fehler 1<br /></div><br />https://gitorious.org/midstate/midstate/blobs/master/Makefile<br /><br /><div class="codeheader">Code:</div><div class="code">CC = gcc<br /><br />CFLAGS = -march=native -Wall -funroll-all-loops -O3 -fstrict-aliasing -Wall -std=c99 -I/usr/include/python3.2<br /><br />LDFLAGS = -Wl,-O1 -Wl,--as-needed -lpython3.2<br /><br />all: test midstate.so<br /><br />test: midstatemodule.c<br /><br /><span style="white-space: pre;">	</span>$(CC) $(CFLAGS)&nbsp; midstatemodule.c -o test $(LDFLAGS)<br /><br />midstate.so: midstatemodule.c<br /><br /><span style="white-space: pre;">	</span>$(CC) $(CFLAGS) -fPIC -shared midstatemodule.c -o midstate.so $(LDFLAGS)<br /><br />.PHONY: clean<br /><br />clean:<br /><br /><span style="white-space: pre;">	</span>rm -f midstate.so test</div></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Midstate -  Python3.2 from source</b><br />
+					Post by: <b>kokjo</b> on <b>September 29, 2012, 09:40:41 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">midstatemodule.c:5:20: error: Python.h: Datei oder Verzeichnis nicht gefunden<br /><br />^ means you fucked up, try installing the python headers.<br /><br />(please, another time post in english)</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Midstate -  Python3.2 from source</b><br />
+					Post by: <b>sippsnapp</b> on <b>September 29, 2012, 06:30:32 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">I have no idea how to fix this</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Midstate -  Python3.2 from source</b><br />
+					Post by: <b>Inaba</b> on <b>September 29, 2012, 07:56:22 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">As I recall, you need this file: /usr/include/python3.2mu/Python.h<br /><br />I forget what package has that, though.<br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Midstate -  Python3.2 from source</b><br />
+					Post by: <b>sippsnapp</b> on <b>September 29, 2012, 08:00:11 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">I pressed the killswitch minutes ago - actually installing ubuntu 12.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Midstate -  Python3.2 from source</b><br />
+					Post by: <b>kokjo</b> on <b>September 30, 2012, 09:00:15 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">on ubuntu in the terminal try:<br /><div class="codeheader">Code:</div><div class="code">sudo apt-get install python3.2-dev</div></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Midstate -  Python3.2 from source</b><br />
+					Post by: <b>sippsnapp</b> on <b>September 30, 2012, 06:12:27 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=113915.msg1233144#msg1233144">Quote from: kokjo on September 30, 2012, 09:00:15 AM</a></div><div class="quote">on ubuntu in the terminal try:<br /><div class="codeheader">Code:</div><div class="code">sudo apt-get install python3.2-dev</div></div>I found this: http://stackoverflow.com/questions/11740218/python-3-2-installation-on-ubuntu-12-04<br /><br />Which one is correct and why?</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Midstate -  Python3.2 from source</b><br />
+					Post by: <b>kokjo</b> on <b>September 30, 2012, 06:52:04 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=113915.msg1234013#msg1234013">Quote from: sippsnapp on September 30, 2012, 06:12:27 PM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=113915.msg1233144#msg1233144">Quote from: kokjo on September 30, 2012, 09:00:15 AM</a></div><div class="quote">on ubuntu in the terminal try:<br /><div class="codeheader">Code:</div><div class="code">sudo apt-get install python3.2-dev</div></div>I found this: http://stackoverflow.com/questions/11740218/python-3-2-installation-on-ubuntu-12-04<br /><br />Which one is correct and why?<br /></div>dunno! try one, if you fail, try the other one.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Midstate -  Python3.2 from source</b><br />
+					Post by: <b>sippsnapp</b> on <b>September 30, 2012, 11:36:26 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">In this case <div class="codeheader">Code:</div><div class="code">sudo apt-get install python3.2-dev</div> was what installed python 3.2 successfully.<br /><br />The command sudo <div class="codeheader">Code:</div><div class="code">apt-get install python3</div> installs python 3.2 in the <div class="codeheader">Code:</div><div class="code">usr/include/Python3.2mu</div> directory, the above package installs correctly to <div class="codeheader">Code:</div><div class="code">usr/include/Python3.2</div>. <br /><br />For me it made a difference, may it helps others...<br /><br /><br /><br /></div>
+					<br /><br />
+					<div align="center" class="smalltext">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank">Powered by SMF 1.1.19</a> | 
+<a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank">SMF &copy; 2006-2009, Simple Machines</a>
+		</span></div>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

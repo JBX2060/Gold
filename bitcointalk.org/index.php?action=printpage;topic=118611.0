@@ -1,0 +1,110 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+		<link rel="canonical" href="https://bitcointalk.org/index.php?topic=118611.0" />
+		<title>Print Page - More than one address within each vout?</title>
+		<style type="text/css">
+			body
+			{
+				color: black;
+				background-color: white;
+			}
+			body, td, .normaltext
+			{
+				font-family: Verdana, arial, helvetica, serif;
+				font-size: small;
+			}
+			*, a:link, a:visited, a:hover, a:active
+			{
+				color: black !important;
+			}
+			table
+			{
+				empty-cells: show;
+			}
+			.code
+			{
+				font-size: x-small;
+				font-family: monospace;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.quote
+			{
+				font-size: x-small;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.smalltext, .quoteheader, .codeheader
+			{
+				font-size: x-small;
+			}
+			.largetext
+			{
+				font-size: large;
+			}
+			hr
+			{
+				height: 1px;
+				border: 0;
+				color: black;
+				background-color: black;
+			}
+		</style>
+	</head>
+	<body>
+		<h1 class="largetext">Bitcoin Forum</h1>
+		<h2 class="normaltext">Bitcoin => Bitcoin Technical Support => Topic started by: jon_smark on October 15, 2012, 03:10:16 PM</h2>
+
+		<table width="90%" cellpadding="0" cellspacing="0" border="0">
+			<tr>
+				<td>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>More than one address within each vout?</b><br />
+					Post by: <b>jon_smark</b> on <b>October 15, 2012, 03:10:16 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">If you run <tt>bitcoind getrawtransaction abcd1234... 1</tt> you get a fairly complex JSON object with all the information about the given transaction.&nbsp; My question concerns the &quot;addresses&quot; field deep inside each &quot;vout&quot;: if I understand regular Bitcoin transactions correctly, this array should usually contain only one address; on what circumstances would it contain more than one address?&nbsp; Also, could someone point me towards one transaction (either mainchain or testchain) where more than one address is used?<br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: More than one address within each vout?</b><br />
+					Post by: <b>salfter</b> on <b>October 15, 2012, 03:46:28 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=118611.msg1273754#msg1273754">Quote from: jon_smark on October 15, 2012, 03:10:16 PM</a></div><div class="quote">If you run <tt>bitcoind getrawtransaction abcd1234... 1</tt> you get a fairly complex JSON object with all the information about the given transaction.&nbsp; My question concerns the &quot;addresses&quot; field deep inside each &quot;vout&quot;: if I understand regular Bitcoin transactions correctly, this array should usually contain only one address; on what circumstances would it contain more than one address?&nbsp; Also, could someone point me towards one transaction (either mainchain or testchain) where more than one address is used?<br /><br /></div><br />Have a look at output #1 in the following testnet transaction:<br /><br />http://blockexplorer.com/testnet/tx/829ce39233f7a073e4ffc4c7b594209a06f1987c86c51c17fcfcbdd2393bcdbf<br /><br />This has two addresses.&nbsp; Multi-signature transactions would use more than one address, but I&#039;m not sure if this is an example of such.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: More than one address within each vout?</b><br />
+					Post by: <b>kjj</b> on <b>October 15, 2012, 04:02:04 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">I think never.<br /><br />It may contain multiple vouts, but each should have only one address.&nbsp; Even with multisig, I think the address shown would be the hash of the multisig script.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: More than one address within each vout?</b><br />
+					Post by: <b>jon_smark</b> on <b>October 15, 2012, 05:26:37 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Thanks guys!<br /><br />And if someone can find a counterexample, please let me know!<br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: More than one address within each vout?</b><br />
+					Post by: <b>dserrano5</b> on <b>October 18, 2012, 02:12:22 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=118611.msg1273841#msg1273841">Quote from: kjj on October 15, 2012, 04:02:04 PM</a></div><div class="quote">I think never.<br /><br />It may contain multiple vouts, but each should have only one address.&nbsp; Even with multisig, I think the address shown would be the hash of the multisig script.<br /></div><br />Then it&#039;s funny that the field is called &quot;addresses&quot; instead of &quot;address&quot; and that it&#039;s actually an array, instead of a plain scalar:<br /><br /><div class="codeheader">Code:</div><div class="code">&nbsp; &nbsp; &quot;vout&quot; : [<br />&nbsp; &nbsp; &nbsp; &nbsp; {<br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &quot;value&quot; : 0.01055000,<br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &quot;n&quot; : 0,<br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &quot;scriptPubKey&quot; : {<br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; [some stuff],<br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &quot;addresses&quot; : [<br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &quot;17BXw4qwrKv8bd8gLZtYj75V368K88GJW6&quot;<br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ]<br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; }<br />&nbsp; &nbsp; &nbsp; &nbsp; },</div><br />vs (hypothetical):<br /><br /><div class="codeheader">Code:</div><div class="code">&nbsp; &nbsp; &quot;vout&quot; : [<br />&nbsp; &nbsp; &nbsp; &nbsp; {<br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &quot;value&quot; : 0.01055000,<br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &quot;n&quot; : 0,<br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &quot;scriptPubKey&quot; : {<br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; [some stuff],<br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &quot;address&quot; : &quot;17BXw4qwrKv8bd8gLZtYj75V368K88GJW6&quot;<br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; }<br />&nbsp; &nbsp; &nbsp; &nbsp; },</div><br />There must be some reason to this.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: More than one address within each vout?</b><br />
+					Post by: <b>kjj</b> on <b>October 18, 2012, 03:29:10 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">In theory, you should be able to create scripts that could be satisfied with multiple keys.&nbsp; In practice, you&#039;d usually do this with P2SH, at least now, and the hash of the script becomes the address.</div>
+					<br /><br />
+					<div align="center" class="smalltext">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank">Powered by SMF 1.1.19</a> | 
+<a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank">SMF &copy; 2006-2009, Simple Machines</a>
+		</span></div>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

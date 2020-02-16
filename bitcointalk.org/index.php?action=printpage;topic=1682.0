@@ -1,0 +1,176 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+		<link rel="canonical" href="https://bitcointalk.org/index.php?topic=1682.0" />
+		<title>Print Page - Average block generation time</title>
+		<style type="text/css">
+			body
+			{
+				color: black;
+				background-color: white;
+			}
+			body, td, .normaltext
+			{
+				font-family: Verdana, arial, helvetica, serif;
+				font-size: small;
+			}
+			*, a:link, a:visited, a:hover, a:active
+			{
+				color: black !important;
+			}
+			table
+			{
+				empty-cells: show;
+			}
+			.code
+			{
+				font-size: x-small;
+				font-family: monospace;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.quote
+			{
+				font-size: x-small;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.smalltext, .quoteheader, .codeheader
+			{
+				font-size: x-small;
+			}
+			.largetext
+			{
+				font-size: large;
+			}
+			hr
+			{
+				height: 1px;
+				border: 0;
+				color: black;
+				background-color: black;
+			}
+		</style>
+	</head>
+	<body>
+		<h1 class="largetext">Bitcoin Forum</h1>
+		<h2 class="normaltext">Bitcoin => Bitcoin Technical Support => Topic started by: da2ce7 on November 07, 2010, 05:27:31 AM</h2>
+
+		<table width="90%" cellpadding="0" cellspacing="0" border="0">
+			<tr>
+				<td>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Average block generation time</b><br />
+					Post by: <b>da2ce7</b> on <b>November 07, 2010, 05:27:31 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">How does one calculate the average block generation time at any given difficulty factor?<br /><br />Thanks in advanced.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Average block generation time</b><br />
+					Post by: <b>ShadowOfHarbringer</b> on <b>November 07, 2010, 01:00:46 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">http://www.alloscomp.com/bitcoin/calculator.php</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Average block generation time</b><br />
+					Post by: <b>tcatm</b> on <b>November 07, 2010, 01:09:18 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Average Time = difficulty * 2^32 * hour / (3600 * hashrate)</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Average block generation time</b><br />
+					Post by: <b>da2ce7</b> on <b>November 08, 2010, 09:55:39 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">http://developer.wolframalpha.com/widgets/gallery/view.jsp?id=76444b3132fda0e2aca778051d776f1c (http://developer.wolframalpha.com/widgets/gallery/view.jsp?id=76444b3132fda0e2aca778051d776f1c)<br /><br />Little gadget that anyone can use... Hope it helps.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Average block generation time</b><br />
+					Post by: <b>Transisto</b> on <b>March 09, 2011, 07:34:53 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=1682.msg20467#msg20467">Quote from: tcatm on November 07, 2010, 01:09:18 PM</a></div><div class="quote">Average Time = difficulty * 2^32 * <b>hour </b>/ (3600 * <b>hashrate</b>)<br /></div><br />Average Time <b>(in hours)</b> = difficulty * 2^32 <del> <b>*hour </b></del>/ (3600 * hash per second)</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Average block generation time</b><br />
+					Post by: <b>Serenata</b> on <b>June 07, 2012, 07:12:25 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=1682.msg20610#msg20610">Quote from: da2ce7 on November 08, 2010, 09:55:39 AM</a></div><div class="quote">http://developer.wolframalpha.com/widgets/gallery/view.jsp?id=76444b3132fda0e2aca778051d776f1c (http://developer.wolframalpha.com/widgets/gallery/view.jsp?id=76444b3132fda0e2aca778051d776f1c)<br /><br />Little gadget that anyone can use... Hope it helps.<br /></div>Useful, thanks!!</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Average block generation time</b><br />
+					Post by: <b>Kinnardian</b> on <b>November 28, 2012, 09:57:11 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Hi, Where does the 2^32 come from?</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Average block generation time</b><br />
+					Post by: <b>Sparxy</b> on <b>November 29, 2012, 12:47:29 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=1682.msg1365139#msg1365139">Quote from: Kinnardian on November 28, 2012, 09:57:11 PM</a></div><div class="quote">Hi, Where does the 2^32 come from?<br /></div>The nonce for the block &quot;candidate&quot; is a 32bit integer, meaning it can be anything from 0 to 2^32. While mining, you&#039;ll iterate through every single possibility before beginning on a new block &quot;candidate&quot;.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Average block generation time</b><br />
+					Post by: <b>CrazyGuy</b> on <b>November 30, 2012, 06:30:14 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">I didn&#039;t know you could create widgets with wolfram, that&#039;s really neat. So if 250 th worth of ASICs were released today , it would take about 40h to chomp through 2000 blocks.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Average block generation time</b><br />
+					Post by: <b>PaperClip</b> on <b>June 26, 2013, 09:06:42 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">I have question raised from different topic - <br /><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=242667.msg2579207#msg2579207">Quote from: PaperClip on June 25, 2013, 10:10:37 PM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=242667.msg2574308#msg2574308">Quote from: btcusr on June 25, 2013, 11:00:47 AM</a></div><div class="quote">Solo mining, no change in total network hash rate, 20 hours a day for 62 days, then you have what percentage of finding a block??<br /></div>According to this: https://en.bitcoin.it/wiki/Difficulty<br />time required to find a block = difficulty * 2^48 / 65535 / hashrate<br /><br />difficulty = 19339258.272387<br />hashrate = 7.75 GH/s = 7 750 000 000 hash/s<br />time required to find a block = 19 339 258.272 387 * 2^48 / 65 535 / 7 750 000 000 = 10 717 774 s<br /><br />20 hours a day for 62 days equals to 4 464 000 seconds<br />result is 4 464 000 / 10 717 774 = <span style="text-decoration: underline;">41.65%</span><br /><br />But I have some concerns:<br />Actually, result percentage should be bigger. 10717774s is maximal time to check all possible hashes. In reality miner does not check them all, it stops as soon as correct hash was found.<br />Its like if somebody has number between 1 and 9 in his mind, and you will guess it by trying all numbers 1,2,3,.. sequently. You do not need to make 9 guesses every time. It will be from 1 to 9; 5 guesses in average.<br />Soo, in this case result percentage should be 2 times bigger - 83.3%.<br />Am I correct?<br /></div>I want to understand logic behind this. Can anybody help? Correct result is 41.65% or 83.3%?</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Average block generation time</b><br />
+					Post by: <b>farlack</b> on <b>June 26, 2013, 09:32:36 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Anyone else notice the block times you will get 2 in 2 minutes, then none for 30 minutes, its really annoying.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Average block generation time</b><br />
+					Post by: <b>cp1</b> on <b>June 26, 2013, 09:33:42 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Average block time = time for last n blocks / n</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Average block generation time</b><br />
+					Post by: <b>jackjack</b> on <b>June 26, 2013, 09:37:34 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=1682.msg2588623#msg2588623">Quote from: farlack on June 26, 2013, 09:32:36 PM</a></div><div class="quote">Anyone else notice the block times you will get 2 in 2 minutes, then none for 30 minutes, its really annoying.<br /></div>Fucking maths, how do they work?</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Average block generation time</b><br />
+					Post by: <b>PaperClip</b> on <b>June 26, 2013, 09:49:53 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=1682.msg2588637#msg2588637">Quote from: cp1 on June 26, 2013, 09:33:42 PM</a></div><div class="quote">Average block time = time for last n blocks / n<br /></div>True<br />But question was related to device that probobaly will take months to generate at least one block :)<br />So there is no &quot;time for last n blocks&quot; in this case</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Average block generation time</b><br />
+					Post by: <b>cp1</b> on <b>June 26, 2013, 10:18:34 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=1682.msg2588803#msg2588803">Quote from: PaperClip on June 26, 2013, 09:49:53 PM</a></div><div class="quote">But question was related to device that probobaly will take months to generate at least one block :)<br />So there is no &quot;time for last n blocks&quot; in this case<br /></div><br />I didn&#039;t realize the thread was from so long ago either.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Average block generation time</b><br />
+					Post by: <b>AnonyMint</b> on <b>November 12, 2013, 12:39:15 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=1682.msg1365510#msg1365510">Quote from: Sparxy on November 29, 2012, 12:47:29 AM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=1682.msg1365139#msg1365139">Quote from: Kinnardian on November 28, 2012, 09:57:11 PM</a></div><div class="quote">Hi, Where does the 2^32 come from?<br /></div>The nonce for the block &quot;candidate&quot; is a 32bit integer, meaning it can be anything from 0 to 2^32. While mining, you&#039;ll iterate through every single possibility before beginning on a new block &quot;candidate&quot;.<br /></div><br />Incorrect.<br /><br />The maximum target (https://en.bitcoin.it/wiki/Target)* is 0x00000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF, which has 8 zeros at 4 bits each (each hexadecimal digit has pow(2,4) = 2^4 = 16 possibilities: 0 - 9, A, B, C, D, E, and F). 8 x 4 = 32 bits.<br /><br />The probability of finding a hash which is 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF divided by 0x00000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF = 1/pow(2,32) = 1 / (2^32). Since the difficulty (https://en.bitcoin.it/wiki/Difficulty) is the maximum target divided by current target, each hash calculated has 1 / (2^32) probability of being the block solution when the difficulty is 1.<br /><br />This choice of the maximum target for Bitcoin just so happens to match the number of possible values for the block nonce.<br /><br />* Note the maximum target is rounded down to 0x00000000FFFF0000000000000000000000000000000000000000000000000000, so all the math presented in this thread is only an approximation.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Average block generation time</b><br />
+					Post by: <b>lcharles123</b> on <b>December 25, 2013, 10:28:10 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=1682.msg946286#msg946286">Quote from: Serenata on June 07, 2012, 07:12:25 AM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=1682.msg20610#msg20610">Quote from: da2ce7 on November 08, 2010, 09:55:39 AM</a></div><div class="quote">http://developer.wolframalpha.com/widgets/gallery/view.jsp?id=76444b3132fda0e2aca778051d776f1c (http://developer.wolframalpha.com/widgets/gallery/view.jsp?id=76444b3132fda0e2aca778051d776f1c)<br /><br />Little gadget that anyone can use... Hope it helps.<br /></div>Useful, thanks!!<br /></div><br />Here a more detailed:<br />http://bitcoinwisdom.com/litecoin/difficulty</div>
+					<br /><br />
+					<div align="center" class="smalltext">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank">Powered by SMF 1.1.19</a> | 
+<a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank">SMF &copy; 2006-2009, Simple Machines</a>
+		</span></div>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

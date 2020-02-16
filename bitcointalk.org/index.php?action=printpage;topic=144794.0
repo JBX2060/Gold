@@ -1,0 +1,98 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+		<link rel="canonical" href="https://bitcointalk.org/index.php?topic=144794.0" />
+		<title>Print Page - Recover Bitcoin wallet with LevelDB</title>
+		<style type="text/css">
+			body
+			{
+				color: black;
+				background-color: white;
+			}
+			body, td, .normaltext
+			{
+				font-family: Verdana, arial, helvetica, serif;
+				font-size: small;
+			}
+			*, a:link, a:visited, a:hover, a:active
+			{
+				color: black !important;
+			}
+			table
+			{
+				empty-cells: show;
+			}
+			.code
+			{
+				font-size: x-small;
+				font-family: monospace;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.quote
+			{
+				font-size: x-small;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.smalltext, .quoteheader, .codeheader
+			{
+				font-size: x-small;
+			}
+			.largetext
+			{
+				font-size: large;
+			}
+			hr
+			{
+				height: 1px;
+				border: 0;
+				color: black;
+				background-color: black;
+			}
+		</style>
+	</head>
+	<body>
+		<h1 class="largetext">Bitcoin Forum</h1>
+		<h2 class="normaltext">Bitcoin => Bitcoin Technical Support => Topic started by: BasementMiner! on February 18, 2013, 02:22:08 AM</h2>
+
+		<table width="90%" cellpadding="0" cellspacing="0" border="0">
+			<tr>
+				<td>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Recover Bitcoin wallet with LevelDB</b><br />
+					Post by: <b>BasementMiner!</b> on <b>February 18, 2013, 02:22:08 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Since this version of Bitcoin-QT seems relatively new and is not considered stable, I am looking for anyone who has instructions on how to recover my coins in this new database format.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Recover Bitcoin wallet with LevelDB</b><br />
+					Post by: <b>piuk</b> on <b>February 18, 2013, 11:04:03 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=144794.msg1535545#msg1535545">Quote from: BasementMiner! on February 18, 2013, 02:22:08 AM</a></div><div class="quote">Since this version of Bitcoin-QT seems relatively new and is not considered stable, I am looking for anyone who has instructions on how to recover my coins in this new database format.<br /></div><br />I&#039;m pretty sure although the blockchain was switched to LevelDB the wallet is still using BerkleyDB so should be backwards compatible with old versions.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Recover Bitcoin wallet with LevelDB</b><br />
+					Post by: <b>DannyHamilton</b> on <b>February 19, 2013, 12:29:51 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=144794.msg1537892#msg1537892">Quote from: piuk on February 18, 2013, 11:04:03 PM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=144794.msg1535545#msg1535545">Quote from: BasementMiner! on February 18, 2013, 02:22:08 AM</a></div><div class="quote">Since this version of Bitcoin-QT seems relatively new and is not considered stable, I am looking for anyone who has instructions on how to recover my coins in this new database format.<br /></div>I&#039;m pretty sure although the blockchain was switched to LevelDB the wallet is still using BerkleyDB so should be backwards compatible with old versions.<br /></div><br />I thought I heard the same, but hadn&#039;t taken the time to look into it yet.<br /><br />OP, is there a reason you believe otherwise?</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Recover Bitcoin wallet with LevelDB</b><br />
+					Post by: <b>BasementMiner!</b> on <b>February 19, 2013, 02:19:43 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=144794.msg1538079#msg1538079">Quote from: DannyHamilton on February 19, 2013, 12:29:51 AM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=144794.msg1537892#msg1537892">Quote from: piuk on February 18, 2013, 11:04:03 PM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=144794.msg1535545#msg1535545">Quote from: BasementMiner! on February 18, 2013, 02:22:08 AM</a></div><div class="quote">Since this version of Bitcoin-QT seems relatively new and is not considered stable, I am looking for anyone who has instructions on how to recover my coins in this new database format.<br /></div>I&#039;m pretty sure although the blockchain was switched to LevelDB the wallet is still using BerkleyDB so should be backwards compatible with old versions.<br /></div><br />I thought I heard the same, but hadn&#039;t taken the time to look into it yet.<br /><br />OP, is there a reason you believe otherwise?<br /></div><br />No, you guys might be correct.<br /><br />Thanks.</div>
+					<br /><br />
+					<div align="center" class="smalltext">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank">Powered by SMF 1.1.19</a> | 
+<a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank">SMF &copy; 2006-2009, Simple Machines</a>
+		</span></div>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

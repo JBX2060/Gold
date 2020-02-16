@@ -1,0 +1,110 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+		<link rel="canonical" href="https://bitcointalk.org/index.php?topic=21956.0" />
+		<title>Print Page - bitcoind on a Mac (Snow Leopard)</title>
+		<style type="text/css">
+			body
+			{
+				color: black;
+				background-color: white;
+			}
+			body, td, .normaltext
+			{
+				font-family: Verdana, arial, helvetica, serif;
+				font-size: small;
+			}
+			*, a:link, a:visited, a:hover, a:active
+			{
+				color: black !important;
+			}
+			table
+			{
+				empty-cells: show;
+			}
+			.code
+			{
+				font-size: x-small;
+				font-family: monospace;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.quote
+			{
+				font-size: x-small;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.smalltext, .quoteheader, .codeheader
+			{
+				font-size: x-small;
+			}
+			.largetext
+			{
+				font-size: large;
+			}
+			hr
+			{
+				height: 1px;
+				border: 0;
+				color: black;
+				background-color: black;
+			}
+		</style>
+	</head>
+	<body>
+		<h1 class="largetext">Bitcoin Forum</h1>
+		<h2 class="normaltext">Bitcoin => Bitcoin Technical Support => Topic started by: pixelglow on June 24, 2011, 02:31:14 PM</h2>
+
+		<table width="90%" cellpadding="0" cellspacing="0" border="0">
+			<tr>
+				<td>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>bitcoind on a Mac (Snow Leopard)</b><br />
+					Post by: <b>pixelglow</b> on <b>June 24, 2011, 02:31:14 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">I&#039;m trying to run bitcoind, the headless server version of the bitcoin client, on my Snow Leopard Mac (10.6).<br /><br />Couple of issues:<br /><br />1. In the standard install of 0.3.23, I can&#039;t see any bitcoind, only the Bitcoin.app client.<br />2. I tried running <i>bitcoin -server</i> using the executable embedded within Bitcoin.app, but it still opened up the application.<br />3. I tried compiling from source i.e. <i>make -f makefile.osx bitcoind</i> on the src directory, but it died after spitting out tons of errors. It looks like there&#039;s some dependencies on third-party libs in there. Could we have a list of libs to download in order to build bitcoind?<br />4. Or perhaps someone can point me to an official, prebuilt bitcoind binary. I really don&#039;t want to go down the MacPorts etc. route.<br /><br />Cheers,<br />G.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: bitcoind on a Mac (Snow Leopard)</b><br />
+					Post by: <b>Rob P.</b> on <b>June 24, 2011, 06:46:10 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Open Terminal:<br /><br />echo &quot;rpcuser=user&quot; &gt;&gt; ~/Library/Application Support/Bitcoin/bitcoin.conf<br />echo &quot;rpcpassword=password&quot; &gt;&gt; ~/Library/Application Support/Bitcoin/bitcoin.conf<br /><br />If you&#039;ve already done the above, then you just need to:<br /><br />cd /Applications/bitcoin-0.3.23/Bitcoin.app/Contents/MacOS<br />./bitcoin -server<br /><br />This will still fire up the client in your Dock.&nbsp; However, it will now also accept JSON-RPC commands.<br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: bitcoind on a Mac (Snow Leopard)</b><br />
+					Post by: <b>pixelglow</b> on <b>June 25, 2011, 10:17:35 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">OK, running <i>bitcoin -server</i> seems to work well as a JSON RPC server, although it&#039;s disconcerting to see the GUI up as well.<br /><br />What happens if I want to run bitcoin in a UI-less context? E.g. as a daemon during system startup or through SSH to the box? Essentially I need to run bitcoind in a Mac server box (as opposed to say a Linux server box).<br /><br />I tried running <i>bitcoin -daemon</i> but that seems pretty broken at the moment. After a couple of seconds it dies with:<br /><br />The process has forked and you cannot use this CoreFoundation functionality safely. You MUST exec().<br />Break on __THE_PROCESS_HAS_FORKED_AND_YOU_CANNOT_USE_THIS_COREFOUNDATION_FUNCTIONALITY__<span style="width: 0; margin: 0 -0.6ex 0 -1px;"> </span>_YOU_MUST_EXEC__() to debug.<br /><br />Is there actually a distinct bitcoind and what&#039;s the difference between that and Bitcoin.app?<br /><br />Mac OS X daemons are generally run through launchd scripts and do not fork on their own. If you can point me to some source code and a Mac build environment, I can hack on it until it works and contribute the changes back.<br /><br />Cheers<br />G.<br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: bitcoind on a Mac (Snow Leopard)</b><br />
+					Post by: <b>Rob P.</b> on <b>June 25, 2011, 01:44:23 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=21956.msg280756#msg280756">Quote from: pixelglow on June 25, 2011, 10:17:35 AM</a></div><div class="quote">What happens if I want to run bitcoin in a UI-less context? E.g. as a daemon during system startup or through SSH to the box? Essentially I need to run bitcoind in a Mac server box (as opposed to say a Linux server box).<br /></div><br />There&#039;s only one bitcoin app, it takes a -server argument to accept the RPC calls from another client.&nbsp; There is no separate daemon.<br /><br /><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=21956.msg280756#msg280756">Quote from: pixelglow on June 25, 2011, 10:17:35 AM</a></div><div class="quote">Is there actually a distinct bitcoind and what&#039;s the difference between that and Bitcoin.app?<br /></div><br />There is not.&nbsp; &quot;.app&quot; is just a folder container for applications on the Macintosh, it&#039;s not actually an app.&nbsp; You can see this by right-clicking on any Macintosh &quot;.app&quot; and select &quot;Show Package Contents&quot;.<br /><br /><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=21956.msg280756#msg280756">Quote from: pixelglow on June 25, 2011, 10:17:35 AM</a></div><div class="quote"> <br />Mac OS X daemons are generally run through launchd scripts and do not fork on their own. If you can point me to some source code and a <br /></div><br />There isn&#039;t a separate daemon.&nbsp; The source is all public domain, and is included in your download in the &quot;src&quot; folder.&nbsp; Including an OSX make file.&nbsp; If you want an IDE, check out XCode available on the App Store.<br /><br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: bitcoind on a Mac (Snow Leopard)</b><br />
+					Post by: <b>pixelglow</b> on <b>June 27, 2011, 02:22:35 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">For closure:<br /><br />You <b>can</b> build a bitcoind (headless bitcoin) on a Mac. The build instructions are not with the usual binary distribution but you can grab them off the github repository for bitcoin. The minimal dependencies are: boost (from boost.org) and Berkeley DB (from the freshmeat.net project), you (apparently) can use libssl and libcrypto from the system.<br /><br />bitcoind appears to run undaemonized, so it should be suitable for a launchd script. But I haven&#039;t tested this configuration yet.<br /><br />Cheers,<br />G.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: bitcoind on a Mac (Snow Leopard)</b><br />
+					Post by: <b>Kinnardian</b> on <b>December 12, 2012, 05:09:26 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">There is no bitcoin folder in my Application Support folder!&nbsp; ???</div>
+					<br /><br />
+					<div align="center" class="smalltext">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank">Powered by SMF 1.1.19</a> | 
+<a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank">SMF &copy; 2006-2009, Simple Machines</a>
+		</span></div>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

@@ -1,0 +1,104 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+		<link rel="canonical" href="https://bitcointalk.org/index.php?topic=128716.0" />
+		<title>Print Page - GUIminer 2012-11-18</title>
+		<style type="text/css">
+			body
+			{
+				color: black;
+				background-color: white;
+			}
+			body, td, .normaltext
+			{
+				font-family: Verdana, arial, helvetica, serif;
+				font-size: small;
+			}
+			*, a:link, a:visited, a:hover, a:active
+			{
+				color: black !important;
+			}
+			table
+			{
+				empty-cells: show;
+			}
+			.code
+			{
+				font-size: x-small;
+				font-family: monospace;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.quote
+			{
+				font-size: x-small;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.smalltext, .quoteheader, .codeheader
+			{
+				font-size: x-small;
+			}
+			.largetext
+			{
+				font-size: large;
+			}
+			hr
+			{
+				height: 1px;
+				border: 0;
+				color: black;
+				background-color: black;
+			}
+		</style>
+	</head>
+	<body>
+		<h1 class="largetext">Bitcoin Forum</h1>
+		<h2 class="normaltext">Bitcoin => Bitcoin Technical Support => Topic started by: Ascholten on December 02, 2012, 12:22:36 AM</h2>
+
+		<table width="90%" cellpadding="0" cellspacing="0" border="0">
+			<tr>
+				<td>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>GUIminer 2012-11-18</b><br />
+					Post by: <b>Ascholten</b> on <b>December 02, 2012, 12:22:36 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">I followed the directions on slushes page to update to this cludge and when I try to run it now I keep getting an Name Error&nbsp; OpenCL miner not defined.<br /><br />Any idea what went wrong, it won&#039;t connect to any sites now.<br /><br />Thank you<br />Aaron</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: GUIminer 2012-11-18</b><br />
+					Post by: <b>Transisto</b> on <b>December 03, 2012, 08:36:41 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">are you able to see your gpu in device list ? <br /><br />Have you installed latest drivers ?</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: GUIminer 2012-11-18</b><br />
+					Post by: <b>securo</b> on <b>December 03, 2012, 10:18:09 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=128716.msg1372131#msg1372131">Quote from: Ascholten on December 02, 2012, 12:22:36 AM</a></div><div class="quote">I followed the directions on slushes page to update to this cludge and when I try to run it now I keep getting an Name Error&nbsp; OpenCL miner not defined.<br /></div>I had the same problem yesterday, in win7x32. Switched to 64bit and everything worked fine.. Haven&#039;t switched back and checked, though.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: GUIminer 2012-11-18</b><br />
+					Post by: <b>Ascholten</b> on <b>December 04, 2012, 10:47:15 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">I am running 64 bit though so it should have worked.<br />I reverted back to the earlier version and its mining again.&nbsp; Ill just use a different pool than slushes.<br /><br />Thank you for your help.<br /><br />Aaron</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: GUIminer 2012-11-18</b><br />
+					Post by: <b>securo</b> on <b>December 05, 2012, 07:12:27 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Whatever makes it work, will do. I&#039;ll guess you want to follow the guiminer-thread, then.</div>
+					<br /><br />
+					<div align="center" class="smalltext">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank">Powered by SMF 1.1.19</a> | 
+<a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank">SMF &copy; 2006-2009, Simple Machines</a>
+		</span></div>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

@@ -1,0 +1,296 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+		<link rel="canonical" href="https://bitcointalk.org/index.php?topic=141500.0" />
+		<title>Print Page - Blockchain.info and BlockExplore.com non-responsive</title>
+		<style type="text/css">
+			body
+			{
+				color: black;
+				background-color: white;
+			}
+			body, td, .normaltext
+			{
+				font-family: Verdana, arial, helvetica, serif;
+				font-size: small;
+			}
+			*, a:link, a:visited, a:hover, a:active
+			{
+				color: black !important;
+			}
+			table
+			{
+				empty-cells: show;
+			}
+			.code
+			{
+				font-size: x-small;
+				font-family: monospace;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.quote
+			{
+				font-size: x-small;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.smalltext, .quoteheader, .codeheader
+			{
+				font-size: x-small;
+			}
+			.largetext
+			{
+				font-size: large;
+			}
+			hr
+			{
+				height: 1px;
+				border: 0;
+				color: black;
+				background-color: black;
+			}
+		</style>
+	</head>
+	<body>
+		<h1 class="largetext">Bitcoin Forum</h1>
+		<h2 class="normaltext">Bitcoin => Bitcoin Technical Support => Topic started by: Rygon on February 06, 2013, 02:58:20 AM</h2>
+
+		<table width="90%" cellpadding="0" cellspacing="0" border="0">
+			<tr>
+				<td>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Blockchain.info and BlockExplore.com non-responsive</b><br />
+					Post by: <b>Rygon</b> on <b>February 06, 2013, 02:58:20 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Anyone else having issues with looking up transactions or addresses on the blockchain? I can&#039;t seem to do it from anywhere, and my Bitcoin-qt platform seems to think I need to upgrade even though I&#039;m running the latest version. I&#039;m a little nervous because I wanted to send a transaction, and I can&#039;t even double check that I have the BTC in the right address. Normally I could at least do that.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Blockchain.info and BlockExplore.com non-responsive</b><br />
+					Post by: <b>CurbsideProphet</b> on <b>February 06, 2013, 02:59:49 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Not working for me as well.&nbsp; </div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Blockchain.info and BlockExplore.com non-responsive</b><br />
+					Post by: <b>Blazr</b> on <b>February 06, 2013, 03:01:09 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Yeah there&#039;s issues with BC.info alright, been trying to access my web wallet for a while now...</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Blockchain.info and BlockExplore.com non-responsive</b><br />
+					Post by: <b>Rygon</b> on <b>February 06, 2013, 03:06:44 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Error I get from blockchain.info:<br /><br /><div class="quoteheader">Quote</div><div class="quote">Communications link failure The last packet successfully received from the server was 2,325,915 milliseconds ago. The last packet sent successfully to the server was 2,315,876 milliseconds ago.</div><br />At least other people are having issues also. I don&#039;t know if that&#039;s normal or not.<br /><br />I&#039;m more worried about my bitcoin-qt wallet not syncing and giving the &quot;Warning: Displayed transactions may not be correct! You may need to upgrade, or other nodes may need to upgrade.&quot; I suppose I could still send a transaction, I just don&#039;t have a way to verify it.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Blockchain.info and BlockExplore.com non-responsive</b><br />
+					Post by: <b>theymos</b> on <b>February 06, 2013, 03:22:50 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">blockexplorer.com seems to be working AFAICT.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Blockchain.info and BlockExplore.com non-responsive</b><br />
+					Post by: <b>velacreations</b> on <b>February 06, 2013, 03:30:17 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">blockchain.info is down for me, too</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Blockchain.info and BlockExplore.com non-responsive</b><br />
+					Post by: <b>greyhawk</b> on <b>February 06, 2013, 03:31:23 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">blockexplorer is timing iut in search requests as well now</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Blockchain.info and BlockExplore.com non-responsive</b><br />
+					Post by: <b>dave111223</b> on <b>February 06, 2013, 03:34:28 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Anyone know of any alternatives to blockchain.info.<br /><br />I use their address balance lookup API to verify if payments have been sent, for example:<br />http://blockchain.info/q/addressbalance/XXXXXXXXXXXX?confirmations=6<br /><br />But lately their server seems to be down a lot.<br /><br />I just need to be able to lookup the confirmed balance of any given address.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Blockchain.info and BlockExplore.com non-responsive</b><br />
+					Post by: <b>John (John K.)</b> on <b>February 06, 2013, 03:36:32 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=141500.msg1506903#msg1506903">Quote from: theymos on February 06, 2013, 03:22:50 AM</a></div><div class="quote">blockexplorer.com seems to be working AFAICT.<br /></div>I get : ERROR: unknown (Most likely my bitcoind stopped working or this page is too large/complex.)<br />when I try to search for a transection/ bitcoinaddress</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Blockchain.info and BlockExplore.com non-responsive</b><br />
+					Post by: <b>theymos</b> on <b>February 06, 2013, 03:39:53 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=141500.msg1506919#msg1506919">Quote from: greyhawk on February 06, 2013, 03:31:23 AM</a></div><div class="quote">blockexplorer is timing iut in search requests as well now<br /></div><br />That pretty much always happens. The other pages work, though.<br /><br /><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=141500.msg1506924#msg1506924">Quote from: dave111223 on February 06, 2013, 03:34:28 AM</a></div><div class="quote">Anyone know if any alternatives to blockchain.info.<br /><br />I use their address balance lookup API to verify if payments have been sent, for example:<br />http://blockchain.info/q/addressbalance/XXXXXXXXXXXX?confirmations=6<br /><br />But lately their server seems to be down a lot.<br /><br />I just need to be able to lookup the confirmed balance of any given address.<br /></div><br />http://blockexplorer.com/q/addressbalance/1Cvvr8AsCfbbVQ2xoWiFD1Gb2VRbGsEf28<br /><br />Maybe use one as a fallback for the other.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Blockchain.info and BlockExplore.com non-responsive</b><br />
+					Post by: <b>greyhawk</b> on <b>February 06, 2013, 03:47:39 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Thanks. Direct requests go through almost instantly indeed.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Blockchain.info and BlockExplore.com non-responsive</b><br />
+					Post by: <b>dave111223</b> on <b>February 06, 2013, 03:49:12 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=141500.msg1506934#msg1506934">Quote from: theymos on February 06, 2013, 03:39:53 AM</a></div><div class="quote">http://blockexplorer.com/q/addressbalance/1Cvvr8AsCfbbVQ2xoWiFD1Gb2VRbGsEf28<br /><br />Maybe use one as a fallback for the other.<br /></div><br />I looked at that but the problem is the balance shows up even with zero confirmations (so it&#039;s not a &quot;confirmed&quot; balance)</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Blockchain.info and BlockExplore.com non-responsive</b><br />
+					Post by: <b>Timep34</b> on <b>February 06, 2013, 03:50:14 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">I was having a problem too and since i keep tried refreshing they said they blocked my IP temporarily for too many requests&nbsp; :o</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Blockchain.info and BlockExplore.com non-responsive</b><br />
+					Post by: <b>CurbsideProphet</b> on <b>February 06, 2013, 03:51:25 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">You can tell its not working as the last transaction showing is over an hour and a half old.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Blockchain.info and BlockExplore.com non-responsive</b><br />
+					Post by: <b>theymos</b> on <b>February 06, 2013, 04:09:52 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=141500.msg1506946#msg1506946">Quote from: dave111223 on February 06, 2013, 03:49:12 AM</a></div><div class="quote">I looked at that but the problem is the balance shows up even with zero confirmations (so it&#039;s not a &quot;confirmed&quot; balance)<br /></div><br />http://blockexplorer.com/q/addressbalance/1Cvvr8AsCfbbVQ2xoWiFD1Gb2VRbGsEf28/6<br /><br />See the manual at http://blockexplorer.com/q</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Blockchain.info and BlockExplore.com non-responsive</b><br />
+					Post by: <b>lebing</b> on <b>February 06, 2013, 04:36:10 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">down for me as well&nbsp; :(</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Blockchain.info and BlockExplore.com non-responsive</b><br />
+					Post by: <b>c0dex</b> on <b>February 06, 2013, 04:40:55 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">It&#039;s been down for at least 2 hours for me.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Blockchain.info and BlockExplore.com non-responsive</b><br />
+					Post by: <b>lebing</b> on <b>February 06, 2013, 04:44:31 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Its stuck on the &quot;CHANGING WALLET IDENTIFIER &quot;... though I dont know why it would be changing anything o.0</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Blockchain.info and BlockExplore.com non-responsive</b><br />
+					Post by: <b>dave111223</b> on <b>February 06, 2013, 04:46:36 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=141500.msg1506978#msg1506978">Quote from: theymos on February 06, 2013, 04:09:52 AM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=141500.msg1506946#msg1506946">Quote from: dave111223 on February 06, 2013, 03:49:12 AM</a></div><div class="quote">I looked at that but the problem is the balance shows up even with zero confirmations (so it&#039;s not a &quot;confirmed&quot; balance)<br /></div><br />http://blockexplorer.com/q/addressbalance/1Cvvr8AsCfbbVQ2xoWiFD1Gb2VRbGsEf28/6<br /><br />See the manual at http://blockexplorer.com/q<br /></div><br />That doesn&#039;t seem to work, for example:<br />http://blockexplorer.com/q/addressbalance/1Luo5XyHWJKG4nZ2nAT3GyZUV67CHYvNrw/50<br /><br />That transaction only has 17 confirmations, but it still shows a balance when entering any confirmation number (50,100,1000, etc...)</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Blockchain.info and BlockExplore.com non-responsive</b><br />
+					Post by: <b>btctrada</b> on <b>February 06, 2013, 04:47:05 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Very Frustrating indeed! &gt;:(</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Blockchain.info and BlockExplore.com non-responsive</b><br />
+					Post by: <b>c0dex</b> on <b>February 06, 2013, 05:03:05 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Anyone seen or heard anything from piuk?</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Blockchain.info and BlockExplore.com non-responsive</b><br />
+					Post by: <b>geniusboy91</b> on <b>February 06, 2013, 08:05:49 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">My blockchain.info is also stuck on CHANGING WALLET IDENTIFIER</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Blockchain.info and BlockExplore.com non-responsive</b><br />
+					Post by: <b>dadj</b> on <b>February 06, 2013, 09:00:18 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Status on home page says: &quot;Not Connected&quot;<br /><br />Try to login - click on Open Wallet and get the message &quot;You must enter a Two Factor Authentication code&quot;.<br /><br />Then spinning wheel next to &quot;VALIDATING AUTHENTICATION KEY&quot;<br /><br />Also no text boxes come up for putting in 2nd authentication key.<br /><br />This is likely happening because the blockchain site not connecting. Is this going to be fixed soon?</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Blockchain.info and BlockExplore.com non-responsive</b><br />
+					Post by: <b>2weiX</b> on <b>February 06, 2013, 09:15:33 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">seriously hope so.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Blockchain.info and BlockExplore.com non-responsive</b><br />
+					Post by: <b>blockbet.net</b> on <b>February 06, 2013, 11:54:40 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">It&#039;s back online, thankfully it wasn&#039;t a longer blackout.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Blockchain.info and BlockExplore.com non-responsive</b><br />
+					Post by: <b>Rygon</b> on <b>February 06, 2013, 01:02:27 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Yeah. I might have over reacted. But out of an odd coincidence, my bitcoin-qt program wasn&#039;t working (and still isn&#039;t, despite a reinstall). It was kind of annoying not being able to check a balance anywhere.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Blockchain.info and BlockExplore.com non-responsive</b><br />
+					Post by: <b>bitcoinBull</b> on <b>February 06, 2013, 03:17:16 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=141500.msg1507607#msg1507607">Quote from: Rygon on February 06, 2013, 01:02:27 PM</a></div><div class="quote">Yeah. I might have over reacted. But out of an odd coincidence, my bitcoin-qt program wasn&#039;t working (and still isn&#039;t, despite a reinstall). It was kind of annoying not being able to check a balance anywhere.<br /></div><br />I saw the other threads about trouble synchronizing the blockchain, and for a sec worried that the SHTF. Thank *GOD* its back up.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Blockchain.info and BlockExplore.com non-responsive</b><br />
+					Post by: <b>CurbsideProphet</b> on <b>February 06, 2013, 06:37:22 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">This is probably a good reminder to backup those private keys.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Blockchain.info and BlockExplore.com non-responsive</b><br />
+					Post by: <b>Rygon</b> on <b>February 06, 2013, 07:29:58 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=141500.msg1508189#msg1508189">Quote from: CurbsideProphet on February 06, 2013, 06:37:22 PM</a></div><div class="quote">This is probably a good reminder to backup those private keys.<br /></div><br />The issue for me was that I had nowhere that I could check the coins available at a given address. Private keys were backed up, but if I had been expecting to receive coins from someone, I would have had to wait hours to verify that it was in the block chain. I guess it&#039;s just bad luck that my client and the only two public websites I was aware of weren&#039;t functional for me.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Blockchain.info and BlockExplore.com non-responsive</b><br />
+					Post by: <b>2weiX</b> on <b>February 06, 2013, 07:34:51 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=141500.msg1508222#msg1508222">Quote from: c0dex on February 06, 2013, 06:52:36 PM</a></div><div class="quote">First thing I did when I regained access after 9 hours of downtime was to backup my keys.&nbsp; :D<br /></div><br /><br />#2</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Blockchain.info and BlockExplore.com non-responsive</b><br />
+					Post by: <b>velacreations</b> on <b>February 06, 2013, 10:57:33 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">I&#039;m having really slow confirmations this afternoon. I have 3 transactions that have been waiting for confirmations for hours.<br /><br />Don&#039;t know if it is related to the blockchain.info downtime yesterday, but since they go through blockchain.info, I have to assume something is up.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Blockchain.info and BlockExplore.com non-responsive</b><br />
+					Post by: <b>CurbsideProphet</b> on <b>February 07, 2013, 12:05:12 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=141500.msg1508692#msg1508692">Quote from: velacreations on February 06, 2013, 10:57:33 PM</a></div><div class="quote">I&#039;m having really slow confirmations this afternoon. I have 3 transactions that have been waiting for confirmations for hours.<br /><br />Don&#039;t know if it is related to the blockchain.info downtime yesterday, but since they go through blockchain.info, I have to assume something is up.<br /></div><br />Unlikely due to the downtime.&nbsp; Did you pay the proper fees?&nbsp; If not, it could take hours.&nbsp; If you post the TX here someone can look into it.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Blockchain.info and BlockExplore.com non-responsive</b><br />
+					Post by: <b>velacreations</b> on <b>February 07, 2013, 12:41:07 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">yeah they finally went through.&nbsp; It was someone paying me, so I don&#039;t know about the fees.&nbsp; I will check the transaction and see.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Blockchain.info and BlockExplore.com non-responsive</b><br />
+					Post by: <b>heart_mons</b> on <b>February 07, 2013, 02:18:57 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">My password isn&#039;t being accepted.&nbsp; I know I&#039;m typing it the correct way and I typed it in a text file to verify the correct output for the keys I&#039;m pressing.&nbsp; I stopped with one attempt left because I don&#039;t feel like having my account locked out for a while....again today.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Blockchain.info and BlockExplore.com non-responsive</b><br />
+					Post by: <b>counter</b> on <b>February 07, 2013, 04:38:59 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">I&#039;m still not able to log in to my account it keeps saying my info is incorrect but I don&#039;t think it is.&nbsp; I still haven&#039;t heard back from my help request to the support desk and I sent it yesterday morning.&nbsp; Sure hope they reply sooner then later.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Blockchain.info and BlockExplore.com non-responsive</b><br />
+					Post by: <b>piuk</b> on <b>February 07, 2013, 10:26:39 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Please PM me.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Blockchain.info and BlockExplore.com non-responsive</b><br />
+					Post by: <b>counter</b> on <b>February 07, 2013, 05:42:16 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">PM coming now, thanks</div>
+					<br /><br />
+					<div align="center" class="smalltext">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank">Powered by SMF 1.1.19</a> | 
+<a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank">SMF &copy; 2006-2009, Simple Machines</a>
+		</span></div>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

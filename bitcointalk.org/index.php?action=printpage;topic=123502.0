@@ -1,0 +1,140 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+		<link rel="canonical" href="https://bitcointalk.org/index.php?topic=123502.0" />
+		<title>Print Page - i somehow had a double spend</title>
+		<style type="text/css">
+			body
+			{
+				color: black;
+				background-color: white;
+			}
+			body, td, .normaltext
+			{
+				font-family: Verdana, arial, helvetica, serif;
+				font-size: small;
+			}
+			*, a:link, a:visited, a:hover, a:active
+			{
+				color: black !important;
+			}
+			table
+			{
+				empty-cells: show;
+			}
+			.code
+			{
+				font-size: x-small;
+				font-family: monospace;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.quote
+			{
+				font-size: x-small;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.smalltext, .quoteheader, .codeheader
+			{
+				font-size: x-small;
+			}
+			.largetext
+			{
+				font-size: large;
+			}
+			hr
+			{
+				height: 1px;
+				border: 0;
+				color: black;
+				background-color: black;
+			}
+		</style>
+	</head>
+	<body>
+		<h1 class="largetext">Bitcoin Forum</h1>
+		<h2 class="normaltext">Bitcoin => Bitcoin Technical Support => Topic started by: Lurk on November 09, 2012, 04:51:03 PM</h2>
+
+		<table width="90%" cellpadding="0" cellspacing="0" border="0">
+			<tr>
+				<td>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>i somehow had a double spend</b><br />
+					Post by: <b>Lurk</b> on <b>November 09, 2012, 04:51:03 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">I&#039;m not sure what exactly happened&nbsp; but i sent a large amount to btcjam...some of it disapeared but then i got sent back 7btc that says its a double spend.....I woke up today and it looks like the money i sent bitcoin jam was returned???&nbsp; I&#039;m not sure...and confused.<br /><br />&nbsp;btcjam is still showing the payment as pending.<br /><br />how can i update my account to see the true balance and what exactly happened?<br />i use blockchain wallet.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: i somehow had a double spend</b><br />
+					Post by: <b>AndrewBUD</b> on <b>November 09, 2012, 04:54:28 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Interested to hear the outcome of this: </div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: i somehow had a double spend</b><br />
+					Post by: <b>Akka</b> on <b>November 09, 2012, 04:54:54 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Don&#039;t worry I&#039;m sure the transaction to BTC Jam will never become confirmed. So you are save to send it again.<br /><br />But I have no Idea how that could happen. Interested in the answer and watching this thread.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: i somehow had a double spend</b><br />
+					Post by: <b>Lurk</b> on <b>November 09, 2012, 05:00:17 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">when i refresh my wallet the balance switches between&nbsp; &nbsp;72&nbsp; &nbsp; 15&nbsp; &nbsp; and 18&nbsp; &nbsp; this is crazy</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: i somehow had a double spend</b><br />
+					Post by: <b>AndrewBUD</b> on <b>November 09, 2012, 05:03:28 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=123502.msg1326306#msg1326306">Quote from: Lurk on November 09, 2012, 05:00:17 PM</a></div><div class="quote">when i refresh my wallet the balance switches between&nbsp; &nbsp;72&nbsp; &nbsp; 15&nbsp; &nbsp; and 18&nbsp; &nbsp; this is crazy<br /></div><br />That does sound crazy.... Blockchain wallet is probably borked.... </div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: i somehow had a double spend</b><br />
+					Post by: <b>Lurk</b> on <b>November 09, 2012, 05:11:03 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">&nbsp;this is what the double spends say<br /><br /><br /><br />Warning! this transaction is a double spend of 32225092. You should be extremely careful when trusting any transactions to/from this sender.<br /><br />You Received<br /><br />7.404 BTC ($ 80.33)<br /><br />Value at time of transaction $ 80.32<br />Hash<br />470d5196d115492231b43342d...<br />Sent Time<br />2012-11-09 05:50:29 (+33 minutes to confirm)<br />Confirmations<br />73 Confirmations<br />Double Spend<br />This Transaction is a Double Spend!<br /><br /><br /><br />&nbsp;Warning! this transaction is a double spend of 32223946. You should be extremely careful when trusting any transactions to/from this sender.<br /><br />You Received<br /><br />7.404 BTC ($ 80.33)<br /><br />Value at time of transaction $ 80.32<br />Hash<br />bac06b762ff34a74ec2217f01...<br />Sent Time<br />2012-11-09 05:52:54<br />Confirmations<br />Unconfirmed Transaction!<br />Double Spend<br />This Transaction is a Double Spend!<br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: i somehow had a double spend</b><br />
+					Post by: <b>AndrewBUD</b> on <b>November 09, 2012, 05:13:17 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Seems like an issue with their wallet service.... Is there any support for their service? </div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: i somehow had a double spend</b><br />
+					Post by: <b>Lurk</b> on <b>November 09, 2012, 05:54:32 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">they never replied to my ticket...but it looks like the double spends are gone....i wasnt sure what my correct balance was but i guess it looks about right.....well see i guess</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: i somehow had a double spend</b><br />
+					Post by: <b>AndrewBUD</b> on <b>November 09, 2012, 05:55:50 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=123502.msg1326414#msg1326414">Quote from: Lurk on November 09, 2012, 05:54:32 PM</a></div><div class="quote">they never replied to my ticket...but it looks like the double spends are gone....i wasnt sure what my correct balance was but i guess it looks about right.....well see i guess<br /></div><br />Good to hear... Glad it got fixed up for ya... Did the coins confirm @ btcjam that you sent or was everything reversed?</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: i somehow had a double spend</b><br />
+					Post by: <b>piuk</b> on <b>November 09, 2012, 08:30:16 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">I&#039;m not sure if this was a double spend received from btcjam or a double spend caused by sending from the wallet. But if this occurs again normally you just have to wait an hour or so for one of the transactions to confirm and things resolve themselves.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: i somehow had a double spend</b><br />
+					Post by: <b>AndrewBUD</b> on <b>November 09, 2012, 08:31:50 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=123502.msg1326734#msg1326734">Quote from: piuk on November 09, 2012, 08:30:16 PM</a></div><div class="quote">I&#039;m not sure if this was a double spend received from btcjam or a double spend caused by sending from the wallet. But if this occurs again normally you just have to wait an hour or so for one of the transactions to confirm and things resolve themselves.<br /></div><br /><br />Good to hear.</div>
+					<br /><br />
+					<div align="center" class="smalltext">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank">Powered by SMF 1.1.19</a> | 
+<a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank">SMF &copy; 2006-2009, Simple Machines</a>
+		</span></div>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

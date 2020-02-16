@@ -1,0 +1,146 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+		<link rel="canonical" href="https://bitcointalk.org/index.php?topic=117292.0" />
+		<title>Print Page - Transaction stuck.  What to do?  [YAY SUCCESS!!]</title>
+		<style type="text/css">
+			body
+			{
+				color: black;
+				background-color: white;
+			}
+			body, td, .normaltext
+			{
+				font-family: Verdana, arial, helvetica, serif;
+				font-size: small;
+			}
+			*, a:link, a:visited, a:hover, a:active
+			{
+				color: black !important;
+			}
+			table
+			{
+				empty-cells: show;
+			}
+			.code
+			{
+				font-size: x-small;
+				font-family: monospace;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.quote
+			{
+				font-size: x-small;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.smalltext, .quoteheader, .codeheader
+			{
+				font-size: x-small;
+			}
+			.largetext
+			{
+				font-size: large;
+			}
+			hr
+			{
+				height: 1px;
+				border: 0;
+				color: black;
+				background-color: black;
+			}
+		</style>
+	</head>
+	<body>
+		<h1 class="largetext">Bitcoin Forum</h1>
+		<h2 class="normaltext">Bitcoin => Bitcoin Technical Support => Topic started by: mc_lovin on October 08, 2012, 10:08:43 PM</h2>
+
+		<table width="90%" cellpadding="0" cellspacing="0" border="0">
+			<tr>
+				<td>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Transaction stuck.  What to do?  [YAY SUCCESS!!]</b><br />
+					Post by: <b>mc_lovin</b> on <b>October 08, 2012, 10:08:43 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Is there anything I can do about this?<br /><br />Did a withdraw from deepbit.net and now the money is not arriving in my wallet, it&#039;s stuck at 0 conf for hours. &nbsp;<br /><br />http://blockchain.info/tx/a8780d5bca15f75a6dbefb28e7a27de4ba4f70e292b0834467ef97c253da95fb<br /><br />Freaking out over here AGAIN. &nbsp;<br /><br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Transaction stuck.  What to do?  </b><br />
+					Post by: <b>bitgirl</b> on <b>October 08, 2012, 10:15:45 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">That happened to me yesterday too. It took almost 3 hours for the first confirmation and about that much more time to get all 6. I kept checking and rechecking the address I sent it to convinced I had pasted it in wrong or something. And yes, I freaked out a little too, lol.&nbsp; In the end, everything went through fine. I know its hard, but just wait. Do something in the meantime to keep your mind off worrying. Hang in there McLovin&nbsp; :)</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Transaction stuck.  What to do?  </b><br />
+					Post by: <b>mc_lovin</b> on <b>October 08, 2012, 10:16:55 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">IT CONFIRMED. &nbsp;OMG. &nbsp;YESSSSSS!!</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Transaction stuck.  What to do?  </b><br />
+					Post by: <b>bitgirl</b> on <b>October 08, 2012, 10:17:51 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Yay!!!!!&nbsp; :D</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Transaction stuck.  What to do?  </b><br />
+					Post by: <b>mc_lovin</b> on <b>October 08, 2012, 10:18:23 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=117292.msg1257477#msg1257477">Quote from: bitgirl on October 08, 2012, 10:15:45 PM</a></div><div class="quote">That happened to me yesterday too. It took almost 3 hours for the first confirmation and about that much more time to get all 6. I kept checking and rechecking the address I sent it to convinced I had pasted it in wrong or something. And yes, I freaked out a little too, lol. &nbsp;In the end, everything went through fine. I know its hard, but just wait. Do something in the meantime to keep your mind off worrying. Hang in there McLovin &nbsp;:)<br /></div><br />Thanks bitgirl! &nbsp;:) &nbsp;Man, 3 hours is a long time but im glad it went through. &nbsp;OMG so happy. &nbsp;</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Transaction stuck.  What to do?  </b><br />
+					Post by: <b>mc_lovin</b> on <b>October 08, 2012, 10:19:17 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">I was just freaking out, went into the kitchen to get some thanksgiving ham.. spilled the salt, put some over my left shoulder like the superstitions tell you to, and then it became confirmed like 5 seconds later.&nbsp; So now I know how to fix it in the future!</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Transaction stuck.  What to do?  [YAY SUCCESS!!]</b><br />
+					Post by: <b>bitgirl</b> on <b>October 08, 2012, 10:22:12 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Cool! I&#039;ll have to try that next time too&nbsp; ;)</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Transaction stuck.  What to do?  [YAY SUCCESS!!]</b><br />
+					Post by: <b>mc_lovin</b> on <b>October 08, 2012, 10:27:29 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=117292.msg1257496#msg1257496">Quote from: bitgirl on October 08, 2012, 10:22:12 PM</a></div><div class="quote">Cool! I&#039;ll have to try that next time too&nbsp; ;)<br /></div>I wonder how much salt we&#039;re going to need to get our GLBSE funds now..</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Transaction stuck.  What to do?  [YAY SUCCESS!!]</b><br />
+					Post by: <b>bitgirl</b> on <b>October 08, 2012, 10:36:25 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">I&#039;ve got my fingers crossed for you guys. I really hope that all works out for everyone, I really do. I didn&#039;t invest because I don&#039;t have the extra cash or I would have. I should have picked brokegirl instead of bitgirl as my name, lol, but I like to think positive I guess&nbsp; :)</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Transaction stuck.  What to do?  </b><br />
+					Post by: <b>Stephen Gornick</b> on <b>October 08, 2012, 10:54:07 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=117292.msg1257491#msg1257491">Quote from: mc_lovin on October 08, 2012, 10:19:17 PM</a></div><div class="quote">I was just freaking out, went into the kitchen to get some thanksgiving ham.. spilled the salt, put some over my left shoulder like the superstitions tell you to, and then it became confirmed like 5 seconds later.&nbsp; So now I know how to fix it in the future!<br /></div><br />&gt; Transaction: a8780d5bca15f75a6dbefb28e7a27de4ba4f70e292b0834467ef97c253da95fb<br />&gt; Fees paid: 0 BTC<br /><br />I can think of another way to &quot;fix it&quot;.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Transaction stuck.  What to do?  [YAY SUCCESS!!]</b><br />
+					Post by: <b>bitgirl</b> on <b>October 08, 2012, 10:59:02 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Yes, always pay transaction fees. I&#039;m slowly but surely figuring this all out. Thanks for the reminder Stephen. You probably saved another noob like me from learning the hard way.&nbsp; :)</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Transaction stuck.  What to do?  </b><br />
+					Post by: <b>SgtSpike</b> on <b>October 08, 2012, 11:04:29 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=117292.msg1257575#msg1257575">Quote from: Stephen Gornick on October 08, 2012, 10:54:07 PM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=117292.msg1257491#msg1257491">Quote from: mc_lovin on October 08, 2012, 10:19:17 PM</a></div><div class="quote">I was just freaking out, went into the kitchen to get some thanksgiving ham.. spilled the salt, put some over my left shoulder like the superstitions tell you to, and then it became confirmed like 5 seconds later.&nbsp; So now I know how to fix it in the future!<br /></div><br />&gt; Transaction: a8780d5bca15f75a6dbefb28e7a27de4ba4f70e292b0834467ef97c253da95fb<br />&gt; Fees paid: 0 BTC<br /><br />I can think of another way to &quot;fix it&quot;.<br /></div>Do you have a choice when it comes to withdrawing from deepbit though?</div>
+					<br /><br />
+					<div align="center" class="smalltext">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank">Powered by SMF 1.1.19</a> | 
+<a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank">SMF &copy; 2006-2009, Simple Machines</a>
+		</span></div>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

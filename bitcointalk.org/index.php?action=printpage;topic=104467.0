@@ -1,0 +1,158 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+		<link rel="canonical" href="https://bitcointalk.org/index.php?topic=104467.0" />
+		<title>Print Page - Recovering Wallet and PGP Auth to #Bitcoin-OTC</title>
+		<style type="text/css">
+			body
+			{
+				color: black;
+				background-color: white;
+			}
+			body, td, .normaltext
+			{
+				font-family: Verdana, arial, helvetica, serif;
+				font-size: small;
+			}
+			*, a:link, a:visited, a:hover, a:active
+			{
+				color: black !important;
+			}
+			table
+			{
+				empty-cells: show;
+			}
+			.code
+			{
+				font-size: x-small;
+				font-family: monospace;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.quote
+			{
+				font-size: x-small;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.smalltext, .quoteheader, .codeheader
+			{
+				font-size: x-small;
+			}
+			.largetext
+			{
+				font-size: large;
+			}
+			hr
+			{
+				height: 1px;
+				border: 0;
+				color: black;
+				background-color: black;
+			}
+		</style>
+	</head>
+	<body>
+		<h1 class="largetext">Bitcoin Forum</h1>
+		<h2 class="normaltext">Bitcoin => Bitcoin Technical Support => Topic started by: praxeologist on August 29, 2012, 05:35:31 PM</h2>
+
+		<table width="90%" cellpadding="0" cellspacing="0" border="0">
+			<tr>
+				<td>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Recovering Wallet and PGP Auth to #Bitcoin-OTC</b><br />
+					Post by: <b>praxeologist</b> on <b>August 29, 2012, 05:35:31 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">1. I have an old wallet saved (unencrypted) with a few coins on it. I took this off my old computer and just downloaded the bitcoin client again. Is there a guide to plugging those coins into my new client? I figure there is a guide around somewhere, but though I could ask.<br /><br />2. More pressing and difficult.. I used to use Bitcoin OTC way before you needed to do some sort of PGP Authentication to even join the channel. In general, I had problems using Win GPG or whatever it was called, so there are probably keys from a few attempts sitting around on my old computer. I need to figure out what I am looking for and how to join OTC again. What am I looking for and how do I do this?</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Recovering Wallet and PGP Auth to #Bitcoin-OTC</b><br />
+					Post by: <b>nimda</b> on <b>August 29, 2012, 05:38:22 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=104467.msg1143826#msg1143826">Quote from: praxeologist on August 29, 2012, 05:35:31 PM</a></div><div class="quote">2. More pressing and difficult.. I used to use Bitcoin OTC way before you needed to do some sort of PGP Authentication to even join the channel. In general, I had problems using Win GPG or whatever it was called, so there are probably keys from a few attempts sitting around on my old computer. I need to figure out what I am looking for and how to join OTC again. What am I looking for and how do I do this?<br /></div>Type ;;guide on the channel; it&#039;s a pretty comprehensive overview. There&#039;s also this (shameless plug): https://bitcointalk.org/index.php?topic=98574.0</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Recovering Wallet and PGP Auth to #Bitcoin-OTC</b><br />
+					Post by: <b>praxeologist</b> on <b>August 29, 2012, 06:09:17 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">I can&#039;t even ;;guide because I need to recover my password to freenode first and ATM don&#039;t even see how to do that.<br /><br />I found some stuff on bitcoin OTC&#039;s website... now just to decipher it. Thanks for the offer but I need to figure this out to prove who I am to try to get a loan, so maybe not the best time to be asking me for BTC heh.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Recovering Wallet and PGP Auth to #Bitcoin-OTC</b><br />
+					Post by: <b>nimda</b> on <b>August 29, 2012, 06:41:27 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Freenode doesn&#039;t require a password. It provides NickServ, which does use passwords; you can Google for information about that. If you&#039;ve been away for a long time, freenode staff will drop the nick for you.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Recovering Wallet and PGP Auth to #Bitcoin-OTC</b><br />
+					Post by: <b>praxeologist</b> on <b>August 29, 2012, 07:28:07 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Looks like someone just recently got the nick dropped and probably tried to use it to scam, only used it for a day, so I will have to wait 8+ weeks to get it again hoping they don&#039;t log in.<br /><br />I am hoping that my Bitcoin OTC name can be tied to another IRC name... This whole thing sucks.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Recovering Wallet and PGP Auth to #Bitcoin-OTC</b><br />
+					Post by: <b>Stephen Gornick</b> on <b>August 29, 2012, 07:31:46 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=104467.msg1143826#msg1143826">Quote from: praxeologist on August 29, 2012, 05:35:31 PM</a></div><div class="quote">1. I have an old wallet saved (unencrypted) with a few coins on it. I took this off my old computer and just downloaded the bitcoin client again. Is there a guide to plugging those coins into my new client? I figure there is a guide around somewhere, but though I could ask.<br /><br />2. More pressing and difficult.. I used to use Bitcoin OTC way before you needed to do some sort of PGP Authentication to even join the channel. In general, I had problems using Win GPG or whatever it was called, so there are probably keys from a few attempts sitting around on my old computer. I need to figure out what I am looking for and how to join OTC again. What am I looking for and how do I do this?<br /></div><br />For your wallet, you can simply overwrite your new install with the wallet.dat from the old computer -- assuming you haven&#039;t used the new wallet yet. &nbsp;Just close the client, and copy the file in to the Bitcoin directory.<br /><br />&nbsp;- http://en.bitcoin.it/wiki/Data_directory<br /><br />For the -OTC, if you&#039;ve already registered a username in the Web of Trust (WoT), then you will need the GPG private key from the old computer or from a backup to authenticate into that username. &nbsp;<br />&nbsp;- http://bitcoin-otc.com/viewratings.php<br /><br />Just to be clear, the IRC nick doesn&#039;t necessarily need to be the same as the WoT username. &nbsp;It is more convenient and less confusing if they are the same, but there&#039;s no requirement that they be the same. &nbsp; So if you don&#039;t already have a a WoT entry, you can register as if it is the first time.<br /><br />If instead you already registered and need to bring your GPG private key from your old computer, then there will be a different set of steps. &nbsp; &nbsp;Generally, you want to, from the old computer, export the key. &nbsp;Then on the new one you import the key.<br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Recovering Wallet and PGP Auth to #Bitcoin-OTC</b><br />
+					Post by: <b>praxeologist</b> on <b>August 29, 2012, 08:02:25 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Thanks. What I really need to do is &quot;sign a PGP message&quot; with whatever key I used for OTC, more than be able to visit OTC, though that will be nice to get sorted out later.<br /><br />I remember fiddling with PGP and being frustrated, so that is why I never went back to OTC. I think I have several PGP keys setup, so is there some way to tell from my OTC listing which is the right one?<br /><br />http://pool.sks-keyservers.net:11371/pks/lookup?op=vindex&amp;search=0x05EC22B9A0119189344EF3786FCB388C6281BDB0 (http://pool.sks-keyservers.net:11371/pks/lookup?op=vindex&amp;search=0x05EC22B9A0119189344EF3786FCB388C6281BDB0)</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Recovering Wallet and PGP Auth to #Bitcoin-OTC</b><br />
+					Post by: <b>nimda</b> on <b>August 29, 2012, 08:43:37 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">just go on a terminal/shell/command prompt and type &quot;gpg --clearsign&quot;</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>PGP key identifier</b><br />
+					Post by: <b>Yurock</b> on <b>August 29, 2012, 08:45:58 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=104467.msg1144235#msg1144235">Quote from: praxeologist on August 29, 2012, 08:02:25 PM</a></div><div class="quote">which is the right one?</div>Obviously, the one with id 6281BDB0.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: PGP key identifier</b><br />
+					Post by: <b>praxeologist</b> on <b>August 29, 2012, 11:21:31 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=104467.msg1144362#msg1144362">Quote from: Yurock on August 29, 2012, 08:45:58 PM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=104467.msg1144235#msg1144235">Quote from: praxeologist on August 29, 2012, 08:02:25 PM</a></div><div class="quote">which is the right one?</div>Obviously, the one with id 6281BDB0.<br /></div><br />If only it were that easy.. I actually haven&#039;t been able to get on my old computer (hardware issue, but I think I can cannibalize my new system for the part).<br /><br />I did save my whole old GnuPG folder when I backed up stuff, though I don&#039;t think I have the proper keys to import into GPA.<br /><br />I have something I named gribble.text.asc<br /><br />-----BEGIN PGP SIGNED MESSAGE-----<br />Hash: SHA1<br /><br />6bdd886ca849a2d3bf89a7dd8144a576e79681f035f7117b80c7563d5490cc3e<br />-----BEGIN PGP SIGNATURE-----<br />Version: GnuPG v2.0.14 (MingW32)<br /><br />iQEcBAEBAgAGBQJNdBEnAAoJEG/LOIxigb2weewH/jKyTg3JcJNZS0GCRNGsKOAd<br />+ChProQS/Hx5kINZjWOnVfft92VZi7UfMH3MS88zN4p5ynEw8m5EjJBUju0s10yC<br />gW889PhOqFScZFsMEJPR5tm1T5BEdB4VjwlazQRb2OZlMWbmDsmZkZqenOqtTGbf<br />VJACYeMjsbfy4HwBQ+9PGgqw+xANucMQkrzpugHUIeLHUjxXP1bXrhYE2fJg9Omh<br />RrqIkUrJR1pYN01LOCCJnQys/bXWXOEvi/ew2KXUN3C1kcgiMWNZdGk7MAVRKwFK<br />LeF+KHwFbuAPd6D8zOpGi6aN7NN1ryuhlKvuIBbV4LR17raLO5G4gkyff2+W54A=<br />=HkiD<br />-----END PGP SIGNATURE-----<br /><br />Is this worth anything to recovering a key? I think all I have is this and a text file of similar. This is some sort of clearsign of a response code gribble gives and nothing useful?</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: PGP key identifier</b><br />
+					Post by: <b>Stephen Gornick</b> on <b>August 30, 2012, 02:43:41 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=104467.msg1144728#msg1144728">Quote from: praxeologist on August 29, 2012, 11:21:31 PM</a></div><div class="quote">I did save my whole old GnuPG folder when I backed up stuff, though I don&#039;t think I have the proper keys to import into GPA.<br /></div><br />The public and private keys are stored in the storage keyring namely pubring.gpg for public keys and secring.gpg for private keys.<br /><br />If you have those, you can import them.&nbsp; Don&#039;t overwrite the file that exists on your new installation.&nbsp; In fact, in the directory from the old computer, rename the files secring.gpg --&gt;&nbsp; secring-bak.gpg&nbsp; and&nbsp; &nbsp;pubring.gpg&nbsp; ---&gt;&nbsp; pubring-bak.gpg<br /><br />Then:<br /><br />&nbsp; gpg --import pubring-bak.gpg<br />&nbsp; gpg --import secring-bak.gpg<br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Recovering Wallet and PGP Auth to #Bitcoin-OTC</b><br />
+					Post by: <b>praxeologist</b> on <b>August 30, 2012, 06:49:00 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Thanks but somehow I don&#039;t have either of those .gpg files either. I&#039;m not sure why. I installed a fresh GPA and it is fairly intuitive, but it offers to store the first private key you make anywhere so maybe I stored that somewhere random and when I thought I was backing up everything important in the GnuPG folder I left that out. I use win7 and when I search *.gpg all I get is stuff from my new install.<br /><br />My old computer was kind of an intermediate Dell POS after I had a freak accident destroy a build I made. I put my old HDD along with the intermediate computer, but to do that I had to swap Sata/power cables with the DVD drive. When I built a new system I was short on (IDE?) power cables for my HD/SSD/BR and took some out of the old system. I bought a new one but then since I didn&#039;t really need it misplaced it and let it all slide. This is easy to put back from the new system if I have to,&nbsp; but the old-old HDD somehow also had the plastic around the SATA connector broken off, a metal prong bent and it took me a while to even get it back in place. I think this second HD is where the real GPG info must be, if at all, and hopefully I can get it if I just shutdown my new computer and power the old drive.<br /><br />It is kind of too late now though and I don&#039;t even care. I will definitely be more careful if I try to be involved with this crap again. Thanks to all for your patient help.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Recovering PGP keys.</b><br />
+					Post by: <b>Yurock</b> on <b>August 30, 2012, 05:02:40 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">What GPG files from the old installation do you have?</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Recovering PGP keys.</b><br />
+					Post by: <b>praxeologist</b> on <b>August 31, 2012, 12:22:39 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=104467.msg1146799#msg1146799">Quote from: Yurock on August 30, 2012, 05:02:40 PM</a></div><div class="quote">What GPG files from the old installation do you have?<br /></div><br />None, but I don&#039;t know why. It seems like I backed up the whole GnuPG folder but kept everything important somewhere else. The hardware problem is mostly fixed, I just don&#039;t have a need anymore to get this solved immediately so I will hopefully be able to complete it another time and refer to this thread. Thanks everyone for help.</div>
+					<br /><br />
+					<div align="center" class="smalltext">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank">Powered by SMF 1.1.19</a> | 
+<a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank">SMF &copy; 2006-2009, Simple Machines</a>
+		</span></div>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

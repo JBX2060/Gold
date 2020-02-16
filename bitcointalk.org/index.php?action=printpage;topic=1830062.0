@@ -1,0 +1,110 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+		<link rel="canonical" href="https://bitcointalk.org/index.php?topic=1830062.0" />
+		<title>Print Page - safest way to accept unconfirmed transactions</title>
+		<style type="text/css">
+			body
+			{
+				color: black;
+				background-color: white;
+			}
+			body, td, .normaltext
+			{
+				font-family: Verdana, arial, helvetica, serif;
+				font-size: small;
+			}
+			*, a:link, a:visited, a:hover, a:active
+			{
+				color: black !important;
+			}
+			table
+			{
+				empty-cells: show;
+			}
+			.code
+			{
+				font-size: x-small;
+				font-family: monospace;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.quote
+			{
+				font-size: x-small;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.smalltext, .quoteheader, .codeheader
+			{
+				font-size: x-small;
+			}
+			.largetext
+			{
+				font-size: large;
+			}
+			hr
+			{
+				height: 1px;
+				border: 0;
+				color: black;
+				background-color: black;
+			}
+		</style>
+	</head>
+	<body>
+		<h1 class="largetext">Bitcoin Forum</h1>
+		<h2 class="normaltext">Bitcoin => Bitcoin Technical Support => Topic started by: anonymoustroll420 on March 16, 2017, 08:04:28 PM</h2>
+
+		<table width="90%" cellpadding="0" cellspacing="0" border="0">
+			<tr>
+				<td>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>safest way to accept unconfirmed transactions</b><br />
+					Post by: <b>anonymoustroll420</b> on <b>March 16, 2017, 08:04:28 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">I realize that accepting unconfirmed transactions is very risky, especially now that the network is congested.<br /><br />When a customer places an order on the website, I want to order the product as soon as possible from the supplier and only deliver it to the customer when the transaction is confirmed.<br /><br />No product will be delivered until the transaction is confirmed, therefore the customer cannot make money by double spending, however, there is a risk that a customer could make lots of orders, causing lots of products to be ordered from suppliers, and if those transactions never confirmed then I would lose money.<br /><br />So here is what my idea is so far.<br /><br />1. When a transaction is received, rebroadcast this transaction to a large number of nodes and continually do this until it confirms.<br /><br />2. Wait 30 seconds to ensure transaction has fully propagated, and to check for double spends.<br /><br />3. If the transaction fee/byte is above a certain amount (dynamically calculated), then order the product from the supplier<br /><br />4. Once the transaction receives 2-3 confirmations, deliver the product<br /><br />5. If there are X number of transactions that have not confirmed in an hour (or some other timeframe), assume that someone is attempting to cause financial loss and wait for at least 1 confirmation before ordering any more products.<br /><br />What other ways can I improve this?</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: safest way to accept unconfirmed transactions</b><br />
+					Post by: <b>achow101</b> on <b>March 16, 2017, 08:09:50 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Check that the transaction does not spend from any other unconfirmed transactions. Check that the transaction is final, I.e. the sequence number of the inputs are all Max sequence and that the locktime has passed.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: safest way to accept unconfirmed transactions</b><br />
+					Post by: <b>HI-TEC99</b> on <b>March 16, 2017, 08:14:17 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">If the sequence numbers are all FF FF FF FF, then the transaction&#039;s opted out of replace by fee, and the transaction is final.<br /><br />Bitpay does everything you want, but charges a fee for its service.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: safest way to accept unconfirmed transactions</b><br />
+					Post by: <b>anonymoustroll420</b> on <b>March 16, 2017, 08:27:10 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Thanks for the help guys.<br /><br /><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=1830062.msg18215145#msg18215145">Quote from: HI-TEC99 on March 16, 2017, 08:14:17 PM</a></div><div class="quote">Bitpay does everything you want, but charges a fee for its service.<br /></div><br />Do you know if I have to use their payment system, or is this feature provided via an API or something so that I can use it with my own payment system?</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: safest way to accept unconfirmed transactions</b><br />
+					Post by: <b>HI-TEC99</b> on <b>March 16, 2017, 08:37:05 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=1830062.msg18215250#msg18215250">Quote from: anonymoustroll420 on March 16, 2017, 08:27:10 PM</a></div><div class="quote">Thanks for the help guys.<br /><br /><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=1830062.msg18215145#msg18215145">Quote from: HI-TEC99 on March 16, 2017, 08:14:17 PM</a></div><div class="quote">Bitpay does everything you want, but charges a fee for its service.<br /></div><br />Do you know if I have to use their payment system, or is this feature provided via an API or something so that I can use it with my own payment system?<br /></div><br />Bitpay&#039;s REST interface API for interacting with your BitPay account is explained here.<br /><br />https://bitpay.com/api<br /><br />Bitpay&#039;s Bitcoin Payment Gateway API for interacting with its Payment Gateway is explained here.<br /><br />https://bitpay.com/bitcoin-payment-gateway-api<br /><br />You can use it to embed a Bitpay invoice on your website.<br /><br /><br />There are alternatives to Bitpay, but I don&#039;t know much about them. This website compares some of the top alternatives.<br /><br />https://alternatives.financesonline.com/p/bitpay/<br /><br />This page gives a bigger list of alternatives.<br /><br />https://payment-gateway.financesonline.com/</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: safest way to accept unconfirmed transactions</b><br />
+					Post by: <b>Quickseller</b> on <b>March 19, 2017, 09:08:12 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">How diverse is your product base? -- if not very diverse then having a few extra products might not cause very much financial harm.<br /><br />Do you have a way of tracking if someone is a repeat customer (also are your customers&#039; identities verified)? -- If so, then you can assign each customer a risk profile based on their prior behavior. For example, a customer who has ordered from you multiple times and that has not ever had any kind of failed payment/deposit will probably have a higher chance of having their transaction confirm (or a transaction in the appropriate amount) than a customer who has a history of failed payments/deposits. Also if you have done business with someone many times in the past (and earned profit from this person), then the risk of someone trying to cause you financial harm would be low. <br /><br />What you are describing sounds very similar to how Gemini will pre-credit (https://gemini.com/blog/zero-confirmation-bitcoin-deposits/) some Bitcoin deposits for trading nearly immidiately after receiving the transaction. If this is something similar to what you are trying to implement (or improve), then you can look at the total value of the account verses the value of the deposit. If the deposit is under a certain percentage of the account&#039;s balance, then the amount under the certain percentage threshold might be able to be excluded from the total credit risk. </div>
+					<br /><br />
+					<div align="center" class="smalltext">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank">Powered by SMF 1.1.19</a> | 
+<a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank">SMF &copy; 2006-2009, Simple Machines</a>
+		</span></div>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

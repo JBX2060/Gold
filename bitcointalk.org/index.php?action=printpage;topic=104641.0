@@ -1,0 +1,116 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+		<link rel="canonical" href="https://bitcointalk.org/index.php?topic=104641.0" />
+		<title>Print Page - Keep getting &quot;Transaction creation failed&quot;</title>
+		<style type="text/css">
+			body
+			{
+				color: black;
+				background-color: white;
+			}
+			body, td, .normaltext
+			{
+				font-family: Verdana, arial, helvetica, serif;
+				font-size: small;
+			}
+			*, a:link, a:visited, a:hover, a:active
+			{
+				color: black !important;
+			}
+			table
+			{
+				empty-cells: show;
+			}
+			.code
+			{
+				font-size: x-small;
+				font-family: monospace;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.quote
+			{
+				font-size: x-small;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.smalltext, .quoteheader, .codeheader
+			{
+				font-size: x-small;
+			}
+			.largetext
+			{
+				font-size: large;
+			}
+			hr
+			{
+				height: 1px;
+				border: 0;
+				color: black;
+				background-color: black;
+			}
+		</style>
+	</head>
+	<body>
+		<h1 class="largetext">Bitcoin Forum</h1>
+		<h2 class="normaltext">Bitcoin => Bitcoin Technical Support => Topic started by: jetmine on August 30, 2012, 09:43:11 AM</h2>
+
+		<table width="90%" cellpadding="0" cellspacing="0" border="0">
+			<tr>
+				<td>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Keep getting &quot;Transaction creation failed&quot;</b><br />
+					Post by: <b>jetmine</b> on <b>August 30, 2012, 09:43:11 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Hi,<br /><br />This is an issue that is plaguing me since months, and I&#039;d like to ask if there is any solution to it.<br /><br />Often, when I try to send a large amount of BTC, I get the following message:<br />error: {&quot;code&quot;:-4,&quot;message&quot;:&quot;Error: Transaction creation failed&nbsp; &quot;}<br /><br />If this error happens, I try sending a smaller amount.&nbsp; Eventually this succeeds.&nbsp; There is always a treshold below which the transaction can be created successfully.&nbsp; However the treshold is not a static value, but rather depends on some internal details of my wallet.&nbsp; Sometimes the treshold is lower than 1 BTC, sometimes it is near 200 BTC.&nbsp; After each successful send, the treshold jumps a different value (higher or lower).&nbsp; I cannot send more than 200 BTC ever anymore since the problem started to appear, and it becomes worse and worse with time.<br /><br />After googling this forum and other sites, my understanding is that the error occurs because the transaction becomes too complex.&nbsp; The source of it seems to be &quot;wallet pollution&quot; where many small inputs exist and bitcoind wants to combine too many of them into the transaction.<br /><br />My wallet file is 2.3 MB, and certainly there may be many small items in it.&nbsp; However there are also plenty of large items that could be used to form the desired transaction (without reaching the excessive complexity).&nbsp; Bitcoind seems to use a poor strategy in choosing the inputs from the available ones.<br /><br />The problem appears accross many versions of bitcoin, including v0.3.x and v0.6.3, and on several machines.&nbsp; It never appears on a fresh install, only starts to appear after the wallet has grown a lot, and then becomes worse with time.<br /><br />My questions:<br /><br />1. Do I have some way to influence which inputs are chosen?&nbsp; For example, can I choose 10 &quot;virgin&quot; coins for a 500 BTC transaction, instead of thousands of 0.01xxx inputs?<br /><br />2. Can I somehow view the details of my wallet?&nbsp; I imagine that I could send the offending small inputs away to a different wallet, if I only knew their exact face value and the order in which they appear in the wallet.<br /><br />3. Is there any other way to &quot;clean&quot; my wallet, or reorder the items in it so that the offending items will be selected last instead of first?<br /><br />I am living with the problem, but it gets worse and worse every week.&nbsp; I cannot ignore it much longer.&nbsp; Right now I am thinking about this resolution strategy:&nbsp; Fresh install on a new box.&nbsp; Try to send 99.9 BTC to the new box.&nbsp; If fails, decrease the amount by 0.1 BTC and retry (until success). Start over with 99.9.&nbsp; Continue until the wallet is empty or near empty.&nbsp; Delete the remaining wallet file.&nbsp; Obviously this method is costly because of the TX fees involved.<br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Keep getting &quot;Transaction creation failed&quot;</b><br />
+					Post by: <b>Strider Hiryu</b> on <b>August 30, 2012, 04:55:47 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=104641.msg1145818#msg1145818">Quote from: jetmine on August 30, 2012, 09:43:11 AM</a></div><div class="quote">1. Do I have some way to influence which inputs are chosen?&nbsp; For example, can I choose 10 &quot;virgin&quot; coins for a 500 BTC transaction, instead of thousands of 0.01xxx inputs?<br /><br />2. Can I somehow view the details of my wallet?&nbsp; I imagine that I could send the offending small inputs away to a different wallet, if I only knew their exact face value and the order in which they appear in the wallet.<br /><br />3. Is there any other way to &quot;clean&quot; my wallet, or reorder the items in it so that the offending items will be selected last instead of first?<br /></div><br />Some of the alternate clients provide 1 and 2.<br /><br />3. unfortunately not exactly, the standard client has it&#039;s own way of selecting inputs.&nbsp; I think there&#039;s a patch around that completely ignores small amounts, maybe there are more patches that do other things.<br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Keep getting &quot;Transaction creation failed&quot;</b><br />
+					Post by: <b>BitBlitz</b> on <b>August 30, 2012, 05:27:35 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">I have a similar issue, and I don&#039;t think it is a transaction complexity problem.&nbsp; I have an address with a single transaction that I cannot send coins from.&nbsp; <br />In my case, I have a block reward from solo mining that caused my Bitcoin client to crash in May, when I first tried to spend it.&nbsp; Shortly afterward, the client would crash or close every time it tried to open the wallet.&nbsp; I used pywallet to extract the private keys for that address and other addresses with coins.&nbsp; I was successful in importing the private keys and spending coins from all other addresses.&nbsp; <br /><br />Here&#039;s what is strange.&nbsp; If I import the private key in a unencrypted wallet, the Bitcoin client crashes when it tries to open the wallet.&nbsp; If I import the private key in an encrypted wallet, the Bitcoin client shows the 50.xxx coins in the wallet.&nbsp; However, if I try to send them, I get &quot;Transaction creation failed&quot;.&nbsp; I have also tried several releases (from 0.3x to 0.7RC1) with no luck.<br /><br />I&#039;ve heard there is an issue with some addresses created on earlier clients and encrypted with newer client releases.&nbsp; I didn&#039;t hear back from Gavin (he&#039;s excused if he&#039;s been busy :))&nbsp; &nbsp;I think I&#039;ll ping him again to clarify if there is a known issue.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Keep getting &quot;Transaction creation failed&quot;</b><br />
+					Post by: <b>Stephen Gornick</b> on <b>August 30, 2012, 05:57:19 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=104641.msg1145818#msg1145818">Quote from: jetmine on August 30, 2012, 09:43:11 AM</a></div><div class="quote">2. Can I somehow view the details of my wallet?&nbsp; I imagine that I could send the offending small inputs away to a different wallet, if I only knew their exact face value and the order in which they appear in the wallet.</div><br />3. Is there any other way to &quot;clean&quot; my wallet, or reorder the items in it so that the offending items will be selected last instead of first?[/quote]<br /><br />The bitcoin.org client doesn&#039;t provide a method to remove addresses.&nbsp; Pywallet does allow wallet surgery like that (-dumpwallet).&nbsp; Just make sure you make a backup prior to touching it.<br /><br />You could list the transactions and for those with large enough unspent amounts you could then from a new wallet import them individually, giving you a wallet without the smaller transactions -- if those are what is really causing your problems.<br /><br />I&#039;m not sure if this does anything to help, but have you tried launching with a -rescan?<br /><br />I also read that there might be a recovery mode in v0.7, I&#039;m not sure if it made it in:<br />&nbsp;- http://bitcointalk.org/index.php?topic=82070.msg904478#msg904478<br /><br />That is still in testing though it is a RC.&nbsp; I don&#039;t know that I&#039;ld trust it with a wallet holding a larger amount of coins in it.<br /><br />As long as you have the private keys, you can be assured that you can spend the funds eventually, so the problem is simply being able to use the existing wallet.dat from your client.<br /><br /><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=104641.msg1145818#msg1145818">Quote from: jetmine on August 30, 2012, 09:43:11 AM</a></div><div class="quote">Right now I am thinking about this resolution strategy:&nbsp; [...] Obviously this method is costly because of the TX fees involved.{/quote]<br /><br />The transaction fees are based on the amount of data, and not necessarily on the number of transactions.&nbsp; You might have transactions that cost way more after considering the fees than their value (e.g., the minimum commission on losing bets returned by SatoshiDICE when the wager was small).<br /><br />Perhaps in v0.7 will be the fix, if you can wait.&nbsp; If you can&#039;t then manual transfer of the keys (excluding the worthless ones) to a new wallet will solve this.</div></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Keep getting &quot;Transaction creation failed&quot;</b><br />
+					Post by: <b>Strider Hiryu</b> on <b>August 30, 2012, 06:06:37 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=104641.msg1146879#msg1146879">Quote from: BitBlitz on August 30, 2012, 05:27:35 PM</a></div><div class="quote">I have a similar issue, and I don&#039;t think it is a transaction complexity problem.&nbsp; I have an address with a single transaction that I cannot send coins from.&nbsp; <br />In my case, I have a block reward from solo mining that caused my Bitcoin client to crash in May, when I first tried to spend it.&nbsp; Shortly afterward, the client would crash or close every time it tried to open the wallet.&nbsp; I used pywallet to extract the private keys for that address and other addresses with coins.&nbsp; I was successful in importing the private keys and spending coins from all other addresses.&nbsp; <br /><br />Here&#039;s what is strange.&nbsp; If I import the private key in a unencrypted wallet, the Bitcoin client crashes when it tries to open the wallet.&nbsp; If I import the private key in an encrypted wallet, the Bitcoin client shows the 50.xxx coins in the wallet.&nbsp; However, if I try to send them, I get &quot;Transaction creation failed&quot;.&nbsp; I have also tried several releases (from 0.3x to 0.7RC1) with no luck.<br /><br />I&#039;ve heard there is an issue with some addresses created on earlier clients and encrypted with newer client releases.&nbsp; I didn&#039;t hear back from Gavin (he&#039;s excused if he&#039;s been busy :))&nbsp; &nbsp;I think I&#039;ll ping him again to clarify if there is a known issue.<br /></div><br />Did I read somewhere that mtgox will let you import private keys?&nbsp; You could try that, see if that works... or you crash them.<br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Keep getting &quot;Transaction creation failed&quot;</b><br />
+					Post by: <b>BitBlitz</b> on <b>August 30, 2012, 06:15:19 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=104641.msg1146989#msg1146989">Quote from: Strider Hiryu on August 30, 2012, 06:06:37 PM</a></div><div class="quote">Did I read somewhere that mtgox will let you import private keys?&nbsp; You could try that, see if that works... or you crash them.<br /></div>Heh.&nbsp; I didn&#039;t crash MtGox, but I tried the privkey there, and blockchain.info.&nbsp; Both showed the coins, but could not send.<br /><br />Another weird data point.&nbsp; When testing on an unencrypted 4.1 wallet, Jackjack&#039;s pywallet pulls a different key that reimports to a different address (with no coins).&nbsp; Joric&#039;s pywallet extracts and imports the correct key without issue.&nbsp; Perhaps that is just a bug or incompatibility in the older pywallet code.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Keep getting &quot;Transaction creation failed&quot;</b><br />
+					Post by: <b>BitBlitz</b> on <b>August 31, 2012, 04:59:35 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Jetmine, how old is the wallet?&nbsp; Do you know the client version it was created with?&nbsp; Did you encrypt it with a later client?<br /><br />I think your best bet is to use pywallet to extract the keys for addresses with coins.&nbsp; I&#039;d import them into a new wallet one address at a time and send them, to make sure you don&#039;t have a bad key or address.&nbsp; If you try it, keep us posted...</div>
+					<br /><br />
+					<div align="center" class="smalltext">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank">Powered by SMF 1.1.19</a> | 
+<a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank">SMF &copy; 2006-2009, Simple Machines</a>
+		</span></div>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

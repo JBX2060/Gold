@@ -1,0 +1,638 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+		<link rel="canonical" href="https://bitcointalk.org/index.php?action=printpage&amp;topic=195793.0" />
+		<title>Print Page - [ANN][CNC][P2pool] - ChinaCoin (CHNCoin) P2Pool - 1% Fee - Stable and Fast!</title>
+		<style type="text/css">
+			body
+			{
+				color: black;
+				background-color: white;
+			}
+			body, td, .normaltext
+			{
+				font-family: Verdana, arial, helvetica, serif;
+				font-size: small;
+			}
+			*, a:link, a:visited, a:hover, a:active
+			{
+				color: black !important;
+			}
+			table
+			{
+				empty-cells: show;
+			}
+			.code
+			{
+				font-size: x-small;
+				font-family: monospace;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.quote
+			{
+				font-size: x-small;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.smalltext, .quoteheader, .codeheader
+			{
+				font-size: x-small;
+			}
+			.largetext
+			{
+				font-size: large;
+			}
+			hr
+			{
+				height: 1px;
+				border: 0;
+				color: black;
+				background-color: black;
+			}
+		</style>
+	</head>
+	<body>
+		<h1 class="largetext">Bitcoin Forum</h1>
+		<h2 class="normaltext">Alternate cryptocurrencies => Altcoin Discussion => Topic started by: gritter on May 05, 2013, 12:46:57 PM</h2>
+
+		<table width="90%" cellpadding="0" cellspacing="0" border="0">
+			<tr>
+				<td>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>[ANN][CNC][P2pool] - ChinaCoin (CHNCoin) P2Pool - 1% Fee - Stable and Fast!</b><br />
+					Post by: <b>gritter</b> on <b>May 05, 2013, 12:46:57 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><b>ChinaCoin (CHNCoin) P2Pool Server:</b><br /><br />http://cnc.crabdance.com:8107<br /><br /><ul style="margin-top: 0; margin-bottom: 0;"><li>located in US Central on a low latency 1Gbit link</li><li>based on latest v13.3 P2Pool</li><li>4 Cores, 16GB Server</li><li>Pays out transactions fees to miners!</li><li>1% Fee, PPLNS (P2Pool)</li><li>nicer interface based on P2PoolExtendedFrontEnd</li><li>this pool is using the latest CHNCoin client already, if you are not, get it from here https://bitcointalk.org/index.php?topic=322488.0</li></ul><br />No account creation required, simply use your CHNCoin Address as username (password is ignored) and you will receive payouts instantly as soon as the next blocks are found (if you have submitted a valid share before the block was found, note that P2Pool share difficulty is higher than normal pools, so it will take some time for low hashrate miners to submit a valid share, however the payout at that point is also higher to compensate). <br /><br />Mining User: Your CHNCoin Address<br />Mining Pass: Anything<br /><br /><b>cgminer example:</b><br /><div class="quoteheader">Quote</div><div class="quote">cgminer --scrypt -o cnc.crabdance.com:8107 -u yourCNCaddress -p x -s 1 --expiry 1 --gpu-threads 1 --queue 0</div><br /><b>Tip:</b><br />Ensure the above cgminer settings are applied to get the lowest reject rates: run cgminer then press <b>S</b> and check that Scantime is 1, Expiry is 1 and Queue is 0, if not press <b>S</b> again and change Scantime to 1, press <b>E</b> to change Expiry to 1 and press <b>Q</b> to change Queue to 0. If all settings are correct it should look like this:<br /><br /><div class="codeheader">Code:</div><div class="code">--------------------------------------------------------------------------------<br />&nbsp;[P]ool management [G]PU management [S]ettings [D]isplay options [Q]uit<br />&nbsp;GPU 0: &nbsp;74.0C 2091RPM | 210.7K/211.5Kh/s | A: 60 R: 14 HW:0 U: &nbsp;7.10/m I:16<br />--------------------------------------------------------------------------------<br /><br />[Q]ueue: 0<br />[S]cantime: 1<br />[E]xpiry: 1<br />[W]rite config file<br />[C]gminer restart<br />Select an option or any other key to return<br /></div><br /><b>cudaminer example:</b><br /><div class="quoteheader">Quote</div><div class="quote">cudaminer -o cnc.crabdance.com:8107 -u yourCNCaddress -p x</div><br /><b>cpuminer example:</b><br /><div class="quoteheader">Quote</div><div class="quote">minerd -o cnc.crabdance.com:8107 -u yourCNCaddress -p x</div><br /><b>Dont know how to setup your miner?</b> See this thread for AMD GPUs https://bitcointalk.org/index.php?topic=117221.0<br />When mining on CNC Pools you can follow the litecoin instructions and just change the pool adress to a CNC pool<br /><br />P2Pool uses the PPLNS system which means after you start mining it will take some time to see the first payouts, usually about 1-2 hours, you DO get payouts if you stick with it!</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [ANN][CNC][P2pool] - Fast ChnCoin P2Pool - http://cnc.crabdance.com:8400</b><br />
+					Post by: <b>Mushoz</b> on <b>May 05, 2013, 12:50:39 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">How did you manage to connect to Blastbob&#039;s pool? I&#039;m trying to run my own p2pool instance, but it won&#039;t connect to the p2pool network. I&#039;m using this P2Pool fork: https://github.com/chrda/p2pool-chncoin<br /><br />Would you mind sharing your source code? Thank you very much in advance!</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [ANN][CNC][P2pool] - Fast ChnCoin P2Pool - http://cnc.crabdance.com:8400</b><br />
+					Post by: <b>gritter</b> on <b>May 05, 2013, 01:02:33 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">I&#039;ve taken the network parameters from the codebase you quoted, it should work fine. It connects to blastbobs network by default (bootstrap address p2pool.chnco.in pool01.chnco.in, I think thats him), some other P2Pool for CNC have chosen their own network (maybe using different codebase). <br /><br />Check that port 12388 is allowed through the firewall, it should connect to other peers then.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [ANN][CNC][P2pool] - Fast ChnCoin P2Pool - http://cnc.crabdance.com:8400</b><br />
+					Post by: <b>gritter</b> on <b>May 05, 2013, 01:17:04 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">local node has around ~5MH/s now and running solid, thanks to anyone sending their hash here</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [ANN][CNC][P2pool] - Fast ChnCoin P2Pool - http://cnc.crabdance.com:8400</b><br />
+					Post by: <b>Mushoz</b> on <b>May 05, 2013, 01:19:42 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=195793.msg2035612#msg2035612">Quote from: gritter on May 05, 2013, 01:02:33 PM</a></div><div class="quote">I&#039;ve taken the network parameters from the codebase you quoted, it should work fine. It connects to blastbobs network by default (bootstrap address p2pool.chnco.in pool01.chnco.in, I think thats him), some other P2Pool for CNC have chosen their own network (maybe using different codebase). <br /><br />Check that port 12388 is allowed through the firewall, it should connect to other peers then.<br /></div><br />Getting this error:<br /><br />2013-05-05 15:14:29.149000 Joining p2pool network using port 12388...<br />2013-05-05 15:14:29.180000 &gt; Unhandled Error<br />2013-05-05 15:14:29.180000 &gt; Traceback (most recent call last):<br />2013-05-05 15:14:29.180000 &gt; Failure: twisted.internet.error.DNSLookupError: DNS<br />&nbsp;lookup failed: address &#039;p2pool.chnco.in&#039; not found: [Errno 11001] getaddrinfo f<br />ailed.<br />2013-05-05 15:14:29.212000 &gt; Unhandled Error<br />2013-05-05 15:14:29.212000 &gt; Traceback (most recent call last):<br />2013-05-05 15:14:29.212000 &gt; Failure: twisted.internet.error.DNSLookupError: DNS<br />&nbsp;lookup failed: address &#039;pool01.chnco.in&#039; not found: [Errno 11001] getaddrinfo f<br />ailed.<br /><br />This was with the firewall disabled as a test. I&#039;m assuming you are using 11.4 with just the networks.py files from the link I quoted earlier? Thank you very much for your help so far :)</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [ANN][CNC][P2pool] - Fast ChnCoin P2Pool - http://cnc.crabdance.com:8400</b><br />
+					Post by: <b>phorensic</b> on <b>May 05, 2013, 01:29:12 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Sending hashes your way.&nbsp; The pushpool&#039;s have become ridiculous and I&#039;ve never tried a p2pool before.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [ANN][CNC][P2pool] - Fast ChnCoin P2Pool - http://cnc.crabdance.com:8400</b><br />
+					Post by: <b>gritter</b> on <b>May 05, 2013, 01:32:35 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader">Quote</div><div class="quote">Sending hashes your way.&nbsp; The pushpool&#039;s have become ridiculous and I&#039;ve never tried a p2pool before.</div><br />Thats exactly why I choose to setup my own P2Pool, I was on pushpools as well but even though your local cgminer reports low stales it seems that the stale rate from pushpool&#039;s point of view is much higher resulting lower payout. So far on P2Pool Im seeing payout much closer to what it should be (variance is higher due to lower overall hashrate at the moment, but over time its definitely more than on the pushpool servers, for me at least)</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [ANN][CNC][P2pool] - Fast ChnCoin P2Pool - http://cnc.crabdance.com:8400</b><br />
+					Post by: <b>gritter</b> on <b>May 05, 2013, 01:35:54 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=195793.msg2035721#msg2035721">Quote from: Mushoz on May 05, 2013, 01:19:42 PM</a></div><div class="quote"><br />2013-05-05 15:14:29.212000 &gt; Unhandled Error<br />2013-05-05 15:14:29.212000 &gt; Traceback (most recent call last):<br />2013-05-05 15:14:29.212000 &gt; Failure: twisted.internet.error.DNSLookupError: DNS<br />&nbsp;lookup failed: address &#039;pool01.chnco.in&#039; not found: [Errno 11001] getaddrinfo f<br />ailed.<br /><br />This was with the firewall disabled as a test. I&#039;m assuming you are using 11.4 with just the networks.py files from the link I quoted earlier? Thank you very much for your help so far :)<br /></div><br />Yes im using 11.4 with the networks.py from the link, re the DNSLookupError, it can be resolved by some DNS Servers, but others not, e.g. my local ISP&#039;s DNS doesnt resolve it (no idea why!), try putting 8.8.8.8 and 8.8.4.4 (Google Public DNS, it can resolve that adress) in your&nbsp; /etc/resolv.conf</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [ANN][CNC][P2pool] - Fast ChnCoin P2Pool - http://cnc.crabdance.com:8400</b><br />
+					Post by: <b>jdebunt</b> on <b>May 05, 2013, 01:36:10 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">sending cpu power your way to see how this goes :)</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [ANN][CNC][P2pool] - Fast ChnCoin P2Pool - http://cnc.crabdance.com:8400</b><br />
+					Post by: <b>phorensic</b> on <b>May 05, 2013, 01:37:30 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=195793.msg2035834#msg2035834">Quote from: gritter on May 05, 2013, 01:32:35 PM</a></div><div class="quote"><div class="quoteheader">Quote</div><div class="quote">Sending hashes your way.&nbsp; The pushpool&#039;s have become ridiculous and I&#039;ve never tried a p2pool before.</div><br />Thats exactly why I choose to setup my own P2Pool, I was on pushpools as well but even though your local cgminer reports low stales it seems that the stale rate from pushpool&#039;s point of view is much higher resulting lower payout. So far on P2Pool Im seeing payout much closer to what it should be (variance is higher due to lower overall hashrate at the moment, but over time its definitely more than on the pushpool servers, for me at least)<br /></div>Yes my stale rate in cgminer was like a couple percent, but my payouts were getting to be 4 times less than they were 48 hours ago.&nbsp; Something not right with the way pushpool scaled as the network hashrate went up and the difficulty still hasn&#039;t adjusted from 8.xx yet.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [ANN][CNC][P2pool] - Fast ChnCoin P2Pool - http://cnc.crabdance.com:8400</b><br />
+					Post by: <b>sigesang</b> on <b>May 05, 2013, 01:39:32 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=195793.msg2035854#msg2035854">Quote from: gritter on May 05, 2013, 01:35:54 PM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=195793.msg2035721#msg2035721">Quote from: Mushoz on May 05, 2013, 01:19:42 PM</a></div><div class="quote"><br />2013-05-05 15:14:29.212000 &gt; Unhandled Error<br />2013-05-05 15:14:29.212000 &gt; Traceback (most recent call last):<br />2013-05-05 15:14:29.212000 &gt; Failure: twisted.internet.error.DNSLookupError: DNS<br />&nbsp;lookup failed: address &#039;pool01.chnco.in&#039; not found: [Errno 11001] getaddrinfo f<br />ailed.<br /><br />This was with the firewall disabled as a test. I&#039;m assuming you are using 11.4 with just the networks.py files from the link I quoted earlier? Thank you very much for your help so far :)<br /></div><br />Yes im using 11.4 with the networks.py from the link, re the DNSLookupError, it can be resolved by some DNS Servers, but others not, e.g. my local ISP&#039;s DNS doesnt resolve it (no idea why!), try putting 8.8.8.8 and 8.8.4.4 (Google Public DNS, it can resolve that adress) in your&nbsp; /etc/resolv.conf<br /></div><br />You need to update BOOTSTRAP_NODES in networks.py.. see:<br />https://bitcointalk.org/index.php?topic=192907.msg2035190#msg2035190</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [ANN][CNC][P2pool] - Fast ChnCoin P2Pool - http://cnc.crabdance.com:8400</b><br />
+					Post by: <b>RetardedMonkey</b> on <b>May 05, 2013, 01:46:25 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Getting a lot of shares, but my address isn&#039;t showing up in the &#039;payout&#039; window even though there&#039;s been about 8 found blocks so far...<br /><br />Usually with other p2pools I am straight in there after first block found.<br /><br />What&#039;s the go?</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [ANN][CNC][P2pool] - Fast ChnCoin P2Pool - http://cnc.crabdance.com:8400</b><br />
+					Post by: <b>gritter</b> on <b>May 05, 2013, 01:47:24 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=195793.msg2035892#msg2035892">Quote from: sigesang on May 05, 2013, 01:39:32 PM</a></div><div class="quote">You need to update BOOTSTRAP_NODES in networks.py.. see:<br />https://bitcointalk.org/index.php?topic=192907.msg2035190#msg2035190<br /></div><br />thanks for the tip, changing this node as well now (even though it seemed ok with the old adresses for me)</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [ANN][CNC][P2pool] - Fast ChnCoin P2Pool - http://cnc.crabdance.com:8400</b><br />
+					Post by: <b>gritter</b> on <b>May 05, 2013, 01:49:15 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">restarted node with updated blastbob network adresses, sorry for the inconvenience</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [ANN][CNC][P2pool] - Fast ChnCoin P2Pool - http://cnc.crabdance.com:8400</b><br />
+					Post by: <b>gritter</b> on <b>May 05, 2013, 01:51:20 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=195793.msg2035943#msg2035943">Quote from: RetardedMonkey on May 05, 2013, 01:46:25 PM</a></div><div class="quote">Getting a lot of shares, but my address isn&#039;t showing up in the &#039;payout&#039; window even though there&#039;s been about 8 found blocks so far...<br /><br />Usually with other p2pools I am straight in there after first block found.<br /><br />What&#039;s the go?<br /></div><br />i saw same issues on blastbob&#039;s pools, Im sorry I dont know the answer - im running on the official 11.4 P2Pool codebase - its possibly CNC related, allthough over time the payout looked ok to me!</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [ANN][CNC][P2pool] - Fast ChnCoin P2Pool - http://cnc.crabdance.com:8400</b><br />
+					Post by: <b>RetardedMonkey</b> on <b>May 05, 2013, 01:57:40 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Interesting, because I haven&#039;t received a payout from bobs either for a while which is what another rig is on</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [ANN][CNC][P2pool] - Fast ChnCoin P2Pool - http://cnc.crabdance.com:8400</b><br />
+					Post by: <b>TheSwede75</b> on <b>May 05, 2013, 02:00:57 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=195793.msg2036023#msg2036023">Quote from: RetardedMonkey on May 05, 2013, 01:57:40 PM</a></div><div class="quote">Interesting, because I haven&#039;t received a payout from bobs either for a while which is what another rig is on<br /></div><br />Bobs pool was throwing me stales overnight and very little payout but it seems to have been fixed now. Got about 1 MH/s running at it right now (pool01-cnc.coinloot.com:8499) with -s 5 --expiry 5 --queue 0 and am still getting about 12% stales/invalid but getting payouts every 20 min or so of around 2 CNC.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [ANN][CNC][P2pool] - Fast ChnCoin P2Pool - http://cnc.crabdance.com:8400</b><br />
+					Post by: <b>RetardedMonkey</b> on <b>May 05, 2013, 02:02:33 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Okay, just got a payment then... hmm...</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [ANN][CNC][P2pool] - Fast ChnCoin P2Pool - http://cnc.crabdance.com:8400</b><br />
+					Post by: <b>phorensic</b> on <b>May 05, 2013, 02:05:45 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Ahhhhh, this p2pool is feeding my GPU&#039;s much better than the flaky pushpool&#039;s were.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [ANN][CNC][P2pool] - Fast ChnCoin P2Pool - http://cnc.crabdance.com:8400</b><br />
+					Post by: <b>Mushoz</b> on <b>May 05, 2013, 02:06:23 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=195793.msg2035892#msg2035892">Quote from: sigesang on May 05, 2013, 01:39:32 PM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=195793.msg2035854#msg2035854">Quote from: gritter on May 05, 2013, 01:35:54 PM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=195793.msg2035721#msg2035721">Quote from: Mushoz on May 05, 2013, 01:19:42 PM</a></div><div class="quote"><br />2013-05-05 15:14:29.212000 &gt; Unhandled Error<br />2013-05-05 15:14:29.212000 &gt; Traceback (most recent call last):<br />2013-05-05 15:14:29.212000 &gt; Failure: twisted.internet.error.DNSLookupError: DNS<br />&nbsp;lookup failed: address &#039;pool01.chnco.in&#039; not found: [Errno 11001] getaddrinfo f<br />ailed.<br /><br />This was with the firewall disabled as a test. I&#039;m assuming you are using 11.4 with just the networks.py files from the link I quoted earlier? Thank you very much for your help so far :)<br /></div><br />Yes im using 11.4 with the networks.py from the link, re the DNSLookupError, it can be resolved by some DNS Servers, but others not, e.g. my local ISP&#039;s DNS doesnt resolve it (no idea why!), try putting 8.8.8.8 and 8.8.4.4 (Google Public DNS, it can resolve that adress) in your&nbsp; /etc/resolv.conf<br /></div><br />You need to update BOOTSTRAP_NODES in networks.py.. see:<br />https://bitcointalk.org/index.php?topic=192907.msg2035190#msg2035190<br /></div><br />Thank you! Finally managed to connect :)</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [ANN][CNC][P2pool] - Fast ChnCoin P2Pool - http://cnc.crabdance.com:8400</b><br />
+					Post by: <b>phorensic</b> on <b>May 05, 2013, 02:22:14 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">p2pool FTW!&nbsp; Just made more in a hour than the last 12 hours on pushpool&#039;s.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [ANN][CNC][P2pool] - Fast ChnCoin P2Pool - http://cnc.crabdance.com:8400</b><br />
+					Post by: <b>jdebunt</b> on <b>May 05, 2013, 02:29:15 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">been mining for over an hour, 1000+ shares submitted, not on the payout list either...bah :)</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [ANN][CNC][P2pool] - Fast ChnCoin P2Pool - http://cnc.crabdance.com:8400</b><br />
+					Post by: <b>gritter</b> on <b>May 05, 2013, 02:31:01 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">let me know if you are getting expected payouts please<br /><br />personally have my own 1MH/s pointed at the pool and made about 6.9 CNC in last hour (should be like 9CNC per hour at 1MH/s according to calculator and current difficulty, so its in the area, but not quite), since its P2Pool it might come in later though in a bigger burst (at least from what I have seen in the past)</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [ANN][CNC][P2pool] - Fast ChnCoin P2Pool - http://cnc.crabdance.com:8400</b><br />
+					Post by: <b>gritter</b> on <b>May 05, 2013, 02:32:54 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=195793.msg2036288#msg2036288">Quote from: jdebunt on May 05, 2013, 02:29:15 PM</a></div><div class="quote">been mining for over an hour, 1000+ shares submitted, not on the payout list either...bah :)<br /></div><br />i know the feeling, however Ive been mining directly on bob&#039;s pools before where the same happened (not showing in list sometimes and no constant payouts) however after some time there was then suddenly a whole burst of transactions incoming at once, I asked in bobs thread if anyone knows why that is, but no answer so far, over time it seems the payout is correct though</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [ANN][CNC][P2pool] - Fast ChnCoin P2Pool - http://cnc.crabdance.com:8400</b><br />
+					Post by: <b>jdebunt</b> on <b>May 05, 2013, 02:37:28 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Oh i will keep mining, see how it pans out in a few hours</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [ANN][CNC][P2pool] - Fast ChnCoin P2Pool - http://cnc.crabdance.com:8400</b><br />
+					Post by: <b>TheSwede75</b> on <b>May 05, 2013, 03:22:43 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=195793.msg2036329#msg2036329">Quote from: gritter on May 05, 2013, 02:32:54 PM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=195793.msg2036288#msg2036288">Quote from: jdebunt on May 05, 2013, 02:29:15 PM</a></div><div class="quote">been mining for over an hour, 1000+ shares submitted, not on the payout list either...bah :)<br /></div><br />i know the feeling, however Ive been mining directly on bob&#039;s pools before where the same happened (not showing in list sometimes and no constant payouts) however after some time there was then suddenly a whole burst of transactions incoming at once, I asked in bobs thread if anyone knows why that is, but no answer so far, over time it seems the payout is correct though<br /></div><br />Yeah I have noticed the vast inconsistency myself, but as you say over 24 hours or so it seems to line up with expectations somewhat so I&#039;m keeping myself pointed. Got 1 rig at your pool and one straight to Bobs. Seem to be getting LOTS of stale from bobs though, and I see the stale rate on yours is pretty high as well. </div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [ANN][CNC][P2pool] - Fast ChnCoin P2Pool - http://cnc.crabdance.com:8400</b><br />
+					Post by: <b>gritter</b> on <b>May 05, 2013, 03:38:07 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">gyverlb gave an answer in blastbobs thread, at the moment however Im still waiting for more payouts to happen, keeping an eye on it though<br /><br /><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=192907.msg2036465#msg2036465">Quote from: gyverlb on May 05, 2013, 02:49:52 PM</a></div><div class="quote">P2Pool is using the shares submitted for the last 24h or the last 3 blocks found whichever is the least.<br /><br />Currently the difficulty is so low that blocks are found on average in ~1 minute. If you don&#039;t manage to submit a p2pool share (which have high difficulty) at least one time during the 3 block window (on average ~3 minutes) you don&#039;t get any payout.<br /><br />So everything is fine: it adds variance for each payout but they happen often enough to smooth it out in a few hours for most people.<br /></div></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [ANN][CNC][P2pool] - Fast ChnCoin P2Pool - http://cnc.crabdance.com:8400</b><br />
+					Post by: <b>jdebunt</b> on <b>May 05, 2013, 03:50:33 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">well an hour later &amp; still nothing so...ive tried changing the difficulty aswell or even use it without difficulty setting, doesn&#039;t seem to make any difference :)</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [ANN][CNC][P2pool] - Fast ChnCoin P2Pool - http://cnc.crabdance.com:8400</b><br />
+					Post by: <b>Tigggger</b> on <b>May 05, 2013, 04:18:34 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">I mined for about an hour with 4.2Mh before I got my first 2 payments of about 2.4CHN each, then nothing for the following 30 minutes (and nothing since) and so I went back to a pushpool server.<br /><br />In my experience every P2Pool I tried was the same, there is something inherently wrong with P2Pool that I presume is related to the PPLNS system they have implemented.<br /><br />I initially thought that if I contributed 10% of the shares since the last block was found, I would receive 10% of the block (less fees), but it&#039;s not the case.<br /><br />I read elsewhere that it might be looking at the last 3 blocks worth of shares when calculating the reward, given new blocks were coming every second and the reject rate was so high it&#039;s highly likely that you might have contributed 10% of the shares but at the moment the block is found you haven&#039;t submitted one in the last 3 seconds and therefore get nothing.<br /><br />Please note I&#039;m not having a go at the pool ops, they did a fantastic service to us all especially during the initial period after launch, but for me they need to go back to the simpler block found, count shares, send payment and dump the PPLNS part</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [ANN][CNC][P2pool] - Fast ChnCoin P2Pool - http://cnc.crabdance.com:8400</b><br />
+					Post by: <b>gritter</b> on <b>May 05, 2013, 04:56:18 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">difficulty changed to 20 some time ago though, so in theory according calculator you should expect about 3.5CNC per hour at 1MHs/1000KHs</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [ANN][CNC][P2pool] - Fast ChnCoin P2Pool - http://cnc.crabdance.com:8400</b><br />
+					Post by: <b>gritter</b> on <b>May 05, 2013, 05:01:47 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=195793.msg2037317#msg2037317">Quote from: Tigggger on May 05, 2013, 04:18:34 PM</a></div><div class="quote">I read elsewhere that it might be looking at the last 3 blocks worth of shares when calculating the reward, given new blocks were coming every second and the reject rate was so high it&#039;s highly likely that you might have contributed 10% of the shares but at the moment the block is found you haven&#039;t submitted one in the last 3 seconds and therefore get nothing.<br /></div><br />I believe this is correct, however this should level out over time as sometimes you get lucky and have a share in the payout (and thus get more than you contributed to that block) and sometimes not (and thus get nothing), so only time will tell really :(</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [ANN][CNC][P2pool] - Fast ChnCoin P2Pool - http://cnc.crabdance.com:8400</b><br />
+					Post by: <b>Tigggger</b> on <b>May 05, 2013, 05:13:36 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=195793.msg2037781#msg2037781">Quote from: gritter on May 05, 2013, 05:01:47 PM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=195793.msg2037317#msg2037317">Quote from: Tigggger on May 05, 2013, 04:18:34 PM</a></div><div class="quote">I read elsewhere that it might be looking at the last 3 blocks worth of shares when calculating the reward, given new blocks were coming every second and the reject rate was so high it&#039;s highly likely that you might have contributed 10% of the shares but at the moment the block is found you haven&#039;t submitted one in the last 3 seconds and therefore get nothing.<br /></div><br />I believe this is correct, however this should level out over time as sometimes you get lucky and have a share in the payout (and thus get more than you contributed to that block) and sometimes not (and thus get nothing), so only time will tell really :(<br /></div><br />I&#039;m just trying to understand why they are set up this way rather than since the last found block, I can accept the variance of finding blocks but this then adds another layer of variance on top.<br /><br />There have been many posts about not getting payments, or getting less than expected and people then leave. Surely it&#039;s in a pool ops interest to have more people on the pool. That lowers the variance and increases the fees so everyone gains, and I&#039;d stick with one over a pushpool pplns.<br /><br />CHN was my first venture into P2Pool&#039;s so I may be talking rubbish :)</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [ANN][CNC][P2pool] - Fast ChnCoin P2Pool - http://cnc.crabdance.com:8400</b><br />
+					Post by: <b>iGotSpots</b> on <b>May 05, 2013, 05:21:07 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Hopped in about 2 hours ago and already have 3 payments through and a couple more pending confirms. Just wanted to let people know that payments are currently working, in case they were wondering before joining in - Hop in, guys!</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [ANN][CNC][P2pool] - Fast ChnCoin P2Pool - http://cnc.crabdance.com:8400</b><br />
+					Post by: <b>iGotSpots</b> on <b>May 05, 2013, 05:23:15 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Getting about 1/3 rejected right now, though, and I&#039;m using the +numbers stuff after my address. Not gonna drop out over it or anything, but does anyone have an idea of how to get the rejects down? Probably nothing I can do on my end, but worth a shot asking</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [ANN][CNC][P2pool] - Fast ChnCoin P2Pool - http://cnc.crabdance.com:8400</b><br />
+					Post by: <b>gritter</b> on <b>May 05, 2013, 05:35:11 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=195793.msg2037886#msg2037886">Quote from: Tigggger on May 05, 2013, 05:13:36 PM</a></div><div class="quote">I&#039;m just trying to understand why they are set up this way rather than since the last found block, I can accept the variance of finding blocks but this then adds another layer of variance on top.<br /><br />There have been many posts about not getting payments, or getting less than expected and people then leave. Surely it&#039;s in a pool ops interest to have more people on the pool. That lowers the variance and increases the fees so everyone gains, and I&#039;d stick with one over a pushpool pplns.<br /></div><br />very true, actually its possible to change payout to last 20 blocks for example, i just took the settings from blastbob&#039;s network, so if I change this now Im not sure I can stay connected to his network, currently the node has about 40MH/s though, so it would be feasible to give it a shot and disconnect from the network and push the payout to spread over 20 blocks</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [ANN][CNC][P2pool] - Fast ChnCoin P2Pool - http://cnc.crabdance.com:8400</b><br />
+					Post by: <b>willhash4food</b> on <b>May 05, 2013, 05:51:02 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">The share difficulty here is so insanely high that my miner can&#039;t put in work between blocks. Can you lower it?</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [ANN][CNC][P2pool] - Fast ChnCoin P2Pool - http://cnc.crabdance.com:8400</b><br />
+					Post by: <b>jdebunt</b> on <b>May 05, 2013, 06:01:41 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">gonna try &amp; cpu mine here again for an hour, see what results we get..</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [ANN][CNC][P2pool] - Fast ChnCoin P2Pool - http://cnc.crabdance.com:8400</b><br />
+					Post by: <b>gritter</b> on <b>May 05, 2013, 06:03:28 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=195793.msg2038241#msg2038241">Quote from: willhash4food on May 05, 2013, 05:51:02 PM</a></div><div class="quote">The share difficulty here is so insanely high that my miner can&#039;t put in work between blocks. Can you lower it?<br /></div><br />you can try the following, the p2pool server sets the difficulty dynamically otherwise:<br /><br />Tips to reduce DOA rate:(taken from Narken&#039;s thread)<br />You can set your share difficulty by adding +0.0000xxxx to your CHNcoin adress:<br /><br />yourCNCaddress+0.0004872<br /><br />Recommend share difficulty:<br /><br />Hash Rate (KHash/s)&nbsp; &nbsp;Difficulty<br />1&nbsp; &nbsp;+0.00000116<br />5&nbsp; &nbsp;+0.00000582<br />10&nbsp; &nbsp;+0.00001164<br />50&nbsp; &nbsp;+0.00005821<br />100&nbsp; &nbsp;+0.00011641<br />250&nbsp; &nbsp;+0.00029103<br />500&nbsp; &nbsp;+0.00058207<br />750&nbsp; &nbsp;+0.00087310<br />1000&nbsp; &nbsp;+0.00116414</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [ANN][CNC][P2pool] - Fast ChnCoin P2Pool - http://cnc.crabdance.com:8400</b><br />
+					Post by: <b>Tigggger</b> on <b>May 05, 2013, 06:05:46 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=195793.msg2038101#msg2038101">Quote from: gritter on May 05, 2013, 05:35:11 PM</a></div><div class="quote">very true, actually its possible to change payout to last 20 blocks for example, i just took the settings from blastbob&#039;s network, so if I change this now Im not sure I can stay connected to his network, currently the node has about 40MH/s though, so it would be feasible to give it a shot and disconnect from the network and push the payout to spread over 20 blocks<br /></div><br />Don&#039;t risk messing your setup, if this is something you decide to do, see if bob is agreeable to doing the same, then you should have less problems.<br /><br />For me personally I don&#039;t think it would matter too much, I&#039;m after a completely different setup, one that counts shares since the last block was found and then pays out instantly, so with 10% of the shares I&#039;d get 10% of the payout, if that takes a second or an hour then that&#039;s standard variance that I can live with.<br /><br />PPLNS serves no purpose on P2Pool IMHO (**newbie so if it does I&#039;d love to understand why), the pool has no risks of going broke with bad luck, it only pays out what it recieves minus a fee for profit.<br /><br />Thanks for taking the time to respond, like I said earlier not having a dig at you or any other pool ops, keep up the good work :)</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [ANN][CNC][P2pool] - Fast ChnCoin P2Pool - http://cnc.crabdance.com:8400</b><br />
+					Post by: <b>wacko</b> on <b>May 05, 2013, 06:12:30 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=195793.msg2038340#msg2038340">Quote from: gritter on May 05, 2013, 06:03:28 PM</a></div><div class="quote">you can try the following, the p2pool server sets the difficulty dynamically otherwise:<br /><br />Tips to reduce DOA rate:(taken from Narken&#039;s thread)<br />You can set your share difficulty by adding +0.0000xxxx to your CHNcoin adress:<br /><br />yourCNCaddress+0.0004872<br /><br />Recommend share difficulty:<br /><br />Hash Rate (KHash/s)&nbsp; &nbsp;Difficulty<br />1&nbsp; &nbsp;+0.00000116<br />5&nbsp; &nbsp;+0.00000582<br />10&nbsp; &nbsp;+0.00001164<br />50&nbsp; &nbsp;+0.00005821<br />100&nbsp; &nbsp;+0.00011641<br />250&nbsp; &nbsp;+0.00029103<br />500&nbsp; &nbsp;+0.00058207<br />750&nbsp; &nbsp;+0.00087310<br />1000&nbsp; &nbsp;+0.00116414<br /></div>Could anyone elaborate how does it work exactly, I set those +0.xxx in cgminer configs, but I&#039;ve got several rigs and each has several cards.. is it set per address (since it&#039;s address+0.xxx) and therefore all hashing power combined, or per rig (all cards&#039; in one rig hashrate combined) or per card in rig (if so, which card since there are different cards in one rig)? I played with those &quot;+0.xxx&quot; options but not only that didn&#039;t help with rejected rate (~30-35% in my case which is really A LOT :) ) I&#039;ve also had &quot;cgminer has stopped working&quot; on one of the faster rigs (4*7970s) after a few minutes of running with that &quot;+0.xxx&quot; option set.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [ANN][CNC][P2pool] - Fast ChnCoin P2Pool - http://cnc.crabdance.com:8400</b><br />
+					Post by: <b>bitterdog</b> on <b>May 05, 2013, 06:44:47 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">it this correct?<br /><br /><a href="http://i.imgur.com/YgbaAkm.png">http://i.imgur.com/YgbaAkm.png</a></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [ANN][CNC][P2pool] - Fast ChnCoin P2Pool - http://cnc.crabdance.com:8400</b><br />
+					Post by: <b>gritter</b> on <b>May 05, 2013, 06:53:04 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=195793.msg2038716#msg2038716">Quote from: bitterdog on May 05, 2013, 06:44:47 PM</a></div><div class="quote">seems like theres some issue?<br /></div><br />not sure that number is accurate, afaik thats the payout for the default address of the pool only, its not accurate and it fluctuates between 0 and peanuts :)<br /><br />im going to be off for the next couple hours, cross fingers!<br /><br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [ANN][CNC][P2pool] - Fast ChnCoin P2Pool - http://cnc.crabdance.com:8400</b><br />
+					Post by: <b>Narken</b> on <b>May 05, 2013, 07:36:30 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=195793.msg2038414#msg2038414">Quote from: wacko on May 05, 2013, 06:12:30 PM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=195793.msg2038340#msg2038340">Quote from: gritter on May 05, 2013, 06:03:28 PM</a></div><div class="quote">you can try the following, the p2pool server sets the difficulty dynamically otherwise:<br /><br />Tips to reduce DOA rate:(taken from Narken&#039;s thread)<br />You can set your share difficulty by adding +0.0000xxxx to your CHNcoin adress:<br /><br />yourCNCaddress+0.0004872<br /><br />Recommend share difficulty:<br /><br />Hash Rate (KHash/s)&nbsp; &nbsp;Difficulty<br />1&nbsp; &nbsp;+0.00000116<br />5&nbsp; &nbsp;+0.00000582<br />10&nbsp; &nbsp;+0.00001164<br />50&nbsp; &nbsp;+0.00005821<br />100&nbsp; &nbsp;+0.00011641<br />250&nbsp; &nbsp;+0.00029103<br />500&nbsp; &nbsp;+0.00058207<br />750&nbsp; &nbsp;+0.00087310<br />1000&nbsp; &nbsp;+0.00116414<br /></div>Could anyone elaborate how does it work exactly, I set those +0.xxx in cgminer configs, but I&#039;ve got several rigs and each has several cards.. is it set per address (since it&#039;s address+0.xxx) and therefore all hashing power combined, or per rig (all cards&#039; in one rig hashrate combined) or per card in rig (if so, which card since there are different cards in one rig)? I played with those &quot;+0.xxx&quot; options but not only that didn&#039;t help with rejected rate (~30-35% in my case which is really A LOT :) ) I&#039;ve also had &quot;cgminer has stopped working&quot; on one of the faster rigs (4*7970s) after a few minutes of running with that &quot;+0.xxx&quot; option set.<br /></div><br />You set it per miner per card&nbsp; based on the card&#039;s hashrate. But test it around for best options.<br /><br />See more tips in my thread if needed:<br /><br />https://bitcointalk.org/index.php?topic=193216.0</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [ANN][CNC][P2pool] - Fast ChnCoin P2Pool - http://cnc.crabdance.com:8400</b><br />
+					Post by: <b>phorensic</b> on <b>May 05, 2013, 08:56:20 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Down for a few hours for me.&nbsp; Off to another p2pool....grrrrrrrrrrr.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [ANN][CNC][P2pool] - Fast ChnCoin P2Pool - http://cnc.crabdance.com:8400</b><br />
+					Post by: <b>gritter</b> on <b>May 06, 2013, 02:52:19 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">up again! sorry was offline and there was a DNS issue :( fixed now<br /><br />efficiency currently at 120% after some further server tweaks</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [ANN][CNC][P2pool] - Fast ChnCoin P2Pool - http://cnc.crabdance.com:8400</b><br />
+					Post by: <b>sikman</b> on <b>May 06, 2013, 04:09:38 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">&nbsp;pointed 1 of my rigs that has 1200 kh/s all I got 99% of the time is requested restart and over 5min I got 8 shares....any other time would be 10X that amount<br /><br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [ANN][CNC][P2pool] - Fast ChnCoin P2Pool - http://cnc.crabdance.com:8400</b><br />
+					Post by: <b>2fast4u</b> on <b>May 06, 2013, 04:32:23 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Worst pool, eight hours 0.38 CNC&nbsp; Speed 2Khs </div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [ANN][CNC][P2pool] - Fast ChnCoin P2Pool - http://cnc.crabdance.com:8400</b><br />
+					Post by: <b>gritter</b> on <b>May 06, 2013, 04:38:58 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=195793.msg2043825#msg2043825">Quote from: sikman on May 06, 2013, 04:09:38 AM</a></div><div class="quote"> pointed 1 of my rigs that has 1200 kh/s all I got 99% of the time is requested restart and over 5min I got 8 shares....any other time would be 10X that amount<br /></div><br />in cgminer you will see lines like this constantly (like every couple seconds):<br /><br /><div class="quoteheader">Quote</div><div class="quote">[2013-05-06 12:29:34] Stratum from pool 0 requested work restart</div><br />This is normal operation of P2Pool, it doesnt affect your payout. The low number of shares is also expected as P2Pool only counts shares with high enough difficulty, this is also normal operation, Im seeing the same on my 1000KH/s rig.<br /><br />I have 1200kh/s pointed at the pool, according to http://cnc.strament.com/calculator.php that should net 101.7 CNC per 24 hours, or 4.23 per hour. <br /><br />I started mining again when the pool was up exactly 2.5 hours before now, since then I have received 8.5 CNC, at the theoretical rate I should see 10.575 CNC for 2.5 hours work, so its about 2 CNC short. Given that all CNC P2Pools I have seen, including this one, have about ~20% DOA Shares, that would account for the missing ~2 CNC.<br /><br />So Im assuming so far the payouts are working as expected given the ~20% DOA shares, please report your own payouts if you suspect any issues.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [ANN][CNC][P2pool] - Fast ChnCoin P2Pool - http://cnc.crabdance.com:8400</b><br />
+					Post by: <b>gritter</b> on <b>May 06, 2013, 04:39:42 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=195793.msg2043999#msg2043999">Quote from: 2fast4u on May 06, 2013, 04:32:23 AM</a></div><div class="quote">Worst pool, eight hours 0.38 CNC&nbsp; Speed 2Khs <br /></div><br />so sorry, the pool was down for a couple hours - if you had a failover server defined in cgminer it probably mined there, its only up since 2.5 hours again :(</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [ANN][CNC][P2pool] - Fast ChnCoin P2Pool - http://cnc.crabdance.com:8400</b><br />
+					Post by: <b>gritter</b> on <b>May 06, 2013, 04:42:35 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=195793.msg2043999#msg2043999">Quote from: 2fast4u on May 06, 2013, 04:32:23 AM</a></div><div class="quote">Worst pool, eight hours 0.38 CNC&nbsp; Speed 2Khs <br /></div><br />Btw I assume you mean 2000Kh/s? at 2Kh/s 0.38 CNC would be a good payout :)</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [ANN][CNC][P2pool] - Fast ChnCoin P2Pool - http://cnc.crabdance.com:8400</b><br />
+					Post by: <b>gritter</b> on <b>May 06, 2013, 05:25:55 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">just noticed that even though you use the cmdline options for cgminer from the first post it might not set the Scantime and Expiry correctly (e.g. if you had a slightly corrupted cgminer.conf file, which I just found out to be my case), which is quite important to get good results. <br /><br />You can check (or change) if the values are correct (Scantime: 5, Expiry 5) by pressing S while cgminer is running, then press S again to change the Scantime to 5, then E to change the Expiry to 5 if they are not, e.g. it should look like this:<br /><br /><div class="codeheader">Code:</div><div class="code">[P]ool management [G]PU management [S]ettings [D]isplay options [Q]uit<br />&nbsp;GPU 0: &nbsp;74.0C 2092RPM | 214.9K/216.3Kh/s | A:46 R:15 HW:0 U:6.42/m I:17<br />--------------------------------------------------------------------------------<br /><br />[Q]ueue: 1<br />[S]cantime: 5<br />[E]xpiry: 5<br />[W]rite config file<br />[C]gminer restart<br />Select an option or any other key to return</div><br />This should reduce rejected shares in most cases if you were running with Scantime 60 and Expiry 120 before, which are the defaults</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [ANN][CNC][P2pool] - Fast ChnCoin P2Pool - http://cnc.crabdance.com:8400</b><br />
+					Post by: <b>gritter</b> on <b>May 06, 2013, 06:49:51 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">did some more testing and for me Scantime=1 and Expiry=1 seems to slightly lower rejects compared to Scantime=5 and Expiry=5<br /><br />so I recommend to use Scantime 1 and Expiry 1 for the moment, anyone else observed this?<br /><br />updating first post cmdline&#039;s accordingly</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [ANN][CNC][P2pool] - Fast ChnCoin P2Pool - http://cnc.crabdance.com:8400</b><br />
+					Post by: <b>gritter</b> on <b>May 06, 2013, 07:09:48 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">anyone care to comment on payouts (whether good or bad!)? personally im seeing more or less expected payouts at 1200KH/s, the payout statistics on the graphs page seem wrong though, I get sometimes more and sometimes less than reported there, not sure why the stats are not correct, check your wallet to see if you are getting expected payouts (looking at 2 or 3 hour periods, since this is PPLNS there is variance)</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [ANN][CNC][P2pool] - Fast ChnCoin P2Pool - http://cnc.crabdance.com:8400</b><br />
+					Post by: <b>2fast4u</b> on <b>May 06, 2013, 07:31:40 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=195793.msg2044064#msg2044064">Quote from: gritter on May 06, 2013, 04:42:35 AM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=195793.msg2043999#msg2043999">Quote from: 2fast4u on May 06, 2013, 04:32:23 AM</a></div><div class="quote">Worst pool, eight hours 0.38 CNC&nbsp; Speed 2Khs <br /></div><br />Btw I assume you mean 2000Kh/s? at 2Kh/s 0.38 CNC would be a good payout :)<br /></div>It&#039;s my mistake, certainly 2000Khs.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [ANN][CNC][P2pool] - Fast ChnCoin P2Pool - http://cnc.crabdance.com:8400</b><br />
+					Post by: <b>gritter</b> on <b>May 06, 2013, 01:05:28 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">decided to disconnect from the p2pool network used by https://github.com/chrda/p2pool-chncoin and run the node standalone (one small node in asia is also joined atm) with some tweaked parameters (instead of last 3 blocks from the aforementioned code it should now consider any shares submitted over last 120 blocks, this is same as most feathercoin p2pool&#039;s), this should result in much better payouts for everyone, first block was already found!<br /><br />due to the changeover there was about 20 minutes of hickup for all miners, sorry about that but hopefully the payouts will be better now!</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [ANN][CNC][P2pool] - Fast ChnCoin P2Pool - http://cnc.crabdance.com:8400</b><br />
+					Post by: <b>gritter</b> on <b>May 06, 2013, 01:22:39 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">next block should come soon, start pointing hash here to join the bonanza :)<br /><br />pretty sure the payouts here should now be better than most CNC pushpools and other p2pools!</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [ANN][CNC][P2pool] - Fast ChnCoin P2Pool - http://cnc.crabdance.com:8400</b><br />
+					Post by: <b>gritter</b> on <b>May 06, 2013, 01:35:22 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">DOA Shares under 5%! </div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [ANN][CNC][P2pool] - Fast ChnCoin P2Pool - http://cnc.crabdance.com:8400</b><br />
+					Post by: <b>phorensic</b> on <b>May 06, 2013, 01:35:44 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=195793.msg2044808#msg2044808">Quote from: gritter on May 06, 2013, 06:49:51 AM</a></div><div class="quote">did some more testing and for me Scantime=1 and Expiry=1 seems to slightly lower rejects compared to Scantime=5 and Expiry=5<br /><br />so I recommend to use Scantime 1 and Expiry 1 for the moment, anyone else observed this?<br /><br />updating first post cmdline&#039;s accordingly<br /></div>Yes I set both to 1 as recommended by many other scrypt tuning threads and it works well.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [ANN][CNC][P2pool] - ChnCoin P2Pool &lt;5% DOA! - http://cnc.crabdance.com:8400</b><br />
+					Post by: <b>2fast4u</b> on <b>May 06, 2013, 02:02:03 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">1 worker Accept 163 Reject 48<br />2 worker&nbsp; &nbsp;Accept 460 Reject 120<br /><br />7 hours 2000 Khs only 10 CNC!!</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [ANN][CNC][P2pool] - ChnCoin P2Pool &lt;5% DOA! - http://cnc.crabdance.com:8400</b><br />
+					Post by: <b>gritter</b> on <b>May 06, 2013, 02:03:26 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">waiting for next block to be found to trigger payouts, go go go :)</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [ANN][CNC][P2pool] - ChnCoin P2Pool &lt;5% DOA! - http://cnc.crabdance.com:8400</b><br />
+					Post by: <b>gritter</b> on <b>May 06, 2013, 02:08:40 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=195793.msg2047618#msg2047618">Quote from: 2fast4u on May 06, 2013, 02:02:03 PM</a></div><div class="quote">1 worker Accept 163 Reject 48<br />2 worker&nbsp; &nbsp;Accept 460 Reject 120<br /><br />7 hours 2000 Khs only 10 CNC!!<br /></div><br />first of all, thanks for sending hash here<br /><br />rejects are normal, if somewhat high, are you running with the parameters mentioned in first post?<br /><br />re the payouts, an hour ago I disconnected this pool from blastbobs (and others that mine there) p2pool network and deployed a P2Pool version that uses the same parameters commonly used by the FeatherCoin P2Pools (which have less payout issues than were reported for the CNC P2Pools)<br /><br />I did this since I was just seeing to low payouts on the other P2Pools, I really believe by changing to FeatherCoin-style parameters the payouts should be more fair now<br /><br />so far 1 block was found since the new parameters are in place and payouts for the miners connected then were certainly higher, now just waiting for next pool to be found and get more hash into this pool to get higher payout frequencies<br /><br />basically I dont want to run a pool, but I felt other CNC pools were just paying out really badly, hence I started this one, if anyone has any tips re optimizing P2Pool or re making the payouts more fair Im all ears! </div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [ANN][CNC][P2pool] - ChnCoin P2Pool &lt;5% DOA! - http://cnc.crabdance.com:8400</b><br />
+					Post by: <b>gritter</b> on <b>May 06, 2013, 04:25:21 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">after 3 hours only 1 block was found, so something must be wrong or extremly unlucky, so I decided to hook back onto blastbobs P2Pool network, at least variance is lower there than 1 block every X hours standalone</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [ANN][CNC][P2pool] - ChnCoin P2Pool &lt;5% DOA! - http://cnc.crabdance.com:8400</b><br />
+					Post by: <b>Narken</b> on <b>May 06, 2013, 04:51:39 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=195793.msg2049143#msg2049143">Quote from: gritter on May 06, 2013, 04:25:21 PM</a></div><div class="quote">after 3 hours only 1 block was found, so something must be wrong or extremly unlucky, so I decided to hook back onto blastbobs P2Pool network, at least variance is lower there than 1 block every X hours standalone<br /></div><br />Dont connect to bob&#039;s nodes.<br /><br />He&#039;s not allowing outgoing node traffic.<br /><br />Seems like sometimes our shares are not shared with bob&#039;s shares<br /><br />I think your shares might missing sometimes then resultning in zero payouts</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [ANN][CNC][P2pool] - Low Latency ChnCoin P2Pool - http://cnc.crabdance.com:8400</b><br />
+					Post by: <b>gritter</b> on <b>May 06, 2013, 05:31:39 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=195793.msg2049536#msg2049536">Quote from: eskick on May 06, 2013, 05:05:58 PM</a></div><div class="quote">http://litepool.eu:8400/static/ this is the best p2pool node, been using it for 24 hours with no issues now made 1000 chinacoin!<br /></div><br />its connected to blastbobs pool as well, so basically the payouts are the same...except the DOA is higher and efficiency lower than my node here, so no thanks :)</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [ANN][CNC][P2pool] - ChnCoin P2Pool &lt;5% DOA! - http://cnc.crabdance.com:8400</b><br />
+					Post by: <b>gritter</b> on <b>May 06, 2013, 05:42:33 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=195793.msg2049395#msg2049395">Quote from: Narken on May 06, 2013, 04:51:39 PM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=195793.msg2049143#msg2049143">Quote from: gritter on May 06, 2013, 04:25:21 PM</a></div><div class="quote">after 3 hours only 1 block was found, so something must be wrong or extremly unlucky, so I decided to hook back onto blastbobs P2Pool network, at least variance is lower there than 1 block every X hours standalone<br /></div><br />Dont connect to bob&#039;s nodes.<br /><br />He&#039;s not allowing outgoing node traffic.<br /><br />Seems like sometimes our shares are not shared with bob&#039;s shares<br /><br />I think your shares might missing sometimes then resultning in zero payouts<br /></div><br />argh! thanks for the hint, i suspected something was not quite right, the payouts feel spotty sometimes, changing again now, sorry to the miners for the hickups, getting there!</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [ANN][CNC][P2pool] - Low Latency ChnCoin P2Pool - http://cnc.crabdance.com:8400</b><br />
+					Post by: <b>gritter</b> on <b>May 06, 2013, 05:53:40 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=195793.msg2049984#msg2049984">Quote from: eskick on May 06, 2013, 05:41:40 PM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=195793.msg2049853#msg2049853">Quote from: gritter on May 06, 2013, 05:31:39 PM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=195793.msg2049536#msg2049536">Quote from: eskick on May 06, 2013, 05:05:58 PM</a></div><div class="quote">http://litepool.eu:8400/static/ this is the best p2pool node, been using it for 24 hours with no issues now made 1000 chinacoin!<br /></div><br />its connected to blastbobs pool as well, so basically the payouts are the same...except the DOA is higher and efficiency lower than my node here, so no thanks :)<br /></div><br />How do you know its connected to blastbobs pool?<br /></div><br />because it is, and since you are spamming it and hence probably control it you should know too :)<br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [ANN][CNC][P2pool] - Low Latency ChnCoin P2Pool - http://cnc.crabdance.com:8400</b><br />
+					Post by: <b>gritter</b> on <b>May 07, 2013, 12:03:15 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">crashed while joining the new P2Pool network while I was away :(<br /><br />up and running fine again now!</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [ANN][CNC][P2pool] - Low Latency ChnCoin P2Pool - http://cnc.crabdance.com:8400</b><br />
+					Post by: <b>gritter</b> on <b>May 07, 2013, 12:37:42 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">someone PM&#039;d me about the outage before as well, all I can say is sorry, i switched to another p2pool network where payouts hopefully works as intended, this is live now, after the switch was made the node never synced up properly, since I was afk I didnt notice until a couple hours later.<br /><br />anyways, its working fine now, and paying out already!</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [ANN][CNC][P2pool] - Low Latency ChnCoin P2Pool - http://cnc.crabdance.com:8400</b><br />
+					Post by: <b>LeftToeCut</b> on <b>May 07, 2013, 12:53:21 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">gritter , which network did you switch to ? what are the hosts?</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [ANN][CNC][P2pool] - Low Latency ChnCoin P2Pool - http://cnc.crabdance.com:8400</b><br />
+					Post by: <b>gyverlb</b> on <b>May 07, 2013, 12:57:13 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=195793.msg2054882#msg2054882">Quote from: gritter on May 07, 2013, 12:37:42 AM</a></div><div class="quote">someone PM&#039;d me about the outage before as well, all I can say is sorry, i switched to another p2pool network where payouts hopefully works as intended, this is live now, after the switch was made the node never synced up properly, since I was afk I didnt notice until a couple hours later.<br /><br />anyways, its working fine now, and paying out already!<br /></div>care to share how to join this network ?</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [ANN][CNC][P2pool] - Low Latency ChnCoin P2Pool - http://cnc.crabdance.com:8400</b><br />
+					Post by: <b>erk</b> on <b>May 07, 2013, 01:04:58 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">I have seen the Pool Rate dropping over the last few hours, is that the same for everyone or am I loosing some BOOTSTRAP_ADDRS?<br /><br />Pool rate: 142MH/s (29% DOA+orphan) Share difficulty: 0.105</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [ANN][CNC][P2pool] - Low Latency ChnCoin P2Pool - http://cnc.crabdance.com:8400</b><br />
+					Post by: <b>gritter</b> on <b>May 07, 2013, 01:36:52 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=195793.msg2055042#msg2055042">Quote from: gyverlb on May 07, 2013, 12:57:13 AM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=195793.msg2054882#msg2054882">Quote from: gritter on May 07, 2013, 12:37:42 AM</a></div><div class="quote">someone PM&#039;d me about the outage before as well, all I can say is sorry, i switched to another p2pool network where payouts hopefully works as intended, this is live now, after the switch was made the node never synced up properly, since I was afk I didnt notice until a couple hours later.<br /><br />anyways, its working fine now, and paying out already!<br /></div>care to share how to join this network ?<br /></div><br />Im using the code from https://github.com/skralg/p2pool-feathercoin now, this will bootstrap to http://chn.p2pool.skralg.com:8109<br /><br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [ANN][CNC][P2pool] - Low Latency ChnCoin P2Pool - http://cnc.crabdance.com:8400</b><br />
+					Post by: <b>gyverlb</b> on <b>May 07, 2013, 01:40:04 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=195793.msg2055326#msg2055326">Quote from: gritter on May 07, 2013, 01:36:52 AM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=195793.msg2055042#msg2055042">Quote from: gyverlb on May 07, 2013, 12:57:13 AM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=195793.msg2054882#msg2054882">Quote from: gritter on May 07, 2013, 12:37:42 AM</a></div><div class="quote">someone PM&#039;d me about the outage before as well, all I can say is sorry, i switched to another p2pool network where payouts hopefully works as intended, this is live now, after the switch was made the node never synced up properly, since I was afk I didnt notice until a couple hours later.<br /><br />anyways, its working fine now, and paying out already!<br /></div>care to share how to join this network ?<br /></div><br />Im using the code from https://github.com/skralg/p2pool-feathercoin now, this will bootstrap to http://chn.p2pool.skralg.com:8109<br /></div><br />SHARE_PERIOD and SPREAD are still badly chosen for CHNCoin. That won&#039;t make many miners happy...</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [ANN][CNC][P2pool] - Low Latency ChnCoin P2Pool - http://cnc.crabdance.com:8400</b><br />
+					Post by: <b>gritter</b> on <b>May 07, 2013, 01:41:02 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=195793.msg2055091#msg2055091">Quote from: erk on May 07, 2013, 01:04:58 AM</a></div><div class="quote">I have seen the Pool Rate dropping over the last few hours, is that the same for everyone or am I loosing some BOOTSTRAP_ADDRS?<br /><br />Pool rate: 142MH/s (29% DOA+orphan) Share difficulty: 0.105<br /></div><br />I have not noticed that, e.g. the pool from the github code linked in the previous code is at the following values for me, taken from my node at http://cnc.crabdance.com:8400/static/<br /><br />Pool Rate 295MH/s (37% DOA+orphan)<br />Peers 6 out, 5 in<br /><br />From the &quot;root&quot; node at http://chn.p2pool.skralg.com:8109/static/<br /><br />Pool rate: 293MH/s (36% DOA+orphan)<br />Peers: 4 out, 11 in</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [ANN][CNC][P2pool] - Low Latency ChnCoin P2Pool - http://cnc.crabdance.com:8400</b><br />
+					Post by: <b>gritter</b> on <b>May 07, 2013, 01:44:55 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=195793.msg2055352#msg2055352">Quote from: gyverlb on May 07, 2013, 01:40:04 AM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=195793.msg2055326#msg2055326">Quote from: gritter on May 07, 2013, 01:36:52 AM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=195793.msg2055042#msg2055042">Quote from: gyverlb on May 07, 2013, 12:57:13 AM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=195793.msg2054882#msg2054882">Quote from: gritter on May 07, 2013, 12:37:42 AM</a></div><div class="quote">someone PM&#039;d me about the outage before as well, all I can say is sorry, i switched to another p2pool network where payouts hopefully works as intended, this is live now, after the switch was made the node never synced up properly, since I was afk I didnt notice until a couple hours later.<br /><br />anyways, its working fine now, and paying out already!<br /></div>care to share how to join this network ?<br /></div><br />Im using the code from https://github.com/skralg/p2pool-feathercoin now, this will bootstrap to http://chn.p2pool.skralg.com:8109<br /></div><br />SHARE_PERIOD and SPREAD are still badly chosen for CHNCoin. That won&#039;t make many miners happy...<br /></div><br />YES, #$%@#, I setup my standalone node with SHARE_PERIOD=30 and SPREAD=120 (what some FeatherCoin P2Pools were using), however even with 40MH/s only 1 block was found in 3 hours, that could be extremly unlucky, but rather I think something was wrong, however I used the same code that worked fine connected to bob&#039;s network before, so not sure if changing SHARE_PERIOD and SPREAD too aggressively will cause blocks not to be found :(<br /><br />Do you know if its possible to set them to 30/120? Here is what I had tested (first tested with 30/120, then after no block found for 2.5 hours got cold feet and tried 5/120 thinking that long share_period might somehow affect finding blocks, probably not the case, but I dont know!):<br /><br />p2pool/networks.py:<br /><div class="codeheader">Code:</div><div class="code"> &nbsp; &nbsp;<br />litecoin=math.Object(<br />&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;PARENT=networks.nets[&#039;litecoin&#039;],<br />&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;SHARE_PERIOD=5, # seconds<br />&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;CHAIN_LENGTH=12*60*60//10, # shares<br />&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;REAL_CHAIN_LENGTH=12*60*60//10, # shares<br />&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;TARGET_LOOKBEHIND=200, # shares<br />&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;SPREAD=120, # blocks<br />&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;IDENTIFIER=&#039;4665617468657221&#039;.decode(&#039;hex&#039;),<br />&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;PREFIX=&#039;b131010ba6d4729a&#039;.decode(&#039;hex&#039;),<br />&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;P2P_PORT=12388,<br />&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;MIN_TARGET=0,<br />&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;MAX_TARGET=2**256//2**20 - 1,<br />&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;PERSIST=False,<br />&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;WORKER_PORT=8800,<br />&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;BOOTSTRAP_ADDRS=&#039;42.2.216.54&#039;.split(&#039; &#039;),<br />&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;ANNOUNCE_CHANNEL=&#039;#p2pool-alt&#039;,<br />&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;VERSION_CHECK=lambda v: True,<br />),<br /></div><br />p2pool/bitcoin/networks.py:<br /><div class="codeheader">Code:</div><div class="code"> &nbsp; &nbsp;litecoin=math.Object(<br />&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;P2P_PREFIX=&#039;fbc0b6db&#039;.decode(&#039;hex&#039;),<br />&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;P2P_PORT=8106,<br />&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;ADDRESS_VERSION=28,<br />&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;RPC_PORT=8108,<br />&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;RPC_CHECK=defer.inlineCallbacks(lambda bitcoind: defer.returnValue(<br />&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&#039;chncoinaddress&#039; in (yield bitcoind.rpc_help()) and<br />&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;not (yield bitcoind.rpc_getinfo())[&#039;testnet&#039;]<br />&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;)),<br />&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;SUBSIDY_FUNC=lambda height: 88*100000000 &gt;&gt; (height + 1)//462528000,<br />&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;POW_FUNC=lambda data: pack.IntType(256).unpack(__import__(&#039;ltc_scrypt&#039;).getPoWHash(data)),<br />&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;BLOCK_PERIOD=60, # s<br />&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;SYMBOL=&#039;CNC&#039;,<br />&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;CONF_FILE_FUNC=lambda: os.path.join(os.path.join(os.environ[&#039;APPDATA&#039;], &#039;chncoin&#039;) if platform.system() == &#039;Windows&#039; else os.path.expanduser(&#039;~/Library/Application Support/chncoin/&#039;) if platform.system() == &#039;Darwin&#039; else os.path.expanduser(&#039;~/.chncoin&#039;), &#039;chncoin.conf&#039;),<br />&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;BLOCK_EXPLORER_URL_PREFIX=&#039;http://cnc.cryptocoinexplorer.com/block/&#039;,<br />&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;ADDRESS_EXPLORER_URL_PREFIX=&#039;http://cnc.cryptocoinexplorer.com/address/&#039;,<br />&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;SANE_TARGET_RANGE=(2**256//1000000000 - 1, 2**256//1000 - 1),<br />&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;DUMB_SCRYPT_DIFF=2**16,<br /><br /></div><br />some minor thing that doesnt look right is <br /><div class="codeheader">Code:</div><div class="code">SUBSIDY_FUNC=lambda height: 88*100000000 &gt;&gt; (height + 1)//462528000<br /></div><br />shouldnt it be? (two zeroes less?)<br /><br /><div class="codeheader">Code:</div><div class="code">SUBSIDY_FUNC=lambda height: 88*100000000 &gt;&gt; (height + 1)//4625280<br /></div></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [ANN][CNC][P2pool] - Low Latency ChnCoin P2Pool - http://cnc.crabdance.com:8400</b><br />
+					Post by: <b>gyverlb</b> on <b>May 07, 2013, 01:54:11 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=195793.msg2055390#msg2055390">Quote from: gritter on May 07, 2013, 01:44:55 AM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=195793.msg2055352#msg2055352">Quote from: gyverlb on May 07, 2013, 01:40:04 AM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=195793.msg2055326#msg2055326">Quote from: gritter on May 07, 2013, 01:36:52 AM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=195793.msg2055042#msg2055042">Quote from: gyverlb on May 07, 2013, 12:57:13 AM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=195793.msg2054882#msg2054882">Quote from: gritter on May 07, 2013, 12:37:42 AM</a></div><div class="quote">someone PM&#039;d me about the outage before as well, all I can say is sorry, i switched to another p2pool network where payouts hopefully works as intended, this is live now, after the switch was made the node never synced up properly, since I was afk I didnt notice until a couple hours later.<br /><br />anyways, its working fine now, and paying out already!<br /></div>care to share how to join this network ?<br /></div><br />Im using the code from https://github.com/skralg/p2pool-feathercoin now, this will bootstrap to http://chn.p2pool.skralg.com:8109<br /></div><br />SHARE_PERIOD and SPREAD are still badly chosen for CHNCoin. That won&#039;t make many miners happy...<br /></div><br />YES, #$%@#, I setup my standalone node with SHARE_PERIOD=30 and SPREAD=120 (what some FeatherCoin P2Pools were using), however even with 40MH/s only 1 block was found in 3 hours, that could be extremly unlucky.<br /></div><br />Hum should have been ~35 minutes. But it&#039;s quite possible to have bad luck like this.<br /><br />If you are truly standalone :<br />- make sure nothing can connect to your node,<br />- it doesn&#039;t have any data to find peers from,<br />- it doesn&#039;t have any bootstrap seeds.<br /><br />You can play with share_period and spread any way you want (you could mine solo connecting directly to your chncoind too, but p2pool&#039;s web interface, especially with the enhancements you can find on github, is far nicer).<br /><br />But if you missed any of the points above hell will break lose : your node will not understand why its shares aren&#039;t accepted by the rest of the network and vice-versa. If it becomes overloaded trying to make heads from tails on a fast coin like CHNCoin you might easily generate orphans.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [ANN][CNC][P2pool] - Low Latency ChnCoin P2Pool - http://cnc.crabdance.com:8400</b><br />
+					Post by: <b>gyverlb</b> on <b>May 07, 2013, 01:58:35 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=195793.msg2055390#msg2055390">Quote from: gritter on May 07, 2013, 01:44:55 AM</a></div><div class="quote">some minor thing that doesnt look right is <br /><div class="codeheader">Code:</div><div class="code">SUBSIDY_FUNC=lambda height: 88*100000000 &gt;&gt; (height + 1)//462528000<br /></div><br />shouldnt it be? (two zeroes less?)<br /><br /><div class="codeheader">Code:</div><div class="code">SUBSIDY_FUNC=lambda height: 88*100000000 &gt;&gt; (height + 1)//4625280<br /></div></div><br />Hum, didn&#039;t check CHNCoin actual subsidy rule, but I suppose you are right. Shouldn&#039;t be a problem right now: this would generate invalid block only after the first block reward halving.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [ANN][CNC][P2pool] - Low Latency ChnCoin P2Pool - http://cnc.crabdance.com:8400</b><br />
+					Post by: <b>gritter</b> on <b>May 07, 2013, 01:59:37 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=195793.msg2055462#msg2055462">Quote from: gyverlb on May 07, 2013, 01:54:11 AM</a></div><div class="quote">Hum should have been ~35 minutes. But it&#039;s quite possible to have bad luck like this.<br /><br />If you are truly standalone :<br />- make sure nothing can connect to your node,<br />- it doesn&#039;t have any data to find peers from,<br />- it doesn&#039;t have any bootstrap seeds.<br /><br />You can play with share_period and spread any way you want (you could mine solo connecting directly to your chncoind too, but p2pool&#039;s web interface, especially with the enhancements you can find on github, is far nicer).<br /><br /></div><br />Thanks for your insight!<br /><br />All the above was correct, e.g. node was really standalone with no old peers (firewall blocked and clean codebase and me observing peers: 0), no bootstrap since i had removed that (ip in code up there was just a 2nd testnode running same params i had setup).<br /><br />So maybe it was really bad bad bad luck, but still having such bad luck was probably not going to be acceptable for miners :)<br /><br />I might still try again then with those optimized parameters on a separate node from this one. </div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [ANN][CNC][P2pool] - Low Latency ChnCoin P2Pool - http://cnc.crabdance.com:8400</b><br />
+					Post by: <b>erk</b> on <b>May 07, 2013, 02:03:27 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=195793.msg2055359#msg2055359">Quote from: gritter on May 07, 2013, 01:41:02 AM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=195793.msg2055091#msg2055091">Quote from: erk on May 07, 2013, 01:04:58 AM</a></div><div class="quote">I have seen the Pool Rate dropping over the last few hours, is that the same for everyone or am I loosing some BOOTSTRAP_ADDRS?<br /><br />Pool rate: 142MH/s (29% DOA+orphan) Share difficulty: 0.105<br /></div><br />I have not noticed that, e.g. the pool from the github code linked in the previous code is at the following values for me, taken from my node at http://cnc.crabdance.com:8400/static/<br /><br />Pool Rate 295MH/s (37% DOA+orphan)<br />Peers 6 out, 5 in<br /><br />From the &quot;root&quot; node at http://chn.p2pool.skralg.com:8109/static/<br /><br />Pool rate: 293MH/s (36% DOA+orphan)<br />Peers: 4 out, 11 in<br /></div><br />Hmm only getting half those figures. It was up over 400MH/s Pool rate 6 hours ago.<br />I am still running Version: 11.3-16-g104a596-dirty could that be a problems?<br /><br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [ANN][CNC][P2pool] - Low Latency ChnCoin P2Pool - http://cnc.crabdance.com:8400</b><br />
+					Post by: <b>gritter</b> on <b>May 07, 2013, 02:18:20 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=195793.msg2055512#msg2055512">Quote from: erk on May 07, 2013, 02:03:27 AM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=195793.msg2055359#msg2055359">Quote from: gritter on May 07, 2013, 01:41:02 AM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=195793.msg2055091#msg2055091">Quote from: erk on May 07, 2013, 01:04:58 AM</a></div><div class="quote">I have seen the Pool Rate dropping over the last few hours, is that the same for everyone or am I loosing some BOOTSTRAP_ADDRS?<br /><br />Pool rate: 142MH/s (29% DOA+orphan) Share difficulty: 0.105<br /></div><br />I have not noticed that, e.g. the pool from the github code linked in the previous code is at the following values for me, taken from my node at http://cnc.crabdance.com:8400/static/<br /><br />Pool Rate 295MH/s (37% DOA+orphan)<br />Peers 6 out, 5 in<br /><br />From the &quot;root&quot; node at http://chn.p2pool.skralg.com:8109/static/<br /><br />Pool rate: 293MH/s (36% DOA+orphan)<br />Peers: 4 out, 11 in<br /></div><br />Hmm only getting half those figures. It was up over 400MH/s Pool rate 6 hours ago.<br />I am still running Version: 11.3-16-g104a596-dirty could that be a problems?<br /><br /><br /></div><br />are you using https://github.com/skralg/p2pool-feathercoin ?</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [ANN][CNC][P2pool] - Low Latency ChnCoin P2Pool - http://cnc.crabdance.com:8400</b><br />
+					Post by: <b>erk</b> on <b>May 07, 2013, 02:30:49 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=195793.msg2055633#msg2055633">Quote from: gritter on May 07, 2013, 02:18:20 AM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=195793.msg2055512#msg2055512">Quote from: erk on May 07, 2013, 02:03:27 AM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=195793.msg2055359#msg2055359">Quote from: gritter on May 07, 2013, 01:41:02 AM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=195793.msg2055091#msg2055091">Quote from: erk on May 07, 2013, 01:04:58 AM</a></div><div class="quote">I have seen the Pool Rate dropping over the last few hours, is that the same for everyone or am I loosing some BOOTSTRAP_ADDRS?<br /><br />Pool rate: 142MH/s (29% DOA+orphan) Share difficulty: 0.105<br /></div><br />I have not noticed that, e.g. the pool from the github code linked in the previous code is at the following values for me, taken from my node at http://cnc.crabdance.com:8400/static/<br /><br />Pool Rate 295MH/s (37% DOA+orphan)<br />Peers 6 out, 5 in<br /><br />From the &quot;root&quot; node at http://chn.p2pool.skralg.com:8109/static/<br /><br />Pool rate: 293MH/s (36% DOA+orphan)<br />Peers: 4 out, 11 in<br /></div><br />Hmm only getting half those figures. It was up over 400MH/s Pool rate 6 hours ago.<br />I am still running Version: 11.3-16-g104a596-dirty could that be a problems?<br /><br /><br /></div><br />are you using https://github.com/skralg/p2pool-feathercoin ?<br /></div><br />No, I think I am using the version from git clone https://github.com/chrda/p2pool-chncoin.git is that a problem?<br /><br /><br /><br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [ANN][CNC][P2pool] - Low Latency ChnCoin P2Pool - http://cnc.crabdance.com:8400</b><br />
+					Post by: <b>gritter</b> on <b>May 07, 2013, 02:51:30 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=195793.msg2055729#msg2055729">Quote from: erk on May 07, 2013, 02:30:49 AM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=195793.msg2055633#msg2055633">Quote from: gritter on May 07, 2013, 02:18:20 AM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=195793.msg2055512#msg2055512">Quote from: erk on May 07, 2013, 02:03:27 AM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=195793.msg2055359#msg2055359">Quote from: gritter on May 07, 2013, 01:41:02 AM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=195793.msg2055091#msg2055091">Quote from: erk on May 07, 2013, 01:04:58 AM</a></div><div class="quote">I have seen the Pool Rate dropping over the last few hours, is that the same for everyone or am I loosing some BOOTSTRAP_ADDRS?<br /><br />Pool rate: 142MH/s (29% DOA+orphan) Share difficulty: 0.105<br /></div><br />I have not noticed that, e.g. the pool from the github code linked in the previous code is at the following values for me, taken from my node at http://cnc.crabdance.com:8400/static/<br /><br />Pool Rate 295MH/s (37% DOA+orphan)<br />Peers 6 out, 5 in<br /><br />From the &quot;root&quot; node at http://chn.p2pool.skralg.com:8109/static/<br /><br />Pool rate: 293MH/s (36% DOA+orphan)<br />Peers: 4 out, 11 in<br /></div><br />Hmm only getting half those figures. It was up over 400MH/s Pool rate 6 hours ago.<br />I am still running Version: 11.3-16-g104a596-dirty could that be a problems?<br /><br /><br /></div><br />are you using https://github.com/skralg/p2pool-feathercoin ?<br /></div><br />No, I think I am using the version from git clone https://github.com/chrda/p2pool-chncoin.git is that a problem?<br /><br /><br /><br /><br /></div><br />then you are connected to blastbobs p2pool network, that github was also updated a couple hours ago with new network identifiers/ports, so you would have to update, however i was on that network before and sometimes payouts for my nodes miners were missing somehow, i think someone explained a couple posts before in this thread why this might be.<br /><br />im just setting up another network to test now actually, bit fed up with the stuff out there so far :)</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [ANN][CNC][P2pool] - Low Latency ChnCoin P2Pool - http://cnc.crabdance.com:8400</b><br />
+					Post by: <b>gritter</b> on <b>May 07, 2013, 03:02:32 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">I setup a test node with better P2Pool parameters, if anyone wants to point miners at it here it goes (and yes if blocks are found this will pay better than if you join an existing p2pool since you will be first in line and the parameters are more sensible too):<br /><br />http://paysmorecnc.crabdance.com:8888/<br /><br />If anyone wants to join their node to the network they can get the original P2Pool code (11.4) from https://github.com/forrestv/p2pool<br />You would start P2Pool just as if you would want to mine litecoin (after making the below code changes!), so e.g. I use:<br /><div class="codeheader">Code:</div><div class="code">./run_p2pool.py --net litecoin -a yourChnCoinAddress --w 8888 --bitcoind-p2p-port 8106 --bitcoind-rpc-port 8108 yourChncoindUser yourChncoindPass<br /></div><br />then exchange the litecoin= definitions in p2pool/networks.py and p2pool/bitcoin/networks.py as follows:<br /><br />p2pool/networks.py:<br /><div class="codeheader">Code:</div><div class="code"> &nbsp; &nbsp;litecoin=math.Object(<br />&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;PARENT=networks.nets[&#039;litecoin&#039;],<br />&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;SHARE_PERIOD=30, # seconds<br />&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;CHAIN_LENGTH=12*60*60//10, # shares<br />&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;REAL_CHAIN_LENGTH=12*60*60//10, # shares<br />&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;TARGET_LOOKBEHIND=200, # shares<br />&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;SPREAD=120, # blocks<br />&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;IDENTIFIER=&#039;43484E636F696D21&#039;.decode(&#039;hex&#039;),<br />&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;PREFIX=&#039;B4C305FD74B0DEBE&#039;.decode(&#039;hex&#039;),<br />&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;P2P_PORT=12338,<br />&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;MIN_TARGET=0,<br />&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;MAX_TARGET=2**256//2**20 - 1,<br />&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;PERSIST=False,<br />&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;WORKER_PORT=8888,<br />&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;BOOTSTRAP_ADDRS=&#039;paysmorecnc.crabdance.com&#039;.split(&#039; &#039;),<br />&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;ANNOUNCE_CHANNEL=&#039;#p2pool-alt&#039;,<br />&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;VERSION_CHECK=lambda v: True,<br />&nbsp;&nbsp; &nbsp;),<br /></div><br />p2pool/bitcoin/networks.py:<br /><div class="codeheader">Code:</div><div class="code"> &nbsp; &nbsp;litecoin=math.Object(<br />&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;P2P_PREFIX=&#039;fbc0b6db&#039;.decode(&#039;hex&#039;),<br />&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;P2P_PORT=8106,<br />&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;ADDRESS_VERSION=28,<br />&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;RPC_PORT=8108,<br />&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;RPC_CHECK=defer.inlineCallbacks(lambda bitcoind: defer.returnValue(<br />&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&#039;chncoinaddress&#039; in (yield bitcoind.rpc_help()) and<br />&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;not (yield bitcoind.rpc_getinfo())[&#039;testnet&#039;]<br />&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;)),<br />&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;SUBSIDY_FUNC=lambda height: 88*100000000 &gt;&gt; (height + 1)//4625280,<br />&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;POW_FUNC=lambda data: pack.IntType(256).unpack(__import__(&#039;ltc_scrypt&#039;).getPoWHash(data)),<br />&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;BLOCK_PERIOD=60, # s<br />&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;SYMBOL=&#039;CNC&#039;,<br />&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;CONF_FILE_FUNC=lambda: os.path.join(os.path.join(os.environ[&#039;APPDATA&#039;], &#039;chncoin&#039;) if platform.system() == &#039;Windows&#039; else os.path.expanduser(&#039;~/Library/Application Support/chncoin/&#039;) if platform.system() == &#039;Darwin&#039; else os.path.expanduser(&#039;~/.chncoin&#039;), &#039;chncoin.conf&#039;),<br />&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;BLOCK_EXPLORER_URL_PREFIX=&#039;http://cnc.cryptocoinexplorer.com/block/&#039;,<br />&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;ADDRESS_EXPLORER_URL_PREFIX=&#039;http://cnc.cryptocoinexplorer.com/address/&#039;,<br />&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;SANE_TARGET_RANGE=(2**256//1000000000 - 1, 2**256//1000 - 1),<br />&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;DUMB_SCRYPT_DIFF=2**16,<br />&nbsp;&nbsp; &nbsp;),<br /></div></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [ANN][CNC][P2pool] - Low Latency ChnCoin P2Pool - http://cnc.crabdance.com:8400</b><br />
+					Post by: <b>gritter</b> on <b>May 07, 2013, 03:58:35 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">need some more hashrate at http://paysmorecnc.crabdance.com:8888/<br />point your miners there, DOA is very low!</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [ANN][CNC][P2pool] - Low Latency ChnCoin P2Pool - http://cnc.crabdance.com:8400</b><br />
+					Post by: <b>gritter</b> on <b>May 08, 2013, 02:40:09 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">removed the test node at paysmorecnc.crabdance.com:8888 from first post, if you want to mine CNC see main server in first post</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [ANN][CNC][P2pool] - Low Latency ChnCoin P2Pool - http://cnc.crabdance.com:8400</b><br />
+					Post by: <b>gritter</b> on <b>May 08, 2013, 03:56:48 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">CNC 2nd most profitable coin again, who would&#039;ve thought :)</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [ANN][CNC][P2pool] - ChinaCoin (CHNCoin) P2Pool - http://cnc.crabdance.com:8107</b><br />
+					Post by: <b>gritter</b> on <b>November 29, 2013, 01:17:40 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">reviving this thread as the pool is up and running again, given the high CNC profitability!</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [ANN][CNC][P2pool] - ChinaCoin (CHNCoin) P2Pool - http://cnc.crabdance.com:8107</b><br />
+					Post by: <b>gritter</b> on <b>November 29, 2013, 04:05:03 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">come mine here, the other public pool already has around 50% network hashrate, not healthy!</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [ANN][CNC][P2pool] - ChinaCoin (CHNCoin) P2Pool - http://cnc.crabdance.com:8107</b><br />
+					Post by: <b>gritter</b> on <b>November 30, 2013, 12:47:45 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">CNC still most profitable, around 3x Litecoin Mining Earnings atm, but difficulty is going up, so mine NOW!</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [ANN][CNC][P2pool] - ChinaCoin (CHNCoin) P2Pool - http://cnc.crabdance.com:8107</b><br />
+					Post by: <b>gritter</b> on <b>December 03, 2013, 04:44:47 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">still 1.5x profitable over LTC mining...</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [ANN][CNC][P2pool] - ChinaCoin (CHNCoin) P2Pool - http://cnc.crabdance.com:8107</b><br />
+					Post by: <b>gritter</b> on <b>December 04, 2013, 10:45:34 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Fee lowered to 1%</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [ANN][CNC][P2pool] - ChinaCoin (CHNCoin) P2Pool - http://cnc.crabdance.com:8107</b><br />
+					Post by: <b>gritter</b> on <b>December 06, 2013, 01:23:55 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">p2pool pays out transactions fees to miners!</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [ANN][CNC][P2pool] - ChinaCoin (CHNCoin) P2Pool - 1% Fee - Stable and Fast!</b><br />
+					Post by: <b>gritter</b> on <b>December 08, 2013, 01:57:14 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">extra lucky in last few hours, expected blocks=4, actual blocks mined=10</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [ANN][CNC][P2pool] - ChinaCoin (CHNCoin) P2Pool - 1% Fee - Stable and Fast!</b><br />
+					Post by: <b>Doxcade</b> on <b>January 08, 2014, 06:43:15 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><br />Hay maybe a bit of help?<br /><br />Setting up some P2pools, I have cnc working with newest chncoind (had to change the prefix id) but can&#039;t seem to connect to any other p2pools.<br />I know there are not many but if you could post your p2p_port and bootstrap your using. I added you in my bootstrap but wont connect.<br />Also check the code below and see if the identifier and prefix matches what your using.<br /><br /><br />Thanks!<br /><br /><div class="codeheader">Code:</div><div class="code"> chncoin=math.Object(<br />&nbsp; &nbsp; &nbsp; &nbsp; PARENT=networks.nets[&#039;chncoin&#039;],<br />&nbsp; &nbsp; &nbsp; &nbsp; SHARE_PERIOD=15, # seconds<br />&nbsp; &nbsp; &nbsp; &nbsp; CHAIN_LENGTH=12*60*60//10, # shares<br />&nbsp; &nbsp; &nbsp; &nbsp; REAL_CHAIN_LENGTH=12*60*60//10, # shares<br />&nbsp; &nbsp; &nbsp; &nbsp; TARGET_LOOKBEHIND=200, # shares<br />&nbsp; &nbsp; &nbsp; &nbsp; SPREAD=30, # blocks<br />&nbsp; &nbsp; &nbsp; &nbsp; IDENTIFIER=&#039;e137d5b8c6923410&#039;.decode(&#039;hex&#039;),<br />&nbsp; &nbsp; &nbsp; &nbsp; PREFIX=&#039;7218c1a53ef629b0&#039;.decode(&#039;hex&#039;),<br />&nbsp; &nbsp; &nbsp; &nbsp; P2P_PORT=12388,<br />&nbsp; &nbsp; &nbsp; &nbsp; MIN_TARGET=0,<br />&nbsp; &nbsp; &nbsp; &nbsp; MAX_TARGET=2**256//2**20 - 1,<br />&nbsp; &nbsp; &nbsp; &nbsp; PERSIST=False,<br />&nbsp; &nbsp; &nbsp; &nbsp; WORKER_PORT=8800,<br />&nbsp; &nbsp; &nbsp; &nbsp; BOOTSTRAP_ADDRS=&#039;42.2.216.54 cnc.crabdance.com&#039;.split(&#039; &#039;),<br />&nbsp; &nbsp; &nbsp; &nbsp; ANNOUNCE_CHANNEL=&#039;#p2pool-chn&#039;,<br />&nbsp; &nbsp; &nbsp; &nbsp; VERSION_CHECK=lambda v: True,<br />&nbsp; &nbsp; ),<br />)<br /></div><br /><div class="codeheader">Code:</div><div class="code">chncoin=math.Object(<br />&nbsp; &nbsp; &nbsp; &nbsp; P2P_PREFIX=&#039;fdc2b8dd&#039;.decode(&#039;hex&#039;),<br />&nbsp; &nbsp; &nbsp; &nbsp; P2P_PORT=8106,<br />&nbsp; &nbsp; &nbsp; &nbsp; ADDRESS_VERSION=28,<br />&nbsp; &nbsp; &nbsp; &nbsp; RPC_PORT=8108,<br />&nbsp; &nbsp; &nbsp; &nbsp; RPC_CHECK=defer.inlineCallbacks(lambda bitcoind: defer.returnValue(<br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &#039;chncoinaddress&#039; in (yield bitcoind.rpc_help()) and<br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; not (yield bitcoind.rpc_getinfo())[&#039;testnet&#039;]<br />&nbsp; &nbsp; &nbsp; &nbsp; )),<br />&nbsp; &nbsp; &nbsp; &nbsp; SUBSIDY_FUNC=lambda height: 88*100000000 &gt;&gt; (height + 1)//462528000,<br />&nbsp; &nbsp; &nbsp; &nbsp; POW_FUNC=lambda data: pack.IntType(256).unpack(__import__(&#039;ltc_scrypt&#039;).getPoWHash(data)),<br />&nbsp; &nbsp; &nbsp; &nbsp; BLOCK_PERIOD=60, # s<br />&nbsp; &nbsp; &nbsp; &nbsp; SYMBOL=&#039;CHN&#039;,<br />&nbsp; &nbsp; &nbsp; &nbsp; CONF_FILE_FUNC=lambda: os.path.join(os.path.join(os.environ[&#039;APPDATA&#039;], &#039;chncoin&#039;) if platform.system() == &#039;Windows&#039; else os.path.expanduser(&#039;~/Library/Application Support/chncoin/&#039;) if platform.system() == &#039;Darwin&#039; else os.path.expanduser(&#039;~/.chncoin&#039;), &#039;chncoin.conf&#039;),<br />&nbsp; &nbsp; &nbsp; &nbsp; BLOCK_EXPLORER_URL_PREFIX=&#039;http://cnc.cryptocoinexplorer.com/block/&#039;,<br />&nbsp; &nbsp; &nbsp; &nbsp; ADDRESS_EXPLORER_URL_PREFIX=&#039;http://cnc.cryptocoinexplorer.com/address/&#039;,<br />&nbsp; &nbsp; &nbsp; &nbsp; SANE_TARGET_RANGE=(2**256//1000000000 - 1, 2**256//1000 - 1),<br />&nbsp; &nbsp; &nbsp; &nbsp; DUMB_SCRYPT_DIFF=2**16,<br />&nbsp; &nbsp; ),<br /></div></div>
+					<br /><br />
+					<div align="center" class="smalltext">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank">Powered by SMF 1.1.19</a> | 
+<a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank">SMF &copy; 2006-2009, Simple Machines</a>
+		</span></div>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

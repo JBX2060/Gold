@@ -1,0 +1,104 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+		<link rel="canonical" href="https://bitcointalk.org/index.php?topic=131870.0" />
+		<title>Print Page - Ubuntu PPA cannot function</title>
+		<style type="text/css">
+			body
+			{
+				color: black;
+				background-color: white;
+			}
+			body, td, .normaltext
+			{
+				font-family: Verdana, arial, helvetica, serif;
+				font-size: small;
+			}
+			*, a:link, a:visited, a:hover, a:active
+			{
+				color: black !important;
+			}
+			table
+			{
+				empty-cells: show;
+			}
+			.code
+			{
+				font-size: x-small;
+				font-family: monospace;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.quote
+			{
+				font-size: x-small;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.smalltext, .quoteheader, .codeheader
+			{
+				font-size: x-small;
+			}
+			.largetext
+			{
+				font-size: large;
+			}
+			hr
+			{
+				height: 1px;
+				border: 0;
+				color: black;
+				background-color: black;
+			}
+		</style>
+	</head>
+	<body>
+		<h1 class="largetext">Bitcoin Forum</h1>
+		<h2 class="normaltext">Bitcoin => Bitcoin Technical Support => Topic started by: HorseRider on December 21, 2012, 03:31:09 AM</h2>
+
+		<table width="90%" cellpadding="0" cellspacing="0" border="0">
+			<tr>
+				<td>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Ubuntu PPA cannot function</b><br />
+					Post by: <b>HorseRider</b> on <b>December 21, 2012, 03:31:09 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">I opened a terminal and typed:<br /><br /><div class="codeheader">Code:</div><div class="code"><br />sudo add-apt-repository ppa:bitcoin/bitcoin<br /><br /></div><br />Then I got the key.<br /><br /><br />Then I typed:<br /><br /><div class="codeheader">Code:</div><div class="code">sudo apt-get update</div><br />I got the update information<br /><br /><br />Then I typed:<br /><br /><div class="codeheader">Code:</div><div class="code">sudo apt-get install bitcoin-qt</div><br />Then the screen said:<br /><br /><div class="codeheader">Code:</div><div class="code"> Reading package lists... Done<br />&nbsp;Building dependency tree &nbsp; &nbsp; &nbsp; <br />&nbsp;Reading state information... Done<br />&nbsp;E: Unable to locate package bitcoin-qt</div><br />What have I done wrong? <br />I&#039;m not familiar with linux. I am located in China, the sourceforge is banned by Great Fire Wall. launchpad.net is not banned. ubuntu10.04 can be updated smoothly.<br /><br /><br /><br /><br /><br /><br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Ubuntu PPA cannot function</b><br />
+					Post by: <b>01BTC10</b> on <b>December 21, 2012, 03:40:21 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Can you use https://www.torproject.org ?<br /><br />You could access sourceforge that way.<br /><br /><br />Edit: You can install the daemon this way. (No GUI)<br /><br /><div class="quoteheader">Quote</div><div class="quote">sudo apt-get install bitcoind</div></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Ubuntu PPA cannot function</b><br />
+					Post by: <b>HorseRider</b> on <b>December 21, 2012, 03:56:51 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=131870.msg1412869#msg1412869">Quote from: 01BTC10 on December 21, 2012, 03:40:21 AM</a></div><div class="quote">Can you use https://www.torproject.org ?<br /><br />You could access sourceforge that way.<br /><br /></div><br />Yes, I downloaded the bitcoin-0.7.2-linux.tar.gz through SSH proxy and extracted on the desktop and are updating the blockchain now.<br /><br />But I just want to it update automatically to the latest version.<br /><br /><br />Edit: You can install the daemon this way. (No GUI)<br /><br /><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=131870.msg1412869#msg1412869">Quote from: 01BTC10 on December 21, 2012, 03:40:21 AM</a></div><div class="quote"><div class="quoteheader">Quote</div><div class="quote">sudo apt-get install bitcoind</div></div><br />I have tried that, but it does not work.&nbsp; If we find nothing wrong in the code I typed in, then I guess I will try the VPN tonight.<br /><br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Ubuntu PPA cannot function</b><br />
+					Post by: <b>01BTC10</b> on <b>December 21, 2012, 04:01:26 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">In your first post you wrote:<br /><br /><div class="quoteheader">Quote</div><div class="quote">sudo apt-get install bitcoin<b>-qt</b><br /></div><br />I don&#039;t see any package with this name.<br /><br />Correct name is:<br /><br /><div class="quoteheader">Quote</div><div class="quote">sudo apt-get install bitcoin<b>d</b></div><br />It does work for me.<br /><br /><br />You can search for package name with apt-cache search like this:<br /><br /><div class="quoteheader">Quote</div><div class="quote">apt-cache search bitcoin</div></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Ubuntu PPA cannot function</b><br />
+					Post by: <b>HorseRider</b> on <b>December 21, 2012, 06:29:58 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=131870.msg1412895#msg1412895">Quote from: 01BTC10 on December 21, 2012, 04:01:26 AM</a></div><div class="quote">In your first post you wrote:<br /><br /><div class="quoteheader">Quote</div><div class="quote">sudo apt-get install bitcoin<b>-qt</b><br /></div><br />I don&#039;t see any package with this name.<br /><br />Correct name is:<br /><br /><div class="quoteheader">Quote</div><div class="quote">sudo apt-get install bitcoin<b>d</b></div><br />It does work for me.<br /><br /><br />You can search for package name with apt-cache search like this:<br /><br /><div class="quoteheader">Quote</div><div class="quote">apt-cache search bitcoin</div></div><br />Thanks, I will try tonight.</div>
+					<br /><br />
+					<div align="center" class="smalltext">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank">Powered by SMF 1.1.19</a> | 
+<a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank">SMF &copy; 2006-2009, Simple Machines</a>
+		</span></div>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

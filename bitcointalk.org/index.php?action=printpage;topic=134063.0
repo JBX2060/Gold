@@ -1,0 +1,212 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+		<link rel="canonical" href="https://bitcointalk.org/index.php?topic=134063.0" />
+		<title>Print Page - Help - lost bitcoins (now found!) !! </title>
+		<style type="text/css">
+			body
+			{
+				color: black;
+				background-color: white;
+			}
+			body, td, .normaltext
+			{
+				font-family: Verdana, arial, helvetica, serif;
+				font-size: small;
+			}
+			*, a:link, a:visited, a:hover, a:active
+			{
+				color: black !important;
+			}
+			table
+			{
+				empty-cells: show;
+			}
+			.code
+			{
+				font-size: x-small;
+				font-family: monospace;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.quote
+			{
+				font-size: x-small;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.smalltext, .quoteheader, .codeheader
+			{
+				font-size: x-small;
+			}
+			.largetext
+			{
+				font-size: large;
+			}
+			hr
+			{
+				height: 1px;
+				border: 0;
+				color: black;
+				background-color: black;
+			}
+		</style>
+	</head>
+	<body>
+		<h1 class="largetext">Bitcoin Forum</h1>
+		<h2 class="normaltext">Bitcoin => Bitcoin Technical Support => Topic started by: mintymark on December 31, 2012, 12:08:00 PM</h2>
+
+		<table width="90%" cellpadding="0" cellspacing="0" border="0">
+			<tr>
+				<td>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Help - lost bitcoins (now found!) !! </b><br />
+					Post by: <b>mintymark</b> on <b>December 31, 2012, 12:08:00 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">So I had a machine crash. I was not that worried I had several backups of wallet.dat. <br /><br />I wiped the .bitcoin directory and coppied wallet.dat and waited for blockchain download. <br /><br />I was surprised that a ballance came up almost at once and that it was about 1200 BTC short, but I waited for the download. <br /><br />Now the download has completed, it seems that many transactions are missing, payments to addresses created a long time ago seem present. Those to recently created addresses not so. <br /><br />I have done a bitcoin --rescan, and that made no difference. <br /><br />Now the various backups of wallet.dat that I have are significantly different in size. <br /><br />Perhaps I just have to do the reload with a different, older or bigger wallet.dat? <br /><br />Advice? <br /><br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Help - lost bitcoins!! </b><br />
+					Post by: <b>Deafboy</b> on <b>December 31, 2012, 12:19:49 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Sorry to hear that. Yes, recently created keys are probably gone :(<br />To prevent loosing your BTCs in future, add keypool=somelargenumber to bitcoin.conf. Default value is 100, so you need to back up your wallet after every 100 used addresses.<br /><br />To recover most of your bitcoins, use most recent backup you have.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Help - lost bitcoins!! </b><br />
+					Post by: <b>Blazr</b> on <b>December 31, 2012, 12:20:34 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Are all of your addresses showing up in the &quot;Receive coins&quot; tab?<br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Help - lost bitcoins!! </b><br />
+					Post by: <b>mintymark</b> on <b>December 31, 2012, 12:34:33 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">No, the recent addresses are missing, but I do believe I may not have used the most recent backup. <br /><br />At the moment swapped the wallet.dat, and am doing a rescan. <br /><br />In fact it really doesnt make any difference how long this takes, but from a biting the fingernails approach, it would seriously reduce my stress levels if I knew these were safe. <br /><br />Now how could I forget that a recent backup of wallet.dat was needed, I thought any wallet.dat backup would do. <br /><br />Really kicking myself here. </div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Help - lost bitcoins!! </b><br />
+					Post by: <b>mintymark</b> on <b>December 31, 2012, 12:37:56 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">There is hope, the recent wallet.dat shows the correct ballance, with 4 blocks to download, so I am hopeful that this will work out well. <br /><br />I feel a bit stupid for bothering everyone with this..... </div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Help - lost bitcoins!! </b><br />
+					Post by: <b>Jaw3bmasters</b> on <b>December 31, 2012, 01:08:39 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=134063.msg1427637#msg1427637">Quote from: mintymark on December 31, 2012, 12:37:56 PM</a></div><div class="quote">There is hope, the recent wallet.dat shows the correct ballance, with 4 blocks to download, so I am hopeful that this will work out well. <br /><br />I feel a bit stupid for bothering everyone with this..... <br /></div><br /><br />This thread reminds me of a quote....<br />&quot;One often meets his destiny on the road he takes to avoid it.&quot; <br /><br />I&#039;m guessing you probably have two firewalls on a Windows system with several cold-storage all over the place....<br /><br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Help - lost bitcoins!! </b><br />
+					Post by: <b>Stephen Gornick</b> on <b>December 31, 2012, 01:19:41 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=134063.msg1427637#msg1427637">Quote from: mintymark on December 31, 2012, 12:37:56 PM</a></div><div class="quote">I feel a bit stupid for bothering everyone with this..... <br /></div><br />Don&#039;t -- it is a good reminder to others who might just have made a recent backup after empathizing with you.<br /><br />The wallet.dat contains, by default. a key pool of the next 100 addresses your client will use.&nbsp; An address is consumed each time you click &quot;New Address&quot; and then each time a change transaction (back to yourself) is made it pulls one address from the key pool.&nbsp; &nbsp;The keypool is topped up after each time an address is drawn from it.&nbsp; (with a few exceptions).<br /><br />So you as long as your backup is newer than the past 100 transactions it should have all the keys in it.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Help - lost bitcoins!! </b><br />
+					Post by: <b>mintymark</b> on <b>December 31, 2012, 02:09:43 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Well, it seems I&#039;m not out of the woods yet. Its been an hour, and still there are 4 blocks to download. It still says Last received block was generated 17 minutes ago. <br /><br />So maybe I need to delete the blockchain data and download all from scratch. <br /><br />I tried making a small payment to myself and got: <br /><br />A fatal error occurred. Bitcoin can no longer continue safely and will quit.<br /><br />EXCEPTION: St13runtime_error&nbsp; &nbsp; &nbsp; &nbsp;<br />CDB() : can&#039;t open database file wallet.dat, error -30974&nbsp; &nbsp; &nbsp; &nbsp;<br />bitcoin in Runaway exception&nbsp; &nbsp; &nbsp; &nbsp;<br /><br />So now I have a choice. Redownload the entire blockchain using this wallet, or use a slightly older backup that was like this one, approx double the size of earlier ones.&nbsp; That one was a better quality backup in that it was taken from a non-running bitcoin if I remember. <br /><br />Which to try first? <br /><br /><br /><br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Help - lost bitcoins!! </b><br />
+					Post by: <b>DannyHamilton</b> on <b>December 31, 2012, 06:17:25 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=134063.msg1427728#msg1427728">Quote from: mintymark on December 31, 2012, 02:09:43 PM</a></div><div class="quote">. . . Redownload the entire blockchain using this wallet, or use a slightly older backup . . . Which to try first? <br /></div>Which ever you try, make sure you keep a copy of this wallet.dat.<br /><br />If you find that the slightly older wallet.dat doesn&#039;t have the private keys for all of your addresses, you could alwyas try using a tool like pywallet to extract the missing private keys from this wallet and import them into the slightly older one.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Help - lost bitcoins!! </b><br />
+					Post by: <b>Stephen Gornick</b> on <b>December 31, 2012, 06:58:20 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=134063.msg1427728#msg1427728">Quote from: mintymark on December 31, 2012, 02:09:43 PM</a></div><div class="quote">So now I have a choice. Redownload the entire blockchain using this wallet, or use a slightly older backup that was like this one</div><br />If you know what the balance should be (i.e., to know if the backup was recent enough) simply rename the existing wallet.dat (to something like wallet.err) and restore from the other backup. &nbsp; [Edit: Use -rescan if needed]&nbsp;If the balance is correct, use that one.<br /><br />If that did not have all the keys, then you want to try to salvage the wallet (available since v0.7.1):<br /><br /><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=134063.msg1427728#msg1427728">Quote from: mintymark on December 31, 2012, 02:09:43 PM</a></div><div class="quote">* -salvagewallet command-line option, which moves any existing wallet.dat<br />&nbsp;&nbsp;to wallet.{timestamp}.dat and then attempts to salvage public/private<br />&nbsp;&nbsp;keys and master encryption keys (if the wallet is encrypted) into<br />&nbsp;&nbsp;a new wallet.dat. This should only be used if your wallet becomes<br />&nbsp;&nbsp;corrupted, and is not intended to replace regular wallet backups.<br /></div></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Help - lost bitcoins!! </b><br />
+					Post by: <b>John (John K.)</b> on <b>January 01, 2013, 04:30:06 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Keep multiple backups of the wallet.dat file FIRST.<br />Is the blockchain finished? Or is it still downloading?</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Help - lost bitcoins!! </b><br />
+					Post by: <b>farlack</b> on <b>January 01, 2013, 05:17:15 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">For $16,000 it might be a good idea to send the hard drive to a data recovery company.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Help - lost bitcoins!! </b><br />
+					Post by: <b>casascius</b> on <b>January 01, 2013, 05:22:42 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">His wallet file sounds completely recoverable without needing hard drive recovery. </div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Help - lost bitcoins!! </b><br />
+					Post by: <b>Evolvex</b> on <b>January 01, 2013, 05:34:08 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Arghhh what a nightmare, hope your get your bitcoins back dude!<br /><br />Happy new year everyone btw&nbsp; ;D</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Help - lost bitcoins!! </b><br />
+					Post by: <b>TradeFortress &#127957;</b> on <b>January 02, 2013, 10:08:11 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Your bitcoins are safe. You should not have deleted the blockchain.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Help - lost bitcoins!! </b><br />
+					Post by: <b>Jutarul</b> on <b>January 02, 2013, 10:15:27 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">For his own sake I hope he didn&#039;t use the same hard drive for the next system. <br /><br />If he used the same drive, chances are slim - but not 0%. If the harddrive is big enough there&#039;s a good chance that the old data is still physically stored on the old drive and thus recoverable with specialized software tools. Switch off and use a different drive to test your wallet backups.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Help - lost bitcoins!! </b><br />
+					Post by: <b>Gyrsur</b> on <b>January 02, 2013, 10:19:28 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">so please tell me what was the intention of the core developers to create a keypool with serveral addresses? do one address fix this issue?<br /><br />keypool=1<br /><br />thanks! </div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Help - lost bitcoins!! </b><br />
+					Post by: <b>drakahn</b> on <b>January 02, 2013, 10:23:49 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=134063.msg1430182#msg1430182">Quote from: Gyrsur on January 02, 2013, 10:19:28 AM</a></div><div class="quote">so please tell me what was the intention of the core developer to create a keypool with serveral addresses? do one address fix this issue?<br /><br />keypool=1<br /><br />thanks! <br /></div>keypool = 1 means you would need a new backup with every transaction</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Help - lost bitcoins!! </b><br />
+					Post by: <b>Gyrsur</b> on <b>January 02, 2013, 10:27:36 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=134063.msg1430186#msg1430186">Quote from: drakahn on January 02, 2013, 10:23:49 AM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=134063.msg1430182#msg1430182">Quote from: Gyrsur on January 02, 2013, 10:19:28 AM</a></div><div class="quote">so please tell me what was the intention of the core developer to create a keypool with serveral addresses? do one address fix this issue?<br /><br />keypool=1<br /><br />thanks! <br /></div>keypool = 1 means you would need a new backup with every transaction<br /></div><br />this is not my understanding of how it works. if you use only one public/private key and you make a transaction you send bitcoins to the receiver and the rest of your bitcoins will go to this one public/private key which you created thru &quot;keypool=1&quot;. isn&#039;t it?</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Help - lost bitcoins!! </b><br />
+					Post by: <b>Scrat Acorns</b> on <b>January 02, 2013, 10:48:22 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=134063.msg1430188#msg1430188">Quote from: Gyrsur on January 02, 2013, 10:27:36 AM</a></div><div class="quote">this is not my understanding of how it works. if you use only one public/private key and you make a transaction you send bitcoins to the receiver and the rest of your bitcoins will go to this one public/private key which you created thru &quot;keypool=1&quot;. isn&#039;t it?<br /></div><br />A new address will be generated to hold the change.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Help - lost bitcoins!! </b><br />
+					Post by: <b>DannyHamilton</b> on <b>January 02, 2013, 03:48:49 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=134063.msg1430188#msg1430188">Quote from: Gyrsur on January 02, 2013, 10:27:36 AM</a></div><div class="quote">this is not my understanding of how it works. if you use only one public/private key and you make a transaction you send bitcoins to the receiver and the rest of your bitcoins will go to this one public/private key which you created thru &quot;keypool=1&quot;. isn&#039;t it?<br /></div>Bitcoin-Qt never sends change outputs back to the same address that the inputs came from. &nbsp;It always uses a new address for the change. &nbsp;The keypool is a pool of <b>unused</b> addresses to be used in the future whenever the client needs a new address for some purpose. &nbsp;This means that when you create a backup, you have backed up the next {keypool} number of addresses that will be used. &nbsp;That way you can use that many addresses as new receiving addresses or change addresses and if you recover the backup, the coins will still be accessible, since the addresses were backed up before you used them. When the client uses an address from the keypool, it generates a new address to add to the keypool to keep the keypool at the same size.<br /><br />If your keypool=1, and then you perform a backup, you will have backed up only the one next address to be used.<br /><br />If you then send some coins in a transaction that requires change, you&#039;ll use that one address from the keypool for the change, and a new address (that is not part of the previous backup) will be generated and added to the keypool.<br /><br />If you don&#039;t backup before your next transaction, then the next transaction with change will use this new address (which is not in the backup) from the keypool for your change.<br /><br />If you then recover your backup, you will lose all the bitcoins that were sent to the most recent change address since that address isn&#039;t in the backup.<br /><br /><span style="text-decoration: underline;"><b>Example:</b></span><br />My wallet has a total of 100 BTC and it was all received in a single transaction meaning that it is a single &quot;output&quot;. I have keypool=1, and so far I have never sent or received any other bitcoins.<br /><br />My receiving address is 1abcdef...<br />My wallet has a hidden unused keypool address of 1zyxwvu...<br /><br />I perform a backup of my wallet and the backup now includes the 2 addresses listed above.<br /><br /><div class="codeheader">Code:</div><div class="code">THE PUBLIC BLOCKCHAIN HAS THE FOLLOWING UNSPENT OUTPUTS ASSOCIATED WITH MY TRANSACTIONS: <br />1abcdef... has 100 BTC<br /><br />MY ACTIVE Bitcoin-Qt CLIENT CONTAINS THE KEYS TO THE FOLLOWING LIST OF ADDRESSES:<br />1abcdef... has 100 BTC<br />1zyxwvu... has never been used and therefore has 0 BTC<br /><br />THE BACKUP CONTAINS THE KEYS TO THE FOLLOWING LIST OF ADDRESSES:<br />1abcdef... has 100 BTC<br />1zyxwvu... has never been used and therefore has 0 BTC<br /></div><br />I send 1 BTC to a friend who has a receiving address of 1hijklm...<br /><br />My Bitcoin-Qt client creates a transaction that has 1 input and 2 outputs:<br /><div class="codeheader">Code:</div><div class="code">INPUT: The 100 BTC output from 1abcdef... (my initial receiving address)<br />OUTPUT: 1 BTC to 1hijklm... (my friends receiving address)<br />OUTPUT: 99 BTC to 1zyxwvu... (my original keypool address used as a change address)<br /></div><br />My Bitcoin-Qt generates a new address 1nopqrs... to replace the address that was taken from the keypool.<br /><br /><div class="codeheader">Code:</div><div class="code">THE PUBLIC BLOCKCHAIN HAS THE FOLLOWING UNSPENT OUTPUTS ASSOCIATED WITH MY TRANSACTIONS: <br />1zyxwvu... has been used as a change address, has 99 BTC<br />1hijklm... my friend&#039;s address has 1 BTC<br /><br />MY ACTIVE Bitcoin-Qt CLIENT CONTAINS THE KEYS TO THE FOLLOWING LIST OF ADDRESSES:<br />1abcdef... all outputs spent, has 0 BTC<br />1zyxwvu... has been used as a change address, has 99 BTC<br />1nopqrs... has never been used and therefore has 0 BTC<br /><br />THE BACKUP CONTAINS THE KEYS TO THE FOLLOWING LIST OF ADDRESSES:<br />1abcdef... all outputs spent, has 0 BTC<br />1zyxwvu... has been used as a change address, has 99 BTC<br /><br />So I can still access my 99 BTC if I recover the backup, since that address was in the backed-up keypool.<br /></div><br />I send a 3 BTC transaction to pay a merchant for some purchase at their receiving address of 1tsrqpo...<br /><br />My Bitcoin-Qt client creates a transaction that has 1 input and 2 outputs:<br /><div class="codeheader">Code:</div><div class="code">INPUT: The 99 BTC output from 1zyxwvu... (my previous change address)<br />OUTPUT: 3 BTC to 1tsrqpo... (the merchants receiving address)<br />OUTPUT: 96 BTC to 1nopqrs... (my new keypool address used as a change address)<br /></div><br />My Bitcoin-Qt client generates a new address 1tuvwxy... to replace the address that was taken from the keypool.<br /><br /><div class="codeheader">Code:</div><div class="code">THE PUBLIC BLOCKCHAIN HAS THE FOLLOWING UNSPENT OUTPUTS ASSOCIATED WITH MY TRANSACTIONS: <br />1nopqrs... has been used as a change address, has 96 BTC<br />1hijklm... my friend&#039;s address has 1 BTC<br />1tsrqpo... merchant&#039;s address has 3 BTC<br /><br />MY ACTIVE Bitcoin-Qt CLIENT CONTAINS THE KEYS TO THE FOLLOWING LIST OF ADDRESSES<br />1abcdef... all outputs spent, has 0 BTC<br />1zyxwvu... all outputs spent, has 0 BTC<br />1nopqrs... has been used as a change address, has 96 BTC<br />1tuvwxy... has never been used and therefore has 0 BTC<br /><br />THE BACKUP CONTAINS THE KEYS TO THE FOLLOWING LIST OF ADDRESSES:<br />1abcdef... all outputs spent, has 0 BTC<br />1zyxwvu... all outputs spent, has 0 BTC<br /><br />I can no longer access my 96 BTC if I recover the backup, since that address was NOT in the backed-up keypool.<br /></div><br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Help - lost bitcoins!! </b><br />
+					Post by: <b>mintymark</b> on <b>January 03, 2013, 01:25:51 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Well I am happy to say there was a happy solution to this. The machine it was running on became progressively less reliable and eventually refused to boot. It was a thermal or power supply problem. At last a good use for one of those old bitcoin mining machines that are still on my credit card, dam it! A new machine with the same harddisk is now running. And I have downloaded the blockchain to resync bitcoin-qt from scratch. <br /><br />This is clearly what happened. After the first sudden power down event, the existing blockchain data and wallet.dat seemed to be corrupt. <br />I then used an old backup of wallet.dat that unknown to me was taken before the new chunk of receiving addresses were generated - none of the new addresses including some big transactions where in the resynced client! Hence my panic. At this stage I found a more recent backup up used that and all was well. <br /><br />But lets look a little more deeply into this ... (Because believe me I am psychologically scarred, wouldnt you be?? ) <br />Lets suppose I didnt have that backup. I think recovery would still be really easy. All I would need to do would be to generate some new receiving addresses, and suddenly a new chunk of addresses would be generated. (Or force this using command line arguments.) Because this is a deterministic process, suddenly, poof, my bitcoins would come back. I mean one wallet.dat is based on one initial set of private keys, so from that point of view, any old wallet.dat backup will do wont it? Please be aware I am speculating here, I am saying you only need one back up of wallet.dat, but I am saying it quietly for fear of misleading people in case I am wrong, and also because its clearly more convenient to have more recent backups given a choice.&nbsp; <br /><br />Is this right? <br /><br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Help - lost bitcoins!! </b><br />
+					Post by: <b>Stephen Gornick</b> on <b>January 03, 2013, 01:37:16 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=134063.msg1431559#msg1431559">Quote from: mintymark on January 03, 2013, 01:25:51 AM</a></div><div class="quote">Because this is a deterministic process<br />[...]<br />I mean one wallet.dat is based on one initial set of private keys</div><br />Nope. &nbsp;The Bitcoin.org client might someday use a deterministic wallet, but today it does not.<br /><br />Additionally, those clients that do you a deterministic wallet and also allow the user to import private keys also need to be backed up after each import due to those Bitcoin addresses not being generated from the deterministic key.<br /><br />And to reiterate:<br /><br /><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=134063.msg1427671#msg1427671">Quote from: Stephen Gornick on December 31, 2012, 01:19:41 PM</a></div><div class="quote">The wallet.dat contains, by default. a key pool of the next 100 addresses your client will use.&nbsp; An address is consumed each time you click &quot;New Address&quot; and then each time a change transaction (back to yourself) is made it pulls one address from the key pool.&nbsp; &nbsp;The keypool is topped up after each time an address is drawn from it.&nbsp; (with a few exceptions).<br /><br />So you as long as your backup is newer than the past 100 transactions it should have all the keys in it.<br /></div></div>
+					<br /><br />
+					<div align="center" class="smalltext">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank">Powered by SMF 1.1.19</a> | 
+<a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank">SMF &copy; 2006-2009, Simple Machines</a>
+		</span></div>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

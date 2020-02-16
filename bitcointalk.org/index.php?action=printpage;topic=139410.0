@@ -1,0 +1,98 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+		<link rel="canonical" href="https://bitcointalk.org/index.php?topic=139410.0" />
+		<title>Print Page - So i'd like some advice about my GPU fan</title>
+		<style type="text/css">
+			body
+			{
+				color: black;
+				background-color: white;
+			}
+			body, td, .normaltext
+			{
+				font-family: Verdana, arial, helvetica, serif;
+				font-size: small;
+			}
+			*, a:link, a:visited, a:hover, a:active
+			{
+				color: black !important;
+			}
+			table
+			{
+				empty-cells: show;
+			}
+			.code
+			{
+				font-size: x-small;
+				font-family: monospace;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.quote
+			{
+				font-size: x-small;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.smalltext, .quoteheader, .codeheader
+			{
+				font-size: x-small;
+			}
+			.largetext
+			{
+				font-size: large;
+			}
+			hr
+			{
+				height: 1px;
+				border: 0;
+				color: black;
+				background-color: black;
+			}
+		</style>
+	</head>
+	<body>
+		<h1 class="largetext">Bitcoin Forum</h1>
+		<h2 class="normaltext">Bitcoin => Bitcoin Technical Support => Topic started by: Fiyasko on January 28, 2013, 02:21:11 AM</h2>
+
+		<table width="90%" cellpadding="0" cellspacing="0" border="0">
+			<tr>
+				<td>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>So i'd like some advice about my GPU fan</b><br />
+					Post by: <b>Fiyasko</b> on <b>January 28, 2013, 02:21:11 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Right now, My 7970, ever since i cleaned it out with canned air, the fan has been having &quot;issues&quot; <br />I own a singlefan XFX7970 &quot;ghost&quot;, Replacement fans are a Huge cost, And are quite bulky.<br /><br />The fan spins normally, sounds fine, Reports accurate tachometer readings and functions alright.<br />However it is showing symptoms of what i think are &quot;hi im gonna stop spinning at any moment&quot;<br />It will spin (at say 85%[i never run it above 87%]) just fine for a little bit, Then start making a kindof... Fluttering/Grinding? noise, and slows down by 500-700rpm.<br />if i wait a little bit, MSIa will put more power to the fan to speed it up, This causes the grinding noise to continue untill the fan reaches about 90% (5% faster than before) but still spins at the same RPM untill it suddenly sounds like something has &quot;fell out&quot; of the fan blades (like a dust clump) and then the fan goes WHIRRR from the power increse, Revs up about 500rpm and then drops back to the Proper 85% speed, With the correct noise. About five minutes later the whole process happens again.<br /><br /><b>Fan spins normally-&gt;Bad noise-&gt;fan slows-&gt;More power is added-&gt;fan spins Harder-&gt;noise dissapears-&gt;Fan spins Faster-&gt;Power is reduced-&gt;Fan spins normally</b><br /><br />This is my main GPU, I use it for everyday life, gaming, mining etc.<br />Do i have it sent in for RMA and be GPULess for I dont know how long, And maybe even have the same card sent right back to me with a &quot;nothings wrong&quot; stamp<br />Do i try More Air?<br />What should i do? <br />The gpu is the most valuble thing that i own :( and i&#039;d rather not see it blowout, At the same time i dont want to lose two weeks of mining For Nothing.<br />And the canned air is what started the problem in the first place</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: So i'd like some advice</b><br />
+					Post by: <b>kjj</b> on <b>January 28, 2013, 03:24:48 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Sounds like the bearing or bushing is going out.&nbsp; Some fans give access through the fan hub by peeling the sticker back.&nbsp; If you can get to the shaft that way, a drop or two of teflon lube <i>may</i> help.&nbsp; More likely, you&#039;ll need a new fan.<br /><br />The good news is that it sounds like XFX has really good warranty policies.&nbsp; You might want to contact them directly.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: So i'd like some advice about my GPU fan</b><br />
+					Post by: <b>Fiyasko</b> on <b>January 28, 2013, 05:13:41 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=139410.msg1484421#msg1484421">Quote from: kjj on January 28, 2013, 03:24:48 AM</a></div><div class="quote">Sounds like the bearing or bushing is going out.&nbsp; Some fans give access through the fan hub by peeling the sticker back.&nbsp; If you can get to the shaft that way, a drop or two of teflon lube <i>may</i> help.&nbsp; More likely, you&#039;ll need a new fan.<br /><br />The good news is that it sounds like XFX has really good warranty policies.&nbsp; You might want to contact them directly.<br /></div><br />D&#039;ya think peeling back the sticker is gonna void the warrenty? Cause it looks like im going to be RMA&#039;ing the card</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: So i'd like some advice about my GPU fan</b><br />
+					Post by: <b>kjj</b> on <b>January 28, 2013, 05:18:42 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Really hard to say.&nbsp; If you are already planning to replace the card, I wouldn&#039;t touch it, at least not without having a chat with their tech support first.</div>
+					<br /><br />
+					<div align="center" class="smalltext">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank">Powered by SMF 1.1.19</a> | 
+<a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank">SMF &copy; 2006-2009, Simple Machines</a>
+		</span></div>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

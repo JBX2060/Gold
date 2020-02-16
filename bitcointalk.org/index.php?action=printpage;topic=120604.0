@@ -1,0 +1,86 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+		<link rel="canonical" href="https://bitcointalk.org/index.php?topic=120604.0" />
+		<title>Print Page - Bitcoin and smart phones</title>
+		<style type="text/css">
+			body
+			{
+				color: black;
+				background-color: white;
+			}
+			body, td, .normaltext
+			{
+				font-family: Verdana, arial, helvetica, serif;
+				font-size: small;
+			}
+			*, a:link, a:visited, a:hover, a:active
+			{
+				color: black !important;
+			}
+			table
+			{
+				empty-cells: show;
+			}
+			.code
+			{
+				font-size: x-small;
+				font-family: monospace;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.quote
+			{
+				font-size: x-small;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.smalltext, .quoteheader, .codeheader
+			{
+				font-size: x-small;
+			}
+			.largetext
+			{
+				font-size: large;
+			}
+			hr
+			{
+				height: 1px;
+				border: 0;
+				color: black;
+				background-color: black;
+			}
+		</style>
+	</head>
+	<body>
+		<h1 class="largetext">Bitcoin Forum</h1>
+		<h2 class="normaltext">Bitcoin => Bitcoin Technical Support => Topic started by: Bungeebones on October 25, 2012, 10:54:50 PM</h2>
+
+		<table width="90%" cellpadding="0" cellspacing="0" border="0">
+			<tr>
+				<td>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Bitcoin and smart phones</b><br />
+					Post by: <b>Bungeebones</b> on <b>October 25, 2012, 10:54:50 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Hey everyone,<br /><br />I&#039;m sort of new to Bitcoin and bought some at a local Bitcoin Meetup here in Orlando, Fl. I bought them with my new Kyocera HYDRO so I am newbie on it as well. I downloaded the wallet for it from Google Play but can&#039;t remember what version. <br /><br />I just tried a small transfer from my smart phone wallet to my laptop wallet and the transaction hasn&#039;t finished processing. I was just wondering how long it should take before it shows in my laptop account?<br /><br />But with being new at this, is it taking so long because the block update is going on on both devices? The Kyocera Hydro says it is two days behind while the laptop says it is loading 3200 blocks?<br /><br />On the laptop I used the Qi<br /><br />Thanks in advance<br /><br />Rob</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Bitcoin and smart phones</b><br />
+					Post by: <b>Bungeebones</b> on <b>October 26, 2012, 02:41:53 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Ok, Thanks. I&#039;ll wait it out and repost if there is a problem.</div>
+					<br /><br />
+					<div align="center" class="smalltext">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank">Powered by SMF 1.1.19</a> | 
+<a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank">SMF &copy; 2006-2009, Simple Machines</a>
+		</span></div>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

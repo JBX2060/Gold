@@ -1,0 +1,10 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+	<head>
+		<title>Connection Problems</title>
+	</head>
+	<body>
+		<h3>Connection Problems</h3>
+		Sorry, SMF was unable to connect to the database.  This may be caused by the server being busy.  Please try again later.
+	</body>
+</html>

@@ -1,0 +1,98 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+		<link rel="canonical" href="https://bitcointalk.org/index.php?topic=144843.0" />
+		<title>Print Page - Disc usage</title>
+		<style type="text/css">
+			body
+			{
+				color: black;
+				background-color: white;
+			}
+			body, td, .normaltext
+			{
+				font-family: Verdana, arial, helvetica, serif;
+				font-size: small;
+			}
+			*, a:link, a:visited, a:hover, a:active
+			{
+				color: black !important;
+			}
+			table
+			{
+				empty-cells: show;
+			}
+			.code
+			{
+				font-size: x-small;
+				font-family: monospace;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.quote
+			{
+				font-size: x-small;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.smalltext, .quoteheader, .codeheader
+			{
+				font-size: x-small;
+			}
+			.largetext
+			{
+				font-size: large;
+			}
+			hr
+			{
+				height: 1px;
+				border: 0;
+				color: black;
+				background-color: black;
+			}
+		</style>
+	</head>
+	<body>
+		<h1 class="largetext">Bitcoin Forum</h1>
+		<h2 class="normaltext">Bitcoin => Bitcoin Technical Support => Topic started by: MORA on February 18, 2013, 10:22:51 AM</h2>
+
+		<table width="90%" cellpadding="0" cellspacing="0" border="0">
+			<tr>
+				<td>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Disc usage</b><br />
+					Post by: <b>MORA</b> on <b>February 18, 2013, 10:22:51 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Over the last 2 years, I have been running a bitcoin service.<br />Now the disc usage is getting out of hand, and I am wondering if there is any improvements in that in newer versions?<br /><br />The one I am running is quite old (it does not have access to any bitcoins), and since I am using a custom patch, it may not be so simple to upgrade.<br /><br />Also what amount of disc usage is acceptable atm ?<br /><br />Currently I have 20GB used just by .bitcoin :(</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Disc usage</b><br />
+					Post by: <b>grue</b> on <b>February 20, 2013, 03:00:22 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">20 gb?? my %appdata%\bitcoin is only 6 GB, plus a few megabytes for the binaries.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Disc usage</b><br />
+					Post by: <b>DannyHamilton</b> on <b>February 21, 2013, 02:49:34 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=144843.msg1536238#msg1536238">Quote from: MORA on February 18, 2013, 10:22:51 AM</a></div><div class="quote">Over the last 2 years, I have been running a bitcoin service.<br />Now the disc usage is getting out of hand, and I am wondering if there is any improvements in that in newer versions?<br /><br />The one I am running is quite old (it does not have access to any bitcoins), and since I am using a custom patch, it may not be so simple to upgrade.<br /><br />Also what amount of disc usage is acceptable atm ?<br /><br />Currently I have 20GB used just by .bitcoin :(<br /></div><br />What size are the individual files in your directory?<br /><br />Mine is only 6.4 GB:<br /><br /><div class="codeheader">Code:</div><div class="code">$ pwd; du -h<br />~/Library/Application Support/Bitcoin<br />&nbsp;31M&nbsp; &nbsp; ./blocks/index<br />6.2G&nbsp; &nbsp; ./blocks<br />193M&nbsp; &nbsp; ./chainstate<br />10.0M&nbsp; &nbsp;./database<br />6.4G&nbsp; &nbsp; .<br /></div></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Disc usage</b><br />
+					Post by: <b>MORA</b> on <b>February 22, 2013, 09:22:02 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">turned out the largest disc usage was from database logs&nbsp; ::)<br />They are no more, and client seems to be ok with their passing&nbsp; :)<br /><br /><div class="quoteheader">Quote</div><div class="quote">bitcoin@BPN:~/.bitcoin$ du -csh *<br />12K&nbsp;&nbsp;&nbsp;__db.001<br />1.4M&nbsp;&nbsp;&nbsp;__db.002<br />268K&nbsp;&nbsp;&nbsp;__db.003<br />48K&nbsp;&nbsp;&nbsp;__db.004<br />4.7M&nbsp;&nbsp;&nbsp;__db.005<br />12K&nbsp;&nbsp;&nbsp;__db.006<br />154M&nbsp;&nbsp;&nbsp;addr.dat<br />4.0K&nbsp;&nbsp;&nbsp;bitcoin.conf<br />4.0K&nbsp;&nbsp;&nbsp;bitcoind.pid<br />1.5G&nbsp;&nbsp;&nbsp;bk<br />2.0G&nbsp;&nbsp;&nbsp;blk0001.dat<br />2.0G&nbsp;&nbsp;&nbsp;blk0002.dat<br />1.7G&nbsp;&nbsp;&nbsp;blk0003.dat<br />1.8G&nbsp;&nbsp;&nbsp;blkindex.dat<br />11G&nbsp;&nbsp;&nbsp;database<br />0&nbsp;&nbsp;&nbsp;db.log<br />254M&nbsp;&nbsp;&nbsp;debug.log<br />76K&nbsp;&nbsp;&nbsp;wallet.dat<br />20G&nbsp;&nbsp;&nbsp;total<br /></div></div>
+					<br /><br />
+					<div align="center" class="smalltext">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank">Powered by SMF 1.1.19</a> | 
+<a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank">SMF &copy; 2006-2009, Simple Machines</a>
+		</span></div>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

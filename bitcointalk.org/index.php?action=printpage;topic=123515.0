@@ -1,0 +1,110 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+		<link rel="canonical" href="https://bitcointalk.org/index.php?topic=123515.0" />
+		<title>Print Page - How to remotely monitor a raspberry pi from a Windows machine</title>
+		<style type="text/css">
+			body
+			{
+				color: black;
+				background-color: white;
+			}
+			body, td, .normaltext
+			{
+				font-family: Verdana, arial, helvetica, serif;
+				font-size: small;
+			}
+			*, a:link, a:visited, a:hover, a:active
+			{
+				color: black !important;
+			}
+			table
+			{
+				empty-cells: show;
+			}
+			.code
+			{
+				font-size: x-small;
+				font-family: monospace;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.quote
+			{
+				font-size: x-small;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.smalltext, .quoteheader, .codeheader
+			{
+				font-size: x-small;
+			}
+			.largetext
+			{
+				font-size: large;
+			}
+			hr
+			{
+				height: 1px;
+				border: 0;
+				color: black;
+				background-color: black;
+			}
+		</style>
+	</head>
+	<body>
+		<h1 class="largetext">Bitcoin Forum</h1>
+		<h2 class="normaltext">Bitcoin => Bitcoin Technical Support => Topic started by: dextryn on November 09, 2012, 06:11:51 PM</h2>
+
+		<table width="90%" cellpadding="0" cellspacing="0" border="0">
+			<tr>
+				<td>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>How to remotely monitor a raspberry pi from a Windows machine</b><br />
+					Post by: <b>dextryn</b> on <b>November 09, 2012, 06:11:51 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">I know I&#039;ve seen this before but I&#039;ve searched using all different search strings and I can&#039;t seem to find it.<br /><br />Is there a program that will allow me to remotely access my raspberry pi from a Windows machine? (similar to gotomypc)&nbsp; I know I could use a VNC but I don&#039;t have the ability to assign static IP&#039;s due to my internet provider.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: How to remotely monitor a raspberry pi from a Windows machine</b><br />
+					Post by: <b>dextryn</b> on <b>November 09, 2012, 07:25:42 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Thanks, I&#039;ll try both options</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: How to remotely monitor a raspberry pi from a Windows machine</b><br />
+					Post by: <b>abracadabra</b> on <b>November 09, 2012, 11:27:19 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">teamviewer?</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: How to remotely monitor a raspberry pi from a Windows machine</b><br />
+					Post by: <b>CrazyGuy</b> on <b>November 11, 2012, 10:19:26 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">I would suggest using a dynamic dns service. <br />http://chrisjrob.com/2011/04/05/dynamic-dns-and-remote-ssh-and-vnc/</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: How to remotely monitor a raspberry pi from a Windows machine</b><br />
+					Post by: <b>CrazyGuy</b> on <b>November 11, 2012, 10:28:35 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">There are quite a few dynamic DNS services out there, I&#039;m sure someone is still giving free addresses. If not, you could always go register a premium .com domain for $8 a year</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: How to remotely monitor a raspberry pi from a Windows machine</b><br />
+					Post by: <b>J-Norm</b> on <b>November 23, 2012, 01:27:41 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">A tor hidden service is free and will break through any firewall/nat. Once it has any internet connection it routes the .onion address to itself.<br /><br />It is great having ports open on arbitrary internet connections.</div>
+					<br /><br />
+					<div align="center" class="smalltext">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank">Powered by SMF 1.1.19</a> | 
+<a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank">SMF &copy; 2006-2009, Simple Machines</a>
+		</span></div>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

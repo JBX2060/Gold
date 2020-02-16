@@ -1,0 +1,242 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+		<link rel="canonical" href="https://bitcointalk.org/index.php?topic=141192.0" />
+		<title>Print Page - Best Security Practicies for a Novice: mySQL/Bitcoin Client</title>
+		<style type="text/css">
+			body
+			{
+				color: black;
+				background-color: white;
+			}
+			body, td, .normaltext
+			{
+				font-family: Verdana, arial, helvetica, serif;
+				font-size: small;
+			}
+			*, a:link, a:visited, a:hover, a:active
+			{
+				color: black !important;
+			}
+			table
+			{
+				empty-cells: show;
+			}
+			.code
+			{
+				font-size: x-small;
+				font-family: monospace;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.quote
+			{
+				font-size: x-small;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.smalltext, .quoteheader, .codeheader
+			{
+				font-size: x-small;
+			}
+			.largetext
+			{
+				font-size: large;
+			}
+			hr
+			{
+				height: 1px;
+				border: 0;
+				color: black;
+				background-color: black;
+			}
+		</style>
+	</head>
+	<body>
+		<h1 class="largetext">Bitcoin Forum</h1>
+		<h2 class="normaltext">Bitcoin => Bitcoin Technical Support => Topic started by: crazy_rabbit on February 04, 2013, 11:18:23 PM</h2>
+
+		<table width="90%" cellpadding="0" cellspacing="0" border="0">
+			<tr>
+				<td>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Best Security Practicies for a Novice: mySQL/Bitcoin Client</b><br />
+					Post by: <b>crazy_rabbit</b> on <b>February 04, 2013, 11:18:23 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">So I&#039;m working on a project that will hold bitcoins and of course, security is the most obvious risk/danger. <br /><br />On advice of the developer we have a specially compiled version of bitcoind (unnecessary RPC calls have been removed, as well as calls that pose a security risk). <br /><br />Bitcoind runs under a separate user than the php script. SSH/ftp into the server is only possible with keyfiles. <br /><br />All mysql calls are escaped so injection should (hopefully) be covered. <br /><br />A cold wallet is being implemented so the majority of funds are off-site. <br /><br />What other steps should I be keeping in mind? After some advice from a friend I&#039;m worried as well about somehow the database being compromised in some slight way as to affect imperceptible shifts in balances that I would be unable to detect.<br /><br />I toyed with the idea of every database entry having a hash generated from all the data and the hash being periodically verified against the database to check for manipulation. But is this realistic? <br /><br />Anyone have any more ideas? Thank you</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Best Security Practicies for a Novice: mySQL/Bitcoin Client</b><br />
+					Post by: <b>hardcore-fs</b> on <b>February 05, 2013, 12:17:06 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">With the admin tool you can make any changes you want to the database and it cannot be detected, also corruption<br />better to encrypt certain fields in the database<br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Best Security Practicies for a Novice: mySQL/Bitcoin Client</b><br />
+					Post by: <b>CIYAM</b> on <b>February 05, 2013, 12:32:32 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Agreed that if you are storing information that is sensitive (such as email addresses or other more personal information) then it should be encrypted.<br /><br />If you need to *index* any such columns then this will make things trickier (although you could create another column for indexing purposes that contains the first x characters provided that isn&#039;t going to be a problem application-wise).<br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Best Security Practicies for a Novice: mySQL/Bitcoin Client</b><br />
+					Post by: <b>crazy_rabbit</b> on <b>February 05, 2013, 09:14:28 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Sensitive information, like email is encrypted and salted. The admin tools are locked to IP addresses as well, although their powers are limited in scope. Users can choose to use Google Authenticator as well. <br /><br />Anything else? I&#039;m sure there must be lots of things I&#039;m overlooking! </div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Best Security Practicies for a Novice: mySQL/Bitcoin Client</b><br />
+					Post by: <b>K1773R</b> on <b>February 05, 2013, 09:18:58 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=141192.msg1504778#msg1504778">Quote from: crazy_rabbit on February 05, 2013, 09:14:28 AM</a></div><div class="quote">Sensitive information, like email is encrypted and salted. The admin tools are locked to IP addresses as well, although their powers are limited in scope. Users can choose to use Google Authenticator as well. <br /><br />Anything else? I&#039;m sure there must be lots of things I&#039;m overlooking! <br /></div>encrypted + salted = ?<br />need more input ;)<br /><br />just a basic rule: dont use fancy librarys, or libs who have/had alot of vulnerabilitys</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Best Security Practicies for a Novice: mySQL/Bitcoin Client</b><br />
+					Post by: <b>davout</b> on <b>February 05, 2013, 09:36:10 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=141192.msg1503873#msg1503873">Quote from: crazy_rabbit on February 04, 2013, 11:18:23 PM</a></div><div class="quote">So I&#039;m working on a project that will hold bitcoins and of course, security is the most obvious risk/danger. <br /></div><br /><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=141192.msg1503873#msg1503873">Quote from: crazy_rabbit on February 04, 2013, 11:18:23 PM</a></div><div class="quote">On advice of the developer we have a specially compiled version of bitcoind (unnecessary RPC calls have been removed, as well as calls that pose a security risk). <br /></div>That&#039;s actually terrible advice, that means you need to maintain your separate fork of bitcoin which will make it much less straightforward to apply patches and security fixes as they come. Choose a strong password for the RPC calls, listen only on the local interface and add some iptables rules on top of it just to be sure. MUCH more secure. If you keep the &quot;send&quot; calls disabling other calls is pointless. If you don&#039;t keep them you might as well run a wallet such as armory.<br /><br /><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=141192.msg1503873#msg1503873">Quote from: crazy_rabbit on February 04, 2013, 11:18:23 PM</a></div><div class="quote">Bitcoind runs under a separate user than the php script. SSH/ftp into the server is only possible with keyfiles. <br /></div>If you have proper passphrases on the private keys it is a good idea.<br /><br /><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=141192.msg1503873#msg1503873">Quote from: crazy_rabbit on February 04, 2013, 11:18:23 PM</a></div><div class="quote">All mysql calls are escaped so injection should (hopefully) be covered. <br /></div>Don&#039;t reinvent the wheel, use a framework or a lib that does that for you.<br /><br /><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=141192.msg1503873#msg1503873">Quote from: crazy_rabbit on February 04, 2013, 11:18:23 PM</a></div><div class="quote">A cold wallet is being implemented so the majority of funds are off-site. <br /></div>Good.<br /><br /><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=141192.msg1503873#msg1503873">Quote from: crazy_rabbit on February 04, 2013, 11:18:23 PM</a></div><div class="quote">I toyed with the idea of every database entry having a hash generated from all the data and the hash being periodically verified against the database to check for manipulation. But is this realistic? <br /></div>No, because if someone can mess with the DB they can mess with the hash.<br />If you really want to go down that road keep backups and run periodic data comparisons to see if historical data has been altered.<br /><br /><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=141192.msg1504778#msg1504778">Quote from: crazy_rabbit on February 05, 2013, 09:14:28 AM</a></div><div class="quote">Sensitive information, like email is encrypted and salted. The admin tools are locked to IP addresses as well, although their powers are limited in scope. Users can choose to use Google Authenticator as well. <br /></div>Encryption is absolutely pointless if you keep the decryption keys on the server.<br /><br /><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=141192.msg1504027#msg1504027">Quote from: CIYAM Open on February 05, 2013, 12:32:32 AM</a></div><div class="quote">Agreed that if you are storing information that is sensitive (such as email addresses or other more personal information) then it should be encrypted.<br /><br />If you need to *index* any such columns then this will make things trickier (although you could create another column for indexing purposes that contains the first x characters provided that isn&#039;t going to be a problem application-wise).<br /></div>That doesn&#039;t make sense at all, if you need to query on a column chances are the application needs to be able to decrypt it at will for display or other purposes, meaning you&#039;d have to have the keys on the server which defeats the whole thing.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Best Security Practicies for a Novice: mySQL/Bitcoin Client</b><br />
+					Post by: <b>CIYAM</b> on <b>February 05, 2013, 11:25:01 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=141192.msg1504812#msg1504812">Quote from: davout on February 05, 2013, 09:36:10 AM</a></div><div class="quote">That doesn&#039;t make sense at all, if you need to query on a column chances are the application needs to be able to decrypt it at will for display or other purposes, meaning you&#039;d have to have the keys on the server which defeats the whole thing.<br /></div><br />Wrong - you may not have even heard of a thing called a &quot;transient&quot; being a Rails user (so don&#039;t make corrections about stuff that you don&#039;t understand).<br /><br />And - yes good luck in finding the keys in my compiled code (which only *part* is - something script kiddies just can&#039;t do now is it).<br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Best Security Practicies for a Novice: mySQL/Bitcoin Client</b><br />
+					Post by: <b>davout</b> on <b>February 05, 2013, 11:42:20 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=141192.msg1504933#msg1504933">Quote from: CIYAM Open on February 05, 2013, 11:25:01 AM</a></div><div class="quote">Wrong - you may not have even heard of a thing called a &quot;transient&quot; being a Rails user (so don&#039;t make corrections about stuff that you don&#039;t understand).<br /></div>What about transient objects ? (that exist in Rails, and in any framework that uses an ORM for the matter).<br />What makes you think I don&#039;t know anything else than Rails ?<br /><br /><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=141192.msg1504933#msg1504933">Quote from: CIYAM Open on February 05, 2013, 11:25:01 AM</a></div><div class="quote">And - yes good luck in finding the keys in my compiled code (which only *part* is - something script kiddies just can&#039;t do now is it).<br /></div>Assuming OP is using a compiled language.<br /><br />Assuming it&#039;s not trivial to decompile any kind of language to extract constants or do a memory dump for anyone who has the slightest clue about what they are doing.<br /><br />Your security protects you against script-kiddies? Great! Now let&#039;s go back to real security that works with everyone.<br /><br />Making it slightly harder to get the keys doesn&#039;t make a flawed security model less flawed.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Best Security Practicies for a Novice: mySQL/Bitcoin Client</b><br />
+					Post by: <b>CIYAM</b> on <b>February 05, 2013, 11:49:41 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=141192.msg1504962#msg1504962">Quote from: davout on February 05, 2013, 11:42:20 AM</a></div><div class="quote">Your security protects you against script-kiddies? Great! Now let&#039;s go back to real security that works with everyone.<br /><br />Making it slightly harder to get the keys doesn&#039;t make a flawed security model less flawed.<br /></div><br />Please Davout - go get someone to hack my site and then we can talk about security models.<br /><br />There is *nothing* flawed apart from your (once again) bad behaviour in this forum (I suggest *growing up* and stop trying to be such a smart ass for starters).<br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Best Security Practicies for a Novice: mySQL/Bitcoin Client</b><br />
+					Post by: <b>davout</b> on <b>February 05, 2013, 12:03:04 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=141192.msg1504975#msg1504975">Quote from: CIYAM Open on February 05, 2013, 11:49:41 AM</a></div><div class="quote">Please Davout - go get someone to hack my site and then we can talk about security models.<br /></div>Keeping a decryption key on the same server that holds encrypted data is a bad security model. <br />This is factual, you can&#039;t have your cake and eat it too, security is about tradeoffs, if you want security you have to give up some convenience.<br />If someone tells you you can get a 7% weekly interest on your deposit he&#039;s probably a scammer. <br />If someone tells you you can encrypt data in the DB but automatically decrypt it at will he doesn&#039;t understand security. Slam dunk case of security-by-obscurity.<br /><br /><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=141192.msg1504975#msg1504975">Quote from: CIYAM Open on February 05, 2013, 11:49:41 AM</a></div><div class="quote">The is *nothing* flawed apart from your (once again) bad behaviour in this forum (I suggest *growing up* and stop trying to be such a smart ass for starters).<br /></div>This is not about your little ego, it&#039;s about facts.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Best Security Practicies for a Novice: mySQL/Bitcoin Client</b><br />
+					Post by: <b>CIYAM</b> on <b>February 05, 2013, 12:10:11 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=141192.msg1504995#msg1504995">Quote from: davout on February 05, 2013, 12:03:04 PM</a></div><div class="quote">This is not about your little ego, it&#039;s about facts.<br /></div><br />Hmm... my little ego - well let&#039;s just leave it at that (as yours is clearly *bigger*).<br /><br />I was doing security since before you were even born but of course you *must* be better than I.<br /><br />:D<br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Best Security Practicies for a Novice: mySQL/Bitcoin Client</b><br />
+					Post by: <b>davout</b> on <b>February 05, 2013, 12:16:03 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=141192.msg1505005#msg1505005">Quote from: CIYAM Open on February 05, 2013, 12:10:11 PM</a></div><div class="quote">I was doing security since before you were even born but of course you *must* be better than I.<br /></div>Maybe it&#039;s time to brush up grandpa.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Best Security Practicies for a Novice: mySQL/Bitcoin Client</b><br />
+					Post by: <b>CIYAM</b> on <b>February 05, 2013, 12:20:00 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=141192.msg1505011#msg1505011">Quote from: davout on February 05, 2013, 12:16:03 PM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=141192.msg1505005#msg1505005">Quote from: CIYAM Open on February 05, 2013, 12:10:11 PM</a></div><div class="quote">I was doing security since before you were even born but of course you *must* be better than I.<br /></div>Maybe it&#039;s time to brush up grandpa.<br /></div><br />Quoted for the sake of it (this is how a *professional* business guys show their stuff these days).<br /><br />Also will use the *ignore* feature for the very first time (congrats - couldn&#039;t have used it on a more deserving member).<br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Best Security Practicies for a Novice: mySQL/Bitcoin Client</b><br />
+					Post by: <b>crazy_rabbit</b> on <b>February 05, 2013, 02:39:50 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Hey guys! Break it up!&nbsp; :o<br /><br />Honestly both of you are giving me really good advice to think about. Any practical ideas to keep the sever where the code is hosted safe? I presumably could get a server running that hosted the bitcoind dameon and listened only to the ip of the main server. But how to ensure someone can&#039;t get into my server where the app code is hosted? <br /><br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Best Security Practicies for a Novice: mySQL/Bitcoin Client</b><br />
+					Post by: <b>davout</b> on <b>February 05, 2013, 04:11:24 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=141192.msg1505216#msg1505216">Quote from: crazy_rabbit on February 05, 2013, 02:39:50 PM</a></div><div class="quote">Hey guys! Break it up!&nbsp; :o<br /><br />Honestly both of you are giving me really good advice to think about. Any practical ideas to keep the sever where the code is hosted safe? I presumably could get a server running that hosted the bitcoind dameon and listened only to the ip of the main server. But how to ensure someone can&#039;t get into my server where the app code is hosted? <br /></div>You know, people write books about this subject. I suggest buying one.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Best Security Practicies for a Novice: mySQL/Bitcoin Client</b><br />
+					Post by: <b>DannyHamilton</b> on <b>February 05, 2013, 04:45:30 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=141192.msg1505413#msg1505413">Quote from: davout on February 05, 2013, 04:11:24 PM</a></div><div class="quote">You know, people write books about this subject. I suggest buying one.<br /></div>I thought the internet was created so that we wouldn&#039;t need books any longer?</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Best Security Practicies for a Novice: mySQL/Bitcoin Client</b><br />
+					Post by: <b>davout</b> on <b>February 05, 2013, 04:53:29 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=141192.msg1505480#msg1505480">Quote from: DannyHamilton on February 05, 2013, 04:45:30 PM</a></div><div class="quote">I thought the internet was created so that we wouldn&#039;t need books any longer?<br /></div>Well, e-books would qualify as books in my view.<br />I guess what I&#039;m trying to say is that if the OP is asking such general questions on an internet forum, it can mean that he simply is not ready to undertake the task of thoroughly securing his server.<br />So my general advice would be that he document himself about the general principles, the different security layers, understand all the trade-offs and design choices that impact security and come back with a solid plan.<br /><br />The OP seems to have interesting ideas (on which I already commented) but a serious lack of experience. Lacking experience is allright as long as you know it and have the brains to think for yourself.<br /><br />Two general security principles : <br />&nbsp;- You can&#039;t have your cake and eat it too, there is *always* a trade-off between security and convenience, no exceptions.<br />&nbsp;- Don&#039;t code security-related stuff yourself, someone has probably already done it, and done it better than you. Use libraries as much as possible, not fancy ones, but mature ones. Don&#039;t hand-escape SQL, don&#039;t hash passwords yourself, etc. You get the idea.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Best Security Practicies for a Novice: mySQL/Bitcoin Client</b><br />
+					Post by: <b>crazy_rabbit</b> on <b>February 05, 2013, 11:22:05 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=141192.msg1505497#msg1505497">Quote from: davout on February 05, 2013, 04:53:29 PM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=141192.msg1505480#msg1505480">Quote from: DannyHamilton on February 05, 2013, 04:45:30 PM</a></div><div class="quote">I thought the internet was created so that we wouldn&#039;t need books any longer?<br /></div>Well, e-books would qualify as books in my view.<br />I guess what I&#039;m trying to say is that if the OP is asking such general questions on an internet forum, it can mean that he simply is not ready to undertake the task of thoroughly securing his server.<br />So my general advice would be that he document himself about the general principles, the different security layers, understand all the trade-offs and design choices that impact security and come back with a solid plan.<br /><br />The OP seems to have interesting ideas (on which I already commented) but a serious lack of experience. Lacking experience is allright as long as you know it and have the brains to think for yourself.<br /><br />Two general security principles : <br />&nbsp;- You can&#039;t have your cake and eat it too, there is *always* a trade-off between security and convenience, no exceptions.<br />&nbsp;- Don&#039;t code security-related stuff yourself, someone has probably already done it, and done it better than you. Use libraries as much as possible, not fancy ones, but mature ones. Don&#039;t hand-escape SQL, don&#039;t hash passwords yourself, etc. You get the idea.<br /></div><br />A book is a very good idea. That said- there are tons of them. Any you could recommend in particular? If not, I&#039;m sure amazon will help, but that said- I was thinking there might be others here who went through the same growing pains. :-)</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Best Security Practicies for a Novice: mySQL/Bitcoin Client</b><br />
+					Post by: <b>davout</b> on <b>February 05, 2013, 11:31:31 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=141192.msg1506456#msg1506456">Quote from: crazy_rabbit on February 05, 2013, 11:22:05 PM</a></div><div class="quote">A book is a very good idea. That said- there are tons of them. Any you could recommend in particular? If not, I&#039;m sure amazon will help, but that said- I was thinking there might be others here who went through the same growing pains. :-)<br /></div><br />I don&#039;t really have a specific book in mind, but if I see one I&#039;ll be sure to update this thread.<br />Part of the &quot;growing pains&quot; you mention is &quot;growing&quot;, and growing takes time and patience :)<br /><br />I wish you luck !</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Best Security Practicies for a Novice: mySQL/Bitcoin Client</b><br />
+					Post by: <b>BCB</b> on <b>February 05, 2013, 11:57:43 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Close all unnecessary ports.<br /><br />Only open ssh to admin&#039;s ip.<br /><br />Don&#039;t run a mail server, irc bouncer or chat client on the same server.<br /><br />If you can or if you can plan to scale run&nbsp; Bitcoind, Web Server and mysql on separate servers.<br /><br />Replicate mysql to a 4th server.&nbsp; <br /><br />Run Hourly encrypted backup on the Rep Server<br />Run Daily Encrypted back upon on the Main Mysql server<br />Save encrypted backup off-site daily.<br />Use an HSM to store and manage all private keys.<br /><br />Plan for complete failure and run monthly complete restore runs only from back up.<br /><br />implement fail over&nbsp; in co-located data centers.<br /><br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Best Security Practicies for a Novice: mySQL/Bitcoin Client</b><br />
+					Post by: <b>davout</b> on <b>February 06, 2013, 12:09:38 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=141192.msg1506550#msg1506550">Quote from: BCB on February 05, 2013, 11:57:43 PM</a></div><div class="quote">Close all unnecessary ports.<br /><br />Only open ssh to admin&#039;s ip.<br /><br />[...]<br /><br />Plan for complete failure and run monthly complete restore runs only from back up.<br /><br />implement fail over&nbsp; in co-located data centers.<br /></div>Slightly overkill for the OP if you ask me.<br />While you&#039;re at it you might want to add that everything should be hosted in a nuclear bunker. On Mars.<br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Best Security Practicies for a Novice: mySQL/Bitcoin Client</b><br />
+					Post by: <b>K1773R</b> on <b>February 06, 2013, 12:37:54 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=141192.msg1506580#msg1506580">Quote from: davout on February 06, 2013, 12:09:38 AM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=141192.msg1506550#msg1506550">Quote from: BCB on February 05, 2013, 11:57:43 PM</a></div><div class="quote">Close all unnecessary ports.<br /><br />Only open ssh to admin&#039;s ip.<br /><br />[...]<br /><br />Plan for complete failure and run monthly complete restore runs only from back up.<br /><br />implement fail over&nbsp; in co-located data centers.<br /></div>Slightly overkill for the OP if you ask me.<br />While you&#039;re at it you might want to add that everything should be hosted in a nuclear bunker. On Mars.<br /></div>so you have a service for hosting a server on mars? il take 1</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Best Security Practicies for a Novice: mySQL/Bitcoin Client</b><br />
+					Post by: <b>BCB</b> on <b>February 06, 2013, 12:40:43 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">yes this is extreme. Additional layers of security can be added with growth of value.<br /><br />But we&#039;ve seen it all in bitcoin.<br /><br />Compromised hosts<br /><br />exposed public keys<br /><br />unpatched zero day exploit<br /><br />trojans<br /><br />disappearing data that was not backed up.<br /><br />insider fraud.<br /><br />If you are dealing with anything of value exposed though an http interface you are vulnerable.<br /><br />You can never be too safe.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Best Security Practicies for a Novice: mySQL/Bitcoin Client</b><br />
+					Post by: <b>madmadmax</b> on <b>February 09, 2013, 02:21:27 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=141192.msg1503873#msg1503873">Quote from: crazy_rabbit on February 04, 2013, 11:18:23 PM</a></div><div class="quote">So I&#039;m working on a project that will hold bitcoins and of course, security is the most obvious risk/danger. <br /><br />On advice of the developer we have a specially compiled version of bitcoind (unnecessary RPC calls have been removed, as well as calls that pose a security risk). <br /><br />Bitcoind runs under a separate user than the php script. SSH/ftp into the server is only possible with keyfiles. <br /><br />All mysql calls are escaped so injection should (hopefully) be covered. <br /><br />A cold wallet is being implemented so the majority of funds are off-site. <br /><br />What other steps should I be keeping in mind? After some advice from a friend I&#039;m worried as well about somehow the database being compromised in some slight way as to affect imperceptible shifts in balances that I would be unable to detect.<br /><br />I toyed with the idea of every database entry having a hash generated from all the data and the hash being periodically verified against the database to check for manipulation. But is this realistic? <br /><br />Anyone have any more ideas? Thank you<br /></div><br />I am surprised that such an engine hasn&#039;t been developed for commercial websites yet...</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Best Security Practicies for a Novice: mySQL/Bitcoin Client</b><br />
+					Post by: <b>Scrat Acorns</b> on <b>February 09, 2013, 02:47:34 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=141192.msg1503873#msg1503873">Quote from: crazy_rabbit on February 04, 2013, 11:18:23 PM</a></div><div class="quote">All mysql calls are escaped so injection should (hopefully) be covered.<br /></div><br />I&#039;d make a habit of using prepared statements exclusively. No handcrafted SQL queries. All your parameters are sent as binary (or escaped automatically in some libs) and there is no need to escape. If you handcraft SQL queries there&#039;s a small chance you&#039;ll forget to escape something.<br /><br /><br /><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=141192.msg1504027#msg1504027">Quote from: CIYAM Open on February 05, 2013, 12:32:32 AM</a></div><div class="quote">Agreed that if you are storing information that is sensitive (such as email addresses or other more personal information) then it should be encrypted.<br /></div><br />This makes zero sense if the decryption key is stored on the same server.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Best Security Practicies for a Novice: mySQL/Bitcoin Client</b><br />
+					Post by: <b>crazy_rabbit</b> on <b>February 10, 2013, 06:27:38 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">What do people think about this service: <br /><br />http://www.dome9.com/<br /><br />If I am hosting on Amazon Ec2, they can use the API to shut off all the ports all the time, except for when you plan to login. It seems like a nice solution to shut down any open ports, additionally as I have a developer working with me, it allows me to at a later point keep an eye on when they are on the server as well, no? <br /><br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Best Security Practicies for a Novice: mySQL/Bitcoin Client</b><br />
+					Post by: <b>crazy_rabbit</b> on <b>February 10, 2013, 06:52:58 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=141192.msg1517076#msg1517076">Quote from: gweedo on February 10, 2013, 06:38:49 PM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=141192.msg1517043#msg1517043">Quote from: crazy_rabbit on February 10, 2013, 06:27:38 PM</a></div><div class="quote">What do people think about this service: <br /><br />http://www.dome9.com/<br /><br />If I am hosting on Amazon Ec2, they can use the API to shut off all the ports all the time, except for when you plan to login. It seems like a nice solution to shut down any open ports, additionally as I have a developer working with me, it allows me to at a later point keep an eye on when they are on the server as well, no? <br /></div><br />That is over kill for a bitcoin project, you should close the ports yourself, but 22,80,443 (if you have ssl) also if your worried about logins use ssh keys to login then you can easily remove them and that user could never come in or brute force your password. Why would you need to know when they log on to the server?<br /></div><br />Well although I trust my developer, I might in the future have additional developers- or even the developer could be compromised in some way I can&#039;t know. It seems to make more sense to say, okay can we do this? I&#039;ll open the server for this day for updates/fixes, and then have it close again after. I don&#039;t have to wonder if the developer/s log back in at a different time after the fix has been done. I know I can close things myself, but I&#039;m a novice. I&#039;d rather know I haven&#039;t overlooked something. </div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Best Security Practicies for a Novice: mySQL/Bitcoin Client</b><br />
+					Post by: <b>BCB</b> on <b>February 10, 2013, 06:54:50 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=141192.msg1517043#msg1517043">Quote from: crazy_rabbit on February 10, 2013, 06:27:38 PM</a></div><div class="quote">What do people think about this service: <br /><br />http://www.dome9.com/<br /><br />If I am hosting on Amazon Ec2, they can use the API to shut off all the ports all the time, except for when you plan to login. It seems like a nice solution to shut down any open ports, additionally as I have a developer working with me, it allows me to at a later point keep an eye on when they are on the server as well, no? <br /><br /><br /></div><br />crazy rabbit. &nbsp;Great option. &nbsp;Shut down all your ports except 80 and 443 and only allow access to 22 from the single ip or ips that need access.<br /><br />can&#039;t get any tighter then that.</div>
+					<br /><br />
+					<div align="center" class="smalltext">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank">Powered by SMF 1.1.19</a> | 
+<a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank">SMF &copy; 2006-2009, Simple Machines</a>
+		</span></div>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

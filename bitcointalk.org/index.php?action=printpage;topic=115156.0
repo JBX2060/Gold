@@ -1,0 +1,176 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+		<link rel="canonical" href="https://bitcointalk.org/index.php?topic=115156.0" />
+		<title>Print Page - Any way to get much faster confirmations?</title>
+		<style type="text/css">
+			body
+			{
+				color: black;
+				background-color: white;
+			}
+			body, td, .normaltext
+			{
+				font-family: Verdana, arial, helvetica, serif;
+				font-size: small;
+			}
+			*, a:link, a:visited, a:hover, a:active
+			{
+				color: black !important;
+			}
+			table
+			{
+				empty-cells: show;
+			}
+			.code
+			{
+				font-size: x-small;
+				font-family: monospace;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.quote
+			{
+				font-size: x-small;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.smalltext, .quoteheader, .codeheader
+			{
+				font-size: x-small;
+			}
+			.largetext
+			{
+				font-size: large;
+			}
+			hr
+			{
+				height: 1px;
+				border: 0;
+				color: black;
+				background-color: black;
+			}
+		</style>
+	</head>
+	<body>
+		<h1 class="largetext">Bitcoin Forum</h1>
+		<h2 class="normaltext">Bitcoin => Bitcoin Technical Support => Topic started by: CryptoFreak33 on October 03, 2012, 10:50:02 AM</h2>
+
+		<table width="90%" cellpadding="0" cellspacing="0" border="0">
+			<tr>
+				<td>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Any way to get much faster confirmations?</b><br />
+					Post by: <b>CryptoFreak33</b> on <b>October 03, 2012, 10:50:02 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Is there any way to get <i>much</i> faster confirmations?<br /><br />I&#039;m developing BitVendor (http://www.bitvendor.net) and really need to be able to receive at least 4 confirmations fairly quickly (like before the customer walks away with the vendors merchandise). Would upping the transaction fee accomplish this? How quickly can confirmations come?</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Any way to get much faster confirmations?</b><br />
+					Post by: <b>gusti</b> on <b>October 03, 2012, 11:43:11 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Check &quot;green address&quot; option from mtgox or bitpay.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Any way to get much faster confirmations?</b><br />
+					Post by: <b>Meni Rosenfeld</b> on <b>October 03, 2012, 11:57:50 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">No, there is practically nothing you can do to get 4 confirmations faster than 40 minutes on average.<br /><br />You need to check your assumptions. Why do you need 4 confirms? Double-spending is very unlikely to be a problem for physical PoS. In the future there will be ways to get instant confirmation for payments.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Any way to get much faster confirmations?</b><br />
+					Post by: <b>Remember remember the 5th of November</b> on <b>October 03, 2012, 01:41:55 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Sadly, this is the problem with Bitcoin, slow confirmations. I was recently at the supermarket, and this lady was paying with her debit card, but it took a while to sort things through as it was apparently cancelled. I had to wait around 10 minutes and the line had increased. If this is what I must endure if Bitcoin becomes global, then sorry, Bitcoin will be doomed to fail.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Any way to get much faster confirmations?</b><br />
+					Post by: <b>Meni Rosenfeld</b> on <b>October 03, 2012, 01:45:15 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=115156.msg1241859#msg1241859">Quote from: Remember remember the 5th of November on October 03, 2012, 01:41:55 PM</a></div><div class="quote">If this is what I must endure if Bitcoin becomes global, then sorry, Bitcoin will be doomed to fail.<br /></div>No, this is not what you will have to endure. Bitcoin enables layers for facilitating instant transaction on top of the raw blockchain.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Any way to get much faster confirmations?</b><br />
+					Post by: <b>Remember remember the 5th of November</b> on <b>October 03, 2012, 01:46:41 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=115156.msg1241866#msg1241866">Quote from: Meni Rosenfeld on October 03, 2012, 01:45:15 PM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=115156.msg1241859#msg1241859">Quote from: Remember remember the 5th of November on October 03, 2012, 01:41:55 PM</a></div><div class="quote">If this is what I must endure if Bitcoin becomes global, then sorry, Bitcoin will be doomed to fail.<br /></div>No, this is not what you will have to endure. Bitcoin enables layers for facilitating instant transaction on top of the raw blockchain.<br /></div>Instant on the risk that there will be no double spend.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Any way to get much faster confirmations?</b><br />
+					Post by: <b>Meni Rosenfeld</b> on <b>October 03, 2012, 01:55:11 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=115156.msg1241872#msg1241872">Quote from: Remember remember the 5th of November on October 03, 2012, 01:46:41 PM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=115156.msg1241866#msg1241866">Quote from: Meni Rosenfeld on October 03, 2012, 01:45:15 PM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=115156.msg1241859#msg1241859">Quote from: Remember remember the 5th of November on October 03, 2012, 01:41:55 PM</a></div><div class="quote">If this is what I must endure if Bitcoin becomes global, then sorry, Bitcoin will be doomed to fail.<br /></div>No, this is not what you will have to endure. Bitcoin enables layers for facilitating instant transaction on top of the raw blockchain.<br /></div>Instant on the risk that there will be no double spend.<br /></div>No, without such a risk. (If you want this risk you can do it right now with unconfirmed tx, no need for layers.) See this (https://bitcointalk.org/index.php?topic=91732.0) for one example of how this could work.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Any way to get much faster confirmations?</b><br />
+					Post by: <b>Vandroiy</b> on <b>October 03, 2012, 02:02:17 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">You don&#039;t need a globally recorded block chain transaction to buy things in your supermarket. If the supermarket screws you over, you go to a different one. Until then, you just trust them they don&#039;t steal a bag of food&#039;s worth from you.<br /><br />Such things can be handled by cheap payment processors, and if you&#039;re paranoid some block chain escrow to keep it from running with its user accounts. It&#039;s a complete waste of bandwidth and storage to do the single transactions on the block chain.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Any way to get much faster confirmations?</b><br />
+					Post by: <b>Meni Rosenfeld</b> on <b>October 03, 2012, 03:34:10 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=115156.msg1241909#msg1241909">Quote from: Vandroiy on October 03, 2012, 02:02:17 PM</a></div><div class="quote">You don&#039;t need a globally recorded block chain transaction to buy things in your supermarket. If the supermarket screws you over, you go to a different one. Until then, you just trust them they don&#039;t steal a bag of food&#039;s worth from you.<br /></div>The failure mode isn&#039;t the supermarket stealing from you; it&#039;s that to stop you from stealing from the supermarket with instant payment, you need to have something else than locally stored bitcoins. We don&#039;t yet have an easy-to-use &quot;something else&quot; which doesn&#039;t require trust, but we will.<br /><br /><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=115156.msg1241909#msg1241909">Quote from: Vandroiy on October 03, 2012, 02:02:17 PM</a></div><div class="quote">Such things can be handled by cheap payment processors, and if you&#039;re paranoid some block chain escrow to keep it from running with its user accounts. It&#039;s a complete waste of bandwidth and storage to do the single transactions on the block chain.<br /></div>The aggregate marginal cost of handling a transaction will likely be on the order of magnitude of a cent; this is not a good argument against having a supermarket purchase as a transaction on the blockchain. (Confirmation time arguably is.)<br /><br /><br /><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=115156.msg1242104#msg1242104">Quote from: gweedo on October 03, 2012, 03:30:03 PM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=115156.msg1241562#msg1241562">Quote from: CryptoFreak33 on October 03, 2012, 10:50:02 AM</a></div><div class="quote">Is there any way to get <i>much</i> faster confirmations?<br /><br />I&#039;m developing BitVendor (http://www.bitvendor.net) and really need to be able to receive at least 4 confirmations fairly quickly (like before the customer walks away with the vendors merchandise). Would upping the transaction fee accomplish this? How quickly can confirmations come?<br /></div><br />add more nodes, or/and pay a little more in your mining fee<br /></div>This only helps to prevent the first confirmation from being <i>more</i> than 10 minutes on average. It&#039;s completely useless for making it less than that.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Any way to get much faster confirmations?</b><br />
+					Post by: <b>malevolent</b> on <b>October 03, 2012, 03:35:40 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">I wouldn&#039;t bother waiting for 4 confirmations unless the transaction was in a four-digit range or higher (if it was a 5-digit or higher one maybe you should wait for 6 confirmations). <br />I&#039;m not sure about 0-conf transactions but 1-conf should be enough for anything below $500-1k (so most PoS transactions).<br /><br />You should first ask yourself a few questions:<br /><br />Who is able to do double-spends? <br />If they are, how much would it cost them? <br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Any way to get much faster confirmations?</b><br />
+					Post by: <b>Stephen Gornick</b> on <b>October 03, 2012, 06:43:49 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=115156.msg1241562#msg1241562">Quote from: CryptoFreak33 on October 03, 2012, 10:50:02 AM</a></div><div class="quote">Is there any way to get <i>much</i> faster confirmations?<br /></div><br />Well, you could work with SMPAKE, which will credit your Mt. Gox account after one confirmation (as long as your Mt. Gox account is verified, 2 confirmations with no verification.)<br /><br />&nbsp; - http://bitcointalk.org/index.php?topic=102176.0<br /><br />So simply obtain a Bitcoin address for payment from SMPAKE and give that to the customer.<br /><br />That cuts your problem down significantly.<br /><br />If you want 0/confirmations, just make sure the merchant&#039;s node is configured properly (no incoming transactions, explicit outgoing connection to well-connected nodes) and possibly offer to insure by assessing a small fee on each transaction that covers the cost should any race attacks or Finney attacks be succesful.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Any way to get much faster confirmations?</b><br />
+					Post by: <b>Remember remember the 5th of November</b> on <b>October 03, 2012, 07:22:00 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=115156.msg1242120#msg1242120">Quote from: malevolent on October 03, 2012, 03:35:40 PM</a></div><div class="quote">I wouldn&#039;t bother waiting for 4 confirmations unless the transaction was in a four-digit range or higher (if it was a 5-digit or higher one maybe you should wait for 6 confirmations). <br />I&#039;m not sure about 0-conf transactions but 1-conf should be enough for anything below $500-1k (so most PoS transactions).<br /><br />You should first ask yourself a few questions:<br /><br />Who is able to do double-spends? <br />If they are, how much would it cost them? <br /><br /></div>1 confirmation == 10 minutes. I can&#039;t go around wasting valuable time waiting to buy a soda.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Any way to get much faster confirmations?</b><br />
+					Post by: <b>Fjordbit</b> on <b>October 03, 2012, 07:31:27 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=115156.msg1242617#msg1242617">Quote from: Remember remember the 5th of November on October 03, 2012, 07:22:00 PM</a></div><div class="quote">1 confirmation == 10 minutes. I can&#039;t go around wasting valuable time waiting to buy a soda.<br /></div><br />How do you deal with the risk of customers charging back their visas? Simple, you don&#039;t. You just increase the margin on the products to account for occurrence of the fraud.<br /><br />By waiting less than 10 seconds, you will be able to validate a 0 confirm transaction doesn&#039;t have an existing double spend, so then you only have to worry about a Finney attack, which will be so rare that the money you save in not paying a credit card processor will more than make up for it.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Any way to get much faster confirmations?</b><br />
+					Post by: <b>CryptoFreak33</b> on <b>October 03, 2012, 10:53:02 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=115156.msg1242120#msg1242120">Quote from: malevolent on October 03, 2012, 03:35:40 PM</a></div><div class="quote">I wouldn&#039;t bother waiting for 4 confirmations unless the transaction was in a four-digit range or higher (if it was a 5-digit or higher one maybe you should wait for 6 confirmations). <br />I&#039;m not sure about 0-conf transactions but 1-conf should be enough for anything below $500-1k (so most PoS transactions).<br /><br />You should first ask yourself a few questions:<br /><br />Who is able to do double-spends? <br />If they are, how much would it cost them? <br /></div><br />Good points. I suppose I wanted to isolate my merchants as much as possible from being defrauded. I mean, if someone <i>does</i> double spend then it&#039;s not only going to hurt the merchant but it&#039;s going to hurt my software&#039;s reputation. <br /><br />I spent a good part of today reading up on how Bitcoin works though and I see how difficult double spending really is. I&#039;d doubt someone would was that much time and effort just to buy a hot dog or something under $1K. Your points are well taken.<br /><br />Thanks for the input!</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Any way to get much faster confirmations?</b><br />
+					Post by: <b>CryptoFreak33</b> on <b>October 03, 2012, 10:59:49 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=115156.msg1241648#msg1241648">Quote from: Meni Rosenfeld on October 03, 2012, 11:57:50 AM</a></div><div class="quote">No, there is practically nothing you can do to get 4 confirmations faster than 40 minutes on average.<br /><br />You need to check your assumptions. Why do you need 4 confirms? Double-spending is very unlikely to be a problem for physical PoS. In the future there will be ways to get instant confirmation for payments.<br /></div><br />You&#039;re right. Like I said in a previous reply, I was trying to overprotect my merchants. No need to do that since most merchants aren&#039;t going to be doing $5m sales in Bitcoin. Double spending really wouldn&#039;t be worth the effort for small transactions and, by the time Bitcoin is being widely used for large ones, there will be better systems in place for confirmations.<br /><br />Thanks!</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Any way to get much faster confirmations?</b><br />
+					Post by: <b>MysteryMiner</b> on <b>October 05, 2012, 09:57:19 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader">Quote</div><div class="quote">Is there any way to get much faster confirmations?</div>Yes. Invest money and buy all available ATI Radeon GPUs available in your and neighboring countries and build a large mining farm. For a next 2 weeks or slightly less You will be mining the blocks by yourself at a increased rate until difficulty adjusts. This will give you and everyone else faster confirmations.<div class="quoteheader">Quote</div><div class="quote">Sadly, this is the problem with Bitcoin, slow confirmations. I was recently at the supermarket, and this lady was paying with her debit card, but it took a while to sort things through as it was apparently cancelled. I had to wait around 10 minutes and the line had increased. If this is what I must endure if Bitcoin becomes global, then sorry, Bitcoin will be doomed to fail.</div>Bitcoins are not for replacing credit cards or cash for buying milk in supermarket. Bitcoins are for purchasing drugs on Silk Road, paying for hacker taking out your rival companies and so on. Bitcoins are a unique niche product.<br /><br />And someone might say that faster confirmations will increase blockchain size and bitcoins will fail because of that. IMHO Bitcoins are in the sweet spot with block generation speed.<br /><br />Any well connected node will spot double-spend almost instantly.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Any way to get much faster confirmations?</b><br />
+					Post by: <b>betatest512</b> on <b>October 06, 2012, 07:42:30 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=115156.msg1241603#msg1241603">Quote from: Chaang Noi (Goat) &#3594;&#3657;&#3634;&#3591;&#3609;&#3657;&#3629;&#3618; on October 03, 2012, 11:32:08 AM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=115156.msg1241562#msg1241562">Quote from: CryptoFreak33 on October 03, 2012, 10:50:02 AM</a></div><div class="quote">Is there any way to get <i>much</i> faster confirmations?<br /><br />I&#039;m developing BitVendor (http://www.bitvendor.net) and really need to be able to receive at least 4 confirmations fairly quickly (like before the customer walks away with the vendors merchandise). Would upping the transaction fee accomplish this? How quickly can confirmations come?<br /></div><br />Use LTC.&nbsp; litecoin.org <br /></div><br />+1</div>
+					<br /><br />
+					<div align="center" class="smalltext">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank">Powered by SMF 1.1.19</a> | 
+<a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank">SMF &copy; 2006-2009, Simple Machines</a>
+		</span></div>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

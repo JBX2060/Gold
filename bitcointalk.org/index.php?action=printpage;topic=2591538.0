@@ -1,0 +1,128 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+		<link rel="canonical" href="https://bitcointalk.org/index.php?topic=2591538.0" />
+		<title>Print Page - HELP: Bitcoin transaction to unknown address.</title>
+		<style type="text/css">
+			body
+			{
+				color: black;
+				background-color: white;
+			}
+			body, td, .normaltext
+			{
+				font-family: Verdana, arial, helvetica, serif;
+				font-size: small;
+			}
+			*, a:link, a:visited, a:hover, a:active
+			{
+				color: black !important;
+			}
+			table
+			{
+				empty-cells: show;
+			}
+			.code
+			{
+				font-size: x-small;
+				font-family: monospace;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.quote
+			{
+				font-size: x-small;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.smalltext, .quoteheader, .codeheader
+			{
+				font-size: x-small;
+			}
+			.largetext
+			{
+				font-size: large;
+			}
+			hr
+			{
+				height: 1px;
+				border: 0;
+				color: black;
+				background-color: black;
+			}
+		</style>
+	</head>
+	<body>
+		<h1 class="largetext">Bitcoin Forum</h1>
+		<h2 class="normaltext">Bitcoin => Bitcoin Technical Support => Topic started by: zkcry87 on December 15, 2017, 03:59:55 PM</h2>
+
+		<table width="90%" cellpadding="0" cellspacing="0" border="0">
+			<tr>
+				<td>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>HELP: Bitcoin transaction to unknown address.</b><br />
+					Post by: <b>zkcry87</b> on <b>December 15, 2017, 03:59:55 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Hi,<br /><br />I had some Bitcoin on my Electrum wallet. I transferred a very small amount to Binance. When I checked my Electrum wallet, nearly all of the Bitcoin was gone. I checked the Blockchain and there were three transactions from my Electrum wallet address. Two of them were small and went to Binance. However, there was another transaction at exactly the same time which transferred nearly all of the BTC in my wallet to an address that I do not recognise. What&#039;s happened? </div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: HELP: Bitcoin transaction to unknown address.</b><br />
+					Post by: <b>racquemis</b> on <b>December 15, 2017, 04:08:38 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Should not be a problem... Your wallet created a new address and send the rest of your coins to that address. As soon as it confirms you should see your btc again.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: HELP: Bitcoin transaction to unknown address.</b><br />
+					Post by: <b>zkcry87</b> on <b>December 15, 2017, 04:12:55 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=2591538.msg26383633#msg26383633">Quote from: racquemis on December 15, 2017, 04:08:38 PM</a></div><div class="quote">Should not be a problem... Your wallet created a new address and send the rest of your coins to that address. As soon as it confirms you should see your btc again.<br /></div><br />The transactions are confirmed yet my balance is almost zero... There is a very small amount of bitcoin left at this address and despite all transactions being confirmed, my balance is nearly zero.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: HELP: Bitcoin transaction to unknown address.</b><br />
+					Post by: <b>DannyHamilton</b> on <b>December 15, 2017, 04:21:23 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=2591538.msg26383816#msg26383816">Quote from: zkcry87 on December 15, 2017, 04:12:55 PM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=2591538.msg26383633#msg26383633">Quote from: racquemis on December 15, 2017, 04:08:38 PM</a></div><div class="quote">Should not be a problem... Your wallet created a new address and send the rest of your coins to that address. As soon as it confirms you should see your btc again.<br /></div><br />The transactions are confirmed yet my balance is almost zero... There is a very small amount of bitcoin left at this address and despite all transactions being confirmed, my balance is nearly zero.<br /></div><br />What is the transaction ID of the transaction that &quot;transferred nearly all of the BTC in your wallet to an address that you do not recognise&quot;.<br /><br />And/or<br /><br />What is the address that the bitcoins were transferred to?</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: HELP: Bitcoin transaction to unknown address.</b><br />
+					Post by: <b>zkcry87</b> on <b>December 15, 2017, 04:26:43 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=2591538.msg26384259#msg26384259">Quote from: DannyHamilton on December 15, 2017, 04:21:23 PM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=2591538.msg26383816#msg26383816">Quote from: zkcry87 on December 15, 2017, 04:12:55 PM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=2591538.msg26383633#msg26383633">Quote from: racquemis on December 15, 2017, 04:08:38 PM</a></div><div class="quote">Should not be a problem... Your wallet created a new address and send the rest of your coins to that address. As soon as it confirms you should see your btc again.<br /></div><br />The transactions are confirmed yet my balance is almost zero... There is a very small amount of bitcoin left at this address and despite all transactions being confirmed, my balance is nearly zero.<br /></div><br />What is the transaction ID of the transaction that &quot;transferred nearly all of the BTC in your wallet to an address that you do not recognise&quot;.<br /><br />And/or<br /><br />What is the address that the bitcoins were transferred to?<br /></div><br />This is the transaction ID : https://blockchain.info/tx/2b56f35244a51e81ce9c6869dcdc464d0dbc64e4f3923c57d3f0a92163fd3e99<br /><br />Address they were transferred to : https://blockchain.info/address/18HTyd4UyXYAmCRRkDjtKMuBeDbjUo8HUx<br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: HELP: Bitcoin transaction to unknown address.</b><br />
+					Post by: <b>DannyHamilton</b> on <b>December 15, 2017, 04:32:47 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=2591538.msg26384526#msg26384526">Quote from: zkcry87 on December 15, 2017, 04:26:43 PM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=2591538.msg26384259#msg26384259">Quote from: DannyHamilton on December 15, 2017, 04:21:23 PM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=2591538.msg26383816#msg26383816">Quote from: zkcry87 on December 15, 2017, 04:12:55 PM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=2591538.msg26383633#msg26383633">Quote from: racquemis on December 15, 2017, 04:08:38 PM</a></div><div class="quote">Should not be a problem... Your wallet created a new address and send the rest of your coins to that address. As soon as it confirms you should see your btc again.<br /></div>The transactions are confirmed yet my balance is almost zero... There is a very small amount of bitcoin left at this address and despite all transactions being confirmed, my balance is nearly zero.<br /></div>What is the transaction ID of the transaction that &quot;transferred nearly all of the BTC in your wallet to an address that you do not recognise&quot;.<br /><br />And/or<br /><br />What is the address that the bitcoins were transferred to?<br /></div>This is the transaction ID : https://blockchain.info/tx/2b56f35244a51e81ce9c6869dcdc464d0dbc64e4f3923c57d3f0a92163fd3e99<br /><br />Address they were transferred to : https://blockchain.info/address/18HTyd4UyXYAmCRRkDjtKMuBeDbjUo8HUx<br /></div><br />It looks like you decided to use TrustedCoin 2FA without paying attention to the fact that there is a fee associated with that service:<br /><br />https://api.trustedcoin.com/#/electrum-help<br /><br /><a href="https://i.imgur.com/Qzy4hb7.png">https://i.imgur.com/Qzy4hb7.png</a></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: HELP: Bitcoin transaction to unknown address.</b><br />
+					Post by: <b>zkcry87</b> on <b>December 15, 2017, 04:37:50 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=2591538.msg26384840#msg26384840">Quote from: DannyHamilton on December 15, 2017, 04:32:47 PM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=2591538.msg26384526#msg26384526">Quote from: zkcry87 on December 15, 2017, 04:26:43 PM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=2591538.msg26384259#msg26384259">Quote from: DannyHamilton on December 15, 2017, 04:21:23 PM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=2591538.msg26383816#msg26383816">Quote from: zkcry87 on December 15, 2017, 04:12:55 PM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=2591538.msg26383633#msg26383633">Quote from: racquemis on December 15, 2017, 04:08:38 PM</a></div><div class="quote">Should not be a problem... Your wallet created a new address and send the rest of your coins to that address. As soon as it confirms you should see your btc again.<br /></div>The transactions are confirmed yet my balance is almost zero... There is a very small amount of bitcoin left at this address and despite all transactions being confirmed, my balance is nearly zero.<br /></div>What is the transaction ID of the transaction that &quot;transferred nearly all of the BTC in your wallet to an address that you do not recognise&quot;.<br /><br />And/or<br /><br />What is the address that the bitcoins were transferred to?<br /></div>This is the transaction ID : https://blockchain.info/tx/2b56f35244a51e81ce9c6869dcdc464d0dbc64e4f3923c57d3f0a92163fd3e99<br /><br />Address they were transferred to : https://blockchain.info/address/18HTyd4UyXYAmCRRkDjtKMuBeDbjUo8HUx<br /></div><br />It looks like you decided to use TrustedCoin 2FA without paying attention to the fact that there is a fee associated with that service:<br /><br /><br />https://api.trustedcoin.com/#/electrum-help<br /><br /><a href="https://i.imgur.com/Qzy4hb7.png">https://i.imgur.com/Qzy4hb7.png</a><br /></div><br /><br />Ah is that definitely what it is?</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: HELP: Bitcoin transaction to unknown address.</b><br />
+					Post by: <b>Derdemon</b> on <b>December 15, 2017, 06:48:09 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Check your clipboard. Maybe its clipboard stealer. Use clcl to check (download in internet or download mine https://drive.google.com/open?id=1s1cKZPFTZurcLRZNyyr1OjVNavdk1WSL)</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: HELP: Bitcoin transaction to unknown address.</b><br />
+					Post by: <b>HCP</b> on <b>December 16, 2017, 02:31:36 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=2591538.msg26385107#msg26385107">Quote from: zkcry87 on December 15, 2017, 04:37:50 PM</a></div><div class="quote">Ah is that definitely what it is?<br /></div>I would wager 0.002 BTC that this is DEFINITELY what it is... especially if your Electrum wallet says [2fa] in the title bar next to the wallet name.<br /><br />It is simply the prepayment for 20x 2FA transaction credits... if you click the little blue shield icon in the bottom right corner, you&#039;ll notice you now have 19 credits (your transaction used up one):<br /><a href="https://i.imgur.com/gQRoWci.png">https://i.imgur.com/gQRoWci.png</a></div>
+					<br /><br />
+					<div align="center" class="smalltext">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank">Powered by SMF 1.1.19</a> | 
+<a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank">SMF &copy; 2006-2009, Simple Machines</a>
+		</span></div>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

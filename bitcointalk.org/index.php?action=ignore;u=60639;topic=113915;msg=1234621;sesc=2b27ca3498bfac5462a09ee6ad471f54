@@ -1,0 +1,338 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+	<meta name="description" content="Login" />
+	<meta http-equiv="Content-Language" content="en" />
+	<meta name="keywords" content="bitcoin, forum, bitcoin forum, bitcointalk" />
+	<script language="JavaScript" type="text/javascript" src="https://bitcointalk.org/Themes/default/script.js"></script>
+	<script language="JavaScript" type="text/javascript"><!-- // --><![CDATA[
+		var smf_theme_url = "https://bitcointalk.org/Themes/custom1";
+		var smf_images_url = "https://bitcointalk.org/Themes/custom1/images";
+		var smf_scripturl = "https://bitcointalk.org/index.php";
+		var smf_iso_case_folding = false;
+		var smf_charset = "ISO-8859-1";
+	// ]]></script>
+	<title>Login</title><!--fcc9f968dd7b498b0cedb3bb7cb2bdb11492b100c2ff6e69b27c05274bbde428b08b0cedb3bb7cb2bdb11492b100c2ff6e62a5c-->
+	<link rel="stylesheet" type="text/css" href="https://bitcointalk.org/Themes/custom1/style.css" />
+	 <!--[if !IE]> -->
+	 <link rel="stylesheet" type="text/css" media="only screen and (min-device-width: 320px) and (max-device-width: 650px)" href="https://bitcointalk.org/Themes/custom1/mobile.css" />
+	 <!-- <![endif]-->
+	<link rel="stylesheet" type="text/css" href="https://bitcointalk.org/Themes/default/print.css" media="print" /><style type="text/css">
+.DGfclGsrbRGkOHUzoTuEfQ > td {background-color: #E5E5E8; text-align:center;}
+.DGfclGsrbRGkOHUzoTuEfQ > td > table {margin-top:-5px}
+.DGfclGsrbRGkOHUzoTuEfQ .LYaXJbQfqKJCEykvtamfcw {display:inline-block;max-width:100%; min-width:100%; max-height:47px; overflow:hidden}
+.DGfclGsrbRGkOHUzoTuEfQ table,.DGfclGsrbRGkOHUzoTuEfQ tbody,.DGfclGsrbRGkOHUzoTuEfQ tr,.DGfclGsrbRGkOHUzoTuEfQ td {display:inline-block;max-width:100%; min-width:100%; overflow:hidden}
+.DGfclGsrbRGkOHUzoTuEfQ .LYaXJbQfqKJCEykvtamfcw table,.DGfclGsrbRGkOHUzoTuEfQ .LYaXJbQfqKJCEykvtamfcw tbody,.DGfclGsrbRGkOHUzoTuEfQ .LYaXJbQfqKJCEykvtamfcw tr,.DGfclGsrbRGkOHUzoTuEfQ .LYaXJbQfqKJCEykvtamfcw td {display:initial; max-width:none;min-width:none;overflow:visible}
+.isvoGPObaUuicLgJZoxxGg {display:none !important}
+.yWXoeSbjoBdjYIqEqRYjxg {display:none}
+.XxMcwxUoQoLVAIOcvuSMxQ {padding: 1px 1px 0 1px;}
+.pyHNDsfrGhYguRyVxrDsbQ{color:#699C62; font-weight:bold; font-size:18px}
+.pyHNDsfrGhYguRyVxrDsbQ:link{color:#699C62; font-weight:bold; font-size:18px}
+.pyHNDsfrGhYguRyVxrDsbQ:visited{color:#699C62; font-weight:bold; font-size:18px}
+.xpSXQEoghjiFgYRFCnbpTw{color:#00F30C;font-size:15px;font-weight:bold}
+.xpSXQEoghjiFgYRFCnbpTw:link{color:#00F30C;font-size:15px;font-weight:bold}
+.xpSXQEoghjiFgYRFCnbpTw:visited{color:#00F30C;font-size:15px;font-weight:bold}
+.qIIhnBJjUQZatgAdgYBAdA{font-size:x-small}
+
+.ShHgbNmMyMTYDBhfkMETVA:link {font-size:22px;font-weight:bold;color:orange}
+.ShHgbNmMyMTYDBhfkMETVA:active {font-size:22px;font-weight:bold;color:orange}
+.ShHgbNmMyMTYDBhfkMETVA:visited {font-size:22px;font-weight:bold;color:orange}
+.ShHgbNmMyMTYDBhfkMETVA:hover {text-decoration:none !important;color:red}
+.ghqHyyvrxJWYsPtJanyXDA:link {font-size:24px;font-weight:bold;color:rgb(250,180,75)}
+.ghqHyyvrxJWYsPtJanyXDA:active {font-size:24px;font-weight:bold;color:rgb(250,180,75)}
+.ghqHyyvrxJWYsPtJanyXDA:visited {font-size:24px;font-weight:bold;color:rgb(250,180,75)}
+.ghqHyyvrxJWYsPtJanyXDA:hover {text-decoration:none !important;color:white;background-color:rgb(181,204,222)}
+.ghqHyyvrxJWYsPtJanyXDA {display:inline-block;margin: 3px;0;3px;0}
+.PxaAWaDplxyeShbfzdXcsw:hover {text-decoration:none !important;}
+.PxaAWaDplxyeShbfzdXcsw {font-size:22px;font-weight:bold;}
+.OSVDWlfcfhljjtpvTYrxWw {   width: 900px;   height: 44px;   max-width: 100%;   background: #5CB9F7;   display: flex;   justify-content: space-between;   align-items: center;   text-decoration: none !important;   font-size: 16px;   color: #fff !important;   font-family: arial, sans-serif;   overflow: hidden; }    .OSVDWlfcfhljjtpvTYrxWw button {     border: none;     background: #8EE000;     color: #fff;     outline: none;     font-size: 1em;     padding: 0.5em 1.2em;     margin-left: 0.3em;     border-radius: 2em;     text-transform: uppercase;     font-weight: 600;     pointer-events: none;   }    .OSVDWlfcfhljjtpvTYrxWw:hover .fZtmMPdhdEbfdAnhxhbPbw span {   display: none; }  .OSVDWlfcfhljjtpvTYrxWw:hover .fZtmMPdhdEbfdAnhxhbPbw span:nth-child(2) {   display: block; }  .fZtmMPdhdEbfdAnhxhbPbw {   display: flex;   align-items: center; }    .fZtmMPdhdEbfdAnhxhbPbw span {   margin-left: 0.1em;   font-size: 1em;   font-weight: 700;   letter-spacing: 0.5px;   font-size: 20px;   width: 11em;   text-align: center; }  .hDzejVLgaGdMPCMxWmoxJQ {   display: inline-block; }  .fZtmMPdhdEbfdAnhxhbPbw span:nth-child(2) {   display: none; }  .BeOJjgbmSjISvLqziHnkaA {   display: flex;   background: #586A91;   height: 44px;   align-items: center;   justify-content: center;   padding: 0 1em 0 0.5em;   position: relative;   z-index: 2; }    .BeOJjgbmSjISvLqziHnkaA:after {   position: absolute;   right: 100%;   top: 50%;   content: "";   width: 36px;   height: 36px;   background: #586A91;   border-radius: 0.5em;   transform: translate(50%, -50%) rotate(45deg);   z-index: -1; }    .BeOJjgbmSjISvLqziHnkaA > span {   margin-right: 1em;   font-weight: 600;   font-size: 16px;   letter-spacing: 0.5px;   margin-top: 0.1em; }  @media (max-width: 725px) {   .OSVDWlfcfhljjtpvTYrxWw button {     display: none;   }   .fZtmMPdhdEbfdAnhxhbPbw {     margin-left: 1em;   } }   @media (max-width: 550px) {   .BeOJjgbmSjISvLqziHnkaA span span {     display: none;   } }  @media (max-width: 465px) {   .BeOJjgbmSjISvLqziHnkaA {     display: none;   }   .OSVDWlfcfhljjtpvTYrxWw {     justify-content: center;   } }
+.CpUPjDthIxKxcLjBWQVtPQ {   width: 900px;   height: 44px;   max-width: 100%;   background: #5CB9F7;   display: flex;   justify-content: space-between;   align-items: center;   text-decoration: none !important;   font-size: 16px;   color: #fff !important;   font-family: arial, sans-serif;   overflow: hidden; }    .CpUPjDthIxKxcLjBWQVtPQ button {     border: none;     background: #8EE000;     color: #fff;     outline: none;     font-size: 1em;     padding: 0.5em 1.2em;     margin-left: 0.4em;     border-radius: 2em;     text-transform: uppercase;     font-weight: 600; cursor:pointer; transition: all 0.3s;   } button:hover{transform: scale(1.05);}    .KNQIGjTkZlYzgWMIdNmBsw:hover span{   display: none; }  .KNQIGjTkZlYzgWMIdNmBsw:hover span:nth-child(2) {   display: block; }  .KNQIGjTkZlYzgWMIdNmBsw {   display: flex;   align-items: center; color:#fff}    .KNQIGjTkZlYzgWMIdNmBsw span {   margin-left: 0.1em;   font-size: 1em;   font-weight: 700;   letter-spacing: 0.5px;   font-size: 20px;   width: 11em;   text-align: center; }  .DSVegpBcFwXmznyWcvMbYQ {   display: inline-block; }  .KNQIGjTkZlYzgWMIdNmBsw span:nth-child(2) {   display: none; }  .fRkOzOFyggFBoYelcvsccA {   display: flex;   background: #586A91;   height: 44px;   align-items: center;   justify-content: center;   padding: 0 1em 0 0.5em;   position: relative;   z-index: 2; }    .fRkOzOFyggFBoYelcvsccA:after {   position: absolute;   right: 100%;   top: 50%;   content: "";   width: 36px;   height: 36px;   background: #586A91;   border-radius: 0.5em;   transform: translate(50%, -50%) rotate(45deg);   z-index: -1; }    .fRkOzOFyggFBoYelcvsccA > span {   margin-right: 1em;   font-weight: 600;   font-size: 16px;   letter-spacing: 0.5px;   margin-top: 0.1em; }  @media (max-width: 725px) {   .CpUPjDthIxKxcLjBWQVtPQ button {     display: none;   }   .KNQIGjTkZlYzgWMIdNmBsw {     margin-left: 1em;   } }   @media (max-width: 550px) {   .fRkOzOFyggFBoYelcvsccA span span {     display: none;   } }  @media (max-width: 465px) {   .fRkOzOFyggFBoYelcvsccA {     display: none;   }   .CpUPjDthIxKxcLjBWQVtPQ {     justify-content: center;   } }
+.OSVDWlfcfhljjtpvTYrxWw {   width: 900px;   height: 44px;   max-width: 100%;   background: #5CB9F7;   display: flex;   justify-content: space-between;   align-items: center;   text-decoration: none !important;   font-size: 16px;   color: #fff !important;   font-family: arial, sans-serif;   overflow: hidden; }    .OSVDWlfcfhljjtpvTYrxWw button {   border: none;   background: #8EE000;   color: #fff;   outline: none;   font-size: 1em;   padding: 0.5em 1.2em;   margin-left: 0.4em;   border-radius: 2em;   text-transform: uppercase;   font-weight: 600;   cursor: pointer;   transition: all 0.3s; }  button:hover {   transform: scale(1.05); }  .fZtmMPdhdEbfdAnhxhbPbw:hover span {   display: none; }  .fZtmMPdhdEbfdAnhxhbPbw:hover span:nth-child(2) {   display: block; }  .fZtmMPdhdEbfdAnhxhbPbw {   display: flex;   align-items: center;   color: #fff; }    .fZtmMPdhdEbfdAnhxhbPbw span {   margin-left: 0.1em;   font-size: 1em;   font-weight: 700;   letter-spacing: 0.5px;   font-size: 20px;   width: 11em;   text-align: center; }  .hDzejVLgaGdMPCMxWmoxJQ {   display: inline-block; }  .fZtmMPdhdEbfdAnhxhbPbw span:nth-child(2) {   display: none; }  .BeOJjgbmSjISvLqziHnkaA {   display: flex;   background: #586A91;   height: 44px;   align-items: center;   justify-content: center;   padding: 0 1em 0 0.5em;   position: relative;   z-index: 2; }    .BeOJjgbmSjISvLqziHnkaA:after {   position: absolute;   right: 100%;   top: 50%;   content: "";   width: 36px;   height: 36px;   background: #586A91;   border-radius: 0.5em;   transform: translate(50%, -50%) rotate(45deg);   z-index: -1; }    .BeOJjgbmSjISvLqziHnkaA > span {   margin-right: 1em;   font-weight: 600;   font-size: 16px;   letter-spacing: 0.5px;   margin-top: 0.1em; }  @media (max-width: 725px) {   .OSVDWlfcfhljjtpvTYrxWw button {     display: none;   }   .fZtmMPdhdEbfdAnhxhbPbw {     margin-left: 1em;   } }   @media (max-width: 550px) {   .BeOJjgbmSjISvLqziHnkaA span span {     display: none;   } }  @media (max-width: 465px) {   .BeOJjgbmSjISvLqziHnkaA {     display: none;   }   .OSVDWlfcfhljjtpvTYrxWw {     justify-content: center;   } }
+.CpUPjDthIxKxcLjBWQVtPQ {   width: 900px;   height: 44px;   max-width: 100%;   background: #fff;   display: flex;   justify-content: space-between;   align-items: center;   text-decoration: none !important;   font-size: 16px;   color: #fff !important;   font-family: arial, sans-serif;   overflow: hidden; }    .CpUPjDthIxKxcLjBWQVtPQ button {   border: none;   background: #8EE000;   color: #fff;   outline: none;   font-size: 1em;   padding: 0.5em 1.2em;   margin-left: 0.4em;   border-radius: 2em;   text-transform: uppercase;   font-weight: 600;   cursor: pointer;   transition: all 0.3s; }  button:hover {   transform: scale(1.05); }  .KNQIGjTkZlYzgWMIdNmBsw:hover span {   display: none; }  .KNQIGjTkZlYzgWMIdNmBsw:hover span:nth-child(2) {   display: block; }  .KNQIGjTkZlYzgWMIdNmBsw {   display: flex;   align-items: center;   color: #5CB9F7; }    .KNQIGjTkZlYzgWMIdNmBsw span {   margin-left: 0.1em;   font-size: 1em;   font-weight: 700;   letter-spacing: 0.5px;   font-size: 20px;   width: 11em;   text-align: center; }  .DSVegpBcFwXmznyWcvMbYQ {   display: inline-block; }  .KNQIGjTkZlYzgWMIdNmBsw span:nth-child(2) {   display: none; }  .fRkOzOFyggFBoYelcvsccA {   display: flex;   background: #586A91;   height: 44px;   align-items: center;   justify-content: center;   padding: 0 1em 0 0.5em;   position: relative;   z-index: 2; }    .fRkOzOFyggFBoYelcvsccA:after {   position: absolute;   right: 100%;   top: 50%;   content: "";   width: 36px;   height: 36px;   background: #586A91;   border-radius: 0.5em;   transform: translate(50%, -50%) rotate(45deg);   z-index: -1; }    .fRkOzOFyggFBoYelcvsccA > span {   margin-right: 1em;   font-weight: 600;   font-size: 16px;   letter-spacing: 0.5px;   margin-top: 0.1em; }  @media (max-width: 725px) {   .CpUPjDthIxKxcLjBWQVtPQ button {     display: none;   }   .KNQIGjTkZlYzgWMIdNmBsw {     margin-left: 1em;   } }   @media (max-width: 550px) {   .fRkOzOFyggFBoYelcvsccA span span {     display: none;   } }  @media (max-width: 465px) {   .fRkOzOFyggFBoYelcvsccA {     display: none;   }   .CpUPjDthIxKxcLjBWQVtPQ {     justify-content: center;   } }
+.cQiJICeyagZAmQrCzOamSw {   width: 900px;   height: 44px;   margin: 0 auto;   background: #fff;   max-width: 100%;   display: flex;   justify-content: space-between;   align-items: center;   text-decoration: none !important;   color: #000 !important;   font-family: arial, sans-serif;   overflow: hidden; } .cQiJICeyagZAmQrCzOamSw:hover {   color: #fff;   background: #715AD0; } .cQiJICeyagZAmQrCzOamSw:hover .EeDbjfCkcjpVoCsJMUnGZA span:nth-child(1) {   display: none; } .cQiJICeyagZAmQrCzOamSw:hover .EeDbjfCkcjpVoCsJMUnGZA span:nth-child(2) {   display: block; } .cQiJICeyagZAmQrCzOamSw:hover .UuyisqlwsozwVzkOJNaGxg span:nth-child(1) {   display: none;   color: #000; } .cQiJICeyagZAmQrCzOamSw:hover .UuyisqlwsozwVzkOJNaGxg span:nth-child(2) {   display: block;   color: #000; } .cQiJICeyagZAmQrCzOamSw:hover .EeDbjfCkcjpVoCsJMUnGZA {   background: #fff;   color: #000; } .cQiJICeyagZAmQrCzOamSw:hover .UuyisqlwsozwVzkOJNaGxg {   background: #fff;   color: #000; } .cQiJICeyagZAmQrCzOamSw:hover .EeDbjfCkcjpVoCsJMUnGZA:after {   background: #715AD0; } .cQiJICeyagZAmQrCzOamSw:hover .EeDbjfCkcjpVoCsJMUnGZA:before {   background: #715AD0; } .cQiJICeyagZAmQrCzOamSw:hover .EeDbjfCkcjpVoCsJMUnGZA span {   color: #000; } .cQiJICeyagZAmQrCzOamSw:hover .UuyisqlwsozwVzkOJNaGxg:after {   background: #715AD0; } .cQiJICeyagZAmQrCzOamSw:hover .UuyisqlwsozwVzkOJNaGxg:before {   background: #715AD0; } .cQiJICeyagZAmQrCzOamSw:hover .jRtezihjslcaNDojGcLPXA {   color: #fff; } .cQiJICeyagZAmQrCzOamSw:hover .jRtezihjslcaNDojGcLPXA:before {   background: #fff; } .cQiJICeyagZAmQrCzOamSw:hover .jRtezihjslcaNDojGcLPXA:after {   background: #fff; } .cQiJICeyagZAmQrCzOamSw .jRtezihjslcaNDojGcLPXA {   display: flex;   height: 32px;   align-items: center;   justify-content: center;   border-radius: 5px;   padding: 0 1em;   position: relative;   z-index: 2;   font-size: 18px;   color: #000;   width: 160px; } .cQiJICeyagZAmQrCzOamSw .jRtezihjslcaNDojGcLPXA:after{   position: absolute;   right: 98%;   top: 50%;   content: "";   width: 25px;   height: 25px;   background: #715AD0;   border-radius: 0.3em;   transform: translate(50%, -50%) rotate(45deg);   z-index: -1; } .cQiJICeyagZAmQrCzOamSw .jRtezihjslcaNDojGcLPXA:before{   position: absolute;   right: 2%;   top: 50%;   content: "";   width: 25px;   height: 25px;   background: #715AD0;   border-radius: 0.3em;   transform: translate(50%, -50%) rotate(45deg);   z-index: -1; } .cQiJICeyagZAmQrCzOamSw .jRtezihjslcaNDojGcLPXA span {   font-size: 26px;   font-family: Existence;   font-weight: 600; } .cQiJICeyagZAmQrCzOamSw .jRtezihjslcaNDojGcLPXA span:hover {   color: #fff;   text-decoration: none; } .cQiJICeyagZAmQrCzOamSw .EeDbjfCkcjpVoCsJMUnGZA {   display: flex;   background: #715AD0;   height: 30px;   align-items: center;   justify-content: center;   border-radius: 5px;   padding: 0 1em;   margin-left: 1em;   position: relative;   z-index: 2;   font-size: 14px;   color: #fff;   width: 220px } .cQiJICeyagZAmQrCzOamSw .EeDbjfCkcjpVoCsJMUnGZA:after{   position: absolute;   right: 102%;   top: 50%;   content: "";   width: 18px;   height: 18px;   background: #fff;   border-radius: 0.3em;   transform: translate(50%, -50%) rotate(45deg);   z-index: 2; } .cQiJICeyagZAmQrCzOamSw .EeDbjfCkcjpVoCsJMUnGZA:before{   position: absolute;   right: -2%;   top: 50%;   content: "";   width: 18px;   height: 18px;   background: #fff;   border-radius: 0.3em;   transform: translate(50%, -50%) rotate(45deg);   z-index: 3; } .cQiJICeyagZAmQrCzOamSw .EeDbjfCkcjpVoCsJMUnGZA span {   color: #fff;   font-size: 13px;   line-height: 13px; } .cQiJICeyagZAmQrCzOamSw .EeDbjfCkcjpVoCsJMUnGZA span:nth-child(2) {   display: none; } .cQiJICeyagZAmQrCzOamSw .UuyisqlwsozwVzkOJNaGxg{   display: flex;   flex-direction: column;   height: 44px;   align-items: center;   justify-content: center;   padding: 0 1em;   position: relative;   z-index: 2;   width: 220px; } .cQiJICeyagZAmQrCzOamSw .UuyisqlwsozwVzkOJNaGxg span {   color: #fff;   font-size: 13px;   line-height: 13px; } .cQiJICeyagZAmQrCzOamSw .UuyisqlwsozwVzkOJNaGxg span:nth-child(2) {   display: none; } .cQiJICeyagZAmQrCzOamSw .UuyisqlwsozwVzkOJNaGxg {   display: flex;   background: #715AD0;   height: 30px;   align-items: center;   justify-content: center;   border-radius: 5px;   padding: 0 1em;   margin-right: 1em;   position: relative;   z-index: 2;   font-size: 14px;   color: #fff;   width: 220px } .cQiJICeyagZAmQrCzOamSw .UuyisqlwsozwVzkOJNaGxg:after{   position: absolute;   right: 102%;   top: 50%;   content: "";   width: 18px;   height: 18px;   background: #fff;   border-radius: 0.3em;   transform: translate(50%, -50%) rotate(45deg);   z-index: 2; } .cQiJICeyagZAmQrCzOamSw .UuyisqlwsozwVzkOJNaGxg:before{   position: absolute;   right: -2%;   top: 50%;   content: "";   width: 18px;   height: 18px;   background: #fff;   border-radius: 0.3em;   transform: translate(50%, -50%) rotate(45deg);   z-index: 3; }
+.ijbaVyfkayxQONziRIRSrQ {   width: 900px;   height: 44px;   margin: 0 auto;   background: #715AD0;   max-width: 100%;   display: flex;   justify-content: space-between;   align-items: center;   text-decoration: none !important;   color: #fff !important;   font-family: arial, sans-serif;   overflow: hidden; } .ijbaVyfkayxQONziRIRSrQ:hover {   color: #fff; } .ijbaVyfkayxQONziRIRSrQ:hover .GIsvvfdmOaARKxisKHREWQ span:nth-child(1) {   display: none; } .ijbaVyfkayxQONziRIRSrQ:hover .GIsvvfdmOaARKxisKHREWQ span:nth-child(2) {   display: block; } .ijbaVyfkayxQONziRIRSrQ:hover .MtybvkhygMjGGSSjgLsBLQ span:nth-child(2) {   display: none; } .ijbaVyfkayxQONziRIRSrQ:hover .MtybvkhygMjGGSSjgLsBLQ span:nth-child(3) {   display: block; } .ijbaVyfkayxQONziRIRSrQ .OJcXwNsNfDvUDzaQefYypA {   display: flex;   background: #fff;   height: 32px;   align-items: center;   justify-content: center;   border-radius: 5px;   padding: 0 1em;   margin-right: 1em;   position: relative;   z-index: 2;   font-size: 18px;   color: #000;   width: 150px } // forma mid 1 .ijbaVyfkayxQONziRIRSrQ .OJcXwNsNfDvUDzaQefYypA:after{   position: absolute;   right: 90%;   top: 115%;   content: "";   width: 22px;   height: 22px;   background: #715AD0;   border-radius: 0.3em;   transform: translate(50%, -50%) rotate(45deg);   z-index: -1; } .ijbaVyfkayxQONziRIRSrQ .OJcXwNsNfDvUDzaQefYypA:before{   position: absolute;   right: 10%;   top: -15%;   content: "";   width: 22px;   height: 22px;   background: #715AD0;   border-radius: 0.3em;   transform: translate(50%, -50%) rotate(45deg);   z-index: -1; } // forma mid 2 .ijbaVyfkayxQONziRIRSrQ .OJcXwNsNfDvUDzaQefYypA:after{   position: absolute;   right: 98%;   top: 50%;   content: "";   width: 25px;   height: 25px;   background: #fff;   border-radius: 0.3em;   transform: translate(50%, -50%) rotate(45deg);   z-index: -1; } .ijbaVyfkayxQONziRIRSrQ .OJcXwNsNfDvUDzaQefYypA:before{   position: absolute;   right: 2%;   top: 50%;   content: "";   width: 25px;   height: 25px;   background: #fff;   border-radius: 0.3em;   transform: translate(50%, -50%) rotate(45deg);   z-index: -1; } .ijbaVyfkayxQONziRIRSrQ .OJcXwNsNfDvUDzaQefYypA span {   font-size: 24px;   font-family: Existence;   font-weight: 600; } .ijbaVyfkayxQONziRIRSrQ .OJcXwNsNfDvUDzaQefYypA span:hover {   color: #000;   text-decoration: none; } .ijbaVyfkayxQONziRIRSrQ .GIsvvfdmOaARKxisKHREWQ {   display: flex;   height: 44px;   flex-direction: column;   align-items: center;   justify-content: center;   padding: 0 1em;   position: relative;   z-index: 2;   width: 230px; } .ijbaVyfkayxQONziRIRSrQ .GIsvvfdmOaARKxisKHREWQ:after{   position: absolute;   right: 81%;   top: 70%;   content: "";   width: 14px;   height: 14px;   background: #715AD0;   border-radius: 0.3em;   transform: translate(50%, -50%) rotate(45deg);   z-index: 2; } .ijbaVyfkayxQONziRIRSrQ .GIsvvfdmOaARKxisKHREWQ:before{   position: absolute;   right: 19%;   top: 70%;   content: "";   width: 14px;   height: 14px;   background: #715AD0;   border-radius: 0.3em;   transform: translate(50%, -50%) rotate(45deg);   z-index: 3; } .ijbaVyfkayxQONziRIRSrQ .GIsvvfdmOaARKxisKHREWQ span:nth-child(3) {   display: flex;   background: #fff;   height: 18px;   align-items: center;   justify-content: center;   border-radius: 5px;   padding: 0 1em;   margin-top: 0.35em;   position: relative;   z-index: 2;   font-size: 14px;   color: #000;   width: 130px } .ijbaVyfkayxQONziRIRSrQ .GIsvvfdmOaARKxisKHREWQ span {   color: #fff;   font-size: 13px;   line-height: 13px; } .ijbaVyfkayxQONziRIRSrQ .GIsvvfdmOaARKxisKHREWQ span:nth-child(2) {   display: none; } .ijbaVyfkayxQONziRIRSrQ .MtybvkhygMjGGSSjgLsBLQ{   display: flex;   flex-direction: column;   height: 44px;   align-items: center;   justify-content: center;   padding: 0 1em;   position: relative;   z-index: 2;   width: 230px; } .ijbaVyfkayxQONziRIRSrQ .MtybvkhygMjGGSSjgLsBLQ span {   color: #fff;   font-size: 13px;   line-height: 13px; } .ijbaVyfkayxQONziRIRSrQ .MtybvkhygMjGGSSjgLsBLQ span:nth-child(3) {   display: none; } .ijbaVyfkayxQONziRIRSrQ .MtybvkhygMjGGSSjgLsBLQ span:nth-child(1) {   display: flex;   background: #fff;   height: 18px;   align-items: center;   justify-content: center;   border-radius: 5px;   margin-bottom: 0.35em;   padding: 0 1em;   position: relative;   z-index: 2;   font-size: 14px;   color: #000;   width: 130px } .ijbaVyfkayxQONziRIRSrQ .MtybvkhygMjGGSSjgLsBLQ:after{   position: absolute;   right: 81%;   top: 30%;   content: "";   width: 14px;   height: 14px;   background: #715AD0;   border-radius: 0.3em;   transform: translate(50%, -50%) rotate(45deg);   z-index: 2; } .ijbaVyfkayxQONziRIRSrQ .MtybvkhygMjGGSSjgLsBLQ:before{   position: absolute;   right: 19%;   top: 30%;   content: "";   width: 14px;   height: 14px;   background: #715AD0;   border-radius: 0.3em;   transform: translate(50%, -50%) rotate(45deg);   z-index: 3; }
+.UkyMSEjgRyYgyfArhYQeEA {   background-color:#142155;   width:912px;   height:42px;   display:flex;   justify-content:flex-start;   align-items:center;   position:relative;   padding-left: 20px;   overflow: hidden; }  .UkyMSEjgRyYgyfArhYQeEA > a {   position: absolute;   width: 932px;   height: 42px;   margin-left: -20px;   z-index: 44; }  .UkyMSEjgRyYgyfArhYQeEA > img:nth-child(2) {   margin-right: 48px;   margin-bottom: 4px; }  .UkyMSEjgRyYgyfArhYQeEA > img:nth-child(3) {   margin-right: 48px;   opacity: 1;   transition: opacity 0.2s linear, margin-left 0.2s cubic-bezier(0.05, 0.8, 0.05, 0.8) 0.1s, margin-right 0.2s cubic-bezier(0.05, 0.8, 0.05, 0.8) 0.3s; }  .UkyMSEjgRyYgyfArhYQeEA > img:nth-child(4) {   margin-right: 14px;   transition: opacity 0.3s linear; }  .UkyMSEjgRyYgyfArhYQeEA > .TcQyixneONQhDQlfUQcNnQ {    background-color:#fff;    width:48px;    height:16px;    padding:4px 8px;    transition: opacity 0.3s linear; }  .UkyMSEjgRyYgyfArhYQeEA > .TcQyixneONQhDQlfUQcNnQ > img {    width:48px; }  .UkyMSEjgRyYgyfArhYQeEA > svg {    position:absolute;    top:0;    left:-184px; }  .UkyMSEjgRyYgyfArhYQeEA:hover > .ZBXnnqVtaPkvoyjtqIgJSw > .uOmecPiCTCGQLGkZTypPbg {   right: 0;   transition: all 0.3s cubic-bezier(0.05, 0.8, 0.05, 0.8); } .UkyMSEjgRyYgyfArhYQeEA:hover > img:nth-child(3) {   opacity: 0;   margin-left: 880px;   margin-right: 600px; } .UkyMSEjgRyYgyfArhYQeEA:hover > img:nth-child(4) {   opacity: 0; } .UkyMSEjgRyYgyfArhYQeEA:hover > .TcQyixneONQhDQlfUQcNnQ {   opacity: 0; }  .ZBXnnqVtaPkvoyjtqIgJSw {   position:absolute;   top:0;   right:0;   height:42px;   width:800px;   overflow: hidden; }  .ZBXnnqVtaPkvoyjtqIgJSw > .uOmecPiCTCGQLGkZTypPbg {   position: absolute;   height:42px;   width:760px;   right: -820px;   top: 0;   background-color:#fff;   transition: all 0.2s cubic-bezier(0.8, 0.3, 0.8, 0.3); }  .ZBXnnqVtaPkvoyjtqIgJSw > .uOmecPiCTCGQLGkZTypPbg::after {   content: "";   position: absolute;   border: 0px solid transparent;   border-top: 40px solid #fff;   border-left: 42px solid transparent;   width: 0;   height: 0;   top: 1px;   left: -40px;   transform: rotate(90deg); }  .ZBXnnqVtaPkvoyjtqIgJSw > .uOmecPiCTCGQLGkZTypPbg > img {   margin-left: 185px;   margin-top: 11px; }
+.RxcmHjxeubDdzPRyFxJHFw { 	width: 100%; 	max-height: 47px; 	height: 47px; 	border-radius: 8px; 	background: #009FFF; 	background: -webkit-linear-gradient(to right, #736df8, #ec2F4B); 	background: -webkit-gradient(linear, left top, right top, from(#736df8), to(#ec2F4B)); 	background: -webkit-linear-gradient(left, #736df8, #ec2F4B); 	background: -o-linear-gradient(left, #736df8, #ec2F4B); 	background: linear-gradient(to right, #736df8, #ec2F4B); 	color: #ffffff; 	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif; 	text-decoration: none; 	display: -webkit-box; 	display: -ms-flexbox; 	display: flex; 	-ms-flex-pack: distribute; 	justify-content: space-around; 	-webkit-box-align: center; 	-ms-flex-align: center; 	align-items: center; 	position: relative; }  .awoQrXiwPQyEljTFaPVvNg { 	position: absolute; 	width: 100%; 	height: 100%; }  .aDfeyPrYlViSWdYaxFtTyg { 	background-color: #333648; 	padding: 8px 20px; 	border-radius: 1000px; 	text-align: center; 	-webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, .08); 	box-shadow: 0 5px 15px rgba(0, 0, 0, .08); 	text-transform: uppercase; 	letter-spacing: 0.0625em; 	font-weight: bold; 	font-size: 14px; 	color: #ffffff; 	text-decoration: none; 	cursor: pointer; }  .yhhimJewdSROiaVobGOuAQ { 	display: -webkit-box; 	display: -ms-flexbox; 	display: flex; 	-webkit-box-pack: center; 	-ms-flex-pack: center; 	justify-content: center; 	-webkit-box-align: center; 	-ms-flex-align: center; 	align-items: center; 	font-size: 16px; }  .yhhimJewdSROiaVobGOuAQ>span { 	margin-left: 8px; 	margin-right: 8px; }  .GrDgKbLCmXcjzgzokIiyjQ { 	font-size: 20px; }
+.nounderline:hover {text-decoration:none}
+.exempttable {display:inline-table !important}
+.bbca table, .bbca tbody, .bbca tr, .bbca td{
+	display: inline-block !important;
+	min-width: 0px !important;
+	text-align: center !important;
+}
+.gunbot td{text-align:left !important}
+.olddiv{display:block}
+.cryptokg {display:inline-block;padding:2px;font-size:17px;height:42px;width:500px;background-color:white; font-weight:700;color:orange} .cryptokg a:link{color:orange} .cryptokg a:hover{color:orange} .cryptokg a:visited{color:orange}
+</style>
+<link rel="stylesheet" type="text/css" href="https://bitcointalk.org/extra8.css" />
+
+	<link rel="help" href="https://bitcointalk.org/index.php?action=help" target="_blank" />
+	<link rel="search" href="https://bitcointalk.org/index.php?action=search" />
+	<link rel="contents" href="https://bitcointalk.org/index.php" />
+	<link rel="alternate" type="application/rss+xml" title="Bitcoin Forum - RSS" href="https://bitcointalk.org/index.php?type=rss;action=.xml" />
+	<link rel="prev" href="https://bitcointalk.org/index.php?topic=113915.0;prev_next=prev" />
+	<link rel="next" href="https://bitcointalk.org/index.php?topic=113915.0;prev_next=next" />
+	<link rel="index" href="https://bitcointalk.org/index.php?board=4.0" /><meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+
+	<script language="JavaScript" type="text/javascript"><!-- // --><![CDATA[
+		var current_header = false;
+
+		function shrinkHeader(mode)
+		{
+			document.cookie = "upshrink=" + (mode ? 1 : 0);
+			document.getElementById("upshrink").src = smf_images_url + (mode ? "/upshrink2.gif" : "/upshrink.gif");
+
+			document.getElementById("upshrinkHeader").style.display = mode ? "none" : "";
+			document.getElementById("upshrinkHeader2").style.display = mode ? "none" : "";
+
+			current_header = mode;
+		}
+	// ]]></script>
+		<script language="JavaScript" type="text/javascript"><!-- // --><![CDATA[
+			var current_header_ic = false;
+
+			function shrinkHeaderIC(mode)
+			{
+				document.cookie = "upshrinkIC=" + (mode ? 1 : 0);
+				document.getElementById("upshrink_ic").src = smf_images_url + (mode ? "/expand.gif" : "/collapse.gif");
+
+				document.getElementById("upshrinkHeaderIC").style.display = mode ? "none" : "";
+
+				current_header_ic = mode;
+			}
+		// ]]></script><script src='https://www.google.com/recaptcha/api.js'></script></head>
+<body>
+	<div class="tborder" >
+		<table width="100%" cellpadding="0" cellspacing="0" border="0" id="smfheader">
+			<tr>
+				<td class="catbg" height="32">
+					<span style="font-family: Verdana, sans-serif; font-size: 140%; ">Bitcoin Forum</span>
+				</td>
+				<td align="right" class="catbg">
+					<img src="https://bitcointalk.org/Themes/custom1/images/smflogo.gif" style="margin: 2px;" alt="" />
+				</td>
+			</tr>
+		</table>
+		<table width="100%" cellpadding="0" cellspacing="0" border="0" >
+			<tr>
+				<td class="titlebg2" height="32" align="right">
+					<span class="smalltext">January 04, 2020, 02:14:59 AM</span>
+					<a href="#" onclick="shrinkHeader(!current_header); return false;"><img id="upshrink" src="https://bitcointalk.org/Themes/custom1/images/upshrink.gif" alt="*" title="Shrink or expand the header." align="bottom" style="margin: 0 1ex;" /></a>
+				</td>
+			</tr>
+			<tr id="upshrinkHeader">
+				<td valign="top" colspan="2">
+					<table width="100%" class="bordercolor" cellpadding="8" cellspacing="1" border="0" style="margin-top: 1px;">
+						<tr>
+							<td colspan="2" width="100%" valign="top" class="windowbg2" id="variousheadlinks"><span class="middletext">Welcome, <b>Guest</b>. Please <a href="https://bitcointalk.org/index.php?action=login">login</a> or <a href="https://bitcointalk.org/index.php?action=register">register</a>.				</span>
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</table>
+		<table id="upshrinkHeader2" width="100%" cellpadding="4" cellspacing="0" border="0">
+			<tr>
+				<td width="90%" class="titlebg2">
+					<span class="smalltext"><b>News</b>: Latest Bitcoin Core release: 0.19.0.1 (https://bitcoin.org/en/download) [Torrent (https://bitcointalk.org/bitcoin-0.19.0.1.torrent)]<br /></span>
+				</td>
+				<td class="titlebg2" align="right" nowrap="nowrap" valign="top">
+					<form action="https://bitcointalk.org/index.php?action=search2" method="post" accept-charset="ISO-8859-1" style="margin: 0;">
+						<a href="https://bitcointalk.org/index.php?action=search;advanced"><img src="https://bitcointalk.org/Themes/custom1/images/filter.gif" align="middle" style="margin: 0 1ex;" alt="" /></a>
+						<input type="text" name="search" value="" style="width: 190px;" />&nbsp;
+						<input type="submit" name="submit" value="Search" style="width: 11ex;" />
+						<input type="hidden" name="advanced" value="0" />
+						<input type="hidden" name="topic" value="113915" />
+					</form>
+				</td>
+			</tr>
+		</table>
+	</div>
+			<table cellpadding="0" cellspacing="0" border="0" style="margin-left: 10px;">
+				<tr>
+					<td class="maintab_first">&nbsp;</td><td class="maintab_active_first">&nbsp;</td>
+				<td valign="top" class="maintab_active_back">
+					<a href="https://bitcointalk.org/index.php">Home</a>
+				</td><td class="maintab_active_last">&nbsp;</td>
+				<td valign="top" class="maintab_back">
+					<a href="https://bitcointalk.org/index.php?action=help">Help</a>
+				</td>
+				<td valign="top" class="maintab_back">
+					<a href="https://bitcointalk.org/index.php?action=search">Search</a>
+				</td>
+				<td valign="top" class="maintab_back">
+					<a href="https://bitcointalk.org/index.php?action=login">Login</a>
+				</td>
+				<td valign="top" class="maintab_back">
+					<a href="https://bitcointalk.org/index.php?action=register">Register</a>
+				</td>
+                                <td valign="top" class="maintab_back">
+                                        <a href="/more.php">More</a>
+                                </td>
+				<td class="maintab_last">&nbsp;</td>
+			</tr>
+		</table>
+	<div id="bodyarea" style="padding: 1ex 0px 2ex 0px;">
+		<script language="JavaScript" type="text/javascript" src="https://bitcointalk.org/Themes/default/sha1.js"></script>
+
+		<form action="https://bitcointalk.org/index.php?action=login2" method="post" accept-charset="ISO-8859-1" name="frmLogin" id="frmLogin">
+			<table border="0" cellspacing="0" cellpadding="3" class="tborder" align="center">
+				<tr class="catbg">
+					<td>Warning!</td>
+				</tr><tr>
+					<td class="windowbg" style="padding-top: 2ex; padding-bottom: 2ex;">
+						Only registered members are allowed to access this section.<br />
+						Please login below or <a href="https://bitcointalk.org/index.php?action=register">register an account</a> with Bitcoin Forum.
+					</td>
+				</tr><tr class="titlebg">
+					<td><img src="https://bitcointalk.org/Themes/custom1/images/icons/login_sm.gif" alt="" align="top" /> Login</td>
+				</tr><tr>
+					<td class="windowbg">
+						<table border="0" cellpadding="3" cellspacing="0" align="center">
+							<tr>
+								<td align="right"><b>Username:</b></td>
+								<td><input type="text" name="user" size="20" /></td>
+							</tr><tr>
+								<td align="right"><b>Password:</b></td>
+								<td><input type="password" name="passwrd" size="20" /></td>
+							</tr><tr>
+								<td align="right"><b>Minutes to stay logged in:</b></td>
+								<td><input type="text" name="cookielength" size="4" maxlength="4" value="60" /></td>
+							</tr><tr>
+								<td align="right"><b>Always stay logged in:</b></td>
+								<td><input type="checkbox" name="cookieneverexp" class="check" onclick="this.form.cookielength.disabled = this.checked;" /></td>
+							</tr><tr>
+								<td align="right"><b>Captcha (JS required):</b></td>
+								<td><div class="g-recaptcha" data-sitekey="6LdChhsTAAAAANlKkqUi69oRStRQdkTyobd7enLP"></div></td>
+							</tr><tr>
+								<td align="center" colspan="2"><input type="submit" value="Login" style="margin-top: 2ex;" /></td>
+							</tr><tr>
+								<td align="center" colspan="2" class="smalltext"><a href="https://bitcointalk.org/index.php?action=reminder">Forgot your password?</a><br /><br /></td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+
+			<input type="hidden" name="hash_passwrd" value="" />
+		</form>
+		<script language="JavaScript" type="text/javascript"><!-- // --><![CDATA[
+			document.forms.frmLogin.user.focus();
+		// ]]></script>
+	</div><!--No longer true--><div style="visibility: hidden"><div style="text-align:center">Sponsored by <a class="td_headerandpost5" id="sponsor" href="https://www.privateinternetaccess.com/">Private Internet Access</a>, a Bitcoin-accepting <a href="https://www.privateinternetaccess.com/" title="VPN">VPN</a>.</div></div><script type="text/javascript">
+//<!--
+function detectabp(el) {
+	if(typeof window.getComputedStyle != 'function')
+		return false;
+	if(!el)
+		var el=document.getElementById("sponsor");
+	var s = window.getComputedStyle(el).getPropertyValue("-moz-binding");
+	var s2 = window.getComputedStyle(el).getPropertyValue("display");
+	var detected = typeof s !== "undefined" && s != null && s.length > 0 && s != "none";
+	return detected || (typeof s2 !== "undefined" && s2 != null && s2 == "none");
+}
+function hex(num, length) {
+	str=num.toString(16);
+	while (str.length < length) {
+		str = '0' + str;
+	}
+	return str.substr(0,length);
+
+}
+
+function getabplink(site) {
+	var sites = new Array();sites["https://www.privateinternetaccess.com/"] = 1;
+sites["https://bitcointalk.org/dec/p1.html"] = 2;
+sites["https://fundyourselfnow.com"] = 3;
+sites["https://bountyhive.io"] = 4;
+	site_n=sites[site];
+	if(typeof site_n === 'undefined' || site_n === null || site_n <1 || site_n >150)
+		return site;
+	var code=Math.floor(Math.random()*2100000000);
+	var filler=hex(Math.floor(Math.random()*900000000000000),8);
+	var msg=Math.floor(Math.random()*9999999);
+	var site_c = site_n ^ code;
+	var template = Math.floor(Math.random()*4);
+	if(template==0)
+		template='https://bitcointalk.org/index.php?topic='+msg+'.0;do=watch;sesc=';
+	else if (template==1)
+		template="https://bitcointalk.org/index.php?action=post;msg=" + msg + ";topic=" + msg + ".0;sesc=";
+	else if (template==2)
+		template="https://bitcointalk.org/index.php?action=post;quote="+msg+";topic="+msg+".0;num_replies="+msg+";sesc=";
+	else
+		template="https://bitcointalk.org/index.php?action=ignore;u="+msg+";topic="+msg+";msg="+msg+";sesc=";
+
+	return template + hex(code,8) + hex(code,8) + hex(site_c,8) + filler;
+}
+function antiabp(){
+	if(!detectabp())
+		return;
+	var all_links=document.body.getElementsByTagName('a');
+	var els=new Array();
+	for(var i=0;i<all_links.length;i++) {
+		els.push(all_links[i])
+	}
+	for(var i=0;i<els.length;i++) {
+		if(detectabp(els[i])){
+			var newlink = els[i].cloneNode();
+			newlink.href=getabplink(els[i]);
+			newlink.innerHTML=els[i].innerHTML;
+			els[i].parentNode.insertBefore(newlink, els[i]);
+			els[i].parentNode.removeChild(els[i]);
+		}
+	}
+}
+
+if(window.chrome)
+	window.setTimeout(antiabp, 300);
+else
+	antiabp();
+//-->
+</script><script type="text/javascript">
+//<!--
+Array.prototype.forEach.call(document.getElementsByClassName("userimg"), checkImg);
+//-->
+</script>
+
+	<div id="footerarea" style="text-align: center; padding-bottom: 1ex;">
+		<script language="JavaScript" type="text/javascript"><!-- // --><![CDATA[
+			function smfFooterHighlight(element, value)
+			{
+				element.src = smf_images_url + "/" + (value ? "h_" : "") + element.id + ".gif";
+			}
+		// ]]></script>
+		<table cellspacing="0" cellpadding="3" border="0" align="center" width="100%">
+			<tr>
+				<td width="28%" valign="middle" align="right">
+					<a href="http://www.mysql.com/" target="_blank"><img id="powered-mysql" src="https://bitcointalk.org/Themes/custom1/images/powered-mysql.gif" alt="Powered by MySQL" width="54" height="20" style="margin: 5px 16px;" onmouseover="smfFooterHighlight(this, true);" onmouseout="smfFooterHighlight(this, false);" /></a>
+					<a href="http://www.php.net/" target="_blank"><img id="powered-php" src="https://bitcointalk.org/Themes/custom1/images/powered-php.gif" alt="Powered by PHP" width="54" height="20" style="margin: 5px 16px;" onmouseover="smfFooterHighlight(this, true);" onmouseout="smfFooterHighlight(this, false);" /></a>
+				</td>
+				<td valign="middle" align="center" style="white-space: nowrap;">
+					
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank">Powered by SMF 1.1.19</a> | 
+<a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank">SMF &copy; 2006-2009, Simple Machines</a>
+		</span>
+				</td>
+				<td width="28%" valign="middle" align="left">
+					<a href="http://validator.w3.org/check/referer" target="_blank"><img id="valid-xhtml10" src="https://bitcointalk.org/Themes/custom1/images/valid-xhtml10.gif" alt="Valid XHTML 1.0!" width="54" height="20" style="margin: 5px 16px;" onmouseover="smfFooterHighlight(this, true);" onmouseout="smfFooterHighlight(this, false);" /></a>
+					<a href="http://jigsaw.w3.org/css-validator/check/referer" target="_blank"><img id="valid-css" src="https://bitcointalk.org/Themes/custom1/images/valid-css.gif" alt="Valid CSS!" width="54" height="20" style="margin: 5px 16px;" onmouseover="smfFooterHighlight(this, true);" onmouseout="smfFooterHighlight(this, false);" /></a>
+				</td>
+			</tr>
+		</table>
+		<script language="JavaScript" type="text/javascript"><!-- // --><![CDATA[
+			window.addEventListener("load", smf_codeFix, false);
+
+			function smf_codeFix()
+			{
+				var codeFix = document.getElementsByTagName ? document.getElementsByTagName("div") : document.all.tags("div");
+
+				for (var i = 0; i < codeFix.length; i++)
+				{
+					if ((codeFix[i].className == "code" || codeFix[i].className == "post" || codeFix[i].className == "signature") && codeFix[i].offsetHeight < 20)
+						codeFix[i].style.height = (codeFix[i].offsetHeight + 20) + "px";
+				}
+			}
+		// ]]></script>
+	</div>
+	<div id="ajax_in_progress" style="display: none;">Loading...</div>
+</body></html>

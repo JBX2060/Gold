@@ -1,0 +1,134 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+		<link rel="canonical" href="https://bitcointalk.org/index.php?topic=117958.0" />
+		<title>Print Page - Riddle me this ...Payment sent to correct address recipient</title>
+		<style type="text/css">
+			body
+			{
+				color: black;
+				background-color: white;
+			}
+			body, td, .normaltext
+			{
+				font-family: Verdana, arial, helvetica, serif;
+				font-size: small;
+			}
+			*, a:link, a:visited, a:hover, a:active
+			{
+				color: black !important;
+			}
+			table
+			{
+				empty-cells: show;
+			}
+			.code
+			{
+				font-size: x-small;
+				font-family: monospace;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.quote
+			{
+				font-size: x-small;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.smalltext, .quoteheader, .codeheader
+			{
+				font-size: x-small;
+			}
+			.largetext
+			{
+				font-size: large;
+			}
+			hr
+			{
+				height: 1px;
+				border: 0;
+				color: black;
+				background-color: black;
+			}
+		</style>
+	</head>
+	<body>
+		<h1 class="largetext">Bitcoin Forum</h1>
+		<h2 class="normaltext">Bitcoin => Bitcoin Technical Support => Topic started by: bbit on October 11, 2012, 11:45:43 PM</h2>
+
+		<table width="90%" cellpadding="0" cellspacing="0" border="0">
+			<tr>
+				<td>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Riddle me this ...Payment sent to correct address recipient</b><br />
+					Post by: <b>bbit</b> on <b>October 11, 2012, 11:45:43 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Says it hasn&#039;t shown up and its been 2 weeks!&nbsp; what could have gone wrong?<br /><br />We both have screenshots&nbsp; of his client with his bitcoin address and my blockchain wallet transaction to that payment address any ideas?<br /><br />Only thing I can think of is his blockchain hasn&#039;t caught up in his client?</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Riddle me this ...Payment sent to correct address recipient</b><br />
+					Post by: <b>payb.tc</b> on <b>October 11, 2012, 11:53:14 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">what version of the client is he using?<br /><br />-rescan<br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Riddle me this ...Payment sent to correct address recipient</b><br />
+					Post by: <b>bbit</b> on <b>October 12, 2012, 12:04:28 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=117958.msg1266188#msg1266188">Quote from: payb.tc on October 11, 2012, 11:53:14 PM</a></div><div class="quote">what version of the client is he using?<br /><br />-rescan<br /><br /></div><br />Hey!<br /><br />I&#039;ll find out thanks!&nbsp; ;D</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Riddle me this ...Payment sent to correct address recipient</b><br />
+					Post by: <b>Stephen Gornick</b> on <b>October 12, 2012, 12:36:07 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=117958.msg1266179#msg1266179">Quote from: bbit on October 11, 2012, 11:45:43 PM</a></div><div class="quote">We both have screenshots&nbsp; of his client with his bitcoin address and my blockchain wallet transaction to that payment address any ideas?<br /></div><br />When in doubt, verify with Blockchain.info or BlockExplorer.com <br />&nbsp;- http://www.Blockchain.info<br /><br /><br />The blockchain never lies.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Riddle me this ...Payment sent to correct address recipient</b><br />
+					Post by: <b>Flowz</b> on <b>October 12, 2012, 06:38:51 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=117958.msg1266263#msg1266263">Quote from: Stephen Gornick on October 12, 2012, 12:36:07 AM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=117958.msg1266179#msg1266179">Quote from: bbit on October 11, 2012, 11:45:43 PM</a></div><div class="quote">We both have screenshots&nbsp; of his client with his bitcoin address and my blockchain wallet transaction to that payment address any ideas?<br /></div><br />When in doubt, verify with Blockchain.info or BlockExplorer.com <br />&nbsp;- http://www.Blockchain.info<br /><br /><br />The blockchain never lies.<br /></div><br />Except when a 51% attack would be at the work.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Riddle me this ...Payment sent to correct address recipient</b><br />
+					Post by: <b>lile</b> on <b>October 12, 2012, 09:37:55 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=117958.msg1267899#msg1267899">Quote from: Flowz on October 12, 2012, 06:38:51 PM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=117958.msg1266263#msg1266263">Quote from: Stephen Gornick on October 12, 2012, 12:36:07 AM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=117958.msg1266179#msg1266179">Quote from: bbit on October 11, 2012, 11:45:43 PM</a></div><div class="quote">We both have screenshots &nbsp;of his client with his bitcoin address and my blockchain wallet transaction to that payment address any ideas?<br /></div><br />When in doubt, verify with Blockchain.info or BlockExplorer.com <br />&nbsp;- http://www.Blockchain.info<br /><br /><br />The blockchain never lies.<br /></div><br />Except when a 51% attack would be at the work.<br /></div>Even then it wouldn&#039;t. The longest chain is, for all intents and purposes, correct, even if part of it has been changed by an attacker.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Riddle me this ...Payment sent to correct address recipient</b><br />
+					Post by: <b>Raoul Duke</b> on <b>October 12, 2012, 09:53:22 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Why don&#039;t you just look up the tx id at blockchain.info AND blockexplorer.com?<br />If it shows up on both sites, that guy is lying to you.<br />Kind of reminds me of nckrazze and the 400 BTC he said weren&#039;t on his wallet ::)</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Riddle me this ...Payment sent to correct address recipient</b><br />
+					Post by: <b>zero3112</b> on <b>October 23, 2012, 09:51:19 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">The payment shows on the blockchain.&nbsp; What is the person using though?&nbsp; An online wallet or something?</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Riddle me this ...Payment sent to correct address recipient</b><br />
+					Post by: <b>MysteryMiner</b> on <b>October 25, 2012, 06:43:59 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=117958.msg1293403#msg1293403">Quote from: zero3112 on October 23, 2012, 09:51:19 PM</a></div><div class="quote">The payment shows on the blockchain.&nbsp; What is the person using though?&nbsp; An online wallet or something?<br /></div>And how can we guess that? He have the coins if he own that address, he is laying if he insists he have not received the coins.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Riddle me this ...Payment sent to correct address recipient</b><br />
+					Post by: <b>gmaxwell</b> on <b>October 26, 2012, 01:42:01 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=117958.msg1266263#msg1266263">Quote from: Stephen Gornick on October 12, 2012, 12:36:07 AM</a></div><div class="quote">When in doubt, verify with Blockchain.info or BlockExplorer.com <br />The blockchain never lies.<br /></div>Which is how you can tell that I have been paid all the bitcoins: &nbsp;https://people.xiph.org/~greg/21mbtc.png (https://people.xiph.org/~greg/21mbtc.png)<br /><br />The blockchain itself doesn&#039;t lie, but websites with blockchain in their name aren&#039;t the blockchain. They&#039;re websites and they can lie and have lied in the past.<br /><br />Seriously, depending on some centralized services is not a good idea. Every Bitcoin client itself has an independent view of the blockchain. &nbsp;Does the transaction in question have a bunch of confirmations (e.g. on the order of 6 per hour since you made it)? if so — it&#039;s settled. &nbsp;If the far end says they don&#039;t see it then something is broken there or you paid the wrong address, or they&#039;re scamming you.<br /><br /></div>
+					<br /><br />
+					<div align="center" class="smalltext">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank">Powered by SMF 1.1.19</a> | 
+<a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank">SMF &copy; 2006-2009, Simple Machines</a>
+		</span></div>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

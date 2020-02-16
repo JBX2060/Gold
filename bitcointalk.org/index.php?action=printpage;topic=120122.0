@@ -1,0 +1,98 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+		<link rel="canonical" href="https://bitcointalk.org/index.php?topic=120122.0" />
+		<title>Print Page - Limited to 10 messages</title>
+		<style type="text/css">
+			body
+			{
+				color: black;
+				background-color: white;
+			}
+			body, td, .normaltext
+			{
+				font-family: Verdana, arial, helvetica, serif;
+				font-size: small;
+			}
+			*, a:link, a:visited, a:hover, a:active
+			{
+				color: black !important;
+			}
+			table
+			{
+				empty-cells: show;
+			}
+			.code
+			{
+				font-size: x-small;
+				font-family: monospace;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.quote
+			{
+				font-size: x-small;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.smalltext, .quoteheader, .codeheader
+			{
+				font-size: x-small;
+			}
+			.largetext
+			{
+				font-size: large;
+			}
+			hr
+			{
+				height: 1px;
+				border: 0;
+				color: black;
+				background-color: black;
+			}
+		</style>
+	</head>
+	<body>
+		<h1 class="largetext">Bitcoin Forum</h1>
+		<h2 class="normaltext">Bitcoin => Bitcoin Technical Support => Topic started by: zero3112 on October 23, 2012, 09:46:10 PM</h2>
+
+		<table width="90%" cellpadding="0" cellspacing="0" border="0">
+			<tr>
+				<td>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Limited to 10 messages</b><br />
+					Post by: <b>zero3112</b> on <b>October 23, 2012, 09:46:10 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">I am Limited to 10 personal messages per hour how do I remove this limit? Is there a way to upgrade my membership?</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Limited to 10 messages</b><br />
+					Post by: <b>Stephen Gornick</b> on <b>October 23, 2012, 09:52:42 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=120122.msg1293388#msg1293388">Quote from: zero3112 on October 23, 2012, 09:46:10 PM</a></div><div class="quote">I am Limited to 10 personal messages per hour how do I remove this limit? Is there a way to upgrade my membership?<br /></div><br /><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=119660.msg1288612#msg1288612">Quote from: Stephen Gornick on October 21, 2012, 10:30:40 PM</a></div><div class="quote">For doing over-the-counter trades, you probably want to get yourself set up with GPG and start using that.&nbsp; When trading on the forums, you might think you are trading with the trusted forum member but in reality it could be a compromised forum account and you are about to send your bitcoins into some scammer&#039;s pocket.&nbsp; With the -otc Web of Trust (WoT), if the person has authenticated, you then are nearly guaranteed that the party you are trading with is truly the same party whose trust history is well documented.<br /><br />&nbsp;- http://www.Bitcoin-OTC.com<br />&nbsp;- http://webchat.freenode.net/?channels=#bitcoin-otc-foyer<br />&nbsp;- http://www.bitcoin-otc.com/viewratings.php<br /><br />There&#039;s always IRC chat, Skype, GibberBot, text messaging, and Crypto.cat <br />&nbsp;- https://crypto.cat<br /><br /></div></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Limited to 10 messages</b><br />
+					Post by: <b>zero3112</b> on <b>October 23, 2012, 10:31:38 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Is that what appears in your signature for you user?</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Limited to 10 messages</b><br />
+					Post by: <b>Stephen Gornick</b> on <b>October 24, 2012, 01:12:27 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=120122.msg1293509#msg1293509">Quote from: zero3112 on October 23, 2012, 10:31:38 PM</a></div><div class="quote">Is that what appears in your signature for you user?<br /></div><br />The entire set of OTC accounts is here:<br />&nbsp;- http://bitcoin-otc.com/viewratings.php<br /><br />Then yes, you can put a link to your on -OTC trust history profile in your sig if you want.<br /><br />For example, here&#039;s the trust history of rmunroe, the author of XKCD (webcomics):<br />&nbsp;- http://bitcoin-otc.com/viewratingdetail.php?nick=rmunroe&amp;sign=ANY&amp;type=RECV<br /><br />But IRC is oftentimes better than PMs on the forum for trading as you can chat on IRC with your trading partner in real-time.<br /><br />Simply enter /query nickname to open a chat session for just the two of you.<br />&nbsp;- http://webchat.freenode.net/?channels=#bitcoin-otc-foyer</div>
+					<br /><br />
+					<div align="center" class="smalltext">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank">Powered by SMF 1.1.19</a> | 
+<a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank">SMF &copy; 2006-2009, Simple Machines</a>
+		</span></div>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

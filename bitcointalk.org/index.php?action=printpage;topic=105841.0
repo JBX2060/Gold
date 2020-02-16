@@ -1,0 +1,134 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+		<link rel="canonical" href="https://bitcointalk.org/index.php?topic=105841.0" />
+		<title>Print Page - Satoshi Client not loading</title>
+		<style type="text/css">
+			body
+			{
+				color: black;
+				background-color: white;
+			}
+			body, td, .normaltext
+			{
+				font-family: Verdana, arial, helvetica, serif;
+				font-size: small;
+			}
+			*, a:link, a:visited, a:hover, a:active
+			{
+				color: black !important;
+			}
+			table
+			{
+				empty-cells: show;
+			}
+			.code
+			{
+				font-size: x-small;
+				font-family: monospace;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.quote
+			{
+				font-size: x-small;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.smalltext, .quoteheader, .codeheader
+			{
+				font-size: x-small;
+			}
+			.largetext
+			{
+				font-size: large;
+			}
+			hr
+			{
+				height: 1px;
+				border: 0;
+				color: black;
+				background-color: black;
+			}
+		</style>
+	</head>
+	<body>
+		<h1 class="largetext">Bitcoin Forum</h1>
+		<h2 class="normaltext">Bitcoin => Bitcoin Technical Support => Topic started by: Daily Anarchist on September 04, 2012, 07:03:38 PM</h2>
+
+		<table width="90%" cellpadding="0" cellspacing="0" border="0">
+			<tr>
+				<td>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Satoshi Client not loading</b><br />
+					Post by: <b>Daily Anarchist</b> on <b>September 04, 2012, 07:03:38 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">My computer is 8 years old and is on its last leg. The Satoshi client has always been a bit of a resource hog for me. Yesterday my computer crashed and since then I have been unable to get the Satoshi client to fully load. The closest I can get is for it to shows its wallet graphic, but it just sits there, clicking, and it freezes the rest of my computer to the point where I have to do a hard shut down.<br /><br />I have my wallet backed up properly, I hope. What should I do from here? Should I remove/reinstall the Satoshi client? How can I access my coins? <br /><br />OS = Ubuntu 12.04<br /><br />Client = 0.6.3</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Satoshi Client not loading</b><br />
+					Post by: <b>Stephen Gornick</b> on <b>September 05, 2012, 05:16:19 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=105841.msg1159842#msg1159842">Quote from: Daily Anarchist on September 04, 2012, 07:03:38 PM</a></div><div class="quote">Yesterday my computer crashed and since then I have been unable to get the Satoshi client to fully load.<br /></div><br />The debug.log might help tell you what its doing.<br /><br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Satoshi Client not loading</b><br />
+					Post by: <b>Daily Anarchist</b> on <b>September 05, 2012, 07:38:11 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">I&#039;m not a techie but I tried my best.<br /><br />I went to my terminal and put in <br /><br /><div class="codeheader">Code:</div><div class="code">less ./.bitcoin/debug.log</div><br />which brought up the log. But in order to get to the bottom, or most recent logs I typed SHFT + G but it didn&#039;t take me to the bottom, it sort of screwed it up where I couldn&#039;t scroll up anymore. Pathetic, I know. So, it was a fruitless venture. Any better way to read the log?</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Satoshi Client not loading</b><br />
+					Post by: <b>Revalin</b> on <b>September 05, 2012, 11:33:51 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">tail -n 50 ~/.bitcoin/debug.log</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Satoshi Client not loading</b><br />
+					Post by: <b>Daily Anarchist</b> on <b>September 06, 2012, 12:37:10 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">This is all I get, same as if I do it my way.<br /><br />Bitcoin version v0.6.3.0-g6e0c5e3-beta ()<br />Default data directory /home/seth/.bitcoin<br />Loading addresses...<br />dbenv.open LogDir=/home/seth/.bitcoin/database ErrorFile=/home/seth/.bitcoin/db.log<br />seth@seth-Dimension-8400:~$ <br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Satoshi Client not loading</b><br />
+					Post by: <b>Revalin</b> on <b>September 06, 2012, 01:46:17 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Take a look at /home/seth/.bitcoin/db.log .&nbsp; What&#039;s there?</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Satoshi Client not loading</b><br />
+					Post by: <b>Daily Anarchist</b> on <b>September 06, 2012, 02:42:40 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader">Quote</div><div class="quote">Program version 4.8 doesn&#039;t match environment version 4.7<br />Program version 4.7 doesn&#039;t match environment version 4.8<br />Unacceptable log file /home/seth/.bitcoin/database/log.0000000168: unsupported l<br />og version 15<br />Invalid log file: log.0000000168: Invalid argument<br />PANIC: Invalid argument<br />unable to join the environment<br />Unacceptable log file /home/seth/.bitcoin/database/log.0000000168: unsupported l<br />og version 15<br />Invalid log file: log.0000000168: Invalid argument<br />PANIC: Invalid argument<br />unable to join the environment<br />Unacceptable log file /home/seth/.bitcoin/database/log.0000000168: unsupported log version 15<br />Invalid log file: log.0000000168: Invalid argument<br />PANIC: Invalid argument<br />unable to join the environment<br />close: Bad file descriptor<br />close: Bad file descriptor<br />close: Bad file descriptor<br />Build signature doesn&#039;t match environment<br />Unacceptable log file /home/seth/.bitcoin/database/log.0000000224: unsupported log version 16<br />unable to join the environment<br />Unacceptable log file /home/seth/.bitcoin/database/log.0000000168: unsupported log version 15<br />Invalid log file: log.0000000168: Invalid argument<br />PANIC: Invalid argument<br />unable to join the environment<br />close: Bad file descriptor<br />close: Bad file descriptor<br />close: Bad file descriptor<br />Build signature doesn&#039;t match environment<br />Unacceptable log file /home/seth/.bitcoin/database/log.0000000224: unsupported log version 16<br />Invalid log file: log.0000000224: Invalid argument<br />PANIC: Invalid argument<br />unable to join the environment<br />Unacceptable log file /home/seth/.bitcoin/database/log.0000001111: unsupported log version 16<br />Invalid log file: log.0000001111: Invalid argument<br />PANIC: Invalid argument<br />unable to join the environment<br />unable to join the environment<br />unable to join the environment<br />unable to join the environment</div></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Satoshi Client not loading</b><br />
+					Post by: <b>Slushpuppy</b> on <b>September 06, 2012, 04:09:59 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader">Quote</div><div class="quote">PANIC: Invalid argument<br />unable to join the environment<br /><br /></div><br />you tried to debate ancap with your computer huh?</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Satoshi Client not loading</b><br />
+					Post by: <b>Revalin</b> on <b>September 06, 2012, 04:49:27 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">All right, now we&#039;re getting somewhere.<br /><br />If you just want to get it running again, try this:<br /><br />mv ~/.bitcoin ~/.bitcoin-old<br />mkdir ~/.bitcoin<br />cp ~/.bitcoin-old/wallet.dat ~/.bitcoin<br /><br />Then restart the client.&nbsp; It will download the blockchain again and then it should work.<br /><br />If you want to dig deeper into why it failed we can, but that&#039;s harder.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Satoshi Client not loading</b><br />
+					Post by: <b>Daily Anarchist</b> on <b>September 06, 2012, 04:19:42 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=105841.msg1163968#msg1163968">Quote from: Revalin on September 06, 2012, 04:49:27 AM</a></div><div class="quote">All right, now we&#039;re getting somewhere.<br /><br />If you just want to get it running again, try this:<br /><br />mv ~/.bitcoin ~/.bitcoin-old<br />mkdir ~/.bitcoin<br />cp ~/.bitcoin-old/wallet.dat ~/.bitcoin<br /><br />Then restart the client.&nbsp; It will download the blockchain again and then it should work.<br /><br />If you want to dig deeper into why it failed we can, but that&#039;s harder.<br /></div><br />Thank you for this. Not only has it allowed my client to open again, but it&#039;s fixed another problem that has plagued me since 0.6.2. Now I can see my file, settings, and help options in the toolbar again. For some reason that bug happened to me I think around 0.6.2 upgrade.</div>
+					<br /><br />
+					<div align="center" class="smalltext">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank">Powered by SMF 1.1.19</a> | 
+<a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank">SMF &copy; 2006-2009, Simple Machines</a>
+		</span></div>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

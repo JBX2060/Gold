@@ -1,0 +1,236 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+		<link rel="canonical" href="https://bitcointalk.org/index.php?topic=143220.0" />
+		<title>Print Page - bitcoin-qt: Move Downloaded blockchain to another installation</title>
+		<style type="text/css">
+			body
+			{
+				color: black;
+				background-color: white;
+			}
+			body, td, .normaltext
+			{
+				font-family: Verdana, arial, helvetica, serif;
+				font-size: small;
+			}
+			*, a:link, a:visited, a:hover, a:active
+			{
+				color: black !important;
+			}
+			table
+			{
+				empty-cells: show;
+			}
+			.code
+			{
+				font-size: x-small;
+				font-family: monospace;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.quote
+			{
+				font-size: x-small;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.smalltext, .quoteheader, .codeheader
+			{
+				font-size: x-small;
+			}
+			.largetext
+			{
+				font-size: large;
+			}
+			hr
+			{
+				height: 1px;
+				border: 0;
+				color: black;
+				background-color: black;
+			}
+		</style>
+	</head>
+	<body>
+		<h1 class="largetext">Bitcoin Forum</h1>
+		<h2 class="normaltext">Bitcoin => Bitcoin Technical Support => Topic started by: doghouse on February 11, 2013, 10:36:18 AM</h2>
+
+		<table width="90%" cellpadding="0" cellspacing="0" border="0">
+			<tr>
+				<td>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>bitcoin-qt: Move Downloaded blockchain to another installation</b><br />
+					Post by: <b>doghouse</b> on <b>February 11, 2013, 10:36:18 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">This is a newbie question...<br /><br />I&#039;ve installed bitcoin-qt and Armoury on on a PC. After ages, (more than 8 hours) the blockchain is still downloading. (Last received block generated 175 days ago).<br />Instead of going through the same rigmarole again on another PC, can I install bitcoin-qt, and move the files from C:\Users\USERNAME\AppData\Roaming\Bitcoin to the new installation?<br /><br />Which files do I need?<br />Are <i>blk0001.dat</i>, <i>blk0002.dat </i>and <i>blkindex.dat</i> enough? (I don&#039;t need to move my wallet.dat)<br /><br />Can they just be &quot;dropped into place&quot;, or is there a command line option I need to use to make it recognised?<br /><br />Many Thanks!</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: bitcoin-qt: Move Downloaded blockchain to another installation</b><br />
+					Post by: <b>Akka</b> on <b>February 11, 2013, 10:43:51 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Yes, that are the files you need, just copying the should be sufficient. But as you are not finished yet anyway, I would suggest, that you upgrade to v0.8 instead.<br /><br />This Version uses ultraprune and reduces the download time for the blockchain to a few hours.<br /><br />The final version is not out yet, but you can download the release candidate here: https://bitcointalk.org/index.php?topic=142151.0</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: bitcoin-qt: Move Downloaded blockchain to another installation</b><br />
+					Post by: <b>doghouse</b> on <b>February 11, 2013, 11:36:29 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Hi Akka,<br />Thanks for your help!<br />I&#039;m using v0.7.2-beta... when did v0.8 come out?<br /><br />Can I still transpant the files over to 0.8?<br /><br />Kind Regards.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: bitcoin-qt: Move Downloaded blockchain to another installation</b><br />
+					Post by: <b>Akka</b> on <b>February 11, 2013, 11:43:40 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=143220.msg1518698#msg1518698">Quote from: doghouse on February 11, 2013, 11:36:29 AM</a></div><div class="quote">I&#039;m using v0.7.2-beta... when did v0.8 come out?<br /></div><br />3 days ago, so it&#039;s brand new.<br /><br /><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=143220.msg1518698#msg1518698">Quote from: doghouse on February 11, 2013, 11:36:29 AM</a></div><div class="quote">Can I still transpant the files over to 0.8?<br /><br />Kind Regards.<br /></div><br />Yes and no, 0.8 needs to convert the files to the new format. If you are not finished downloading anyway, I would let it start new.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: bitcoin-qt: Move Downloaded blockchain to another installation</b><br />
+					Post by: <b>Pieter Wuille</b> on <b>February 11, 2013, 09:42:01 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">v0.8.0 is not released yet, there&#039;s only a release candidate.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: bitcoin-qt: Move Downloaded blockchain to another installation</b><br />
+					Post by: <b>zvs</b> on <b>February 13, 2013, 09:17:03 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=143220.msg1518698#msg1518698">Quote from: doghouse on February 11, 2013, 11:36:29 AM</a></div><div class="quote">Hi Akka,<br />Thanks for your help!<br />I&#039;m using v0.7.2-beta... when did v0.8 come out?<br /><br />Can I still transpant the files over to 0.8?<br /><br />Kind Regards.<br /></div><br />i have a 7z of 0.8 reorganization @ http://www.nogleg.com/archive/v0.8.0-Feb-11th/v0.8.0-Feb-11th.7z&nbsp; &nbsp;goes up to block 220800 or so..&nbsp; it isn&#039;t &quot;pruned&quot;, so it&#039;s just as big as before, but in a diff format<br /><br />and then you&#039;d delete everything but bitcoin.conf &amp; wallet.dat, then use that for 0.8 rc<br /><br />aha</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: bitcoin-qt: Move Downloaded blockchain to another installation</b><br />
+					Post by: <b>BookLover</b> on <b>February 13, 2013, 03:26:44 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=143220.msg1518606#msg1518606">Quote from: doghouse on February 11, 2013, 10:36:18 AM</a></div><div class="quote">This is a newbie question...<br /><br />I&#039;ve installed bitcoin-qt and Armoury on on a PC. After ages, (more than 8 hours) the blockchain is still downloading. (Last received block generated 175 days ago).<br />Instead of going through the same rigmarole again on another PC, can I install bitcoin-qt, and move the files from C:\Users\USERNAME\AppData\Roaming\Bitcoin to the new installation?<br /><br />Which files do I need?<br />Are <i>blk0001.dat</i>, <i>blk0002.dat </i>and <i>blkindex.dat</i> enough? (I don&#039;t need to move my wallet.dat)<br /><br />Can they just be &quot;dropped into place&quot;, or is there a command line option I need to use to make it recognised?<br /><br />Many Thanks!<br /></div>Yes, <i>blk0001.dat</i>, <i>blk0002.dat</i> and <i>blkindex.dat</i> are enough. (Unless there is a new <i>blk0003.dat</i> then you need it to.)<br />Before moving any files start both the bitcoin-qt clients, go to options, and check the box which says detach database at shutdown.&nbsp; Then close both clients. (Make sure they are closed in taskmanager.) then you are free to move the block chain files.<br /><br />P.S. You can start the bitcoin clients with the command option -detachdb to accomplish the same thing as checking the box.<br />P.S. After the files are successfully imported you may want to deselect the detach database at shutdown to speed up the shut down of the bitcoin-qt clients.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: bitcoin-qt: Move Downloaded blockchain to another installation</b><br />
+					Post by: <b>zvs</b> on <b>February 13, 2013, 04:47:22 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=143220.msg1524455#msg1524455">Quote from: BookLover on February 13, 2013, 03:26:44 PM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=143220.msg1518606#msg1518606">Quote from: doghouse on February 11, 2013, 10:36:18 AM</a></div><div class="quote">This is a newbie question...<br /><br />I&#039;ve installed bitcoin-qt and Armoury on on a PC. After ages, (more than 8 hours) the blockchain is still downloading. (Last received block generated 175 days ago).<br />Instead of going through the same rigmarole again on another PC, can I install bitcoin-qt, and move the files from C:\Users\USERNAME\AppData\Roaming\Bitcoin to the new installation?<br /><br />Which files do I need?<br />Are <i>blk0001.dat</i>, <i>blk0002.dat </i>and <i>blkindex.dat</i> enough? (I don&#039;t need to move my wallet.dat)<br /><br />Can they just be &quot;dropped into place&quot;, or is there a command line option I need to use to make it recognised?<br /><br />Many Thanks!<br /></div>Yes, <i>blk0001.dat</i>, <i>blk0002.dat</i> and <i>blkindex.dat</i> are enough. (Unless there is a new <i>blk0003.dat</i> then you need it to.)<br />Before moving any files start both the bitcoin-qt clients, go to options, and check the box which says detach database at shutdown.&nbsp; Then close both clients. (Make sure they are closed in taskmanager.) then you are free to move the block chain files.<br /><br />P.S. You can start the bitcoin clients with the command option -detachdb to accomplish the same thing as checking the box.<br />P.S. After the files are successfully imported you may want to deselect the detach database at shutdown to speed up the shut down of the bitcoin-qt clients.<br /></div><br />for?&nbsp; reindexing?&nbsp; unless you have 8GB RAM for a ramdrive or less than 10Mbps downstream, it&#039;d be quicker to DL</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: bitcoin-qt: Move Downloaded blockchain to another installation</b><br />
+					Post by: <b>doghouse</b> on <b>February 13, 2013, 08:59:09 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Thanks everyone for your help!<br />In the end, I installed v0.8 and then re-downloaded the Blockchain from scratch using the <i>-dbcache=2000</i> parameter. This was much quicker than on the previous version of bitcoin-qt. Unfortunately, it and Armory takes up a lot of RAM though!</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: bitcoin-qt: Move Downloaded blockchain to another installation</b><br />
+					Post by: <b>BookLover</b> on <b>February 14, 2013, 02:47:20 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=143220.msg1524635#msg1524635">Quote from: zvs on February 13, 2013, 04:47:22 PM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=143220.msg1524455#msg1524455">Quote from: BookLover on February 13, 2013, 03:26:44 PM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=143220.msg1518606#msg1518606">Quote from: doghouse on February 11, 2013, 10:36:18 AM</a></div><div class="quote">This is a newbie question...<br /><br />I&#039;ve installed bitcoin-qt and Armoury on on a PC. After ages, (more than 8 hours) the blockchain is still downloading. (Last received block generated 175 days ago).<br />Instead of going through the same rigmarole again on another PC, can I install bitcoin-qt, and move the files from C:\Users\USERNAME\AppData\Roaming\Bitcoin to the new installation?<br /><br />Which files do I need?<br />Are <i>blk0001.dat</i>, <i>blk0002.dat </i>and <i>blkindex.dat</i> enough? (I don&#039;t need to move my wallet.dat)<br /><br />Can they just be &quot;dropped into place&quot;, or is there a command line option I need to use to make it recognised?<br /><br />Many Thanks!<br /></div>Yes, <i>blk0001.dat</i>, <i>blk0002.dat</i> and <i>blkindex.dat</i> are enough. (Unless there is a new <i>blk0003.dat</i> then you need it to.)<br />Before moving any files start both the bitcoin-qt clients, go to options, and check the box which says detach database at shutdown.&nbsp; Then close both clients. (Make sure they are closed in taskmanager.) then you are free to move the block chain files.<br /><br />P.S. You can start the bitcoin clients with the command option -detachdb to accomplish the same thing as checking the box.<br />P.S. After the files are successfully imported you may want to deselect the detach database at shutdown to speed up the shut down of the bitcoin-qt clients.<br /></div><br />for?&nbsp; reindexing?&nbsp; unless you have 8GB RAM for a ramdrive or less than 10Mbps downstream, it&#039;d be quicker to DL<br /></div>No, when you check detach database at shutdown it allows the bitcoin-qt client to accept the new blockchain without errors.&nbsp; It does NOT have to index the blockchain, it simply loads the blockchain files on startup like it would its own.&nbsp; This is infinity faster than updating the blockchain from DL.<br /><br />P.S. I may not have been clear in may previous post.&nbsp; When you move the blockchain files, you move them to the bitcoin directory and REPLACE the other blockchain files.&nbsp; You do NOT run the client so that is updates its blockchain files from the new ones.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: bitcoin-qt: Move Downloaded blockchain to another installation</b><br />
+					Post by: <b>Mousepotato</b> on <b>February 16, 2013, 03:05:32 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">I moved my bitcoin-qt.exe to my external drive E:\ and just dumped the blockchain files into that same directory on E:\ as well.&nbsp; However, whenever I run bitcoin-qt.exe -detachdb, it keeps re-creating C:\Mousepotato\Appdata\Roaming\Bitcoin and starts downloading the blockchain again.&nbsp; What am I doing wrong? </div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: bitcoin-qt: Move Downloaded blockchain to another installation</b><br />
+					Post by: <b>BookLover</b> on <b>February 16, 2013, 03:26:13 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">You need to run bitcoin with the command &quot;-datadir E:\&quot; change the path to wherever you want your bitcoin directory to be.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: bitcoin-qt: Move Downloaded blockchain to another installation</b><br />
+					Post by: <b>Mousepotato</b> on <b>February 16, 2013, 03:28:20 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=143220.msg1532913#msg1532913">Quote from: BookLover on February 16, 2013, 03:26:13 PM</a></div><div class="quote">You need to run bitcoin with the command &quot;-datadir E:\&quot; change the path to wherever you want your bitcoin directory to be.<br /></div><br />Thank you!</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: bitcoin-qt: Move Downloaded blockchain to another installation</b><br />
+					Post by: <b>niko</b> on <b>February 16, 2013, 03:33:17 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=143220.msg1532896#msg1532896">Quote from: Mousepotato on February 16, 2013, 03:05:32 PM</a></div><div class="quote">I moved my bitcoin-qt.exe to my external drive E:\ and just dumped the blockchain files into that same directory on E:\ as well.&nbsp; However, whenever I run bitcoin-qt.exe -detachdb, it keeps re-creating C:\Mousepotato\Appdata\Roaming\Bitcoin and starts downloading the blockchain again.&nbsp; What am I doing wrong? <br /></div>You should have detached the databases <i>before</i> moving the files. Once you have them moved, the option is no longer needed.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: bitcoin-qt: Move Downloaded blockchain to another installation</b><br />
+					Post by: <b>tinyapps</b> on <b>March 24, 2013, 07:59:49 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader">Quote</div><div class="quote">Which files do I need? Are blk0001.dat, blk0002.dat and blkindex.dat enough?</div>It seems that in 0.8.1 those have been superceded by two new directories: blocks and chainstate. There is a third directory named &quot;database&quot;, but I dimly recall that being present in previous versions as well.<br /><br />As of 3/23/13, those three directories contain about 7.76GB of data, with blocks making up 7.57GB of that total.<br /><br />Is copying the blockchain to a new machine as simple as pasting one or more of these directories? Is there any reason to keep blk0001.dat, blk0002.dat and blkindex.dat?</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: bitcoin-qt: Move Downloaded blockchain to another installation</b><br />
+					Post by: <b>batcoin</b> on <b>March 24, 2013, 09:57:05 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=143220.msg1666681#msg1666681">Quote from: tinyapps on March 24, 2013, 07:59:49 AM</a></div><div class="quote"><div class="quoteheader">Quote</div><div class="quote">Which files do I need? Are blk0001.dat, blk0002.dat and blkindex.dat enough?</div>It seems that in 0.8.1 those have been superceded by two new directories: blocks and chainstate. There is a third directory named &quot;database&quot;, but I dimly recall that being present in previous versions as well.<br /><br />As of 3/23/13, those three directories contain about 7.76GB of data, with blocks making up 7.57GB of that total.<br /><br />Is copying the blockchain to a new machine as simple as pasting one or more of these directories? Is there any reason to keep blk0001.dat, blk0002.dat and blkindex.dat?<br /></div><br />I would also be interested in the steps needed for moving the blockchain around in 0.8.1. Any helpers out there?</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: bitcoin-qt: Move Downloaded blockchain to another installation</b><br />
+					Post by: <b>Fressac</b> on <b>March 26, 2013, 05:26:18 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=143220.msg1679305#msg1679305">Quote from: subSTRATA on March 26, 2013, 01:14:16 PM</a></div><div class="quote">On my side (WinXP), data directory is on D: drive, folder BitcoinData, so &quot;Target&quot; field for shortcut is:<br /><br /><b>&quot;C:\Program Files\Bitcoin\bitcoin-qt.exe&quot; -datadir=D:\BitcoinData</b><br /></div>Does anyone have any idea how to change the default data directory on a Mac? I&#039;m not aware of a &quot;Target&quot; parameter when launching apps in OS X. I&#039;ve tried googling it but come up with nothing.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: bitcoin-qt: Move Downloaded blockchain to another installation</b><br />
+					Post by: <b>tinyapps</b> on <b>March 26, 2013, 05:33:52 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader">Quote</div><div class="quote">Does anyone have any idea how to change the default data directory on a Mac?</div><br />Just put the files in the default location:<br /><br />~/Library/Application Support/Bitcoin<br /><br />The tilde (~) represents the root directory of your home folder. The full path would look something like:<br /><br />/Users/username/Library/Application Support/Bitcoin<br /><br />If you wanted to change the default location, one way would be to use a symlink. I had to do this for the iMovie data directory years ago:<br /><br />http://tinyapps.org/blog/mac/200805230700_change_imovie_save_directory.html (http://tinyapps.org/blog/mac/200805230700_change_imovie_save_directory.html)</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: bitcoin-qt: Move Downloaded blockchain to another installation</b><br />
+					Post by: <b>Fressac</b> on <b>March 26, 2013, 08:23:48 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=143220.msg1680732#msg1680732">Quote from: tinyapps on March 26, 2013, 05:33:52 PM</a></div><div class="quote">If you wanted to change the default location, one way would be to use a symlink. I had to do this for the iMovie data directory years ago:<br /><br />http://tinyapps.org/blog/mac/200805230700_change_imovie_save_directory.html (http://tinyapps.org/blog/mac/200805230700_change_imovie_save_directory.html)<br /></div>Of course! Thanks.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: bitcoin-qt: Move Downloaded blockchain to another installation</b><br />
+					Post by: <b>tinyapps</b> on <b>March 28, 2013, 05:56:06 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Unable to find a definitive answer to the question of copying the blockchain to another computer, I asked Gavin via email:<br /><br /><i>In Bitcoin-Qt 0.8+, how can the blockchain be copied from one computer to another? Is it simply a matter of copying the blocks and chainstate directories?</i><br /><br />His reply:<br /><br /><i>Yes</i></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: bitcoin-qt: Move Downloaded blockchain to another installation</b><br />
+					Post by: <b>Fressac</b> on <b>March 29, 2013, 09:50:28 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=143220.msg1694068#msg1694068">Quote from: tinyapps on March 28, 2013, 05:56:06 PM</a></div><div class="quote">Unable to find a definitive answer to the question of copying the blockchain to another computer, I asked Gavin via email:<br /><br /><i>In Bitcoin-Qt 0.8+, how can the blockchain be copied from one computer to another? Is it simply a matter of copying the blocks and chainstate directories?</i><br /><br />His reply:<br /><br /><i>Yes</i><br /></div>That&#039;s right. I posted on this here:<br />https://bitcointalk.org/index.php?topic=157314.msg1680307#msg1680307<br /><br />Basically just make a copy of the whole Bitcoin data directory and drop it into any computer with the Bitcoin-Qt client installed on it. Make sure the client is not running and replace the existing directory with the copy. <br />BE CAREFUL NOT TO ERASE ANY WALLET THAT MAY HAVE VALUE!</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: bitcoin-qt: Move Downloaded blockchain to another installation</b><br />
+					Post by: <b>tinyapps</b> on <b>March 29, 2013, 05:54:10 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader">Quote</div><div class="quote">Basically just make a copy of the whole Bitcoin data directory and drop it into any computer</div>For 0.8+, you may want to skip at least the deprecated blkxxxx.dat and blkindex.dat files since they are no longer used and are quite large. More on the data directory contents: https://en.bitcoin.it/wiki/Data_directory (https://en.bitcoin.it/wiki/Data_directory)</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: bitcoin-qt: Move Downloaded blockchain to another installation</b><br />
+					Post by: <b>matt.collier</b> on <b>March 30, 2013, 12:54:30 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Hello All,<br /><br />I can confirm that it is possible to copy the block chain from a Windows v0.8.1-beta installation to a linux v0.8.1-beta by copying only the contents (including subdirectories) of &#039;blocks&#039; and &#039;chainstate&#039; folders.<br /><br />Matt</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: bitcoin-qt: Move Downloaded blockchain to another installation</b><br />
+					Post by: <b>tinyapps</b> on <b>March 30, 2013, 03:59:31 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Thanks very much for confirming that, Matt!</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: bitcoin-qt: Move Downloaded blockchain to another installation</b><br />
+					Post by: <b>deepceleron</b> on <b>March 30, 2013, 08:50:32 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=143220.msg1694068#msg1694068">Quote from: tinyapps on March 28, 2013, 05:56:06 PM</a></div><div class="quote">Unable to find a definitive answer to the question of copying the blockchain to another computer, I asked Gavin via email:<br /><br /><i>In Bitcoin-Qt 0.8+, how can the blockchain be copied from one computer to another? Is it simply a matter of copying the blocks and chainstate directories?</i><br /><br />His reply:<br /><br /><i>Yes</i><br /></div><br />That is appropriately curt. You feel entitled to bother a lead developer for your own personal tech support? I have a feeling this is one reason why Satoshi was no longer entertained with the forum.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: bitcoin-qt: Move Downloaded blockchain to another installation</b><br />
+					Post by: <b>tinyapps</b> on <b>March 30, 2013, 06:30:38 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader">Quote</div><div class="quote">You feel entitled to bother a lead developer</div>I feel &quot;entitled&quot; to email anyone who shares his or her email address with the world. S/he is of course free to ignore my email. We are all equals, my friend.<br /><br /><div class="quoteheader">Quote</div><div class="quote">for your own personal tech support?</div>It was actually to post here so that the entire community could have a definitive answer to this question. Ironically, it was a post of yours that finally convinced me that I had to check with someone who would actually know the correct answer: https://bitcointalk.org/index.php?topic=145437.msg1553996#msg1553996 (https://bitcointalk.org/index.php?topic=145437.msg1553996#msg1553996)<br /><br /><div class="quoteheader">Quote</div><div class="quote">It has also been reported that the new leveldb database format is not as portable, i.e. a datadir created on Linux might not work on Windows.</div>I had even replied to that comment 5 days ago asking for any further details from you or the community: https://bitcointalk.org/index.php?topic=145437.msg1670599#msg1670599 (https://bitcointalk.org/index.php?topic=145437.msg1670599#msg1670599)<br /><br /><div class="quoteheader">Quote</div><div class="quote">Thanks for the info, deepceleron. Do you know if it is possible to copy the 0.8 blockchain to a new computer by simply pasting the blocks and chainstate directories? Any further info on whether such a transfer would work cross-platform or not?<br /></div>Sadly, apparently no one here knew the correct answer or could be bothered to share it. I decided to try my best to find out and share the answer so that others could benefit. With the blockchain well over 7.5GB and growing fast, it is important that users know how to copy the blockchain correctly.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: bitcoin-qt: Move Downloaded blockchain to another installation</b><br />
+					Post by: <b>keystroke</b> on <b>April 08, 2013, 04:07:59 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Thanks, this was helpful information.</div>
+					<br /><br />
+					<div align="center" class="smalltext">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank">Powered by SMF 1.1.19</a> | 
+<a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank">SMF &copy; 2006-2009, Simple Machines</a>
+		</span></div>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

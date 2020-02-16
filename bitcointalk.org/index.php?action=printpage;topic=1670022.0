@@ -1,0 +1,86 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+		<link rel="canonical" href="https://bitcointalk.org/index.php?topic=1670022.0" />
+		<title>Print Page - Create a Chain from Scratch in Python??</title>
+		<style type="text/css">
+			body
+			{
+				color: black;
+				background-color: white;
+			}
+			body, td, .normaltext
+			{
+				font-family: Verdana, arial, helvetica, serif;
+				font-size: small;
+			}
+			*, a:link, a:visited, a:hover, a:active
+			{
+				color: black !important;
+			}
+			table
+			{
+				empty-cells: show;
+			}
+			.code
+			{
+				font-size: x-small;
+				font-family: monospace;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.quote
+			{
+				font-size: x-small;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.smalltext, .quoteheader, .codeheader
+			{
+				font-size: x-small;
+			}
+			.largetext
+			{
+				font-size: large;
+			}
+			hr
+			{
+				height: 1px;
+				border: 0;
+				color: black;
+				background-color: black;
+			}
+		</style>
+	</head>
+	<body>
+		<h1 class="largetext">Bitcoin Forum</h1>
+		<h2 class="normaltext">Bitcoin => Development &amp; Technical Discussion => Topic started by: Greentext on November 03, 2016, 07:57:46 PM</h2>
+
+		<table width="90%" cellpadding="0" cellspacing="0" border="0">
+			<tr>
+				<td>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Create a Chain from Scratch in Python??</b><br />
+					Post by: <b>Greentext</b> on <b>November 03, 2016, 07:57:46 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">I have an idea I&#039;d like to transform into code, particularly a blockchain very similar to Bitcoin created from scratch, with different consensus and mining rules.&nbsp; Essentially a distributed ledger, just functioning differently.&nbsp; However, I can&#039;t program well in C++, I&#039;d be spending months learning compiler directives and what&#039;s going on in the code.&nbsp; I&#039;ve already tried figuring out the Litecoin source, and it&#039;s essentially meaningless to me.&nbsp; I have a basic understanding of C, but large Cpp projects are literally foreign to me.&nbsp; I come from a strong Python/web development background (I&#039;m a beta programmer, stuck to interpreted languages) but need a blockchain, so I was wondering whether or not it would be impossible to create a chain from scratch on a scripting language?&nbsp; I know Cpp is better for numerous reasons, but do you at least think it&#039;s possible so I&#039;m not wasting my time?&nbsp; Those with experience, is there any merit to creating a blockchain with an interpreted language, or are there reasons for which this is destined to be an absolute failure?&nbsp; I understand all the theory of blockchains and how they work, but I don&#039;t have the programming skills to apply those concepts in anything more complicated than Python.&nbsp; I can write Bitcoin transactions, work with API&#039;s, etc. in Python, but the actual Cpp source for whole projects, along with creating genesis blocks and what have ypu is currently exponential degrees of magnitude out of my league.<br /><br />I&#039;ve become obsessed and depressed stressing over recent global affairs, and because of this I can&#039;t think about anything besides this idea in my mind, my productivity has been reduced to zero.&nbsp; I&#039;ve thought about getting a partner to write the chain portion of the project, but I can&#039;t rely on other people for all the actual work so I figure if my last option is learn Cpp I will strap down and learn it.&nbsp; If Python is not an option and I must learn a compiled language, where should I start?&nbsp; Any essential reading?</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Create a Chain from Scratch in Python??</b><br />
+					Post by: <b>ThatRandom8543</b> on <b>November 05, 2016, 05:49:18 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=1670022.msg16767226#msg16767226">Quote from: Greentext on November 03, 2016, 07:57:46 PM</a></div><div class="quote">I have an idea I&#039;d like to transform into code, particularly a blockchain very similar to Bitcoin created from scratch, with different consensus and mining rules.&nbsp; Essentially a distributed ledger, just functioning differently.&nbsp; However, I can&#039;t program well in C++, I&#039;d be spending months learning compiler directives and what&#039;s going on in the code.&nbsp; I&#039;ve already tried figuring out the Litecoin source, and it&#039;s essentially meaningless to me.&nbsp; I have a basic understanding of C, but large Cpp projects are literally foreign to me.&nbsp; I come from a strong Python/web development background (I&#039;m a beta programmer, stuck to interpreted languages) but need a blockchain, so I was wondering whether or not it would be impossible to create a chain from scratch on a scripting language?&nbsp; I know Cpp is better for numerous reasons, but do you at least think it&#039;s possible so I&#039;m not wasting my time?&nbsp; Those with experience, is there any merit to creating a blockchain with an interpreted language, or are there reasons for which this is destined to be an absolute failure?&nbsp; I understand all the theory of blockchains and how they work, but I don&#039;t have the programming skills to apply those concepts in anything more complicated than Python.&nbsp; I can write Bitcoin transactions, work with API&#039;s, etc. in Python, but the actual Cpp source for whole projects, along with creating genesis blocks and what have ypu is currently exponential degrees of magnitude out of my league.<br /><br />I&#039;ve become obsessed and depressed stressing over recent global affairs, and because of this I can&#039;t think about anything besides this idea in my mind, my productivity has been reduced to zero.&nbsp; I&#039;ve thought about getting a partner to write the chain portion of the project, but I can&#039;t rely on other people for all the actual work so I figure if my last option is learn Cpp I will strap down and learn it.&nbsp; If Python is not an option and I must learn a compiled language, where should I start?&nbsp; Any essential reading?<br /></div><br />It doesnt always have to be done in C/C++. It can be done in python too. If python isnt your type, you can try Go, Rust, D, Ocaml, etc. </div>
+					<br /><br />
+					<div align="center" class="smalltext">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank">Powered by SMF 1.1.19</a> | 
+<a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank">SMF &copy; 2006-2009, Simple Machines</a>
+		</span></div>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

@@ -1,0 +1,122 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+		<link rel="canonical" href="https://bitcointalk.org/index.php?topic=108830.0" />
+		<title>Print Page - How to export private key to new wallet</title>
+		<style type="text/css">
+			body
+			{
+				color: black;
+				background-color: white;
+			}
+			body, td, .normaltext
+			{
+				font-family: Verdana, arial, helvetica, serif;
+				font-size: small;
+			}
+			*, a:link, a:visited, a:hover, a:active
+			{
+				color: black !important;
+			}
+			table
+			{
+				empty-cells: show;
+			}
+			.code
+			{
+				font-size: x-small;
+				font-family: monospace;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.quote
+			{
+				font-size: x-small;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.smalltext, .quoteheader, .codeheader
+			{
+				font-size: x-small;
+			}
+			.largetext
+			{
+				font-size: large;
+			}
+			hr
+			{
+				height: 1px;
+				border: 0;
+				color: black;
+				background-color: black;
+			}
+		</style>
+	</head>
+	<body>
+		<h1 class="largetext">Bitcoin Forum</h1>
+		<h2 class="normaltext">Bitcoin => Bitcoin Technical Support => Topic started by: AndrewBUD on September 11, 2012, 09:53:42 PM</h2>
+
+		<table width="90%" cellpadding="0" cellspacing="0" border="0">
+			<tr>
+				<td>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>How to export private key to new wallet</b><br />
+					Post by: <b>AndrewBUD</b> on <b>September 11, 2012, 09:53:42 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">I am having a hell of a time getting my wallet to work again... It seems like it starts to download the blockchain and get&#039;s frozen.<br /><br /><br /><br />I have one address that is locked in to a couple pools I use and I do not want to lose it ...<br /><br /><br />Any help is much appreciated.. <br /><br /><br />Sorry still editing :) <br /><br /><br />https://en.bitcoin.it/wiki/Importprivkey <br /><br />I got to this..... Can someone please give me an example of how to do this: I start a new wallet from scratch... I open bitcoind and use the command: importprivkey (what comes after this command) </div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: How to export private key to new wallet</b><br />
+					Post by: <b>Stephen Gornick</b> on <b>September 11, 2012, 11:15:06 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=108830.msg1182819#msg1182819">Quote from: AndrewBUD on September 11, 2012, 09:53:42 PM</a></div><div class="quote">I start a new wallet from scratch... <br /></div><br />Why?&nbsp; The blockchain download halting probably has nothing to do with your wallet.<br /><br />In fact, you can re-download the blockchain with the empty wallet.dat, then replace that empty one with the wallet.dat from your backup.&nbsp; (of course, shut down the client before copying the wallet.dat over.)<br /><br />There&#039;s no need to import private keys.<br /><br />As far as why that might hack stopped downloading, there are a couple things that could be happening.&nbsp; Firstly, are you using the recent release (e.g.., v0.6.3?)<br /><br />If so, does the client show connections?<br /><br />A debug.log can help troubleshoot why the blockchain download might not have completed.&nbsp; But that is completely separate from any wallet.dat issue you think you might be having.<br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: How to export private key to new wallet</b><br />
+					Post by: <b>AndrewBUD</b> on <b>September 11, 2012, 11:55:56 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">My reasoning behind this is that: when it get&#039;s near the end of downloading the blockchain it uses a ton of CPU and takes days to finish.... <br /><br /><br />I am confused...... I have the blockchain downloaded with the blk files... and blkindex but even after rescanning it starts downloading it from scratch....&nbsp; </div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: How to export private key to new wallet</b><br />
+					Post by: <b>AndrewBUD</b> on <b>September 12, 2012, 12:11:27 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Another question.... Using any light client, can you export a key? or does that only work with the qt client?</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: How to export private key to new wallet</b><br />
+					Post by: <b>casascius</b> on <b>September 12, 2012, 12:12:37 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Isn&#039;t there a dumpwallet or similar command?&nbsp; That&#039;d be the one you want.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: How to export private key to new wallet</b><br />
+					Post by: <b>AndrewBUD</b> on <b>September 12, 2012, 12:22:46 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">I found this: <br /><br />$ bitcoind help<br />[...]<br />&nbsp; importprivkey &lt;bitcoinprivkey&gt; [label]<br /><br /><br />BUT,, I have never used bitcoind and I tend to break stuff unless someone tells me what to do, I always seem to get different answers when googling certain topics.... <br /><br /><br />Thanks<br /><br /><br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: How to export private key to new wallet</b><br />
+					Post by: <b>Stephen Gornick</b> on <b>September 12, 2012, 09:47:20 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=108830.msg1183247#msg1183247">Quote from: AndrewBUD on September 11, 2012, 11:55:56 PM</a></div><div class="quote">My reasoning behind this is that: when it get&#039;s near the end of downloading the blockchain it uses a ton of CPU and takes days to finish.... <br /></div><br />That has nothing to do with your wallet.dat and everything to do with the makeup of the blockchain (thanks to SatoshiDICE which started on stong at about 95% of the blockchain).<br /><br /><br />So, ... unless your wallet.dat is corrupt or something, that is not your problem.<br /><br /><br />As far as it re-downloading the blockchain, I&#039;m not sure why that would be doing that.&nbsp; <br /><br />Also, if you are on an encrypted filesystem that will really slow you down for blockchain downloads.<br /><br />As far as a client, such as Electrum or MultiBit, yes, the key(s) can be exported. The wallet formats are different.&nbsp; You can import private keys into electrum I believe.<br /><br />Personally, I use Blockchain.info for my daily wallet as that is accessible via web and mobile app.&nbsp; It is a hybrid EWallet, doesn&#039;t have access to your private keys.<br /><br />But that too would require that you export your keys and transfer them.&nbsp; Letting the client complete the download is probably your safest point forward, then send a payment to empty your wallet rather than importing keys.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: How to export private key to new wallet</b><br />
+					Post by: <b>AndrewBUD</b> on <b>September 12, 2012, 10:58:56 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">I understand.... I am letting it redownload I am stuck using one of my rigs boards at the moment... damn dual cores are very slow.... <br /><br /><br /><br />Thanks for your help.... </div>
+					<br /><br />
+					<div align="center" class="smalltext">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank">Powered by SMF 1.1.19</a> | 
+<a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank">SMF &copy; 2006-2009, Simple Machines</a>
+		</span></div>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

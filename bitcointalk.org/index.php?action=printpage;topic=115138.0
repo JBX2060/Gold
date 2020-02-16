@@ -1,0 +1,218 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+		<link rel="canonical" href="https://bitcointalk.org/index.php?topic=115138.0" />
+		<title>Print Page - [PHP] Generate a sendmany with multiple outputs to the same address</title>
+		<style type="text/css">
+			body
+			{
+				color: black;
+				background-color: white;
+			}
+			body, td, .normaltext
+			{
+				font-family: Verdana, arial, helvetica, serif;
+				font-size: small;
+			}
+			*, a:link, a:visited, a:hover, a:active
+			{
+				color: black !important;
+			}
+			table
+			{
+				empty-cells: show;
+			}
+			.code
+			{
+				font-size: x-small;
+				font-family: monospace;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.quote
+			{
+				font-size: x-small;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.smalltext, .quoteheader, .codeheader
+			{
+				font-size: x-small;
+			}
+			.largetext
+			{
+				font-size: large;
+			}
+			hr
+			{
+				height: 1px;
+				border: 0;
+				color: black;
+				background-color: black;
+			}
+		</style>
+	</head>
+	<body>
+		<h1 class="largetext">Bitcoin Forum</h1>
+		<h2 class="normaltext">Bitcoin => Bitcoin Technical Support => Topic started by: SgtSpike on October 03, 2012, 07:34:55 AM</h2>
+
+		<table width="90%" cellpadding="0" cellspacing="0" border="0">
+			<tr>
+				<td>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>[PHP] Generate a sendmany with multiple outputs to the same address</b><br />
+					Post by: <b>SgtSpike</b> on <b>October 03, 2012, 07:34:55 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">I am utilizing the &quot;Bitcoin Classes&quot; by Mike Gogulski and theymos in some PHP code I am playing with.&nbsp; As I understand it, the format for a sendmany is as follows:<br /><br />$array[address[amount]]<br /><br />Well, I can&#039;t send multiple times to the same address in the same sendmany in this format, since the address would be non-unique.&nbsp; So, what would be the proper array format to sendmany to the same address multiple times?</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [PHP] Generate a sendmany with multiple outputs to the same address</b><br />
+					Post by: <b>ingrownpocket</b> on <b>December 11, 2012, 11:58:14 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">bump</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [PHP] Generate a sendmany with multiple outputs to the same address</b><br />
+					Post by: <b>gweedo</b> on <b>December 11, 2012, 07:51:03 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Bitcoin classes doesn&#039;t have a sendtomany function, but if you want to do sendtomany with a jsonRPCClient then you just need an array that is setup like $array(&quot;address&quot;=&gt;amount); or $array[&#039;address&#039;]=amount;<br /><br />Cause you it will have to be ran thru json_encode to get it to the correct format.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [PHP] Generate a sendmany with multiple outputs to the same address</b><br />
+					Post by: <b>ingrownpocket</b> on <b>December 11, 2012, 08:07:11 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=115138.msg1393170#msg1393170">Quote from: gweedo on December 11, 2012, 07:51:03 PM</a></div><div class="quote">Bitcoin classes doesn&#039;t have a sendtomany function, but if you want to do sendtomany with a jsonRPCClient then you just need an array that is setup like $array(&quot;address&quot;=&gt;amount); or $array[&#039;address&#039;]=amount;<br /><br />Cause you it will have to be ran thru json_encode to get it to the correct format.<br /></div><br />I didn&#039;t realize he&#039;s using &quot;Bitcoin Classes&quot;.<br />I&#039;m using jsonRPCClient to connect with bitcoind.<br /><br />I&#039;m doing this:<br /><br />$to=Array(<br />&nbsp;&nbsp; &nbsp;&quot;1address&quot; =&gt; 1,<br />&nbsp;&nbsp; &nbsp;&quot;1address&quot; =&gt; 2<br />);<br />sendmany(&quot;from&quot;, $to);<br /><br />It will only send one payment to &quot;1address&quot;.<br /><br />The problem is that it has a duplicated key, so it&#039;s impossible to send multiple payments to the same address in the same transaction using this method.<br />blockchain.info allows us to do this, but I don&#039;t know how they do it.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [PHP] Generate a sendmany with multiple outputs to the same address</b><br />
+					Post by: <b>gweedo</b> on <b>December 11, 2012, 08:35:02 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">You might want to wrap the amounts in floatval(); Also you need to json_encode the array that is the issue you can&#039;t just pass the array.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [PHP] Generate a sendmany with multiple outputs to the same address</b><br />
+					Post by: <b>SgtSpike</b> on <b>December 11, 2012, 08:38:29 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=115138.msg1393283#msg1393283">Quote from: gweedo on December 11, 2012, 08:35:02 PM</a></div><div class="quote">You might want to wrap the amounts in floatval(); Also you need to json_encode the array that is the issue you can&#039;t just pass the array.<br /></div>floatval() wrapping is valuable advice, as I found.&nbsp; :)<br /><br />But the issue is that the array is organized in such a way as to use each address for the identifier of the element in the array.&nbsp; You cannot use the same ID in the same array twice, thus eliminating the possibility of conducting a sendmany with multiple outputs to the same address with this particular PHP code.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [PHP] Generate a sendmany with multiple outputs to the same address</b><br />
+					Post by: <b>ingrownpocket</b> on <b>December 11, 2012, 09:04:50 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=115138.msg1393294#msg1393294">Quote from: SgtSpike on December 11, 2012, 08:38:29 PM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=115138.msg1393283#msg1393283">Quote from: gweedo on December 11, 2012, 08:35:02 PM</a></div><div class="quote">You might want to wrap the amounts in floatval(); Also you need to json_encode the array that is the issue you can&#039;t just pass the array.<br /></div>floatval() wrapping is valuable advice, as I found.&nbsp; :)<br /><br />But the issue is that the array is organized in such a way as to use each address for the identifier of the element in the array.&nbsp; You cannot use the same ID in the same array twice, thus eliminating the possibility of conducting a sendmany with multiple outputs to the same address with this particular PHP code.<br /></div><br />Exactly. <br />Is there any other way to do this?</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [PHP] Generate a sendmany with multiple outputs to the same address</b><br />
+					Post by: <b>gweedo</b> on <b>December 11, 2012, 09:05:55 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=115138.msg1393338#msg1393338">Quote from: Carlos L. on December 11, 2012, 09:04:50 PM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=115138.msg1393294#msg1393294">Quote from: SgtSpike on December 11, 2012, 08:38:29 PM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=115138.msg1393283#msg1393283">Quote from: gweedo on December 11, 2012, 08:35:02 PM</a></div><div class="quote">You might want to wrap the amounts in floatval(); Also you need to json_encode the array that is the issue you can&#039;t just pass the array.<br /></div>floatval() wrapping is valuable advice, as I found.&nbsp; :)<br /><br />But the issue is that the array is organized in such a way as to use each address for the identifier of the element in the array.&nbsp; You cannot use the same ID in the same array twice, thus eliminating the possibility of conducting a sendmany with multiple outputs to the same address with this particular PHP code.<br /></div><br />Exactly. <br />Is there any other way to do this?<br /></div><br />Yes after you build your array, do a search and combine the address into one.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [PHP] Generate a sendmany with multiple outputs to the same address</b><br />
+					Post by: <b>SgtSpike</b> on <b>December 11, 2012, 09:25:48 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=115138.msg1393342#msg1393342">Quote from: gweedo on December 11, 2012, 09:05:55 PM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=115138.msg1393338#msg1393338">Quote from: Carlos L. on December 11, 2012, 09:04:50 PM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=115138.msg1393294#msg1393294">Quote from: SgtSpike on December 11, 2012, 08:38:29 PM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=115138.msg1393283#msg1393283">Quote from: gweedo on December 11, 2012, 08:35:02 PM</a></div><div class="quote">You might want to wrap the amounts in floatval(); Also you need to json_encode the array that is the issue you can&#039;t just pass the array.<br /></div>floatval() wrapping is valuable advice, as I found.&nbsp; :)<br /><br />But the issue is that the array is organized in such a way as to use each address for the identifier of the element in the array.&nbsp; You cannot use the same ID in the same array twice, thus eliminating the possibility of conducting a sendmany with multiple outputs to the same address with this particular PHP code.<br /></div><br />Exactly. <br />Is there any other way to do this?<br /></div><br />Yes after you build your array, do a search and combine the address into one.<br /></div>The goal is to NOT combine the outputs to a single address into one.&nbsp; I.e., you want to send multiple outputs to the same address at the same time.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [PHP] Generate a sendmany with multiple outputs to the same address</b><br />
+					Post by: <b>deepceleron</b> on <b>December 12, 2012, 04:41:30 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="codeheader">Code:</div><div class="code"><br />&nbsp; &quot;out&quot;:[<br />&nbsp; &nbsp; {<br />&nbsp; &nbsp; &nbsp; &quot;value&quot;:&quot;1.00000000&quot;,<br />&nbsp; &nbsp; &nbsp; &quot;scriptPubKey&quot;:&quot;OP_DUP OP_HASH160 ad4c20d5b1956015ea626f02afdaebe8ed17e1a8 OP_EQUALVERIFY OP_CHECKSIG&quot;[/b]<br />&nbsp; &nbsp; },<br />&nbsp; &nbsp; {<br />&nbsp; &nbsp; &nbsp; &quot;value&quot;:&quot;1.00000000&quot;,<br />&nbsp; &nbsp; &nbsp; &quot;scriptPubKey&quot;:&quot;OP_DUP OP_HASH160 ad4c20d5b1956015ea626f02afdaebe8ed17e1a8 OP_EQUALVERIFY OP_CHECKSIG&quot;[/b]<br />&nbsp; &nbsp; }<br />&nbsp; ]<br />}<br /></div><br />Constructing a transaction like this is:<br /><br />1. Either identical to sending the destination 2 BTC, in that clients consider the transaction to be adding 2BTC to the balance as one output (Bitcoin can&#039;t differentiate which output of these two might later have been spent, because they are identical with an identical transaction hash),<br /><br />or<br /><br />2. A good way to lose half your money because Bitcoin can&#039;t differentiate between which output of these two might later have been spent, because they are identical with an identical transaction hash.<br /><br />https://en.bitcoin.it/wiki/BIP_0030<br /><div class="quoteheader">Quote</div><div class="quote">So far, the Bitcoin reference implementation always assumed duplicate transactions (transactions with the same identifier) didn&#039;t exist.</div></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [PHP] Generate a sendmany with multiple outputs to the same address</b><br />
+					Post by: <b>SgtSpike</b> on <b>December 12, 2012, 07:13:19 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">How did this guy accomplish it when sending coins my way then?<br /><br />http://blockchain.info/tx/67b9c10df1098152080baade7e3aab5cfa475ae154cf27000d1f000e370e65d2?show_adv=true</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [PHP] Generate a sendmany with multiple outputs to the same address</b><br />
+					Post by: <b>deepceleron</b> on <b>December 12, 2012, 08:32:02 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=115138.msg1394363#msg1394363">Quote from: SgtSpike on December 12, 2012, 07:13:19 AM</a></div><div class="quote">How did this guy accomplish it when sending coins my way then?<br /><br />http://blockchain.info/tx/67b9c10df1098152080baade7e3aab5cfa475ae154cf27000d1f000e370e65d2?show_adv=true<br /></div><br />TXOUT Amounts?<br />0.00100000<br />0.00100000<br />0.01000010<br />0.01001101<br />0.01001110<br />0.01100001<br />0.01100011<br />0.01100011<br />0.01100100<br />0.01100101<br />0.01100101<br />0.01100110<br />0.01101001<br />0.01101001<br />0.01101001<br />0.01101100<br />0.01101110<br />0.01110010<br />0.01110100<br />0.01110101<br />0.49730788<br />0.80211920<br /><br />If you look at that address on blockexplorer (scroll to block 181957 at http://blockexplorer.com/address/18TKNbSLTrd3a2W8mtoH5uNzFhWRWNcuHU) you can see that it is freaked out, and considers the transaction to have been 0.9995 BTC, not 1.49680788.<br /><br />It looks like the outputs are able to be spent by reference to the<i> n index</i> location of the output. Here is the spending transaction (although note a few outputs, index #4 &amp; #14, for a total of .002 aren&#039;t spent here):<br />http://blockexplorer.com/rawtx/bf9d5f83dc9cc6d2876725abc90f0dba92d52a7146da6c7e5a10bbb154895b34</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [PHP] Generate a sendmany with multiple outputs to the same address</b><br />
+					Post by: <b>ingrownpocket</b> on <b>December 12, 2012, 08:32:14 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=115138.msg1394363#msg1394363">Quote from: SgtSpike on December 12, 2012, 07:13:19 AM</a></div><div class="quote">How did this guy accomplish it when sending coins my way then?<br /><br />http://blockchain.info/tx/67b9c10df1098152080baade7e3aab5cfa475ae154cf27000d1f000e370e65d2?show_adv=true<br /></div><br />https://blockchain.info/tx/b62b5833e6c1f4c03c3a8aec43bde73c51ecf8be52a332ede720eae5788dbd64 (https://blockchain.info/tx/b62b5833e6c1f4c03c3a8aec43bde73c51ecf8be52a332ede720eae5788dbd64)<br /><br />I can do this using blockchain.info wallet.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [PHP] Generate a sendmany with multiple outputs to the same address</b><br />
+					Post by: <b>SgtSpike</b> on <b>December 12, 2012, 08:34:27 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=115138.msg1394477#msg1394477">Quote from: Carlos L. on December 12, 2012, 08:32:14 AM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=115138.msg1394363#msg1394363">Quote from: SgtSpike on December 12, 2012, 07:13:19 AM</a></div><div class="quote">How did this guy accomplish it when sending coins my way then?<br /><br />http://blockchain.info/tx/67b9c10df1098152080baade7e3aab5cfa475ae154cf27000d1f000e370e65d2?show_adv=true<br /></div><br />https://blockchain.info/tx/b62b5833e6c1f4c03c3a8aec43bde73c51ecf8be52a332ede720eae5788dbd64 (https://blockchain.info/tx/b62b5833e6c1f4c03c3a8aec43bde73c51ecf8be52a332ede720eae5788dbd64)<br /><br />I can do this using blockchain.info wallet.<br /></div>So obviously, it is possible.&nbsp; But deepceleron, you are saying the one sent to me wasn&#039;t a &quot;normal&quot; transaction, per say?</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [PHP] Generate a sendmany with multiple outputs to the same address</b><br />
+					Post by: <b>ingrownpocket</b> on <b>December 12, 2012, 08:37:39 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">https://blockchain.info/tx/7cba3305f6a05dc6c663c272eacaaced3fa5f0ee56cc4cdca894b4ff0d03bdfe (https://blockchain.info/tx/7cba3305f6a05dc6c663c272eacaaced3fa5f0ee56cc4cdca894b4ff0d03bdfe)<br /><br />I was trying to get around SatoshiDice max bet, but it doesn&#039;t seem possible.<br /><br />http://satoshidice.com/full.php?tx=7cba3305f6a05dc6c663c272eacaaced3fa5f0ee56cc4cdca894b4ff0d03bdfe (http://satoshidice.com/full.php?tx=7cba3305f6a05dc6c663c272eacaaced3fa5f0ee56cc4cdca894b4ff0d03bdfe)</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [PHP] Generate a sendmany with multiple outputs to the same address</b><br />
+					Post by: <b>dooglus</b> on <b>December 12, 2012, 06:54:09 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=115138.msg1394487#msg1394487">Quote from: Carlos L. on December 12, 2012, 08:37:39 AM</a></div><div class="quote">https://blockchain.info/tx/7cba3305f6a05dc6c663c272eacaaced3fa5f0ee56cc4cdca894b4ff0d03bdfe (https://blockchain.info/tx/7cba3305f6a05dc6c663c272eacaaced3fa5f0ee56cc4cdca894b4ff0d03bdfe)<br /><br />I was trying to get around SatoshiDice max bet, but it doesn&#039;t seem possible.<br /><br />http://satoshidice.com/full.php?tx=7cba3305f6a05dc6c663c272eacaaced3fa5f0ee56cc4cdca894b4ff0d03bdfe (http://satoshidice.com/full.php?tx=7cba3305f6a05dc6c663c272eacaaced3fa5f0ee56cc4cdca894b4ff0d03bdfe)<br /></div><br />Until around July you could get around their max bet limit using this technique.&nbsp; Then they fixed it.<br /><br />On 14th June you could bet the max as many times as you wanted.&nbsp; The max was 5 BTC at this point:<br /><br />http://www.satoshidice.com/lookup.php?tx=e6e65a1154e9cb74f90a5cc539b19c9acde4df9173d5ada457abb754f1e07e92<br /><br />By 23rd July they had fixed the problem:<br /><br />http://www.satoshidice.com/lookup.php?tx=400bea64815ce2035310f7caebdf5c3ce0ddd36bff11aece85ab20baa8b47496</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [PHP] Generate a sendmany with multiple outputs to the same address</b><br />
+					Post by: <b>kjj</b> on <b>December 17, 2012, 01:21:41 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=115138.msg1394171#msg1394171">Quote from: deepceleron on December 12, 2012, 04:41:30 AM</a></div><div class="quote"><div class="codeheader">Code:</div><div class="code"><br />&nbsp; &quot;out&quot;:[<br />&nbsp; &nbsp; {<br />&nbsp; &nbsp; &nbsp; &quot;value&quot;:&quot;1.00000000&quot;,<br />&nbsp; &nbsp; &nbsp; &quot;scriptPubKey&quot;:&quot;OP_DUP OP_HASH160 ad4c20d5b1956015ea626f02afdaebe8ed17e1a8 OP_EQUALVERIFY OP_CHECKSIG&quot;[/b]<br />&nbsp; &nbsp; },<br />&nbsp; &nbsp; {<br />&nbsp; &nbsp; &nbsp; &quot;value&quot;:&quot;1.00000000&quot;,<br />&nbsp; &nbsp; &nbsp; &quot;scriptPubKey&quot;:&quot;OP_DUP OP_HASH160 ad4c20d5b1956015ea626f02afdaebe8ed17e1a8 OP_EQUALVERIFY OP_CHECKSIG&quot;[/b]<br />&nbsp; &nbsp; }<br />&nbsp; ]<br />}<br /></div><br />Constructing a transaction like this is:<br /><br />1. Either identical to sending the destination 2 BTC, in that clients consider the transaction to be adding 2BTC to the balance as one output (Bitcoin can&#039;t differentiate which output of these two might later have been spent, because they are identical with an identical transaction hash),<br /><br />or<br /><br />2. A good way to lose half your money because Bitcoin can&#039;t differentiate between which output of these two might later have been spent, because they are identical with an identical transaction hash.<br /><br />https://en.bitcoin.it/wiki/BIP_0030<br /><div class="quoteheader">Quote</div><div class="quote">So far, the Bitcoin reference implementation always assumed duplicate transactions (transactions with the same identifier) didn&#039;t exist.</div><br /></div><br />No, you are confusing transactions with outputs.&nbsp; Transaction with duplicate hashes are no longer allowed, but duplicate outputs are.&nbsp; The reason is that the transaction hash is the sole transaction identifier, while an output is identified by both the transaction hash and the output sequence number.&nbsp; In this case, even though the transaction has two identical outputs, one is named <i>&lt;TxHash&gt;.0</i> and the other is named <i>&lt;TxHash&gt;.1</i>.<br /><br />In normal operation, the reference client hides the coin details from the user, and will present it to the user as a 2 BTC payment.&nbsp; But behind the scenes, it knows that there are two outputs there and will act correctly, fully capable of redeeming and spending them one at a time.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [PHP] Generate a sendmany with multiple outputs to the same address</b><br />
+					Post by: <b>Gavin Andresen</b> on <b>December 28, 2012, 09:09:11 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">The bitcoind sendmany RPC call uses destination addresses as JSON Object keys, so you can&#039;t send to the same address multiple times in one transaction.<br /><br />If you REALLY want to do that... first, why do you want to do that? I suppose if you want to use the blockchain as a messaging system then sending 0.123+0.567+etc might be an inefficient way of sending a message... but please don&#039;t do that.<br /><br />Anyway, if you do REALLY want to do that, you&#039;ll have to write code to construct the transaction yourself. Then you could pass it to the signrawtransaction/sendrawtransaction RPC methods to broadcast it.&nbsp; (you can&#039;t use createrawtransaction to create it, because it uses the same JSON syntax as sendmany for destination outputs).<br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [PHP] Generate a sendmany with multiple outputs to the same address</b><br />
+					Post by: <b>SgtSpike</b> on <b>December 28, 2012, 09:47:46 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=115138.msg1423947#msg1423947">Quote from: Gavin Andresen on December 28, 2012, 09:09:11 PM</a></div><div class="quote">The bitcoind sendmany RPC call uses destination addresses as JSON Object keys, so you can&#039;t send to the same address multiple times in one transaction.<br /><br />If you REALLY want to do that... first, why do you want to do that? I suppose if you want to use the blockchain as a messaging system then sending 0.123+0.567+etc might be an inefficient way of sending a message... but please don&#039;t do that.<br /><br />Anyway, if you do REALLY want to do that, you&#039;ll have to write code to construct the transaction yourself. Then you could pass it to the signrawtransaction/sendrawtransaction RPC methods to broadcast it.&nbsp; (you can&#039;t use createrawtransaction to create it, because it uses the same JSON syntax as sendmany for destination outputs).<br /></div>Interesting, thanks for the response Gavin.&nbsp; At the very least, blockchain.info has written the necessary code, and potentially, whoever it was that sent me a binary message earlier on in the year may have also programmed their own code for it.<br /><br />At least this answers my question of whether it was a bitcoind issue or not.&nbsp; Now I know that no bitcoind-based solution will accomplish this.&nbsp; Perhaps time to learn the blockchain.info API, then.&nbsp; ;)<br /><br />Why do you say &quot;but please don&#039;t do that&quot;?&nbsp; Blockchain bloat?</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [PHP] Generate a sendmany with multiple outputs to the same address</b><br />
+					Post by: <b>piotr_n</b> on <b>December 30, 2012, 05:20:43 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Yeah, it&#039;s a bummer that you cannot specify the same address twice - I once suffered from this as well, but a workaround was fairly simple, especially in PHP.<br /><br />A bigger issue I&#039;ve had with sendmany is that the command requires the &quot;&lt;fromaccount&gt;&quot; parameter and you cannot just say to it like &quot;whatever account&quot;...<br />So the way I use my client, having coins spread across several &quot;accounts&quot; (which I personally only use to label addresses), then it seems like someone had made this parameter mandatory just to piss me off... ;)</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [PHP] Generate a sendmany with multiple outputs to the same address</b><br />
+					Post by: <b>SgtSpike</b> on <b>December 31, 2012, 04:30:22 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=115138.msg1426461#msg1426461">Quote from: piotr_n on December 30, 2012, 05:20:43 PM</a></div><div class="quote">Yeah, it&#039;s a bummer that you cannot specify the same address twice - I once suffered from this as well, but a workaround was fairly simple, especially in PHP.<br /><br />A bigger issue I&#039;ve had with sendmany is that the command requires the &quot;&lt;fromaccount&gt;&quot; parameter and you cannot just say to it like &quot;whatever account&quot;...<br />So the way I use my client, having coins spread across several &quot;accounts&quot; (which I personally only use to label addresses), then it seems like someone had made this parameter mandatory just to piss me off... ;)<br /></div>What was the workaround?</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [PHP] Generate a sendmany with multiple outputs to the same address</b><br />
+					Post by: <b>piotr_n</b> on <b>December 31, 2012, 06:18:58 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=115138.msg1427858#msg1427858">Quote from: SgtSpike on December 31, 2012, 04:30:22 PM</a></div><div class="quote">What was the workaround?<br /></div>Well, it&#039;s a workaround only if you&#039;re fine with single transaction per a recipient address (I was).<br />In such case, just sum up the amounts using a map with the destination address as the key.<br />Something like:<br /><div class="codeheader">Code:</div><div class="code">$addrs = array();<br />for(...) {<br />&nbsp; &nbsp; $destaddr = ...<br />&nbsp; &nbsp; $amount = ...<br />&nbsp; &nbsp; if (array_key_exists($destaddr, $addrs)) {<br />&nbsp; &nbsp; &nbsp; &nbsp; $addrs[$destaddr] += $amount;<br />&nbsp; &nbsp; } else {<br />&nbsp; &nbsp; &nbsp; &nbsp; $addrs[$destaddr] = $amount;<br />&nbsp; &nbsp; }<br />}</div>After this you have only single addresses in $addrs (with the amounts summed up), so just:<br /><div class="codeheader">Code:</div><div class="code">$rpc = &#039;sendmany &quot;&#039;.ACCOUNT.&#039;&quot; \&#039;{&#039;;<br />$com = false;<br />foreach(array_keys($addrs) as $da) {<br /><span style="white-space: pre;">	</span>$am = round($addrs[$da], 8);<br /><span style="white-space: pre;">	</span>if ($am&gt;0) {<br /><span style="white-space: pre;">	</span><span style="white-space: pre;">	</span>if ($com)&nbsp; $rpc .= &#039;, &#039;;<br /><span style="white-space: pre;">	</span><span style="white-space: pre;">	</span>$rpc .= &#039;&quot;&#039;.$da.&#039;&quot;:&#039;.sprintf(&#039;%.8f&#039;,$am);<br /><span style="white-space: pre;">	</span><span style="white-space: pre;">	</span>$com = true;<br /><span style="white-space: pre;">	</span>}<br />}<br />$rpc .= &#039;}\&#039;&#039;;<br /></div></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [PHP] Generate a sendmany with multiple outputs to the same address</b><br />
+					Post by: <b>mrvision</b> on <b>May 28, 2013, 03:35:55 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=115138.msg1394476#msg1394476">Quote from: deepceleron on December 12, 2012, 08:32:02 AM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=115138.msg1394363#msg1394363">Quote from: SgtSpike on December 12, 2012, 07:13:19 AM</a></div><div class="quote">How did this guy accomplish it when sending coins my way then?<br /><br />http://blockchain.info/tx/67b9c10df1098152080baade7e3aab5cfa475ae154cf27000d1f000e370e65d2?show_adv=true<br /></div><br />TXOUT Amounts?<br />0.00100000<br />0.00100000<br />0.01000010<br />0.01001101<br />0.01001110<br />0.01100001<br />0.01100011<br />0.01100011<br />0.01100100<br />0.01100101<br />0.01100101<br />0.01100110<br />0.01101001<br />0.01101001<br />0.01101001<br />0.01101100<br />0.01101110<br />0.01110010<br />0.01110100<br />0.01110101<br />0.49730788<br />0.80211920<br /></div><br />It says &quot;Nice Minecraft Build&quot; xD</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [PHP] Generate a sendmany with multiple outputs to the same address</b><br />
+					Post by: <b>cmilian</b> on <b>December 15, 2014, 04:14:15 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=115138.msg1427997#msg1427997">Quote from: piotr_n on December 31, 2012, 06:18:58 PM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=115138.msg1427858#msg1427858">Quote from: SgtSpike on December 31, 2012, 04:30:22 PM</a></div><div class="quote">What was the workaround?<br /></div>Well, it&#039;s a workaround only if you&#039;re fine with single transaction per a recipient address (I was).<br />In such case, just sum up the amounts using a map with the destination address as the key.<br />Something like:<br /><div class="codeheader">Code:</div><div class="code">$addrs = array();<br />for(...) {<br />&nbsp; &nbsp; $destaddr = ...<br />&nbsp; &nbsp; $amount = ...<br />&nbsp; &nbsp; if (array_key_exists($destaddr, $addrs)) {<br />&nbsp; &nbsp; &nbsp; &nbsp; $addrs[$destaddr] += $amount;<br />&nbsp; &nbsp; } else {<br />&nbsp; &nbsp; &nbsp; &nbsp; $addrs[$destaddr] = $amount;<br />&nbsp; &nbsp; }<br />}</div>After this you have only single addresses in $addrs (with the amounts summed up), so just:<br /><div class="codeheader">Code:</div><div class="code">$rpc = &#039;sendmany &quot;&#039;.ACCOUNT.&#039;&quot; \&#039;{&#039;;<br />$com = false;<br />foreach(array_keys($addrs) as $da) {<br /><span style="white-space: pre;">	</span>$am = round($addrs[$da], 8);<br /><span style="white-space: pre;">	</span>if ($am&gt;0) {<br /><span style="white-space: pre;">	</span><span style="white-space: pre;">	</span>if ($com)&nbsp; $rpc .= &#039;, &#039;;<br /><span style="white-space: pre;">	</span><span style="white-space: pre;">	</span>$rpc .= &#039;&quot;&#039;.$da.&#039;&quot;:&#039;.sprintf(&#039;%.8f&#039;,$am);<br /><span style="white-space: pre;">	</span><span style="white-space: pre;">	</span>$com = true;<br /><span style="white-space: pre;">	</span>}<br />}<br />$rpc .= &#039;}\&#039;&#039;;<br /></div></div><br />This look like what i need. where did you add this code?</div>
+					<br /><br />
+					<div align="center" class="smalltext">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank">Powered by SMF 1.1.19</a> | 
+<a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank">SMF &copy; 2006-2009, Simple Machines</a>
+		</span></div>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

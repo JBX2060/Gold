@@ -1,0 +1,110 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+		<link rel="canonical" href="https://bitcointalk.org/index.php?topic=121209.0" />
+		<title>Print Page - GPU stops responding and reboots when trying to Game, Fixed!</title>
+		<style type="text/css">
+			body
+			{
+				color: black;
+				background-color: white;
+			}
+			body, td, .normaltext
+			{
+				font-family: Verdana, arial, helvetica, serif;
+				font-size: small;
+			}
+			*, a:link, a:visited, a:hover, a:active
+			{
+				color: black !important;
+			}
+			table
+			{
+				empty-cells: show;
+			}
+			.code
+			{
+				font-size: x-small;
+				font-family: monospace;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.quote
+			{
+				font-size: x-small;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.smalltext, .quoteheader, .codeheader
+			{
+				font-size: x-small;
+			}
+			.largetext
+			{
+				font-size: large;
+			}
+			hr
+			{
+				height: 1px;
+				border: 0;
+				color: black;
+				background-color: black;
+			}
+		</style>
+	</head>
+	<body>
+		<h1 class="largetext">Bitcoin Forum</h1>
+		<h2 class="normaltext">Bitcoin => Bitcoin Technical Support => Topic started by: Fiyasko on October 29, 2012, 09:15:07 PM</h2>
+
+		<table width="90%" cellpadding="0" cellspacing="0" border="0">
+			<tr>
+				<td>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>GPU stops responding and reboots when trying to Game, Fixed!</b><br />
+					Post by: <b>Fiyasko</b> on <b>October 29, 2012, 09:15:07 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">So my 7950 never used to do this, I used to beable to play any video game, And the Intesity that i set would directly impact the amount of fps in the game.<br />This was with catalyst 12.6, Well It had been a long while since i had updated my video drivers, And so i proceeded to update to 12.8<br />No problems, And i gained Fourty extra megahashes/s on my 7950, Boy was i happy! There were no issues.<br /><br />Then i read in a thread that cat 12.11beta&#039;s OCL runtime works Even Better, But the grahpics drivers were bad. So i installed the whole package, Including the graphics drivers.<br />I did not get a performance boost, I had glitches and artifacts allover the place, And it was just a mess, (yes i complied a new 12.11 kernal)<br />I quickly removed the graphics driver and installed 12.10&#039;s graphics driver. I saw no errors or bugs, So i went to test it out gaming while mining.<br />GPU hang reboot x20 Where the intensity would determine how long i could play before crashing, Aswell as the fps<br /><br />So i immediatley removed 12.10, And all of its other peices with the express uninstall, And then after the obvious uncountable&#039;th reboot i installed my Darling 12.8<br />Hang<br />Hang<br />Hang Even on the Simplist of games!!!<br />Before i could play BF3 with I:5 and be fine, Now it doesnt even run with I:1<br />I could play Leauge of Legends with I:6, And now it crashes after a little while on I:1!!!<br /><br />Im going to Sweep my drivers, But please post some advice!<br /><br />CGminer 2.8.7 Windows7 64bit<br />Diablo kernal, Temp never passes 83° and fan never goes above 84%</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: GPU stops responding and reboots when trying to Game, !HELP!</b><br />
+					Post by: <b>juhakall</b> on <b>October 29, 2012, 10:19:29 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">This sounds exactly like what I&#039;m experiencing. Haven&#039;t tried BF3 yet, but other games were crashing. I uninstalled everything and returned to 12.8, but playing games still result in display driver crashes when mining at the same time. Before trying 12.10 / 12.11 beta, I didn&#039;t have these problems. I quickly changed from 12.10 to 12.11 beta, because 12.10 was causing constant explorer.exe crashes, so I can&#039;t say which one caused these problems. I also had constant artifacting on desktop with the 12.11 beta, only when mining.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: GPU stops responding and reboots when trying to Game, !HELP!</b><br />
+					Post by: <b>Fiyasko</b> on <b>October 29, 2012, 10:36:18 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=121209.msg1305963#msg1305963">Quote from: juhakall on October 29, 2012, 10:19:29 PM</a></div><div class="quote">This sounds exactly like what I&#039;m experiencing. Haven&#039;t tried BF3 yet, but other games were crashing. I uninstalled everything and returned to 12.8, but playing games still result in display driver crashes when mining at the same time. Before trying 12.10 / 12.11 beta, I didn&#039;t have these problems. I quickly changed from 12.10 to 12.11 beta, because 12.10 was causing constant explorer.exe crashes, so I can&#039;t say which one caused these problems. I also had constant artifacting on desktop with the 12.11 beta, only when mining.<br /></div>Exactly!!!<br />And i just used Driver Sweeper to gut out my drivers, Then reinstall 12.8= NO DIFFERANCE? <br />wtfff</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: GPU stops responding and reboots when trying to Game, !HELP!</b><br />
+					Post by: <b>juhakall</b> on <b>October 29, 2012, 10:54:02 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">I&#039;m not very experienced in debugging driver problems like this, but can you check your C:\Windows\System32\OpenCL.dll file stats? Mine shows &quot;Date modified 23.10.2012&quot; even though I just reinstalled 12.8 today. The file size is 53.5kB. There&#039;s also another file C:\Windows\SysWOW64\OpenCL.dll with the same modification date, but 49.0kB size.<br /><br />Just trying to shoot randomly here, from what little experience I have reading about similar problems... It&#039;s a little odd that the file modification date is 23.10.2012, maybe it&#039;s left over from the 12.10 release? I don&#039;t know how a file from 12.8 could have that date.<br /><br />Oh and also, my OpenCL version reported by cgminer is 1084.2. I found this with google:<br /><br />http://hashcat.net/forum/thread-1692-post-9659.html (http://hashcat.net/forum/thread-1692-post-9659.html)<br /><br />&quot;If the kernel contains 1084.2_(VM) inside its filename you know your catalyst driver version wasnt downgraded correctly since this is the version of some version of catalyst 12.9 beta and higher. As other members said above, you need exactly catalyst 12.8 to run oclHashcat-* release versions.&quot;<br /><br />Suggests that the OpenCL wasn&#039;t downgraded properly to the version that comes with 12.8.<br /><br />After some digging around it seems that 10.0.938.2 is the OpenCL version that comes with 12.8, while 10.0.1084.2 comes with 12.11 beta. I tried deleting the OpenCL.dll files and reinstalling 12.8, but I just got the same version back. Different MD5 hash and modification date, but still 1084.2. Looks like it&#039;ll take a while to learn how to downgrade this.<br /><br /><b>OK, at least I got the OpenCL version downgraded finally.</b> I had to manually delete these files after express uninstalling all AMD software:<br /><br />C:\Windows\System32\OpenCL.dll<br />C:\Windows\System32\amdocl64.dll<br />C:\Windows\SysWOW64\OpenCL.dll<br />C:\Windows\SysWOW64\amdocl.dll<br /><br />I don&#039;t have time to test the games currently but this looks promising. My hashrates are back to 12.8 speeds, I actually got 1% more with the newer OpenCL at same clocks. Not too bad if it stops games from crashing, of course.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: GPU stops responding and reboots when trying to Game, Solved!</b><br />
+					Post by: <b>Fiyasko</b> on <b>October 29, 2012, 11:36:50 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=121209.msg1306030#msg1306030">Quote from: juhakall on October 29, 2012, 10:54:02 PM</a></div><div class="quote">---<br /><br />OK, at least I got the OpenCL version downgraded finally. I had to manually delete these files after express uninstalling all AMD software:<br /><br />C:\Windows\System32\OpenCL.dll<br />C:\Windows\System32\amdocl64.dll<br />C:\Windows\SysWOW64\OpenCL.dll<br />C:\Windows\SysWOW64\amdocl.dll<br /><br />I don&#039;t have time to test the games currently but this looks promising.<br /></div><br />Copy that!, I&#039;ll do those right now, and test it with games<br /><br /><span style="text-decoration: underline;"><b>IT WORKS!</b></span></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: GPU stops responding and reboots when trying to Game, !HELP!</b><br />
+					Post by: <b>Cablez</b> on <b>October 30, 2012, 03:04:45 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Yes, the only way to roll back OCL drivers is to manually remove them.&nbsp; Driver sweeper and the AMD driver software <span style="text-decoration: underline;">always</span> leave them there.</div>
+					<br /><br />
+					<div align="center" class="smalltext">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank">Powered by SMF 1.1.19</a> | 
+<a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank">SMF &copy; 2006-2009, Simple Machines</a>
+		</span></div>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

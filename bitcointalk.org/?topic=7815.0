@@ -1,0 +1,1886 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+	<meta name="description" content="[FAQ] Is BitCoin a Ponzi or pyramid scheme?  (Newbie-Friendly)" />
+	<meta http-equiv="Content-Language" content="en" />
+	<meta name="keywords" content="bitcoin, forum, bitcoin forum, bitcointalk" />
+	<script language="JavaScript" type="text/javascript" src="https://bitcointalk.org/Themes/default/script.js"></script>
+	<script language="JavaScript" type="text/javascript"><!-- // --><![CDATA[
+		var smf_theme_url = "https://bitcointalk.org/Themes/custom1";
+		var smf_images_url = "https://bitcointalk.org/Themes/custom1/images";
+		var smf_scripturl = "https://bitcointalk.org/index.php";
+		var smf_iso_case_folding = false;
+		var smf_charset = "ISO-8859-1";
+	// ]]></script>
+	<title>[FAQ] Is BitCoin a Ponzi or pyramid scheme?  (Newbie-Friendly)</title><!--649e64853ee4bf2a98b6d5a55bf0c3d0ec57413c79f4c7e63ee4bf2a98b6d5a55bf0c3d0ec57413c538ae75f3ee4bf2a98b6d5a55bf0c3d0ec57413c31c819cfe6383ee4bf2a98b6d5a55bf0c3d0ec57413c84b1-->
+	<link rel="stylesheet" type="text/css" href="https://bitcointalk.org/Themes/custom1/style.css" />
+	 <!--[if !IE]> -->
+	 <link rel="stylesheet" type="text/css" media="only screen and (min-device-width: 320px) and (max-device-width: 650px)" href="https://bitcointalk.org/Themes/custom1/mobile.css" />
+	 <!-- <![endif]-->
+	<link rel="stylesheet" type="text/css" href="https://bitcointalk.org/Themes/default/print.css" media="print" /><style type="text/css">
+.dfiFhyvLeAgWuadsDBveTg > td {background-color: #E5E5E8; text-align:center;}
+.dfiFhyvLeAgWuadsDBveTg > td > table {margin-top:-5px}
+.dfiFhyvLeAgWuadsDBveTg .sdyrUtmqnESygqbePxWDvg {display:inline-block;max-width:100%; min-width:100%; max-height:47px; overflow:hidden}
+.dfiFhyvLeAgWuadsDBveTg table,.dfiFhyvLeAgWuadsDBveTg tbody,.dfiFhyvLeAgWuadsDBveTg tr,.dfiFhyvLeAgWuadsDBveTg td {display:inline-block;max-width:100%; min-width:100%; overflow:hidden}
+.dfiFhyvLeAgWuadsDBveTg .sdyrUtmqnESygqbePxWDvg table,.dfiFhyvLeAgWuadsDBveTg .sdyrUtmqnESygqbePxWDvg tbody,.dfiFhyvLeAgWuadsDBveTg .sdyrUtmqnESygqbePxWDvg tr,.dfiFhyvLeAgWuadsDBveTg .sdyrUtmqnESygqbePxWDvg td {display:initial; max-width:none;min-width:none;overflow:visible}
+.gJqhrxFgvxvxBVpCenveNg {display:none !important}
+.SsUqaazbofbIUFhBFoKMXA {display:none}
+.hOdfWpPghKVSdxDgGpTMTw {padding: 1px 1px 0 1px;}
+.QEocmRfrZnbfkjddHjBkIQ{color:#699C62; font-weight:bold; font-size:18px}
+.QEocmRfrZnbfkjddHjBkIQ:link{color:#699C62; font-weight:bold; font-size:18px}
+.QEocmRfrZnbfkjddHjBkIQ:visited{color:#699C62; font-weight:bold; font-size:18px}
+.fGsekebFeidAjqakWcacTQ{color:#00F30C;font-size:15px;font-weight:bold}
+.fGsekebFeidAjqakWcacTQ:link{color:#00F30C;font-size:15px;font-weight:bold}
+.fGsekebFeidAjqakWcacTQ:visited{color:#00F30C;font-size:15px;font-weight:bold}
+
+.BKLUnlhQVeWIfBRPCMipbQ:link {font-size:22px;font-weight:bold;color:orange}
+.BKLUnlhQVeWIfBRPCMipbQ:active {font-size:22px;font-weight:bold;color:orange}
+.BKLUnlhQVeWIfBRPCMipbQ:visited {font-size:22px;font-weight:bold;color:orange}
+.BKLUnlhQVeWIfBRPCMipbQ:hover {text-decoration:none !important;color:red}
+.xqMmOchcmQywfFtskyoMyw:link {font-size:24px;font-weight:bold;color:rgb(250,180,75)}
+.xqMmOchcmQywfFtskyoMyw:active {font-size:24px;font-weight:bold;color:rgb(250,180,75)}
+.xqMmOchcmQywfFtskyoMyw:visited {font-size:24px;font-weight:bold;color:rgb(250,180,75)}
+.xqMmOchcmQywfFtskyoMyw:hover {text-decoration:none !important;color:white;background-color:rgb(181,204,222)}
+.xqMmOchcmQywfFtskyoMyw {display:inline-block;margin: 3px;0;3px;0}
+.aFHlMKchPGwhfQddflIajw:hover {text-decoration:none !important;}
+.aFHlMKchPGwhfQddflIajw {font-size:22px;font-weight:bold;}
+.YiBymiZvRRnCggQiSfgNeA {   width: 900px;   height: 44px;   max-width: 100%;   background: #5CB9F7;   display: flex;   justify-content: space-between;   align-items: center;   text-decoration: none !important;   font-size: 16px;   color: #fff !important;   font-family: arial, sans-serif;   overflow: hidden; }    .YiBymiZvRRnCggQiSfgNeA button {     border: none;     background: #8EE000;     color: #fff;     outline: none;     font-size: 1em;     padding: 0.5em 1.2em;     margin-left: 0.3em;     border-radius: 2em;     text-transform: uppercase;     font-weight: 600;     pointer-events: none;   }    .YiBymiZvRRnCggQiSfgNeA:hover .wmOXHXOjddWPXfhTaFckPg span {   display: none; }  .YiBymiZvRRnCggQiSfgNeA:hover .wmOXHXOjddWPXfhTaFckPg span:nth-child(2) {   display: block; }  .wmOXHXOjddWPXfhTaFckPg {   display: flex;   align-items: center; }    .wmOXHXOjddWPXfhTaFckPg span {   margin-left: 0.1em;   font-size: 1em;   font-weight: 700;   letter-spacing: 0.5px;   font-size: 20px;   width: 11em;   text-align: center; }  .KHiOtOYCYVLbnkjaAEfTxw {   display: inline-block; }  .wmOXHXOjddWPXfhTaFckPg span:nth-child(2) {   display: none; }  .JIMoUJCyIfWufmXCKwHcTw {   display: flex;   background: #586A91;   height: 44px;   align-items: center;   justify-content: center;   padding: 0 1em 0 0.5em;   position: relative;   z-index: 2; }    .JIMoUJCyIfWufmXCKwHcTw:after {   position: absolute;   right: 100%;   top: 50%;   content: "";   width: 36px;   height: 36px;   background: #586A91;   border-radius: 0.5em;   transform: translate(50%, -50%) rotate(45deg);   z-index: -1; }    .JIMoUJCyIfWufmXCKwHcTw > span {   margin-right: 1em;   font-weight: 600;   font-size: 16px;   letter-spacing: 0.5px;   margin-top: 0.1em; }  @media (max-width: 725px) {   .YiBymiZvRRnCggQiSfgNeA button {     display: none;   }   .wmOXHXOjddWPXfhTaFckPg {     margin-left: 1em;   } }   @media (max-width: 550px) {   .JIMoUJCyIfWufmXCKwHcTw span span {     display: none;   } }  @media (max-width: 465px) {   .JIMoUJCyIfWufmXCKwHcTw {     display: none;   }   .YiBymiZvRRnCggQiSfgNeA {     justify-content: center;   } }
+.MdcEasQzcUiaHEicEybmuQ {   width: 900px;   height: 44px;   max-width: 100%;   background: #5CB9F7;   display: flex;   justify-content: space-between;   align-items: center;   text-decoration: none !important;   font-size: 16px;   color: #fff !important;   font-family: arial, sans-serif;   overflow: hidden; }    .MdcEasQzcUiaHEicEybmuQ button {     border: none;     background: #8EE000;     color: #fff;     outline: none;     font-size: 1em;     padding: 0.5em 1.2em;     margin-left: 0.4em;     border-radius: 2em;     text-transform: uppercase;     font-weight: 600; cursor:pointer; transition: all 0.3s;   } button:hover{transform: scale(1.05);}    .SJqDUlbVeOidRbfVPbqkrw:hover span{   display: none; }  .SJqDUlbVeOidRbfVPbqkrw:hover span:nth-child(2) {   display: block; }  .SJqDUlbVeOidRbfVPbqkrw {   display: flex;   align-items: center; color:#fff}    .SJqDUlbVeOidRbfVPbqkrw span {   margin-left: 0.1em;   font-size: 1em;   font-weight: 700;   letter-spacing: 0.5px;   font-size: 20px;   width: 11em;   text-align: center; }  .NDoxdKraxDalRcpIDdCBPw {   display: inline-block; }  .SJqDUlbVeOidRbfVPbqkrw span:nth-child(2) {   display: none; }  .vNazhgSyyfwMQQuaJFlEBA {   display: flex;   background: #586A91;   height: 44px;   align-items: center;   justify-content: center;   padding: 0 1em 0 0.5em;   position: relative;   z-index: 2; }    .vNazhgSyyfwMQQuaJFlEBA:after {   position: absolute;   right: 100%;   top: 50%;   content: "";   width: 36px;   height: 36px;   background: #586A91;   border-radius: 0.5em;   transform: translate(50%, -50%) rotate(45deg);   z-index: -1; }    .vNazhgSyyfwMQQuaJFlEBA > span {   margin-right: 1em;   font-weight: 600;   font-size: 16px;   letter-spacing: 0.5px;   margin-top: 0.1em; }  @media (max-width: 725px) {   .MdcEasQzcUiaHEicEybmuQ button {     display: none;   }   .SJqDUlbVeOidRbfVPbqkrw {     margin-left: 1em;   } }   @media (max-width: 550px) {   .vNazhgSyyfwMQQuaJFlEBA span span {     display: none;   } }  @media (max-width: 465px) {   .vNazhgSyyfwMQQuaJFlEBA {     display: none;   }   .MdcEasQzcUiaHEicEybmuQ {     justify-content: center;   } }
+.YiBymiZvRRnCggQiSfgNeA {   width: 900px;   height: 44px;   max-width: 100%;   background: #5CB9F7;   display: flex;   justify-content: space-between;   align-items: center;   text-decoration: none !important;   font-size: 16px;   color: #fff !important;   font-family: arial, sans-serif;   overflow: hidden; }    .YiBymiZvRRnCggQiSfgNeA button {   border: none;   background: #8EE000;   color: #fff;   outline: none;   font-size: 1em;   padding: 0.5em 1.2em;   margin-left: 0.4em;   border-radius: 2em;   text-transform: uppercase;   font-weight: 600;   cursor: pointer;   transition: all 0.3s; }  button:hover {   transform: scale(1.05); }  .wmOXHXOjddWPXfhTaFckPg:hover span {   display: none; }  .wmOXHXOjddWPXfhTaFckPg:hover span:nth-child(2) {   display: block; }  .wmOXHXOjddWPXfhTaFckPg {   display: flex;   align-items: center;   color: #fff; }    .wmOXHXOjddWPXfhTaFckPg span {   margin-left: 0.1em;   font-size: 1em;   font-weight: 700;   letter-spacing: 0.5px;   font-size: 20px;   width: 11em;   text-align: center; }  .KHiOtOYCYVLbnkjaAEfTxw {   display: inline-block; }  .wmOXHXOjddWPXfhTaFckPg span:nth-child(2) {   display: none; }  .JIMoUJCyIfWufmXCKwHcTw {   display: flex;   background: #586A91;   height: 44px;   align-items: center;   justify-content: center;   padding: 0 1em 0 0.5em;   position: relative;   z-index: 2; }    .JIMoUJCyIfWufmXCKwHcTw:after {   position: absolute;   right: 100%;   top: 50%;   content: "";   width: 36px;   height: 36px;   background: #586A91;   border-radius: 0.5em;   transform: translate(50%, -50%) rotate(45deg);   z-index: -1; }    .JIMoUJCyIfWufmXCKwHcTw > span {   margin-right: 1em;   font-weight: 600;   font-size: 16px;   letter-spacing: 0.5px;   margin-top: 0.1em; }  @media (max-width: 725px) {   .YiBymiZvRRnCggQiSfgNeA button {     display: none;   }   .wmOXHXOjddWPXfhTaFckPg {     margin-left: 1em;   } }   @media (max-width: 550px) {   .JIMoUJCyIfWufmXCKwHcTw span span {     display: none;   } }  @media (max-width: 465px) {   .JIMoUJCyIfWufmXCKwHcTw {     display: none;   }   .YiBymiZvRRnCggQiSfgNeA {     justify-content: center;   } }
+.MdcEasQzcUiaHEicEybmuQ {   width: 900px;   height: 44px;   max-width: 100%;   background: #fff;   display: flex;   justify-content: space-between;   align-items: center;   text-decoration: none !important;   font-size: 16px;   color: #fff !important;   font-family: arial, sans-serif;   overflow: hidden; }    .MdcEasQzcUiaHEicEybmuQ button {   border: none;   background: #8EE000;   color: #fff;   outline: none;   font-size: 1em;   padding: 0.5em 1.2em;   margin-left: 0.4em;   border-radius: 2em;   text-transform: uppercase;   font-weight: 600;   cursor: pointer;   transition: all 0.3s; }  button:hover {   transform: scale(1.05); }  .SJqDUlbVeOidRbfVPbqkrw:hover span {   display: none; }  .SJqDUlbVeOidRbfVPbqkrw:hover span:nth-child(2) {   display: block; }  .SJqDUlbVeOidRbfVPbqkrw {   display: flex;   align-items: center;   color: #5CB9F7; }    .SJqDUlbVeOidRbfVPbqkrw span {   margin-left: 0.1em;   font-size: 1em;   font-weight: 700;   letter-spacing: 0.5px;   font-size: 20px;   width: 11em;   text-align: center; }  .NDoxdKraxDalRcpIDdCBPw {   display: inline-block; }  .SJqDUlbVeOidRbfVPbqkrw span:nth-child(2) {   display: none; }  .vNazhgSyyfwMQQuaJFlEBA {   display: flex;   background: #586A91;   height: 44px;   align-items: center;   justify-content: center;   padding: 0 1em 0 0.5em;   position: relative;   z-index: 2; }    .vNazhgSyyfwMQQuaJFlEBA:after {   position: absolute;   right: 100%;   top: 50%;   content: "";   width: 36px;   height: 36px;   background: #586A91;   border-radius: 0.5em;   transform: translate(50%, -50%) rotate(45deg);   z-index: -1; }    .vNazhgSyyfwMQQuaJFlEBA > span {   margin-right: 1em;   font-weight: 600;   font-size: 16px;   letter-spacing: 0.5px;   margin-top: 0.1em; }  @media (max-width: 725px) {   .MdcEasQzcUiaHEicEybmuQ button {     display: none;   }   .SJqDUlbVeOidRbfVPbqkrw {     margin-left: 1em;   } }   @media (max-width: 550px) {   .vNazhgSyyfwMQQuaJFlEBA span span {     display: none;   } }  @media (max-width: 465px) {   .vNazhgSyyfwMQQuaJFlEBA {     display: none;   }   .MdcEasQzcUiaHEicEybmuQ {     justify-content: center;   } }
+.NHWBjbkvydBJWbqsvacUXA {   width: 900px;   height: 44px;   margin: 0 auto;   background: #fff;   max-width: 100%;   display: flex;   justify-content: space-between;   align-items: center;   text-decoration: none !important;   color: #000 !important;   font-family: arial, sans-serif;   overflow: hidden; } .NHWBjbkvydBJWbqsvacUXA:hover {   color: #fff;   background: #715AD0; } .NHWBjbkvydBJWbqsvacUXA:hover .XhtbOxHbFomDKRwquSLgLA span:nth-child(1) {   display: none; } .NHWBjbkvydBJWbqsvacUXA:hover .XhtbOxHbFomDKRwquSLgLA span:nth-child(2) {   display: block; } .NHWBjbkvydBJWbqsvacUXA:hover .BBixhxHvwtsYLxqeRZIyyw span:nth-child(1) {   display: none;   color: #000; } .NHWBjbkvydBJWbqsvacUXA:hover .BBixhxHvwtsYLxqeRZIyyw span:nth-child(2) {   display: block;   color: #000; } .NHWBjbkvydBJWbqsvacUXA:hover .XhtbOxHbFomDKRwquSLgLA {   background: #fff;   color: #000; } .NHWBjbkvydBJWbqsvacUXA:hover .BBixhxHvwtsYLxqeRZIyyw {   background: #fff;   color: #000; } .NHWBjbkvydBJWbqsvacUXA:hover .XhtbOxHbFomDKRwquSLgLA:after {   background: #715AD0; } .NHWBjbkvydBJWbqsvacUXA:hover .XhtbOxHbFomDKRwquSLgLA:before {   background: #715AD0; } .NHWBjbkvydBJWbqsvacUXA:hover .XhtbOxHbFomDKRwquSLgLA span {   color: #000; } .NHWBjbkvydBJWbqsvacUXA:hover .BBixhxHvwtsYLxqeRZIyyw:after {   background: #715AD0; } .NHWBjbkvydBJWbqsvacUXA:hover .BBixhxHvwtsYLxqeRZIyyw:before {   background: #715AD0; } .NHWBjbkvydBJWbqsvacUXA:hover .EghmmgwiUJRGWqkfVuXTbg {   color: #fff; } .NHWBjbkvydBJWbqsvacUXA:hover .EghmmgwiUJRGWqkfVuXTbg:before {   background: #fff; } .NHWBjbkvydBJWbqsvacUXA:hover .EghmmgwiUJRGWqkfVuXTbg:after {   background: #fff; } .NHWBjbkvydBJWbqsvacUXA .EghmmgwiUJRGWqkfVuXTbg {   display: flex;   height: 32px;   align-items: center;   justify-content: center;   border-radius: 5px;   padding: 0 1em;   position: relative;   z-index: 2;   font-size: 18px;   color: #000;   width: 160px; } .NHWBjbkvydBJWbqsvacUXA .EghmmgwiUJRGWqkfVuXTbg:after{   position: absolute;   right: 98%;   top: 50%;   content: "";   width: 25px;   height: 25px;   background: #715AD0;   border-radius: 0.3em;   transform: translate(50%, -50%) rotate(45deg);   z-index: -1; } .NHWBjbkvydBJWbqsvacUXA .EghmmgwiUJRGWqkfVuXTbg:before{   position: absolute;   right: 2%;   top: 50%;   content: "";   width: 25px;   height: 25px;   background: #715AD0;   border-radius: 0.3em;   transform: translate(50%, -50%) rotate(45deg);   z-index: -1; } .NHWBjbkvydBJWbqsvacUXA .EghmmgwiUJRGWqkfVuXTbg span {   font-size: 26px;   font-family: Existence;   font-weight: 600; } .NHWBjbkvydBJWbqsvacUXA .EghmmgwiUJRGWqkfVuXTbg span:hover {   color: #fff;   text-decoration: none; } .NHWBjbkvydBJWbqsvacUXA .XhtbOxHbFomDKRwquSLgLA {   display: flex;   background: #715AD0;   height: 30px;   align-items: center;   justify-content: center;   border-radius: 5px;   padding: 0 1em;   margin-left: 1em;   position: relative;   z-index: 2;   font-size: 14px;   color: #fff;   width: 220px } .NHWBjbkvydBJWbqsvacUXA .XhtbOxHbFomDKRwquSLgLA:after{   position: absolute;   right: 102%;   top: 50%;   content: "";   width: 18px;   height: 18px;   background: #fff;   border-radius: 0.3em;   transform: translate(50%, -50%) rotate(45deg);   z-index: 2; } .NHWBjbkvydBJWbqsvacUXA .XhtbOxHbFomDKRwquSLgLA:before{   position: absolute;   right: -2%;   top: 50%;   content: "";   width: 18px;   height: 18px;   background: #fff;   border-radius: 0.3em;   transform: translate(50%, -50%) rotate(45deg);   z-index: 3; } .NHWBjbkvydBJWbqsvacUXA .XhtbOxHbFomDKRwquSLgLA span {   color: #fff;   font-size: 13px;   line-height: 13px; } .NHWBjbkvydBJWbqsvacUXA .XhtbOxHbFomDKRwquSLgLA span:nth-child(2) {   display: none; } .NHWBjbkvydBJWbqsvacUXA .BBixhxHvwtsYLxqeRZIyyw{   display: flex;   flex-direction: column;   height: 44px;   align-items: center;   justify-content: center;   padding: 0 1em;   position: relative;   z-index: 2;   width: 220px; } .NHWBjbkvydBJWbqsvacUXA .BBixhxHvwtsYLxqeRZIyyw span {   color: #fff;   font-size: 13px;   line-height: 13px; } .NHWBjbkvydBJWbqsvacUXA .BBixhxHvwtsYLxqeRZIyyw span:nth-child(2) {   display: none; } .NHWBjbkvydBJWbqsvacUXA .BBixhxHvwtsYLxqeRZIyyw {   display: flex;   background: #715AD0;   height: 30px;   align-items: center;   justify-content: center;   border-radius: 5px;   padding: 0 1em;   margin-right: 1em;   position: relative;   z-index: 2;   font-size: 14px;   color: #fff;   width: 220px } .NHWBjbkvydBJWbqsvacUXA .BBixhxHvwtsYLxqeRZIyyw:after{   position: absolute;   right: 102%;   top: 50%;   content: "";   width: 18px;   height: 18px;   background: #fff;   border-radius: 0.3em;   transform: translate(50%, -50%) rotate(45deg);   z-index: 2; } .NHWBjbkvydBJWbqsvacUXA .BBixhxHvwtsYLxqeRZIyyw:before{   position: absolute;   right: -2%;   top: 50%;   content: "";   width: 18px;   height: 18px;   background: #fff;   border-radius: 0.3em;   transform: translate(50%, -50%) rotate(45deg);   z-index: 3; }
+.BijVobGJudFlQjnSvbThJA {   width: 900px;   height: 44px;   margin: 0 auto;   background: #715AD0;   max-width: 100%;   display: flex;   justify-content: space-between;   align-items: center;   text-decoration: none !important;   color: #fff !important;   font-family: arial, sans-serif;   overflow: hidden; } .BijVobGJudFlQjnSvbThJA:hover {   color: #fff; } .BijVobGJudFlQjnSvbThJA:hover .pQAiaBZGoFkIagfnQnnRkA span:nth-child(1) {   display: none; } .BijVobGJudFlQjnSvbThJA:hover .pQAiaBZGoFkIagfnQnnRkA span:nth-child(2) {   display: block; } .BijVobGJudFlQjnSvbThJA:hover .dsZneiszfaQnHafGNDzrVw span:nth-child(2) {   display: none; } .BijVobGJudFlQjnSvbThJA:hover .dsZneiszfaQnHafGNDzrVw span:nth-child(3) {   display: block; } .BijVobGJudFlQjnSvbThJA .JilWEiRmEckEVvXaGtXZBA {   display: flex;   background: #fff;   height: 32px;   align-items: center;   justify-content: center;   border-radius: 5px;   padding: 0 1em;   margin-right: 1em;   position: relative;   z-index: 2;   font-size: 18px;   color: #000;   width: 150px } // forma mid 1 .BijVobGJudFlQjnSvbThJA .JilWEiRmEckEVvXaGtXZBA:after{   position: absolute;   right: 90%;   top: 115%;   content: "";   width: 22px;   height: 22px;   background: #715AD0;   border-radius: 0.3em;   transform: translate(50%, -50%) rotate(45deg);   z-index: -1; } .BijVobGJudFlQjnSvbThJA .JilWEiRmEckEVvXaGtXZBA:before{   position: absolute;   right: 10%;   top: -15%;   content: "";   width: 22px;   height: 22px;   background: #715AD0;   border-radius: 0.3em;   transform: translate(50%, -50%) rotate(45deg);   z-index: -1; } // forma mid 2 .BijVobGJudFlQjnSvbThJA .JilWEiRmEckEVvXaGtXZBA:after{   position: absolute;   right: 98%;   top: 50%;   content: "";   width: 25px;   height: 25px;   background: #fff;   border-radius: 0.3em;   transform: translate(50%, -50%) rotate(45deg);   z-index: -1; } .BijVobGJudFlQjnSvbThJA .JilWEiRmEckEVvXaGtXZBA:before{   position: absolute;   right: 2%;   top: 50%;   content: "";   width: 25px;   height: 25px;   background: #fff;   border-radius: 0.3em;   transform: translate(50%, -50%) rotate(45deg);   z-index: -1; } .BijVobGJudFlQjnSvbThJA .JilWEiRmEckEVvXaGtXZBA span {   font-size: 24px;   font-family: Existence;   font-weight: 600; } .BijVobGJudFlQjnSvbThJA .JilWEiRmEckEVvXaGtXZBA span:hover {   color: #000;   text-decoration: none; } .BijVobGJudFlQjnSvbThJA .pQAiaBZGoFkIagfnQnnRkA {   display: flex;   height: 44px;   flex-direction: column;   align-items: center;   justify-content: center;   padding: 0 1em;   position: relative;   z-index: 2;   width: 230px; } .BijVobGJudFlQjnSvbThJA .pQAiaBZGoFkIagfnQnnRkA:after{   position: absolute;   right: 81%;   top: 70%;   content: "";   width: 14px;   height: 14px;   background: #715AD0;   border-radius: 0.3em;   transform: translate(50%, -50%) rotate(45deg);   z-index: 2; } .BijVobGJudFlQjnSvbThJA .pQAiaBZGoFkIagfnQnnRkA:before{   position: absolute;   right: 19%;   top: 70%;   content: "";   width: 14px;   height: 14px;   background: #715AD0;   border-radius: 0.3em;   transform: translate(50%, -50%) rotate(45deg);   z-index: 3; } .BijVobGJudFlQjnSvbThJA .pQAiaBZGoFkIagfnQnnRkA span:nth-child(3) {   display: flex;   background: #fff;   height: 18px;   align-items: center;   justify-content: center;   border-radius: 5px;   padding: 0 1em;   margin-top: 0.35em;   position: relative;   z-index: 2;   font-size: 14px;   color: #000;   width: 130px } .BijVobGJudFlQjnSvbThJA .pQAiaBZGoFkIagfnQnnRkA span {   color: #fff;   font-size: 13px;   line-height: 13px; } .BijVobGJudFlQjnSvbThJA .pQAiaBZGoFkIagfnQnnRkA span:nth-child(2) {   display: none; } .BijVobGJudFlQjnSvbThJA .dsZneiszfaQnHafGNDzrVw{   display: flex;   flex-direction: column;   height: 44px;   align-items: center;   justify-content: center;   padding: 0 1em;   position: relative;   z-index: 2;   width: 230px; } .BijVobGJudFlQjnSvbThJA .dsZneiszfaQnHafGNDzrVw span {   color: #fff;   font-size: 13px;   line-height: 13px; } .BijVobGJudFlQjnSvbThJA .dsZneiszfaQnHafGNDzrVw span:nth-child(3) {   display: none; } .BijVobGJudFlQjnSvbThJA .dsZneiszfaQnHafGNDzrVw span:nth-child(1) {   display: flex;   background: #fff;   height: 18px;   align-items: center;   justify-content: center;   border-radius: 5px;   margin-bottom: 0.35em;   padding: 0 1em;   position: relative;   z-index: 2;   font-size: 14px;   color: #000;   width: 130px } .BijVobGJudFlQjnSvbThJA .dsZneiszfaQnHafGNDzrVw:after{   position: absolute;   right: 81%;   top: 30%;   content: "";   width: 14px;   height: 14px;   background: #715AD0;   border-radius: 0.3em;   transform: translate(50%, -50%) rotate(45deg);   z-index: 2; } .BijVobGJudFlQjnSvbThJA .dsZneiszfaQnHafGNDzrVw:before{   position: absolute;   right: 19%;   top: 30%;   content: "";   width: 14px;   height: 14px;   background: #715AD0;   border-radius: 0.3em;   transform: translate(50%, -50%) rotate(45deg);   z-index: 3; }
+.gXxddcsAgfYTakqbbdUNCw {   background-color:#142155;   width:912px;   height:42px;   display:flex;   justify-content:flex-start;   align-items:center;   position:relative;   padding-left: 20px;   overflow: hidden; }  .gXxddcsAgfYTakqbbdUNCw > a {   position: absolute;   width: 932px;   height: 42px;   margin-left: -20px;   z-index: 44; }  .gXxddcsAgfYTakqbbdUNCw > img:nth-child(2) {   margin-right: 48px;   margin-bottom: 4px; }  .gXxddcsAgfYTakqbbdUNCw > img:nth-child(3) {   margin-right: 48px;   opacity: 1;   transition: opacity 0.2s linear, margin-left 0.2s cubic-bezier(0.05, 0.8, 0.05, 0.8) 0.1s, margin-right 0.2s cubic-bezier(0.05, 0.8, 0.05, 0.8) 0.3s; }  .gXxddcsAgfYTakqbbdUNCw > img:nth-child(4) {   margin-right: 14px;   transition: opacity 0.3s linear; }  .gXxddcsAgfYTakqbbdUNCw > .tCWaQEbxAinyEbtIijeecg {    background-color:#fff;    width:48px;    height:16px;    padding:4px 8px;    transition: opacity 0.3s linear; }  .gXxddcsAgfYTakqbbdUNCw > .tCWaQEbxAinyEbtIijeecg > img {    width:48px; }  .gXxddcsAgfYTakqbbdUNCw > svg {    position:absolute;    top:0;    left:-184px; }  .gXxddcsAgfYTakqbbdUNCw:hover > .CLGBSxDbkgdWeahNNZjzxA > .NOXSAfueMaXOjXKVkiGuug {   right: 0;   transition: all 0.3s cubic-bezier(0.05, 0.8, 0.05, 0.8); } .gXxddcsAgfYTakqbbdUNCw:hover > img:nth-child(3) {   opacity: 0;   margin-left: 880px;   margin-right: 600px; } .gXxddcsAgfYTakqbbdUNCw:hover > img:nth-child(4) {   opacity: 0; } .gXxddcsAgfYTakqbbdUNCw:hover > .tCWaQEbxAinyEbtIijeecg {   opacity: 0; }  .CLGBSxDbkgdWeahNNZjzxA {   position:absolute;   top:0;   right:0;   height:42px;   width:800px;   overflow: hidden; }  .CLGBSxDbkgdWeahNNZjzxA > .NOXSAfueMaXOjXKVkiGuug {   position: absolute;   height:42px;   width:760px;   right: -820px;   top: 0;   background-color:#fff;   transition: all 0.2s cubic-bezier(0.8, 0.3, 0.8, 0.3); }  .CLGBSxDbkgdWeahNNZjzxA > .NOXSAfueMaXOjXKVkiGuug::after {   content: "";   position: absolute;   border: 0px solid transparent;   border-top: 40px solid #fff;   border-left: 42px solid transparent;   width: 0;   height: 0;   top: 1px;   left: -40px;   transform: rotate(90deg); }  .CLGBSxDbkgdWeahNNZjzxA > .NOXSAfueMaXOjXKVkiGuug > img {   margin-left: 185px;   margin-top: 11px; }
+.nounderline:hover {text-decoration:none}
+.exempttable {display:inline-table !important}
+.bbca table, .bbca tbody, .bbca tr, .bbca td{
+	display: inline-block !important;
+	min-width: 0px !important;
+	text-align: center !important;
+}
+.gunbot td{text-align:left !important}
+.olddiv{display:block}
+.cryptokg {display:inline-block;padding:2px;font-size:17px;height:42px;width:500px;background-color:white; font-weight:700;color:orange} .cryptokg a:link{color:orange} .cryptokg a:hover{color:orange} .cryptokg a:visited{color:orange}
+</style>
+<link rel="stylesheet" type="text/css" href="https://bitcointalk.org/extra9.css" />
+<link rel="stylesheet" type="text/css" href="https://bitcointalk.org/extra6.css" />
+
+	<link rel="help" href="https://bitcointalk.org/index.php?action=help" target="_blank" />
+	<link rel="search" href="https://bitcointalk.org/index.php?action=search" />
+	<link rel="contents" href="https://bitcointalk.org/index.php" />
+	<link rel="alternate" type="application/rss+xml" title="Bitcoin Forum - RSS" href="https://bitcointalk.org/index.php?type=rss;action=.xml" />
+	<link rel="prev" href="https://bitcointalk.org/index.php?topic=7815.0;prev_next=prev" />
+	<link rel="next" href="https://bitcointalk.org/index.php?topic=7815.0;prev_next=next" />
+	<link rel="index" href="https://bitcointalk.org/index.php?board=1.0" /><meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+<script language="JavaScript" type="text/javascript"><!-- // --><![CDATA[
+		function showhide(msgnr)
+		{
+			if (document.getElementById("message"+msgnr).style.display == "")
+			    {document.getElementById("message"+msgnr).style.display = "none";
+			     document.getElementById("ignmsgbttns"+msgnr).style.visibility = "hidden";
+			     document.getElementById("ignoremessage"+msgnr).style.display = "";
+			     document.getElementById("ignfooter"+msgnr).style.display = "none";
+			     document.getElementById("showhide"+msgnr).src = "https://bitcointalk.org/Themes/custom1/images/english/ignshow.gif";
+			     document.getElementById("showhide"+msgnr).alt = "Show";
+			     document.getElementById("ignprofile"+msgnr).style.display = "none";
+			    }
+			    else
+			    {document.getElementById("message"+msgnr).style.display = "";
+			     document.getElementById("ignmsgbttns"+msgnr).style.visibility = "visible";
+			     document.getElementById("ignoremessage"+msgnr).style.display = "none";
+			     document.getElementById("ignfooter"+msgnr).style.display = "";
+			     document.getElementById("showhide"+msgnr).src = "https://bitcointalk.org/Themes/custom1/images/english/ignhide.gif";
+			     document.getElementById("showhide"+msgnr).alt = "Hide";
+			     document.getElementById("ignprofile"+msgnr).style.display = "";
+			     }
+		}
+// ]]></script>
+
+	<script language="JavaScript" type="text/javascript"><!-- // --><![CDATA[
+		var current_header = false;
+
+		function shrinkHeader(mode)
+		{
+			document.cookie = "upshrink=" + (mode ? 1 : 0);
+			document.getElementById("upshrink").src = smf_images_url + (mode ? "/upshrink2.gif" : "/upshrink.gif");
+
+			document.getElementById("upshrinkHeader").style.display = mode ? "none" : "";
+			document.getElementById("upshrinkHeader2").style.display = mode ? "none" : "";
+
+			current_header = mode;
+		}
+	// ]]></script>
+		<script language="JavaScript" type="text/javascript"><!-- // --><![CDATA[
+			var current_header_ic = false;
+
+			function shrinkHeaderIC(mode)
+			{
+				document.cookie = "upshrinkIC=" + (mode ? 1 : 0);
+				document.getElementById("upshrink_ic").src = smf_images_url + (mode ? "/expand.gif" : "/collapse.gif");
+
+				document.getElementById("upshrinkHeaderIC").style.display = mode ? "none" : "";
+
+				current_header_ic = mode;
+			}
+		// ]]></script></head>
+<body>
+	<div class="tborder" >
+		<table width="100%" cellpadding="0" cellspacing="0" border="0" id="smfheader">
+			<tr>
+				<td class="catbg" height="32">
+					<span style="font-family: Verdana, sans-serif; font-size: 140%; ">Bitcoin Forum</span>
+				</td>
+				<td align="right" class="catbg">
+					<img src="https://bitcointalk.org/Themes/custom1/images/smflogo.gif" style="margin: 2px;" alt="" />
+				</td>
+			</tr>
+		</table>
+		<table width="100%" cellpadding="0" cellspacing="0" border="0" >
+			<tr>
+				<td class="titlebg2" height="32" align="right">
+					<span class="smalltext">May 14, 2019, 08:42:17 AM</span>
+					<a href="#" onclick="shrinkHeader(!current_header); return false;"><img id="upshrink" src="https://bitcointalk.org/Themes/custom1/images/upshrink.gif" alt="*" title="Shrink or expand the header." align="bottom" style="margin: 0 1ex;" /></a>
+				</td>
+			</tr>
+			<tr id="upshrinkHeader">
+				<td valign="top" colspan="2">
+					<table width="100%" class="bordercolor" cellpadding="8" cellspacing="1" border="0" style="margin-top: 1px;">
+						<tr>
+							<td colspan="2" width="100%" valign="top" class="windowbg2" id="variousheadlinks"><span class="middletext">Welcome, <b>Guest</b>. Please <a href="https://bitcointalk.org/index.php?action=login">login</a> or <a href="https://bitcointalk.org/index.php?action=register">register</a>.				</span>
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</table>
+		<table id="upshrinkHeader2" width="100%" cellpadding="4" cellspacing="0" border="0">
+			<tr>
+				<td width="90%" class="titlebg2">
+					<span class="smalltext"><b>News</b>: Latest Bitcoin Core release: <a class="ul" href="https://bitcoin.org/en/download">0.18.0</a> [<a class="ul" href="https://bitcointalk.org/bitcoin-0.18.0.torrent">Torrent</a>] (<b>New!</b>)</span>
+				</td>
+				<td class="titlebg2" align="right" nowrap="nowrap" valign="top">
+					<form action="https://bitcointalk.org/index.php?action=search2" method="post" accept-charset="ISO-8859-1" style="margin: 0;">
+						<a href="https://bitcointalk.org/index.php?action=search;advanced"><img src="https://bitcointalk.org/Themes/custom1/images/filter.gif" align="middle" style="margin: 0 1ex;" alt="" /></a>
+						<input type="text" name="search" value="" style="width: 190px;" />&nbsp;
+						<input type="submit" name="submit" value="Search" style="width: 11ex;" />
+						<input type="hidden" name="advanced" value="0" />
+						<input type="hidden" name="topic" value="7815" />
+					</form>
+				</td>
+			</tr>
+		</table>
+	</div>
+			<table cellpadding="0" cellspacing="0" border="0" style="margin-left: 10px;">
+				<tr>
+					<td class="maintab_first">&nbsp;</td><td class="maintab_active_first">&nbsp;</td>
+				<td valign="top" class="maintab_active_back">
+					<a href="https://bitcointalk.org/index.php">Home</a>
+				</td><td class="maintab_active_last">&nbsp;</td>
+				<td valign="top" class="maintab_back">
+					<a href="https://bitcointalk.org/index.php?action=help">Help</a>
+				</td>
+				<td valign="top" class="maintab_back">
+					<a href="https://bitcointalk.org/index.php?action=search">Search</a>
+				</td>
+				<td valign="top" class="maintab_back">
+					<a href="https://bitcointalk.org/index.php?action=login">Login</a>
+				</td>
+				<td valign="top" class="maintab_back">
+					<a href="https://bitcointalk.org/index.php?action=register">Register</a>
+				</td>
+                                <td valign="top" class="maintab_back">
+                                        <a href="/more.php">More</a>
+                                </td>
+				<td class="maintab_last">&nbsp;</td>
+			</tr>
+		</table>
+	<div id="bodyarea" style="padding: 1ex 0px 2ex 0px;">
+<a name="top"></a>
+<a name="msg114014"></a>
+<div><div class="nav" style="font-size: smaller; margin-bottom: 2ex; margin-top: 2ex;"><b><a href="https://bitcointalk.org/index.php" class="nav">Bitcoin Forum</a></b>&nbsp;>&nbsp;<b><a href="https://bitcointalk.org/index.php#1" class="nav">Bitcoin</a></b>&nbsp;>&nbsp;<b><a href="https://bitcointalk.org/index.php?board=1.0" class="nav">Bitcoin Discussion</a></b> (Moderator: <a href="https://bitcointalk.org/index.php?action=profile;u=164822" title="Board Moderator">hilariousandco</a>)&nbsp;>&nbsp;<b><a href="https://bitcointalk.org/index.php?topic=7815.0" class="nav">[FAQ] Is BitCoin a Ponzi or pyramid scheme?  (Newbie-Friendly)</a></b></div></div>
+<table width="100%" cellpadding="0" cellspacing="0" border="0">
+	<tr>
+		<td class="middletext" valign="bottom" style="padding-bottom: 4px;">Pages:  [<b>1</b>] <a class="navPages" href="https://bitcointalk.org/index.php?topic=7815.20">2</a> <a class="navPages" href="https://bitcointalk.org/index.php?topic=7815.40">3</a> <a class="navPages" href="https://bitcointalk.org/index.php?topic=7815.60">4</a> <span class="prevnext"><a class="navPages" href="https://bitcointalk.org/index.php?topic=7815.20">&#187;</a> </span>&nbsp;<a href="https://bitcointalk.org/index.php?topic=7815.0;all">All</a> </td>
+		<td align="right" style="padding-right: 1ex;">
+			<div class="nav" style="margin-bottom: 2px;"> <a href="https://bitcointalk.org/index.php?topic=7815.0;prev_next=prev#new">&laquo; previous topic</a> <a href="https://bitcointalk.org/index.php?topic=7815.0;prev_next=next#new">next topic &raquo;</a></div>
+			<table cellpadding="0" cellspacing="0">
+				<tr>
+					
+		<td class="mirrortab_first">&nbsp;</td>
+		<td class="mirrortab_back"><a href="https://bitcointalk.org/index.php?action=printpage;topic=7815.0" target="_blank">Print</a></td>
+		<td class="mirrortab_last">&nbsp;</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>
+<table width="100%" cellpadding="3" cellspacing="0" border="0" class="tborder" style="border-bottom: 0;">
+		<tr class="catbg3">
+				<td valign="middle" width="2%" style="padding-left: 6px;">
+						<img src="https://bitcointalk.org/Themes/custom1/images/topic/hot_post.gif" align="bottom" alt="" />
+				</td>
+				<td width="13%"> Author</td>
+				<td valign="middle" width="85%" style="padding-left: 6px;" id="top_subject">
+						Topic: [FAQ] Is BitCoin a Ponzi or pyramid scheme?  (Newbie-Friendly) &nbsp;(Read 55412 times)
+				</td>
+		</tr>
+</table>
+<form action="https://bitcointalk.org/index.php?action=quickmod2;topic=7815.0" method="post" accept-charset="ISO-8859-1" name="quickModForm" id="quickModForm" style="margin: 0;" onsubmit="return in_edit_mode == 1 ? modify_save('3ee4bf2a98b6d5a55bf0c3d0ec57413c') : confirm('Are you sure you want to do this?');">
+<table cellpadding="0" cellspacing="0" border="0" width="100%" class="bordercolor">
+	<tr class="WbbKjbynpcshornenKjojA"><td class="hOdfWpPghKVSdxDgGpTMTw"><b><i></i></b><b><i></i></b><b><i></i></b><b><i></i></b>
+		<table width="100%" cellpadding="3" cellspacing="0" border="0">
+			<tr><td class="windowbg">
+				<table width="100%" cellpadding="5" cellspacing="0" style="table-layout: fixed;">
+					<tr>
+								<td valign="top" width="16%" rowspan="2" style="overflow: hidden;" class="poster_info">
+							<b><a href="https://bitcointalk.org/index.php?action=profile;u=2975" title="View the profile of eMansipater">eMansipater</a></b>
+							<div class="smalltext">
+								Sr. Member<br />
+								<img src="https://bitcointalk.org/Themes/custom1/images/star.gif" alt="*" border="0" /><img src="https://bitcointalk.org/Themes/custom1/images/star.gif" alt="*" border="0" /><img src="https://bitcointalk.org/Themes/custom1/images/star.gif" alt="*" border="0" /><img src="https://bitcointalk.org/Themes/custom1/images/star.gif" alt="*" border="0" /><br />
+								<img src="https://bitcointalk.org/Themes/custom1/images/useroff.gif" alt="Offline" border="0" style="margin-top: 2px;" /><span class="smalltext"> Offline</span><br /><br />
+								Activity: 294<br />
+								Merit: 251<br /><br />
+								<div style="overflow: auto; width: 100%;"><img src="/useravatars/avatar_2975.png" alt="" class="avatar" border="0" /></div><br />
+								
+								
+								
+								<br />
+								<a href="https://bitcointalk.org/index.php?action=profile;u=2975"><img src="https://bitcointalk.org/Themes/custom1/images/icons/profile_sm.gif" alt="View Profile" title="View Profile" border="0" /></a>
+								<a href="http://bitcoin.stackexchange.com/users/44/emansipater" title="Stack Exchange Q &amp; A" ><img src="https://bitcointalk.org/Themes/custom1/images/www_sm.gif" alt="WWW" border="0" /></a><br />
+							</div>
+						</td>
+								<td valign="top" width="85%" height="100%" style="padding: 2px;" class="td_headerandpost">
+							<table width="100%" border="0"><tr>
+								<td valign="middle"><a href="https://bitcointalk.org/index.php?topic=7815.msg114014#msg114014"><img src="https://bitcointalk.org/Themes/custom1/images/post/xx.gif" alt="" border="0" /></a></td>
+								<td valign="middle">
+												<div style="font-weight: bold;" class="subject" id="subject_114014">
+										<a href="https://bitcointalk.org/index.php?topic=7815.msg114014#msg114014">[FAQ] Is BitCoin a Ponzi or pyramid scheme?  (Newbie-Friendly)</a>
+									</div>
+												<div class="smalltext"><span title="Last edit: May 25, 2011, 04:42:28 PM by eMansipater" class="edited">May 10, 2011, 08:11:32 AM</span><span class="editplain"><br />Last edit: May 25, 2011, 04:42:28 PM by eMansipater</span></div><div class="smalltext"><i><span style="color:green">Merited</span> by <a href="/index.php?action=profile;u=452769">bones261</a> (1)</i></div></td>
+										  <td align="right" valign="middle" height="20" style="font-size: smaller; padding-top: 4px;" class="td_buttons" ><div id="ignmsgbttns1" style="visibility: visible;">  <a class="message_number" style="vertical-align: middle;" href="https://bitcointalk.org/index.php?topic=7815.msg114014#msg114014">#1</a>
+		 </div>
+								</td>
+							</tr></table>
+									 <hr width="100%" size="1" class="hrcolor"  style="margin-top: 4px;" />
+							<div class="post"><span style="font-size: 12pt !important; line-height: 1.3em;"><b>Q:</b></span> &nbsp;Is BitCoin a Ponzi or pyramid scheme?<br /><br /><span style="font-size: 12pt !important; line-height: 1.3em;"><b>A:</b></span> &nbsp;No. &nbsp;Like any other currency, BitCoin is designed to be used as money, not as an investment.<br /><br />A <a class="ul" href="http://en.wikipedia.org/wiki/Ponzi_scheme">Ponzi</a> scheme is a type of confidence scam where people who think they are earning unusually high returns on an investment are actually being paid from their own money and that of later investors. &nbsp; If investors try and withdraw their original investment from the Ponzi operator, the scheme collapses because no actual profits exist and there is not enough money to return the deposited amounts. &nbsp;Alternatively the Ponzi operator may simply leave and take the investors&#039; money with them.<br /><br />Similarly, a <a class="ul" href="http://en.wikipedia.org/wiki/Pyramid_scheme">pyramid scheme</a> is a type of confidence scam where people who &quot;enroll&quot; by paying a certain amount of money are made to believe they can make a large return on their investment by recruiting other people and receiving some portion of their enrollment fee. &nbsp;The scheme collapses because it requires exponential growth, so it quickly runs out of new people to enroll. &nbsp;The person starting the pyramid scam, who didn&#039;t have to pay an enrollment fee, makes money off of all their referrals; while the people at the bottom parts of the pyramid, who cannot find anyone new to refer, are left with no return.<br /><br /><b>Unlike either of these situations, BitCoin has no person &quot;at the top&quot; who collects money paid for bitcoins</b>, or has to pay out when bitcoins are sold. &nbsp;Neither is there any kind of scheme in BitCoin to harvest money off of unsuspecting people in complicated ways. &nbsp;Instead, bitcoins are bought and sold on <a class="ul" href="http://bitcoincharts.com/markets/">public exchanges</a> amongst members of the general public who must all obey the same rules. &nbsp;If someone has told you that BitCoin is a moneymaking scheme, they have misconstrued it--<b>bitcoins follow the same economic model as any other finite <a class="ul" href="http://en.wikipedia.org/wiki/Commodity">commodity</a></b> and over time will tend to approach a price that reflects the value people ascribe to being able to use them. &nbsp;People who have made money off of buying and/or selling bitcoins are either lucky or have correctly predicted an increase in demand for them. &nbsp;People who earn bitcoins through &quot;mining&quot; are being paid for verifying and securing network transactions in a highly competitive market. &nbsp;In neither case is any kind of fraudulent activity or confidence scam happening. &nbsp;For more details on earning money through BitCoin, see the &quot;Where do I get the free money?&quot; thread (coming soon).<br /><br />Despite the fact that BitCoin <i>itself</i> is not a scam, <b>caution is strongly advised</b> when entering into transactions with untrusted entities. &nbsp;As with any other valuable commodity, there are many people willing to separate your bitcoins from you in sneaky or fraudulent ways. &nbsp;Remember that for all practical purposes <b>BitCoin works just like cash</b>. &nbsp;Bitcoin Ponzi and pyramid schemes <a class="ul" href="http://fxnet.bitlex.org/">do exist</a> and if you fall prey to them you will suffer the consequences.<br /><br />In addition, <b>bitcoins are a very new and unproven type of money</b>. &nbsp;Because their value depends on how widely they are accepted, they <i>are</i> susceptible to the same types of <a class="ul" href="http://en.wikipedia.org/wiki/Economic_bubble">economic bubbles</a> as any other commodity that is surging in popularity. The Bitcoin software is still in beta, and bitcoins should be considered &quot;high-risk&quot; from a financial perspective. &nbsp;You should <b>not</b> invest money into bitcoins or BitCoin-related technologies unless you can afford to lose it! &nbsp;Even firm believers in BitCoin tend to think it will take a while for the value of bitcoins to stabilise, and no one knows at what value that stabilisation might occur. &nbsp;Trade and transact safely!<br /><br /><br /><br /><br /><span style="font-size: 12pt !important; line-height: 1.3em;">Note:</span><br /><ul style="margin-top: 0; margin-bottom: 0;"><li><b>This is a newbie-friendly thread</b>--do not post in this thread unless you are either a newbie with questions or are willing to patiently help one out. &nbsp;All other activity will be moved or deleted by moderators as off-topic. &nbsp;DBTN! (Don&#039;t bite the newbs!) &nbsp;There is a thread for general feedback, commentary, etc. regarding this thread <a class="ul" href="http://bitcointalk.org/index.php?topic=7911.0">here</a>.</li><li><b>Before posting in this thread, ensure you have read the <a class="ul" href="http://bitcointalk.org/index.php?topic=7269.0">Introduction to BitCoin</a></b>, the answer above, and as much of this thread as possible. &nbsp;There are many helpful people here, but please respect the time they have already invested.</li></ul><br /><span style="font-size: 8pt !important; line-height: 1.3em;">As an experiment in improving feedback, please send tips for this post to 14nyin6Tiqb38NXN83KpTwJLCtcC8fM9fK , <b>not</b> the address in my signature below.</span><br /></div>
+						</td>
+					</tr>
+					<tr>
+						<td valign="bottom" class="smalltext" width="85%">
+							<table width="100%" border="0" style="table-layout: fixed;"><tr>
+								<td colspan="2" class="smalltext" width="100%">
+								</td>
+							</tr><tr>
+								<td valign="bottom" class="smalltext" id="modified_114014">
+								</td>
+								<td align="right" valign="bottom" class="smalltext">
+									<img src="https://bitcointalk.org/Themes/custom1/images/ip.gif" alt="" border="0" />
+								</td>
+							</tr></table>
+							<hr width="100%" size="1" class="hrcolor" />
+							<div class="signature sig2975">If you found my post helpful, feel free to send a small tip to 1QGukeKbBQbXHtV6LgkQa977LJ3YHXXW8B<br />Visit the <a class="ul" href="http://goo.gl/m4btA">BitCoin Q&amp;A Site</a> to ask questions or share knowledge.<br /><b>0.009 BTC too confusing?&nbsp; Use mBTC instead!</b>&nbsp; Details at <b><a class="ul" href="http://goo.gl/QoMiz">www.em-bit.org</a></b> or visit the <a class="ul" href="http://goo.gl/s1fuw">project thread</a> to help make Bitcoin prices more human-friendly.</div>
+						</td>
+					</tr>
+				</table>
+			</td></tr>
+		</table>
+	</td></tr><tr><td class="hOdfWpPghKVSdxDgGpTMTw"></td></tr><tr class="SsUqaazbofbIUFhBFoKMXA"><td class="hOdfWpPghKVSdxDgGpTMTw"><b><i></i></b><b><i></i></b><b><i></i></b><b><i></i></b> <a name="msg1557823337"></a>
+ <table width="100%" border="0" cellpadding="3" cellspacing="0">
+  <tbody><tr><td class="windowbg2">
+   <table style="table-layout: fixed;" width="100%" cellpadding="5" cellspacing="0">
+    <tbody><tr>
+       <td rowspan="2" style="overflow: hidden;" class="poster_info" valign="top" width="16%">
+      <b><a href="https://bitcointalk.org/index.php?action=profile;u=1557823337" title="View the profile of 1557823337">1557823337</a></b>
+      <div class="smalltext">
+       Hero Member<br />
+       <img src="/Themes/custom1/images/star.gif" alt="*" border="0" /><br />
+       <a href="https://bitcointalk.org/index.php?action=pm;sa=send;u=1557823337" title="Personal Message (Offline)"><img src="/Themes/custom1/images/useroff.gif" alt="Offline" style="margin-top: 2px;" border="0" /></a><span class="smalltext"> Offline</span><br /><br />
+       Posts: 1557823337<br />
+       
+       
+       
+       <br />
+       <a href="https://bitcointalk.org/index.php?action=profile;u=1557823337"><img src="/Themes/custom1/images/icons/profile_sm.gif" alt="View Profile" title="View Profile" border="0" /></a>
+       <a href="https://bitcointalk.org/index.php?action=pm;sa=send;u=1557823337" title="Personal Message (Offline)"><img src="/Themes/custom1/images/im_off.gif" alt="Personal Message (Offline)" border="0" /></a><br />
+       <br /><a href="https://bitcointalk.org/index.php?action=ignore;u=1557823337;topic=1557823337;msg=1557823337">Ignore</a>
+      </div>
+     </td>
+       <td style="padding: 2px;" class="td_headerandpost" valign="top" width="85%" height="100%">
+      <table width="100%" border="0"><tbody><tr>
+       <td valign="middle"><a href="https://bitcointalk.org/index.php?topic=1557823337.msg1557823337#msg1557823337"><img src="/Themes/custom1/images/post/xx.gif" alt="" border="0" /></a></td>
+       <td valign="middle">
+           <div style="font-weight: bold;" class="subject">
+         <a href="https://bitcointalk.org/index.php?topic=1557823337.msg1557823337#msg1557823337">1557823337</a>
+        </div>
+           <div class="smalltext">1557823337</div></td>
+           <td style="font-size: smaller; padding-top: 4px;" class="td_buttons" valign="middle" align="right" height="20"><div style="visibility: visible;">
+    <a href="https://bitcointalk.org/index.php?action=post;quote=1557823337;topic=1557823337.100;num_replies=2;sesc=1557823337"><img src="/Themes/custom1/images/frostee/frostee_quote.png" alt="Reply with quote" class="reply_button" style="vertical-align: middle;" /></a>
+       &nbsp;<a class="message_number" style="vertical-align: middle;" href="https://bitcointalk.org/index.php?topic=1557823337.msg1557823337#msg1557823337">#2</a>
+  </div>
+       </td>
+      </tr></tbody></table>
+         <hr class="hrcolor" style="margin-top: 4px;" size="1" width="100%" />
+      <div class="post">1557823337</div>
+     </td>
+    </tr>
+    <tr>
+     <td class="smalltext" valign="bottom" width="85%">
+      <table style="table-layout: fixed;" width="100%" border="0"><tbody><tr>
+       <td colspan="2" class="smalltext" width="100%">
+       </td>
+      </tr><tr>
+       <td class="smalltext" valign="bottom">
+       </td>
+       <td class="smalltext" valign="bottom" align="right">
+        <a href="https://bitcointalk.org/index.php?action=reporttm;topic=1557823337.101;msg=1557823337">Report to moderator</a>
+       </td>
+      </tr></tbody></table>
+     </td>
+    </tr>
+   </tbody></table>
+  </td></tr>
+ </tbody></table>
+</td></tr><tr class="dfiFhyvLeAgWuadsDBveTg"><td class="hOdfWpPghKVSdxDgGpTMTw"><b><i></i></b><b><i></i></b><b><i></i></b><b><i></i></b> <a name="msg1557823337"></a>
+ <table width="100%" border="0">
+  <tbody><tr><td>
+   <table width="100%">
+    <tbody><tr>
+       <td rowspan="2">
+     </td>
+       <td>
+      <table width="100%" class="gJqhrxFgvxvxBVpCenveNg"><tr><td></td></tr>
+      </table>
+      <div class="sdyrUtmqnESygqbePxWDvg">There are several different types of Bitcoin clients. The most secure are <i>full nodes</i> like Bitcoin Core, but full nodes are more resource-heavy, and they must do a lengthy initial syncing process. As a result, lightweight clients with somewhat less security are commonly used.</div>
+     </td>
+    </tr>
+    <tr class="gJqhrxFgvxvxBVpCenveNg"><td></td>
+    </tr>
+   </tbody></table>
+  </td></tr>
+ </tbody></table>
+ <span style="font-size:x-small">Advertised sites are not endorsed by the Bitcoin Forum. They may be unsafe, untrustworthy, or illegal in your jurisdiction. <a href="https://bitcointalk.org/index.php?topic=5141283.0">Advertise here.</a></span>
+</td></tr>
+	<tr class="WbbKjbynpcshornenKjojA"><td class="hOdfWpPghKVSdxDgGpTMTw"><b><i></i></b><b><i></i></b><b><i></i></b><b><i></i></b>
+		<a name="msg129187"></a>
+		<table width="100%" cellpadding="3" cellspacing="0" border="0">
+			<tr><td class="windowbg2">
+				<table width="100%" cellpadding="5" cellspacing="0" style="table-layout: fixed;">
+					<tr>
+								<td valign="top" width="16%" rowspan="2" style="overflow: hidden;" class="poster_info">
+							<b><a href="https://bitcointalk.org/index.php?action=profile;u=9319" title="View the profile of Dusty">Dusty</a></b>
+							<div class="smalltext">
+								Hero Member<br />
+								<img src="https://bitcointalk.org/Themes/custom1/images/star.gif" alt="*" border="0" /><img src="https://bitcointalk.org/Themes/custom1/images/star.gif" alt="*" border="0" /><img src="https://bitcointalk.org/Themes/custom1/images/star.gif" alt="*" border="0" /><img src="https://bitcointalk.org/Themes/custom1/images/star.gif" alt="*" border="0" /><img src="https://bitcointalk.org/Themes/custom1/images/star.gif" alt="*" border="0" /><br />
+								<img src="https://bitcointalk.org/Themes/custom1/images/useroff.gif" alt="Offline" border="0" style="margin-top: 2px;" /><span class="smalltext"> Offline</span><br /><br />
+								Activity: 729<br />
+								Merit: 500<br /><br />
+								<div style="overflow: auto; width: 100%;"><img src="/useravatars/avatar_9319.png" alt="" class="avatar" border="0" /></div><br />
+								Libertas a calumnia<br />
+								<br />
+								
+								
+								
+								<br />
+								<a href="https://bitcointalk.org/index.php?action=profile;u=9319"><img src="https://bitcointalk.org/Themes/custom1/images/icons/profile_sm.gif" alt="View Profile" title="View Profile" border="0" /></a>
+								<a href="http://ilporticodipinto.it/bitcoin" title="Il Portico Dipinto" ><img src="https://bitcointalk.org/Themes/custom1/images/www_sm.gif" alt="WWW" border="0" /></a><br />
+							</div>
+						</td>
+								<td valign="top" width="85%" height="100%" style="padding: 2px;" class="td_headerandpost">
+							<table width="100%" border="0"><tr>
+								<td valign="middle"><a href="https://bitcointalk.org/index.php?topic=7815.msg129187#msg129187"><img src="https://bitcointalk.org/Themes/custom1/images/post/xx.gif" alt="" border="0" /></a></td>
+								<td valign="middle">
+												<div style="font-weight: bold;" class="subject" id="subject_129187">
+										<a href="https://bitcointalk.org/index.php?topic=7815.msg129187#msg129187">Re: [FAQ] Is BitCoin a Ponzi or pyramid scheme?  (Newbie-Friendly)</a>
+									</div>
+												<div class="smalltext">May 19, 2011, 08:33:38 AM</div></td>
+										  <td align="right" valign="middle" height="20" style="font-size: smaller; padding-top: 4px;" class="td_buttons" ><div id="ignmsgbttns2" style="visibility: visible;">  <a class="message_number" style="vertical-align: middle;" href="https://bitcointalk.org/index.php?topic=7815.msg129187#msg129187">#2</a>
+		 </div>
+								</td>
+							</tr></table>
+									 <hr width="100%" size="1" class="hrcolor"  style="margin-top: 4px;" />
+							<div class="post">Thank you for excellent explaination, I translated it in Italian and put it online on my website, now mainly orientated toward Bitcoin, and being the biggest source of information in Italian language:<br /><a class="ul" href="http://ilporticodipinto.it/faq/bitcoin-%C3%A8-uno-schema-di-ponzi-o-uno-schema-di-marketing-piramidale">http://ilporticodipinto.it/faq/bitcoin-%C3%A8-uno-schema-di-ponzi-o-uno-schema-di-marketing-piramidale</a><br /><br />I tell you this in case you want to link the italian version to your index page.<br /><br />Please tell me if you want me to credit you for the original text, if you want a link to this page or whatever.<br /><br />I plan to translate other faq as well in the feature.<br /><br />Thanks!<br /></div>
+						</td>
+					</tr>
+					<tr>
+						<td valign="bottom" class="smalltext" width="85%">
+							<table width="100%" border="0" style="table-layout: fixed;"><tr>
+								<td colspan="2" class="smalltext" width="100%">
+								</td>
+							</tr><tr>
+								<td valign="bottom" class="smalltext" id="modified_129187">
+								</td>
+								<td align="right" valign="bottom" class="smalltext">
+									<img src="https://bitcointalk.org/Themes/custom1/images/ip.gif" alt="" border="0" />
+								</td>
+							</tr></table>
+							<hr width="100%" size="1" class="hrcolor" />
+							<div class="signature sig9319">Articoli bitcoin: <a class="ul" href="http://ilporticodipinto.it/bitcoin">Il portico dipinto</a></div>
+						</td>
+					</tr>
+				</table>
+			</td></tr>
+		</table>
+	</td></tr>
+	<tr class="WbbKjbynpcshornenKjojA"><td class="hOdfWpPghKVSdxDgGpTMTw"><b><i></i></b><b><i></i></b><b><i></i></b><b><i></i></b><b><i></i></b>
+		<a name="msg129645"></a>
+		<table width="100%" cellpadding="3" cellspacing="0" border="0">
+			<tr><td class="windowbg">
+				<table width="100%" cellpadding="5" cellspacing="0" style="table-layout: fixed;">
+					<tr>
+								<td valign="top" width="16%" rowspan="2" style="overflow: hidden;" class="poster_info">
+							<b><a href="https://bitcointalk.org/index.php?action=profile;u=12149" title="View the profile of evoorhees">evoorhees</a></b>
+							<div class="smalltext">
+								Legendary<br />
+								<img src="https://bitcointalk.org/Themes/custom1/images/legendary.gif" alt="*" border="0" /><br />
+								<img src="https://bitcointalk.org/Themes/custom1/images/useroff.gif" alt="Offline" border="0" style="margin-top: 2px;" /><span class="smalltext"> Offline</span><br /><br />
+								Activity: 994<br />
+								Merit: 1003<br /><br />
+								<div style="overflow: auto; width: 100%;"><img src="/useravatars/avatar_12149.png" alt="" class="avatar" border="0" /></div><br />
+								Democracy is the original 51% attack<br />
+								<br />
+								
+								
+								
+								<br />
+								<a href="https://bitcointalk.org/index.php?action=profile;u=12149"><img src="https://bitcointalk.org/Themes/custom1/images/icons/profile_sm.gif" alt="View Profile" title="View Profile" border="0" /></a><br />
+							</div>
+						</td>
+								<td valign="top" width="85%" height="100%" style="padding: 2px;" class="td_headerandpost">
+							<table width="100%" border="0"><tr>
+								<td valign="middle"><a href="https://bitcointalk.org/index.php?topic=7815.msg129645#msg129645"><img src="https://bitcointalk.org/Themes/custom1/images/post/xx.gif" alt="" border="0" /></a></td>
+								<td valign="middle">
+												<div style="font-weight: bold;" class="subject" id="subject_129645">
+										<a href="https://bitcointalk.org/index.php?topic=7815.msg129645#msg129645">Re: [FAQ] Is BitCoin a Ponzi or pyramid scheme?  (Newbie-Friendly)</a>
+									</div>
+												<div class="smalltext">May 19, 2011, 03:19:55 PM</div></td>
+										  <td align="right" valign="middle" height="20" style="font-size: smaller; padding-top: 4px;" class="td_buttons" ><div id="ignmsgbttns3" style="visibility: visible;">  <a class="message_number" style="vertical-align: middle;" href="https://bitcointalk.org/index.php?topic=7815.msg129645#msg129645">#3</a>
+		 </div>
+								</td>
+							</tr></table>
+									 <hr width="100%" size="1" class="hrcolor"  style="margin-top: 4px;" />
+							<div class="post">Very well written!</div>
+						</td>
+					</tr>
+					<tr>
+						<td valign="bottom" class="smalltext" width="85%">
+							<table width="100%" border="0" style="table-layout: fixed;"><tr>
+								<td colspan="2" class="smalltext" width="100%">
+								</td>
+							</tr><tr>
+								<td valign="bottom" class="smalltext" id="modified_129645">
+								</td>
+								<td align="right" valign="bottom" class="smalltext">
+									<img src="https://bitcointalk.org/Themes/custom1/images/ip.gif" alt="" border="0" />
+								</td>
+							</tr></table>
+						</td>
+					</tr>
+				</table>
+			</td></tr>
+		</table>
+	</td></tr>
+	<tr class="WbbKjbynpcshornenKjojA"><td class="hOdfWpPghKVSdxDgGpTMTw"><b><i></i></b><b><i></i></b>
+		<a name="msg129946"></a>
+		<table width="100%" cellpadding="3" cellspacing="0" border="0">
+			<tr><td class="windowbg2">
+				<table width="100%" cellpadding="5" cellspacing="0" style="table-layout: fixed;">
+					<tr>
+								<td valign="top" width="16%" rowspan="2" style="overflow: hidden;" class="poster_info">
+							<b><a href="https://bitcointalk.org/index.php?action=profile;u=8670" title="View the profile of tomcollins">tomcollins</a></b>
+							<div class="smalltext">
+								Full Member<br />
+								<img src="https://bitcointalk.org/Themes/custom1/images/star.gif" alt="*" border="0" /><img src="https://bitcointalk.org/Themes/custom1/images/star.gif" alt="*" border="0" /><img src="https://bitcointalk.org/Themes/custom1/images/star.gif" alt="*" border="0" /><br />
+								<img src="https://bitcointalk.org/Themes/custom1/images/useroff.gif" alt="Offline" border="0" style="margin-top: 2px;" /><span class="smalltext"> Offline</span><br /><br />
+								Activity: 182<br />
+								Merit: 100<br /><br />
+								
+								
+								
+								<br />
+								<a href="https://bitcointalk.org/index.php?action=profile;u=8670"><img src="https://bitcointalk.org/Themes/custom1/images/icons/profile_sm.gif" alt="View Profile" title="View Profile" border="0" /></a><br />
+							</div>
+						</td>
+								<td valign="top" width="85%" height="100%" style="padding: 2px;" class="td_headerandpost">
+							<table width="100%" border="0"><tr>
+								<td valign="middle"><a href="https://bitcointalk.org/index.php?topic=7815.msg129946#msg129946"><img src="https://bitcointalk.org/Themes/custom1/images/post/xx.gif" alt="" border="0" /></a></td>
+								<td valign="middle">
+												<div style="font-weight: bold;" class="subject" id="subject_129946">
+										<a href="https://bitcointalk.org/index.php?topic=7815.msg129946#msg129946">Re: [FAQ] Is BitCoin a Ponzi or pyramid scheme?  (Newbie-Friendly)</a>
+									</div>
+												<div class="smalltext">May 19, 2011, 06:19:17 PM</div></td>
+										  <td align="right" valign="middle" height="20" style="font-size: smaller; padding-top: 4px;" class="td_buttons" ><div id="ignmsgbttns4" style="visibility: visible;">  <a class="message_number" style="vertical-align: middle;" href="https://bitcointalk.org/index.php?topic=7815.msg129946#msg129946">#4</a>
+		 </div>
+								</td>
+							</tr></table>
+									 <hr width="100%" size="1" class="hrcolor"  style="margin-top: 4px;" />
+							<div class="post">While not intended to be an investment, BitCoin certainly can be treated as one.&nbsp; In particular, it is a speculative investment.&nbsp; This means if Bitcoin becomes more useful, it&#039;s value may increase.&nbsp; If it turns out that the usefulness is overestimated by the investors, then the value may go down.&nbsp; Speculative investments are not Ponzi schemes, though.&nbsp; A speculative investment IS very risky and you could lose a great portion of your investment (even all of it).&nbsp; This does not make it a scam, though.<br /><br />There are some similarities between speculative investments and Ponzi schemes that make some people have trouble telling them apart.&nbsp; In a speculative investment, you are betting that people in the future will want to invest (or use) what you are buying.&nbsp; There is no guarantee that happens.&nbsp; In a Ponzi scheme and Pyramid scheme, you are betting that other people will come after you (if you are aware of what you are in).&nbsp; The difference is there is no actual possible value in a Ponzi or Pyramid scheme.&nbsp; You are either fooled into thinking what you are buying is valuable, or you think that there will be greater fools that come after you.&nbsp; A speculative investment is different in that you actually know what you are betting on.&nbsp; You still can be wrong (it might not be very valuable, or you overestimated its value), so that&#039;s why people can get confused.&nbsp; Speculative investments should not be done with money you mind losing.&nbsp; A speculative investment actually has a chance of paying off for everyone down the line by actually creating value.&nbsp; A Ponzi scheme and Pyramid scheme collapses eventually because no value is created.<br /><br />You shouldn&#039;t sink all of your retirement accounts into Bitcoin (unless you don&#039;t mind losing most of it!), but it may make a decent investment.&nbsp; Do not base your decision only on what it&#039;s done in the last few months.&nbsp; The past rate of growth is unsustainable for a long period of time (otherwise owning a Bitcoin would be worth all the wealth on Earth after enough time, and I don&#039;t think anyone thinks that will happen).&nbsp; It might go up.&nbsp; It might be overpriced now.&nbsp; It might be fairly priced.&nbsp; Do your homework, try to figure out what would actually make it valuable and how valuable it would be in those cases.&nbsp; Figure out how likely each of those scenarios are to play out.&nbsp; Figure out your risk tolerance (most people would not risk $100,000 for a .1% chance at becoming a billionaire, even though mathematics say it&#039;s a good deal).&nbsp; Then invest.&nbsp; Or start using them for something useful.&nbsp; Buy goods where it is cheaper to buy them.&nbsp; Take advantage of the semi-anonymous nature of it.&nbsp; Buy something you can&#039;t otherwise purchase.&nbsp; Build a business model that takes advantage of Bitcoins.</div>
+						</td>
+					</tr>
+					<tr>
+						<td valign="bottom" class="smalltext" width="85%">
+							<table width="100%" border="0" style="table-layout: fixed;"><tr>
+								<td colspan="2" class="smalltext" width="100%">
+								</td>
+							</tr><tr>
+								<td valign="bottom" class="smalltext" id="modified_129946">
+								</td>
+								<td align="right" valign="bottom" class="smalltext">
+									<img src="https://bitcointalk.org/Themes/custom1/images/ip.gif" alt="" border="0" />
+								</td>
+							</tr></table>
+						</td>
+					</tr>
+				</table>
+			</td></tr>
+		</table>
+	</td></tr>
+	<tr class="WbbKjbynpcshornenKjojA"><td class="hOdfWpPghKVSdxDgGpTMTw">
+		<a name="msg134309"></a>
+		<table width="100%" cellpadding="3" cellspacing="0" border="0">
+			<tr><td class="windowbg">
+				<table width="100%" cellpadding="5" cellspacing="0" style="table-layout: fixed;">
+					<tr>
+								<td valign="top" width="16%" rowspan="2" style="overflow: hidden;" class="poster_info">
+							<b><a href="https://bitcointalk.org/index.php?action=profile;u=2975" title="View the profile of eMansipater">eMansipater</a></b>
+							<div class="smalltext">
+								Sr. Member<br />
+								<img src="https://bitcointalk.org/Themes/custom1/images/star.gif" alt="*" border="0" /><img src="https://bitcointalk.org/Themes/custom1/images/star.gif" alt="*" border="0" /><img src="https://bitcointalk.org/Themes/custom1/images/star.gif" alt="*" border="0" /><img src="https://bitcointalk.org/Themes/custom1/images/star.gif" alt="*" border="0" /><br />
+								<img src="https://bitcointalk.org/Themes/custom1/images/useroff.gif" alt="Offline" border="0" style="margin-top: 2px;" /><span class="smalltext"> Offline</span><br /><br />
+								Activity: 294<br />
+								Merit: 251<br /><br />
+								<div style="overflow: auto; width: 100%;"><img src="/useravatars/avatar_2975.png" alt="" class="avatar" border="0" /></div><br />
+								
+								
+								
+								<br />
+								<a href="https://bitcointalk.org/index.php?action=profile;u=2975"><img src="https://bitcointalk.org/Themes/custom1/images/icons/profile_sm.gif" alt="View Profile" title="View Profile" border="0" /></a>
+								<a href="http://bitcoin.stackexchange.com/users/44/emansipater" title="Stack Exchange Q &amp; A" ><img src="https://bitcointalk.org/Themes/custom1/images/www_sm.gif" alt="WWW" border="0" /></a><br />
+							</div>
+						</td>
+								<td valign="top" width="85%" height="100%" style="padding: 2px;" class="td_headerandpost">
+							<table width="100%" border="0"><tr>
+								<td valign="middle"><a href="https://bitcointalk.org/index.php?topic=7815.msg134309#msg134309"><img src="https://bitcointalk.org/Themes/custom1/images/post/xx.gif" alt="" border="0" /></a></td>
+								<td valign="middle">
+												<div style="font-weight: bold;" class="subject" id="subject_134309">
+										<a href="https://bitcointalk.org/index.php?topic=7815.msg134309#msg134309">Re: [FAQ] Is BitCoin a Ponzi or pyramid scheme?  (Newbie-Friendly)</a>
+									</div>
+												<div class="smalltext">May 22, 2011, 12:46:52 AM</div></td>
+										  <td align="right" valign="middle" height="20" style="font-size: smaller; padding-top: 4px;" class="td_buttons" ><div id="ignmsgbttns5" style="visibility: visible;">  <a class="message_number" style="vertical-align: middle;" href="https://bitcointalk.org/index.php?topic=7815.msg134309#msg134309">#5</a>
+		 </div>
+								</td>
+							</tr></table>
+									 <hr width="100%" size="1" class="hrcolor"  style="margin-top: 4px;" />
+							<div class="post">Thanks Dusty and and evoorhees!</div>
+						</td>
+					</tr>
+					<tr>
+						<td valign="bottom" class="smalltext" width="85%">
+							<table width="100%" border="0" style="table-layout: fixed;"><tr>
+								<td colspan="2" class="smalltext" width="100%">
+								</td>
+							</tr><tr>
+								<td valign="bottom" class="smalltext" id="modified_134309">
+								</td>
+								<td align="right" valign="bottom" class="smalltext">
+									<img src="https://bitcointalk.org/Themes/custom1/images/ip.gif" alt="" border="0" />
+								</td>
+							</tr></table>
+							<hr width="100%" size="1" class="hrcolor" />
+							<div class="signature sig2975">If you found my post helpful, feel free to send a small tip to 1QGukeKbBQbXHtV6LgkQa977LJ3YHXXW8B<br />Visit the <a class="ul" href="http://goo.gl/m4btA">BitCoin Q&amp;A Site</a> to ask questions or share knowledge.<br /><b>0.009 BTC too confusing?&nbsp; Use mBTC instead!</b>&nbsp; Details at <b><a class="ul" href="http://goo.gl/QoMiz">www.em-bit.org</a></b> or visit the <a class="ul" href="http://goo.gl/s1fuw">project thread</a> to help make Bitcoin prices more human-friendly.</div>
+						</td>
+					</tr>
+				</table>
+			</td></tr>
+		</table>
+	</td></tr>
+	<tr class="WbbKjbynpcshornenKjojA"><td class="hOdfWpPghKVSdxDgGpTMTw">
+		<a name="msg134972"></a>
+		<table width="100%" cellpadding="3" cellspacing="0" border="0">
+			<tr><td class="windowbg2">
+				<table width="100%" cellpadding="5" cellspacing="0" style="table-layout: fixed;">
+					<tr>
+								<td valign="top" width="16%" rowspan="2" style="overflow: hidden;" class="poster_info">
+							<b><a href="https://bitcointalk.org/index.php?action=profile;u=14274" title="View the profile of Iceredwing">Iceredwing</a></b>
+							<div class="smalltext">
+								Newbie<br />
+								<img src="https://bitcointalk.org/Themes/custom1/images/star.gif" alt="*" border="0" /><br />
+								<img src="https://bitcointalk.org/Themes/custom1/images/useroff.gif" alt="Offline" border="0" style="margin-top: 2px;" /><span class="smalltext"> Offline</span><br /><br />
+								Activity: 36<br />
+								Merit: 0<br /><br />
+								
+								
+								
+								<br />
+								<a href="https://bitcointalk.org/index.php?action=profile;u=14274"><img src="https://bitcointalk.org/Themes/custom1/images/icons/profile_sm.gif" alt="View Profile" title="View Profile" border="0" /></a><br />
+							</div>
+						</td>
+								<td valign="top" width="85%" height="100%" style="padding: 2px;" class="td_headerandpost">
+							<table width="100%" border="0"><tr>
+								<td valign="middle"><a href="https://bitcointalk.org/index.php?topic=7815.msg134972#msg134972"><img src="https://bitcointalk.org/Themes/custom1/images/post/xx.gif" alt="" border="0" /></a></td>
+								<td valign="middle">
+												<div style="font-weight: bold;" class="subject" id="subject_134972">
+										<a href="https://bitcointalk.org/index.php?topic=7815.msg134972#msg134972">Re: [FAQ] Is BitCoin a Ponzi or pyramid scheme?  (Newbie-Friendly)</a>
+									</div>
+												<div class="smalltext">May 22, 2011, 01:05:01 PM</div></td>
+										  <td align="right" valign="middle" height="20" style="font-size: smaller; padding-top: 4px;" class="td_buttons" ><div id="ignmsgbttns6" style="visibility: visible;">  <a class="message_number" style="vertical-align: middle;" href="https://bitcointalk.org/index.php?topic=7815.msg134972#msg134972">#6</a>
+		 </div>
+								</td>
+							</tr></table>
+									 <hr width="100%" size="1" class="hrcolor"  style="margin-top: 4px;" />
+							<div class="post">I like your approach to keep it simple and straight forward for the new guys. I can see this FAQ growing into much more robust hub of information about bitcoin making clear of it&#039;s facts and myths. Very nicely done.&nbsp; <img src="https://bitcointalk.org/Smileys/default/wink.gif" alt="Wink" border="0" /></div>
+						</td>
+					</tr>
+					<tr>
+						<td valign="bottom" class="smalltext" width="85%">
+							<table width="100%" border="0" style="table-layout: fixed;"><tr>
+								<td colspan="2" class="smalltext" width="100%">
+								</td>
+							</tr><tr>
+								<td valign="bottom" class="smalltext" id="modified_134972">
+								</td>
+								<td align="right" valign="bottom" class="smalltext">
+									<img src="https://bitcointalk.org/Themes/custom1/images/ip.gif" alt="" border="0" />
+								</td>
+							</tr></table>
+						</td>
+					</tr>
+				</table>
+			</td></tr>
+		</table>
+	</td></tr>
+	<tr class="WbbKjbynpcshornenKjojA"><td class="hOdfWpPghKVSdxDgGpTMTw"><b><i></i></b><b><i></i></b><b><i></i></b>
+		<a name="msg136118"></a>
+		<table width="100%" cellpadding="3" cellspacing="0" border="0">
+			<tr><td class="windowbg">
+				<table width="100%" cellpadding="5" cellspacing="0" style="table-layout: fixed;">
+					<tr>
+								<td valign="top" width="16%" rowspan="2" style="overflow: hidden;" class="poster_info">
+							<b><a href="https://bitcointalk.org/index.php?action=profile;u=2016" title="View the profile of brocktice">brocktice</a></b>
+							<div class="smalltext">
+								Sr. Member<br />
+								<img src="https://bitcointalk.org/Themes/custom1/images/star.gif" alt="*" border="0" /><img src="https://bitcointalk.org/Themes/custom1/images/star.gif" alt="*" border="0" /><img src="https://bitcointalk.org/Themes/custom1/images/star.gif" alt="*" border="0" /><img src="https://bitcointalk.org/Themes/custom1/images/star.gif" alt="*" border="0" /><br />
+								<img src="https://bitcointalk.org/Themes/custom1/images/useroff.gif" alt="Offline" border="0" style="margin-top: 2px;" /><span class="smalltext"> Offline</span><br /><br />
+								Activity: 292<br />
+								Merit: 250<br /><br />
+								<div style="overflow: auto; width: 100%;"><img src="/useravatars/avatar_2016.png" alt="" class="avatar" border="0" /></div><br />
+								Apparently I inspired this image.<br />
+								<br />
+								
+								
+								
+								<br />
+								<a href="https://bitcointalk.org/index.php?action=profile;u=2016"><img src="https://bitcointalk.org/Themes/custom1/images/icons/profile_sm.gif" alt="View Profile" title="View Profile" border="0" /></a>
+								<a href="http://brocktice.com" title="My Personal Site" ><img src="https://bitcointalk.org/Themes/custom1/images/www_sm.gif" alt="WWW" border="0" /></a><br />
+							</div>
+						</td>
+								<td valign="top" width="85%" height="100%" style="padding: 2px;" class="td_headerandpost">
+							<table width="100%" border="0"><tr>
+								<td valign="middle"><a href="https://bitcointalk.org/index.php?topic=7815.msg136118#msg136118"><img src="https://bitcointalk.org/Themes/custom1/images/post/xx.gif" alt="" border="0" /></a></td>
+								<td valign="middle">
+												<div style="font-weight: bold;" class="subject" id="subject_136118">
+										<a href="https://bitcointalk.org/index.php?topic=7815.msg136118#msg136118">Re: [FAQ] Is BitCoin a Ponzi or pyramid scheme?  (Newbie-Friendly)</a>
+									</div>
+												<div class="smalltext">May 23, 2011, 01:51:11 AM</div></td>
+										  <td align="right" valign="middle" height="20" style="font-size: smaller; padding-top: 4px;" class="td_buttons" ><div id="ignmsgbttns7" style="visibility: visible;">  <a class="message_number" style="vertical-align: middle;" href="https://bitcointalk.org/index.php?topic=7815.msg136118#msg136118">#7</a>
+		 </div>
+								</td>
+							</tr></table>
+									 <hr width="100%" size="1" class="hrcolor"  style="margin-top: 4px;" />
+							<div class="post">Thanks for the good initial response to this apparently common perception of bitcoin. I&#039;ve also added an explanation with a slightly different angle on my blog, here <a class="ul" href="http://virtuallyshocking.com/2011/05/22/why-bitcoin-is-smart-and-not-a-scam/">http://virtuallyshocking.com/2011/05/22/why-bitcoin-is-smart-and-not-a-scam/</a>.<br /><br />If it&#039;s ok with the OP I&#039;d like to add a link to this thread as well.</div>
+						</td>
+					</tr>
+					<tr>
+						<td valign="bottom" class="smalltext" width="85%">
+							<table width="100%" border="0" style="table-layout: fixed;"><tr>
+								<td colspan="2" class="smalltext" width="100%">
+								</td>
+							</tr><tr>
+								<td valign="bottom" class="smalltext" id="modified_136118">
+								</td>
+								<td align="right" valign="bottom" class="smalltext">
+									<img src="https://bitcointalk.org/Themes/custom1/images/ip.gif" alt="" border="0" />
+								</td>
+							</tr></table>
+							<hr width="100%" size="1" class="hrcolor" />
+							<div class="signature sig2016"><a class="ul" href="http://media.witcoin.com/p/1608/8----This-is-nuts">http://media.witcoin.com/p/1608/8----This-is-nuts</a><br /><br />My #bitcoin-otc ratings: <a class="ul" href="http://bitcoin-otc.com/viewratingdetail.php?nick=brocktice&amp;sign=ANY&amp;type=RECV">http://bitcoin-otc.com/viewratingdetail.php?nick=brocktice&amp;sign=ANY&amp;type=RECV</a><br /><br />Like my post? Leave me a tip: 15Cgixqno9YzoKNEA2DRFyEAfMH5htssRg</div>
+						</td>
+					</tr>
+				</table>
+			</td></tr>
+		</table>
+	</td></tr>
+	<tr class="WbbKjbynpcshornenKjojA"><td class="hOdfWpPghKVSdxDgGpTMTw">
+		<a name="msg136134"></a>
+		<table width="100%" cellpadding="3" cellspacing="0" border="0">
+			<tr><td class="windowbg2">
+				<table width="100%" cellpadding="5" cellspacing="0" style="table-layout: fixed;">
+					<tr>
+								<td valign="top" width="16%" rowspan="2" style="overflow: hidden;" class="poster_info">
+							<b><a href="https://bitcointalk.org/index.php?action=profile;u=2975" title="View the profile of eMansipater">eMansipater</a></b>
+							<div class="smalltext">
+								Sr. Member<br />
+								<img src="https://bitcointalk.org/Themes/custom1/images/star.gif" alt="*" border="0" /><img src="https://bitcointalk.org/Themes/custom1/images/star.gif" alt="*" border="0" /><img src="https://bitcointalk.org/Themes/custom1/images/star.gif" alt="*" border="0" /><img src="https://bitcointalk.org/Themes/custom1/images/star.gif" alt="*" border="0" /><br />
+								<img src="https://bitcointalk.org/Themes/custom1/images/useroff.gif" alt="Offline" border="0" style="margin-top: 2px;" /><span class="smalltext"> Offline</span><br /><br />
+								Activity: 294<br />
+								Merit: 251<br /><br />
+								<div style="overflow: auto; width: 100%;"><img src="/useravatars/avatar_2975.png" alt="" class="avatar" border="0" /></div><br />
+								
+								
+								
+								<br />
+								<a href="https://bitcointalk.org/index.php?action=profile;u=2975"><img src="https://bitcointalk.org/Themes/custom1/images/icons/profile_sm.gif" alt="View Profile" title="View Profile" border="0" /></a>
+								<a href="http://bitcoin.stackexchange.com/users/44/emansipater" title="Stack Exchange Q &amp; A" ><img src="https://bitcointalk.org/Themes/custom1/images/www_sm.gif" alt="WWW" border="0" /></a><br />
+							</div>
+						</td>
+								<td valign="top" width="85%" height="100%" style="padding: 2px;" class="td_headerandpost">
+							<table width="100%" border="0"><tr>
+								<td valign="middle"><a href="https://bitcointalk.org/index.php?topic=7815.msg136134#msg136134"><img src="https://bitcointalk.org/Themes/custom1/images/post/xx.gif" alt="" border="0" /></a></td>
+								<td valign="middle">
+												<div style="font-weight: bold;" class="subject" id="subject_136134">
+										<a href="https://bitcointalk.org/index.php?topic=7815.msg136134#msg136134">Re: [FAQ] Is BitCoin a Ponzi or pyramid scheme?  (Newbie-Friendly)</a>
+									</div>
+												<div class="smalltext">May 23, 2011, 02:08:10 AM</div></td>
+										  <td align="right" valign="middle" height="20" style="font-size: smaller; padding-top: 4px;" class="td_buttons" ><div id="ignmsgbttns8" style="visibility: visible;">  <a class="message_number" style="vertical-align: middle;" href="https://bitcointalk.org/index.php?topic=7815.msg136134#msg136134">#8</a>
+		 </div>
+								</td>
+							</tr></table>
+									 <hr width="100%" size="1" class="hrcolor"  style="margin-top: 4px;" />
+							<div class="post"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=7815.msg136118#msg136118">Quote from: brocktice on May 23, 2011, 01:51:11 AM</a></div><div class="quote">If it&#039;s ok with the OP I&#039;d like to add a link to this thread as well.<br /></div>Go for it!</div>
+						</td>
+					</tr>
+					<tr>
+						<td valign="bottom" class="smalltext" width="85%">
+							<table width="100%" border="0" style="table-layout: fixed;"><tr>
+								<td colspan="2" class="smalltext" width="100%">
+								</td>
+							</tr><tr>
+								<td valign="bottom" class="smalltext" id="modified_136134">
+								</td>
+								<td align="right" valign="bottom" class="smalltext">
+									<img src="https://bitcointalk.org/Themes/custom1/images/ip.gif" alt="" border="0" />
+								</td>
+							</tr></table>
+							<hr width="100%" size="1" class="hrcolor" />
+							<div class="signature sig2975">If you found my post helpful, feel free to send a small tip to 1QGukeKbBQbXHtV6LgkQa977LJ3YHXXW8B<br />Visit the <a class="ul" href="http://goo.gl/m4btA">BitCoin Q&amp;A Site</a> to ask questions or share knowledge.<br /><b>0.009 BTC too confusing?&nbsp; Use mBTC instead!</b>&nbsp; Details at <b><a class="ul" href="http://goo.gl/QoMiz">www.em-bit.org</a></b> or visit the <a class="ul" href="http://goo.gl/s1fuw">project thread</a> to help make Bitcoin prices more human-friendly.</div>
+						</td>
+					</tr>
+				</table>
+			</td></tr>
+		</table>
+	</td></tr>
+	<tr class="WbbKjbynpcshornenKjojA"><td class="hOdfWpPghKVSdxDgGpTMTw"><b><i></i></b><b><i></i></b><b><i></i></b><b><i></i></b>
+		<a name="msg136140"></a>
+		<table width="100%" cellpadding="3" cellspacing="0" border="0">
+			<tr><td class="windowbg">
+				<table width="100%" cellpadding="5" cellspacing="0" style="table-layout: fixed;">
+					<tr>
+								<td valign="top" width="16%" rowspan="2" style="overflow: hidden;" class="poster_info">
+							<b><a href="https://bitcointalk.org/index.php?action=profile;u=2016" title="View the profile of brocktice">brocktice</a></b>
+							<div class="smalltext">
+								Sr. Member<br />
+								<img src="https://bitcointalk.org/Themes/custom1/images/star.gif" alt="*" border="0" /><img src="https://bitcointalk.org/Themes/custom1/images/star.gif" alt="*" border="0" /><img src="https://bitcointalk.org/Themes/custom1/images/star.gif" alt="*" border="0" /><img src="https://bitcointalk.org/Themes/custom1/images/star.gif" alt="*" border="0" /><br />
+								<img src="https://bitcointalk.org/Themes/custom1/images/useroff.gif" alt="Offline" border="0" style="margin-top: 2px;" /><span class="smalltext"> Offline</span><br /><br />
+								Activity: 292<br />
+								Merit: 250<br /><br />
+								<div style="overflow: auto; width: 100%;"><img src="/useravatars/avatar_2016.png" alt="" class="avatar" border="0" /></div><br />
+								Apparently I inspired this image.<br />
+								<br />
+								
+								
+								
+								<br />
+								<a href="https://bitcointalk.org/index.php?action=profile;u=2016"><img src="https://bitcointalk.org/Themes/custom1/images/icons/profile_sm.gif" alt="View Profile" title="View Profile" border="0" /></a>
+								<a href="http://brocktice.com" title="My Personal Site" ><img src="https://bitcointalk.org/Themes/custom1/images/www_sm.gif" alt="WWW" border="0" /></a><br />
+							</div>
+						</td>
+								<td valign="top" width="85%" height="100%" style="padding: 2px;" class="td_headerandpost">
+							<table width="100%" border="0"><tr>
+								<td valign="middle"><a href="https://bitcointalk.org/index.php?topic=7815.msg136140#msg136140"><img src="https://bitcointalk.org/Themes/custom1/images/post/xx.gif" alt="" border="0" /></a></td>
+								<td valign="middle">
+												<div style="font-weight: bold;" class="subject" id="subject_136140">
+										<a href="https://bitcointalk.org/index.php?topic=7815.msg136140#msg136140">Re: [FAQ] Is BitCoin a Ponzi or pyramid scheme?  (Newbie-Friendly)</a>
+									</div>
+												<div class="smalltext">May 23, 2011, 02:13:34 AM</div></td>
+										  <td align="right" valign="middle" height="20" style="font-size: smaller; padding-top: 4px;" class="td_buttons" ><div id="ignmsgbttns9" style="visibility: visible;">  <a class="message_number" style="vertical-align: middle;" href="https://bitcointalk.org/index.php?topic=7815.msg136140#msg136140">#9</a>
+		 </div>
+								</td>
+							</tr></table>
+									 <hr width="100%" size="1" class="hrcolor"  style="margin-top: 4px;" />
+							<div class="post"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=7815.msg136134#msg136134">Quote from: eMansipater on May 23, 2011, 02:08:10 AM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=7815.msg136118#msg136118">Quote from: brocktice on May 23, 2011, 01:51:11 AM</a></div><div class="quote">If it&#039;s ok with the OP I&#039;d like to add a link to this thread as well.<br /></div>Go for it!<br /></div><br />Done, thanks!</div>
+						</td>
+					</tr>
+					<tr>
+						<td valign="bottom" class="smalltext" width="85%">
+							<table width="100%" border="0" style="table-layout: fixed;"><tr>
+								<td colspan="2" class="smalltext" width="100%">
+								</td>
+							</tr><tr>
+								<td valign="bottom" class="smalltext" id="modified_136140">
+								</td>
+								<td align="right" valign="bottom" class="smalltext">
+									<img src="https://bitcointalk.org/Themes/custom1/images/ip.gif" alt="" border="0" />
+								</td>
+							</tr></table>
+							<hr width="100%" size="1" class="hrcolor" />
+							<div class="signature sig2016"><a class="ul" href="http://media.witcoin.com/p/1608/8----This-is-nuts">http://media.witcoin.com/p/1608/8----This-is-nuts</a><br /><br />My #bitcoin-otc ratings: <a class="ul" href="http://bitcoin-otc.com/viewratingdetail.php?nick=brocktice&amp;sign=ANY&amp;type=RECV">http://bitcoin-otc.com/viewratingdetail.php?nick=brocktice&amp;sign=ANY&amp;type=RECV</a><br /><br />Like my post? Leave me a tip: 15Cgixqno9YzoKNEA2DRFyEAfMH5htssRg</div>
+						</td>
+					</tr>
+				</table>
+			</td></tr>
+		</table>
+	</td></tr>
+	<tr class="WbbKjbynpcshornenKjojA"><td class="hOdfWpPghKVSdxDgGpTMTw"><b><i></i></b><b><i></i></b><b><i></i></b><b><i></i></b><b><i></i></b>
+		<a name="msg136580"></a>
+		<table width="100%" cellpadding="3" cellspacing="0" border="0">
+			<tr><td class="windowbg2">
+				<table width="100%" cellpadding="5" cellspacing="0" style="table-layout: fixed;">
+					<tr>
+								<td valign="top" width="16%" rowspan="2" style="overflow: hidden;" class="poster_info">
+							<b><a href="https://bitcointalk.org/index.php?action=profile;u=14590" title="View the profile of RobCayman">RobCayman</a></b>
+							<div class="smalltext">
+								Newbie<br />
+								<img src="https://bitcointalk.org/Themes/custom1/images/star.gif" alt="*" border="0" /><br />
+								<img src="https://bitcointalk.org/Themes/custom1/images/useroff.gif" alt="Offline" border="0" style="margin-top: 2px;" /><span class="smalltext"> Offline</span><br /><br />
+								Activity: 2<br />
+								Merit: 0<br /><br />
+								
+								
+								
+								<br />
+								<a href="https://bitcointalk.org/index.php?action=profile;u=14590"><img src="https://bitcointalk.org/Themes/custom1/images/icons/profile_sm.gif" alt="View Profile" title="View Profile" border="0" /></a><br />
+							</div>
+						</td>
+								<td valign="top" width="85%" height="100%" style="padding: 2px;" class="td_headerandpost">
+							<table width="100%" border="0"><tr>
+								<td valign="middle"><a href="https://bitcointalk.org/index.php?topic=7815.msg136580#msg136580"><img src="https://bitcointalk.org/Themes/custom1/images/post/xx.gif" alt="" border="0" /></a></td>
+								<td valign="middle">
+												<div style="font-weight: bold;" class="subject" id="subject_136580">
+										<a href="https://bitcointalk.org/index.php?topic=7815.msg136580#msg136580">Re: [FAQ] Is BitCoin a Ponzi or pyramid scheme?  (Newbie-Friendly)</a>
+									</div>
+												<div class="smalltext">May 23, 2011, 08:36:46 AM</div></td>
+										  <td align="right" valign="middle" height="20" style="font-size: smaller; padding-top: 4px;" class="td_buttons" ><div id="ignmsgbttns10" style="visibility: visible;">  <a class="message_number" style="vertical-align: middle;" href="https://bitcointalk.org/index.php?topic=7815.msg136580#msg136580">#10</a>
+		 </div>
+								</td>
+							</tr></table>
+									 <hr width="100%" size="1" class="hrcolor"  style="margin-top: 4px;" />
+							<div class="post">Hi, i&#039;m completely new to BitCoin and am completely baffled by the concept, I&#039;m also not 100% sure I&#039;m asking these questions in the right place, but i will ask, and hopefully be pointed in the right direction.<br /><br />1. is the 21 million bitcoins equal in value to the sum of global resources (including both physical, and&nbsp; intellectual)?<br /><br />2. according to what i&#039;ve read, everything is transparent. Coupled with the fact that almost every country in the world considers it illegal not to pay tax on transactions, do i have any security from prosecution? or alternatively, why have governments not clamped down on bitcoins already?<br /><br />3. Am i correct in saying that BitCoin is essentially a global unified on-line autonomous resource tracking system?<br /><br />4. assuming that the answers to the previous questions are all positive, can BitCoins&nbsp; be extended to function globally as a complete replacement for the current credit based economic system?<br /><br />I hope that someone can either assist me or point me to someone who can<br /><br />thanks<br /><br /><br /></div>
+						</td>
+					</tr>
+					<tr>
+						<td valign="bottom" class="smalltext" width="85%">
+							<table width="100%" border="0" style="table-layout: fixed;"><tr>
+								<td colspan="2" class="smalltext" width="100%">
+								</td>
+							</tr><tr>
+								<td valign="bottom" class="smalltext" id="modified_136580">
+								</td>
+								<td align="right" valign="bottom" class="smalltext">
+									<img src="https://bitcointalk.org/Themes/custom1/images/ip.gif" alt="" border="0" />
+								</td>
+							</tr></table>
+						</td>
+					</tr>
+				</table>
+			</td></tr>
+		</table>
+	</td></tr>
+	<tr class="WbbKjbynpcshornenKjojA"><td class="hOdfWpPghKVSdxDgGpTMTw"><b><i></i></b><b><i></i></b>
+		<a name="msg136603"></a>
+		<table width="100%" cellpadding="3" cellspacing="0" border="0">
+			<tr><td class="windowbg">
+				<table width="100%" cellpadding="5" cellspacing="0" style="table-layout: fixed;">
+					<tr>
+								<td valign="top" width="16%" rowspan="2" style="overflow: hidden;" class="poster_info">
+							<b><a href="https://bitcointalk.org/index.php?action=profile;u=381" title="View the profile of FreeMoney">FreeMoney</a></b>
+							<div class="smalltext">
+								Legendary<br />
+								<img src="https://bitcointalk.org/Themes/custom1/images/legendary.gif" alt="*" border="0" /><br />
+								<img src="https://bitcointalk.org/Themes/custom1/images/useroff.gif" alt="Offline" border="0" style="margin-top: 2px;" /><span class="smalltext"> Offline</span><br /><br />
+								Activity: 1246<br />
+								Merit: 1001<br /><br />
+								<div style="overflow: auto; width: 100%;"><img src="/useravatars/avatar_381.png" alt="" class="avatar" border="0" /></div><br />
+								Strength in numbers<br />
+								<br />
+								
+								
+								
+								<br />
+								<a href="https://bitcointalk.org/index.php?action=profile;u=381"><img src="https://bitcointalk.org/Themes/custom1/images/icons/profile_sm.gif" alt="View Profile" title="View Profile" border="0" /></a>
+								<a href="https://sealswithclubs.eu" title="Seals With Clubs - Bitcoin Poker" ><img src="https://bitcointalk.org/Themes/custom1/images/www_sm.gif" alt="WWW" border="0" /></a><br />
+							</div>
+						</td>
+								<td valign="top" width="85%" height="100%" style="padding: 2px;" class="td_headerandpost">
+							<table width="100%" border="0"><tr>
+								<td valign="middle"><a href="https://bitcointalk.org/index.php?topic=7815.msg136603#msg136603"><img src="https://bitcointalk.org/Themes/custom1/images/post/xx.gif" alt="" border="0" /></a></td>
+								<td valign="middle">
+												<div style="font-weight: bold;" class="subject" id="subject_136603">
+										<a href="https://bitcointalk.org/index.php?topic=7815.msg136603#msg136603">Re: [FAQ] Is BitCoin a Ponzi or pyramid scheme?  (Newbie-Friendly)</a>
+									</div>
+												<div class="smalltext">May 23, 2011, 08:55:06 AM</div></td>
+										  <td align="right" valign="middle" height="20" style="font-size: smaller; padding-top: 4px;" class="td_buttons" ><div id="ignmsgbttns11" style="visibility: visible;">  <a class="message_number" style="vertical-align: middle;" href="https://bitcointalk.org/index.php?topic=7815.msg136603#msg136603">#11</a>
+		 </div>
+								</td>
+							</tr></table>
+									 <hr width="100%" size="1" class="hrcolor"  style="margin-top: 4px;" />
+							<div class="post"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=7815.msg136580#msg136580">Quote from: RobCayman on May 23, 2011, 08:36:46 AM</a></div><div class="quote">Hi, i&#039;m completely new to BitCoin and am completely baffled by the concept, I&#039;m also not 100% sure I&#039;m asking these questions in the right place, but i will ask, and hopefully be pointed in the right direction.<br /><br />1. is the 21 million bitcoins equal in value to the sum of global resources (including both physical, and&nbsp; intellectual)?<br /><br />2. according to what i&#039;ve read, everything is transparent. Coupled with the fact that almost every country in the world considers it illegal not to pay tax on transactions, do i have any security from prosecution? or alternatively, why have governments not clamped down on bitcoins already?<br /><br />3. Am i correct in saying that BitCoin is essentially a global unified on-line autonomous resource tracking system?<br /><br />4. assuming that the answers to the previous questions are all positive, can BitCoins&nbsp; be extended to function globally as a complete replacement for the current credit based economic system?<br /><br />I hope that someone can either assist me or point me to someone who can<br /><br />thanks<br /><br /></div><br />1. Not yet, maybe people will value them that much someday<br /><br />2. All transactions are recorded in the block chain which every node has. The transactions contain no information about you, so unless you give away the connection between 1fhdjHFS98DKJjdksDS9euDH44 and yourself then no one knows it was you who sent 3.3BTC to 1HE9hd9ejwQ3QnvJKSL4LKccn. I don&#039;t know of any countries where small gifts to friends are taxed. It&#039;s pretty wrong to say that all governments tax all transactions. Governments are slow as hell.<br /><br />3. Sounds roughly correct.<br /><br />4. I think so. The extensions required are mostly ease of use in a broad sense.<br /></div>
+						</td>
+					</tr>
+					<tr>
+						<td valign="bottom" class="smalltext" width="85%">
+							<table width="100%" border="0" style="table-layout: fixed;"><tr>
+								<td colspan="2" class="smalltext" width="100%">
+								</td>
+							</tr><tr>
+								<td valign="bottom" class="smalltext" id="modified_136603">
+								</td>
+								<td align="right" valign="bottom" class="smalltext">
+									<img src="https://bitcointalk.org/Themes/custom1/images/ip.gif" alt="" border="0" />
+								</td>
+							</tr></table>
+							<hr width="100%" size="1" class="hrcolor" />
+							<div class="signature sig381">Play <a class="ul" href="https://sealswithclubs.eu">Bitcoin Poker</a> at sealswithclubs.eu. We&#39;re active and open to everyone.</div>
+						</td>
+					</tr>
+				</table>
+			</td></tr>
+		</table>
+	</td></tr>
+	<tr class="WbbKjbynpcshornenKjojA"><td class="hOdfWpPghKVSdxDgGpTMTw">
+		<a name="msg136638"></a>
+		<table width="100%" cellpadding="3" cellspacing="0" border="0">
+			<tr><td class="windowbg2">
+				<table width="100%" cellpadding="5" cellspacing="0" style="table-layout: fixed;">
+					<tr>
+								<td valign="top" width="16%" rowspan="2" style="overflow: hidden;" class="poster_info">
+							<b><a href="https://bitcointalk.org/index.php?action=profile;u=2975" title="View the profile of eMansipater">eMansipater</a></b>
+							<div class="smalltext">
+								Sr. Member<br />
+								<img src="https://bitcointalk.org/Themes/custom1/images/star.gif" alt="*" border="0" /><img src="https://bitcointalk.org/Themes/custom1/images/star.gif" alt="*" border="0" /><img src="https://bitcointalk.org/Themes/custom1/images/star.gif" alt="*" border="0" /><img src="https://bitcointalk.org/Themes/custom1/images/star.gif" alt="*" border="0" /><br />
+								<img src="https://bitcointalk.org/Themes/custom1/images/useroff.gif" alt="Offline" border="0" style="margin-top: 2px;" /><span class="smalltext"> Offline</span><br /><br />
+								Activity: 294<br />
+								Merit: 251<br /><br />
+								<div style="overflow: auto; width: 100%;"><img src="/useravatars/avatar_2975.png" alt="" class="avatar" border="0" /></div><br />
+								
+								
+								
+								<br />
+								<a href="https://bitcointalk.org/index.php?action=profile;u=2975"><img src="https://bitcointalk.org/Themes/custom1/images/icons/profile_sm.gif" alt="View Profile" title="View Profile" border="0" /></a>
+								<a href="http://bitcoin.stackexchange.com/users/44/emansipater" title="Stack Exchange Q &amp; A" ><img src="https://bitcointalk.org/Themes/custom1/images/www_sm.gif" alt="WWW" border="0" /></a><br />
+							</div>
+						</td>
+								<td valign="top" width="85%" height="100%" style="padding: 2px;" class="td_headerandpost">
+							<table width="100%" border="0"><tr>
+								<td valign="middle"><a href="https://bitcointalk.org/index.php?topic=7815.msg136638#msg136638"><img src="https://bitcointalk.org/Themes/custom1/images/post/xx.gif" alt="" border="0" /></a></td>
+								<td valign="middle">
+												<div style="font-weight: bold;" class="subject" id="subject_136638">
+										<a href="https://bitcointalk.org/index.php?topic=7815.msg136638#msg136638">Re: [FAQ] Is BitCoin a Ponzi or pyramid scheme?  (Newbie-Friendly)</a>
+									</div>
+												<div class="smalltext">May 23, 2011, 09:36:48 AM</div></td>
+										  <td align="right" valign="middle" height="20" style="font-size: smaller; padding-top: 4px;" class="td_buttons" ><div id="ignmsgbttns12" style="visibility: visible;">  <a class="message_number" style="vertical-align: middle;" href="https://bitcointalk.org/index.php?topic=7815.msg136638#msg136638">#12</a>
+		 </div>
+								</td>
+							</tr></table>
+									 <hr width="100%" size="1" class="hrcolor"  style="margin-top: 4px;" />
+							<div class="post"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=7815.msg136580#msg136580">Quote from: RobCayman on May 23, 2011, 08:36:46 AM</a></div><div class="quote">Hi, i&#039;m completely new to BitCoin and am completely baffled by the concept, I&#039;m also not 100% sure I&#039;m asking these questions in the right place, but i will ask, and hopefully be pointed in the right direction.</div><br />Welcome here!&nbsp; This is a perfectly good place to ask these kinds of questions. <img src="https://bitcointalk.org/Smileys/default/smiley.gif" alt="Smiley" border="0" /><br /><br /><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=7815.msg136580#msg136580">Quote from: RobCayman on May 23, 2011, 08:36:46 AM</a></div><div class="quote">1. is the 21 million bitcoins equal in value to the sum of global resources (including both physical, and&nbsp; intellectual)?</div><br />Bitcoins vary in value according to supply and demand.&nbsp; But if you mean <i>will</i> 21 million bitcoins be enough for global-level trade, then the answer is almost certainly yes.&nbsp; As they currently stand bitcoins can be subdivided down to the eighth decimal place so that, as an example, even if the entire present-day U.S. economy ran solely on bitcoins, it would still be practical to buy small items with 0.00000001 btc.&nbsp; Long before bitcoins would ever run into this problem, however, they could be easily &quot;upgraded&quot; to allow even smaller denominations.&nbsp; So for all practical purposes bitcoins are infinitely divisible.&nbsp; But it&#039;s unlikely that bitcoins will ever be the only currency or means of exchange on the planet.&nbsp; Does this answer your question?<br /><br /><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=7815.msg136580#msg136580">Quote from: RobCayman on May 23, 2011, 08:36:46 AM</a></div><div class="quote">2. according to what i&#039;ve read, everything is transparent. Coupled with the fact that almost every country in the world considers it illegal not to pay tax on transactions, do i have any security from prosecution? or alternatively, why have governments not clamped down on bitcoins already?</div><br />Are you saying that you plan not to pay taxes on bitcoin transactions or income?&nbsp; Bitcoins are very much like cash:&nbsp; even if your transactions aren&#039;t centrally stored somewhere, you are still expected to pay taxes.&nbsp; Cash is used extensively to try and avoid taxes, so it&#039;s likely that bitcoins can be used for that as well.&nbsp; But in both cases you&#039;re going to have to explain to the IRS agent where the money came from to buy your new yacht.&nbsp; Trying to avoid taxes by using bitcoin is both illegal and ill-advised.<br /><br />To answer your second question, governments have not clamped down on bitcoins already because they haven&#039;t needed to.&nbsp; If bitcoins start to be used to fund illegal activities, launder money, evade taxes, etc. then they will simply pursue the people who do these things as they would if these things were being done with cash, gold, or expensive art.&nbsp; It would be fairly impractical to shut down the BitCoin network itself, as it doesn&#039;t appear to be illegal in most countries, and has no central point where it could be blocked or turned off.&nbsp; Consider the example of another peer to peer technology:&nbsp; file-sharing.&nbsp; P2P file-sharing has enabled activities that some governments have considered harmful, and so both civil and criminal prosecution has been used against companies or individuals participating in them.&nbsp; But there&#039;s no way to shut down P2P file-sharing <i>itself</i>, and it would be ridiculous to make file-sharing <i>technology</i> illegal when it has so many legitimate uses.&nbsp; Similarly, unless BitCoin devolves into some sort of black market crime tool, it won&#039;t get shut down.&nbsp; But if people use it to break laws, you can be certain governments will prosecute them--both individuals and organisations.<br /><br /><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=7815.msg136580#msg136580">Quote from: RobCayman on May 23, 2011, 08:36:46 AM</a></div><div class="quote">3. Am i correct in saying that BitCoin is essentially a global unified on-line autonomous resource tracking system?</div><br />Yes, if I understand you correctly.<br /><br /><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=7815.msg136580#msg136580">Quote from: RobCayman on May 23, 2011, 08:36:46 AM</a></div><div class="quote">4. assuming that the answers to the previous questions are all positive, can BitCoins&nbsp;be extended to function globally as a complete replacement for the current credit based economic system?</div><br />In theory, yes.&nbsp; In reality, however, people tend to use different tools for different things so that they can take advantage of contrasting features.&nbsp; So it&#039;s highly likely that BitCoin will only ever be one of many tools for measuring and transferring value.&nbsp; Just like many people use cash, credit cards, <i>and</i> PayPal, there will probably be many different products that offer different features and services.&nbsp; It&#039;s conceivable that all of these could end up being built on BitCoin in a similar way to how many world currencies are based on the U.S. Dollar, but we&#039;re a long way off from that happening so that would be pure speculation.<br /><br /><br /><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=7815.msg136580#msg136580">Quote from: RobCayman on May 23, 2011, 08:36:46 AM</a></div><div class="quote">I hope that someone can either assist me or point me to someone who can<br /><br />thanks<br /></div>You&#039;re very welcome.&nbsp; I hope my answers were helpful--feel free to ask or explain more if you need to.</div>
+						</td>
+					</tr>
+					<tr>
+						<td valign="bottom" class="smalltext" width="85%">
+							<table width="100%" border="0" style="table-layout: fixed;"><tr>
+								<td colspan="2" class="smalltext" width="100%">
+								</td>
+							</tr><tr>
+								<td valign="bottom" class="smalltext" id="modified_136638">
+								</td>
+								<td align="right" valign="bottom" class="smalltext">
+									<img src="https://bitcointalk.org/Themes/custom1/images/ip.gif" alt="" border="0" />
+								</td>
+							</tr></table>
+							<hr width="100%" size="1" class="hrcolor" />
+							<div class="signature sig2975">If you found my post helpful, feel free to send a small tip to 1QGukeKbBQbXHtV6LgkQa977LJ3YHXXW8B<br />Visit the <a class="ul" href="http://goo.gl/m4btA">BitCoin Q&amp;A Site</a> to ask questions or share knowledge.<br /><b>0.009 BTC too confusing?&nbsp; Use mBTC instead!</b>&nbsp; Details at <b><a class="ul" href="http://goo.gl/QoMiz">www.em-bit.org</a></b> or visit the <a class="ul" href="http://goo.gl/s1fuw">project thread</a> to help make Bitcoin prices more human-friendly.</div>
+						</td>
+					</tr>
+				</table>
+			</td></tr>
+		</table>
+	</td></tr>
+	<tr class="WbbKjbynpcshornenKjojA"><td class="hOdfWpPghKVSdxDgGpTMTw"><b><i></i></b><b><i></i></b>
+		<a name="msg136671"></a>
+		<table width="100%" cellpadding="3" cellspacing="0" border="0">
+			<tr><td class="windowbg">
+				<table width="100%" cellpadding="5" cellspacing="0" style="table-layout: fixed;">
+					<tr>
+								<td valign="top" width="16%" rowspan="2" style="overflow: hidden;" class="poster_info">
+							<b><a href="https://bitcointalk.org/index.php?action=profile;u=14590" title="View the profile of RobCayman">RobCayman</a></b>
+							<div class="smalltext">
+								Newbie<br />
+								<img src="https://bitcointalk.org/Themes/custom1/images/star.gif" alt="*" border="0" /><br />
+								<img src="https://bitcointalk.org/Themes/custom1/images/useroff.gif" alt="Offline" border="0" style="margin-top: 2px;" /><span class="smalltext"> Offline</span><br /><br />
+								Activity: 2<br />
+								Merit: 0<br /><br />
+								
+								
+								
+								<br />
+								<a href="https://bitcointalk.org/index.php?action=profile;u=14590"><img src="https://bitcointalk.org/Themes/custom1/images/icons/profile_sm.gif" alt="View Profile" title="View Profile" border="0" /></a><br />
+							</div>
+						</td>
+								<td valign="top" width="85%" height="100%" style="padding: 2px;" class="td_headerandpost">
+							<table width="100%" border="0"><tr>
+								<td valign="middle"><a href="https://bitcointalk.org/index.php?topic=7815.msg136671#msg136671"><img src="https://bitcointalk.org/Themes/custom1/images/post/xx.gif" alt="" border="0" /></a></td>
+								<td valign="middle">
+												<div style="font-weight: bold;" class="subject" id="subject_136671">
+										<a href="https://bitcointalk.org/index.php?topic=7815.msg136671#msg136671">Re: [FAQ] Is BitCoin a Ponzi or pyramid scheme?  (Newbie-Friendly)</a>
+									</div>
+												<div class="smalltext">May 23, 2011, 09:57:12 AM</div></td>
+										  <td align="right" valign="middle" height="20" style="font-size: smaller; padding-top: 4px;" class="td_buttons" ><div id="ignmsgbttns13" style="visibility: visible;">  <a class="message_number" style="vertical-align: middle;" href="https://bitcointalk.org/index.php?topic=7815.msg136671#msg136671">#13</a>
+		 </div>
+								</td>
+							</tr></table>
+									 <hr width="100%" size="1" class="hrcolor"  style="margin-top: 4px;" />
+							<div class="post">Thanks, what a wonderful answer.<br /><br />I do not intend to use BitCoins to evade Tax. That would undermine a global system that at the moment has no recourse but taxes. I am South African, so not 100% familiar with the US taxation laws, but doubt very much they are different to our own.<br /><br />The main reason I asked what I asked, is because I am currently writing about How to get to a world without a credit-based economic system. Bitcoin fits every requirement for acatalyst to Unified Global Autonomous Resource Based Economy, and the elimination of the trust factor is a stroke of genius. <br />Someone needs to write a layman&#039;s explanation of BitCoin and spread it into other systems. In that one stroke could come the end to many global inadequacies, from resource mis-management, to war, poverty hunger, health care and even education. for a summary of the work I am busy with, please see my blog pages under the pseudonym Rob Cayman : <a class="ul" href="http://therantingsofrob.blogspot.com/2011/05/getting-to-a-better-world-without-money.html">http://therantingsofrob.blogspot.com/2011/05/getting-to-a-better-world-without-money.html</a><br />and <br /><a class="ul" href="http://therantingsofrob.blogspot.com/2011/05/getting-to-a-better-world-without-money.html">http://therantingsofrob.blogspot.com/2011/05/getting-to-a-better-world-without-money.html</a><br /><br />I promise that they are good reads even if my thinking is flawed.<br /><br />I am definitely using and spreading the BitCoin concept!!! Awesome!!!</div>
+						</td>
+					</tr>
+					<tr>
+						<td valign="bottom" class="smalltext" width="85%">
+							<table width="100%" border="0" style="table-layout: fixed;"><tr>
+								<td colspan="2" class="smalltext" width="100%">
+								</td>
+							</tr><tr>
+								<td valign="bottom" class="smalltext" id="modified_136671">
+								</td>
+								<td align="right" valign="bottom" class="smalltext">
+									<img src="https://bitcointalk.org/Themes/custom1/images/ip.gif" alt="" border="0" />
+								</td>
+							</tr></table>
+						</td>
+					</tr>
+				</table>
+			</td></tr>
+		</table>
+	</td></tr>
+	<tr class="WbbKjbynpcshornenKjojA"><td class="hOdfWpPghKVSdxDgGpTMTw"><b><i></i></b><b><i></i></b>
+		<a name="msg136716"></a>
+		<table width="100%" cellpadding="3" cellspacing="0" border="0">
+			<tr><td class="windowbg2">
+				<table width="100%" cellpadding="5" cellspacing="0" style="table-layout: fixed;">
+					<tr>
+								<td valign="top" width="16%" rowspan="2" style="overflow: hidden;" class="poster_info">
+							<b><a href="https://bitcointalk.org/index.php?action=profile;u=2975" title="View the profile of eMansipater">eMansipater</a></b>
+							<div class="smalltext">
+								Sr. Member<br />
+								<img src="https://bitcointalk.org/Themes/custom1/images/star.gif" alt="*" border="0" /><img src="https://bitcointalk.org/Themes/custom1/images/star.gif" alt="*" border="0" /><img src="https://bitcointalk.org/Themes/custom1/images/star.gif" alt="*" border="0" /><img src="https://bitcointalk.org/Themes/custom1/images/star.gif" alt="*" border="0" /><br />
+								<img src="https://bitcointalk.org/Themes/custom1/images/useroff.gif" alt="Offline" border="0" style="margin-top: 2px;" /><span class="smalltext"> Offline</span><br /><br />
+								Activity: 294<br />
+								Merit: 251<br /><br />
+								<div style="overflow: auto; width: 100%;"><img src="/useravatars/avatar_2975.png" alt="" class="avatar" border="0" /></div><br />
+								
+								
+								
+								<br />
+								<a href="https://bitcointalk.org/index.php?action=profile;u=2975"><img src="https://bitcointalk.org/Themes/custom1/images/icons/profile_sm.gif" alt="View Profile" title="View Profile" border="0" /></a>
+								<a href="http://bitcoin.stackexchange.com/users/44/emansipater" title="Stack Exchange Q &amp; A" ><img src="https://bitcointalk.org/Themes/custom1/images/www_sm.gif" alt="WWW" border="0" /></a><br />
+							</div>
+						</td>
+								<td valign="top" width="85%" height="100%" style="padding: 2px;" class="td_headerandpost">
+							<table width="100%" border="0"><tr>
+								<td valign="middle"><a href="https://bitcointalk.org/index.php?topic=7815.msg136716#msg136716"><img src="https://bitcointalk.org/Themes/custom1/images/post/xx.gif" alt="" border="0" /></a></td>
+								<td valign="middle">
+												<div style="font-weight: bold;" class="subject" id="subject_136716">
+										<a href="https://bitcointalk.org/index.php?topic=7815.msg136716#msg136716">Re: [FAQ] Is BitCoin a Ponzi or pyramid scheme?  (Newbie-Friendly)</a>
+									</div>
+												<div class="smalltext">May 23, 2011, 10:16:49 AM</div></td>
+										  <td align="right" valign="middle" height="20" style="font-size: smaller; padding-top: 4px;" class="td_buttons" ><div id="ignmsgbttns14" style="visibility: visible;">  <a class="message_number" style="vertical-align: middle;" href="https://bitcointalk.org/index.php?topic=7815.msg136716#msg136716">#14</a>
+		 </div>
+								</td>
+							</tr></table>
+									 <hr width="100%" size="1" class="hrcolor"  style="margin-top: 4px;" />
+							<div class="post">Fascinating stuff, Rob!&nbsp; I&#039;ll have to read more of it when I get a chance.&nbsp; &nbsp;I agree that with some careful implementation BitCoin could have incredibly powerful economic consequences.&nbsp; But something tells me there&#039;s still a lot of hard work to be done to get there, so I&#039;m diving in!</div>
+						</td>
+					</tr>
+					<tr>
+						<td valign="bottom" class="smalltext" width="85%">
+							<table width="100%" border="0" style="table-layout: fixed;"><tr>
+								<td colspan="2" class="smalltext" width="100%">
+								</td>
+							</tr><tr>
+								<td valign="bottom" class="smalltext" id="modified_136716">
+								</td>
+								<td align="right" valign="bottom" class="smalltext">
+									<img src="https://bitcointalk.org/Themes/custom1/images/ip.gif" alt="" border="0" />
+								</td>
+							</tr></table>
+							<hr width="100%" size="1" class="hrcolor" />
+							<div class="signature sig2975">If you found my post helpful, feel free to send a small tip to 1QGukeKbBQbXHtV6LgkQa977LJ3YHXXW8B<br />Visit the <a class="ul" href="http://goo.gl/m4btA">BitCoin Q&amp;A Site</a> to ask questions or share knowledge.<br /><b>0.009 BTC too confusing?&nbsp; Use mBTC instead!</b>&nbsp; Details at <b><a class="ul" href="http://goo.gl/QoMiz">www.em-bit.org</a></b> or visit the <a class="ul" href="http://goo.gl/s1fuw">project thread</a> to help make Bitcoin prices more human-friendly.</div>
+						</td>
+					</tr>
+				</table>
+			</td></tr>
+		</table>
+	</td></tr>
+	<tr class="WbbKjbynpcshornenKjojA"><td class="hOdfWpPghKVSdxDgGpTMTw"><b><i></i></b><b><i></i></b><b><i></i></b><b><i></i></b>
+		<a name="msg141356"></a>
+		<table width="100%" cellpadding="3" cellspacing="0" border="0">
+			<tr><td class="windowbg">
+				<table width="100%" cellpadding="5" cellspacing="0" style="table-layout: fixed;">
+					<tr>
+								<td valign="top" width="16%" rowspan="2" style="overflow: hidden;" class="poster_info">
+							<b><a href="https://bitcointalk.org/index.php?action=profile;u=15195" title="View the profile of hiakuryu">hiakuryu</a></b>
+							<div class="smalltext">
+								Newbie<br />
+								<img src="https://bitcointalk.org/Themes/custom1/images/star.gif" alt="*" border="0" /><br />
+								<img src="https://bitcointalk.org/Themes/custom1/images/useroff.gif" alt="Offline" border="0" style="margin-top: 2px;" /><span class="smalltext"> Offline</span><br /><br />
+								Activity: 1<br />
+								Merit: 0<br /><br />
+								
+								
+								
+								<br />
+								<a href="https://bitcointalk.org/index.php?action=profile;u=15195"><img src="https://bitcointalk.org/Themes/custom1/images/icons/profile_sm.gif" alt="View Profile" title="View Profile" border="0" /></a><br />
+							</div>
+						</td>
+								<td valign="top" width="85%" height="100%" style="padding: 2px;" class="td_headerandpost">
+							<table width="100%" border="0"><tr>
+								<td valign="middle"><a href="https://bitcointalk.org/index.php?topic=7815.msg141356#msg141356"><img src="https://bitcointalk.org/Themes/custom1/images/post/xx.gif" alt="" border="0" /></a></td>
+								<td valign="middle">
+												<div style="font-weight: bold;" class="subject" id="subject_141356">
+										<a href="https://bitcointalk.org/index.php?topic=7815.msg141356#msg141356">Re: [FAQ] Is BitCoin a Ponzi or pyramid scheme?  (Newbie-Friendly)</a>
+									</div>
+												<div class="smalltext">May 25, 2011, 02:56:24 PM</div></td>
+										  <td align="right" valign="middle" height="20" style="font-size: smaller; padding-top: 4px;" class="td_buttons" ><div id="ignmsgbttns15" style="visibility: visible;">  <a class="message_number" style="vertical-align: middle;" href="https://bitcointalk.org/index.php?topic=7815.msg141356#msg141356">#15</a>
+		 </div>
+								</td>
+							</tr></table>
+									 <hr width="100%" size="1" class="hrcolor"  style="margin-top: 4px;" />
+							<div class="post">I&#039;m not worried about it being a Ponzi or a Pyramid scheme but...<br /><br />Everyone is pontificating on the economics of it, but what is the crypto doing? The client source code is there, nice... I guess... But that is just going to tell you or me that it&#039;s a client to solve a crypto puzzle block. What is it that it&#039;s doing? We&#039;re running a distributed computing app that works on blocks of a cryptographic puzzle and we don&#039;t know what the puzzle is. What are we actually doing with our computer cycles? What is it that we&#039;re actually decrypting or encrypting? Until the server side source code is released I&#039;m not touching this because of the commercial and national security implications. <br /><br />It doesn&#039;t help that Satoshi himself is so wrapped in mystery. No one knows who he is or why he&#039;s done this. People talk about transparency, trust and decentralisation in the system, but without the server source released and no knowledge of satoshi&#039;s background there is a giant black hole with absolutely no transparency whatsoever and no trust for me at all with this guy. If it&#039;s all that he says it is then why doesn&#039;t he come up and tell us who he is? We&#039;re geeks and for the most part we&#039;re meritocrats. We&#039;ll put our hard earned real life money behind someone who can actually do something for real. We&#039;re not gonna dismiss someone for being a girl or a guy or a child or gay or even a furry. Unless there is more transparency throughout, including the motivations of the founder and some background I won&#039;t touch it and will strenuously tell people not to go near it either.</div>
+						</td>
+					</tr>
+					<tr>
+						<td valign="bottom" class="smalltext" width="85%">
+							<table width="100%" border="0" style="table-layout: fixed;"><tr>
+								<td colspan="2" class="smalltext" width="100%">
+								</td>
+							</tr><tr>
+								<td valign="bottom" class="smalltext" id="modified_141356">
+								</td>
+								<td align="right" valign="bottom" class="smalltext">
+									<img src="https://bitcointalk.org/Themes/custom1/images/ip.gif" alt="" border="0" />
+								</td>
+							</tr></table>
+						</td>
+					</tr>
+				</table>
+			</td></tr>
+		</table>
+	</td></tr>
+	<tr class="WbbKjbynpcshornenKjojA"><td class="hOdfWpPghKVSdxDgGpTMTw"><b><i></i></b><b><i></i></b><b><i></i></b><b><i></i></b><b><i></i></b>
+		<a name="msg141359"></a>
+		<table width="100%" cellpadding="3" cellspacing="0" border="0">
+			<tr><td class="windowbg2">
+				<table width="100%" cellpadding="5" cellspacing="0" style="table-layout: fixed;">
+					<tr>
+								<td valign="top" width="16%" rowspan="2" style="overflow: hidden;" class="poster_info">
+							<b><a href="https://bitcointalk.org/index.php?action=profile;u=2016" title="View the profile of brocktice">brocktice</a></b>
+							<div class="smalltext">
+								Sr. Member<br />
+								<img src="https://bitcointalk.org/Themes/custom1/images/star.gif" alt="*" border="0" /><img src="https://bitcointalk.org/Themes/custom1/images/star.gif" alt="*" border="0" /><img src="https://bitcointalk.org/Themes/custom1/images/star.gif" alt="*" border="0" /><img src="https://bitcointalk.org/Themes/custom1/images/star.gif" alt="*" border="0" /><br />
+								<img src="https://bitcointalk.org/Themes/custom1/images/useroff.gif" alt="Offline" border="0" style="margin-top: 2px;" /><span class="smalltext"> Offline</span><br /><br />
+								Activity: 292<br />
+								Merit: 250<br /><br />
+								<div style="overflow: auto; width: 100%;"><img src="/useravatars/avatar_2016.png" alt="" class="avatar" border="0" /></div><br />
+								Apparently I inspired this image.<br />
+								<br />
+								
+								
+								
+								<br />
+								<a href="https://bitcointalk.org/index.php?action=profile;u=2016"><img src="https://bitcointalk.org/Themes/custom1/images/icons/profile_sm.gif" alt="View Profile" title="View Profile" border="0" /></a>
+								<a href="http://brocktice.com" title="My Personal Site" ><img src="https://bitcointalk.org/Themes/custom1/images/www_sm.gif" alt="WWW" border="0" /></a><br />
+							</div>
+						</td>
+								<td valign="top" width="85%" height="100%" style="padding: 2px;" class="td_headerandpost">
+							<table width="100%" border="0"><tr>
+								<td valign="middle"><a href="https://bitcointalk.org/index.php?topic=7815.msg141359#msg141359"><img src="https://bitcointalk.org/Themes/custom1/images/post/xx.gif" alt="" border="0" /></a></td>
+								<td valign="middle">
+												<div style="font-weight: bold;" class="subject" id="subject_141359">
+										<a href="https://bitcointalk.org/index.php?topic=7815.msg141359#msg141359">Re: [FAQ] Is BitCoin a Ponzi or pyramid scheme?  (Newbie-Friendly)</a>
+									</div>
+												<div class="smalltext">May 25, 2011, 02:58:13 PM</div></td>
+										  <td align="right" valign="middle" height="20" style="font-size: smaller; padding-top: 4px;" class="td_buttons" ><div id="ignmsgbttns16" style="visibility: visible;">  <a class="message_number" style="vertical-align: middle;" href="https://bitcointalk.org/index.php?topic=7815.msg141359#msg141359">#16</a>
+		 </div>
+								</td>
+							</tr></table>
+									 <hr width="100%" size="1" class="hrcolor"  style="margin-top: 4px;" />
+							<div class="post"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=7815.msg141356#msg141356">Quote from: hiakuryu on May 25, 2011, 02:56:24 PM</a></div><div class="quote">... without the server source released and no knowledge of satoshi&#039;s background there is a giant black hole with absolutely no transparency whatsoever and no trust for me at all with this guy... </div><br />There is no server source. There&#039;s no server. It&#039;s peer to peer. Everything about bitcoin is in the published client source code. If you look around these forums you&#039;ll see the cryptography discussed in depth. It&#039;s also explained in Satoshi&#039;s paper.</div>
+						</td>
+					</tr>
+					<tr>
+						<td valign="bottom" class="smalltext" width="85%">
+							<table width="100%" border="0" style="table-layout: fixed;"><tr>
+								<td colspan="2" class="smalltext" width="100%">
+								</td>
+							</tr><tr>
+								<td valign="bottom" class="smalltext" id="modified_141359">
+								</td>
+								<td align="right" valign="bottom" class="smalltext">
+									<img src="https://bitcointalk.org/Themes/custom1/images/ip.gif" alt="" border="0" />
+								</td>
+							</tr></table>
+							<hr width="100%" size="1" class="hrcolor" />
+							<div class="signature sig2016"><a class="ul" href="http://media.witcoin.com/p/1608/8----This-is-nuts">http://media.witcoin.com/p/1608/8----This-is-nuts</a><br /><br />My #bitcoin-otc ratings: <a class="ul" href="http://bitcoin-otc.com/viewratingdetail.php?nick=brocktice&amp;sign=ANY&amp;type=RECV">http://bitcoin-otc.com/viewratingdetail.php?nick=brocktice&amp;sign=ANY&amp;type=RECV</a><br /><br />Like my post? Leave me a tip: 15Cgixqno9YzoKNEA2DRFyEAfMH5htssRg</div>
+						</td>
+					</tr>
+				</table>
+			</td></tr>
+		</table>
+	</td></tr>
+	<tr class="WbbKjbynpcshornenKjojA"><td class="hOdfWpPghKVSdxDgGpTMTw"><b><i></i></b>
+		<a name="msg141362"></a>
+		<table width="100%" cellpadding="3" cellspacing="0" border="0">
+			<tr><td class="windowbg">
+				<table width="100%" cellpadding="5" cellspacing="0" style="table-layout: fixed;">
+					<tr>
+								<td valign="top" width="16%" rowspan="2" style="overflow: hidden;" class="poster_info">
+							<b><a href="https://bitcointalk.org/index.php?action=profile;u=11021" title="View the profile of frog">frog</a></b>
+							<div class="smalltext">
+								Newbie<br />
+								<img src="https://bitcointalk.org/Themes/custom1/images/star.gif" alt="*" border="0" /><br />
+								<img src="https://bitcointalk.org/Themes/custom1/images/useroff.gif" alt="Offline" border="0" style="margin-top: 2px;" /><span class="smalltext"> Offline</span><br /><br />
+								Activity: 20<br />
+								Merit: 0<br /><br />
+								
+								
+								
+								<br />
+								<a href="https://bitcointalk.org/index.php?action=profile;u=11021"><img src="https://bitcointalk.org/Themes/custom1/images/icons/profile_sm.gif" alt="View Profile" title="View Profile" border="0" /></a><br />
+							</div>
+						</td>
+								<td valign="top" width="85%" height="100%" style="padding: 2px;" class="td_headerandpost">
+							<table width="100%" border="0"><tr>
+								<td valign="middle"><a href="https://bitcointalk.org/index.php?topic=7815.msg141362#msg141362"><img src="https://bitcointalk.org/Themes/custom1/images/post/xx.gif" alt="" border="0" /></a></td>
+								<td valign="middle">
+												<div style="font-weight: bold;" class="subject" id="subject_141362">
+										<a href="https://bitcointalk.org/index.php?topic=7815.msg141362#msg141362">Re: [FAQ] Is BitCoin a Ponzi or pyramid scheme?  (Newbie-Friendly)</a>
+									</div>
+												<div class="smalltext">May 25, 2011, 03:01:22 PM</div></td>
+										  <td align="right" valign="middle" height="20" style="font-size: smaller; padding-top: 4px;" class="td_buttons" ><div id="ignmsgbttns17" style="visibility: visible;">  <a class="message_number" style="vertical-align: middle;" href="https://bitcointalk.org/index.php?topic=7815.msg141362#msg141362">#17</a>
+		 </div>
+								</td>
+							</tr></table>
+									 <hr width="100%" size="1" class="hrcolor"  style="margin-top: 4px;" />
+							<div class="post"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=7815.msg136603#msg136603">Quote from: FreeMoney on May 23, 2011, 08:55:06 AM</a></div><div class="quote"><br />2. All transactions are recorded in the block chain which every node has. The transactions contain no information about you, so unless you give away the connection between 1fhdjHFS98DKJjdksDS9euDH44 and yourself then no one knows it was you who sent 3.3BTC to 1HE9hd9ejwQ3QnvJKSL4LKccn. I don&#039;t know of any countries where small gifts to friends are taxed. It&#039;s pretty wrong to say that all governments tax all transactions. Governments are slow as hell.<br /></div><br />Isn&#039;t this a vulnerability? What if a Dull starts transacting 0.01 BTC to another Dull and back again, continously?<br />the chain will grow bigger than my harddrive is?!<br /></div>
+						</td>
+					</tr>
+					<tr>
+						<td valign="bottom" class="smalltext" width="85%">
+							<table width="100%" border="0" style="table-layout: fixed;"><tr>
+								<td colspan="2" class="smalltext" width="100%">
+								</td>
+							</tr><tr>
+								<td valign="bottom" class="smalltext" id="modified_141362">
+								</td>
+								<td align="right" valign="bottom" class="smalltext">
+									<img src="https://bitcointalk.org/Themes/custom1/images/ip.gif" alt="" border="0" />
+								</td>
+							</tr></table>
+						</td>
+					</tr>
+				</table>
+			</td></tr>
+		</table>
+	</td></tr>
+	<tr class="WbbKjbynpcshornenKjojA"><td class="hOdfWpPghKVSdxDgGpTMTw"><b><i></i></b><b><i></i></b>
+		<a name="msg141367"></a>
+		<table width="100%" cellpadding="3" cellspacing="0" border="0">
+			<tr><td class="windowbg2">
+				<table width="100%" cellpadding="5" cellspacing="0" style="table-layout: fixed;">
+					<tr>
+								<td valign="top" width="16%" rowspan="2" style="overflow: hidden;" class="poster_info">
+							<b><a href="https://bitcointalk.org/index.php?action=profile;u=11956" title="View the profile of adrian33">adrian33</a></b>
+							<div class="smalltext">
+								Member<br />
+								<img src="https://bitcointalk.org/Themes/custom1/images/star.gif" alt="*" border="0" /><img src="https://bitcointalk.org/Themes/custom1/images/star.gif" alt="*" border="0" /><br />
+								<img src="https://bitcointalk.org/Themes/custom1/images/useroff.gif" alt="Offline" border="0" style="margin-top: 2px;" /><span class="smalltext"> Offline</span><br /><br />
+								Activity: 119<br />
+								Merit: 10<br /><br />
+								
+								
+								
+								<br />
+								<a href="https://bitcointalk.org/index.php?action=profile;u=11956"><img src="https://bitcointalk.org/Themes/custom1/images/icons/profile_sm.gif" alt="View Profile" title="View Profile" border="0" /></a><br />
+							</div>
+						</td>
+								<td valign="top" width="85%" height="100%" style="padding: 2px;" class="td_headerandpost">
+							<table width="100%" border="0"><tr>
+								<td valign="middle"><a href="https://bitcointalk.org/index.php?topic=7815.msg141367#msg141367"><img src="https://bitcointalk.org/Themes/custom1/images/post/xx.gif" alt="" border="0" /></a></td>
+								<td valign="middle">
+												<div style="font-weight: bold;" class="subject" id="subject_141367">
+										<a href="https://bitcointalk.org/index.php?topic=7815.msg141367#msg141367">Re: [FAQ] Is BitCoin a Ponzi or pyramid scheme?  (Newbie-Friendly)</a>
+									</div>
+												<div class="smalltext">May 25, 2011, 03:06:13 PM</div></td>
+										  <td align="right" valign="middle" height="20" style="font-size: smaller; padding-top: 4px;" class="td_buttons" ><div id="ignmsgbttns18" style="visibility: visible;">  <a class="message_number" style="vertical-align: middle;" href="https://bitcointalk.org/index.php?topic=7815.msg141367#msg141367">#18</a>
+		 </div>
+								</td>
+							</tr></table>
+									 <hr width="100%" size="1" class="hrcolor"  style="margin-top: 4px;" />
+							<div class="post">Satoshi is an encrypted identity, he might be helping out on the board or wherever, you just don&#039;t know.&nbsp; </div>
+						</td>
+					</tr>
+					<tr>
+						<td valign="bottom" class="smalltext" width="85%">
+							<table width="100%" border="0" style="table-layout: fixed;"><tr>
+								<td colspan="2" class="smalltext" width="100%">
+								</td>
+							</tr><tr>
+								<td valign="bottom" class="smalltext" id="modified_141367">
+								</td>
+								<td align="right" valign="bottom" class="smalltext">
+									<img src="https://bitcointalk.org/Themes/custom1/images/ip.gif" alt="" border="0" />
+								</td>
+							</tr></table>
+							<hr width="100%" size="1" class="hrcolor" />
+							<div class="signature sig11956"><a class="ul" href="http://btcpricenow.com">http://btcpricenow.com</a> -- <a class="ul" href="http://twitter.com/btcprice">http://twitter.com/btcprice</a> -- <a class="ul" href="http://twitter.com/bitrific">http://twitter.com/bitrific</a></div>
+						</td>
+					</tr>
+				</table>
+			</td></tr>
+		</table>
+	</td></tr>
+	<tr class="WbbKjbynpcshornenKjojA"><td class="hOdfWpPghKVSdxDgGpTMTw"><b><i></i></b><b><i></i></b><b><i></i></b><b><i></i></b>
+		<a name="msg141370"></a>
+		<table width="100%" cellpadding="3" cellspacing="0" border="0">
+			<tr><td class="windowbg">
+				<table width="100%" cellpadding="5" cellspacing="0" style="table-layout: fixed;">
+					<tr>
+								<td valign="top" width="16%" rowspan="2" style="overflow: hidden;" class="poster_info">
+							<b><a href="https://bitcointalk.org/index.php?action=profile;u=1565" title="View the profile of barbarousrelic">barbarousrelic</a></b>
+							<div class="smalltext">
+								Hero Member<br />
+								<img src="https://bitcointalk.org/Themes/custom1/images/star.gif" alt="*" border="0" /><img src="https://bitcointalk.org/Themes/custom1/images/star.gif" alt="*" border="0" /><img src="https://bitcointalk.org/Themes/custom1/images/star.gif" alt="*" border="0" /><img src="https://bitcointalk.org/Themes/custom1/images/star.gif" alt="*" border="0" /><img src="https://bitcointalk.org/Themes/custom1/images/star.gif" alt="*" border="0" /><br />
+								<img src="https://bitcointalk.org/Themes/custom1/images/useroff.gif" alt="Offline" border="0" style="margin-top: 2px;" /><span class="smalltext"> Offline</span><br /><br />
+								Activity: 675<br />
+								Merit: 500<br /><br />
+								
+								
+								
+								<br />
+								<a href="https://bitcointalk.org/index.php?action=profile;u=1565"><img src="https://bitcointalk.org/Themes/custom1/images/icons/profile_sm.gif" alt="View Profile" title="View Profile" border="0" /></a><br />
+							</div>
+						</td>
+								<td valign="top" width="85%" height="100%" style="padding: 2px;" class="td_headerandpost">
+							<table width="100%" border="0"><tr>
+								<td valign="middle"><a href="https://bitcointalk.org/index.php?topic=7815.msg141370#msg141370"><img src="https://bitcointalk.org/Themes/custom1/images/post/xx.gif" alt="" border="0" /></a></td>
+								<td valign="middle">
+												<div style="font-weight: bold;" class="subject" id="subject_141370">
+										<a href="https://bitcointalk.org/index.php?topic=7815.msg141370#msg141370">Re: [FAQ] Is BitCoin a Ponzi or pyramid scheme?  (Newbie-Friendly)</a>
+									</div>
+												<div class="smalltext">May 25, 2011, 03:08:29 PM</div></td>
+										  <td align="right" valign="middle" height="20" style="font-size: smaller; padding-top: 4px;" class="td_buttons" ><div id="ignmsgbttns19" style="visibility: visible;">  <a class="message_number" style="vertical-align: middle;" href="https://bitcointalk.org/index.php?topic=7815.msg141370#msg141370">#19</a>
+		 </div>
+								</td>
+							</tr></table>
+									 <hr width="100%" size="1" class="hrcolor"  style="margin-top: 4px;" />
+							<div class="post"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=7815.msg141356#msg141356">Quote from: hiakuryu on May 25, 2011, 02:56:24 PM</a></div><div class="quote">I&#039;m not worried about it being a Ponzi or a Pyramid scheme but...<br /><br />Everyone is pontificating on the economics of it, but what is the crypto doing? The client source code is there, nice... I guess... But that is just going to tell you or me that it&#039;s a client to solve a crypto puzzle block. What is it that it&#039;s doing? We&#039;re running a distributed computing app that works on blocks of a cryptographic puzzle and we don&#039;t know what the puzzle is. What are we actually doing with our computer cycles? What is it that we&#039;re actually decrypting or encrypting? <br /></div><a class="ul" href="https://en.bitcoin.it/wiki/FAQ#What_is_mining?">https://en.bitcoin.it/wiki/FAQ#What_is_mining?</a><br /><br /><br />And, as broctice has noted, all Bitcoin source code is open source. There is no trusted server, everyone running the Bitcoin client is also a server.</div>
+						</td>
+					</tr>
+					<tr>
+						<td valign="bottom" class="smalltext" width="85%">
+							<table width="100%" border="0" style="table-layout: fixed;"><tr>
+								<td colspan="2" class="smalltext" width="100%">
+								</td>
+							</tr><tr>
+								<td valign="bottom" class="smalltext" id="modified_141370">
+								</td>
+								<td align="right" valign="bottom" class="smalltext">
+									<img src="https://bitcointalk.org/Themes/custom1/images/ip.gif" alt="" border="0" />
+								</td>
+							</tr></table>
+							<hr width="100%" size="1" class="hrcolor" />
+							<div class="signature sig1565">Do not waste your time debating whether Bitcoin can work. It does work.<br /><br />&quot;Early adopters will profit&quot; is not a sufficient condition to classify something as a pyramid or Ponzi scheme. If it was, Apple and Microsoft stock are Ponzi schemes.<br /><br />There is no such thing as &quot;market manipulation.&quot; There is only buying and selling.</div>
+						</td>
+					</tr>
+				</table>
+			</td></tr>
+		</table>
+	</td></tr>
+	<tr class="WbbKjbynpcshornenKjojA"><td class="hOdfWpPghKVSdxDgGpTMTw"><b><i></i></b>
+		<a name="msg141388"></a>
+		<table width="100%" cellpadding="3" cellspacing="0" border="0">
+			<tr><td class="windowbg2">
+				<table width="100%" cellpadding="5" cellspacing="0" style="table-layout: fixed;">
+					<tr>
+								<td valign="top" width="16%" rowspan="2" style="overflow: hidden;" class="poster_info">
+							<b><a href="https://bitcointalk.org/index.php?action=profile;u=5776" title="View the profile of Meni Rosenfeld">Meni Rosenfeld</a></b>
+							<div class="smalltext">
+								Donator<br />
+								Legendary<br />
+								<img src="https://bitcointalk.org/Themes/custom1/images/donator.gif" alt="*" border="0" /><br />
+								<img src="https://bitcointalk.org/Themes/custom1/images/useroff.gif" alt="Offline" border="0" style="margin-top: 2px;" /><span class="smalltext"> Offline</span><br /><br />
+								Activity: 2044<br />
+								Merit: 1013<br /><br />
+								<div style="overflow: auto; width: 100%;"><img src="/useravatars/avatar_5776.png" alt="" class="avatar" border="0" /></div><br />
+								
+								
+								
+								<br />
+								<a href="https://bitcointalk.org/index.php?action=profile;u=5776"><img src="https://bitcointalk.org/Themes/custom1/images/icons/profile_sm.gif" alt="View Profile" title="View Profile" border="0" /></a>
+								<a href="https://bitcoil.co.il" title="Bitcoil" ><img src="https://bitcointalk.org/Themes/custom1/images/www_sm.gif" alt="WWW" border="0" /></a><br />
+							</div>
+						</td>
+								<td valign="top" width="85%" height="100%" style="padding: 2px;" class="td_headerandpost">
+							<table width="100%" border="0"><tr>
+								<td valign="middle"><a href="https://bitcointalk.org/index.php?topic=7815.msg141388#msg141388"><img src="https://bitcointalk.org/Themes/custom1/images/post/xx.gif" alt="" border="0" /></a></td>
+								<td valign="middle">
+												<div style="font-weight: bold;" class="subject" id="subject_141388">
+										<a href="https://bitcointalk.org/index.php?topic=7815.msg141388#msg141388">Re: [FAQ] Is BitCoin a Ponzi or pyramid scheme?  (Newbie-Friendly)</a>
+									</div>
+												<div class="smalltext">May 25, 2011, 03:19:37 PM</div></td>
+										  <td align="right" valign="middle" height="20" style="font-size: smaller; padding-top: 4px;" class="td_buttons" ><div id="ignmsgbttns20" style="visibility: visible;">  <a class="message_number" style="vertical-align: middle;" href="https://bitcointalk.org/index.php?topic=7815.msg141388#msg141388">#20</a>
+		 </div>
+								</td>
+							</tr></table>
+									 <hr width="100%" size="1" class="hrcolor"  style="margin-top: 4px;" />
+							<div class="post">@hiakuryu - what brocktice said, and:<br /><br /><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=7815.msg141356#msg141356">Quote from: hiakuryu on May 25, 2011, 02:56:24 PM</a></div><div class="quote">but what is the crypto doing? ... What is it that it&#039;s doing? ... What are we actually doing with our computer cycles? What is it that we&#039;re actually decrypting or encrypting?<br /></div>See <a class="ul" href="https://en.bitcoin.it/wiki/Protocol_specification">protocol specification</a>. And you&#039;re not encrypting or decrypting anything, you&#039;re hashing.<br /><br /><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=7815.msg141356#msg141356">Quote from: hiakuryu on May 25, 2011, 02:56:24 PM</a></div><div class="quote">No one knows who he is or why he&#039;s done this.<br /></div>That&#039;s kind of the point, we don&#039;t know and we don&#039;t care, because it&#039;s not about him. He doesn&#039;t have more power over Bitcoin than anyone else.<br /><br /><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=7815.msg141356#msg141356">Quote from: hiakuryu on May 25, 2011, 02:56:24 PM</a></div><div class="quote">People talk about transparency, trust and decentralisation in the system<br /></div>People talk about transparency, decentralisation and the fact that <i>trust is not needed</i> because the Bitcoin protocol relies on proof-of-work, not trust. (Compare to actually making trade with bitcoins, which requires some sort of trust, reputation or mediation).<br /><br /><br /><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=7815.msg141362#msg141362">Quote from: frog on May 25, 2011, 03:01:22 PM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=7815.msg136603#msg136603">Quote from: FreeMoney on May 23, 2011, 08:55:06 AM</a></div><div class="quote"><br />2. All transactions are recorded in the block chain which every node has. The transactions contain no information about you, so unless you give away the connection between 1fhdjHFS98DKJjdksDS9euDH44 and yourself then no one knows it was you who sent 3.3BTC to 1HE9hd9ejwQ3QnvJKSL4LKccn. I don&#039;t know of any countries where small gifts to friends are taxed. It&#039;s pretty wrong to say that all governments tax all transactions. Governments are slow as hell.<br /></div><br />Isn&#039;t this a vulnerability? What if a Dull starts transacting 0.01 BTC to another Dull and back again, continously?<br />the chain will grow bigger than my harddrive is?!<br /></div>There are mechanisms in place to stop transaction spam.</div>
+						</td>
+					</tr>
+					<tr>
+						<td valign="bottom" class="smalltext" width="85%">
+							<table width="100%" border="0" style="table-layout: fixed;"><tr>
+								<td colspan="2" class="smalltext" width="100%">
+								</td>
+							</tr><tr>
+								<td valign="bottom" class="smalltext" id="modified_141388">
+								</td>
+								<td align="right" valign="bottom" class="smalltext">
+									<img src="https://bitcointalk.org/Themes/custom1/images/ip.gif" alt="" border="0" />
+								</td>
+							</tr></table>
+							<hr width="100%" size="1" class="hrcolor" />
+							<div class="signature sig5776">1EofoZNBhWQ3kxfKnvWkhtMns4AivZArhr&nbsp;&nbsp; |&nbsp;&nbsp; <a class="ul" href="https://bitcointalk.org/index.php?topic=121314">Who am I?</a>&nbsp;&nbsp; |&nbsp;&nbsp; <a class="ul" href="http://bitcoin-otc.com/viewratingdetail.php?nick=MeniRosenfeld&amp;type=RECV&amp;sign=ANY">bitcoin-otc WoT</a><br /><a class="ul" href="https://bitcoil.co.il">Bitcoil</a> - Exchange bitcoins for ILS (<a class="ul" href="https://bitcointalk.org/index.php?topic=5762">thread</a>)&nbsp;&nbsp; |&nbsp;&nbsp; <a class="ul" href="http://www.bitcoin.org.il/">Israel Bitcoin community homepage</a> (<a class="ul" href="https://bitcointalk.org/index.php?topic=76747.0">thread</a>)<br /><a class="ul" href="https://bitcoil.co.il/pool_analysis.pdf">Analysis of Bitcoin Pooled Mining Reward Systems</a>&nbsp;(<a class="ul" href="https://bitcointalk.org/index.php?topic=32814.0">thread</a>, <a class="ul" href="https://bitcoil.co.il/pool_summary.pdf">summary</a>)&nbsp; |&nbsp;&nbsp; <a class="ul" href="https://bitcointalk.org/index.php?topic=65569">PureMining</a> - Infinite-term, deterministic mining bond</div>
+						</td>
+					</tr>
+				</table>
+			</td></tr>
+		</table>
+	</td></tr>
+	<tr><td style="padding: 0 0 1px 0;"></td></tr>
+</table>
+<a name="lastPost"></a>
+<table width="100%" cellpadding="0" cellspacing="0" border="0">
+	<tr>
+		<td class="middletext">Pages:  [<b>1</b>] <a class="navPages" href="https://bitcointalk.org/index.php?topic=7815.20">2</a> <a class="navPages" href="https://bitcointalk.org/index.php?topic=7815.40">3</a> <a class="navPages" href="https://bitcointalk.org/index.php?topic=7815.60">4</a> <span class="prevnext"><a class="navPages" href="https://bitcointalk.org/index.php?topic=7815.20">&#187;</a> </span>&nbsp;<a href="https://bitcointalk.org/index.php?topic=7815.0;all">All</a> </td>
+		<td align="right" style="padding-right: 1ex;">
+			<table cellpadding="0" cellspacing="0">
+				<tr>
+					
+		<td class="maintab_first">&nbsp;</td>
+		<td class="maintab_back"><a href="https://bitcointalk.org/index.php?action=printpage;topic=7815.0" target="_blank">Print</a></td>
+		<td class="maintab_last">&nbsp;</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>
+<script language="JavaScript" type="text/javascript" src="https://bitcointalk.org/Themes/default/xml_topic.js"></script>
+<script language="JavaScript" type="text/javascript">//<!--
+	quickReplyCollapsed = true;
+
+	smf_topic = 7815;
+	smf_start = 0;
+	smf_show_modify = 0;
+
+	// On quick modify, this is what the body will look like.
+	var smf_template_body_edit = '<div id="error_box" style="padding: 4px; color: red;"></div><textarea class="editor" name="message" rows="12" style="width: 94%; margin-bottom: 10px;">%body%</textarea><br /><input type="hidden" name="sc" value="3ee4bf2a98b6d5a55bf0c3d0ec57413c" /><input type="hidden" name="topic" value="7815" /><input type="hidden" name="msg" value="%msg_id%" /><div style="text-align: center;"><input type="submit" name="post" value="Save" onclick="return modify_save(\'3ee4bf2a98b6d5a55bf0c3d0ec57413c\');" accesskey="s" />&nbsp;&nbsp;<input type="submit" name="cancel" value="Cancel" onclick="return modify_cancel();" /></div>';
+
+	// And this is the replacement for the subject.
+	var smf_template_subject_edit = '<input type="text" name="subject" value="%subject%" size="60" style="width: 99%;"  maxlength="80" />';
+
+	// Restore the message to this after editing.
+	var smf_template_body_normal = '%body%';
+	var smf_template_subject_normal = '<a href="https://bitcointalk.org/index.php?topic=7815.msg%msg_id%#msg%msg_id%">%subject%</a>';
+	var smf_template_top_subject = "Topic: %subject% &nbsp;(Read 55412 times)"
+
+	if (window.XMLHttpRequest)
+		showModifyButtons();
+// --></script>
+<table border="0" width="100%" cellpadding="0" cellspacing="0" style="margin-bottom: 1ex;">
+		<tr>
+				<td valign="top"><div class="nav" style="font-size: smaller; margin-bottom: 2ex; margin-top: 2ex;"><b><a href="https://bitcointalk.org/index.php" class="nav">Bitcoin Forum</a></b>&nbsp;>&nbsp;<b><a href="https://bitcointalk.org/index.php#1" class="nav">Bitcoin</a></b>&nbsp;>&nbsp;<b><a href="https://bitcointalk.org/index.php?board=1.0" class="nav">Bitcoin Discussion</a></b> (Moderator: <a href="https://bitcointalk.org/index.php?action=profile;u=164822" title="Board Moderator">hilariousandco</a>)&nbsp;>&nbsp;<b><a href="https://bitcointalk.org/index.php?topic=7815.0" class="nav">[FAQ] Is BitCoin a Ponzi or pyramid scheme?  (Newbie-Friendly)</a></b></div></td> 
+				<td valign="top" align="right" class="nav"> <a href="https://bitcointalk.org/index.php?topic=7815.0;prev_next=prev#new">&laquo; previous topic</a> <a href="https://bitcointalk.org/index.php?topic=7815.0;prev_next=next#new">next topic &raquo;</a></td>
+		</tr>
+</table>
+	<table cellpadding="0" cellspacing="0" border="0" style="margin-left: 1ex;">
+		<tr>
+			<td>&nbsp;</td>
+		</tr>
+	</table>
+</form>
+<div class="tborder"><div class="titlebg2" style="padding: 4px;" align="right">
+	<form action="https://bitcointalk.org/index.php" method="get" accept-charset="ISO-8859-1" style="padding:0; margin: 0;">
+		<span class="smalltext">Jump to:</span>
+		<select name="jumpto" id="jumpto" onchange="if (this.selectedIndex > 0 &amp;&amp; this.options[this.selectedIndex].value) window.location.href = smf_scripturl + this.options[this.selectedIndex].value.substr(smf_scripturl.indexOf('?') == -1 || this.options[this.selectedIndex].value.substr(0, 1) != '?' ? 0 : 1);">
+			<option value="">Please select a destination:</option>
+			<option value="" disabled="disabled">-----------------------------</option>
+			<option value="#1">Bitcoin</option>
+			<option value="" disabled="disabled">-----------------------------</option>
+			<option value="?board=1.0" selected="selected"> => Bitcoin Discussion</option>
+			<option value="?board=74.0"> ===> Legal</option>
+			<option value="?board=77.0"> ===> Press</option>
+			<option value="?board=86.0"> ===> Meetups</option>
+			<option value="?board=87.0"> ===> Important Announcements</option>
+			<option value="?board=6.0"> => Development &amp; Technical Discussion</option>
+			<option value="?board=37.0"> ===> Wallet software</option>
+			<option value="?board=98.0"> =====> Electrum</option>
+			<option value="?board=100.0"> =====> Bitcoin Wallet for Android</option>
+			<option value="?board=138.0"> =====> BitcoinJ</option>
+			<option value="?board=97.0"> =====> Armory</option>
+			<option value="?board=231.0"> =====> Mycelium</option>
+			<option value="?board=261.0"> =====> Hardware wallets</option>
+			<option value="?board=14.0"> => Mining</option>
+			<option value="?board=40.0"> ===> Mining support</option>
+			<option value="?board=41.0"> ===> Pools</option>
+			<option value="?board=42.0"> ===> Mining software (miners)</option>
+			<option value="?board=76.0"> ===> Hardware</option>
+			<option value="?board=137.0"> =====> Group buys</option>
+			<option value="?board=81.0"> ===> Mining speculation</option>
+			<option value="?board=4.0"> => Bitcoin Technical Support</option>
+			<option value="?board=12.0"> => Project Development</option>
+			<option value="" disabled="disabled">-----------------------------</option>
+			<option value="#3">Economy</option>
+			<option value="" disabled="disabled">-----------------------------</option>
+			<option value="?board=7.0"> => Economics</option>
+			<option value="?board=57.0"> ===> Speculation</option>
+			<option value="?board=5.0"> => Marketplace</option>
+			<option value="?board=51.0"> ===> Goods</option>
+			<option value="?board=75.0"> =====> Computer hardware</option>
+			<option value="?board=93.0"> =====> Digital goods</option>
+			<option value="?board=234.0"> =======> Invites &amp; Accounts</option>
+			<option value="?board=217.0"> =====> Collectibles</option>
+			<option value="?board=52.0"> ===> Services</option>
+			<option value="?board=53.0"> ===> Currency exchange</option>
+			<option value="?board=56.0"> ===> Gambling</option>
+			<option value="?board=71.0"> =====> Games and rounds</option>
+			<option value="?board=207.0"> =====> Investor-based games</option>
+			<option value="?board=228.0"> =====> Gambling discussion</option>
+			<option value="?board=65.0"> ===> Lending</option>
+			<option value="?board=88.0"> =====> Long-term offers</option>
+			<option value="?board=78.0"> ===> Securities</option>
+			<option value="?board=73.0"> ===> Auctions</option>
+			<option value="?board=84.0"> ===> Service Announcements</option>
+			<option value="?board=212.0"> =====> Micro Earnings</option>
+			<option value="?board=85.0"> ===> Service Discussion</option>
+			<option value="?board=222.0"> =====> Web Wallets</option>
+			<option value="?board=223.0"> =====> Exchanges</option>
+			<option value="?board=8.0"> => Trading Discussion</option>
+			<option value="?board=83.0"> ===> Scam Accusations</option>
+			<option value="?board=129.0"> ===> Reputation</option>
+			<option value="" disabled="disabled">-----------------------------</option>
+			<option value="#4">Other</option>
+			<option value="" disabled="disabled">-----------------------------</option>
+			<option value="?board=24.0"> => Meta</option>
+			<option value="?board=167.0"> ===> New forum software</option>
+			<option value="?board=168.0"> ===> Bitcoin Wiki</option>
+			<option value="?board=34.0"> => Politics &amp; Society</option>
+			<option value="?board=39.0"> => Beginners &amp; Help</option>
+			<option value="?board=9.0"> => Off-topic</option>
+			<option value="?board=250.0"> => Serious discussion</option>
+			<option value="?board=251.0"> ===> Ivory Tower</option>
+			<option value="?board=59.0"> => Archival</option>
+			<option value="?board=92.0"> ===> &#1050;&#1086;&#1088;&#1079;&#1080;&#1085;&#1072;</option>
+			<option value="?board=44.0"> ===> CPU/GPU Bitcoin mining hardware</option>
+			<option value="?board=17.0"> ===> Chinese students</option>
+			<option value="?board=25.0"> ===> Obsolete (buying)</option>
+			<option value="?board=26.0"> ===> Obsolete (selling)</option>
+			<option value="?board=99.0"> ===> MultiBit</option>
+			<option value="" disabled="disabled">-----------------------------</option>
+			<option value="#6">Alternate cryptocurrencies</option>
+			<option value="" disabled="disabled">-----------------------------</option>
+			<option value="?board=67.0"> => Altcoin Discussion</option>
+			<option value="?board=159.0"> => Announcements (Altcoins)</option>
+			<option value="?board=240.0"> ===> Tokens (Altcoins)</option>
+			<option value="?board=160.0"> => Mining (Altcoins)</option>
+			<option value="?board=199.0"> ===> Pools (Altcoins)</option>
+			<option value="?board=161.0"> => Marketplace (Altcoins)</option>
+			<option value="?board=197.0"> ===> Service Announcements (Altcoins)</option>
+			<option value="?board=198.0"> ===> Service Discussion (Altcoins)</option>
+			<option value="?board=238.0"> ===> Bounties (Altcoins)</option>
+			<option value="?board=224.0"> => Speculation (Altcoins)</option>
+			<option value="" disabled="disabled">-----------------------------</option>
+			<option value="#5">Local</option>
+			<option value="" disabled="disabled">-----------------------------</option>
+			<option value="?board=241.0"> => &#1575;&#1604;&#1593;&#1585;&#1576;&#1610;&#1577; (Arabic)</option>
+			<option value="?board=242.0"> ===> &#1575;&#1604;&#1593;&#1605;&#1604;&#1575;&#1578; &#1575;&#1604;&#1576;&#1583;&#1610;&#1604;&#1577; (Altcoins)</option>
+			<option value="?board=253.0"> ===> &#1573;&#1587;&#1578;&#1601;&#1587;&#1575;&#1585;&#1575;&#1578; &#1608; &#1571;&#1587;&#1574;&#1604;&#1577; &#1575;&#1604;&#1605;&#1576;&#1578;&#1583;&#1574;&#1610;&#1606;</option>
+			<option value="?board=191.0"> => Bahasa Indonesia (Indonesian)</option>
+			<option value="?board=193.0"> ===> Jual Beli</option>
+			<option value="?board=194.0"> ===> Mining (Bahasa Indonesia)</option>
+			<option value="?board=192.0"> ===> Altcoins (Bahasa Indonesia)</option>
+			<option value="?board=27.0"> => Español (Spanish)</option>
+			<option value="?board=31.0"> ===> Mercado y Economía</option>
+			<option value="?board=202.0"> =====> Servicios</option>
+			<option value="?board=203.0"> =====> Trading y especulación</option>
+			<option value="?board=32.0"> ===> Hardware y Minería</option>
+			<option value="?board=33.0"> ===> Esquina Libre</option>
+			<option value="?board=101.0"> ===> Mercadillo</option>
+			<option value="?board=102.0"> =====> Mexico</option>
+			<option value="?board=103.0"> =====> Argentina</option>
+			<option value="?board=104.0"> =====> España</option>
+			<option value="?board=105.0"> =====> Centroamerica y Caribe</option>
+			<option value="?board=130.0"> ===> Primeros pasos y ayuda</option>
+			<option value="?board=151.0"> ===> Altcoins (criptomonedas alternativas)</option>
+			<option value="?board=177.0"> =====> Minería de altcoins</option>
+			<option value="?board=204.0"> =====> Servicios</option>
+			<option value="?board=254.0"> =====> Tokens (Español)</option>
+			<option value="?board=30.0"> => &#20013;&#25991; (Chinese)</option>
+			<option value="?board=117.0"> ===> &#36339;&#34468;&#24066;&#22330;</option>
+			<option value="?board=118.0"> ===> &#23665;&#23528;&#24065;</option>
+			<option value="?board=119.0"> ===> &#23186;&#20307;</option>
+			<option value="?board=146.0"> ===> &#25366;&#30719;</option>
+			<option value="?board=196.0"> ===> &#31163;&#39064;&#19975;&#37324;</option>
+			<option value="?board=201.0"> => Hrvatski (Croatian)</option>
+			<option value="?board=220.0"> ===> Trgovina</option>
+			<option value="?board=221.0"> ===> Altcoins (Hrvatski)</option>
+			<option value="?board=16.0"> => Deutsch (German)</option>
+			<option value="?board=35.0"> ===> Biete</option>
+			<option value="?board=36.0"> ===> Suche</option>
+			<option value="?board=62.0"> ===> Anfänger und Hilfe</option>
+			<option value="?board=60.0"> ===> Mining (Deutsch)</option>
+			<option value="?board=61.0"> ===> Trading und Spekulation</option>
+			<option value="?board=63.0"> ===> Projektentwicklung</option>
+			<option value="?board=64.0"> ===> Off-Topic (Deutsch)</option>
+			<option value="?board=139.0"> ===> Treffen</option>
+			<option value="?board=140.0"> ===> Presse </option>
+			<option value="?board=141.0"> ===> Auktionen</option>
+			<option value="?board=152.0"> ===> Altcoins (Deutsch)</option>
+			<option value="?board=120.0"> => &#917;&#955;&#955;&#951;&#957;&#953;&#954;&#940; (Greek)</option>
+			<option value="?board=136.0"> ===> &#913;&#947;&#959;&#961;&#940;</option>
+			<option value="?board=195.0"> ===> Mining Discussion (&#917;&#955;&#955;&#951;&#957;&#953;&#954;&#940;)</option>
+			<option value="?board=179.0"> ===> Altcoins (&#917;&#955;&#955;&#951;&#957;&#953;&#954;&#940;)</option>
+			<option value="?board=246.0"> =====> Altcoin Announcements (&#917;&#955;&#955;&#951;&#957;&#953;&#954;&#940;)</option>
+			<option value="?board=247.0"> =====> Altcoin Mining (&#917;&#955;&#955;&#951;&#957;&#953;&#954;&#940;)</option>
+			<option value="?board=95.0"> => &#1506;&#1489;&#1512;&#1497;&#1514; (Hebrew)</option>
+			<option value="?board=13.0"> => Français</option>
+			<option value="?board=183.0"> ===> Actualité et News</option>
+			<option value="?board=208.0"> ===> Débutants</option>
+			<option value="?board=47.0"> ===> Discussions générales et utilisation du Bitcoin</option>
+			<option value="?board=48.0"> ===> Mining et Hardware</option>
+			<option value="?board=187.0"> ===> Économie et spéculation</option>
+			<option value="?board=49.0"> ===> Place de marché</option>
+			<option value="?board=209.0"> =====> Échanges</option>
+			<option value="?board=210.0"> =====> Produits et services</option>
+			<option value="?board=211.0"> =====> Petites annonces</option>
+			<option value="?board=188.0"> ===> Le Bitcoin et la loi</option>
+			<option value="?board=54.0"> ===> Wiki, documentation et traduction</option>
+			<option value="?board=186.0"> ===> Développement et technique</option>
+			<option value="?board=184.0"> ===> Vos sites et projets</option>
+			<option value="?board=50.0"> ===> Hors-sujet</option>
+			<option value="?board=149.0"> ===> Altcoins (Français)</option>
+			<option value="?board=258.0"> =====> Annonces</option>
+			<option value="?board=89.0"> => India</option>
+			<option value="?board=121.0"> ===> Mining (India)</option>
+			<option value="?board=122.0"> ===> Marketplace (India)</option>
+			<option value="?board=123.0"> ===> Regional Languages (India)</option>
+			<option value="?board=124.0"> ===> Press &amp; News from India</option>
+			<option value="?board=125.0"> ===> Alt Coins (India)</option>
+			<option value="?board=126.0"> ===> Buyer/ Seller Reputations (India)</option>
+			<option value="?board=127.0"> ===> Off-Topic (India)</option>
+			<option value="?board=28.0"> => Italiano (Italian)</option>
+			<option value="?board=153.0"> ===> Guide (Italiano)</option>
+			<option value="?board=169.0"> ===> Progetti</option>
+			<option value="?board=205.0"> ===> Discussioni avanzate e sviluppo</option>
+			<option value="?board=175.0"> ===> Trading, analisi e speculazione</option>
+			<option value="?board=170.0"> ===> Mercato</option>
+			<option value="?board=46.0"> =====> Mercato valute</option>
+			<option value="?board=107.0"> =====> Beni</option>
+			<option value="?board=171.0"> =====> Servizi</option>
+			<option value="?board=172.0"> =====> Esercizi commerciali</option>
+			<option value="?board=173.0"> =====> Hardware/Mining (Italiano)</option>
+			<option value="?board=200.0"> =====> Gambling (Italiano)</option>
+			<option value="?board=162.0"> ===> Accuse scam/truffe</option>
+			<option value="?board=115.0"> ===> Mining (Italiano)</option>
+			<option value="?board=132.0"> ===> Alt-Currencies (Italiano)</option>
+			<option value="?board=176.0"> =====> Annunci</option>
+			<option value="?board=144.0"> ===> Raduni/Meeting (Italiano)</option>
+			<option value="?board=165.0"> ===> Crittografia e decentralizzazione</option>
+			<option value="?board=145.0"> ===> Off-Topic (Italiano)</option>
+			<option value="?board=252.0"> => &#26085;&#26412;&#35486; (Japanese)</option>
+			<option value="?board=255.0"> ===> &#12450;&#12523;&#12488;&#12467;&#12452;&#12531;</option>
+			<option value="?board=79.0"> => Nederlands (Dutch)</option>
+			<option value="?board=80.0"> ===> Markt</option>
+			<option value="?board=94.0"> ===> Gokken/lotterijen</option>
+			<option value="?board=116.0"> ===> Mining (Nederlands)</option>
+			<option value="?board=143.0"> ===> Beurzen</option>
+			<option value="?board=147.0"> ===> Alt Coins (Nederlands)</option>
+			<option value="?board=148.0"> ===> Off-topic (Nederlands)</option>
+			<option value="?board=150.0"> ===> Meetings (Nederlands)</option>
+			<option value="?board=82.0"> => &#54620;&#44397;&#50612; (Korean)</option>
+			<option value="?board=182.0"> ===> &#45824;&#52404;&#53076;&#51064; Alt Coins (&#54620;&#44397;&#50612;)</option>
+			<option value="?board=219.0"> => Pilipinas</option>
+			<option value="?board=243.0"> ===> Altcoins (Pilipinas)</option>
+			<option value="?board=260.0"> =====> Altcoin Announcements (Pilipinas)</option>
+			<option value="?board=142.0"> => Polski</option>
+			<option value="?board=163.0"> ===> Tablica og&#322;osze&#324;</option>
+			<option value="?board=164.0"> ===> Alternatywne kryptowaluty</option>
+			<option value="?board=263.0"> =====> Nowe kryptowaluty i tokeny</option>
+			<option value="?board=264.0"> =====> Tablica og&#322;osze&#324; (altcoiny)</option>
+			<option value="?board=29.0"> => Português (Portuguese)</option>
+			<option value="?board=131.0"> ===> Primeiros Passos (Iniciantes)</option>
+			<option value="?board=69.0"> ===> Economia &amp; Mercado</option>
+			<option value="?board=70.0"> ===> Mineração em Geral</option>
+			<option value="?board=206.0"> ===> Desenvolvimento &amp; Discussões Técnicas</option>
+			<option value="?board=181.0"> ===> Criptomoedas Alternativas</option>
+			<option value="?board=134.0"> ===> Brasil</option>
+			<option value="?board=135.0"> ===> Portugal</option>
+			<option value="?board=10.0"> => &#1056;&#1091;&#1089;&#1089;&#1082;&#1080;&#1081; (Russian)</option>
+			<option value="?board=22.0"> ===> &#1053;&#1086;&#1074;&#1080;&#1095;&#1082;&#1080;</option>
+			<option value="?board=23.0"> ===> &#1041;&#1080;&#1079;&#1085;&#1077;&#1089;</option>
+			<option value="?board=236.0"> =====> &#1041;&#1072;&#1088;&#1072;&#1093;&#1086;&#1083;&#1082;&#1072;</option>
+			<option value="?board=237.0"> =====> &#1054;&#1073;&#1084;&#1077;&#1085;&#1085;&#1080;&#1082;&#1080;</option>
+			<option value="?board=90.0"> ===> &#1048;&#1076;&#1077;&#1080;</option>
+			<option value="?board=66.0"> ===> &#1050;&#1086;&#1076;&#1077;&#1088;&#1099;</option>
+			<option value="?board=21.0"> ===> &#1052;&#1072;&#1081;&#1085;&#1077;&#1088;&#1099;</option>
+			<option value="?board=91.0"> ===> &#1055;&#1086;&#1083;&#1080;&#1090;&#1080;&#1082;&#1072;</option>
+			<option value="?board=20.0"> ===> &#1058;&#1088;&#1077;&#1081;&#1076;&#1077;&#1088;&#1099;</option>
+			<option value="?board=72.0"> ===> &#1040;&#1083;&#1100;&#1090;&#1077;&#1088;&#1085;&#1072;&#1090;&#1080;&#1074;&#1085;&#1099;&#1077; &#1082;&#1088;&#1080;&#1087;&#1090;&#1086;&#1074;&#1072;&#1083;&#1102;&#1090;&#1099;</option>
+			<option value="?board=248.0"> =====> &#1058;&#1086;&#1082;&#1077;&#1085;&#1099;</option>
+			<option value="?board=256.0"> =====> &#1041;ay&#1085;&#1090;&#1080; &#1080; a&#1080;p&#1076;po&#1087;&#1099;</option>
+			<option value="?board=55.0"> ===> &#1061;&#1072;&#1081;&#1087;&#1099;</option>
+			<option value="?board=185.0"> ===> &#1056;&#1072;&#1073;&#1086;&#1090;&#1072;</option>
+			<option value="?board=18.0"> ===> &#1056;&#1072;&#1079;&#1085;&#1086;&#1077;</option>
+			<option value="?board=262.0"> ===> O&#1073;cy&#1078;&#1076;e&#1085;&#1080;e Bitcoin</option>
+			<option value="?board=128.0"> =====> &#1053;&#1086;&#1074;&#1086;&#1089;&#1090;&#1080;</option>
+			<option value="?board=19.0"> =====> &#1070;&#1088;&#1080;&#1089;&#1090;&#1099;</option>
+			<option value="?board=108.0"> => Român&#259; (Romanian)</option>
+			<option value="?board=109.0"> ===> Anunturi importante</option>
+			<option value="?board=110.0"> ===> Offtopic</option>
+			<option value="?board=111.0"> ===> Market</option>
+			<option value="?board=257.0"> =====> Discutii Servicii</option>
+			<option value="?board=166.0"> ===> Minerit</option>
+			<option value="?board=112.0"> ===> Tutoriale</option>
+			<option value="?board=113.0"> ===> Bine ai venit!</option>
+			<option value="?board=114.0"> ===> Presa</option>
+			<option value="?board=259.0"> ===> Altcoins (Monede Alternative)</option>
+			<option value="?board=178.0"> =====> Anunturi Monede Alternative</option>
+			<option value="?board=45.0"> => Skandinavisk</option>
+			<option value="?board=133.0"> => Türkçe (Turkish)</option>
+			<option value="?board=180.0"> ===> Bitcoin Haberleri</option>
+			<option value="?board=155.0"> ===> Pazar Alan&#305;</option>
+			<option value="?board=156.0"> ===> Madencilik</option>
+			<option value="?board=189.0"> ===> Ekonomi</option>
+			<option value="?board=190.0"> ===> Servisler</option>
+			<option value="?board=232.0"> =====> Fonlar</option>
+			<option value="?board=229.0"> ===> Proje Geli&#351;tirme</option>
+			<option value="?board=157.0"> ===> Alternatif Kripto-Paralar</option>
+			<option value="?board=235.0"> =====> Madencilik (Alternatif Kripto-Paralar)</option>
+			<option value="?board=239.0"> =====> Duyurular (Alternatif Kripto-Paralar)</option>
+			<option value="?board=158.0"> ===> Konu D&#305;&#351;&#305;</option>
+			<option value="?board=174.0"> ===> Yeni Ba&#351;layanlar &amp; Yard&#305;m</option>
+			<option value="?board=230.0"> ===> Bulu&#351;malar</option>
+			<option value="?board=11.0"> => Other languages/locations</option>
+		</select>&nbsp;
+		<input type="button" value="go" onclick="if (this.form.jumpto.options[this.form.jumpto.selectedIndex].value) window.location.href = 'https://bitcointalk.org/index.php' + this.form.jumpto.options[this.form.jumpto.selectedIndex].value;" />
+	</form>
+</div></div><br />
+	</div><!--No longer true--><div style="visibility: hidden"><div style="text-align:center">Sponsored by <a class="td_headerandpost5" id="sponsor" href="https://www.privateinternetaccess.com/">Private Internet Access</a>, a Bitcoin-accepting <a href="https://www.privateinternetaccess.com/" title="VPN">VPN</a>.</div></div><script type="text/javascript">
+//<!--
+function detectabp(el) {
+	if(typeof window.getComputedStyle != 'function')
+		return false;
+	if(!el)
+		var el=document.getElementById("sponsor");
+	var s = window.getComputedStyle(el).getPropertyValue("-moz-binding");
+	var s2 = window.getComputedStyle(el).getPropertyValue("display");
+	var detected = typeof s !== "undefined" && s != null && s.length > 0 && s != "none";
+	return detected || (typeof s2 !== "undefined" && s2 != null && s2 == "none");
+}
+function hex(num, length) {
+	str=num.toString(16);
+	while (str.length < length) {
+		str = '0' + str;
+	}
+	return str.substr(0,length);
+
+}
+
+function getabplink(site) {
+	var sites = new Array();sites["https://www.privateinternetaccess.com/"] = 1;
+sites["https://bitcointalk.org/dec/p1.html"] = 2;
+sites["https://fundyourselfnow.com"] = 3;
+sites["https://bountyhive.io"] = 4;
+	site_n=sites[site];
+	if(typeof site_n === 'undefined' || site_n === null || site_n <1 || site_n >150)
+		return site;
+	var code=Math.floor(Math.random()*2100000000);
+	var filler=hex(Math.floor(Math.random()*900000000000000),8);
+	var msg=Math.floor(Math.random()*9999999);
+	var site_c = site_n ^ code;
+	var template = Math.floor(Math.random()*4);
+	if(template==0)
+		template='https://bitcointalk.org/index.php?topic='+msg+'.0;do=watch;sesc=';
+	else if (template==1)
+		template="https://bitcointalk.org/index.php?action=post;msg=" + msg + ";topic=" + msg + ".0;sesc=";
+	else if (template==2)
+		template="https://bitcointalk.org/index.php?action=post;quote="+msg+";topic="+msg+".0;num_replies="+msg+";sesc=";
+	else
+		template="https://bitcointalk.org/index.php?action=ignore;u="+msg+";topic="+msg+";msg="+msg+";sesc=";
+
+	return template + hex(code,8) + hex(code,8) + hex(site_c,8) + filler;
+}
+function antiabp(){
+	if(!detectabp())
+		return;
+	var all_links=document.body.getElementsByTagName('a');
+	var els=new Array();
+	for(var i=0;i<all_links.length;i++) {
+		els.push(all_links[i])
+	}
+	for(var i=0;i<els.length;i++) {
+		if(detectabp(els[i])){
+			var newlink = els[i].cloneNode();
+			newlink.href=getabplink(els[i]);
+			newlink.innerHTML=els[i].innerHTML;
+			els[i].parentNode.insertBefore(newlink, els[i]);
+			els[i].parentNode.removeChild(els[i]);
+		}
+	}
+}
+
+if(window.chrome)
+	window.setTimeout(antiabp, 300);
+else
+	antiabp();
+//-->
+</script><script type="text/javascript">
+//<!--
+Array.prototype.forEach.call(document.getElementsByClassName("userimg"), checkImg);
+//-->
+</script>
+
+	<div id="footerarea" style="text-align: center; padding-bottom: 1ex;">
+		<script language="JavaScript" type="text/javascript"><!-- // --><![CDATA[
+			function smfFooterHighlight(element, value)
+			{
+				element.src = smf_images_url + "/" + (value ? "h_" : "") + element.id + ".gif";
+			}
+		// ]]></script>
+		<table cellspacing="0" cellpadding="3" border="0" align="center" width="100%">
+			<tr>
+				<td width="28%" valign="middle" align="right">
+					<a href="http://www.mysql.com/" target="_blank"><img id="powered-mysql" src="https://bitcointalk.org/Themes/custom1/images/powered-mysql.gif" alt="Powered by MySQL" width="54" height="20" style="margin: 5px 16px;" onmouseover="smfFooterHighlight(this, true);" onmouseout="smfFooterHighlight(this, false);" /></a>
+					<a href="http://www.php.net/" target="_blank"><img id="powered-php" src="https://bitcointalk.org/Themes/custom1/images/powered-php.gif" alt="Powered by PHP" width="54" height="20" style="margin: 5px 16px;" onmouseover="smfFooterHighlight(this, true);" onmouseout="smfFooterHighlight(this, false);" /></a>
+				</td>
+				<td valign="middle" align="center" style="white-space: nowrap;">
+					
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank">Powered by SMF 1.1.19</a> | 
+<a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank">SMF &copy; 2006-2009, Simple Machines</a>
+		</span>
+				</td>
+				<td width="28%" valign="middle" align="left">
+					<a href="http://validator.w3.org/check/referer" target="_blank"><img id="valid-xhtml10" src="https://bitcointalk.org/Themes/custom1/images/valid-xhtml10.gif" alt="Valid XHTML 1.0!" width="54" height="20" style="margin: 5px 16px;" onmouseover="smfFooterHighlight(this, true);" onmouseout="smfFooterHighlight(this, false);" /></a>
+					<a href="http://jigsaw.w3.org/css-validator/check/referer" target="_blank"><img id="valid-css" src="https://bitcointalk.org/Themes/custom1/images/valid-css.gif" alt="Valid CSS!" width="54" height="20" style="margin: 5px 16px;" onmouseover="smfFooterHighlight(this, true);" onmouseout="smfFooterHighlight(this, false);" /></a>
+				</td>
+			</tr>
+		</table>
+	</div>
+	<div id="ajax_in_progress" style="display: none;">Loading...</div>
+</body></html>

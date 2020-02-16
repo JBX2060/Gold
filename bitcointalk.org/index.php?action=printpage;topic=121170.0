@@ -1,0 +1,104 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+		<link rel="canonical" href="https://bitcointalk.org/index.php?topic=121170.0" />
+		<title>Print Page - Sending coins does it have to be synced</title>
+		<style type="text/css">
+			body
+			{
+				color: black;
+				background-color: white;
+			}
+			body, td, .normaltext
+			{
+				font-family: Verdana, arial, helvetica, serif;
+				font-size: small;
+			}
+			*, a:link, a:visited, a:hover, a:active
+			{
+				color: black !important;
+			}
+			table
+			{
+				empty-cells: show;
+			}
+			.code
+			{
+				font-size: x-small;
+				font-family: monospace;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.quote
+			{
+				font-size: x-small;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.smalltext, .quoteheader, .codeheader
+			{
+				font-size: x-small;
+			}
+			.largetext
+			{
+				font-size: large;
+			}
+			hr
+			{
+				height: 1px;
+				border: 0;
+				color: black;
+				background-color: black;
+			}
+		</style>
+	</head>
+	<body>
+		<h1 class="largetext">Bitcoin Forum</h1>
+		<h2 class="normaltext">Bitcoin => Bitcoin Technical Support => Topic started by: farlack on October 29, 2012, 05:25:55 PM</h2>
+
+		<table width="90%" cellpadding="0" cellspacing="0" border="0">
+			<tr>
+				<td>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Sending coins does it have to be synced</b><br />
+					Post by: <b>farlack</b> on <b>October 29, 2012, 05:25:55 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Does your client have to be 100% synced to the server to send coins and the party get them?</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Sending coinds does it have to be synced</b><br />
+					Post by: <b>DeathAndTaxes</b> on <b>October 29, 2012, 05:29:30 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=121170.msg1305331#msg1305331">Quote from: farlack on October 29, 2012, 05:25:55 PM</a></div><div class="quote">Does your client have to be 100% synced to the server to send coins and the party get them?<br /></div><br />Yes and no.<br /><br />Technically if you absolutely know there are no further spends after block X then you could submit a valid transaction as long as you are synced up to block X.&nbsp; The problem is that if after block X (say at block Y) you made a transaction and then restored from an older backup the client would be unaware those unspent outputs are now spent until it processes blocks up to and including Y.&nbsp; That means that if you sent a transaction prior to syncing up to block Y it potentially could be a double spend and be seen as invalid.<br /><br />As a result the Satoshi/reference client won&#039;t send until it is synced.&nbsp; You could patch/fork it to override that safety feature and the transactions would be seen as valid by the network as long as the outputs chosen weren&#039;t involved in a future block and unknown to the client because its history is incomplete.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Sending coinds does it have to be synced</b><br />
+					Post by: <b>Stephen Gornick</b> on <b>October 29, 2012, 08:42:12 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=121170.msg1305331#msg1305331">Quote from: farlack on October 29, 2012, 05:25:55 PM</a></div><div class="quote">Does your client have to be 100% synced to the server to send coins and the party get them?<br /></div><br />If you are asking if you receive bitcoins while offline, know that you never really &quot;receive&quot; bitcoins. &nbsp;There is no need to be connected to the network to receive coins.<br /><br />Now whether you can then spend those coins you received while offline depends on the client you are using. &nbsp;The Bitcoin.org client requires one confirmation to spend those coins, so you would need to be connected enough to be caught up downloading blocks to spend those recently received funds. &nbsp; &nbsp;Other EWallet clients (both hosted/shared EWallets and hybrid EWallets) might take care of being in sync with the blockchain but without a connection you won&#039;t be able to access those types of clients.<br /><br />Having only intermittent connectivity does not mean the Bitcoin.org client cannot be used, but you will not be able to trust the transactions you receive until they confirm. &nbsp;Thus a merchant with customers it might not be able to trust combined with intermittent connectivity should not treat as &quot;paid&quot; when receiving a transaction that has no confirmations (0/unconfirmed).<br /><br />There are types of connectivity loss where Bitcoin probably won&#039;t work at all. &nbsp;For instance, on a cruise ship where you might only have connectivity only periodically as you reach port. &nbsp;Here&#039;s more discussion on that:<br /><br /><i>Desert island economy on Bitcoin without being connected to the internet?</i><br />&nbsp;- http://bitcointalk.org/index.php?topic=106302.0<br /><br />[Edit: The client will let you create a transaction that spends coins that were already confirmed, but as D&amp;T mentions, it won&#039;t broadcast it until the client has caught up.]</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Sending coinds does it have to be synced</b><br />
+					Post by: <b>farlack</b> on <b>October 29, 2012, 11:53:09 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Thank you, and Stephen, what I mean is if I get customers to try bitcoins, do they have to wait the 30 hours it takes to sync to the servers before they can send me a payment.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Sending coinds does it have to be synced</b><br />
+					Post by: <b>Stephen Gornick</b> on <b>October 30, 2012, 12:44:15 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=121170.msg1306124#msg1306124">Quote from: farlack on October 29, 2012, 11:53:09 PM</a></div><div class="quote">Thank you, and Stephen, what I mean is if I get customers to try bitcoins, do they have to wait the 30 hours it takes to sync to the servers before they can send me a payment.<br /></div><br />Running a full node is not for everybody. &nbsp;There are lightweight clients that don&#039;t require the blockchain to be downloaded.<br /><br />Simplified payment verification (SPV) clients, such as Multibit and Bitcoin Wallet for Android are examples.<br /><br />Other lightweight clients, including Electrum and Bitcoin Spinner, use a client/server model, where your private keys are still safe locally. &nbsp;Being client/server, these clients do rely on an external party and thus trust is being placed with the server that the information about balances and confirmations is accurate though, so there are reasons to not store or transact significant amounts of coins through these methods.<br /><br />And then there are hosted (shared) EWallets such as Coinbase, Paytunia and Instawallet as well, in addition to the EWallet accounts for most exchange accounts. &nbsp;Again, with these you are extending full trust to an external party -- thus consider this before storing larger amounts of coins with these methods.<br /><br />Here&#039;s a review of some options:<br />- http://bitcoinmagazine.net/bitcoin-wallet-options/<br /><br />As far as those needing or wanting the full blockchain, there are methods to speed up the initial startup. &nbsp;If you pull the bootstrap.dat torrent and run v0.7.1 of the Bitcoin.org client, you&#039;ll be up to speed much sooner. &nbsp;<br /><br />Going forward, the next version of the Bitcoin.org client, (e.g.,likely v0.8.0), will include ultraprune, which makes a huge difference with regard to the performance of the initial block load time.</div>
+					<br /><br />
+					<div align="center" class="smalltext">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank">Powered by SMF 1.1.19</a> | 
+<a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank">SMF &copy; 2006-2009, Simple Machines</a>
+		</span></div>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

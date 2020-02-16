@@ -1,0 +1,128 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+		<link rel="canonical" href="https://bitcointalk.org/index.php?topic=104070.0" />
+		<title>Print Page - request: decoderawtransaction in python</title>
+		<style type="text/css">
+			body
+			{
+				color: black;
+				background-color: white;
+			}
+			body, td, .normaltext
+			{
+				font-family: Verdana, arial, helvetica, serif;
+				font-size: small;
+			}
+			*, a:link, a:visited, a:hover, a:active
+			{
+				color: black !important;
+			}
+			table
+			{
+				empty-cells: show;
+			}
+			.code
+			{
+				font-size: x-small;
+				font-family: monospace;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.quote
+			{
+				font-size: x-small;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.smalltext, .quoteheader, .codeheader
+			{
+				font-size: x-small;
+			}
+			.largetext
+			{
+				font-size: large;
+			}
+			hr
+			{
+				height: 1px;
+				border: 0;
+				color: black;
+				background-color: black;
+			}
+		</style>
+	</head>
+	<body>
+		<h1 class="largetext">Bitcoin Forum</h1>
+		<h2 class="normaltext">Bitcoin => Bitcoin Technical Support => Topic started by: osmosis on August 28, 2012, 06:38:32 AM</h2>
+
+		<table width="90%" cellpadding="0" cellspacing="0" border="0">
+			<tr>
+				<td>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>request: decoderawtransaction in python</b><br />
+					Post by: <b>osmosis</b> on <b>August 28, 2012, 06:38:32 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: request: decoderawtransaction in python</b><br />
+					Post by: <b>Gavin Andresen</b> on <b>August 29, 2012, 11:28:12 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Start here maybe:<br />&nbsp; https://github.com/gavinandresen/bitcointools/blob/master/deserialize.py#L262 (https://github.com/gavinandresen/bitcointools/blob/master/deserialize.py#L262)<br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: request: decoderawtransaction in python</b><br />
+					Post by: <b>osmosis</b> on <b>September 05, 2012, 05:14:37 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">some further info on this, I found out the raw transaction I was looking at was not actually compatible with the methods added in bitcoind to import/export txs.<br />The tx&#039;s I am looking at apparently are in use as inventory through the bitcoin protocol</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: request: decoderawtransaction in python</b><br />
+					Post by: <b>runeks</b> on <b>September 12, 2012, 06:40:38 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=104070.msg1144745#msg1144745">Quote from: Gavin Andresen on August 29, 2012, 11:28:12 PM</a></div><div class="quote">Start here maybe:<br />&nbsp; https://github.com/gavinandresen/bitcointools/blob/master/deserialize.py#L262 (https://github.com/gavinandresen/bitcointools/blob/master/deserialize.py#L262)<br /><br /></div>Gavin, what format does the parse_Transaction function (https://github.com/gavinandresen/bitcointools/blob/master/deserialize.py#L79) expect the data in the BCDataStream() class to be in?<br />I&#039;ve tried initializing a BCDataStream class using the data from the first transaction output by the bitcoind getmemorypool command, like so:<br /><div class="codeheader">Code:</div><div class="code">from deserialize import *<br />from BCDataStream import *<br /><br />test = BCDataStream()<br />test.write(&quot;0100000001da8d10a3b749dbda1658298d84512836c1bfb2bcbe7b61dcdd3e508bcb7e1477000000006c493046022100e041a6e5df8c8b44231b4fee02b34e2f12d553ab54dc434c1bf95dffb68e5f8d022100c74e5318b4c209397be7e1ea4f4ef783d036f5fbe894918e8e31c72e49f75fc30121034ecf9a2859c419500001e05710bec6673db9a8ea5faaf07497c9c996e1d28f81ffffffff0280324c35800000001976a914fc8e972d3f4c41b44a3ee71051aaf52f107ceb0f88ac005cb2ec220000001976a914847641ad2efb44d949070bf6e7b1c367c70f194388ac00000000&quot;)<br />parse_Transaction(test)</div>But the first vds.read_int32() in parse_Transaction (which is supposed to return the version, 1) returns 808464688:<br /><div class="codeheader">Code:</div><div class="code">(Pdb) (format, self.input, self.read_cursor)<br />(&#039;&lt;i&#039;, &#039;0100000001da8d10a3b749dbda1658298d84512836c1bfb2bcbe7b61dcdd3e508bcb7e1477000000006c493046022100e041a6e5df8c8b44231b4fee02b34e2f12d553ab54dc434c1bf95dffb68e5f8d022100c74e5318b4c209397be7e1ea4f4ef783d036f5fbe894918e8e31c72e49f75fc30121034ecf9a2859c419500001e05710bec6673db9a8ea5faaf07497c9c996e1d28f81ffffffff0280324c35800000001976a914fc8e972d3f4c41b44a3ee71051aaf52f107ceb0f88ac005cb2ec220000001976a914847641ad2efb44d949070bf6e7b1c367c70f194388ac00000000&#039;, 0)<br />(Pdb) struct.unpack_from(format, self.input, self.read_cursor)<br />(808464688,)<br /></div></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: request: decoderawtransaction in python</b><br />
+					Post by: <b>Gavin Andresen</b> on <b>September 12, 2012, 08:25:14 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">BCDataStream.write takes binary data, so add a .decode(&#039;hex_codec&#039;) to the big long hex string:<br /><div class="codeheader">Code:</div><div class="code">test.write(&quot;0100000001da8d10a3b749dbda1658298d84512836c1bfb2bcbe7b61dcdd3e508bcb7e1477000000006c493046022100e041a6e5df8c8b44231b4fee02b34e2f12d553ab54dc434c1bf95dffb68e5f8d022100c74e5318b4c209397be7e1ea4f4ef783d036f5fbe894918e8e31c72e49f75fc30121034ecf9a2859c419500001e05710bec6673db9a8ea5faaf07497c9c996e1d28f81ffffffff0280324c35800000001976a914fc8e972d3f4c41b44a3ee71051aaf52f107ceb0f88ac005cb2ec220000001976a914847641ad2efb44d949070bf6e7b1c367c70f194388ac00000000&quot;.decode(&#039;hex_codec&#039;))<br />parse_Transaction(test)<br />{&#039;lockTime&#039;: 0, &#039;version&#039;: 1, &#039;txIn&#039;: [{&#039;sequence&#039;: 4294967295, &#039;prevout_hash&#039;: &#039;\xda\x8d\x10\xa3\xb7I\xdb\xda\x16X)\x8d\x84Q(6\xc1\xbf\xb2\xbc\xbe{a\xdc\xdd&gt;P\x8b\xcb~\x14w&#039;, &#039;scriptSig&#039;: &#039;I0F\x02!\x00\xe0A\xa6\xe5\xdf\x8c\x8bD#\x1bO\xee\x02\xb3N/\x12\xd5S\xabT\xdcCL\x1b\xf9]\xff\xb6\x8e_\x8d\x02!\x00\xc7NS\x18\xb4\xc2\t9{\xe7\xe1\xeaON\xf7\x83\xd06\xf5\xfb\xe8\x94\x91\x8e\x8e1\xc7.I\xf7_\xc3\x01!\x03N\xcf\x9a(Y\xc4\x19P\x00\x01\xe0W\x10\xbe\xc6g=\xb9\xa8\xea_\xaa\xf0t\x97\xc9\xc9\x96\xe1\xd2\x8f\x81&#039;, &#039;prevout_n&#039;: 0}], &#039;txOut&#039;: [{&#039;value&#039;: 550650000000, &#039;scriptPubKey&#039;: &#039;v\xa9\x14\xfc\x8e\x97-?LA\xb4J&gt;\xe7\x10Q\xaa\xf5/\x10|\xeb\x0f\x88\xac&#039;}, {&#039;value&#039;: 150000000000, &#039;scriptPubKey&#039;: &#039;v\xa9\x14\x84vA\xad.\xfbD\xd9I\x07\x0b\xf6\xe7\xb1\xc3g\xc7\x0f\x19C\x88\xac&#039;}]}<br /></div></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: request: decoderawtransaction in python</b><br />
+					Post by: <b>runeks</b> on <b>September 13, 2012, 01:09:17 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Great! Thanks Gavin.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: request: decoderawtransaction in python</b><br />
+					Post by: <b>osmosis</b> on <b>September 13, 2012, 08:44:21 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">runeks - What is the long hex string you used from?&nbsp; I was able to get your code working, but it still doesnt apply to the raw tx bitcoin protocol examples from my earlier posts. </div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: request: decoderawtransaction in python</b><br />
+					Post by: <b>runeks</b> on <b>September 13, 2012, 10:56:53 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=104070.msg1188693#msg1188693">Quote from: osmosis on September 13, 2012, 08:44:21 PM</a></div><div class="quote">runeks - What is the long hex string you used from?&nbsp; I was able to get your code working, but it still doesnt apply to the raw tx bitcoin protocol examples from my earlier posts. <br /></div>The long hex strings are returned by the getmemorypool RPC call to bitcoind. They&#039;re basically the raw transactions in little endian byte order.<br />Looks like the format you&#039;ve posted is in base64, so you need to call .decode(&#039;base64&#039;) on that string before you can pass it to the write() function:<br /><br /><div class="codeheader">Code:</div><div class="code">from deserialize import *<br />from BCDataStream import *<br /><br />test = BCDataStream()<br />base64 = &quot;AQAAAAGw1WkFCJGRItGLQp7dPArGvrtfDlheEjX3mP27Z6Q78gAAAACLSDBFAiApxKNT7M4U+a/FWYEgBxWUNNZ9Q5FmES/BvJQ/vIS8bQIhAPEMzKmvQKcPo8BwWCLYh7APxgf2jdT3GnYc8zgGuG3RAUEEQk0WIYcg4L8t4IjnajF4EKhimP/O5aYjgPdS2zUAOucxYX2FjQkoDHudfjGUO0UiYVp8l4CLpMwgZdaw2/b4Iv////8Crfq6AAAAAAAZdqkUpDMOE0p53KNyECLVfDFEoH5zHLuIrOAiAgAAAAAAGXapFDvG92mooiCXrws61hW1ln4M/SzBiKwAAAAA&quot;<br />test.write(base64.decode(&#039;base64&#039;))<br />tx = parse_Transaction(test)<br />print tx<br />for txOut in tx[&#039;txOut&#039;]:<br />&nbsp; &nbsp;print decode_script(txOut[&#039;scriptPubKey&#039;])<br /></div>Output:<br /><div class="codeheader">Code:</div><div class="code">{&#039;lockTime&#039;: 0, &#039;version&#039;: 1, &#039;txIn&#039;: [{&#039;sequence&#039;: 4294967295, &#039;prevout_hash&#039;: &#039;\xb0\xd5i\x05\x08\x91\x91&quot;\xd1\x8bB\x9e\xdd&lt;\n\xc6\xbe\xbb_\x0eX^\x125\xf7\x98\xfd\xbbg\xa4;\xf2&#039;, &#039;scriptSig&#039;: &#039;H0E\x02 )\xc4\xa3S\xec\xce\x14\xf9\xaf\xc5Y\x81 \x07\x15\x944\xd6}C\x91f\x11/\xc1\xbc\x94?\xbc\x84\xbcm\x02!\x00\xf1\x0c\xcc\xa9\xaf@\xa7\x0f\xa3\xc0pX&quot;\xd8\x87\xb0\x0f\xc6\x07\xf6\x8d\xd4\xf7\x1av\x1c\xf38\x06\xb8m\xd1\x01A\x04BM\x16!\x87 \xe0\xbf-\xe0\x88\xe7j1x\x10\xa8b\x98\xff\xce\xe5\xa6#\x80\xf7R\xdb5\x00:\xe71a}\x85\x8d\t(\x0c{\x9d~1\x94;E&quot;aZ|\x97\x80\x8b\xa4\xcc e\xd6\xb0\xdb\xf6\xf8&quot;&#039;, &#039;prevout_n&#039;: 0}], &#039;txOut&#039;: [{&#039;value&#039;: 12253869, &#039;scriptPubKey&#039;: &#039;v\xa9\x14\xa43\x0e\x13Jy\xdc\xa3r\x10&quot;\xd5|1D\xa0~s\x1c\xbb\x88\xac&#039;}, {&#039;value&#039;: 140000, &#039;scriptPubKey&#039;: &#039;v\xa9\x14;\xc6\xf7i\xa8\xa2 \x97\xaf\x0b:\xd6\x15\xb5\x96~\x0c\xfd,\xc1\x88\xac&#039;}]}<br />DUP HASH160 20:a433...1cbb EQUALVERIFY CHECKSIG<br />DUP HASH160 20:3bc6...2cc1 EQUALVERIFY CHECKSIG<br /></div></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: request: decoderawtransaction in python</b><br />
+					Post by: <b>osmosis</b> on <b>September 13, 2012, 11:31:57 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">runeks, perfect..thx</div>
+					<br /><br />
+					<div align="center" class="smalltext">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank">Powered by SMF 1.1.19</a> | 
+<a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank">SMF &copy; 2006-2009, Simple Machines</a>
+		</span></div>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

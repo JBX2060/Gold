@@ -1,0 +1,116 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+		<link rel="canonical" href="https://bitcointalk.org/index.php?topic=104260.0" />
+		<title>Print Page - 5830s on Windows XP - What drivers?</title>
+		<style type="text/css">
+			body
+			{
+				color: black;
+				background-color: white;
+			}
+			body, td, .normaltext
+			{
+				font-family: Verdana, arial, helvetica, serif;
+				font-size: small;
+			}
+			*, a:link, a:visited, a:hover, a:active
+			{
+				color: black !important;
+			}
+			table
+			{
+				empty-cells: show;
+			}
+			.code
+			{
+				font-size: x-small;
+				font-family: monospace;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.quote
+			{
+				font-size: x-small;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.smalltext, .quoteheader, .codeheader
+			{
+				font-size: x-small;
+			}
+			.largetext
+			{
+				font-size: large;
+			}
+			hr
+			{
+				height: 1px;
+				border: 0;
+				color: black;
+				background-color: black;
+			}
+		</style>
+	</head>
+	<body>
+		<h1 class="largetext">Bitcoin Forum</h1>
+		<h2 class="normaltext">Bitcoin => Bitcoin Technical Support => Topic started by: dmo580 on August 29, 2012, 03:51:40 AM</h2>
+
+		<table width="90%" cellpadding="0" cellspacing="0" border="0">
+			<tr>
+				<td>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>5830s on Windows XP - What drivers?</b><br />
+					Post by: <b>dmo580</b> on <b>August 29, 2012, 03:51:40 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">I hear the more recent catalysts don&#039;t have openCL driver anymore. I tried 12.8 and GUIMiner can&#039;t see any openCL miners :( What to do???</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: 5830s on Windows XP - What drivers?</b><br />
+					Post by: <b>deus-ex-machina</b> on <b>October 06, 2012, 11:16:03 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Having the same problem. Anyone able to help?</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: 5830s on Windows XP - What drivers?</b><br />
+					Post by: <b>juggalodarkclow</b> on <b>October 06, 2012, 11:43:47 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">I saw another thread (can&#039;t find it right now) where someone suggested using catalyst 11.12 or 11.4. Something about sdk 2.6 doesn&#039;t support XP so people were reporting success with using drivers that included sdk 2.1<br /><br />Hope this helps!<br /><br />EDIT: found thread, it&#039;s about a 5870 but info is still relevant<br />https://bitcointalk.org/index.php?topic=114992.0</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: 5830s on Windows XP - What drivers?</b><br />
+					Post by: <b>betatest512</b> on <b>October 07, 2012, 02:17:36 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">i am using catalyst 11.4</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: 5830s on Windows XP - What drivers?</b><br />
+					Post by: <b>Aseras</b> on <b>October 08, 2012, 08:58:59 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">12.1 with 2.1 sdk is best.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: 5830s on Windows XP - What drivers?</b><br />
+					Post by: <b>c4n10</b> on <b>October 16, 2012, 02:00:47 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">AMD APP SDK stopped supporting XP with versions 2.6 and later, you will need an earlier version. I recommend downloading AMD Catalyst 11.7 which includes SDK 2.5: http://support.amd.com/us/gpudownload/windows/previous/11/Pages/radeon.aspx?os=Windows%20Vista%20-%2064-bit%20Edition&amp;rev=11.7</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: 5830s on Windows XP - What drivers?</b><br />
+					Post by: <b>c4n10</b> on <b>October 16, 2012, 02:02:20 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=104260.msg1257291#msg1257291">Quote from: Aseras on October 08, 2012, 08:58:59 PM</a></div><div class="quote">12.1 with 2.1 sdk is best.<br /></div><br />I saw the threads that said that but they are fairly old now. I had better results with sdk 2.5 included with Catalyst 11.7</div>
+					<br /><br />
+					<div align="center" class="smalltext">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank">Powered by SMF 1.1.19</a> | 
+<a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank">SMF &copy; 2006-2009, Simple Machines</a>
+		</span></div>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

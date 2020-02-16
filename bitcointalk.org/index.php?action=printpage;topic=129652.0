@@ -1,0 +1,182 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+		<link rel="canonical" href="https://bitcointalk.org/index.php?topic=129652.0" />
+		<title>Print Page - Compressed vs. Uncompresed Private Keys</title>
+		<style type="text/css">
+			body
+			{
+				color: black;
+				background-color: white;
+			}
+			body, td, .normaltext
+			{
+				font-family: Verdana, arial, helvetica, serif;
+				font-size: small;
+			}
+			*, a:link, a:visited, a:hover, a:active
+			{
+				color: black !important;
+			}
+			table
+			{
+				empty-cells: show;
+			}
+			.code
+			{
+				font-size: x-small;
+				font-family: monospace;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.quote
+			{
+				font-size: x-small;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.smalltext, .quoteheader, .codeheader
+			{
+				font-size: x-small;
+			}
+			.largetext
+			{
+				font-size: large;
+			}
+			hr
+			{
+				height: 1px;
+				border: 0;
+				color: black;
+				background-color: black;
+			}
+		</style>
+	</head>
+	<body>
+		<h1 class="largetext">Bitcoin Forum</h1>
+		<h2 class="normaltext">Bitcoin => Bitcoin Technical Support => Topic started by: BradZimdack on December 07, 2012, 06:33:11 PM</h2>
+
+		<table width="90%" cellpadding="0" cellspacing="0" border="0">
+			<tr>
+				<td>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Compressed vs. Uncompresed Private Keys</b><br />
+					Post by: <b>BradZimdack</b> on <b>December 07, 2012, 06:33:11 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">I&#039;d like to create some paper wallets for long-term offline storage.&nbsp; I realize there are two types of private keys: uncompressed, which begin with a 5; and compressed, which begin with a K or L.&nbsp; Bitaddress.org appears to generate the uncompressed pairs by default and bitcoind appears to generate the compressed by default.<br /><br />Since I have a choice of how to generate these keys, are there reasons why I should use one over the other?</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Compressed vs. Uncompresed Private Keys</b><br />
+					Post by: <b>MoonShadow</b> on <b>December 07, 2012, 06:38:20 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">One of us is confused.&nbsp; The public and private keypairs are just really big numbers, and are not compressible.&nbsp; The leading 5 on a bitcoin address denotes a private key expressed in bitcoin&#039;s own format, with a built in checksum.&nbsp; I know not what the others represent, but could represent keys expressed raw, or keys expressed in the format for the testnet.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Compressed vs. Uncompresed Private Keys</b><br />
+					Post by: <b>Pieter Wuille</b> on <b>December 07, 2012, 06:45:48 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">From an EC point of view, you have one private key with one corresponding public key.<br /><br />The problem is, public keys can be serialized in two ways - compressed (33 bytes) or uncompressed (65 bytes). One is slightly harder to deal with, but as storage space is more critical in Bitcoin, we prefer to use the compressed one. Thus, we now have one private key that corresponds to (from Bitcoin&#039;s point of view, as we deal with the serialized versions) two public keys. Each of these public keys has an address (as the hash is calculated from the serialized public key). So, 1 private key, 2 public keys, 2 addresses.<br /><br />So when you want to import a private key, the software has to know which of the public keys (with corresponding address) should be used. The solution is to add a flag bit to the base58 encoding of the private key, notifying the importer whether or not to use the compressed public keys. Typically, these get called compressed and uncompressed private keys - but it&#039;s really just a bit saying whether the corresponding public key is compressed or not.<br /><br />The only reason not to use a compressed public key is that not all software supports it (they were introduced in Bitcoind/Bitcoin-Qt 0.6 only).<br /><br />@MoonShadow: EC public keys are actually not numbers but a pair of numbers (X and Y coordinate), and the Y coordinate can be calculated from the X coordinate. That is how &quot;compression&quot; works - it&#039;s just a somewhat less redundant encoding. Testnet is unrealted to this.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Compressed vs. Uncompresed Private Keys</b><br />
+					Post by: <b>MoonShadow</b> on <b>December 07, 2012, 06:48:05 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Well, I guess I was the one confused.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Compressed vs. Uncompresed Private Keys</b><br />
+					Post by: <b>AvL42</b> on <b>March 25, 2013, 11:46:21 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=129652.msg1384929#msg1384929">Quote from: Pieter Wuille on December 07, 2012, 06:45:48 PM</a></div><div class="quote">So when you want to import a private key, the software has to know which of the public keys (with corresponding address) should be used. The solution is to add a flag bit to the base58 encoding of the private key, notifying the importer whether or not to use the compressed public keys. Typically, these get called compressed and uncompressed private keys - but it&#039;s really just a bit saying whether the corresponding public key is compressed or not.<br /></div><br />Thanks for the explanation.&nbsp; Being in progress of writing my own library for BTC-stuff,<br />I tried to &quot;feed&quot; it a compressed key (from my wallet) and an uncompressed key from<br />vanitygen, and I got a leading (hex)&quot;80&quot; octet for both. The number from the compressed<br />key was 8 bits longer, though.<br /><br />Depending on the length (essentially the &quot;ceil(log_2(N))&quot; ) appears a bit fragile to me, for<br />the decision if the decoded priv-key is intended as a compressed or uncompressed key.<br />Is software expected to check for leading 5 or L/K on the base58 string, or did I miss <br />some sound discriminator within this larger N (maybe check it against the order of G<br />in secp256k1 ?)<br /><br />If I intended to create a &quot;compressed-key brain wallet&quot;, what do I have to do with the <br />sha²-output (before doing the chksum+base58 stuff) to get a priv-key that I could import<br />into a standard (sufficiently new) wallet?<br /><br />Unfortunately, the bitcoin wiki-page about WEF-encoding priv-keys doesn&#039;t mention <br />compressed keys.<br /><br />(hoping that you still have this thread monitored...)</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Compressed vs. Uncompresed Private Keys</b><br />
+					Post by: <b>kjj</b> on <b>March 27, 2013, 05:28:43 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=129652.msg1672508#msg1672508">Quote from: AvL42 on March 25, 2013, 11:46:21 AM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=129652.msg1384929#msg1384929">Quote from: Pieter Wuille on December 07, 2012, 06:45:48 PM</a></div><div class="quote">So when you want to import a private key, the software has to know which of the public keys (with corresponding address) should be used. The solution is to add a flag bit to the base58 encoding of the private key, notifying the importer whether or not to use the compressed public keys. Typically, these get called compressed and uncompressed private keys - but it&#039;s really just a bit saying whether the corresponding public key is compressed or not.<br /></div><br />Thanks for the explanation.&nbsp; Being in progress of writing my own library for BTC-stuff,<br />I tried to &quot;feed&quot; it a compressed key (from my wallet) and an uncompressed key from<br />vanitygen, and I got a leading (hex)&quot;80&quot; octet for both. The number from the compressed<br />key was 8 bits longer, though.<br /><br />Depending on the length (essentially the &quot;ceil(log_2(N))&quot; ) appears a bit fragile to me, for<br />the decision if the decoded priv-key is intended as a compressed or uncompressed key.<br />Is software expected to check for leading 5 or L/K on the base58 string, or did I miss <br />some sound discriminator within this larger N (maybe check it against the order of G<br />in secp256k1 ?)<br /><br />If I intended to create a &quot;compressed-key brain wallet&quot;, what do I have to do with the <br />sha²-output (before doing the chksum+base58 stuff) to get a priv-key that I could import<br />into a standard (sufficiently new) wallet?<br /><br />Unfortunately, the bitcoin wiki-page about WEF-encoding priv-keys doesn&#039;t mention <br />compressed keys.<br /><br />(hoping that you still have this thread monitored...)<br /></div><br />The private key is always exactly 256 bits, or 32 bytes.&nbsp; The exact same private key corresponds to two different public keys.&nbsp; One is uncompressed in the form of (x,y), and the other is compressed in the form of (x,p).&nbsp; The two forms have different representations, and thus different hashes, and thus different addresses.&nbsp; The compression flag just tells the system which of the two possible addresses to use.<br /><br />You should pretty much always do compressed keys for new generation.&nbsp; There is no reason to ever use uncompressed keys, at least none that I&#039;m aware of.<br /><br />So, to create the WIF, suitable for importing later, you take the 32 byte binary private key, prepend the 0x80 bytes, and append the 0x01 flag for compression, then run through base58encode and the output is the WIF.&nbsp; For reference, to create an uncompressed WIF, just don&#039;t append the 0x01 before encoding.<br /><br />To create the matching address, calculate the public key as usual, but when you go to encode it, check the parity of Y.&nbsp; If Y%2 is even, encode it as 0x02 + x.&nbsp; If Y%2 is odd, encode it as 0x03 + x.&nbsp; (Uncompressed, it would be 0x04 + x + y.)&nbsp; Note that I&#039;m using + to mean concatenation here.&nbsp; Then the address is created as usual.<br /><br />If you need to accept WIF as input, after the base58decode step, you&#039;ll always have 33 or 34 bytes.&nbsp; If 33 bytes, it is uncompressed, and the private key is the 32 bytes after the 0x80 header.&nbsp; If 34 bytes, it is compressed, the last byte must be 0x01, and the private key is everything between the 0x80 header and the 0x01 compression flag.&nbsp; Once you have the private key and know whether the compression flag was present or not, you can calculate the public key and address as above.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Compressed vs. Uncompresed Private Keys</b><br />
+					Post by: <b>AvL42</b> on <b>March 27, 2013, 09:37:27 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=129652.msg1687617#msg1687617">Quote from: kjj on March 27, 2013, 05:28:43 PM</a></div><div class="quote">So, to create the WIF, suitable for importing later, you take the 32 byte binary private key, prepend the 0x80 bytes, and append the 0x01 flag for compression, then run through base58encode and the output is the WIF.&nbsp; For reference, to create an uncompressed WIF, just don&#039;t append the 0x01 before encoding.<br /></div><br />Thanks, that was the missing bit.&nbsp; I had read about &quot;adding a flag&quot; and such, but never so far understood it as literally slapping an extra 0x01-octet to the end of the string.&nbsp; The reverse conversion then is of course trivial.<br /><br />I wonder, why they didn&#039;t just pick a different first byte, like 0x81, or whatever makes a good base58-start.<br />There&#039;s little use for a wallet to import a compressed key when it doesn&#039;t yet know how to handle it correctly, and those that do know how to handle it, could easily check for a second prefix on import.<br /><br /><div class="quoteheader">Quote</div><div class="quote">You should pretty much always do compressed keys for new generation.&nbsp; There is no reason to ever use uncompressed keys, at least none that I&#039;m aware of.<br /></div><br />Brain wallets are by convention uncompressed. While I can now (with help of your answer) create a compressed key from a passphrase and import that into my wallet, I might have a hard time to reconstruct it later for another wallet when I don&#039;t have my scripts at hand.<br /><br />Also, vanitygen doesn&#039;t seem to search for vanity compressed keys (at least not the version I&#039;ve got here).<br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Compressed vs. Uncompresed Private Keys</b><br />
+					Post by: <b>jackjack</b> on <b>March 27, 2013, 09:42:44 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">As a user, there is a reason to use uncompressed over compressed keys: the software you&#039;re using<br />If you use an old version of pywallet or vanitygen you have to deal with uncompressed keys<br /><br />As a dev, yeah, no reason</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Compressed vs. Uncompresed Private Keys</b><br />
+					Post by: <b>kjj</b> on <b>March 27, 2013, 10:02:16 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=129652.msg1689122#msg1689122">Quote from: AvL42 on March 27, 2013, 09:37:27 PM</a></div><div class="quote">I wonder, why they didn&#039;t just pick a different first byte, like 0x81, or whatever makes a good base58-start.<br />There&#039;s little use for a wallet to import a compressed key when it doesn&#039;t yet know how to handle it correctly, and those that do know how to handle it, could easily check for a second prefix on import.<br /></div><br />If the system processing the WIF doesn&#039;t understand compressed keys, it&#039;ll complain that it found 264 bits when it expected 256.&nbsp; Or it should.&nbsp; At any rate, it&#039;s been a while, the old software should be updated if it doesn&#039;t understand.<br /><br /><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=129652.msg1689122#msg1689122">Quote from: AvL42 on March 27, 2013, 09:37:27 PM</a></div><div class="quote"><div class="quoteheader">Quote</div><div class="quote">You should pretty much always do compressed keys for new generation.&nbsp; There is no reason to ever use uncompressed keys, at least none that I&#039;m aware of.<br /></div><br />Brain wallets are by convention uncompressed. While I can now (with help of your answer) create a compressed key from a passphrase and import that into my wallet, I might have a hard time to reconstruct it later for another wallet when I don&#039;t have my scripts at hand.<br /><br />Also, vanitygen doesn&#039;t seem to search for vanity compressed keys (at least not the version I&#039;ve got here).<br /></div><br />Unless you are computing EC multiply, SHA-256 and RIPEMD-160 with pen and paper, you are going to need tools either way.<br /><br />Using uncompressed keys causes a modest, but real, bloat in the blockchain and should be avoided whenever possible.&nbsp; Uncompressed keys offer absolutely no advantages over compressed keys, require no more special knowledge to process*, and take no extra effort to create.<br /><br />If there is some convention around using uncompressed keys for brain wallets, that convention needs to be die quickly, like a year ago.&nbsp; May I suggest that the convention change to &quot;create compressed, redeem both compressed and uncompressed&quot;?&nbsp; The private key is exactly the same in both cases, only the bitcoin address changes, and there are only two possible, so the redeeming system should have no problem checking <i>both</i> of them.<br /><br />The author of vanitygen has been ignoring requests on the forums for compressed key support for over a year now.&nbsp; I still have no idea why, since it should have very close to zero impact on key generation speed.<br /><br />*&nbsp; <span style="font-size: 7pt !important; line-height: 1.3em;">Well, I guess you have to remember &quot;0x02=even, 0x03=odd&quot; instead of remembering &quot;0x04=magic&quot;, but that is close enough to nothing for me.</span></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Compressed vs. Uncompresed Private Keys</b><br />
+					Post by: <b>AvL42</b> on <b>March 27, 2013, 11:40:21 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=129652.msg1689254#msg1689254">Quote from: kjj on March 27, 2013, 10:02:16 PM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=129652.msg1689122#msg1689122">Quote from: AvL42 on March 27, 2013, 09:37:27 PM</a></div><div class="quote">I wonder, why they didn&#039;t just pick a different first byte, like 0x81, or whatever makes a good base58-start.<br />There&#039;s little use for a wallet to import a compressed key when it doesn&#039;t yet know how to handle it correctly, and those that do know how to handle it, could easily check for a second prefix on import.<br /></div>If the system processing the WIF doesn&#039;t understand compressed keys, it&#039;ll complain that it found 264 bits when it expected 256.&nbsp; Or it should.&nbsp; At any rate, it&#039;s been a while, the old software should be updated if it doesn&#039;t understand.<br /></div><br />What I meant was, that &quot;compatibility&quot; with old software could hardly have been an argument for the decision to stick to 0x80 prefix. But then, what else was the reason for not just picking a different prefix-byte to indicate compressed keys?<br /><br /><br /><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=129652.msg1689254#msg1689254">Quote from: kjj on March 27, 2013, 10:02:16 PM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=129652.msg1689122#msg1689122">Quote from: AvL42 on March 27, 2013, 09:37:27 PM</a></div><div class="quote">Brain wallets &amp; vanitygen<br /></div>Unless you are computing EC multiply, SHA-256 and RIPEMD-160 with pen and paper, you are going to need tools either way.<br /></div><br />Lol, I was rather thinking of those offline-able pages where you could enter a passphrase and have a priv-key and address (and QR of each) generated purely from Javascript.&nbsp; I wanted to mention brainwallet.org, but noticed that that perfectly well gives choice over &quot;compressed&quot;/&quot;uncompressed&quot;.&nbsp; Still, blockchain.info also allows importing brainwallets, but doesn&#039;t yet seem to support the concept of &quot;compressed brainwallets&quot;. (It can import K/L...-style priv-keys, but warns, that their mobile client isn&#039;t able to use these.)<br /><br /><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=129652.msg1689254#msg1689254">Quote from: kjj on March 27, 2013, 10:02:16 PM</a></div><div class="quote">Using uncompressed keys causes a modest, but real, bloat in the blockchain and should be avoided whenever possible.<br /></div><br />If it were possible to place public keys (compressed or uncompressed) in a new &quot;array&quot; compartment of a transaction and access them per some new opcode with index from the scripts, then transactions that collect multiple coins from each address would benefit even more.<br /><br />Instead of:<br />&nbsp; 47 30......... 21 02........<br />&nbsp; 47 30......... 21 02........<br />scripts could then use:<br />&nbsp; 47 30......... ba 00<br />&nbsp; 47 30......... ba 00<br />and the tx would have the &quot;02........&quot; string only once in that new compartment.<br />(ba isn&#039;t yet an opcode, so I&#039;m using it for that new opcode, only for the sake of this post.)<br /><br /><br /><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=129652.msg1689254#msg1689254">Quote from: kjj on March 27, 2013, 10:02:16 PM</a></div><div class="quote">The author of vanitygen has been ignoring requests on the forums for compressed key support for over a year now.&nbsp; I still have no idea why, since it should have very close to zero impact on key generation speed.<br /></div><br />Well, vanitygen is open source, so that wouldn&#039;t really be an insurmountable problem...<br />&nbsp;</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Compressed vs. Uncompresed Private Keys</b><br />
+					Post by: <b>Blowfeld</b> on <b>March 29, 2013, 01:53:33 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=129652.msg1689122#msg1689122">Quote from: AvL42 on March 27, 2013, 09:37:27 PM</a></div><div class="quote">Brain wallets are by convention uncompressed. While I can now (with help of your answer) create a compressed key from a passphrase and import that into my wallet, I might have a hard time to reconstruct it later for another wallet when I don&#039;t have my scripts at hand.</div>The Web site at bitaddress.org (or the equivalent script you download to your own computer) can do the complete conversion for you.<br /><br />1.&nbsp; Under the BrainWallet tab, enter a phrase.&nbsp; I will use &quot;correct mule battery staple&quot;.<br />2.&nbsp; The BrainWallet page generates an (uncompressed) bitcoin address of 1Aop6KxiZLccPPPjqmfZHYgnmCKuhiVq57, which we will ignore.<br />3.&nbsp; The BrainWallet page generates a private key of 5JRks4Vf268r9cuCKiod2iFz1VcSpawX5m6T3PKSA1v7cRqfZZD, which we copy over to the WalletDetails tab.<br />4.&nbsp; The WalletDetails page generates a compressed bitcoin address of <b>1JMsC6fCtYWkTjPPdDrYX3we2aBrewuEM3</b>, which we can give to our payors.<br />5.&nbsp; The WalletDetails page also generates a bitcoin private key, flagged as &quot;compressed&quot;, of <b>KyvGbxRUoofdw3TNydWn2Z78dBHSy2odn1d3wXWN2o3SAtccFNJL</b>, which we can import into a wallet that supports the compressed keys.<br /><br />You are now a good citizen.&nbsp; As always, test your own generated BrainWallet (receiving and sending) on a very small amount of BTC, before you trust anything substantial to a BrainWallet or any other manually concocted wallet.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Compressed vs. Uncompresed Private Keys</b><br />
+					Post by: <b>xDan</b> on <b>March 29, 2013, 06:10:58 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Can somebody please confirm something for a slightly confused noob:<br /><br />Assuming I have a private key written down in old &quot;uncompressed&quot; format, does it matter whether I send BTC to the compressed or uncompressed public address? Funds sent to either are still controllable by the single uncompressed private key?<br /><br />Or must I be sure only to send funds to the &quot;uncompressed&quot; public address, otherwise I lose the funds?</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Compressed vs. Uncompresed Private Keys</b><br />
+					Post by: <b>kjj</b> on <b>March 29, 2013, 08:27:59 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=129652.msg1700717#msg1700717">Quote from: xDan on March 29, 2013, 06:10:58 PM</a></div><div class="quote">Can somebody please confirm something for a slightly confused noob:<br /><br />Assuming I have a private key written down in old &quot;uncompressed&quot; format, does it matter whether I send BTC to the compressed or uncompressed public address? Funds sent to either are still controllable by the single uncompressed private key?<br /><br />Or must I be sure only to send funds to the &quot;uncompressed&quot; public address, otherwise I lose the funds?<br /></div><br />You can take a WIF of either format, add or remove the compression flag, and re-encode back into a WIF.<br /><br />The raw private key is just 256 bits of data, usually random.&nbsp; For example:<br /><div class="codeheader">Code:</div><div class="code">19fdab0668a2586da7bea56410c814b83be86a956bb8565aea78651c174bfc04<br /></div><br />That private key corresponds to a public key with these coordinates:<br /><br /><div class="codeheader">Code:</div><div class="code">x: 82c3cb548fdfd632f622db534badc9dd6d68bf65cacc3297df4686ff8a8d83b2<br />y: df70ca968a53fc29e4163401eb953b49961b0539341b54748001c83c48f952d3<br /></div><br />There are two ways of encoding that public key.&nbsp; One way is <br /><div class="codeheader">Code:</div><div class="code">0482c3cb548fdfd632f622db534badc9dd6d68bf65cacc3297df4686ff8a8d83b2df70ca968a53fc29e4163401eb953b49961b0539341b54748001c83c48f952d3<br /></div><br />The other is <br /><div class="codeheader">Code:</div><div class="code">0382c3cb548fdfd632f622db534badc9dd6d68bf65cacc3297df4686ff8a8d83b2<br /></div><br />These two encodings have different hahes, so their addresses are 1Nt6XLmq8k8noafGGFdfwue74uJTFu9vQC and 13pRRXkGVC9mhUSiw6xkYkMi1EX91VvsBE.<br /><br />If your program understands compressed keys, it should tell you something like:<br /><div class="codeheader">Code:</div><div class="code">Private Key: Kx6EWgKRJ2GZuXbrDquQPAE8MWZLLdsT4YYgQs4hdF7rRL4jGLHx<br />Bitcoin Address: 13pRRXkGVC9mhUSiw6xkYkMi1EX91VvsBE<br /></div><br />If it doesn&#039;t understand compressed keys, it should say:<br /><div class="codeheader">Code:</div><div class="code">Private key: 5J1jV2CspMgKnS4N7zJJz8Xcej3Lngcu89WP53jXW4CXEGF9M3A<br />Bitcoin Address: 1Nt6XLmq8k8noafGGFdfwue74uJTFu9vQC<br /></div><br />If you run those WIFs through a base58 decoder, you&#039;ll find:<br /><pre>8019fdab0668a2586da7bea56410c814b83be86a956bb8565aea78651c174bfc0401902f231b<br />8019fdab0668a2586da7bea56410c814b83be86a956bb8565aea78651c174bfc046ddddd0d</pre><br /><br />Green is the prefix byte for a WIF.&nbsp; Red is the compression flag.&nbsp; Blue is the check code.&nbsp; Black is the actual private key.<br /><br />So, the private key you have written down can be used for two different addresses, but it might take some doctoring to get it into a format that your wallet can import correctly if you are using an address that doesn&#039;t match the WIF encoding used.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Compressed vs. Uncompresed Private Keys</b><br />
+					Post by: <b>Blowfeld</b> on <b>March 29, 2013, 11:16:07 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=129652.msg1700717#msg1700717">Quote from: xDan on March 29, 2013, 06:10:58 PM</a></div><div class="quote">Assuming I have a private key written down in old &quot;uncompressed&quot; format, does it matter whether I send BTC to the compressed or uncompressed public address? Funds sent to either are still controllable by the single uncompressed private key?<br /><br />Or must I be sure only to send funds to the &quot;uncompressed&quot; public address, otherwise I lose the funds?<br /></div>First, let&#039;s be absolutely clear that nobody without the private key will have any idea the two addresses are connected to the same EC secret. &nbsp;So, aside from the owner of the private key(s), they are as different as any other two distinct public addresses.<br /><br />For the owner of the private key(s), they are (or should be) the same. &nbsp;It is my contention that a wallet that doesn&#039;t recognize both public addresses is deficient. &nbsp;[But I suspect most wallets are deficient, by my definition.]<br /><br />As kjj explained, you haven&#039;t lost the funds. &nbsp;But you may have to convert the private key from one form to another and then import the other form of private key to gain access to those funds.<br /><br />Here&#039;s an experiment: &nbsp;Send a tiny amount of coin to the <b>un</b>compressed brain wallet for &quot;correct mule battery horse&quot;, which I gave a few posts up. &nbsp;Send a different tiny amount of coin to the <b>compressed</b> brain wallet for &quot;correct mule battery horse&quot;, which is given above. &nbsp;Add one private key at a time to your favorite wallet. &nbsp;See which transaction(s) show up in your wallet. &nbsp;Do not send more than you want to lose, because anybody who reads this thread may transfer the coins out of the brain wallet.<br /><br />Once these transactions are in the blockchain, everyone who reads this thread could add one private key at a time to their favorite wallet and they can see for themselves which transactions appear in their wallet.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Compressed vs. Uncompresed Private Keys</b><br />
+					Post by: <b>xDan</b> on <b>March 30, 2013, 02:18:24 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">thanks kjj, Blowfeld, that is all very enlightening.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Compressed vs. Uncompresed Private Keys</b><br />
+					Post by: <b>Dabs</b> on <b>April 01, 2013, 03:35:11 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">You can modify the experiment to use only private keys that nobody else knows. After the experiment, you can get back your funds. And you can send more coins so that you can avoid a transaction fee if you want to, like send 1.0 bitcoins and just wait 1 day.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Compressed vs. Uncompresed Private Keys</b><br />
+					Post by: <b>bcmine</b> on <b>March 15, 2014, 10:52:55 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">so the compressed wif code represents the compressed private key, good to know.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Compressed vs. Uncompresed Private Keys</b><br />
+					Post by: <b>fbueller</b> on <b>March 16, 2014, 12:18:36 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=129652.msg5709081#msg5709081">Quote from: bcmine on March 15, 2014, 10:52:55 AM</a></div><div class="quote">so the compressed wif code represents the compressed private key, good to know.<br /></div><br />Yes, even though the private key that is &#039;compressed&#039; takes up more space than the other private key. Because it has an extra byte encoded.</div>
+					<br /><br />
+					<div align="center" class="smalltext">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank">Powered by SMF 1.1.19</a> | 
+<a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank">SMF &copy; 2006-2009, Simple Machines</a>
+		</span></div>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

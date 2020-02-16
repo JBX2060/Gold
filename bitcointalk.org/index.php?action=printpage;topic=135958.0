@@ -1,0 +1,152 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+		<link rel="canonical" href="https://bitcointalk.org/index.php?topic=135958.0" />
+		<title>Print Page - Who earns transaction fees?</title>
+		<style type="text/css">
+			body
+			{
+				color: black;
+				background-color: white;
+			}
+			body, td, .normaltext
+			{
+				font-family: Verdana, arial, helvetica, serif;
+				font-size: small;
+			}
+			*, a:link, a:visited, a:hover, a:active
+			{
+				color: black !important;
+			}
+			table
+			{
+				empty-cells: show;
+			}
+			.code
+			{
+				font-size: x-small;
+				font-family: monospace;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.quote
+			{
+				font-size: x-small;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.smalltext, .quoteheader, .codeheader
+			{
+				font-size: x-small;
+			}
+			.largetext
+			{
+				font-size: large;
+			}
+			hr
+			{
+				height: 1px;
+				border: 0;
+				color: black;
+				background-color: black;
+			}
+		</style>
+	</head>
+	<body>
+		<h1 class="largetext">Bitcoin Forum</h1>
+		<h2 class="normaltext">Bitcoin => Bitcoin Technical Support => Topic started by: AwkwardSituation on January 11, 2013, 07:16:45 PM</h2>
+
+		<table width="90%" cellpadding="0" cellspacing="0" border="0">
+			<tr>
+				<td>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Who earns transaction fees?</b><br />
+					Post by: <b>AwkwardSituation</b> on <b>January 11, 2013, 07:16:45 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Looking for a mBTC (or BTC) transaction to determine the validity of BTC.&nbsp; How do the transaction fees work.&nbsp; Once all coins are mined, how will a 3rd party be able to make BTC by hosting or bridging transactions.&nbsp; What will be the cost of the 3rd party?&nbsp; Bandwidth, electricity, nonavailability?<br /><br />1ApFguQ271B1vGJUmzyh6gXmLTuUQehyoX<br /><br />Discuss away!</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Who earns transaction fees?</b><br />
+					Post by: <b>Gabi</b> on <b>January 11, 2013, 07:43:58 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Miners get them. They find blocks and put transactions in them and get the transaction fees</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Who earns transaction fees?</b><br />
+					Post by: <b>klaus</b> on <b>January 11, 2013, 07:45:03 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><br />https://en.bitcoin.it/wiki/Transaction_fees</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Who earns transaction fees?</b><br />
+					Post by: <b>DannyHamilton</b> on <b>January 11, 2013, 07:46:32 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=135958.msg1448265#msg1448265">Quote from: AwkwardSituation on January 11, 2013, 07:16:45 PM</a></div><div class="quote">Looking for a mBTC (or BTC) transaction to determine the validity of BTC.<br /></div>I don&#039;t understand what you are saying. &nbsp;Where are you looking, and how will finding it determine the validity?<br /><br /><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=135958.msg1448265#msg1448265">Quote from: AwkwardSituation on January 11, 2013, 07:16:45 PM</a></div><div class="quote">How do the transaction fees work.<br /></div>When you create a transaction you gather up previous outputs to which you have the private key. &nbsp;You make sure that the total value of the previous outputs is at least equal to the new outputs that you create to assign that value somewhere else. &nbsp;If the total of the previous outputs is greater than the total of the new outputs, then the difference is a transaction fee. &nbsp;The transaction fee in addition to the block subsidy is claimed by the miner when they create a new block.<br /><br /><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=135958.msg1448265#msg1448265">Quote from: AwkwardSituation on January 11, 2013, 07:16:45 PM</a></div><div class="quote">Once all coins are mined, how will a 3rd party be able to make BTC by hosting or bridging transactions.<br /></div>In 140 years? &nbsp;They&#039;ll &quot;make BTC&quot; from the transaction fees.<br /><br /><br /><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=135958.msg1448265#msg1448265">Quote from: AwkwardSituation on January 11, 2013, 07:16:45 PM</a></div><div class="quote">What will be the cost of the 3rd party? &nbsp;Bandwidth, electricity, nonavailability?<br /></div>Same as the current cost: hardware, real estate, bandwidth, electricity, maintenance, etc.<br /><br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Who earns transaction fees?</b><br />
+					Post by: <b>AwkwardSituation</b> on <b>January 11, 2013, 08:08:22 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">When Mining finishes, there will be a finite number of BTC yes?&nbsp; At that point, how will people earn bitcoins based on transactins?</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Who earns transaction fees?</b><br />
+					Post by: <b>Peter Lambert</b> on <b>January 11, 2013, 08:18:52 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=135958.msg1448311#msg1448311">Quote from: AwkwardSituation on January 11, 2013, 08:08:22 PM</a></div><div class="quote">When Mining finishes, there will be a finite number of BTC yes? &nbsp;At that point, how will people earn bitcoins based on transactins?<br /></div><br />Today, when a miner solves a block they get 25 btc + the transaction fees from all transactions in that block. In another four years the block reward will drop, and miners will get 12.5 btc + the transaction fees from all transactions in that block. This continues droppping the reward by half, so eventually the miners will get just the transaction fees from all transactions in that block.<br /><br />You can go look at blockexplorer.com to see recent blocks and get an idea of how much transaction fees are being collected.<br /><br />The more popular bitcoins becomes, the more transactions get put in each block, miners make more money. The higher the exchange rate, the transaction fees will be worth more and the miners will get more money.<br /><br />Mining will never finish, the block subsidy will diminish to 0, but the transaction fees will continue. Block subsidy is new bitcoins entering the system, transaction fees on the other hand are bitcoins that were held by the person making the transaction. So while miners will still get paid to produce blocks, the number of bitcoins remains constant.<br /><br /><b>edit:</b> I just checked the latest block (http://blockexplorer.com/block/00000000000004b4d1dd663ed547c181ad92aeb960ef41f4deaaa8dadc2e3917) and the miner received 25 btc block reward plus 0.7119 btc transaction fees. So for that block, the transaction fees were about 2.7% of what the miner got for mining that block.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Who earns transaction fees?</b><br />
+					Post by: <b>DannyHamilton</b> on <b>January 11, 2013, 08:31:59 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=135958.msg1448311#msg1448311">Quote from: AwkwardSituation on January 11, 2013, 08:08:22 PM</a></div><div class="quote">When Mining finishes . . .<br /></div>As long as bitcoin exists, mining won&#039;t &quot;finish&quot;. Although we may decide to call it something else in the future, the process will continue the same.<br /><br /><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=135958.msg1448311#msg1448311">Quote from: AwkwardSituation on January 11, 2013, 08:08:22 PM</a></div><div class="quote">. . . there will be a finite number of BTC yes?<br /></div>Yes.<br /><br /><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=135958.msg1448311#msg1448311">Quote from: AwkwardSituation on January 11, 2013, 08:08:22 PM</a></div><div class="quote">At that point, how will people earn bitcoins based on transactins?<br /></div>Mining is a name we use for adding transactions to a block and solving a hash of that block with an appropriate difficulty.&nbsp; &quot;Miners&quot; get paid from 2 places.&nbsp; They get all the transaction fees for all the transactions that they choose to include in the block, and they also get newly created coins called the &quot;block subsidy&quot;.&nbsp; The block subsidy is cut in half approximately every 4 years until it is less than 0.00000001 BTC.&nbsp; The transaction fees are expected to continue to grow in value as bitcoin gains popularity. Eventually the transaction fees will regularly be more than the subsidy, and finally the subsidy will shrink to 0 and the reward for creating a block will consist entirely of transaction fees.&nbsp; The process of creating the blocks (what we currently call &quot;mining&quot;) will be the same, but the only reward will come from the transaction fees.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Who earns transaction fees?</b><br />
+					Post by: <b>Elwar</b> on <b>January 12, 2013, 07:13:40 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Half go to the miners. Half go to Satoshi. This was his plan all along. We all fell for it!</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Who earns transaction fees?</b><br />
+					Post by: <b>BitcoinOxygen</b> on <b>January 12, 2013, 01:57:03 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=135958.msg1449227#msg1449227">Quote from: Elwar on January 12, 2013, 07:13:40 AM</a></div><div class="quote">Half go to the miners. Half go to Satoshi. This was his plan all along. We all fell for it!<br /></div><br />lol</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Who earns transaction fees?</b><br />
+					Post by: <b>AwkwardSituation</b> on <b>January 12, 2013, 11:18:22 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Awesome, I understand now regarding transaction fees now.&nbsp; Thanks you Peter, great description.&nbsp; Thank you all for the feedback.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Who earns transaction fees?</b><br />
+					Post by: <b>BitcoinSuite</b> on <b>January 30, 2013, 05:48:17 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=135958.msg1450387#msg1450387">Quote from: AwkwardSituation on January 12, 2013, 11:18:22 PM</a></div><div class="quote">Awesome, I understand now regarding transaction fees now.&nbsp; <br /></div><br />To be specific whether miners get BOTH (12.5btc) reward AND fees depends on the pool, it is rare.<br /><br />https://bitcointalk.org/index.php?topic=114919.msg1239116#msg1239116</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Who earns transaction fees?</b><br />
+					Post by: <b>DannyHamilton</b> on <b>January 30, 2013, 05:50:45 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=135958.msg1490719#msg1490719">Quote from: BitcoinSuite on January 30, 2013, 05:48:17 PM</a></div><div class="quote">. . . whether miners get BOTH (12.5btc) reward AND fees depends on the pool, it is rare.<br /></div>But will become more common over time as transaction fees increase and the block subsidy drops.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Who earns transaction fees?</b><br />
+					Post by: <b>BitcoinSuite</b> on <b>January 30, 2013, 06:04:35 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">I am sure all miners will welcome that move. I wish pool operators were more transparent about transaction fees...</div>
+					<br /><br />
+					<div align="center" class="smalltext">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank">Powered by SMF 1.1.19</a> | 
+<a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank">SMF &copy; 2006-2009, Simple Machines</a>
+		</span></div>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

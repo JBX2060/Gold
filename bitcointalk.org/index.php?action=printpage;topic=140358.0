@@ -1,0 +1,170 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+		<link rel="canonical" href="https://bitcointalk.org/index.php?topic=140358.0" />
+		<title>Print Page - blockchain.info unable to send btc</title>
+		<style type="text/css">
+			body
+			{
+				color: black;
+				background-color: white;
+			}
+			body, td, .normaltext
+			{
+				font-family: Verdana, arial, helvetica, serif;
+				font-size: small;
+			}
+			*, a:link, a:visited, a:hover, a:active
+			{
+				color: black !important;
+			}
+			table
+			{
+				empty-cells: show;
+			}
+			.code
+			{
+				font-size: x-small;
+				font-family: monospace;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.quote
+			{
+				font-size: x-small;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.smalltext, .quoteheader, .codeheader
+			{
+				font-size: x-small;
+			}
+			.largetext
+			{
+				font-size: large;
+			}
+			hr
+			{
+				height: 1px;
+				border: 0;
+				color: black;
+				background-color: black;
+			}
+		</style>
+	</head>
+	<body>
+		<h1 class="largetext">Bitcoin Forum</h1>
+		<h2 class="normaltext">Bitcoin => Bitcoin Technical Support => Topic started by: IXIslimIXI on January 31, 2013, 10:52:34 PM</h2>
+
+		<table width="90%" cellpadding="0" cellspacing="0" border="0">
+			<tr>
+				<td>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>blockchain.info unable to send btc</b><br />
+					Post by: <b>IXIslimIXI</b> on <b>January 31, 2013, 10:52:34 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Every time I try to send coins on blockchain.info it tells me &quot;error getting unspent outputs&quot;. last night it was saying i had no unspent outputs available but i have coins in my wallet and all of my transactions are all the way confirmed.<br /><br /><br />i have sent their support 3 emails since last night and received no response. Can anyone help me figure out what is going on with this please???</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: blockchain.info unable to send btc</b><br />
+					Post by: <b>IXIslimIXI</b> on <b>January 31, 2013, 11:13:13 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Also, I am able to receive but even when those new funds confirmed, I still get the same message.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: blockchain.info unable to send btc</b><br />
+					Post by: <b>DannyHamilton</b> on <b>January 31, 2013, 11:30:39 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Send a personal message (PM) to piuk (https://bitcointalk.org/index.php?action=pm;sa=send;u=17928).&nbsp; He is the local expert on blockchain.info.&nbsp; If he can&#039;t help you, then nobody can:<br /><br />https://bitcointalk.org/index.php?action=pm;sa=send;u=17928</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: blockchain.info unable to send btc</b><br />
+					Post by: <b>piuk</b> on <b>February 01, 2013, 12:16:38 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=140358.msg1494440#msg1494440">Quote from: IXIslimIXI on January 31, 2013, 10:52:34 PM</a></div><div class="quote">Every time I try to send coins on blockchain.info it tells me &quot;error getting unspent outputs&quot;. last night it was saying i had no unspent outputs available but i have coins in my wallet and all of my transactions are all the way confirmed.<br /><br /><br />i have sent their support 3 emails since last night and received no response. Can anyone help me figure out what is going on with this please???<br /></div><br />What is the bitcoin address you are trying to send from?</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: blockchain.info unable to send btc</b><br />
+					Post by: <b>IXIslimIXI</b> on <b>February 01, 2013, 01:10:37 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">1sLiMbvDGgJjKKzUYsJ2QB9MXiHeeRnCD </div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: blockchain.info unable to send btc</b><br />
+					Post by: <b>piuk</b> on <b>February 01, 2013, 01:31:04 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=140358.msg1494693#msg1494693">Quote from: IXIslimIXI on February 01, 2013, 01:10:37 AM</a></div><div class="quote">1sLiMbvDGgJjKKzUYsJ2QB9MXiHeeRnCD <br /></div><br />Apologies, this error should be fixed now. It was a caching issue due to your address appearing on the &quot;top 100 most popular&quot; list.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: blockchain.info unable to send btc</b><br />
+					Post by: <b>IXIslimIXI</b> on <b>February 01, 2013, 02:08:00 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">lmao... ty</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: blockchain.info unable to send btc</b><br />
+					Post by: <b>Herbert</b> on <b>February 01, 2013, 11:44:13 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=140358.msg1494736#msg1494736">Quote from: piuk on February 01, 2013, 01:31:04 AM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=140358.msg1494693#msg1494693">Quote from: IXIslimIXI on February 01, 2013, 01:10:37 AM</a></div><div class="quote">1sLiMbvDGgJjKKzUYsJ2QB9MXiHeeRnCD <br /></div><br />Apologies, this error should be fixed now. It was a caching issue due to your address appearing on the &quot;top 100 most popular&quot; list.<br /></div><br />Ha! ;)</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: blockchain.info unable to send btc</b><br />
+					Post by: <b>claes88</b> on <b>March 08, 2013, 04:40:51 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Wonder why I&#039;m getting this error right now?</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: blockchain.info unable to send btc</b><br />
+					Post by: <b>CurbsideProphet</b> on <b>March 09, 2013, 07:06:43 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">I&#039;m unable to send right now either but getting a different error, it&#039;s says I have a 0.0 account balance yet the top right of the page reflects my correct balance.&nbsp; Anyone else?</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: blockchain.info unable to send btc</b><br />
+					Post by: <b>davidgdg</b> on <b>September 14, 2013, 01:00:41 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">I&#039;m getting the same problem.&nbsp; Am using the blockchain Iphone app. I have scanned the QR code and get the &quot;Getting Unspent Outputs&quot; message which is still there 10 minutes later whilst the seller invoice just expires. I really WANT to pay with BTC but at this rate it will just have to be debit card ;-(</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: blockchain.info unable to send btc</b><br />
+					Post by: <b>davidgdg</b> on <b>September 14, 2013, 01:03:25 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Ok now it has moved to &quot;Signing inputs. This can take a few minutes&quot;.<br />Ouch.&nbsp; I wouldn&#039;t like to be buying a drink in a pub this way .....</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: blockchain.info unable to send btc</b><br />
+					Post by: <b>davidgdg</b> on <b>September 14, 2013, 01:06:53 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Success eventually. About 7 minutes from initiating the send until the send went through (third try). 15 minutes in all.<br />Anyway, I have now done my little bit for the health of the greater bitcoin economy ;-) <br /><br /><br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: blockchain.info unable to send btc</b><br />
+					Post by: <b>DannyHamilton</b> on <b>September 14, 2013, 01:08:10 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=140358.msg3152301#msg3152301">Quote from: davidgdg on September 14, 2013, 01:03:25 PM</a></div><div class="quote">Ok now it has moved to &quot;Signing inputs. This can take a few minutes&quot;.<br />Ouch.&nbsp; I wouldn&#039;t like to be buying a drink in a pub this way .....<br /></div><br />I assume that your wallet is filled with many tiny outputs from &quot;free bitcoin&quot; sites?<br /><br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: blockchain.info unable to send btc</b><br />
+					Post by: <b>davidgdg</b> on <b>September 15, 2013, 04:44:47 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=140358.msg3152330#msg3152330">Quote from: DannyHamilton on September 14, 2013, 01:08:10 PM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=140358.msg3152301#msg3152301">Quote from: davidgdg on September 14, 2013, 01:03:25 PM</a></div><div class="quote">Ok now it has moved to &quot;Signing inputs. This can take a few minutes&quot;.<br />Ouch.&nbsp; I wouldn&#039;t like to be buying a drink in a pub this way .....<br /></div><br />I assume that your wallet is filled with many tiny outputs from &quot;free bitcoin&quot; sites?<br /><br /><br /></div><br />Nope. Just big lumps from Gox. </div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: blockchain.info unable to send btc</b><br />
+					Post by: <b>DannyHamilton</b> on <b>September 15, 2013, 07:01:19 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=140358.msg3160005#msg3160005">Quote from: davidgdg on September 15, 2013, 04:44:47 PM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=140358.msg3152330#msg3152330">Quote from: DannyHamilton on September 14, 2013, 01:08:10 PM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=140358.msg3152301#msg3152301">Quote from: davidgdg on September 14, 2013, 01:03:25 PM</a></div><div class="quote">Ok now it has moved to &quot;Signing inputs. This can take a few minutes&quot;.<br />Ouch.&nbsp; I wouldn&#039;t like to be buying a drink in a pub this way .....<br /></div>I assume that your wallet is filled with many tiny outputs from &quot;free bitcoin&quot; sites?<br /></div>Nope. Just big lumps from Gox. <br /></div><br />Odd that it would take so long then.</div>
+					<br /><br />
+					<div align="center" class="smalltext">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank">Powered by SMF 1.1.19</a> | 
+<a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank">SMF &copy; 2006-2009, Simple Machines</a>
+		</span></div>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

@@ -1,0 +1,284 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+		<link rel="canonical" href="https://bitcointalk.org/index.php?topic=10410.0" />
+		<title>Print Page - Pool shutdown attack</title>
+		<style type="text/css">
+			body
+			{
+				color: black;
+				background-color: white;
+			}
+			body, td, .normaltext
+			{
+				font-family: Verdana, arial, helvetica, serif;
+				font-size: small;
+			}
+			*, a:link, a:visited, a:hover, a:active
+			{
+				color: black !important;
+			}
+			table
+			{
+				empty-cells: show;
+			}
+			.code
+			{
+				font-size: x-small;
+				font-family: monospace;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.quote
+			{
+				font-size: x-small;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.smalltext, .quoteheader, .codeheader
+			{
+				font-size: x-small;
+			}
+			.largetext
+			{
+				font-size: large;
+			}
+			hr
+			{
+				height: 1px;
+				border: 0;
+				color: black;
+				background-color: black;
+			}
+		</style>
+	</head>
+	<body>
+		<h1 class="largetext">Bitcoin Forum</h1>
+		<h2 class="normaltext">Bitcoin => Development &amp; Technical Discussion => Topic started by: jvierine on May 28, 2011, 10:50:16 PM</h2>
+
+		<table width="90%" cellpadding="0" cellspacing="0" border="0">
+			<tr>
+				<td>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Pool shutdown attack</b><br />
+					Post by: <b>jvierine</b> on <b>May 28, 2011, 10:50:16 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">I just thought about one possible attack that could potentially disrupt block generation and potentially halt transaction confirmations. This could also happen by accident, if many of the largest mining pools were to shut down (e.g., by a hostile goverment).<br /><br />Because of the increasing difficulty in block generation, bitcoin is moving towards an ecosystem of few large mining pools, which control most of the computation speed of the network. They are also highly centralized in nature. I think there is a risk associated with this. <br /><br />If I understand correctly, the difficulty adjusts every N generated blocks. Now what if this difficulty has been adjusted to a very large value, and then suddenly most of the computing power is suddenly removed, e.g., by several of the largest mining pools shutting down. This would have the effect of significantly slowing down block generation rate (as most of the computing speed has been removed from the system), which would slow down transaction confirmations to a grinding halt. Many of the users in the pools have fairly slow hash rates, so they would most likely not start solo mining, as they would not see a steady income of bitcoins. <br /><br />Has anybody though about this? Is there a safety mechanism to readjust the difficulty in case no blocks are generated in some period of time? </div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Pool shutdown attack</b><br />
+					Post by: <b>kjj</b> on <b>May 28, 2011, 11:07:53 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">This is trivial to counter:&nbsp; just promote the flexible mining proxy.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Pool shutdown attack</b><br />
+					Post by: <b>Matt Corallo</b> on <b>May 28, 2011, 11:23:58 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=10410.msg149009#msg149009">Quote from: jvierine on May 28, 2011, 10:50:16 PM</a></div><div class="quote">If I understand correctly, the difficulty adjusts every N generated blocks. Now what if this difficulty has been adjusted to a very large value, and then suddenly most of the computing power is suddenly removed, e.g., by several of the largest mining pools shutting down. This would have the effect of significantly slowing down block generation rate (as most of the computing speed has been removed from the system), which would slow down transaction confirmations to a grinding halt. Many of the users in the pools have fairly slow hash rates, so they would most likely not start solo mining, as they would not see a steady income of bitcoins. <br /></div>These kinds of things have been discussed at length before...anyway, that shutdown wouldn&#039;t last long.&nbsp; There are already a ton of pools and more popping up daily.&nbsp; Switching takes a matter of seconds so even if many of the largest pools were shut down, the time the network has such low power would be small (probably only 30 minutes or so before the majority of mining power was back online) making the difficulty not change too much from where it would have been on the next adjust.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Pool shutdown attack</b><br />
+					Post by: <b>rezin777</b> on <b>May 30, 2011, 12:03:56 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">127555 &nbsp;&nbsp;&nbsp;2201f7d916... &nbsp;&nbsp;&nbsp;2011-05-29 22:41:30 &nbsp;&nbsp;&nbsp;43 &nbsp;&nbsp;&nbsp;1472.65095723 &nbsp;&nbsp;&nbsp;21.143<br />127554 &nbsp;&nbsp;&nbsp;15fa32c760... &nbsp;&nbsp;&nbsp;2011-05-29 22:13:38 &nbsp;&nbsp;&nbsp;37 &nbsp;&nbsp;&nbsp;877.09812426 &nbsp;&nbsp;&nbsp;23.145<br />127553 &nbsp;&nbsp;&nbsp;1de06a4a0a... &nbsp;&nbsp;&nbsp;2011-05-29 21:46:22 &nbsp;&nbsp;&nbsp;47 &nbsp;&nbsp;&nbsp;2052.27689526 &nbsp;&nbsp;&nbsp;17.552<br /><br />Only 2 blocks in 55 minutes due to deepbit being DDOSed. Then it starts getting better (but not great) as people realize deepbit is down and switch. <br /><br />While it isn&#039;t a show stopper, it certainly isn&#039;t what I would consider healthy for the network. <br /><br />Miners in deepbit don&#039;t seem to care about the health of the network, or even the fact that they make less BTC there compared to other pools, so I don&#039;t expect them to be bright enough to use things like instantaneous pool switching software. Not that you even need switching software, a low priority mining window in the background already pointed to another pool works fine. <br /><br />If a future attack is coordinated enough to take down all the major pools at the same time, the network would be in shambles as people figure out how to solo mine. </div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Pool shutdown attack</b><br />
+					Post by: <b>Steve</b> on <b>May 30, 2011, 03:02:22 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">I don&#039;t think this is a huge problem, but it could be improved.&nbsp; If there was widely available, somewhat standard pool software that made it simple for anyone to setup a pool, then I think you&#039;d see a lot of smaller, private pools being created.&nbsp; All a pool really needs is a few blocks/day to counter the effects of difficulty adjustments.&nbsp; Right now, 50Gh/s is sufficient for that. </div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Pool shutdown attack</b><br />
+					Post by: <b>Vladimir</b> on <b>May 30, 2011, 03:05:08 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">The netwrok will self heal and route around the damage.. there are <b>very strong</b> incentives for that in place.<br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Pool shutdown attack</b><br />
+					Post by: <b>2_Thumbs_Up</b> on <b>May 30, 2011, 05:18:23 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">I&#039;m thinking a bit of the difficulty adjustments. Why is it that we only change difficulty every ~2 weeks. Since luck plays a part in block generation, difficulty probably needs to be somewhat stable. But if the difficulty would adjust faster than it currently does, we would probably improve the defense against a similar attack, since a lowered difficulty would provide even stronger incentives for miners.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Pool shutdown attack</b><br />
+					Post by: <b>Vladimir</b> on <b>May 30, 2011, 05:31:35 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">I think there is no reason to change bitcoin protocol to help pool operators. That would be like bringing GUI libs into linux kernel to make GUI quicker. Ohhh wait.... M$ thought once that this was a good idea.... nevermind...<br /><br />Pool operators and miners will figure out how to mine during DDOS attacks or let smarter and nimbler miner to do all the work and rip all the reward. Why would we want to institute a nanny state here.... survival of the fittest is quite a nice paradigm which worked so well until recently...<br /><br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Pool shutdown attack</b><br />
+					Post by: <b>2_Thumbs_Up</b> on <b>May 30, 2011, 05:55:45 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">I wasn&#039;t really suggesting a change of the protocol, just a discussion of the pros and cons of the current way. And it wasn&#039;t to help pool operators, but to make sure that the incentives to provide a strong network are as strong as possible at all times, even during attacks. I don&#039;t really think a discussion about optimization and strengths/weaknesses is the equivalent of a nanny state.<br /><br />Lets say someone does a huge coordinated attack like this right after a difficulty increase. I think it could be somewhat of a problem that this doesn&#039;t increase in any higher profitability for the rest. Obviously some miners would still find their way back mining solo. But some others would maybe not think it&#039;s worth it without the pooling feature. Assuming the attacker has the capacity to do this for a prolonged period of time, this could potentially lead to several weaks of a slower network.<br /><br />I don&#039;t really know if this is actually an issue or not. But irregardless if it is, the questions i had was, would faster difficulty adjustments make the network stronger against attacks like this? And would there be any severe drawbacks to this?</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Pool shutdown attack</b><br />
+					Post by: <b>ene</b> on <b>May 30, 2011, 06:34:15 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=10410.msg149009#msg149009">Quote from: jvierine on May 28, 2011, 10:50:16 PM</a></div><div class="quote">Many of the users in the pools have fairly slow hash rates, so they would most likely not start solo mining, as they would not see a steady income of bitcoins.</div><br />Yes, but <i>most</i> of them would switch to solo mining.<br /><br />I hope future versions of miners will have an option to automatically fall back to solo mining if a pool appears to be offline, but you are still connected to the bitcoin network.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Pool shutdown attack</b><br />
+					Post by: <b>2_Thumbs_Up</b> on <b>May 30, 2011, 08:52:35 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=10410.msg153001#msg153001">Quote from: trippy on May 30, 2011, 06:34:15 PM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=10410.msg149009#msg149009">Quote from: jvierine on May 28, 2011, 10:50:16 PM</a></div><div class="quote">Many of the users in the pools have fairly slow hash rates, so they would most likely not start solo mining, as they would not see a steady income of bitcoins.</div><br />Yes, but <i>most</i> of them would switch to solo mining.</div><br />How sure can we be of this? It&#039;s basically like a lottery but with a positive expected return. The problem is that very many doesn&#039;t care about their expected return when they play lotteries. They usually care about the joy and excitement more. How can we actually know that <i>most</i> miners will find their way back if the chance of getting payed is ridicilously low?</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Pool shutdown attack</b><br />
+					Post by: <b>ene</b> on <b>May 30, 2011, 10:06:21 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=10410.msg153261#msg153261">Quote from: 2_Thumbs_Up on May 30, 2011, 08:52:35 PM</a></div><div class="quote">How sure can we be of this? It&#039;s basically like a lottery but with a positive expected return. The problem is that very many doesn&#039;t care about their expected return when they play lotteries. They usually care about the joy and excitement more. How can we actually know that <i>most</i> miners will find their way back if the chance of getting payed is ridicilously low?<br /></div><br />How can we be sure of anything? Personally, I&#039;m sure enough. A lot of the mining power comes from graphic cards purchased specifically for bitcoin mining. These miners are in a pool because it works better for them, but if pools weren&#039;t available, they would still solo mine in the hope of recouping their investment.<br /><br /><div class="quoteheader">Quote</div><div class="quote">It&#039;s basically like a lottery but with a positive expected return.</div><br />So it&#039;s not a lottery? They aren&#039;t in it purely for fun.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Pool shutdown attack</b><br />
+					Post by: <b>2_Thumbs_Up</b> on <b>May 30, 2011, 10:16:14 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=10410.msg153448#msg153448">Quote from: trippy on May 30, 2011, 10:06:21 PM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=10410.msg153261#msg153261">Quote from: 2_Thumbs_Up on May 30, 2011, 08:52:35 PM</a></div><div class="quote">How sure can we be of this? It&#039;s basically like a lottery but with a positive expected return. The problem is that very many doesn&#039;t care about their expected return when they play lotteries. They usually care about the joy and excitement more. How can we actually know that <i>most</i> miners will find their way back if the chance of getting payed is ridicilously low?<br /></div><br />How can we be sure of anything? Personally, I&#039;m sure enough. A lot of the mining power comes from graphic cards purchased specifically for bitcoin mining. These miners are in a pool because it works better for them, but if pools weren&#039;t available, they would still solo mine in the hope of recouping their investment.</div>Yeah I&#039;m with you. +EV is +EV after all. Even if some people are irrational, other people would just take advantage of the opportunity. I&#039;m getting a bit worried about the possibility of a negative expected return for miners as I expressed in this thread though: http://forum.bitcoin.org/index.php?topic=10708.0<br /><br /><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=10410.msg153448#msg153448">Quote from: trippy on May 30, 2011, 10:06:21 PM</a></div><div class="quote"><div class="quoteheader">Quote</div><div class="quote">It&#039;s basically like a lottery but with a positive expected return.</div><br />So it&#039;s not a lottery? They aren&#039;t in it purely for fun.<br /></div>Mathematically, it&#039;s even better than a regular lottery. The point I tried to make was that the physical activity of a regular lottery is probably part of the fun for the participants. But this should be irrelevant.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Pool shutdown attack</b><br />
+					Post by: <b>gmaxwell</b> on <b>May 30, 2011, 10:54:42 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=10410.msg151715#msg151715">Quote from: Vladimir on May 30, 2011, 03:05:08 AM</a></div><div class="quote">The netwrok will self heal and route around the damage.. there are <b>very strong</b> incentives for that in place.<br /></div><br />Apparently not.&nbsp; It hasn&#039;t been healing when these big pools keep going down— we lose hashrate, and most doesn&#039;t come back until the pool does. In spite of the concerns for the stability and security of the bitcoin network— and in spite of actually losing money due to downtime and higher fees— people continue to use deepbit.<br /><br />As I write this it&#039;s back to ~40% even after the outages a day ago.<br /><br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Pool shutdown attack</b><br />
+					Post by: <b>Vladimir</b> on <b>May 30, 2011, 11:16:45 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=10410.msg153561#msg153561">Quote from: gmaxwell on May 30, 2011, 10:54:42 PM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=10410.msg151715#msg151715">Quote from: Vladimir on May 30, 2011, 03:05:08 AM</a></div><div class="quote">The netwrok will self heal and route around the damage.. there are <b>very strong</b> incentives for that in place.<br /></div><br />Apparently not.&nbsp; It hasn&#039;t been healing when these big pools keep going down— we lose hashrate, and most doesn&#039;t come back until the pool does. In spite of the concerns for the stability and security of the bitcoin network— and in spite of actually losing money due to downtime and higher fees— people continue to use deepbit.<br /><br />As I write this it&#039;s back to ~40% even after the outages a day ago.<br /><br /></div><br />How do you know this? All I can see is that after recent difficulty change hashing power stopped growing and has declined slightly. That&#039;s it. The difficulty change could do it on your own, pools or no pools. At recent peak hashing power was around 6Thps, now it is around 5.3 Thps. This is barely above 10% drop. There can be many reasons for 0.7 Ghps worth of miners dropping off: summer heat, fired rogue IT admins, some &#039;miners&#039; cannot comprehend how to switch pool or switch to solo mining, mommy locked up basement after she saw electricity bill etc.. Bohoo.. big deal. Who cares?<br /><br /><br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Pool shutdown attack</b><br />
+					Post by: <b>kjj</b> on <b>May 31, 2011, 01:55:25 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">No one has any idea where the error bars on the hash rate graphs should be.&nbsp; On the 1 day line, they will be astronomically huge (not to mention the 8 hour window, lol).&nbsp; Like several times the width of the plotted channel huge.<br /><br /><b>DO NOT MAKE ASSUMPTIONS BASED ON THOSE GRAPHS</b>.&nbsp; They are estimates, not measurements.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Pool shutdown attack</b><br />
+					Post by: <b>ene</b> on <b>May 31, 2011, 11:16:16 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=10410.msg153561#msg153561">Quote from: gmaxwell on May 30, 2011, 10:54:42 PM</a></div><div class="quote">It hasn&#039;t been healing when these big pools keep going down— we lose hashrate, and most doesn&#039;t come back until the pool does.<br /></div><br />We lose hashrate, but do we lose <b>too much</b> hashrate?&nbsp; ::)</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Pool shutdown attack</b><br />
+					Post by: <b>gmaxwell</b> on <b>May 31, 2011, 01:28:08 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=10410.msg153897#msg153897">Quote from: kjj on May 31, 2011, 01:55:25 AM</a></div><div class="quote">No one has any idea where the error bars on the hash rate graphs should be.&nbsp; On the 1 day line, they will be astronomically huge (not to mention the 8 hour window, lol).&nbsp; Like several times the width of the plotted channel huge.<br /><br /><b>DO NOT MAKE ASSUMPTIONS BASED ON THOSE GRAPHS</b>.&nbsp; They are estimates, not measurements.<br /></div><br />I&#039;m not making assumptions based on &quot;those graphs&quot;. I&#039;m looking at the highly improbable gaps between blocks that can only really be justified on the basis of large hashrate graphs. e.g. times 50 minutes or longer has a p-value of .0067 if the expectation is 10 minutes— lower considering that we&#039;d been running a rate higher than one per ten minutes.<br /><br />Unrelated, it&#039;s no &quot;No one has any idea&quot;— Those graphs _are_ a measurement but of a noisy process, however the process in which coins are found is well understood, and you can easily draw confidence intervals based on the known distribution and the number of points in the average. I&#039;ll nag sipa to do this. It would be reasonable.<br /><br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Pool shutdown attack</b><br />
+					Post by: <b>kjj</b> on <b>May 31, 2011, 01:48:26 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=10410.msg155061#msg155061">Quote from: gmaxwell on May 31, 2011, 01:28:08 PM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=10410.msg153897#msg153897">Quote from: kjj on May 31, 2011, 01:55:25 AM</a></div><div class="quote">No one has any idea where the error bars on the hash rate graphs should be.&nbsp; On the 1 day line, they will be astronomically huge (not to mention the 8 hour window, lol).&nbsp; Like several times the width of the plotted channel huge.<br /><br /><b>DO NOT MAKE ASSUMPTIONS BASED ON THOSE GRAPHS</b>.&nbsp; They are estimates, not measurements.<br /></div>I&#039;m not making assumptions based on &quot;those graphs&quot;. I&#039;m looking at the highly improbable gaps between blocks that can only really be justified on the basis of large hashrate graphs. e.g. times 50 minutes or longer has a p-value of .0067 if the expectation is 10 minutes— lower considering that we&#039;d been running a rate higher than one per ten minutes.<br /><br />Unrelated, it&#039;s no &quot;No one has any idea&quot;— Those graphs _are_ a measurement but of a noisy process, however the process in which coins are found is well understood, and you can easily draw confidence intervals based on the known distribution and the number of points in the average. I&#039;ll nag sipa to do this. It would be reasonable.<br /></div><br />No, they are not measurements.&nbsp; There is no way to measure how much work went into finding any given hash, unless you are actually monitoring each and every miner involved.<br /><br />What these graphs do is divide the average amount of work to find a block by the actual time to find a given block.&nbsp; Note that it is the &quot;average&quot; amount of work, not the actual amount of work.<br /><br />Oh, and there is other nonsense around too.&nbsp; Did anyone else notice the two consecutive blocks over the weekend, where the second block had a timestamp before the first block?&nbsp; I&#039;m pretty sure that block didn&#039;t really require a negative amount of hashing to get created.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Pool shutdown attack</b><br />
+					Post by: <b>forbun</b> on <b>May 31, 2011, 02:24:28 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Is there a good alternative to deepbit?</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Pool shutdown attack</b><br />
+					Post by: <b>gmaxwell</b> on <b>May 31, 2011, 02:27:05 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=10410.msg155096#msg155096">Quote from: kjj on May 31, 2011, 01:48:26 PM</a></div><div class="quote">No, they are not measurements. &nbsp;There is no way to measure how much work went into finding any given hash, unless you are actually monitoring each and every miner involved.<br /></div><br />I think you don&#039;t actually know what a measurement is. &nbsp; If you ask everyone coming into the emergency room complaining of stomach pains &quot;Did you eat cucumber in the last 24 hours?&quot; &nbsp;is that not a measurement? &nbsp;Even though the results will be be contaminated by noise and biases? &nbsp; If the census randomly selects 100,000 houses out of a million to get demographics from, is this not a measurement?<br /><br />In this case we know the hashrate by virtue of the network reporting when it finds a block. &nbsp;This is a measurement of _well_ defined process with explicable behavior and we can speak with certainty about it. &nbsp;Unlike my silly examples its not subject to much in the way surprising biases or unknown sources of noise. (Because, e.g. if broken clients diminish our hash rate— thats not a random effect we&#039;d wish to exclude) about all there is to worry about is how you time the blocks: If you time from the blocktimes you&#039;re subject to node timestamp stupidity if you measure locally you will be subject to a small amount of network propagation noise. But bitcoin propagation time is miniscule compared to the average time between blocks.<br /><br />Regardless, If the expected solution rate is r &nbsp;then the proportion of times in which a block will take longer than x is e^(-1/r*x).<br /><br />Moreover, the particular process at play here has its maximum likelihood value at the mean. So you don&#039;t have to do any fancier math than taking an average to reach the most accurate measurement possible given the available data.<br /><br />So, e.g. if we see long gaps then we can say with very high confidence that the _measurement_ being performed by the network is telling us that the hashrate is almost certainly low.<br /><br />As far as the timestamps go— yes, bitcoin network time can be wonky. So don&#039;t pay any attention to it. If you have a node with good visibility you&#039;ll observe the blocks directly.<br /><br /><br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Pool shutdown attack</b><br />
+					Post by: <b>kjj</b> on <b>May 31, 2011, 03:00:38 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=10410.msg155166#msg155166">Quote from: gmaxwell on May 31, 2011, 02:27:05 PM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=10410.msg155096#msg155096">Quote from: kjj on May 31, 2011, 01:48:26 PM</a></div><div class="quote">No, they are not measurements. &nbsp;There is no way to measure how much work went into finding any given hash, unless you are actually monitoring each and every miner involved.<br /></div><br />I think you don&#039;t actually know what a measurement is. &nbsp; If you ask everyone coming into the emergency room complaining of stomach pains &quot;Did you eat cucumber in the last 24 hours?&quot; &nbsp;is that not a measurement? &nbsp;Even though the results will be be contaminated by noise and biases? &nbsp; If the census randomly selects 100,000 houses out of a million to get demographics from, is this not a measurement?<br /><br /><b>In this case we know the hashrate by virtue of the network reporting when it finds a block.</b><br /></div><br />No.&nbsp; The only thing you know at this point is the time (roughly) that this block was found.<br /><br /><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=10410.msg155166#msg155166">Quote from: gmaxwell on May 31, 2011, 02:27:05 PM</a></div><div class="quote">This is a measurement of _well_ defined process with explicable behavior and we can speak with certainty about it.<br /></div><br />Yes, well defined, but non-deterministic.&nbsp; You can speak with statistical certainty about it in bulk, but not at small scales.&nbsp; Think radioactive decay.&nbsp; I can give you a very accurate estimate of how long it will take for a mole of U-235 to decay halfway, but I can&#039;t tell you <b>anything at all</b> about how long it will be until the next hit on your geiger counter.<br /><br /><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=10410.msg155166#msg155166">Quote from: gmaxwell on May 31, 2011, 02:27:05 PM</a></div><div class="quote">Unlike my silly examples its not subject to much in the way surprising biases or unknown sources of noise. (Because, e.g. if broken clients diminish our hash rate— thats not a random effect we&#039;d wish to exclude) about all there is to worry about is how you time the blocks: If you time from the blocktimes you&#039;re subject to node timestamp stupidity if you measure locally you will be subject to a small amount of network propagation noise. But bitcoin propagation time is miniscule compared to the average time between blocks.<br /><br />Regardless, If the expected solution rate is r &nbsp;then the proportion of times in which a block will take longer than x is e^(-1/r*x).<br /><br />Moreover, the particular process at play here has its maximum likelihood value at the mean. So you don&#039;t have to do any fancier math than taking an average to reach the most accurate measurement possible given the available data.<br /><br />So, e.g. if we see long gaps then we can say with very high confidence that the _measurement_ being performed by the network is telling us that the hashrate is almost certainly low.<br /><br />As far as the timestamps go— yes, bitcoin network time can be wonky. So don&#039;t pay any attention to it. If you have a node with good visibility you&#039;ll observe the blocks directly.<br /></div><br />Gah.&nbsp; You understand the statistics, but you can&#039;t seem to accept the implications.<br /><br />I&#039;ll say it again.&nbsp; The time to find one block tells you <b>nothing</b> about the amount of work that went into finding it.&nbsp; When you start talking about large numbers of blocks, you can start saying things like &quot;the probability is very high that the network hashing rate was X over this long interval&quot;.<br /><br />This is not the language of measurements.&nbsp; It is the language of estimation.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Pool shutdown attack</b><br />
+					Post by: <b>tiberiandusk</b> on <b>May 31, 2011, 03:01:37 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=10410.msg155160#msg155160">Quote from: forbun on May 31, 2011, 02:24:28 PM</a></div><div class="quote">Is there a good alternative to deepbit?<br /></div><br />I switched to eligius a while back when I saw deepbit growing too quickly. If eligius gets too large someday I will switch again. Eventually I would like to be strictly solo but I need to earn more coins to buy more hardware so I can earn more coins and buy more hardware so I can earn more coins until the entire midwest of the united states is covered under a mountain of GPUs and spontaneously combusts into a second sun. Anyone want to invest in some windturbines/solar panels I can put up on my farm to make a totally off-grid, self sufficient mining facility? :P</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Pool shutdown attack</b><br />
+					Post by: <b>CydeWeys</b> on <b>May 31, 2011, 03:07:15 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Kuji, let us example a hypothetical scenario.&nbsp; Let&#039;s say I am flipping a fair coin several thousand times.&nbsp; Do you believe it is impossible for me to calculate the odds of getting ten heads in a row because &quot;You can speak with statistical certainty about it in bulk, but not at small scales&quot;?&nbsp; Because it is, in fact, possible to calculate <i>exactly</i> the odds of that happening, as any introductory Statistics student could tell you.<br /><br />This is no different than Bitcoin.&nbsp; In fact, the distribution of measurements is exactly the same between the two scenarios (results of coin-flipping and results of hashing to find improbable hashes); both fit a Poisson distribution.<br /><br />I will refer you to the earlier chapters of a typical college-level Statistics book, especially the parts on calculating probabilities.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Pool shutdown attack</b><br />
+					Post by: <b>kjj</b> on <b>May 31, 2011, 03:25:51 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=10410.msg155251#msg155251">Quote from: CydeWeys on May 31, 2011, 03:07:15 PM</a></div><div class="quote">Kuji, let us example a hypothetical scenario.&nbsp; Let&#039;s say I am flipping a fair coin several thousand times.&nbsp; Do you believe it is impossible for me to calculate the odds of getting ten heads in a row because &quot;You can speak with statistical certainty about it in bulk, but not at small scales&quot;?&nbsp; Because it is, in fact, possible to calculate <i>exactly</i> the odds of that happening, as any introductory Statistics student could tell you.<br /><br />This is no different than Bitcoin.&nbsp; In fact, the distribution of measurements is exactly the same between the two scenarios (results of coin-flipping and results of hashing to find improbable hashes); both fit a Poisson distribution.<br /><br />I will refer you to the earlier chapters of a typical college-level Statistics book, especially the parts on calculating probabilities.<br /></div><br />Who the hell is Kuji?<br /><br />And your example is nothing at all like bitcoin.<br /><br />You can calculate the odds of getting 10 in a row out of X thousands of flips.&nbsp; And then if you do X thousands flips repeatedly, say Y times, the number of 10-in-a-row events in reality will approach your calculation as Y grows larger.<br /><br />Better example.&nbsp; You have a billion sided die, and you throw it and it comes up showing &quot;1&quot;.&nbsp; Should I infer from that event that you had actually thrown the die 500 million times?<br /><br />If you are looking for a good book on statistics, I suggest Savage&#039;s Foundations of Statistics (http://www.amazon.com/Foundations-Statistics-Leonard-J-Savage/dp/0486623491).&nbsp; Slog your way through that and you&#039;ll have a MUCH better understanding of what statistics can, and cannot, do.&nbsp; Oh, and a drinking problem.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Pool shutdown attack</b><br />
+					Post by: <b>gmaxwell</b> on <b>May 31, 2011, 05:55:26 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=10410.msg155283#msg155283">Quote from: kjj on May 31, 2011, 03:25:51 PM</a></div><div class="quote">Better example. &nbsp;You have a billion sided die, and you throw it and it comes up showing &quot;1&quot;. &nbsp;Should I infer from that event that you had actually thrown the die 500 million times?<br /></div><br />We&#039;re not measuring any outcome. &nbsp;We&#039;re measuring a small set of outcomes.<br /><br />If I send you a block header and you come back with a solution at the current difficulty how many hashes did you do before you found it? &nbsp; The most likely answer is 18,678,355,68,419,371&nbsp; (I changed this number after my initial post because I&#039;d accidentally done a nice precise calculation with the wrong value for the current difficulty ;) )<br /><br />Maybe you did one hash, maybe you did 1000 times that. &nbsp;But those cases are VERY unlikely. &nbsp;Far more unlikely than the error that would be found in virtually any measurement performed of any physical quantity. &nbsp; So we can easily specify whatever error bounds we like, and say with high confidence that the work was almost certainly within that range and that the chance of the result coming from chance is small— just as if we were comparing the weights of things on a scale (though the difference in process gives a different error distribution, of course). &nbsp;Because bitcoin solutions arise from such a fantastically large number of fantastically unlikely events— giving a fairly high overall rate, the confidence bounds are fairly small even for a single example.<br /><br />E.g. at the normal expectation of 10 minutes, we&#039;d expect 99% of all gaps to be under 46.05 minutes and our average rate has been faster than that. &nbsp;So you&#039;re asking us to accept that there were multiple p&lt;1% events but not a loss of hashrate when at the same time the biggest pool operator is obviously taking an outage which is visible to all. &nbsp;OOooookkkaaay...<br /><br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Pool shutdown attack</b><br />
+					Post by: <b>kjj</b> on <b>May 31, 2011, 06:08:17 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=10410.msg155712#msg155712">Quote from: gmaxwell on May 31, 2011, 05:55:26 PM</a></div><div class="quote">Because bitcoin solutions arise from such a fantastically large number of fantastically unlikely events— giving a fairly high overall rate, the confidence bounds are fairly small even for a single example.<br /></div><br />Rubbish.<br /><br />The only thing that you can tell from a single sample is how unlikely it would be for you to repeat it in the same amount of time.&nbsp; You can tell <b>absolutely nothing at all</b> about the amount of work actually done.<br /><br />Say I get a block, and returned the result to you in a nanosecond.&nbsp; What is more likely?<br /><br />Option A) I got really lucky.<br />Option B) I have more hashing power at my disposal than the theoretical hashing power of the entire solar system, should it ever be converted into a computer.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Pool shutdown attack</b><br />
+					Post by: <b>gmaxwell</b> on <b>May 31, 2011, 08:34:54 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=10410.msg155738#msg155738">Quote from: kjj on May 31, 2011, 06:08:17 PM</a></div><div class="quote">The only thing that you can tell from a single sample is how unlikely it would be for you to repeat it in the same amount of time. &nbsp;You can tell <b>absolutely nothing at all</b> about the amount of work actually done.<br /><br />Say I get a block, and returned the result to you in a nanosecond. &nbsp;What is more likely?<br /><br />Option A) I got really lucky.<br />Option B) I have more hashing power at my disposal than the theoretical hashing power of the entire solar system, should it ever be converted into a computer.<br /></div><br />Obviously the former. really really really really really lucky. In fact, I might instead think it&#039;s more likely that you&#039;ve found a weakness in SHA-256 and are able to generate preimages fast.<br /><br />And by the same token if the network goes a day without a result, whats more likely ... that an astronomically unlikely run of bad luck happened— p=2.8946403116483e-63 &nbsp;a one in a wtf-do-they-have-a-word-for-that event— &nbsp;or that it lost hashrate or had some other kind of outage?<br /><br />We had block gaps with combined one in a thousand chances given the expected nominal rate and at the same time big pools were down and their operators were saying they were suffering an outage. &nbsp;But you say we know nothing about the hash rate?<br /><br />*ploink*<br /><br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Pool shutdown attack</b><br />
+					Post by: <b>kjj</b> on <b>May 31, 2011, 08:51:53 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">I like how you move the goalposts.&nbsp; But really, you&#039;ve already agreed with me.<br /><br />I never said that we know nothing of the hash rate, over a long period of time.&nbsp; I said that we are not measuring the hash rate, and that our estimates of it aren&#039;t very accurate over short periods of time.<br /><br />Oh, and there were gaps with one in a thousand chances in the other direction (quick solutions) during that same timeframe too.<br /><br />http://blockexplorer.com/b/127594<br /><br />http://blockexplorer.com/b/127588<br /><br />And more.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Pool shutdown attack</b><br />
+					Post by: <b>gmaxwell</b> on <b>May 31, 2011, 08:58:09 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=10410.msg156154#msg156154">Quote from: kjj on May 31, 2011, 08:51:53 PM</a></div><div class="quote">I like how you move the goalposts.&nbsp; But really, you&#039;ve already agreed with me.<br /><br />I never said that we know nothing of the hash rate, over a long period of time.&nbsp; I said that we are not measuring the hash rate, and that our estimates of it aren&#039;t very accurate over short periods of time.<br /></div><br />Kaji, you&#039;ve evaded the clear points I raised about the nature of measurement only to continue asserting that what we have isn&#039;t one.&nbsp; &nbsp;Why should I even continue to discuss with you when you won&#039;t explain why you say that this isn&#039;t a measurement when e.g. using a scale (which is also not infinitely precise, and is subject to complicated biases and noise), taking a survey, or taking a census are all considered to be measurements.<br /><br />If you will say that there is no such thing as a measurement of a physical quantity then I will agree with you, given this definition of measurement, that we haven&#039;t made a measurement here.&nbsp; Otherwise, I fail to see what you&#039;re arguing— that the pool operators are liars when they said they went down— that the pool users were hallucinating when they saw their miners idle— that the rate didn&#039;t really go down and that the system was just really unlucky at the time of these lies and hallucinations? </div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Pool shutdown attack</b><br />
+					Post by: <b>CydeWeys</b> on <b>May 31, 2011, 09:00:37 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=10410.msg155283#msg155283">Quote from: kjj on May 31, 2011, 03:25:51 PM</a></div><div class="quote">Better example. &nbsp;You have a billion sided die, and you throw it and it comes up showing &quot;1&quot;. &nbsp;Should I infer from that event that you had actually thrown the die 500 million times?<br /></div><br />Nope, Kaji, that isn&#039;t a better example. &nbsp;A better example would be you roll a billion-sided die repeatedly and you measure how many rolls it takes between each occurrence of, say, a face &lt;= 100 coming up. &nbsp;You can assign probabilities to how many expected rolls it takes on average between getting &lt;= 100, and then if you get something way outside of that range, you can say that something very unexpected happened.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Pool shutdown attack</b><br />
+					Post by: <b>kjj</b> on <b>May 31, 2011, 10:52:38 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Who the fuck is Kaji?</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Pool shutdown attack</b><br />
+					Post by: <b>kjj</b> on <b>May 31, 2011, 10:58:38 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=10410.msg156173#msg156173">Quote from: CydeWeys on May 31, 2011, 09:00:37 PM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=10410.msg155283#msg155283">Quote from: kjj on May 31, 2011, 03:25:51 PM</a></div><div class="quote">Better example. &nbsp;You have a billion sided die, and you throw it and it comes up showing &quot;1&quot;. &nbsp;Should I infer from that event that you had actually thrown the die 500 million times?<br /></div><br />Nope, Kaji, that isn&#039;t a better example. &nbsp;A better example would be you roll a billion-sided die repeatedly and you measure how many rolls it takes between each occurrence of, say, a face &lt;= 100 coming up. &nbsp;You can assign probabilities to how many expected rolls it takes on average between getting &lt;= 100, and then if you get something way outside of that range, you can say that something very unexpected happened.<br /></div><br />But if it comes up more or less often than you&#039;d predict, you don&#039;t then pretend that you&#039;ve &quot;measured&quot; my rolling speed.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Pool shutdown attack</b><br />
+					Post by: <b>CydeWeys</b> on <b>May 31, 2011, 11:07:56 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=10410.msg156412#msg156412">Quote from: kjj on May 31, 2011, 10:58:38 PM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=10410.msg156173#msg156173">Quote from: CydeWeys on May 31, 2011, 09:00:37 PM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=10410.msg155283#msg155283">Quote from: kjj on May 31, 2011, 03:25:51 PM</a></div><div class="quote">Better example. &nbsp;You have a billion sided die, and you throw it and it comes up showing &quot;1&quot;. &nbsp;Should I infer from that event that you had actually thrown the die 500 million times?<br /></div><br />Nope, Kaji, that isn&#039;t a better example. &nbsp;A better example would be you roll a billion-sided die repeatedly and you measure how many rolls it takes between each occurrence of, say, a face &lt;= 100 coming up. &nbsp;You can assign probabilities to how many expected rolls it takes on average between getting &lt;= 100, and then if you get something way outside of that range, you can say that something very unexpected happened.<br /></div><br />But if it comes up more or less often than you&#039;d predict, you don&#039;t then pretend that you&#039;ve &quot;measured&quot; my rolling speed.<br /></div><br />Not necessarily.&nbsp; But the null hypothesis is &quot;Events are occurring at X speed.&quot;&nbsp; If I consistently get experimental data with extremely low probability values at X speed, say they are outside a 99% confidence interval, then I can reject the null hypothesis and posit that the actual speed is different.&nbsp; To calculate the actual speed, you would divide the number of events into the time window, but of course this is very noisy in a smaller time window.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Pool shutdown attack</b><br />
+					Post by: <b>kjj</b> on <b>May 31, 2011, 11:22:22 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=10410.msg156168#msg156168">Quote from: gmaxwell on May 31, 2011, 08:58:09 PM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=10410.msg156154#msg156154">Quote from: kjj on May 31, 2011, 08:51:53 PM</a></div><div class="quote">I like how you move the goalposts.&nbsp; But really, you&#039;ve already agreed with me.<br /><br />I never said that we know nothing of the hash rate, over a long period of time.&nbsp; I said that we are not measuring the hash rate, and that our estimates of it aren&#039;t very accurate over short periods of time.<br /></div><br />Kaji, you&#039;ve evaded the clear points I raised about the nature of measurement only to continue asserting that what we have isn&#039;t one.&nbsp; &nbsp;Why should I even continue to discuss with you when you won&#039;t explain why you say that this isn&#039;t a measurement when e.g. using a scale (which is also not infinitely precise, and is subject to complicated biases and noise), taking a survey, or taking a census are all considered to be measurements.<br /><br />If you will say that there is no such thing as a measurement of a physical quantity then I will agree with you, given this definition of measurement, that we haven&#039;t made a measurement here.&nbsp; Otherwise, I fail to see what you&#039;re arguing— that the pool operators are liars when they said they went down— that the pool users were hallucinating when they saw their miners idle— that the rate didn&#039;t really go down and that the system was just really unlucky at the time of these lies and hallucinations? <br /></div><br />&nbsp;???<br /><br />There is an actual real number of hashes performed, and there is an actual real rate of them being performed over a given interval.&nbsp; These numbers are only known at the miner itself.&nbsp; They are not collected by the pools, they are not collated globally.&nbsp; If they were, we would have actual measurements.<br /><br />Instead, we have an interval, and the number of hashes that we expect it would take, on average, to perform the work demonstrated.&nbsp; Divide one by the other, and we have an estimate of the hash rate.&nbsp; This is only an estimate because, and this is key, <b>the number of hashes it takes to make any given block is non-deterministic</b>.&nbsp; You can&#039;t measure a single non-deterministic event, or even a small number of them, and call it a measurement.<br /><br />I guess if we can&#039;t agree on that, it is pointless to continue, but you should totally write a paper and claim your Nobel Prize, because a way to determine non-deterministic systems would probably be the biggest discovery since relativity.&nbsp; Maybe since ever.&nbsp; Or maybe you can only go so far as to say that SHA256 is predictable, in which case the world&#039;s cryptographers would love to hear what you have to say.<br /><br />By the way, I&#039;ve never said that the pool operators were liars, nor that the pool users were hallucinating.&nbsp; I merely said, and I&#039;ll quote myself:<br /><br /><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=10410.msg153897#msg153897">Quote from: kjj on May 31, 2011, 01:55:25 AM</a></div><div class="quote">No one has any idea where the error bars on the hash rate graphs should be.&nbsp; On the 1 day line, they will be astronomically huge (not to mention the 8 hour window, lol).&nbsp; Like several times the width of the plotted channel huge.<br /><br /><b>DO NOT MAKE ASSUMPTIONS BASED ON THOSE GRAPHS</b>.&nbsp; They are estimates, not measurements.<br /></div></div>
+					<br /><br />
+					<div align="center" class="smalltext">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank">Powered by SMF 1.1.19</a> | 
+<a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank">SMF &copy; 2006-2009, Simple Machines</a>
+		</span></div>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

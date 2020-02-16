@@ -1,0 +1,128 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+		<link rel="canonical" href="https://bitcointalk.org/index.php?topic=119301.0" />
+		<title>Print Page - 80+ confirmations, bitcoins still not showing in my online wallet</title>
+		<style type="text/css">
+			body
+			{
+				color: black;
+				background-color: white;
+			}
+			body, td, .normaltext
+			{
+				font-family: Verdana, arial, helvetica, serif;
+				font-size: small;
+			}
+			*, a:link, a:visited, a:hover, a:active
+			{
+				color: black !important;
+			}
+			table
+			{
+				empty-cells: show;
+			}
+			.code
+			{
+				font-size: x-small;
+				font-family: monospace;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.quote
+			{
+				font-size: x-small;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.smalltext, .quoteheader, .codeheader
+			{
+				font-size: x-small;
+			}
+			.largetext
+			{
+				font-size: large;
+			}
+			hr
+			{
+				height: 1px;
+				border: 0;
+				color: black;
+				background-color: black;
+			}
+		</style>
+	</head>
+	<body>
+		<h1 class="largetext">Bitcoin Forum</h1>
+		<h2 class="normaltext">Bitcoin => Bitcoin Technical Support => Topic started by: thefatcat on October 19, 2012, 05:21:49 PM</h2>
+
+		<table width="90%" cellpadding="0" cellspacing="0" border="0">
+			<tr>
+				<td>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>80+ confirmations, bitcoins still not showing in my online wallet</b><br />
+					Post by: <b>thefatcat</b> on <b>October 19, 2012, 05:21:49 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">So yesterday I sent over 23 BTC to an online wallet.<br /><br />I did not see the bitcoins in the address even after 80+ confirmations<br /><br />It&#039;s been over 18 hours and I still don&#039;t see my coins. &nbsp;Could the online wallet me corrupt?<br /><br />EDIT: Heres the address<br />http://blockchain.info/address/14K5txMuPXM6kDC3W5ZTmg5qzGA6Z8n5qY<br />NONE of those transactions are showing,</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: 80+ confirmations, bitcoins still not showing in my online wallet</b><br />
+					Post by: <b>Raoul Duke</b> on <b>October 19, 2012, 05:25:25 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=119301.msg1283778#msg1283778">Quote from: thefatcat on October 19, 2012, 05:21:49 PM</a></div><div class="quote">So yesterday I sent over 23 BTC to an online wallet.<br /><br />I did not see the bitcoins in the address even after 80+ confirmations<br /><br />It&#039;s been over 18 hours and I still don&#039;t see my coins.&nbsp; Could the online wallet me corrupt?<br /></div><br /><del>What do you mean you don&#039;t see the coins at the address?<br />They don&#039;t show up on your online wallet balance or they don&#039;t show up at the online wallet address?<br />Search the address where you sent the coins at blockchain.info. If it shows the coins there and they&#039;re not on the online wallet that&#039;s a problem you&#039;ll have to solve with your online wallet provider.</del><br /><br />I just hope you&#039;re not using TorWallet...<br /><br />EDIT: I see you posted the blockchain.info link.<br />You should contact your online wallet provider support and tell them about it. They&#039;re the only ones who can help you now.<br /><br />And by the way, are you sure that&#039;s really your online wallet address? Strange things have happened before and people sent coins to wrong addresses.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: 80+ confirmations, bitcoins still not showing in my online wallet</b><br />
+					Post by: <b>thefatcat</b> on <b>October 19, 2012, 05:36:02 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Psy, why do you hope Im not using TorWallet?<br /><br />Im not, but im just curious.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: 80+ confirmations, bitcoins still not showing in my online wallet</b><br />
+					Post by: <b>nomnomnom</b> on <b>October 19, 2012, 05:41:31 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">The guy who runs Torwallet is somehow missing or it was a scam, and if people try to withdraw<br />coins they just get an error message...<br /><br />From the link you posted you see the transaction seems to be fine, coins are sitting there.<br />Only the provider of the online wallet can help you here.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: 80+ confirmations, bitcoins still not showing in my online wallet</b><br />
+					Post by: <b>Raoul Duke</b> on <b>October 19, 2012, 06:12:34 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">If you disclose which online wallet it is and include its name in the thread title you might get an answer from the owner/admin.<br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: 80+ confirmations, bitcoins still not showing in my online wallet</b><br />
+					Post by: <b>BitcoinOxygen</b> on <b>October 20, 2012, 09:07:17 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=119301.msg1283893#msg1283893">Quote from: psy on October 19, 2012, 06:12:34 PM</a></div><div class="quote">If you disclose which online wallet it is and include its name in the thread title you might get an answer from the owner/admin.<br /><br /></div><br />yes maybe he is on this forum too.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: 80+ confirmations, bitcoins still not showing in my online wallet</b><br />
+					Post by: <b>MysteryMiner</b> on <b>October 20, 2012, 10:38:20 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Probably it is a Silk Road.<br /><br />The Silk Road have very good technical support. Once my coins did not appear on Silk Road account but the support was able to fix that.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: 80+ confirmations, bitcoins still not showing in my online wallet</b><br />
+					Post by: <b>GernMiester</b> on <b>October 22, 2012, 01:39:16 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">online wallet. piss my self laughing :D</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: 80+ confirmations, bitcoins still not showing in my online wallet</b><br />
+					Post by: <b>zero3112</b> on <b>October 23, 2012, 09:48:37 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Just a tip don&#039;t use an online wallet&nbsp; :-[.</div>
+					<br /><br />
+					<div align="center" class="smalltext">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank">Powered by SMF 1.1.19</a> | 
+<a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank">SMF &copy; 2006-2009, Simple Machines</a>
+		</span></div>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

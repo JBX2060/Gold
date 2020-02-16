@@ -1,0 +1,116 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+		<link rel="canonical" href="https://bitcointalk.org/index.php?topic=118790.0" />
+		<title>Print Page - Imported private key</title>
+		<style type="text/css">
+			body
+			{
+				color: black;
+				background-color: white;
+			}
+			body, td, .normaltext
+			{
+				font-family: Verdana, arial, helvetica, serif;
+				font-size: small;
+			}
+			*, a:link, a:visited, a:hover, a:active
+			{
+				color: black !important;
+			}
+			table
+			{
+				empty-cells: show;
+			}
+			.code
+			{
+				font-size: x-small;
+				font-family: monospace;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.quote
+			{
+				font-size: x-small;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.smalltext, .quoteheader, .codeheader
+			{
+				font-size: x-small;
+			}
+			.largetext
+			{
+				font-size: large;
+			}
+			hr
+			{
+				height: 1px;
+				border: 0;
+				color: black;
+				background-color: black;
+			}
+		</style>
+	</head>
+	<body>
+		<h1 class="largetext">Bitcoin Forum</h1>
+		<h2 class="normaltext">Bitcoin => Bitcoin Technical Support => Topic started by: auberon on October 16, 2012, 05:46:17 PM</h2>
+
+		<table width="90%" cellpadding="0" cellspacing="0" border="0">
+			<tr>
+				<td>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Imported private key</b><br />
+					Post by: <b>auberon</b> on <b>October 16, 2012, 05:46:17 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">This may be a strange question, so I&#039;ll explain my issue first:&nbsp; I have an online wallet, but I have run into issues using them, especially the fact I now can&#039;t seem to send any coins from it.&nbsp; It (supposedly) generates a block chain, but my balance does not get debited, and the receiver never gets the coins.&nbsp; (It receives just fine.)&nbsp; I&#039;ve tried it in different browsers and on different machines, so I&#039;m feeling confident the problem isn&#039;t me.&nbsp; That, along with the fact they periodcally have security certificate issues, has made me decide to install my own wallet on my computer.&nbsp; The thing is - I want to get my coins from the online wallet, but as just explained, I can&#039;t just send them to the new address, so I decoded the private key used by the online wallet and imported it into a new wallet in my software.&nbsp; I assumed the coins associated with that key would make their way through the chain and show up in my software&#039;s wallet, but apparently I am mistaken (at least, they haven&#039;t done so within 18 hours or so).<br /><br />Can someone explain how this works?&nbsp; It&#039;s my understanding that if you have the private key, you can send whatever bitcoins are associated with it.&nbsp; Even if the wallet I imported them into shows a balance of zero, can I still try to send the amount that <i>should</i> be there?&nbsp; Do I need to give it more time to &quot;see&quot; the coins in the wallet first?<br /><br />Thanks!</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Imported private key</b><br />
+					Post by: <b>deepceleron</b> on <b>October 16, 2012, 07:19:48 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">The &quot;wallet.dat&quot; data file maintains a current balance for your addresses. Every time that a new block is downloaded, any payment to you is noted and the balance in addresses you own is updated in this local file.<br /><br />However, if your local client is in sync, having already downloaded the entire blockchain, and you then import a private key through a third-party utility, the Bitcoin client doesn&#039;t go back in history searching for old payments to this new address. You must close Bitcoin, and relaunch it with the command-line option &quot;<b>bitcoin-qt -rescan</b>&quot;. This will start up Bitcoin in a mode where for several minutes it will re-examine the blockchain and attempt to detect any missing payments to you to correct your balance.<br /><br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Imported private key</b><br />
+					Post by: <b>auberon</b> on <b>October 16, 2012, 07:35:14 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Thanks, deepceleron.&nbsp; I&#039;ll try that tonight when I get home and see how it goes.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Imported private key</b><br />
+					Post by: <b>BitBlitz</b> on <b>October 16, 2012, 07:47:35 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">When you send coins, the wallet needs to sign the inputs.&nbsp; If the wallet does not know what the inputs are, it cannot generate a transaction.&nbsp; &nbsp; <br />If you&#039;re trying to send coins from a local wallet-- does that mean you&#039;ve imported the private key with pywallet?&nbsp; If so, use --rescan, like deepceleron mentioned.&nbsp; You should see a balance.<br /><br />Also - Have you looked up the address in blockchain.info to see if transactions are making it onto the network/blockchain?<br /><br />Not being able to send from an online wallet sounds a lot like the issue we discussed at: <br />https://bitcointalk.org/index.php?topic=104641.msg1145818#msg1145818 (https://bitcointalk.org/index.php?topic=104641.msg1145818#msg1145818)</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Imported private key</b><br />
+					Post by: <b>Stephen Gornick</b> on <b>October 16, 2012, 08:26:39 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=118790.msg1276413#msg1276413">Quote from: auberon on October 16, 2012, 05:46:17 PM</a></div><div class="quote">I have an online wallet</div><br />An online wallet is going to be either a hosted (shared) EWallet or a hybrid EWallet.<br /><br />The hosted (shared) EWallet category includes Paytunia, Instawallet, Coinbase, exchange accounts (e.g., your BTC account at Mt. Gox, Bitfloor), or accounts with specific merchants (e.g., your BTC account with bitZino, bitMit.net, etc.).<br /><br />None of these hosted wallets will provide you with the private key for your deposit addresses.<br /><br />Another type of online wallet is a hybrid EWallet where you hold the private keys but the service is used for the spend transactions. &nbsp;Examples of hybrid EWallets are Blockchain.info/wallet and StrongCoin. &nbsp; You can see your private keys for your addresses in your hybrid EWallet, and transfer these keys elsewhere.<br /><br />There are also mobile clients where the keys are stored on the mobile and not with a back-end host and the method of getting the private keys varies depending on the approach the mobile app uses.<br /><br />Which type of service are you using, a hosted (shared) EWallet or a hybrid EWallet? &nbsp;(or, for more specific assistance, what EWallet service specifically are you referring to?)<br /><br /><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=118790.msg1276413#msg1276413">Quote from: auberon on October 16, 2012, 05:46:17 PM</a></div><div class="quote">I decoded the private key used by the online wallet and imported it into a new wallet in my software.</div><br />&quot;Decoded&quot;? &nbsp;Do you simply mean that you copied the private key (or exported it) from a hybrid EWallet (e.g., Blockchain.info/wallet) and then imported that key into the Bitcoin.org client?<br /><br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Imported private key</b><br />
+					Post by: <b>auberon</b> on <b>October 16, 2012, 09:42:54 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Stephen, I use StrongCoin, and so yes, I was able to get my private key from them.&nbsp; The key is encrypted on their server, and so to obtain it they have a &quot;decode&quot; function that unencrypts it in my browser.&nbsp; I&#039;m then able to copy and paste.<br /><br />I didn&#039;t use pywallet to import the key because the client I&#039;m using (MultiBit) has its own import functionality.&nbsp; I was able to paste the key into a file which I imported into MultiBit.<br /><br />Based on that, the command line option apparently won&#039;t work (I just tried it) because that apparently must use the bitcoin daemon, which is not used by MultiBit.<br /><br />Did that help?</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Imported private key</b><br />
+					Post by: <b>auberon</b> on <b>October 16, 2012, 09:52:28 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">I just discovered MultiBit has a &quot;reset block chain and transactions&quot; option...perhaps that&#039;ll take care of things.&nbsp; I just started it, so I&#039;ll see.</div>
+					<br /><br />
+					<div align="center" class="smalltext">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank">Powered by SMF 1.1.19</a> | 
+<a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank">SMF &copy; 2006-2009, Simple Machines</a>
+		</span></div>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

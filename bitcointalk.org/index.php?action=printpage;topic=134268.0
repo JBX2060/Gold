@@ -1,0 +1,92 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+		<link rel="canonical" href="https://bitcointalk.org/index.php?topic=134268.0" />
+		<title>Print Page - Fatal error: Uncaught BitcoinClientExeception: Didn't receive 200 OK</title>
+		<style type="text/css">
+			body
+			{
+				color: black;
+				background-color: white;
+			}
+			body, td, .normaltext
+			{
+				font-family: Verdana, arial, helvetica, serif;
+				font-size: small;
+			}
+			*, a:link, a:visited, a:hover, a:active
+			{
+				color: black !important;
+			}
+			table
+			{
+				empty-cells: show;
+			}
+			.code
+			{
+				font-size: x-small;
+				font-family: monospace;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.quote
+			{
+				font-size: x-small;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.smalltext, .quoteheader, .codeheader
+			{
+				font-size: x-small;
+			}
+			.largetext
+			{
+				font-size: large;
+			}
+			hr
+			{
+				height: 1px;
+				border: 0;
+				color: black;
+				background-color: black;
+			}
+		</style>
+	</head>
+	<body>
+		<h1 class="largetext">Bitcoin Forum</h1>
+		<h2 class="normaltext">Bitcoin => Bitcoin Technical Support => Topic started by: TradeFortress &#127957; on January 02, 2013, 05:12:17 AM</h2>
+
+		<table width="90%" cellpadding="0" cellspacing="0" border="0">
+			<tr>
+				<td>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Fatal error: Uncaught BitcoinClientExeception: Didn't receive 200 OK</b><br />
+					Post by: <b>TradeFortress &#127957;</b> on <b>January 02, 2013, 05:12:17 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">I&#039;m getting this error when I try to call gettransaction with a valid TX, getreceivedbyaddress.. But I can call getblock, getaccounts, getblockhash, etc..<br /><br />What&#039;s the problem?</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Fatal error: Uncaught BitcoinClientExeception: Didn't receive 200 OK</b><br />
+					Post by: <b>gmaxwell</b> on <b>January 02, 2013, 06:01:04 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">What interface/library are you trying to use to talk to bitcoin here? More details please.<br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Fatal error: Uncaught BitcoinClientExeception: Didn't receive 200 OK</b><br />
+					Post by: <b>TradeFortress &#127957;</b> on <b>January 02, 2013, 06:06:01 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=134268.msg1429994#msg1429994">Quote from: gmaxwell on January 02, 2013, 06:01:04 AM</a></div><div class="quote">What interface/library are you trying to use to talk to bitcoin here? More details please.<br /><br /></div><br />Sorry for not including more detail, I&#039;m using bitcoin-php with some added function wrappers to match the new API calls.</div>
+					<br /><br />
+					<div align="center" class="smalltext">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank">Powered by SMF 1.1.19</a> | 
+<a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank">SMF &copy; 2006-2009, Simple Machines</a>
+		</span></div>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

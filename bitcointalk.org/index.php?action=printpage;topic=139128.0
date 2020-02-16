@@ -1,0 +1,122 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+		<link rel="canonical" href="https://bitcointalk.org/index.php?topic=139128.0" />
+		<title>Print Page - Bitcoin-qt inital start problems</title>
+		<style type="text/css">
+			body
+			{
+				color: black;
+				background-color: white;
+			}
+			body, td, .normaltext
+			{
+				font-family: Verdana, arial, helvetica, serif;
+				font-size: small;
+			}
+			*, a:link, a:visited, a:hover, a:active
+			{
+				color: black !important;
+			}
+			table
+			{
+				empty-cells: show;
+			}
+			.code
+			{
+				font-size: x-small;
+				font-family: monospace;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.quote
+			{
+				font-size: x-small;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.smalltext, .quoteheader, .codeheader
+			{
+				font-size: x-small;
+			}
+			.largetext
+			{
+				font-size: large;
+			}
+			hr
+			{
+				height: 1px;
+				border: 0;
+				color: black;
+				background-color: black;
+			}
+		</style>
+	</head>
+	<body>
+		<h1 class="largetext">Bitcoin Forum</h1>
+		<h2 class="normaltext">Bitcoin => Bitcoin Technical Support => Topic started by: rahl on January 27, 2013, 02:12:05 AM</h2>
+
+		<table width="90%" cellpadding="0" cellspacing="0" border="0">
+			<tr>
+				<td>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Bitcoin-qt inital start problems</b><br />
+					Post by: <b>rahl</b> on <b>January 27, 2013, 02:12:05 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">I have been trying to get the blockchain in various ways for about 2 weeks or something now.<br /><br />There are various problems. After 6 hours or so bitcoin-qt.exe is up to using over 2 gb of ram and then it crashes.<br /><br />The db.log file becomes huge, at one point it was over 3GB.<br /><br />The blockchain files are basically not growing at all, just the first few minutes after lauching the client it will take of then pretty much nothing happens for a very long while. I have plenty of connections and such and not done anything special with the installation on Windows 7.<br /><br />I tried decrypting my SSD and running bitcoin it without any modifications on a unencrypted SSD with 1Gbit internet connection for a few days and it was just as slow and stalling just as much. It is the latest version of the client.<br /><br /><br />On my laptop running Ubuntu I managed to get the whole thing downloaded in 3-4 days. I tried moving those files and do -loadbock with them. I ended up with a blk0001 of about 200meg, it didnt import the rest from those working blockchain files.<br /><br />Any ideas? Any more info that might be helpfull?</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Bitcoin-qt inital start problems</b><br />
+					Post by: <b>Hippie Tech</b> on <b>January 27, 2013, 03:11:54 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Hio :)<br /><br />Is your cpu and/or ram overclocked ?<br /><br />Are the motherboard&#039;s and SSD&#039;s drivers and/or bios up to date ?<br /><br />If all is good, check the sata cable(s) to make sure they are sitting flush. Something might be pulling on them.<br /><br />pEACe</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Bitcoin-qt inital start problems</b><br />
+					Post by: <b>rahl</b> on <b>January 27, 2013, 10:20:22 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Nothing overclocked and cables seems ok. <br />I am not having any bluescreens or any other problems with the computer now and it is stable for months without reboot ... so the hardware should be ok.<br /><br />The db.log is like this<br /><br />PANIC: DB_RUNRECOVERY: Fatal error, run database recovery<br />wallet.dat: unable to flush page: 91<br />txn_checkpoint: failed to flush the buffer cache: DB_RUNRECOVERY: Fatal error, run database recovery<br />PANIC: fatal region error detected; run recovery<br />then now 300mb of that last line...<br /><br />the only errors i can find in debug looks something like this and it is full of them:<br />ERROR: FetchInputs() : 0cd82b8737 mempool Tx prev not found 848af2646b<br />stored orphan tx 0cd82b8737 (mapsz 10001)<br />mapOrphan overflow, removed 1 tx<br /><br />also when I clean the datadir I can no longer use the wallet.dat because it says it is corrupted and have to restore the backup from before I replaced the SSD.<br /><br />Bitcoin-qt.exe is also crashing with unexpected runtime error when I do stuff like try to add or rename addresses or change the wallet password.<br /><br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Bitcoin-qt inital start problems</b><br />
+					Post by: <b>Hippie Tech</b> on <b>January 27, 2013, 03:25:12 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">How are the system&#039;s temperatures ?<br /><br />Some other things I would try ...<br /><br />- run everything possible as Admin or enable the hidden Admin acct and use that for all updates and installs.<br />- install and update service pack 1, .NET 4.0 and Microsoft visual C++ 2008/2010 x86/x64<br />- disable the firewall and antivirus<br />- fresh install windows</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Bitcoin-qt inital start problems</b><br />
+					Post by: <b>BookLover</b> on <b>January 27, 2013, 03:30:38 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">troubleshooting here, would you:<br />1. Shut down Bitcoin-QT.<br />2. Open task-manager and make sure bitcoin isn&#039;t running.<br />3. Then try moving everything in the C:/Users/&quot;You Username&quot;/AppData/Roaming/Bitcoin directory to a temporary location.<br />4. Start Bitcoin-QT back up.<br /><br />If it runs successfully like this then it means you have a corrupt file. </div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Bitcoin-qt inital start problems</b><br />
+					Post by: <b>rahl</b> on <b>January 27, 2013, 03:55:20 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Temperatures are fine there is almost no load on the cpu from bitcoin and very little disk and network usage also.<br />Windows was just installed, that is why the bitcoin is gone. C++ and .NET are up to date<br /><br />With a clean wallet file I don&#039;t get bitcoin crashing when chainging addresses and the likes. But I think I already tried it and the download was no different. I will try it again....<br /><br />But I still need to use my old wallet file because blockchain.info will not import all of the bitcoins from that wallet file...</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Bitcoin-qt inital start problems</b><br />
+					Post by: <b>BookLover</b> on <b>January 27, 2013, 10:48:38 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">You can import the blockchain from your other bitcoin client by selecting the option detach database on shutdown on BOTH the clients.&nbsp; Then you can simply copy the blk00x.dat and blkindex.dat files to the bitcoin directory on windows computer.<br /><br />Note: Bitcoin-QT takes longer to shut down when this option is checked so make sure bitcoin isn&#039;t running before copying the files.<br /><br />Hope this helps :)</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Bitcoin-qt inital start problems</b><br />
+					Post by: <b>Cyrus</b> on <b>January 28, 2013, 10:31:38 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Before reinstalling Windows did you happen to have 0.7.2 Beta?<br />I&#039;m not entirely sure but it may be the cause of your wallet transfer.<br />Somebody should correct me if I&#039;m wrong.</div>
+					<br /><br />
+					<div align="center" class="smalltext">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank">Powered by SMF 1.1.19</a> | 
+<a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank">SMF &copy; 2006-2009, Simple Machines</a>
+		</span></div>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

@@ -1,0 +1,152 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+		<link rel="canonical" href="https://bitcointalk.org/index.php?topic=100176.0" />
+		<title>Print Page - Question about bitcoin-addresses</title>
+		<style type="text/css">
+			body
+			{
+				color: black;
+				background-color: white;
+			}
+			body, td, .normaltext
+			{
+				font-family: Verdana, arial, helvetica, serif;
+				font-size: small;
+			}
+			*, a:link, a:visited, a:hover, a:active
+			{
+				color: black !important;
+			}
+			table
+			{
+				empty-cells: show;
+			}
+			.code
+			{
+				font-size: x-small;
+				font-family: monospace;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.quote
+			{
+				font-size: x-small;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.smalltext, .quoteheader, .codeheader
+			{
+				font-size: x-small;
+			}
+			.largetext
+			{
+				font-size: large;
+			}
+			hr
+			{
+				height: 1px;
+				border: 0;
+				color: black;
+				background-color: black;
+			}
+		</style>
+	</head>
+	<body>
+		<h1 class="largetext">Bitcoin Forum</h1>
+		<h2 class="normaltext">Bitcoin => Bitcoin Technical Support => Topic started by: SebastianJu on August 12, 2012, 05:28:37 PM</h2>
+
+		<table width="90%" cellpadding="0" cellspacing="0" border="0">
+			<tr>
+				<td>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Question about bitcoin-addresses</b><br />
+					Post by: <b>SebastianJu</b> on <b>August 12, 2012, 05:28:37 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Hello,<br /><br />i can create different bitcoin-addresses in my wallet and name them. This way i know where money came from for example, when giving out a different address to each person that wants to send you money.<br /><br />Are these addresses connectable? I mean can one see that all my addresses belong to one wallet?<br /><br />And can i send bitcoins a way that it looks like they came from another wallet? I mean i have this possibility when receiving, but not when sending bitcoins?<br /><br />Thanks!<br />Sebastian</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Question about bitcoin-addresses</b><br />
+					Post by: <b>bg002h</b> on <b>August 12, 2012, 05:48:57 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Sorta, but it&#039;s not easy. It&#039;s not like someone can just look up all your wallet addresses in the block chain...but making connections based on spending patterns and ip addresses with some degree of certainty can be done. Bitcoin isn&#039;t perfectly anonymous, but it has good enough anonymity for a reasonable number of uses. </div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Question about bitcoin-addresses</b><br />
+					Post by: <b>Portnoy</b> on <b>August 12, 2012, 05:53:38 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Go to https://blockchain.info<br />input a Bitcoin address and you can find all kinds of interesting information about it. <br /><br />Try the taint analysis for example:<br />https://blockchain.info/taint/*bitcoin address here*</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Question about bitcoin-addresses</b><br />
+					Post by: <b>SebastianJu</b> on <b>August 12, 2012, 06:39:23 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">I tested both links. The info given by the first seems to say that the address where i got money into is the same address where i send money from. So each receiveing-address in my wallet seems to be a own wallet on his own. Is that right? So when sending out all money in the wallet, and 2 addresses in my wallet have money then 2 transactions should take place. Am i right?<br /><br />Then i tested the second link, but i dont get much from the info. There are hundreds of hashes and it tells me that the address got payments from them. Thats not correct. The address only got 3 payments and these were found by the first url tool correctly. So i dont know really what the second tool provides.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Question about bitcoin-addresses</b><br />
+					Post by: <b>Topazan</b> on <b>August 13, 2012, 03:22:06 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">In my understanding, there&#039;s no such thing as a wallet as far as the blockchain is concerned.&nbsp; A wallet is just a group of addresses.<br /><br />What people are saying is that it&#039;s possible to make an educated guess about whether or not two addresses are owned by the same person by examining transfer patterns, but the answer to your question is no.&nbsp; I don&#039;t know much about this, but I would assume that making a single spend from multiple addresses simultaneously would be sort of a give away.<br /><br />If you&#039;re concerned about anonymity, look up coin mixing services like tor wallet.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Question about bitcoin-addresses</b><br />
+					Post by: <b>Ichthyo</b> on <b>August 14, 2012, 12:56:27 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">As far as the block chain is concerned, there are only addresses.<br /><br />The wallet and especially the &quot;accounts&quot; within the wallet are just a virtual structure created to support you with bookkeeping. Unfortunately the standard client has the nasty habit to draw the coins for an outgoing transaction from the existing balance of all addresses of a given &quot;account&quot;.&nbsp; Moreover, it returns some additional &quot;change amount&quot; to another address within your &quot;account&quot;. That means, in some cases the standard client might create a transaction with multiple input addresses from your wallet. For an observer from the outside, this is a sure tell sign that these source addresses used in a single transaction are under the control of a single person.<br /><br />From an anonymity viewpoint, this behaviour is especially unsettling, because, once such a combined transaction happens, this knowledge is revealed once and forever -- meaning especially that it might be possible to link past payment transactions together in hindsight. After such a link is established, a single transaction which can be associated with a real-world event or person is sufficient to give away the identity and associate all the directly connected addresses. Moreover, it is possible to do some &quot;network analysis&quot;: if there is a pool of addresses which almost ever exchange transactions only amongst themselves, it is very likely that those addresses are linked in real world, or controlled by the same person. Thus, such a de-anonymisation might cover quite some ground.<br /><br />OTOH, the fact that a transaction moves funds from address A to address B alone doesn&#039;t constitute any relation between those addresses. Thus, if you proceed carefully and never ever create a pattern which allows to link those addresses together, you&#039;re safe. Of course, this is a very weak kind of safety, since it relies on your diligence solely.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Question about bitcoin-addresses</b><br />
+					Post by: <b>SebastianJu</b> on <b>August 14, 2012, 10:23:47 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Then its really so that a payment about all the money of one wallet to another address and all the money in the wallet is stored at 2 or more addresses will create more transactions. Thats not very good and understandable that you could trace it.<br />Is there a wallet that doesnt work this way? Where every address is a wallet on its own and you have to create 2 or more transactions on your own? This way you could use different target addresses and you have a timegap in between.<br /><br />Regarding Tor Wallet... what is the security about it? Does it have anything to do with the normal Tor-Project? If so it sounds a bit dangerous because what about the server at the end? I mean cant the last server be a server in chinese and the bitcoins are routed somewhere else?<br /><br />I thought maybe one can lost traces when sending money to a new mtgox-address and then sending back to a new address in the own wallet by using green address at mtgox? But then again... it would be helpful to have a wallet whose addresses arent connected.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Question about bitcoin-addresses</b><br />
+					Post by: <b>SebastianJu</b> on <b>August 21, 2012, 05:23:51 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">How secure is it to use tor as a proxy? There is no problem known?<br /><br />If so this way the ip could be masked. And regarding the problem that one wallet will merge addresses when sending out all the money from one wallet i think a solution would be to use different portable wallets. So every wallet will get a own address and sending and receiving will go only through one address. Plus the ip shown is a tor-server which means its scrambled too.<br /><br />How anonymous could that be? Of course... buying something and putting in the address to send the goods would connect at least one hash to one person.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Question about bitcoin-addresses</b><br />
+					Post by: <b>betatest512</b> on <b>August 23, 2012, 10:40:52 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">as far as i know it is impossible<br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Question about bitcoin-addresses</b><br />
+					Post by: <b>SebastianJu</b> on <b>August 23, 2012, 12:08:16 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">What do you mean? The blockchain only has the addresses and the ips as far as i know. So when this is scrambled only the owner of a shop where you spend bitcoins and connect it with an address could know the owner of one address. Which probably would be a maximum of anonymity. More wouldnt be possible i think.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Question about bitcoin-addresses</b><br />
+					Post by: <b>Pieter Wuille</b> on <b>August 23, 2012, 04:48:10 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">The blockchain does not contain IP addresses; it doesn&#039;t need to. It is just a system for obtaining a global agreement about the order of transactions, and these transactions are between Bitcoin addresses - nothing more.<br /><br />That doesn&#039;t mean it isn&#039;t possible to infer some information by trying to localize the origin of transaction (like blockchain.info does: connect to many node, and remember where you first heard about a transaction). This isn&#039;t fool-proof, but it may give you something.<br /><br />However, even without any IP information, there are several ways for tracking coins as they pass through addresses, and deducing some information about who may be dealing with whom - especially as people put (some of) their public addresses online. Bitcoin is certainly not anonymous, but it is possible to get some privacy if you&#039;re careful.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Question about bitcoin-addresses</b><br />
+					Post by: <b>someguy123</b> on <b>August 24, 2012, 09:40:04 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">As Ichthyo has said, as the default client links addresses by mixing funds from multiple addresses, it&#039;s sometimes obvious that some addresses are owned by the same person. If you use something like Blockchain.info&#039;s wallet, or Armory (https://bitcointalk.org/index.php?topic=75647.0), you&#039;re able to choose where your funds come from, so you can have it come from only one address to avoid &quot;mixing addresses&quot;.<br /><br />With armory you even get the option to specify the &quot;change address&quot;, which prevents all of your funds going to certain change addresses which will further link back to &quot;someone&quot;</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Question about bitcoin-addresses</b><br />
+					Post by: <b>thallium205</b> on <b>August 30, 2012, 06:55:10 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Finding connected addresses has become MUCH easier with my latest tool. &nbsp;Please take a look at my post here: https://bitcointalk.org/index.php?topic=103609.0 (https://bitcointalk.org/index.php?topic=103609.0)<br /><br />Here, as an example, is wikileaks public donation address: http://blockviewer.com/#/owns/1HB5XMLmzFVj8ALj6mfBsbifRoD4miY36v (http://blockviewer.com/#/owns/1HB5XMLmzFVj8ALj6mfBsbifRoD4miY36v). &nbsp;It can be seen that over 90 addresses have also been connected to that single address. &nbsp;Be sure to click on the owner node and see where wikileaks has received money and where it has sent money.<br /><br />If you would like to try it yourself, plug in an address and under search hit &quot;Owner Address&quot; to see if your address has been added to what I call the owner network. I just launched this application like 2 days ago, so please forgive its &quot;roughness&quot;.<br /><br />I&#039;m happy to answer any questions!</div>
+					<br /><br />
+					<div align="center" class="smalltext">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank">Powered by SMF 1.1.19</a> | 
+<a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank">SMF &copy; 2006-2009, Simple Machines</a>
+		</span></div>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

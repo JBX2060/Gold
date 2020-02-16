@@ -1,0 +1,158 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+		<link rel="canonical" href="https://bitcointalk.org/index.php?topic=1799252.0" />
+		<title>Print Page - Brute forcing wallet.dat?</title>
+		<style type="text/css">
+			body
+			{
+				color: black;
+				background-color: white;
+			}
+			body, td, .normaltext
+			{
+				font-family: Verdana, arial, helvetica, serif;
+				font-size: small;
+			}
+			*, a:link, a:visited, a:hover, a:active
+			{
+				color: black !important;
+			}
+			table
+			{
+				empty-cells: show;
+			}
+			.code
+			{
+				font-size: x-small;
+				font-family: monospace;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.quote
+			{
+				font-size: x-small;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.smalltext, .quoteheader, .codeheader
+			{
+				font-size: x-small;
+			}
+			.largetext
+			{
+				font-size: large;
+			}
+			hr
+			{
+				height: 1px;
+				border: 0;
+				color: black;
+				background-color: black;
+			}
+		</style>
+	</head>
+	<body>
+		<h1 class="largetext">Bitcoin Forum</h1>
+		<h2 class="normaltext">Bitcoin => Bitcoin Technical Support => Topic started by: scutzi128 on February 21, 2017, 08:20:44 PM</h2>
+
+		<table width="90%" cellpadding="0" cellspacing="0" border="0">
+			<tr>
+				<td>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Brute forcing wallet.dat?</b><br />
+					Post by: <b>scutzi128</b> on <b>February 21, 2017, 08:20:44 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">So as would appear to be my stupidity I seem to have lost the passphrase to unlock my bitcoin wallet. I thought I had had it backed up but it would appear not :( I have plenty of backups of my wallet but they are all locked. I also have the log file from when the wallet was encrypted. I looked into unlocking it with some of the recovery tools but I believe I used a random string of characters with no &quot;passphrase&quot; My question is is it possible (please I hope so) to brute force the password. I believe the password is around 25 characters long. I don&#039;t care if it would take a long time to determine. I have a server I can dedicate to this task full time with 24 threads available to help brute force the password. Someone give me some good news please :(</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Brute forcing wallet.dat?</b><br />
+					Post by: <b>achow101</b> on <b>February 21, 2017, 08:29:56 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">With a random string of 25 characters, it is incredibly unlikely that you will be able to brute force your wallet. In fact, it is basically impossible. Unfortunately your Bitcoin is now lost.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Brute forcing wallet.dat?</b><br />
+					Post by: <b>scutzi128</b> on <b>February 21, 2017, 08:36:03 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=1799252.msg17930882#msg17930882">Quote from: achow101 on February 21, 2017, 08:29:56 PM</a></div><div class="quote">With a random string of 25 characters, it is incredibly unlikely that you will be able to brute force your wallet. In fact, it is basically impossible. Unfortunately your Bitcoin is now lost.<br /></div><br />I do believe it was only numbers and lowercase letters. Does that make it any more likely?</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Brute forcing wallet.dat?</b><br />
+					Post by: <b>achow101</b> on <b>February 21, 2017, 08:45:14 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=1799252.msg17930929#msg17930929">Quote from: scutzi128 on February 21, 2017, 08:36:03 PM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=1799252.msg17930882#msg17930882">Quote from: achow101 on February 21, 2017, 08:29:56 PM</a></div><div class="quote">With a random string of 25 characters, it is incredibly unlikely that you will be able to brute force your wallet. In fact, it is basically impossible. Unfortunately your Bitcoin is now lost.<br /></div><br />I do believe it was only numbers and lowercase letters. Does that make it any more likely?<br /></div>Still extremely unlikely given the length of the password.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Brute forcing wallet.dat?</b><br />
+					Post by: <b>DannyHamilton</b> on <b>February 21, 2017, 09:36:48 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=1799252.msg17930929#msg17930929">Quote from: scutzi128 on February 21, 2017, 08:36:03 PM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=1799252.msg17930882#msg17930882">Quote from: achow101 on February 21, 2017, 08:29:56 PM</a></div><div class="quote">With a random string of 25 characters, it is incredibly unlikely that you will be able to brute force your wallet. In fact, it is basically impossible. Unfortunately your Bitcoin is now lost.<br /></div><br />I do believe it was only numbers and lowercase letters. Does that make it any more likely?<br /></div><br />36 possible characters for each of 25 positions.<br /><br />36<sup>25</sup> = 808281277464764060643139600456536293376<br /><br />That&#039;s 8.08 X 10<sup>38</sup><br /><br />Lets assume you can try a billion passwords per second.<br />In that case it will take you 1.28 X 10<sup>22</sup> YEARS to try HALF of the possible passwords.&nbsp; At that point you&#039;ll have only a 50% chance of having stumbled across the right password.<br /><br />The more you can remember, the better your chances get.<br /><br />Any letters or numbers that you are certain aren&#039;t in the password?<br />Any letters or numbers that you are certain are in the password?<br />Are you certain whether the first character was a letter or number?<br />How about the second character (letter vs number)?<br />The last character?<br /><br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Brute forcing wallet.dat?</b><br />
+					Post by: <b>scutzi128</b> on <b>February 21, 2017, 11:06:46 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Ok so dug really deep and I was able to find my password on an old system backup (thank god). However when I try to use it it says its incorrect. So I then ran the password through btrecover with the password I found and a %P wildcard at the end. It said it found the password. The issues is it is indicated that a line return character was the missing character. How would that even be entered into the passphrase? Really appreciate any help!</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Brute forcing wallet.dat?</b><br />
+					Post by: <b>2112</b> on <b>February 22, 2017, 12:01:02 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=1799252.msg17932056#msg17932056">Quote from: scutzi128 on February 21, 2017, 11:06:46 PM</a></div><div class="quote">The issues is it is indicated that a line return character was the missing character. How would that even be entered into the passphrase? Really appreciate any help!<br /></div>That would be typically related to entering the pass-phrase from the keyboard vs cutting&amp;pasting from a text editor vs entering it from command prompt/shell prompt. It also happens oftentimes when people work with several keyboard layouts and delay lifting the finger off the AltGr/Option key: the first Enter/Return gets ignored.<br /><br />You may have also physically switched the keyboards between then and now and the new keyboard has different tactile feel, or maybe you cleaned or dirtied you keyboard. This problem mostly happen to the touch typists who don&#039;t look at the keyboard and/or screen when typing.<br /><br />Once you really think about how you typed the pass-phrase you may probably find other variables that you originally didn&#039;t notice. I&#039;m glad that you&#039;ve learned this without paying the price for the lost data and/or coins.<br />&nbsp;</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Brute forcing wallet.dat?</b><br />
+					Post by: <b>scutzi128</b> on <b>February 22, 2017, 12:19:44 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=1799252.msg17932418#msg17932418">Quote from: 2112 on February 22, 2017, 12:01:02 AM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=1799252.msg17932056#msg17932056">Quote from: scutzi128 on February 21, 2017, 11:06:46 PM</a></div><div class="quote">The issues is it is indicated that a line return character was the missing character. How would that even be entered into the passphrase? Really appreciate any help!<br /></div>That would be typically related to entering the pass-phrase from the keyboard vs cutting&amp;pasting from a text editor vs entering it from command prompt/shell prompt. It also happens oftentimes when people work with several keyboard layouts and delay lifting the finger off the AltGr/Option key: the first Enter/Return gets ignored.<br /><br />You may have also physically switched the keyboards between then and now and the new keyboard has different tactile feel, or maybe you cleaned or dirtied you keyboard. This problem mostly happen to the touch typists who don&#039;t look at the keyboard and/or screen when typing.<br /><br />Once you really think about how you typed the pass-phrase you may probably find other variables that you originally didn&#039;t notice. I&#039;m glad that you&#039;ve learned this without paying the price for the lost data and/or coins.<br />&nbsp;<br /></div><br />That makes sense. I believe I created the password in excel and copied it over to my BTC wallet but how do I enter this into the passphrase of my bitcoin client?</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Brute forcing wallet.dat?</b><br />
+					Post by: <b>2112</b> on <b>February 22, 2017, 12:32:53 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=1799252.msg17932541#msg17932541">Quote from: scutzi128 on February 22, 2017, 12:19:44 AM</a></div><div class="quote">That makes sense. I believe I created the password in excel and copied it over to my BTC wallet but how do I enter this into the passphrase of my bitcoin client?<br /></div>Only you can really answer your question. Some people cut and paste it directly to bitcoin-qt. Other cut and paste it to a command prompt window using &quot;bitcoin-cli walletpassphrase ...&quot; . It is a common problem for the users of non-US-English Windows that various things typed on the keyboard result in different characters feed to the program. Now that you mentioned a program from the Microsoft Office suite I&#039;m also aware that those programs in particular are known for creating problems by automagically changing entered texts to make them look better: e.g. &quot;smart quotes&quot;, auto ligatures (ffi, etc.) and other traps for unwary.<br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Brute forcing wallet.dat?</b><br />
+					Post by: <b>scutzi128</b> on <b>February 22, 2017, 12:45:36 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=1799252.msg17932628#msg17932628">Quote from: 2112 on February 22, 2017, 12:32:53 AM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=1799252.msg17932541#msg17932541">Quote from: scutzi128 on February 22, 2017, 12:19:44 AM</a></div><div class="quote">That makes sense. I believe I created the password in excel and copied it over to my BTC wallet but how do I enter this into the passphrase of my bitcoin client?<br /></div>Only you can really answer your question. Some people cut and paste it directly to bitcoin-qt. Other cut and paste it to a command prompt window using &quot;bitcoin-cli walletpassphrase ...&quot; . It is a common problem for the users of non-US-English Windows that various things typed on the keyboard result in different characters feed to the program. Now that you mentioned a program from the Microsoft Office suite I&#039;m also aware that those programs in particular are known for creating problems by automagically changing entered texts to make them look better: e.g. &quot;smart quotes&quot;, auto ligatures (ffi, etc.) and other traps for unwary.<br /><br /></div><br />I don&#039;t understand is a line feed not a specific character?<br /><br />EDIT: NVM I got it. Thank you so much guys for the help. I thought I was going to be sick but now I&#039;m relived.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Brute forcing wallet.dat?</b><br />
+					Post by: <b>2112</b> on <b>February 22, 2017, 01:08:21 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=1799252.msg17932682#msg17932682">Quote from: scutzi128 on February 22, 2017, 12:45:36 AM</a></div><div class="quote">I don&#039;t understand is a line feed not a specific character?<br /><br />EDIT: NVM I got it. Thank you so much guys for the help. I thought I was going to be sick but now I&#039;m relived.<br /></div>Yeah!<br /><br />For password/pass-phrase recovery the key to success is the right frame of mind. In the original btc-recover thread somebody made a good post about how to meditate to get into that state of mind one had at the time of entering that password first time.<br /><br />Microsoft Windows is particularly nasty with this regard because it is well known that the automatic driver updates may change the behavior of the keyboard/mouse/video card combination.<br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Brute forcing wallet.dat?</b><br />
+					Post by: <b>scutzi128</b> on <b>February 22, 2017, 01:14:00 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Had I not found my saved passphrase there is no way I would have been able to recover it. Unfortunately no amount of meditation would help me remember 24 completely random characters. Even after I found it I needed the &nbsp;btrecover tool to figure it out since the last character was incorrectly copied into the BTC client. I guess live and learn. Next time I&#039;ll be more careful with where I save my files and how I copy them. Thank god I take full backups of all my machines and keep them long term and there are some really smart people out there willing to help and create tools to help other people out.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Brute forcing wallet.dat?</b><br />
+					Post by: <b>2112</b> on <b>February 22, 2017, 03:09:12 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=1799252.msg17932833#msg17932833">Quote from: scutzi128 on February 22, 2017, 01:14:00 AM</a></div><div class="quote">Had I not found my saved passphrase there is no way I would have been able to recover it. Unfortunately no amount of meditation would help me remember 24 completely random characters.<br /></div>I don&#039;t want to discourage you, but I&#039;ve been to long on this forum to take &quot;completely random&quot; at the face value. Too many people here thought that they have &quot;random number generators&quot;, but the real entropy was significantly lower (e.g. under 15 or 31 bits). It has been a common problem and frequent reason of the thefts: it looked random but it wasn&#039;t.<br /><br />Since you&#039;ve admitted to using Excel I just hope that you didn&#039;t use the builtin functions to generate those &quot;completely random characters&quot;. In fact, I wanted to encourage you to read this forum and re-check the source of your randomness. In the past people here discussed the flaws in various tools (commercial and free) that purport to generate random numbers.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Brute forcing wallet.dat?</b><br />
+					Post by: <b>scutzi128</b> on <b>February 22, 2017, 03:26:38 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Well I mean random in that there was no pattern selected by me to generate the passphrase to help with brute forcing it.</div>
+					<br /><br />
+					<div align="center" class="smalltext">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank">Powered by SMF 1.1.19</a> | 
+<a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank">SMF &copy; 2006-2009, Simple Machines</a>
+		</span></div>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

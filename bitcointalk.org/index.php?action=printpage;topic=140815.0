@@ -1,0 +1,200 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+		<link rel="canonical" href="https://bitcointalk.org/index.php?topic=140815.0" />
+		<title>Print Page - Blockchain.info wallet unusable for almost 36 hours now</title>
+		<style type="text/css">
+			body
+			{
+				color: black;
+				background-color: white;
+			}
+			body, td, .normaltext
+			{
+				font-family: Verdana, arial, helvetica, serif;
+				font-size: small;
+			}
+			*, a:link, a:visited, a:hover, a:active
+			{
+				color: black !important;
+			}
+			table
+			{
+				empty-cells: show;
+			}
+			.code
+			{
+				font-size: x-small;
+				font-family: monospace;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.quote
+			{
+				font-size: x-small;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.smalltext, .quoteheader, .codeheader
+			{
+				font-size: x-small;
+			}
+			.largetext
+			{
+				font-size: large;
+			}
+			hr
+			{
+				height: 1px;
+				border: 0;
+				color: black;
+				background-color: black;
+			}
+		</style>
+	</head>
+	<body>
+		<h1 class="largetext">Bitcoin Forum</h1>
+		<h2 class="normaltext">Bitcoin => Bitcoin Technical Support => Topic started by: v3miner on February 03, 2013, 12:16:27 AM</h2>
+
+		<table width="90%" cellpadding="0" cellspacing="0" border="0">
+			<tr>
+				<td>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Blockchain.info wallet unusable for almost 36 hours now</b><br />
+					Post by: <b>v3miner</b> on <b>February 03, 2013, 12:16:27 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">I have a balance in a blockchain.info wallet and it simply will not let me send BTC out no matter what I do.<br />I figured I just needed to wait it out for something to get caught up somewhere, but it&#039;s not budging<br />I even tried importing the wallet into a new blockchain.info wallet, and to my desktop client, no dice.<br /><br />I keep getting an insufficient funds message after &quot;Getting Unspent Outputs&quot;, it says I only have .0000005 <br />in my account, although the balance shows 3.58 for more than 36 hours. It&#039;s completely jacked.<br /><br />I sent .01 BTC to myself from the desktop client and the transaction went through but it&#039;s freaking gigantic<br />with tons of extra hashes.<br /><br />I&#039;m really confused about this.<br /><br />Has anyone else had this problem?<br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Blockchain.info wallet unusable for almost 36 hours now</b><br />
+					Post by: <b>DannyHamilton</b> on <b>February 03, 2013, 02:02:59 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=140815.msg1499507#msg1499507">Quote from: v3miner on February 03, 2013, 12:16:27 AM</a></div><div class="quote">I sent .01 BTC to myself from the desktop client and the transaction went through but it&#039;s freaking gigantic<br />with tons of extra hashes.<br /></div>That happens from playing lots of SatoshiDice (or any other situation where you might receive lots of small transfers to your address).&nbsp; Each transfer that you receive has to be spent individually.&nbsp; There is no way to &quot;combine&quot; them into a single input without spending them each individually.<br /><br />Most of the bitcoin wallets require a transaction fee on any transaction that is larger than 10 kilobytes.&nbsp; I&#039;m not sure (you haven&#039;t provided enough details to tell), but I suspect that the necessary transaction fee is what is getting in the way of you sending the bitcoins.<br /><br />When you sent that &quot;freaking gigantic with tons of extra hashes&quot; transaction from the desktop client, it looks like you sent 0.01 BTC (or possibly 0.02 BTC) and paid a 0.0345 BTC transaction fee.<br /><br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Blockchain.info wallet unusable for almost 36 hours now</b><br />
+					Post by: <b>coqui33</b> on <b>February 03, 2013, 03:04:47 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=140815.msg1499677#msg1499677">Quote from: DannyHamilton on February 03, 2013, 02:02:59 AM</a></div><div class="quote">That happens from ... playing lots of SatoshiDice (or any other situation where you might receive lots of small transfers to your address). &nbsp;Each transfer that you receive has to be spent individually. &nbsp;There is no way to &quot;combine&quot; them into a single input without spending them each individually.</div>Could you please suggest a source where I could learn more about this limitation? I was thinking about accepting BTC on my book-sales website. But this will result in my receiving &quot;lots of small transfers&quot; as people buy books. The proposed change to accepting BTC on my sales website will be pointless if I cannot combine the BTC revenue into a single BTC balance, <br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Blockchain.info wallet unusable for almost 36 hours now</b><br />
+					Post by: <b>DannyHamilton</b> on <b>February 03, 2013, 03:41:24 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=140815.msg1500685#msg1500685">Quote from: coqui33 on February 03, 2013, 03:04:47 PM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=140815.msg1499677#msg1499677">Quote from: DannyHamilton on February 03, 2013, 02:02:59 AM</a></div><div class="quote">That happens from ... playing lots of SatoshiDice (or any other situation where you might receive lots of small transfers to your address). &nbsp;Each transfer that you receive has to be spent individually. &nbsp;There is no way to &quot;combine&quot; them into a single input without spending them each individually.</div>Could you please suggest a source where I could learn more about this limitation? I was thinking about accepting BTC on my book-sales website. But this will result in my receiving &quot;lots of small transfers&quot; as people buy books. The proposed change to accepting BTC on my sales website will be pointless if I cannot combine the BTC revenue into a single BTC balance, <br /></div>Bitcointalk.org is a great place to learn about it. &nbsp;I&#039;ll explain a bit below. &nbsp;Post any further questions you have about it and I&#039;m sure that someone (maybe even me) will answer.<br /><br />Lets assume for the moment that you are collecting at least the equivalent of 1 USD for each book.<br />Furthermore, lets assume every input in your wallet is one of these book sale transactions.<br /><br />At today&#039;s exchange rate, each output that you receive will be approximately 0.05 BTC.<br /><br />Now lets assume that you want to spend 50 BTC (1000 USD) from this book sales wallet to a single output address.<br /><br />Each input is approximately 180 bytes and you will need 1000 of them, so your transaction will be 180,000 bytes in size.<br />The current transaction fee is 0.0005 BTC per kilobyte. &nbsp;So you will pay about 0.09 BTC (1.80 USD) in fees to send the 50 BTC (1000 USD) transaction. This works out to approximately a 0.18% fee.<br /><br /><i>Now imagine that you are playing Satoshi Dice, where every losing bet sends 0.00000001 BTC to your wallet.<br />Imagine that you&#039;ve played a lot of Satoshi Dice and all you have left in your wallet is 0.00005 BTC (0.001 USD) of these 0.00000001 BTC outputs.<br />You decide to spend this 0.00005 BTC. &nbsp;This is <b>5,000 inputs</b> at 180 bytes each, so your transaction will be 900,000 bytes in size. &nbsp;At 0.0005 BTC per kilobyes you&#039;ll need approximately 0.45 BTC in fees to send the 0.00005 BTC.</i><br /><br />If you are really concerned about the extremely small fees that business transactions larger than 0.01 USD will eventually incur, you can make an effort to combine your outputs on a regular basis. Create a second wallet with an address you&#039;ll use as a &quot;consolidation address&quot;. &nbsp;After every 50 transactions (or something less if you prefer), send the total balance (or most of it) from the business wallet to the &quot;consolidation address&quot;. &nbsp;This will create a transaction with 50 inputs (or less if you do it more often). &nbsp;50 inputs at 180 bytes per input is 9,000 bytes, leaving 1000 bytes for your output and any overhead/headers I may not have considered. &nbsp;Since transactions less than 10,000 bytes in size don&#039;t automatically require a fee, this should consolidate the entire balance into a single output in the &quot;consolidation address&quot;. &nbsp;I suppose that every 2,500 transactions you&#039;ll want to send the balance from the &quot;consolidation address&quot; to a &quot;re-consolidation address&quot;, since at that time you&#039;ll have 50 outputs at the .consolidation address&quot;. (and after 125,000 transactions you may want to consolidate the outputs at that address?)<br /><br />Note that transactions that exceed 10,000 bytes are not the only type of transaction that incurs a fee. &nbsp;The bitcoin protocol as currently implemented in the reference client and several other wallets also demands a 0.0005 BTC fee if any output is less than 0.01 BTC. &nbsp;It also requires a fee if the inputs are not sufficiently aged. &nbsp;I&#039;m not sure, but there may be another fee trigger as well.<br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Blockchain.info wallet unusable for almost 36 hours now</b><br />
+					Post by: <b>coqui33</b> on <b>February 03, 2013, 05:18:26 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Thank you very much, DannyHamilton! Let me see if I understand.<br /><br />When address XYZ sends out its balance, the outgoing transaction is of a size such as to contain data about each of the incoming transactions that created the balance in the XYZ address.<br /><br />100 xfers --&gt; [addy1] --&gt; 1 xfer w/ 100 inputs --&gt; [addy2] --&gt; 1 xfer w/ 1 input --&gt; [addy3]<br /><br />And so, for example: One hundred 1-BTC transactions come into addy1. When addy1 sends one 100-BTC transaction (its balance) to addy2, that addy1-to-addy2 transaction&#039;s size includes info about each of the 100 inputs that came into addy1. But when addy2 sends its 100-BTC balance to addy3, the addy2-to-addy3 transaction includes only one input. Is that the way it works?<br /><br />If so, this brings up another hypothetical question. To make sure that I understood. Say that I invest in BTC with dollar-cost averaging. I buy a fixed USD value of BTC every Wednesday and put each batch of newly purchased BTC into the same address. If I spend it all after one year, the outgoing transaction will contain 52 inputs. But if I wait 10 years to spend it, the outgoing transaction will contain 520 inputs. Right?</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Blockchain.info wallet unusable for almost 36 hours now</b><br />
+					Post by: <b>DannyHamilton</b> on <b>February 03, 2013, 05:34:32 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=140815.msg1500967#msg1500967">Quote from: coqui33 on February 03, 2013, 05:18:26 PM</a></div><div class="quote">. . .When address XYZ sends out its balance, the outgoing transaction is of a size such as to contain data about each of the incoming transactions that created the balance in the XYZ address.<br /><br />100 xfers --&gt; [addy1] --&gt; 1 xfer w/ 100 inputs --&gt; [addy2] --&gt; 1 xfer w/ 1 input --&gt; [addy3]<br /><br />And so, for example: One hundred 1-BTC transactions come into addy1. When addy1 sends one 100-BTC transaction (its balance) to addy2, that addy1-to-addy2 transaction&#039;s size includes info about each of the 100 inputs that came into addy1. But when addy2 sends its 100-BTC balance to addy3, the addy2-to-addy3 transaction includes only one input. Is that the way it works? . . .<br /></div>You are starting to catch on. &nbsp;Note however, that while it is always necessary to spend any previous output in it&#039;s entirety (there is no way to only partially spend a previous output), it is not necessary to spend all the outputs associated with an address at once.<br /><br />As an example:<br />100 xfers --&gt; [addy1]<br /><br />1 xfer w/ 40 inputs from [addy1] --&gt; [addy2]<br />1 xfer w/ 40 inputs from [addy1] --&gt; [addy3]<br />(at this time [addy1] still has 20 unspent outputs)<br /><br />Also note that a transaction can use inputs from multiple addresses. &nbsp;So given the example I&#039;ve just provided above, if all 3 addresses were in the same wallet, the wallet could create the following transaction:<br /><br />1 xfer to [addy4] using:<br />10 inputs from [addy1]<br />1 input from [addy2]<br />1 input from [addy3]<br />(at this time [addy1] would still have ten unspent outputs, all outputs at [addy2] and [addy3] will have been fully spent, and [addy4] will have one new output)<br /><br /><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=140815.msg1500967#msg1500967">Quote from: coqui33 on February 03, 2013, 05:18:26 PM</a></div><div class="quote">If so, this brings up another hypothetical question. To make sure that I understood. Say that I invest in BTC with dollar-cost averaging. I buy a fixed USD value of BTC every Wednesday and put each batch of newly purchased BTC into the same address. If I spend it all after one year, the outgoing transaction will contain 52 inputs. But if I wait 10 years to spend it, the outgoing transaction will contain 520 inputs. Right?<br /></div>If you spend the entire balance in a single transaction, and that address was the only address in the wallet, and no other transactions were received to or sent from that wallet during that time, then yes you are correct. (actually, since 365 is not evenly divisable by 7 and there will be at least one and maybe two leap years, there should be a year with an extra Wednesday so after 10 years you should have as many as 521 inputs).</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Blockchain.info wallet unusable for almost 36 hours now</b><br />
+					Post by: <b>coqui33</b> on <b>February 03, 2013, 06:07:14 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Ahhh.<br /><br />You wrote, &quot;...it is always necessary to spend any previous output in its entirety (there is no way to only partially spend a previous output)...&quot;<br /><br />This is why &quot;change&quot; comes back, isn&#039;t it? The light is starting to dawn!<br /><br />The reason that I asked about addresses, rather than about wallets, is that looking only at addresses makes things easier to understand, for me at least.<br /><br />Also, I do not understand by what criteria or logic bitcoin clients choose from which address in the wallet to spend, and into which address to receive change. Until I do, I prefer to control this myself. This is not a question, simply an expression of discomfort that many wallets hide too much beneath the cowling.<br /><br />Again, thank you so much for your patient explanations.<br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Blockchain.info wallet unusable for almost 36 hours now</b><br />
+					Post by: <b>DannyHamilton</b> on <b>February 03, 2013, 06:16:26 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=140815.msg1501075#msg1501075">Quote from: coqui33 on February 03, 2013, 06:07:14 PM</a></div><div class="quote">Ahhh.<br /><br />You wrote, &quot;...it is always necessary to spend any previous output in its entirety (there is no way to only partially spend a previous output)...&quot;<br /><br />This is why &quot;change&quot; comes back, isn&#039;t it? The light is starting to dawn!<br /></div><br />Now you&#039;re really starting to catch on.<br /><br /><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=140815.msg1501075#msg1501075">Quote from: coqui33 on February 03, 2013, 06:07:14 PM</a></div><div class="quote">The reason that I asked about addresses, rather than about wallets, is that looking only at addresses makes things easier to understand, for me at least.<br /></div><br />Certainly, but it is important to remember that a wallet has multiple addresses, and unless you are using a wallet that has &quot;coin control&quot;, you don&#039;t get to choose which addresses the wallet pulls its inputs from when generating a transaction. &nbsp;It is quite likely that the wallet will pull inputs from multiple addresses (including change addresses)<br /><br /><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=140815.msg1501075#msg1501075">Quote from: coqui33 on February 03, 2013, 06:07:14 PM</a></div><div class="quote">Also, I do not understand by what criteria or logic bitcoin clients choose from which address in the wallet to spend,<br /></div><br />I&#039;m not certain exactly how the decision is coded. &nbsp;I&#039;m not happy with the current implementation in most wallets, but I&#039;m not frustrated enough with it yet to attempt to create my own algorithm.<br /><br /><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=140815.msg1501075#msg1501075">Quote from: coqui33 on February 03, 2013, 06:07:14 PM</a></div><div class="quote">and into which address to receive change.<br /></div><br />This is very dependent on the wallet. &nbsp;The reference client (Bitcoin-Qt) always gets a brand new address every time it needs a &quot;change&quot; address, and it doesn&#039;t tell the user what that address is. &nbsp;It keeps it hidden in the wallet.dat file. I believe there are other clients that allow you to specify a &quot;change&quot; address.<br /><br /><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=140815.msg1501075#msg1501075">Quote from: coqui33 on February 03, 2013, 06:07:14 PM</a></div><div class="quote">Until I do, I prefer to control this myself. This is not a question, simply an expression of discomfort that many wallets hide too much beneath the cowling.<br /></div><br />Which requires a wallet with &quot;coin control&quot; &nbsp;I&#039;m not sure if Armory, Electrum, or MultiBit allow this level of control.<br /><br /><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=140815.msg1501075#msg1501075">Quote from: coqui33 on February 03, 2013, 06:07:14 PM</a></div><div class="quote">Again, thank you so much for your patient explanations.<br /></div><br />No problem. &nbsp;Let me know if there is anything else that you need explained.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Blockchain.info wallet unusable for almost 36 hours now</b><br />
+					Post by: <b>CurbsideProphet</b> on <b>February 03, 2013, 06:29:09 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Sorry to interject, very interesting conversation.&nbsp; If this is the case, how does sites like SatoshiDice continue to function?&nbsp; Wouldn&#039;t the transaction expense be completely eating away at their profits due to the sheer volume of input/outputs?</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Blockchain.info wallet unusable for almost 36 hours now</b><br />
+					Post by: <b>DannyHamilton</b> on <b>February 03, 2013, 06:38:57 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=140815.msg1501122#msg1501122">Quote from: CurbsideProphet on February 03, 2013, 06:29:09 PM</a></div><div class="quote">Sorry to interject, very interesting conversation. &nbsp;If this is the case, how does sites like SatoshiDice continue to function? &nbsp;Wouldn&#039;t the transaction expense be completely eating away at their profits due to the sheer volume of input/outputs?<br /></div>I&#039;ve never looked too closely at how Satoshi Dice is running their business. &nbsp;I would assume that they have custom created software that generates transactions to combine the outputs from multiple bets that they win into ever larger single outputs. &nbsp;I would assume that they do this often enough to ensure that the &quot;combining&quot; transactions that they create are never larger than 10,000 bytes. &nbsp;I believe that Satoshi Dice also reduces the winning payouts by 0.0005 BTC to pay the 0.0005 BTC fee on the transactions that they send to winning players:<br /><br /><div class="quoteheader">Quote</div><div class="quote">On a win or a lose a transaction fee of 0.0005 is subtracted from the payment amount. If this makes the payment amount zero or less the payment is set to 0.00000001. In the event that the transaction costs us more to send back to you, we pay the fee over 0.0005.<br /></div><br />Note that Satoshi Dice doesn&#039;t have any 0.00000001 BTC inputs, only 0.00000001 outputs.&nbsp; The minimum bet on any of their games is 0.01 BTC, which ensures that all of their inputs are at least 0.01 BTC.&nbsp; You can combine 55 inputs of 0.01 BTC (for a total of 0.55 BTC) in a single transaction without exceeding 10 kilobytes and triggering a fee as long as the inputs are sufficiently aged and all outputs are at least 0.01.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Blockchain.info wallet unusable for almost 36 hours now</b><br />
+					Post by: <b>v3miner</b> on <b>February 03, 2013, 08:13:11 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Hey guys,<br /><br />I can&#039;t even send .01 out to any address FROM the blockchain.info wallet. I&#039;m not trying to move the entire balance.<br /><br />Are you implying that the required fee to send out .01 would be greater than the entire balance of over 3.5btc?<br /><br />I can send to it, but then it is stuck in there, so I don&#039;t necessarily want to try adding BTC in to transfer out<br />with a change address.<br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Blockchain.info wallet unusable for almost 36 hours now</b><br />
+					Post by: <b>DannyHamilton</b> on <b>February 03, 2013, 08:21:50 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=140815.msg1501331#msg1501331">Quote from: v3miner on February 03, 2013, 08:13:11 PM</a></div><div class="quote">. . . Are you implying that the required fee to send out .01 would be greater than the entire balance of over 3.5btc? . . .<br /></div><br />I was just commenting on where you said:<br /><br /><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=140815.msg1499507#msg1499507">Quote from: v3miner on February 03, 2013, 12:16:27 AM</a></div><div class="quote">. . . I sent .01 BTC to myself from the desktop client and the transaction went through but it&#039;s freaking gigantic<br />with tons of extra hashes.<br /><br />I&#039;m really confused about this . . .<br /></div><br />Explaining why your transaction was &quot;freaking gigantic with tons of extra hashes&quot; and pointing out that you paid a 0.0345 BTC fee to send that 0.01 BTC.<br /><br />I&#039;m not sure if transaction fees are the reason that you can&#039;t send from blockchain.info.&nbsp; I don&#039;t know enough about the contents of your wallet to determine that.<br /><br />You can try sending a Personal Message to piuk (https://bitcointalk.org/index.php?action=pm;sa=send;u=17928).&nbsp; He&#039;s the local blockchain.info expert.<br /><br />https://bitcointalk.org/index.php?action=pm;sa=send;u=17928<br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Blockchain.info wallet unusable for almost 36 hours now</b><br />
+					Post by: <b>v3miner</b> on <b>February 04, 2013, 12:58:40 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Yeah I PM&#039;ed him on Friday but haven&#039;t heard back yet.<br /><br />And I can see why there were a large amount of hashes there, but they would be related to my desktop client wallet, not the blockchain.info wallet receiving them, so I guess that is irrelevant.<br /><br />Thanks for your input.<br /><br /><br /><br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Blockchain.info wallet unusable for almost 36 hours now</b><br />
+					Post by: <b>v3miner</b> on <b>February 04, 2013, 05:35:46 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">I got this sorted out after experimentation. Just in case anyone else ever gets themself in this situation here&#039;s how you fix it:<br /><br />We&#039;ll call the locked up wallet: Wallet-X<br />Completely different wallet: Wallet-Y<br />We&#039;ll assume Wallet-X has only one address for sending/receiving.<br /><br />1. Create 1-2 new addresses in Wallet-X<br /><br />2. Send some BTC from Wallet-Y to one of the new Wallet-X addresses, wait for the transaction to confirm.<br /><br />3. Send a little bit of the BTC back to Wallet-Y using the Custom transaction type in the following configuration:<br />&nbsp; &nbsp; a.) Set FROM address to the NEW address that shows the BTC you just transferred<br />&nbsp; &nbsp; b.) Set the TO address to your Wallet-Y<br />&nbsp; &nbsp; c.) Set the CHANGE address to the original Wallet-X address that has the funds locked up.<br />&nbsp; &nbsp; d.) Send the transaction and wait for it to confirm.<br /><br />4. You should now be able to send the BTC that was previously locked up.<br /><br />I don&#039;t know why it&#039;s neccesary to do it this way. You would assume that it would be the same as if you sent BTC directly to the original wallet address, but it only works if it comes back as CHANGE, not a direct transaction.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Blockchain.info wallet unusable for almost 36 hours now</b><br />
+					Post by: <b>Bit_Happy</b> on <b>February 04, 2013, 05:55:21 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Thanks for the detailed info, too bad the system is so complex.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Blockchain.info wallet unusable for almost 36 hours now</b><br />
+					Post by: <b>bennett211085</b> on <b>March 17, 2013, 07:10:59 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Done that still insufficient funds when theres enough there wtf</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Blockchain.info wallet unusable for almost 36 hours now</b><br />
+					Post by: <b>Wekkel</b> on <b>March 17, 2013, 07:55:32 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=140815.msg1502174#msg1502174">Quote from: Bit_Happy on February 04, 2013, 05:55:21 AM</a></div><div class="quote">Thanks for the detailed info, too bad the system is so complex.<br /></div><br />It will be addressed in the software at some point, no doubt about it. First, it needs to become a severe limitation. I learnt the hard way too with messing up a time critical payment due to hundreds of small receipts in my wallet from bitvisitor.com.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Blockchain.info wallet unusable for almost 36 hours now</b><br />
+					Post by: <b>bennett211085</b> on <b>March 17, 2013, 09:26:09 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=140815.msg1633386#msg1633386">Quote from: Wekkel on March 17, 2013, 07:55:32 AM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=140815.msg1502174#msg1502174">Quote from: Bit_Happy on February 04, 2013, 05:55:21 AM</a></div><div class="quote">Thanks for the detailed info, too bad the system is so complex.<br /></div><br />It will be addressed in the software at some point, no doubt about it. First, it needs to become a severe limitation. I learnt the hard way too with messing up a time critical payment due to hundreds of small receipts in my wallet from bitvisitor.com.<br /></div><br />Is there anything I can do? I will get to use them at some point wont I :/</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Blockchain.info wallet unusable for almost 36 hours now</b><br />
+					Post by: <b>BlackLilac Jordan</b> on <b>March 17, 2013, 10:03:24 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=140815.msg1500743#msg1500743">Quote from: DannyHamilton on February 03, 2013, 03:41:24 PM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=140815.msg1500685#msg1500685">Quote from: coqui33 on February 03, 2013, 03:04:47 PM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=140815.msg1499677#msg1499677">Quote from: DannyHamilton on February 03, 2013, 02:02:59 AM</a></div><div class="quote">That happens from ... playing lots of SatoshiDice (or any other situation where you might receive lots of small transfers to your address). &nbsp;Each transfer that you receive has to be spent individually. &nbsp;There is no way to &quot;combine&quot; them into a single input without spending them each individually.</div>Could you please suggest a source where I could learn more about this limitation? I was thinking about accepting BTC on my book-sales website. But this will result in my receiving &quot;lots of small transfers&quot; as people buy books. The proposed change to accepting BTC on my sales website will be pointless if I cannot combine the BTC revenue into a single BTC balance, <br /></div>Bitcointalk.org is a great place to learn about it. &nbsp;I&#039;ll explain a bit below. &nbsp;Post any further questions you have about it and I&#039;m sure that someone (maybe even me) will answer.<br /><br />Lets assume for the moment that you are collecting at least the equivalent of 1 USD for each book.<br />Furthermore, lets assume every input in your wallet is one of these book sale transactions.<br /><br />At today&#039;s exchange rate, each output that you receive will be approximately 0.05 BTC.<br /><br />Now lets assume that you want to spend 50 BTC (1000 USD) from this book sales wallet to a single output address.<br /><br />Each input is approximately 180 bytes and you will need 1000 of them, so your transaction will be 180,000 bytes in size.<br />The current transaction fee is 0.0005 BTC per kilobyte. &nbsp;So you will pay about 0.09 BTC (1.80 USD) in fees to send the 50 BTC (1000 USD) transaction. This works out to approximately a 0.18% fee.<br /><br /><i>Now imagine that you are playing Satoshi Dice, where every losing bet sends 0.00000001 BTC to your wallet.<br />Imagine that you&#039;ve played a lot of Satoshi Dice and all you have left in your wallet is 0.00005 BTC (0.001 USD) of these 0.00000001 BTC outputs.<br />You decide to spend this 0.00005 BTC. &nbsp;This is <b>5,000 inputs</b> at 180 bytes each, so your transaction will be 900,000 bytes in size. &nbsp;At 0.0005 BTC per kilobyes you&#039;ll need approximately 0.45 BTC in fees to send the 0.00005 BTC.</i><br /><br />If you are really concerned about the extremely small fees that business transactions larger than 0.01 USD will eventually incur, you can make an effort to combine your outputs on a regular basis. Create a second wallet with an address you&#039;ll use as a &quot;consolidation address&quot;. &nbsp;After every 50 transactions (or something less if you prefer), send the total balance (or most of it) from the business wallet to the &quot;consolidation address&quot;. &nbsp;This will create a transaction with 50 inputs (or less if you do it more often). &nbsp;50 inputs at 180 bytes per input is 9,000 bytes, leaving 1000 bytes for your output and any overhead/headers I may not have considered. &nbsp;Since transactions less than 10,000 bytes in size don&#039;t automatically require a fee, this should consolidate the entire balance into a single output in the &quot;consolidation address&quot;. &nbsp;I suppose that every 2,500 transactions you&#039;ll want to send the balance from the &quot;consolidation address&quot; to a &quot;re-consolidation address&quot;, since at that time you&#039;ll have 50 outputs at the .consolidation address&quot;. (and after 125,000 transactions you may want to consolidate the outputs at that address?)<br /><br />Note that transactions that exceed 10,000 bytes are not the only type of transaction that incurs a fee. &nbsp;The bitcoin protocol as currently implemented in the reference client and several other wallets also demands a 0.0005 BTC fee if any output is less than 0.01 BTC. &nbsp;It also requires a fee if the inputs are not sufficiently aged. &nbsp;I&#039;m not sure, but there may be another fee trigger as well.<br /><br /></div><br />Thanks for the information, very helpful.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Blockchain.info wallet unusable for almost 36 hours now</b><br />
+					Post by: <b>bennett211085</b> on <b>March 17, 2013, 10:25:51 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">What should I do then? Come on dumb it down a bit for me. How do I make my wallet work sgain??</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Blockchain.info wallet unusable for almost 36 hours now</b><br />
+					Post by: <b>piuk</b> on <b>March 17, 2013, 11:47:53 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Most errors related to this issue should be fixed now. Anyone still experiencing this problem please PM me your bitcoin address(s) and the amount your are trying to send.</div>
+					<br /><br />
+					<div align="center" class="smalltext">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank">Powered by SMF 1.1.19</a> | 
+<a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank">SMF &copy; 2006-2009, Simple Machines</a>
+		</span></div>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

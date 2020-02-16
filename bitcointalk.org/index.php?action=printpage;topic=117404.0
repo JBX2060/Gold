@@ -1,0 +1,134 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+		<link rel="canonical" href="https://bitcointalk.org/index.php?topic=117404.0" />
+		<title>Print Page - can i make bitcoin-qt to make more than 8 connection?</title>
+		<style type="text/css">
+			body
+			{
+				color: black;
+				background-color: white;
+			}
+			body, td, .normaltext
+			{
+				font-family: Verdana, arial, helvetica, serif;
+				font-size: small;
+			}
+			*, a:link, a:visited, a:hover, a:active
+			{
+				color: black !important;
+			}
+			table
+			{
+				empty-cells: show;
+			}
+			.code
+			{
+				font-size: x-small;
+				font-family: monospace;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.quote
+			{
+				font-size: x-small;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.smalltext, .quoteheader, .codeheader
+			{
+				font-size: x-small;
+			}
+			.largetext
+			{
+				font-size: large;
+			}
+			hr
+			{
+				height: 1px;
+				border: 0;
+				color: black;
+				background-color: black;
+			}
+		</style>
+	</head>
+	<body>
+		<h1 class="largetext">Bitcoin Forum</h1>
+		<h2 class="normaltext">Bitcoin => Bitcoin Technical Support => Topic started by: betatest512 on October 09, 2012, 02:29:40 PM</h2>
+
+		<table width="90%" cellpadding="0" cellspacing="0" border="0">
+			<tr>
+				<td>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>can i make bitcoin-qt to make more than 8 connection?</b><br />
+					Post by: <b>betatest512</b> on <b>October 09, 2012, 02:29:40 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">can i make bitcoin-qt to make more than 8 connection?<br /><br />can i make it to make 20 connection&#039;s<br /><br />because download of the block chain is very slow</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: can i make bitcoin-qt to make more than 8 connection?</b><br />
+					Post by: <b>gweedo</b> on <b>October 09, 2012, 02:41:28 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">but downloading the block chain isn&#039;t what makes it slow, it is the verification which is hindered by your CPU and IO js adding more nodes wouldn&#039;t make a difference.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: can i make bitcoin-qt to make more than 8 connection?</b><br />
+					Post by: <b>betatest512</b> on <b>October 09, 2012, 02:51:51 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=117404.msg1259161#msg1259161">Quote from: subSTRATA on October 09, 2012, 02:47:03 PM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=117404.msg1259114#msg1259114">Quote from: betatest512 on October 09, 2012, 02:29:40 PM</a></div><div class="quote">can i make bitcoin-qt to make more than 8 connection?<br /><br />can i make it to make 20 connection&#039;s<br /><br />because download of the block chain is very slow<br /></div><br />Number of connections goes up with time. Initially it&#039;s just 8, but after few hours you should be have much more connections.<br /></div><br />it has been 6 hours till now and only 8 connection<br /><br />is there a way to get more connection&#039;s</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: can i make bitcoin-qt to make more than 8 connection?</b><br />
+					Post by: <b>CIYAM</b> on <b>October 09, 2012, 02:53:51 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=117404.msg1259175#msg1259175">Quote from: betatest512 on October 09, 2012, 02:51:51 PM</a></div><div class="quote">is there a way to get more connection&#039;s<br /></div><br />As was stated - this won&#039;t increase the speed of your blockchain download at all.<br /><br />If you want to download it faster then better to download it as a file (that can be done from various sites) - although I guess it&#039;s now two files not one.<br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: can i make bitcoin-qt to make more than 8 connection?</b><br />
+					Post by: <b>RodeoX</b> on <b>October 09, 2012, 03:29:15 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">You might be firewalled. 8 is all I have ever been able to get without tweaking. I find 8 to be enough. </div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: can i make bitcoin-qt to make more than 8 connection?</b><br />
+					Post by: <b>EhVedadoOAnonimato</b> on <b>October 09, 2012, 03:35:17 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">I have the impression that, if your node is not listening to incoming connections, bitcoind will not attempt to establish more than 8.<br />Can some one confirm that?<br /><br />OP, if you <i>want</i> to listen to income connections, maybe you should check if port 8333 is open in your firewall. In case you have a router/NAT, redirect its 8333 to your computer&#039;s 8333.<br />If you don&#039;t know what the hell I&#039;m talking about, just ignore this and be happy with 8 connections, it&#039;s enough, and it&#039;s not the reason for the slow blockchain download as others have pointed. It&#039;s IO more than anything.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: can i make bitcoin-qt to make more than 8 connection?</b><br />
+					Post by: <b>Stephen Gornick</b> on <b>October 09, 2012, 08:46:26 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=117404.msg1259316#msg1259316">Quote from: EhVedadoOAnonimato on October 09, 2012, 03:35:17 PM</a></div><div class="quote">I have the impression that, if your node is not listening to incoming connections, bitcoind will not attempt to establish more than 8.<br />Can some one confirm that?<br /></div><br />Correct. The Bitcoin.org client will made eight outgoing connections.&nbsp; So either the client isn&#039;t configured for UPnP or the network doesn&#039;t support it or the network (or local system&#039;s software firewall) is restricting port 8333 traffic from reaching the client.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: can i make bitcoin-qt to make more than 8 connection?</b><br />
+					Post by: <b>zvs</b> on <b>October 10, 2012, 10:06:40 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=117404.msg1259180#msg1259180">Quote from: CIYAM Pty. Ltd. on October 09, 2012, 02:53:51 PM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=117404.msg1259175#msg1259175">Quote from: betatest512 on October 09, 2012, 02:51:51 PM</a></div><div class="quote">is there a way to get more connection&#039;s<br /></div><br />As was stated - this won&#039;t increase the speed of your blockchain download at all.<br /><br />If you want to download it faster then better to download it as a file (that can be done from various sites) - although I guess it&#039;s now two files not one.<br /><br /></div>if you want to download it faster, you just use the -connect option and connect with a fast peer, someone hosted at ovh or hetzner or something.<br /><br />i had mine set to deliver 5000 blocks at once, because of the bug where ppl request blocks over and over and over.&nbsp; with 5000 at once, it&#039;ll cause most of the clients to ban you for &#039;flooding&#039;.&nbsp; there were a few ppl that got up to 130000 pretty fast, though</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: can i make bitcoin-qt to make more than 8 connection?</b><br />
+					Post by: <b>betatest512</b> on <b>October 10, 2012, 11:34:20 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=117404.msg1261817#msg1261817">Quote from: zvs on October 10, 2012, 10:06:40 AM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=117404.msg1259180#msg1259180">Quote from: CIYAM Pty. Ltd. on October 09, 2012, 02:53:51 PM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=117404.msg1259175#msg1259175">Quote from: betatest512 on October 09, 2012, 02:51:51 PM</a></div><div class="quote">is there a way to get more connection&#039;s<br /></div><br />As was stated - this won&#039;t increase the speed of your blockchain download at all.<br /><br />If you want to download it faster then better to download it as a file (that can be done from various sites) - although I guess it&#039;s now two files not one.<br /><br /></div>if you want to download it faster, you just use the -connect option and connect with a fast peer, someone hosted at ovh or hetzner or something.<br /><br />i had mine set to deliver 5000 blocks at once, because of the bug where ppl request blocks over and over and over.&nbsp; with 5000 at once, it&#039;ll cause most of the clients to ban you for &#039;flooding&#039;.&nbsp; there were a few ppl that got up to 130000 pretty fast, though<br /></div><br /><br />how can i set my bitcoin-qt to send more block&#039;s?</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: can i make bitcoin-qt to make more than 8 connection?</b><br />
+					Post by: <b>Stephen Gornick</b> on <b>October 10, 2012, 11:41:27 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=117404.msg1261943#msg1261943">Quote from: betatest512 on October 10, 2012, 11:34:20 AM</a></div><div class="quote">how can i set my bitcoin-qt to send more block&#039;s?<br /></div><br />You can establish more connections by increasing maxconnections (above default of 125):<br />&nbsp;- http://en.bitcoin.it/wiki/Running_Bitcoin#Command-line_arguments<br /><br />That will let you serve a larger number of requests, and thus spew more blocks than a smaller limit might.</div>
+					<br /><br />
+					<div align="center" class="smalltext">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank">Powered by SMF 1.1.19</a> | 
+<a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank">SMF &copy; 2006-2009, Simple Machines</a>
+		</span></div>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

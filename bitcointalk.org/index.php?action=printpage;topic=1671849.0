@@ -1,0 +1,86 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+		<link rel="canonical" href="https://bitcointalk.org/index.php?topic=1671849.0" />
+		<title>Print Page - Extract all private keys from wallet.dat automatically </title>
+		<style type="text/css">
+			body
+			{
+				color: black;
+				background-color: white;
+			}
+			body, td, .normaltext
+			{
+				font-family: Verdana, arial, helvetica, serif;
+				font-size: small;
+			}
+			*, a:link, a:visited, a:hover, a:active
+			{
+				color: black !important;
+			}
+			table
+			{
+				empty-cells: show;
+			}
+			.code
+			{
+				font-size: x-small;
+				font-family: monospace;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.quote
+			{
+				font-size: x-small;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.smalltext, .quoteheader, .codeheader
+			{
+				font-size: x-small;
+			}
+			.largetext
+			{
+				font-size: large;
+			}
+			hr
+			{
+				height: 1px;
+				border: 0;
+				color: black;
+				background-color: black;
+			}
+		</style>
+	</head>
+	<body>
+		<h1 class="largetext">Bitcoin Forum</h1>
+		<h2 class="normaltext">Bitcoin => Development &amp; Technical Discussion => Topic started by: DaveF on November 05, 2016, 08:29:08 PM</h2>
+
+		<table width="90%" cellpadding="0" cellspacing="0" border="0">
+			<tr>
+				<td>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Extract all private keys from wallet.dat automatically </b><br />
+					Post by: <b>DaveF</b> on <b>November 05, 2016, 08:29:08 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">I tried a search and could not find an answer.<br /><br />Is there a way to pull all the private keys that are in a wallet automatically?<br /><br />I have several wallets that have from 7 or 8 addresses in them to some older ones with 100s of addresses. I want to move them all into 1 new wallet.<br />I know I can do them one at a time, but that will take days and I&#039;ll always have the fear that I missed one. <br />Most of the addresses are dead, some have some dust but a few get some random payments now and then. So its worth some time and effort to move them.<br /><br />Thanks,<br />Dave<br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Extract all private keys from wallet.dat automatically </b><br />
+					Post by: <b>achow101</b> on <b>November 05, 2016, 09:14:25 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">The <tt>dumpwallet</tt> rpc command exports all of the keys to a human readable text file. You can then use a script to import all of those private keys into your new wallet.</div>
+					<br /><br />
+					<div align="center" class="smalltext">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank">Powered by SMF 1.1.19</a> | 
+<a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank">SMF &copy; 2006-2009, Simple Machines</a>
+		</span></div>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

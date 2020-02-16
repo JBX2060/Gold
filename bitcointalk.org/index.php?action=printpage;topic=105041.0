@@ -1,0 +1,170 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+		<link rel="canonical" href="https://bitcointalk.org/index.php?topic=105041.0" />
+		<title>Print Page - Bets stuck in SatoshiDice for weeks. </title>
+		<style type="text/css">
+			body
+			{
+				color: black;
+				background-color: white;
+			}
+			body, td, .normaltext
+			{
+				font-family: Verdana, arial, helvetica, serif;
+				font-size: small;
+			}
+			*, a:link, a:visited, a:hover, a:active
+			{
+				color: black !important;
+			}
+			table
+			{
+				empty-cells: show;
+			}
+			.code
+			{
+				font-size: x-small;
+				font-family: monospace;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.quote
+			{
+				font-size: x-small;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.smalltext, .quoteheader, .codeheader
+			{
+				font-size: x-small;
+			}
+			.largetext
+			{
+				font-size: large;
+			}
+			hr
+			{
+				height: 1px;
+				border: 0;
+				color: black;
+				background-color: black;
+			}
+		</style>
+	</head>
+	<body>
+		<h1 class="largetext">Bitcoin Forum</h1>
+		<h2 class="normaltext">Bitcoin => Bitcoin Technical Support => Topic started by: UnitClick on August 31, 2012, 05:33:47 PM</h2>
+
+		<table width="90%" cellpadding="0" cellspacing="0" border="0">
+			<tr>
+				<td>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Bets stuck in SatoshiDice for weeks. </b><br />
+					Post by: <b>UnitClick</b> on <b>August 31, 2012, 05:33:47 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">I&#039;ve had a few unconfirmed SatoshiDice bets for a couple weeks. My bitcoin wallet is fully updated and the blockchain is fully downloaded. I tried looking up the transactions in Blockchain and SatoshiDice, with no results. It&#039;s almost as if the transaction hasn&#039;t been broadcast, although when I&#039;ve had that in the past it said (Not Broadcast) beside the transaction.<br /><br />I tried PMing evorhees (Owner of SatoshiDice), and he kinda blew me off with &#039;There&#039;s no proof of the transaction&#039;. I asked him what the acceptable methods of giving proof were, and no reply. This is a very real problem, I have 22BTC tied up in this glitch. That&#039;s $235 USD.<br /><br />I&#039;m not sure what to do here. If it&#039;s a problem with SatoshiDice, it looks like I&#039;m SOL. Could it be a client side bug? How would I go about resetting my bitcoin client without losing these &#039;in limbo&#039; transactions?<br /><br />Screenshots: http://imgur.com/a/UTa4X<br />SatoshiDice Links to transactions: <br /><span style="text-decoration: underline;">.5 BTC bets</span><br />1. http://www.satoshidice.com/lookup.php?tx=eb68ffbcc9b7b032f8b7716a5efed4a5440372b5007b7e88e76931ed1e19adc0<br />2. http://www.satoshidice.com/lookup.php?tx=12449e6e3786d153f47d511fdae35da157c7f79428816857ea16df00371e97b2<br />3. http://www.satoshidice.com/lookup.php?tx=106308e0b2f70aac959545ab91ae9d3200969b6fb1cf8a4734b0a3945939885e<br />4. http://www.satoshidice.com/lookup.php?tx=ed63bd2052588d4e764d2ebbf933990a48ce24f1adffc5b6cf13fb3e4aefbc72<br />5. http://www.satoshidice.com/lookup.php?tx=5f47d2946054d3c73478f2f79fe8a4f5d88f05cba40586a8005cbdbf8db94f0b<br />6. http://www.satoshidice.com/lookup.php?tx=94e3e903796cdc3a6685a3038b7651451c0c36c4fef4c797efce3d8571cc2dc4<br />7. http://www.satoshidice.com/lookup.php?tx=44af18a085e79fe30da5b1e5e1985c140a52a72bcbebab25624344bad5b8b2b1<br />8. http://www.satoshidice.com/lookup.php?tx=7316fc156e50dc49114edd57b725ef6dae613ef57b7ffe2def118144809137ca<br /><br /><span style="text-decoration: underline;">1 BTC bets</span><br />1. http://www.satoshidice.com/lookup.php?tx=dd46711aa5a24f90ccc995e6aafd713f3009f0077650379dd476cdf6ea951343<br />2. http://www.satoshidice.com/lookup.php?tx=158d3c490498d8958134519a01eb0a316f1b86f2d836bc1b3a18ff0479bd92ed<br />3. http://www.satoshidice.com/lookup.php?tx=1edcfde2ddc8e3e93788dd764e1a7cdef4bf6d7fc9e3e906c946429aa5128624<br />4. http://www.satoshidice.com/lookup.php?tx=a722dc1b39c3ef411d4f9d2231b5a0348a2afa1744dd42af816b12782232e8fc<br /><br /><span style="text-decoration: underline;">2 BTC bets</span><br />1. http://www.satoshidice.com/lookup.php?tx=ed45098b21b64827443e98def0386487f6e4f47f2e1cc1385e1883f43106214a<br />2. http://www.satoshidice.com/lookup.php?tx=e82c3b5f38f516040464113184aebd733ff9f64cd3d222eae05e00bb2a3d3811<br />3. http://www.satoshidice.com/lookup.php?tx=217a29946c9331a7276f92d6cf0bc1221d52c8e2d47c94b4a280043c6e300980<br /><br /><span style="text-decoration: underline;">8 BTC bet</span><br />1. http://www.satoshidice.com/lookup.php?tx=8c8a85846b2c2e28abe5e96c00d7a24c7a97c6b84f4577445a040a6208571395<br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Bets stuck in SatoshiDice for weeks. </b><br />
+					Post by: <b>Stephen Gornick</b> on <b>August 31, 2012, 08:03:10 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=105041.msg1149935#msg1149935">Quote from: UnitClick on August 31, 2012, 05:33:47 PM</a></div><div class="quote">How would I go about resetting my bitcoin client without losing these &#039;in limbo&#039; transactions?</div><br />SatoshiDICE never got the transactions because they were never accepted by the network. &nbsp;There is nothing SatoshiDICE can or should do as the Bitcoin transactions for your wagers never confirmed.<br /><br />Now why this is happening?<br /><br />What appears to be happening is that your client has some double spend transactions. <br /><br />That can happen a few ways accidentally (e.g., you have two copies of your wallet.dat and are making spend transactions from both) or purposely (you have a script that tries to wager with SatoshiDICE and then also attempt to double spend the bets that lose via race attack, Finney attack, etc. &nbsp; There are even situations where if you were specifically targeted, you could see funds on one confirmation but then when you spend them they are invalid -- but that is pretty easily preventable. &nbsp;Here are the various methods:<br /><br />&nbsp;- https://en.bitcoin.it/wiki/Double-spending#Attack_vectors<br /><br />So, the end result is you have wagers that never got processed and never will. <br /><br />Unfortunately, the Bitcoin.org client doesn&#039;t deal well with these -- there is no way to manually remove the transactions using bitcoind.<br /><br />The easiest thing to do would be to send your remaining funds to a new address in a new wallet and start clean.<br /><br />A way to fix the wallet you have involves perofrming wallet surgery to remove the offending private keys (using pywallet) and then rescan.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Bets stuck in SatoshiDice for weeks. </b><br />
+					Post by: <b>Stephen Gornick</b> on <b>August 31, 2012, 08:14:32 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=105041.msg1150330#msg1150330">Quote from: Stephen Gornick on August 31, 2012, 08:03:10 PM</a></div><div class="quote">The easiest thing to do would be to send your remaining funds to a new address in a new wallet and start clean.<br /></div><br />I was making the assumption that the transactions aren&#039;t being accepted by the network because they are invalid, and thus have no value. &nbsp;I forgot though that if the transaction includes multiple inputs but includes even one that is invalid, the client will reject the entire transaction. &nbsp;<br /><br />So it is possible that you still have some of the coins yet, just that the client isn&#039;t giving access to them due to them being locked up in these transactions with invalid inputs.<br /><br />Thus simply exporting the private keys and importing them into a new wallet.dat would solve that.<br /><br />The lazy person&#039;s solution is to use Mt. Gox&#039;s &quot;upload wallet.dat&quot; method and let that redeem your funds for you into your account. <br /><br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Bets stuck in SatoshiDice for weeks. </b><br />
+					Post by: <b>UnitClick</b> on <b>September 03, 2012, 09:14:30 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=105041.msg1150330#msg1150330">Quote from: Stephen Gornick on August 31, 2012, 08:03:10 PM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=105041.msg1149935#msg1149935">Quote from: UnitClick on August 31, 2012, 05:33:47 PM</a></div><div class="quote">How would I go about resetting my bitcoin client without losing these &#039;in limbo&#039; transactions?</div><br />SatoshiDICE never got the transactions because they were never accepted by the network. &nbsp;There is nothing SatoshiDICE can or should do as the Bitcoin transactions for your wagers never confirmed.<br /><br />Now why this is happening?<br /><br />What appears to be happening is that your client has some double spend transactions. <br /><br />That can happen a few ways accidentally (e.g., you have two copies of your wallet.dat and are making spend transactions from both) or purposely (you have a script that tries to wager with SatoshiDICE and then also attempt to double spend the bets that lose via race attack, Finney attack, etc. &nbsp; There are even situations where if you were specifically targeted, you could see funds on one confirmation but then when you spend them they are invalid -- but that is pretty easily preventable. &nbsp;Here are the various methods:<br /><br />&nbsp;- https://en.bitcoin.it/wiki/Double-spending#Attack_vectors<br /><br />So, the end result is you have wagers that never got processed and never will. <br /><br />Unfortunately, the Bitcoin.org client doesn&#039;t deal well with these -- there is no way to manually remove the transactions using bitcoind.<br /><br />The easiest thing to do would be to send your remaining funds to a new address in a new wallet and start clean.<br /><br />A way to fix the wallet you have involves perofrming wallet surgery to remove the offending private keys (using pywallet) and then rescan.<br /></div><br />My wallet was only ever used on one computer, and I haven&#039;t been making intentional double spends. No scripts either. <br /><br />If this is a double spend issue is it possible to get my coins back using pywallet, or are they lost for good? Could you go into a little more detail on how I can remove these private keys using pywallet?</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Bets stuck in SatoshiDice for weeks. </b><br />
+					Post by: <b>Stephen Gornick</b> on <b>September 04, 2012, 06:48:59 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=105041.msg1157685#msg1157685">Quote from: UnitClick on September 03, 2012, 09:14:30 PM</a></div><div class="quote">If this is a double spend issue is it possible to get my coins back using pywallet, <br /></div><br />If there are unspent funds for any addresses, you can transfer those keys to a new wallet, rescan, and the funds will show and can be spent. &nbsp; You don&#039;t need pywallet for doing this, standard bitcoind has everything you need.<br /><br />Step 1.) Make sure you have a good backup of your existing wallet.<br /><br />Step 2.) Extract keys from existing wallet.<br />&nbsp;- http://bitcoin.stackexchange.com/a/3532/153 &nbsp;(first set of instructions)<br /><br />Step 3.) Close the client, move existing wallet out of the way, and relaunch which creates a new, empt wallet.<br /><br />Step 4.) Import keys <br />&nbsp;- http://bitcoin.stackexchange.com/a/3532/153 &nbsp;(second set of instructions)<br /><br />I don&#039;t remember if you need to start the client with -rescan after.&nbsp; It doesn&#039;t hurt if you do.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Bets stuck in SatoshiDice for weeks. </b><br />
+					Post by: <b>UnitClick</b> on <b>September 04, 2012, 05:59:16 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=105041.msg1158613#msg1158613">Quote from: Stephen Gornick on September 04, 2012, 06:48:59 AM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=105041.msg1157685#msg1157685">Quote from: UnitClick on September 03, 2012, 09:14:30 PM</a></div><div class="quote">If this is a double spend issue is it possible to get my coins back using pywallet, <br /></div><br />If there are unspent funds for any addresses, you can transfer those keys to a new wallet, rescan, and the funds will show and can be spent. &nbsp; You don&#039;t need pywallet for doing this, standard bitcoind has everything you need.<br /><br />Step 1.) Make sure you have a good backup of your existing wallet.<br /><br />Step 2.) Extract keys from existing wallet.<br />&nbsp;- http://bitcoin.stackexchange.com/a/3532/153 &nbsp;(first set of instructions)<br /><br />Step 3.) Close the client, move existing wallet out of the way, and relaunch which creates a new, empt wallet.<br /><br />Step 4.) Import keys <br />&nbsp;- http://bitcoin.stackexchange.com/a/3532/153 &nbsp;(second set of instructions)<br /><br />I don&#039;t remember if you need to start the client with -rescan after.&nbsp; It doesn&#039;t hurt if you do.<br /></div><br />I&#039;m not the most technically inclined person, you&#039;re going to have to explain it in a little more detail.&nbsp; :)<br /><br />From what I&#039;ve gathered bitcoind is a command line bitcoin client. Is it bundled with bitcoin Qt, or do I have to download it seperately? If it&#039;s bundled, where would I go about finding and starting it on mac OSX? </div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Bets stuck in SatoshiDice for weeks. </b><br />
+					Post by: <b>Stephen Gornick</b> on <b>September 04, 2012, 10:06:25 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=105041.msg1159661#msg1159661">Quote from: UnitClick on September 04, 2012, 05:59:16 PM</a></div><div class="quote">From what I&#039;ve gathered bitcoind is a command line bitcoin client. Is it bundled with bitcoin Qt, or do I have to download it seperately? If it&#039;s bundled, where would I go about finding and starting it on mac OSX? <br /></div><br />While you can configure Bitcoin-qt on OS/X to run as a server, bitcoind gives you a method to make the API calls from the command line.<br /><br />If you had a bitcoind, then these would be the steps:<br /><br />Step 0.) of course,,, ... make a backup of your wallet.dat files (even the new one before you have any transactions).<br /><br />1.) Configure bitcoin.conf with rpcuser=, rpcpassword= and server= so that you can access the API from command line bitcoind.<br /><br />2.) Run bitcoind &nbsp;(or Bitcoin-qt with -server )<br /><br />3.) <br />&nbsp;$ ~/bin/bitcoind -rpcuser=myuser -rpcpassword=mypassword listaccounts<br /><br />for each of those accounts, do a getaddressesbyaccount. &nbsp;For example, for the default account (&quot;&quot;):<br /><br />&nbsp;$ ~/bin/bitcoind -rpcuser=myuser -rpcpassword=mypassword getaddressesbyaccount &quot;&quot;<br /><br />Then get the private key (dumpprivkey ) for each of those addresses. &nbsp;e.g., for 1PC9aZC4hNX2rmmrt7uHTfYAS3hRbph4UN do:<br /><br />&nbsp;./bitcoind -rpcuser=myuser -rpcpassword=mypassword dumpprivkey &nbsp;1PC9aZC4hNX2rmmrt7uHTfYAS3hRbph4UN<br /><br /><br />4.) Then with the new, empty wallet, do the same steps 1-3. &nbsp;then importprivkey for each.<br /><br /><br />Now this can be automated with a script if needed. &nbsp;Also if you have wallet encryption enabled, you&#039;ll need to issue the RPC command walletpassphrase &nbsp;to make it so subsequent commands are accepted /<br /><br />5.) Remove or replace bitcoin.conf so that you aren&#039;t leaving RPC enabled if you weren&#039;t previously using it.<br /><br />This is not something non-technical people are expected to need to do. &nbsp; You may wish to contract with someone (reputable) recover these funds. From an export of the addresses it can be determined how much in unspent funds you have in that wallet.&nbsp; As far as a possible explanation of how this scenario you are in could happen, see issue #1428:<br />&nbsp;- https://github.com/bitcoin/bitcoin/issues/1428<br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Bets stuck in SatoshiDice for weeks. </b><br />
+					Post by: <b>UnitClick</b> on <b>September 04, 2012, 10:45:43 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Wow, I have to say that a good 50% of that goes way over my head, and I don&#039;t want to screw anything up. You&#039;re pretty reputable, would you be willing to recover these double spends? I&#039;d be willing to pay you 2BTC if you&#039;re successful. <br /><br />Let me know what you think.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Bets stuck in SatoshiDice for weeks. </b><br />
+					Post by: <b>Stephen Gornick</b> on <b>September 06, 2012, 11:29:56 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=105041.msg1160412#msg1160412">Quote from: UnitClick on September 04, 2012, 10:45:43 PM</a></div><div class="quote">Wow, I have to say that a good 50% of that goes way over my head, and I don&#039;t want to screw anything up.</div><br />Is your wallet passphrase encrypted?&nbsp; &nbsp; If so, at least steps 1-3 can be done and tell you how much of unspent funds there are.&nbsp; Since the funds can&#039;t be spent without the passphrase the wallet can be shared without requiring a high level of trust.&nbsp; <br /><br />If you do have it encrypted, you might want to change the passphrase if the current one is one that is sensitive information (e..g, used elsewhere, in part or whole).<br /><br />Just make sure you make a backup of your wallet.dat before doing anything else to it.<br /><br />If it isn&#039;t passphrase encyrpted, then it should only be shared with trusted individuals.<br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Bets stuck in SatoshiDice for weeks. </b><br />
+					Post by: <b>UnitClick</b> on <b>September 08, 2012, 05:01:37 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Here is a copy of my wallet.dat, the password was changed to something random. I don&#039;t trust my technical ability with the command line enough to do those steps, so if someone else on this forum could that would be great.<br /><br />http://www.filedropper.com/wallet (No viruses or anything of the sort. Just my wallet.dat exported. Open it in a VM if you don&#039;t believe me.)<br /><br />So if anybody could help me get to the bottom of this wallet problem and get my BTC back it would be awesome. I&#039;ll even toss a few BTC your way.&nbsp; ;D</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Bets stuck in SatoshiDice for weeks. </b><br />
+					Post by: <b>swissmate</b> on <b>September 08, 2012, 09:12:16 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=105041.msg1169766#msg1169766">Quote from: UnitClick on September 08, 2012, 05:01:37 AM</a></div><div class="quote">Here is a copy of my wallet.dat, the password was changed to something random. I don&#039;t trust my technical ability with the command line enough to do those steps, so if someone else on this forum could that would be great.<br /><br />http://www.filedropper.com/wallet (No viruses or anything of the sort. Just my wallet.dat exported. Open it in a VM if you don&#039;t believe me.)<br /><br />So if anybody could help me get to the bottom of this wallet problem and get my BTC back it would be awesome. I&#039;ll even toss a few BTC your way.&nbsp; ;D<br /></div>Are you really sharing your wallet.dat to everyone that sees this post?</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Bets stuck in SatoshiDice for weeks. </b><br />
+					Post by: <b>nomnomnom</b> on <b>September 08, 2012, 04:44:31 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=105041.msg1170201#msg1170201">Quote from: swissmate on September 08, 2012, 09:12:16 AM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=105041.msg1169766#msg1169766">Quote from: UnitClick on September 08, 2012, 05:01:37 AM</a></div><div class="quote">Here is a copy of my wallet.dat, the password was changed to something random. I don&#039;t trust my technical ability with the command line enough to do those steps, so if someone else on this forum could that would be great.<br /><br />http://www.filedropper.com/wallet (No viruses or anything of the sort. Just my wallet.dat exported. Open it in a VM if you don&#039;t believe me.)<br /><br />So if anybody could help me get to the bottom of this wallet problem and get my BTC back it would be awesome. I&#039;ll even toss a few BTC your way. &nbsp;;D<br /></div>Are you really sharing your wallet.dat to everyone that sees this post?<br /></div><br />Yup :) But it has a passphrase, so no spending ^^ (BTW 19.3 MB wtf, my wallet is 600kb or so)<br />I think you need to export the private keys for these addresses:<br />&nbsp;&nbsp; &nbsp; &nbsp; <br />http://blockchain.info/address/1LdNDySZ3vDkVQDMCJCBxmFNCJwJeATiaG<br />http://blockchain.info/address/17ZfUixpDR7MWgD9UgyjDH4sQJk2SxAQbk<br />http://blockchain.info/address/1LQ36aWUucf8cDTnDihLJeFumM7FPExzEh<br />http://blockchain.info/address/19abixCmtoLxJqLhACV4D6P7zTfWDqQWKm<br />http://blockchain.info/address/16fXuMjhmsDrcqEehqWZhU5itRUgrVur9f<br />http://blockchain.info/address/14jVfhBEPLFwLsj9Bsj6ebyyv4R6DWTxRc<br />http://blockchain.info/address/1FB4hv58ENo5UsSpnXPTJrrCMU8bpxuPRa<br /><br />everything else seems to be satoshidice or other outgoing addresses.<br /><br />EDIT: Meh sorry this probably doesn&#039;t help much, I looked the addresses up on blockchain.info and they are all empty, only the first one has one satoshi. <br />So if there are coins left then they are hiding somewhere else :/ (made addresses clickable)<br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Bets stuck in SatoshiDice for weeks. </b><br />
+					Post by: <b>AndrewBUD</b> on <b>September 08, 2012, 04:51:01 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Wow that is big.... :) Good Luck :)</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Bets stuck in SatoshiDice for weeks. </b><br />
+					Post by: <b>nomnomnom</b> on <b>September 09, 2012, 11:33:43 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Woooooop, good news, Success!<br /><br />Despite what I said in my PM yesterday, I decided to take a second look at that wallet.<br />First I deleted the stuck transactions with pywallet and started bitcoin-qt with the -rescan option, didn&#039;t work.<br />Then I decided to delete all transactions (thx to this thread https://bitcointalk.org/index.php?topic=102331.0),<br />started bitcoin-qt with -rescan again .... and there it is, balance shows: 23.67660791 BTC &nbsp;;D<br /><br />I will upload the wallet to my server and then send you the download link in a PM (may take some time, my internet is slooooow)<br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Bets stuck in SatoshiDice for weeks. </b><br />
+					Post by: <b>Stephen Gornick</b> on <b>September 09, 2012, 06:54:53 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=105041.msg1173347#msg1173347">Quote from: nomnomnom on September 09, 2012, 11:33:43 AM</a></div><div class="quote">Then I decided to delete all transactions (thx to this thread https://bitcointalk.org/index.php?topic=102331.0),<br />started bitcoin-qt with -rescan again .... and there it is, balance shows: 23.67660791 BTC &nbsp;;D<br /></div><br />That&#039;s awesome!<br /><br />I had tried using pywallet and it reported an error opening the wallet.&nbsp; Do you have a link to the pywallet release that you used?<br /><br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Bets stuck in SatoshiDice for weeks. </b><br />
+					Post by: <b>nomnomnom</b> on <b>September 09, 2012, 08:29:10 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=105041.msg1174721#msg1174721">Quote from: Stephen Gornick on September 09, 2012, 06:54:53 PM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=105041.msg1173347#msg1173347">Quote from: nomnomnom on September 09, 2012, 11:33:43 AM</a></div><div class="quote">Then I decided to delete all transactions (thx to this thread https://bitcointalk.org/index.php?topic=102331.0),<br />started bitcoin-qt with -rescan again .... and there it is, balance shows: 23.67660791 BTC &nbsp;;D<br /></div><br />That&#039;s awesome!<br /><br />I had tried using pywallet and it reported an error opening the wallet. &nbsp;Do you have a link to the pywallet release that you used?<br /><br /><br /></div><br />Sure, it was this one https://github.com/jackjack-jj/pywallet<br /><br />I started it with the --web option and then used the webinterface.</div>
+					<br /><br />
+					<div align="center" class="smalltext">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank">Powered by SMF 1.1.19</a> | 
+<a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank">SMF &copy; 2006-2009, Simple Machines</a>
+		</span></div>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

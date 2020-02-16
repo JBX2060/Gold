@@ -1,0 +1,188 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+		<link rel="canonical" href="https://bitcointalk.org/index.php?topic=130535.0" />
+		<title>Print Page - [SOLVED] Bitcoind RPC client freezes on &quot;move&quot; command. </title>
+		<style type="text/css">
+			body
+			{
+				color: black;
+				background-color: white;
+			}
+			body, td, .normaltext
+			{
+				font-family: Verdana, arial, helvetica, serif;
+				font-size: small;
+			}
+			*, a:link, a:visited, a:hover, a:active
+			{
+				color: black !important;
+			}
+			table
+			{
+				empty-cells: show;
+			}
+			.code
+			{
+				font-size: x-small;
+				font-family: monospace;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.quote
+			{
+				font-size: x-small;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.smalltext, .quoteheader, .codeheader
+			{
+				font-size: x-small;
+			}
+			.largetext
+			{
+				font-size: large;
+			}
+			hr
+			{
+				height: 1px;
+				border: 0;
+				color: black;
+				background-color: black;
+			}
+		</style>
+	</head>
+	<body>
+		<h1 class="largetext">Bitcoin Forum</h1>
+		<h2 class="normaltext">Bitcoin => Bitcoin Technical Support => Topic started by: SlickTheNick on December 13, 2012, 05:16:05 AM</h2>
+
+		<table width="90%" cellpadding="0" cellspacing="0" border="0">
+			<tr>
+				<td>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>[SOLVED] Bitcoind RPC client freezes on &quot;move&quot; command. </b><br />
+					Post by: <b>SlickTheNick</b> on <b>December 13, 2012, 05:16:05 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Hey guys, so I installed the bitcoind server on my VPS (latest version of ubuntu, 64 bit). For the most part it works fine, however when I try and use the &#039;move&#039; command to move balances between accounts, it just hangs there and the server freezes and doesnt accept any more commands (besides the help command). Iv tried searching around a bunch, but I cant seem to find a solution, and most of the information I have found is for windows users..<br /><br />Is this a common problem? any ideas for a easy way to solve this? Am I going to have to compile a custom build of bitcoin and reinstall it? If so, could anyone tell me how I would go about doing that (total noob to compiling things), or point me to a resource that would show me how?<br /><br /><br />now for part 2..<br /><br />Im trying to use the jsonRPCClient for PHP to build a web app that uses bitcoin. Part of it requires moving balances between accounts.. hence the issue above. But also, whenever I try and use the sendaddress() call, all I get is a fatal error that states that the http request to the bitcoin server was refused.. <br /><br /><div class="codeheader">Code:</div><div class="code">Fatal error: Uncaught exception &#039;Exception&#039; with message &#039;Unable to connect to .... in jsonRPCClient.php</div><br />I tried the command directly from the command line, and recieved an error saying that due to the small size of the transaction it required a transaction fee (i forgot to change it from 0.000 btc).<br /><br />Anyways, is it normal behavior for it to throw up the fatal error like that if a command returns false? Shouldnt it just return that the command failed, or return the error that bitcoin spits out, instead of just killing PHP? It doesnt seem to be very well documented..<br /><br />thanks in advance<br /><br /><br />*edit* see my post on page 2 about how I solved this</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Bitcoind RPC client freezes on &quot;move&quot; command. Also, PHP jsonRPCClient question.</b><br />
+					Post by: <b>jbis1</b> on <b>December 13, 2012, 05:37:07 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">I am not sure about the part one. For the second part, you should implement exception handling. You should have something like the following:<br /><br /><div class="codeheader">Code:</div><div class="code">try {<br />&nbsp; &nbsp; sendaddress();<br />} catch(Exception $e) {<br />&nbsp; &nbsp; echo &quot;There was an issue sending the bitcoins. Please try again or notify the site&#039;s administrator if you continue to receive this message.&quot;;<br />}</div><br />That will allow php to continue to execute the rest of the code. You should use a try...catch block whenever there is the possibility of an exception being raised.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Bitcoind RPC client freezes on &quot;move&quot; command. Also, PHP jsonRPCClient question.</b><br />
+					Post by: <b>SlickTheNick</b> on <b>December 13, 2012, 06:00:23 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=130535.msg1396761#msg1396761">Quote from: gweedo on December 13, 2012, 05:28:51 AM</a></div><div class="quote">The accounts are you trying to move do they have a lot of addresses? That is probably the issue.<br /><br />Error means it can&#039;t connect so check your JSONRPC username and password, make sure you are server mode. Also I have seen a lot of people just set rpcssl to 1 without creating the correct key pairs so check that.<br /></div><br />no, they are fairly new accounts. I have only like a dozen addresses or so. <br /><br />Also pretty sure its not the user/pass, because I can use getbalance, getinfo, listaccounts, listtransactions, getnewaddress etc. just fine with PHP<br /><br />also good point for the exception handling. Figuring all that stuff out now.<br /><br />But still, not being able to use the move command has kind of put me at a stand still</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Bitcoind RPC client freezes on &quot;move&quot; command. Also, PHP jsonRPCClient question.</b><br />
+					Post by: <b>SlickTheNick</b> on <b>December 13, 2012, 02:46:02 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=130535.msg1396840#msg1396840">Quote from: gweedo on December 13, 2012, 06:29:25 AM</a></div><div class="quote"><br />Is your wallet encrypted cause then you need to unlock it then lock it again.<br /></div><br />No, its not currently encrypted at all. Iv managed to use sendtoaddress straight from the command line and its worked fine, but when using the move command it just freezes up completely, forcing me to find the process and terminate it manually</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Bitcoind RPC client freezes on &quot;move&quot; command. Also, PHP jsonRPCClient question.</b><br />
+					Post by: <b>paraipan</b> on <b>December 13, 2012, 02:52:31 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=130535.msg1397423#msg1397423">Quote from: SlickTheNick on December 13, 2012, 02:46:02 PM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=130535.msg1396840#msg1396840">Quote from: gweedo on December 13, 2012, 06:29:25 AM</a></div><div class="quote"><br />Is your wallet encrypted cause then you need to unlock it then lock it again.<br /></div><br />No, its not currently encrypted at all. Iv managed to use sendtoaddress straight from the command line and its worked fine, but when using the move command it just freezes up completely, forcing me to find the process and terminate it manually<br /></div><br />Just trying to wrap my head around your issue here.<br /><br />You say that issuing the following command freezes the daemon?<br /><br /><div class="codeheader">Code:</div><div class="code">bitcoind move account2 account2 0.01</div><br />Can you give an example of account names you have? Note &quot;&quot; is default account and the ones that include a space like &quot;bitcoin account&quot; need to be quoted.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Bitcoind RPC client freezes on &quot;move&quot; command. Also, PHP jsonRPCClient question.</b><br />
+					Post by: <b>SlickTheNick</b> on <b>December 13, 2012, 03:15:51 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=130535.msg1397434#msg1397434">Quote from: paraipan on December 13, 2012, 02:52:31 PM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=130535.msg1397423#msg1397423">Quote from: SlickTheNick on December 13, 2012, 02:46:02 PM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=130535.msg1396840#msg1396840">Quote from: gweedo on December 13, 2012, 06:29:25 AM</a></div><div class="quote"><br />Is your wallet encrypted cause then you need to unlock it then lock it again.<br /></div><br />No, its not currently encrypted at all. Iv managed to use sendtoaddress straight from the command line and its worked fine, but when using the move command it just freezes up completely, forcing me to find the process and terminate it manually<br /></div><br />Just trying to wrap my head around your issue here.<br /><br />You say that issuing the following command freezes the daemon?<br /><br /><div class="codeheader">Code:</div><div class="code">bitcoind move account2 account2 0.01</div><br />Can you give an example of account names you have? Note &quot;&quot; is default account and the ones that include a space like &quot;bitcoin account&quot; need to be quoted.<br /></div><br />heres the exact command that I ran from the terminal:<br /><br /><div class="codeheader">Code:</div><div class="code">bitcoind move &quot;derp - 0.4&quot; &quot;Main Account&quot; 0.0016</div><br />on further searching, iv found that someone has had a issue with the move command locking up the server, and has made a build/patch of the bitcoind server... see here: https://github.com/sipa/bitcoin/tree/4291e8feab308cb9c7840d74fc7aacf137a7c21f<br /><br />not sure if that will solve my problem, looks like I would have to build it from source... not really sure how to do that lol. the install file says to use these commands to build it:<br /><div class="codeheader">Code:</div><div class="code">cd src/<br />make -f makefile.unix </div><br />but when I try that it gives me all kinds of errors, like the following:<br /><div class="codeheader">Code:</div><div class="code">alert.cpp:198: error: âcs_mapAlertsâ was not declared in this scope<br />alert.cpp:198: error: initializer expression list treated as compound expression<br />alert.cpp:206: error: âclass CClientUIInterfaceâ has no member named âNotifyAlertChangedâ<br />alert.cpp:212: error: âclass CClientUIInterfaceâ has no member named âNotifyAlertChangedâ<br />alert.cpp:220: error: expected primary-expression before â&amp;â token<br /></div></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Bitcoind RPC client freezes on &quot;move&quot; command. Also, PHP jsonRPCClient question.</b><br />
+					Post by: <b>paraipan</b> on <b>December 13, 2012, 03:35:29 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=130535.msg1397470#msg1397470">Quote from: SlickTheNick on December 13, 2012, 03:15:51 PM</a></div><div class="quote">...<br /><br />heres the exact command that I ran from the terminal:<br /><br /><div class="codeheader">Code:</div><div class="code">bitcoind move &quot;derp - 0.4&quot; &quot;Main Account&quot; 0.0016</div><br />...<br /></div><br />Ok I understand, it should be like:<br /><br /><div class="codeheader">Code:</div><div class="code">bitcoind move derp &quot;Main Account&quot; 0.0016</div><br />Accounts need to exist before moving amounts between them. Is &quot;derp - 0.4&quot; the exact name of the account? Issue a &quot;bitcoind listaccounts&quot; command and find out. I don&#039;t think your issue is that serious so you have to build from source.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Bitcoind RPC client freezes on &quot;move&quot; command. Also, PHP jsonRPCClient question.</b><br />
+					Post by: <b>SlickTheNick</b> on <b>December 13, 2012, 03:41:05 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">yep, &quot;derp - 0.4&quot; is the exact name of the account and it has exactly 0.0016 BTC in it. Its a weird name for an account, I know. Dont ask :p</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Bitcoind RPC client freezes on &quot;move&quot; command. Also, PHP jsonRPCClient question.</b><br />
+					Post by: <b>paraipan</b> on <b>December 13, 2012, 03:58:05 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=130535.msg1397517#msg1397517">Quote from: SlickTheNick on December 13, 2012, 03:41:05 PM</a></div><div class="quote">yep, &quot;derp - 0.4&quot; is the exact name of the account and it has exactly 0.0016 BTC in it. Its a weird name for an account, I know. Dont ask :p<br /></div><br />Got it. I don&#039;t know exactly what is the issue you have, never experienced such a thing. I could say is the strange combination of characters in the account name but I could be wrong.<br /><br />Can you try creating test1 and test2 accounts and move coins between them without the &quot;&quot;? Don&#039;t worry if they go negative atm.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Bitcoind RPC client freezes on &quot;move&quot; command. Also, PHP jsonRPCClient question.</b><br />
+					Post by: <b>pc</b> on <b>December 13, 2012, 04:04:04 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Might it be the problem that&#039;s to-be-fixed in version 0.7.2?<br /><br />Try out the release candidate (https://bitcointalk.org/index.php?topic=129288.0) and see if it works any better for you.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Bitcoind RPC client freezes on &quot;move&quot; command. Also, PHP jsonRPCClient question.</b><br />
+					Post by: <b>paraipan</b> on <b>December 13, 2012, 04:11:09 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=130535.msg1397551#msg1397551">Quote from: pc on December 13, 2012, 04:04:04 PM</a></div><div class="quote">Might it be the problem that&#039;s to-be-fixed in version 0.7.2?<br /><br />Try out the release candidate (https://bitcointalk.org/index.php?topic=129288.0) and see if it works any better for you.<br /></div><br />I just saw the fix, nice find<br /><br /><div class="quoteheader">Quote</div><div class="quote">Bug fixes<br />---------<br /><br />* Prevent RPC &#039;move&#039; from deadlocking. This was caused by trying to lock the<br />&nbsp; database twice.</div></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Bitcoind RPC client freezes on &quot;move&quot; command. Also, PHP jsonRPCClient question.</b><br />
+					Post by: <b>SlickTheNick</b> on <b>December 13, 2012, 11:09:58 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=130535.msg1397567#msg1397567">Quote from: paraipan on December 13, 2012, 04:11:09 PM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=130535.msg1397551#msg1397551">Quote from: pc on December 13, 2012, 04:04:04 PM</a></div><div class="quote">Might it be the problem that&#039;s to-be-fixed in version 0.7.2?<br /><br />Try out the release candidate (https://bitcointalk.org/index.php?topic=129288.0) and see if it works any better for you.<br /></div><br />I just saw the fix, nice find<br /><br /><div class="quoteheader">Quote</div><div class="quote">Bug fixes<br />---------<br /><br />* Prevent RPC &#039;move&#039; from deadlocking. This was caused by trying to lock the<br />&nbsp; database twice.</div></div><br />Awesome, thanks guys. Pretty sure this will work..<br /><br />maybe I just have no idea what im doing, but I cant seem to get the server to work. According to the release candidate post, all I have to do is copy over the &#039;bitcoind&#039; file. So i went to /usr/bin/bitcoin, copied the file over, gave the new file executable permissions (sudo chmod +x bitcoind)<br /><br />now, when, heres what I get:<br /><div class="codeheader">Code:</div><div class="code"># sudo bitcoind<br />exec: 14: /usr/lib/bitcoin/bitcoind: not found<br /></div><br />the file <i>is</i> there though, not sure what im missing here?</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Bitcoind RPC client freezes on &quot;move&quot; command. Also, PHP jsonRPCClient question.</b><br />
+					Post by: <b>SlickTheNick</b> on <b>December 13, 2012, 11:37:53 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=130535.msg1398524#msg1398524">Quote from: gweedo on December 13, 2012, 11:25:27 PM</a></div><div class="quote">you have do<br /><div class="codeheader">Code:</div><div class="code">./usr/bin/bitcoin/bitcoind<br /></div><br />It is cause you didn&#039;t alias it with bitcoind, and never run it in sudo either, security risk.<br /></div><br />that seems to give me the same error.<br /><br /><div class="codeheader">Code:</div><div class="code"># ./usr/bin/bitcoin/bitcoind<br />-bash: ./usr/bin/bitcoin/bitcoind: No such file or directory<br /></div><br />but when I cd into the directory, the file is there..<br /><br /><div class="codeheader">Code:</div><div class="code"># cd /usr/lib/bitcoin<br /># ls<br />bitcoind<br /></div><br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Bitcoind RPC client freezes on &quot;move&quot; command. Also, PHP jsonRPCClient question.</b><br />
+					Post by: <b>paraipan</b> on <b>December 13, 2012, 11:58:56 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=130535.msg1398552#msg1398552">Quote from: SlickTheNick on December 13, 2012, 11:37:53 PM</a></div><div class="quote">...<br /><br />that seems to give me the same error.<br /><br /><div class="codeheader">Code:</div><div class="code"># ./usr/bin/bitcoin/bitcoind<br />-bash: ./usr/bin/bitcoin/bitcoind: No such file or directory<br /></div><br />but when I cd into the directory, the file is there..<br /><br /><div class="codeheader">Code:</div><div class="code"># cd /usr/lib/bitcoin<br /># ls<br />bitcoind<br /></div><br /><br /></div><br />Run...<br /><br /><div class="codeheader">Code:</div><div class="code">./usr/lib/bitcoind &amp;</div><br />if you have it in that folder :)</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Bitcoind RPC client freezes on &quot;move&quot; command. Also, PHP jsonRPCClient question.</b><br />
+					Post by: <b>SlickTheNick</b> on <b>December 14, 2012, 12:06:55 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=130535.msg1398590#msg1398590">Quote from: paraipan on December 13, 2012, 11:58:56 PM</a></div><div class="quote">Run...<br /><br /><div class="codeheader">Code:</div><div class="code">./usr/lib/bitcoind &amp;</div><br />if you have it in that folder :)<br /></div><br />hmm... this is confusing. I see the file in there. its named exactly the same. its set to be executable.. but still it keeps saying not found:<br /><br /><div class="codeheader">Code:</div><div class="code"># ./usr/lib/bitcoin/bitcoind &amp;<br />[1] 3016<br />-bash: ./usr/lib/bitcoin/bitcoind: No such file or directory<br /></div><br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Bitcoind RPC client freezes on &quot;move&quot; command. Also, PHP jsonRPCClient question.</b><br />
+					Post by: <b>SlickTheNick</b> on <b>December 14, 2012, 02:24:36 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">So does anyone have any idea why when I run the &#039;bitcoind&#039; command it keeps saying the file isnt found, even though I can CLEARLY see it exactly where it should be when I type in &#039;ls&#039; or when I look at the server through a FTP program...?? doesnt make any sense at all</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Bitcoind RPC client freezes on &quot;move&quot; command. Also, PHP jsonRPCClient question.</b><br />
+					Post by: <b>pc</b> on <b>December 14, 2012, 02:39:18 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">I&#039;m no expert, but my guess is that it can&#039;t find a library it&#039;s expecting or something. That is, something trying to load the program is getting a &quot;file not found&quot;, and somehow that&#039;s bubbling up to a confusing error message.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Bitcoind RPC client freezes on &quot;move&quot; command. Also, PHP jsonRPCClient question.</b><br />
+					Post by: <b>SlickTheNick</b> on <b>December 14, 2012, 02:52:01 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">So I finally figured it out! I backed up my wallet file, completely uninstalled bitcoind and figured out how to successfully compile bitcoin from source, using the 0.7.2rc2 build mentioned previously in the thread. Moved the file that it created into /usr/bin/bitcoind, and the server starts up again! Also tried using the move command, and it works flawlessly<br /><br />Going to ahead and mark this as solved. Thanks for the help everyone!</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Bitcoind RPC client freezes on &quot;move&quot; command. Also, PHP jsonRPCClient question.</b><br />
+					Post by: <b>paraipan</b> on <b>December 14, 2012, 08:28:50 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=130535.msg1399671#msg1399671">Quote from: SlickTheNick on December 14, 2012, 02:52:01 PM</a></div><div class="quote">So I finally figured it out! I backed up my wallet file, completely uninstalled bitcoind and figured out how to successfully compile bitcoin from source, using the 0.7.2rc2 build mentioned previously in the thread. Moved the file that it created into /usr/bin/bitcoind, and the server starts up again! Also tried using the move command, and it works flawlessly<br /><br />Going to ahead and mark this as solved. Thanks for the help everyone!<br /></div><br />Nice to hear that&nbsp; :)</div>
+					<br /><br />
+					<div align="center" class="smalltext">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank">Powered by SMF 1.1.19</a> | 
+<a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank">SMF &copy; 2006-2009, Simple Machines</a>
+		</span></div>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

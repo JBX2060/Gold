@@ -1,0 +1,176 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+		<link rel="canonical" href="https://bitcointalk.org/index.php?topic=130259.0" />
+		<title>Print Page - Help with Transaction 2BTC Bounty - RECOVERED - BOUNTY PAID :)</title>
+		<style type="text/css">
+			body
+			{
+				color: black;
+				background-color: white;
+			}
+			body, td, .normaltext
+			{
+				font-family: Verdana, arial, helvetica, serif;
+				font-size: small;
+			}
+			*, a:link, a:visited, a:hover, a:active
+			{
+				color: black !important;
+			}
+			table
+			{
+				empty-cells: show;
+			}
+			.code
+			{
+				font-size: x-small;
+				font-family: monospace;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.quote
+			{
+				font-size: x-small;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.smalltext, .quoteheader, .codeheader
+			{
+				font-size: x-small;
+			}
+			.largetext
+			{
+				font-size: large;
+			}
+			hr
+			{
+				height: 1px;
+				border: 0;
+				color: black;
+				background-color: black;
+			}
+		</style>
+	</head>
+	<body>
+		<h1 class="largetext">Bitcoin Forum</h1>
+		<h2 class="normaltext">Bitcoin => Bitcoin Technical Support => Topic started by: Scopedude on December 11, 2012, 06:31:34 PM</h2>
+
+		<table width="90%" cellpadding="0" cellspacing="0" border="0">
+			<tr>
+				<td>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Help with Transaction 2BTC Bounty - RECOVERED - BOUNTY PAID :)</b><br />
+					Post by: <b>Scopedude</b> on <b>December 11, 2012, 06:31:34 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Last night I accidentally grabbed a sent to address instead of my address from my bitcoin wallet and I sent 20BTC to this address from my bitcoin-exchange account.<br /><br />1QEyVFiPAaSqtCgjaEmATJKeXjFr1oSBuj<br /><br />The bitcoins are just sitting there. &nbsp;I had sent 10.17 BTC to this address back on 5/28/2012 but I have no idea what this address is.<br /><br />Can anyone help me find out where I sent these coins?<br /><br />2 BTC bounty to anyone that can help me recover these coins.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Help with Transaction 2BTC Bounty</b><br />
+					Post by: <b>caffeinewriter</b> on <b>December 11, 2012, 06:42:10 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">First of all, be careful, always double check the address before sending. It&#039;s saved me a few times. But gentle scolding asides, I&#039;m doing some digging on the coins&#039; final resting place. I will update this with more info eventually. A heads up, you are highly unlikely to find any way to get these coins back, but I&#039;ll give it the old college try nonetheless.<br /><br />The coins are proving difficult to track from your last transaction. They get bundled in with a bunch of other inputs until you&#039;re dealing with hundreds of coins at once. </div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Help with Transaction 2BTC Bounty</b><br />
+					Post by: <b>Scopedude</b> on <b>December 11, 2012, 06:48:30 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">With my luck I sent them to Bitcoinica.<br /><br /><br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Help with Transaction 2BTC Bounty</b><br />
+					Post by: <b>caffeinewriter</b> on <b>December 11, 2012, 06:50:12 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">If it helps you remember at all, the original transaction was for about $52.17 USD at the time.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Help with Transaction 2BTC Bounty</b><br />
+					Post by: <b>caffeinewriter</b> on <b>December 11, 2012, 06:54:03 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">I hate to admit it, but I don&#039;t think you&#039;re gonna get them back. Unless some random person happens to stumble here that happens to own the address with your 20 coins in it, they&#039;re probably gone for good. The news doesn&#039;t get any better if the address was swept. Typically private keys are deleted after a sweep, since there&#039;s not much point to keeping a zero balance address. Sorry bud. I&#039;ll see if I can find any news that&#039;ll change this, but I hate to say, don&#039;t get your hopes up.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Help with Transaction 2BTC Bounty</b><br />
+					Post by: <b>DannyHamilton</b> on <b>December 11, 2012, 06:55:54 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Based on this transaction:<br />http://blockchain.info/tx/6aac96271f6b9b882580e2b80184482d47b87ad69c779b909b5180effd5fae8f<br /><br />It seems like 1QEyVFiPAaSqtCgjaEmATJKeXjFr1oSBuj and 1NpwQtw1AbhzcE7PRhhEDEyaZFoQJSgncH are owned by the same entity (since inputs associated with both addresses were used in the same transaction).<br /><br /><br />Based on this transaction:<br />http://blockchain.info/tx/cc2c503870e8b02321b4c33bc739880d14bd744d44fa1fd52f875dca9123c0be<br /><br />It seems like the entity that owns 1NpwQtw1AbhzcE7PRhhEDEyaZFoQJSgncH sent 10,000 coins to 1DkyBEKt5S2GDtv7aQw6rQepAvnsRyHoYM on 2012-04-17.<br /><br /><br />And based on this conversation:<br />https://bitcointalk.org/index.php?topic=94675.0<br /><br />There seems to be some belief that 1DkyBEKt5S2GDtv7aQw6rQepAvnsRyHoYM is an address owned by Pirate40.<br /><br /><br />Is there any chance you &quot;invested&quot; with a &quot;Pirate Pass Through&quot; in the past? &nbsp;Could 1QEyVFiPAaSqtCgjaEmATJKeXjFr1oSBuj be the address of that &quot;Pirate Pass through&quot;?</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Help with Transaction 2BTC Bounty</b><br />
+					Post by: <b>Scopedude</b> on <b>December 11, 2012, 06:58:03 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">I never invested with pirate or sent any BTC to him.&nbsp; Could that be a SR account?<br /><br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Help with Transaction 2BTC Bounty</b><br />
+					Post by: <b>DannyHamilton</b> on <b>December 11, 2012, 07:03:05 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=130259.msg1392997#msg1392997">Quote from: Scopedude on December 11, 2012, 06:58:03 PM</a></div><div class="quote">I never invested with pirate or sent any BTC to him.&nbsp; Could that be a SR account?<br /></div>I don&#039;t know.&nbsp; Whoever it is that you accidentally sent your bitcoins to, it was someone who had previously this year sent 10,000 to 1DkyBEKt5S2GDtv7aQw6rQepAvnsRyHoYM.&nbsp; That isn&#039;t exactly a small amount of bitcoins.&nbsp; It could be SR, it could be a lot of things, but it is someone who has (or at least had back in April) access to over 10,000 BTC and sent 10,000 BTC to 1DkyBEKt5S2GDtv7aQw6rQepAvnsRyHoYM</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Help with Transaction 2BTC Bounty</b><br />
+					Post by: <b>caffeinewriter</b> on <b>December 11, 2012, 07:12:26 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">I&#039;m just going to cross my fingers and hope that someone sends it back to you. Since it seems to be off in ??? land</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Help with Transaction 2BTC Bounty</b><br />
+					Post by: <b>Scopedude</b> on <b>December 11, 2012, 07:23:17 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">They can&#039;t send it back to me though.&nbsp; I send it to what I thought was myself from my bitcoin-central account.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Help with Transaction 2BTC Bounty</b><br />
+					Post by: <b>caffeinewriter</b> on <b>December 11, 2012, 07:27:56 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">So you can&#039;t receive to the same address you sent from? That makes it even more tricky to get it back. Hopefully it finds it way back to your wallet.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Help with Transaction 2BTC Bounty</b><br />
+					Post by: <b>Scopedude</b> on <b>December 11, 2012, 07:28:57 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">If they send it back to where it came from it will go to bitcoin-central&#039;s hot wallet.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Help with Transaction 2BTC Bounty</b><br />
+					Post by: <b>caffeinewriter</b> on <b>December 11, 2012, 07:30:50 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=130259.msg1393095#msg1393095">Quote from: Scopedude on December 11, 2012, 07:28:57 PM</a></div><div class="quote">If they send it back to where it came from it will go to bitcoin-central&#039;s hot wallet.<br /></div><br />Damn. You know what might be good to do? Send a small transaction to there with a public note attached to the blockchain, with an address to send it back to. If you want to PM me an address you can receive at, I&#039;ll send it for you. You can verify that it&#039;s done in the blockchain.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Help with Transaction 2BTC Bounty</b><br />
+					Post by: <b>DannyHamilton</b> on <b>December 11, 2012, 07:47:02 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">The 1QEyVFiPAaSqtCgjaEmATJKeXjFr1oSBuj address also seems to be owned by the same entity that owns 1DuneTsrCnapAKWpZCttRnLTH59PMD1pzf<br /><br />That looks a bit like a vanity address, doesn&#039;t it?<br /><br />Maybe someone who knows who owns 1DuneTsrCnapAKWpZCttRnLTH59PMD1pzf will stumble into this thread and be able to help you?</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Help with Transaction 2BTC Bounty</b><br />
+					Post by: <b>Scopedude</b> on <b>December 12, 2012, 08:02:06 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Thanks Caffeinewriter! <br /><br />I got the coins back!&nbsp; They went to an old SR account that I made about a year ago.&nbsp; They credited them to my new account.&nbsp; I sent the bounty of 2BTC to you.<br /><br />TXID&nbsp; 3ec40e48e099354df119774baad17704ff15efdbbc54c05310e5d8dd6d40298a</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Help with Transaction 2BTC Bounty</b><br />
+					Post by: <b>Stephen Gornick</b> on <b>December 12, 2012, 11:40:43 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=130259.msg1395678#msg1395678">Quote from: Scopedude on December 12, 2012, 08:02:06 PM</a></div><div class="quote">They credited them to my new account.<br /></div><br />Of people reporting having made this mistake (accidentally sending to the wrong address), every one that I know of has ended up recovering the funds (less bounty / etc.).&nbsp; &nbsp; Contrast that to how nearly no thief has been tracked down through info obtained through the blockchain.<br /><br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Help with Transaction 2BTC Bounty</b><br />
+					Post by: <b>caffeinewriter</b> on <b>December 13, 2012, 05:22:58 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=130259.msg1395678#msg1395678">Quote from: Scopedude on December 12, 2012, 08:02:06 PM</a></div><div class="quote">Thanks Caffeinewriter! <br /><br />I got the coins back!&nbsp; They went to an old SR account that I made about a year ago.&nbsp; They credited them to my new account.&nbsp; I sent the bounty of 2BTC to you.<br /><br />TXID&nbsp; 3ec40e48e099354df119774baad17704ff15efdbbc54c05310e5d8dd6d40298a<br /></div><br />Got it :) Glad I was able to help!</div>
+					<br /><br />
+					<div align="center" class="smalltext">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank">Powered by SMF 1.1.19</a> | 
+<a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank">SMF &copy; 2006-2009, Simple Machines</a>
+		</span></div>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

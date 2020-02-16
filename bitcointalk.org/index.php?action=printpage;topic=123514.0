@@ -1,0 +1,92 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+		<link rel="canonical" href="https://bitcointalk.org/index.php?topic=123514.0" />
+		<title>Print Page - Updated client, new blocks not downloading</title>
+		<style type="text/css">
+			body
+			{
+				color: black;
+				background-color: white;
+			}
+			body, td, .normaltext
+			{
+				font-family: Verdana, arial, helvetica, serif;
+				font-size: small;
+			}
+			*, a:link, a:visited, a:hover, a:active
+			{
+				color: black !important;
+			}
+			table
+			{
+				empty-cells: show;
+			}
+			.code
+			{
+				font-size: x-small;
+				font-family: monospace;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.quote
+			{
+				font-size: x-small;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.smalltext, .quoteheader, .codeheader
+			{
+				font-size: x-small;
+			}
+			.largetext
+			{
+				font-size: large;
+			}
+			hr
+			{
+				height: 1px;
+				border: 0;
+				color: black;
+				background-color: black;
+			}
+		</style>
+	</head>
+	<body>
+		<h1 class="largetext">Bitcoin Forum</h1>
+		<h2 class="normaltext">Bitcoin => Bitcoin Technical Support => Topic started by: chorchonga on November 09, 2012, 06:03:55 PM</h2>
+
+		<table width="90%" cellpadding="0" cellspacing="0" border="0">
+			<tr>
+				<td>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Updated client, new blocks not downloading</b><br />
+					Post by: <b>chorchonga</b> on <b>November 09, 2012, 06:03:55 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">I want to buy some stuff for BitcoinFriday, but my blockindex is 76 days old and my balance is in transactions newer than that.&nbsp; It takes me days to download the whole block.&nbsp; Is there any other way to get the blockchain downloading again?&nbsp; I have 18 connections but keep getting &quot;Warning:Displayed transactions may not be correct! You may need to upgrade or other nodes may need to upgrade&quot; and have been sitting at 195591 blocks for about 12 hours.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Updated client, new blocks not downloading</b><br />
+					Post by: <b>chorchonga</b> on <b>November 09, 2012, 07:08:04 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Well, I&#039;m trying a bootstrap.&nbsp; Wish me luck!<br />http://eu2.bitcoincharts.com/blockchain/</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Updated client, new blocks not downloading</b><br />
+					Post by: <b>deepceleron</b> on <b>November 10, 2012, 12:10:50 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">That won&#039;t be much use to you. The blockchain height of &quot;bootstrap.dat&quot; is 193000, of which only about 189205 blocks will import. You say you already have blocks 195,000+.<br /><br />You would be better getting blk0002.dat from this thread (https://bitcointalk.org/index.php?topic=51456.0), rename it to bootstrap.dat, and put <i>it</i> in your bitcoin data directory. Then start Bitcoin. Note that you must have the current version of Bitcoin for the bootstrap.dat process to work. That file contains blocks from 188529 to 206000; blocks that are older than your current blockchain height will be quickly skipped and then importing will continue at the next block you don&#039;t have.<br /><br />However, you may discover that the problem you are having, not downloading any blocks even though you have connections, may continue if your local blockchain is corrupted.<br /></div>
+					<br /><br />
+					<div align="center" class="smalltext">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank">Powered by SMF 1.1.19</a> | 
+<a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank">SMF &copy; 2006-2009, Simple Machines</a>
+		</span></div>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

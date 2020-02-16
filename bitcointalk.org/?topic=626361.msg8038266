@@ -1,0 +1,2044 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+	<meta name="description" content="OLD: BFGMiner 4.10.0: GBT+Stratum, RPC, Mac/Linux/Win64, Spondoolies SP30" />
+	<meta http-equiv="Content-Language" content="en" />
+	<meta name="keywords" content="bitcoin, forum, bitcoin forum, bitcointalk" />
+	<script language="JavaScript" type="text/javascript" src="https://bitcointalk.org/Themes/default/script.js"></script>
+	<script language="JavaScript" type="text/javascript"><!-- // --><![CDATA[
+		var smf_theme_url = "https://bitcointalk.org/Themes/custom1";
+		var smf_images_url = "https://bitcointalk.org/Themes/custom1/images";
+		var smf_scripturl = "https://bitcointalk.org/index.php";
+		var smf_iso_case_folding = false;
+		var smf_charset = "ISO-8859-1";
+	// ]]></script>
+	<title>OLD: BFGMiner 4.10.0: GBT+Stratum, RPC, Mac/Linux/Win64, Spondoolies SP30</title><!--26182b17f33ca78555bb75406eafd4d176c9734f76b656d8a178738b7b6349f1a78555bb75406eafd4d176c9734f76b6657fb846a78555bb75406eafd4d176c9734f76b61f7--><link rel="canonical" href="https://bitcointalk.org/index.php?topic=626361.360" />
+	<link rel="stylesheet" type="text/css" href="https://bitcointalk.org/Themes/custom1/style.css" />
+	 <!--[if !IE]> -->
+	 <link rel="stylesheet" type="text/css" media="only screen and (min-device-width: 320px) and (max-device-width: 650px)" href="https://bitcointalk.org/Themes/custom1/mobile.css" />
+	 <!-- <![endif]-->
+	<link rel="stylesheet" type="text/css" href="https://bitcointalk.org/Themes/default/print.css" media="print" /><style type="text/css">
+.xETLfRaUHdjzOrryOvcotw > td {background-color: #E5E5E8; text-align:center;}
+.xETLfRaUHdjzOrryOvcotw > td > table {margin-top:-5px}
+.xETLfRaUHdjzOrryOvcotw .PDxpIxxjumKesHNiHCdAgg {display:inline-block;max-width:100%; min-width:100%; max-height:47px; overflow:hidden}
+.xETLfRaUHdjzOrryOvcotw table,.xETLfRaUHdjzOrryOvcotw tbody,.xETLfRaUHdjzOrryOvcotw tr,.xETLfRaUHdjzOrryOvcotw td {display:inline-block;max-width:100%; min-width:100%; overflow:hidden}
+.xETLfRaUHdjzOrryOvcotw .PDxpIxxjumKesHNiHCdAgg table,.xETLfRaUHdjzOrryOvcotw .PDxpIxxjumKesHNiHCdAgg tbody,.xETLfRaUHdjzOrryOvcotw .PDxpIxxjumKesHNiHCdAgg tr,.xETLfRaUHdjzOrryOvcotw .PDxpIxxjumKesHNiHCdAgg td {display:initial; max-width:none;min-width:none;overflow:visible}
+.vmfgYNjjtUrOwMaCUfTJfg {display:none !important}
+.RqDWhtnHADHcfUrVUpyBpw {display:none}
+.GUEqyLfOBVOkFxjlzJuiCA {padding: 1px 1px 0 1px;}
+.vNIicfWOUYbiciVgeQXyeQ{color:#699C62; font-weight:bold; font-size:18px}
+.vNIicfWOUYbiciVgeQXyeQ:link{color:#699C62; font-weight:bold; font-size:18px}
+.vNIicfWOUYbiciVgeQXyeQ:visited{color:#699C62; font-weight:bold; font-size:18px}
+.jijaNdEflwZiiqIUgxybYg{color:#00F30C;font-size:15px;font-weight:bold}
+.jijaNdEflwZiiqIUgxybYg:link{color:#00F30C;font-size:15px;font-weight:bold}
+.jijaNdEflwZiiqIUgxybYg:visited{color:#00F30C;font-size:15px;font-weight:bold}
+
+.CcnkNraleyFcytpcXjIsNg:link {font-size:22px;font-weight:bold;color:orange}
+.CcnkNraleyFcytpcXjIsNg:active {font-size:22px;font-weight:bold;color:orange}
+.CcnkNraleyFcytpcXjIsNg:visited {font-size:22px;font-weight:bold;color:orange}
+.CcnkNraleyFcytpcXjIsNg:hover {text-decoration:none !important;color:red}
+.gGlCCRfweZjeqVMckqBfxg:link {font-size:24px;font-weight:bold;color:rgb(250,180,75)}
+.gGlCCRfweZjeqVMckqBfxg:active {font-size:24px;font-weight:bold;color:rgb(250,180,75)}
+.gGlCCRfweZjeqVMckqBfxg:visited {font-size:24px;font-weight:bold;color:rgb(250,180,75)}
+.gGlCCRfweZjeqVMckqBfxg:hover {text-decoration:none !important;color:white;background-color:rgb(181,204,222)}
+.gGlCCRfweZjeqVMckqBfxg {display:inline-block;margin: 3px;0;3px;0}
+.BgCssYqwdFEntcypRiyyzw:hover {text-decoration:none !important;}
+.BgCssYqwdFEntcypRiyyzw {font-size:22px;font-weight:bold;}
+.iuRfamyZidbeOgnnoPHbpQ {   width: 900px;   height: 44px;   max-width: 100%;   background: #5CB9F7;   display: flex;   justify-content: space-between;   align-items: center;   text-decoration: none !important;   font-size: 16px;   color: #fff !important;   font-family: arial, sans-serif;   overflow: hidden; }    .iuRfamyZidbeOgnnoPHbpQ button {     border: none;     background: #8EE000;     color: #fff;     outline: none;     font-size: 1em;     padding: 0.5em 1.2em;     margin-left: 0.3em;     border-radius: 2em;     text-transform: uppercase;     font-weight: 600;     pointer-events: none;   }    .iuRfamyZidbeOgnnoPHbpQ:hover .YFCVFRttAdlfFbBdOkbtiQ span {   display: none; }  .iuRfamyZidbeOgnnoPHbpQ:hover .YFCVFRttAdlfFbBdOkbtiQ span:nth-child(2) {   display: block; }  .YFCVFRttAdlfFbBdOkbtiQ {   display: flex;   align-items: center; }    .YFCVFRttAdlfFbBdOkbtiQ span {   margin-left: 0.1em;   font-size: 1em;   font-weight: 700;   letter-spacing: 0.5px;   font-size: 20px;   width: 11em;   text-align: center; }  .HDcVgVcvOUidhnOOiCGsCQ {   display: inline-block; }  .YFCVFRttAdlfFbBdOkbtiQ span:nth-child(2) {   display: none; }  .MchPVZEwqRykxeEXOfpdZw {   display: flex;   background: #586A91;   height: 44px;   align-items: center;   justify-content: center;   padding: 0 1em 0 0.5em;   position: relative;   z-index: 2; }    .MchPVZEwqRykxeEXOfpdZw:after {   position: absolute;   right: 100%;   top: 50%;   content: "";   width: 36px;   height: 36px;   background: #586A91;   border-radius: 0.5em;   transform: translate(50%, -50%) rotate(45deg);   z-index: -1; }    .MchPVZEwqRykxeEXOfpdZw > span {   margin-right: 1em;   font-weight: 600;   font-size: 16px;   letter-spacing: 0.5px;   margin-top: 0.1em; }  @media (max-width: 725px) {   .iuRfamyZidbeOgnnoPHbpQ button {     display: none;   }   .YFCVFRttAdlfFbBdOkbtiQ {     margin-left: 1em;   } }   @media (max-width: 550px) {   .MchPVZEwqRykxeEXOfpdZw span span {     display: none;   } }  @media (max-width: 465px) {   .MchPVZEwqRykxeEXOfpdZw {     display: none;   }   .iuRfamyZidbeOgnnoPHbpQ {     justify-content: center;   } }
+.nNbDeeQCkDWpjWTsFIfMag {   width: 900px;   height: 44px;   max-width: 100%;   background: #5CB9F7;   display: flex;   justify-content: space-between;   align-items: center;   text-decoration: none !important;   font-size: 16px;   color: #fff !important;   font-family: arial, sans-serif;   overflow: hidden; }    .nNbDeeQCkDWpjWTsFIfMag button {     border: none;     background: #8EE000;     color: #fff;     outline: none;     font-size: 1em;     padding: 0.5em 1.2em;     margin-left: 0.4em;     border-radius: 2em;     text-transform: uppercase;     font-weight: 600; cursor:pointer; transition: all 0.3s;   } button:hover{transform: scale(1.05);}    .dmNasFdexEbtXMqStfSyBA:hover span{   display: none; }  .dmNasFdexEbtXMqStfSyBA:hover span:nth-child(2) {   display: block; }  .dmNasFdexEbtXMqStfSyBA {   display: flex;   align-items: center; color:#fff}    .dmNasFdexEbtXMqStfSyBA span {   margin-left: 0.1em;   font-size: 1em;   font-weight: 700;   letter-spacing: 0.5px;   font-size: 20px;   width: 11em;   text-align: center; }  .XHAWNCZFxcUzdhqsDSqrGA {   display: inline-block; }  .dmNasFdexEbtXMqStfSyBA span:nth-child(2) {   display: none; }  .UgzfSmsrzEhOPkZLOsOqxg {   display: flex;   background: #586A91;   height: 44px;   align-items: center;   justify-content: center;   padding: 0 1em 0 0.5em;   position: relative;   z-index: 2; }    .UgzfSmsrzEhOPkZLOsOqxg:after {   position: absolute;   right: 100%;   top: 50%;   content: "";   width: 36px;   height: 36px;   background: #586A91;   border-radius: 0.5em;   transform: translate(50%, -50%) rotate(45deg);   z-index: -1; }    .UgzfSmsrzEhOPkZLOsOqxg > span {   margin-right: 1em;   font-weight: 600;   font-size: 16px;   letter-spacing: 0.5px;   margin-top: 0.1em; }  @media (max-width: 725px) {   .nNbDeeQCkDWpjWTsFIfMag button {     display: none;   }   .dmNasFdexEbtXMqStfSyBA {     margin-left: 1em;   } }   @media (max-width: 550px) {   .UgzfSmsrzEhOPkZLOsOqxg span span {     display: none;   } }  @media (max-width: 465px) {   .UgzfSmsrzEhOPkZLOsOqxg {     display: none;   }   .nNbDeeQCkDWpjWTsFIfMag {     justify-content: center;   } }
+.iuRfamyZidbeOgnnoPHbpQ {   width: 900px;   height: 44px;   max-width: 100%;   background: #5CB9F7;   display: flex;   justify-content: space-between;   align-items: center;   text-decoration: none !important;   font-size: 16px;   color: #fff !important;   font-family: arial, sans-serif;   overflow: hidden; }    .iuRfamyZidbeOgnnoPHbpQ button {   border: none;   background: #8EE000;   color: #fff;   outline: none;   font-size: 1em;   padding: 0.5em 1.2em;   margin-left: 0.4em;   border-radius: 2em;   text-transform: uppercase;   font-weight: 600;   cursor: pointer;   transition: all 0.3s; }  button:hover {   transform: scale(1.05); }  .YFCVFRttAdlfFbBdOkbtiQ:hover span {   display: none; }  .YFCVFRttAdlfFbBdOkbtiQ:hover span:nth-child(2) {   display: block; }  .YFCVFRttAdlfFbBdOkbtiQ {   display: flex;   align-items: center;   color: #fff; }    .YFCVFRttAdlfFbBdOkbtiQ span {   margin-left: 0.1em;   font-size: 1em;   font-weight: 700;   letter-spacing: 0.5px;   font-size: 20px;   width: 11em;   text-align: center; }  .HDcVgVcvOUidhnOOiCGsCQ {   display: inline-block; }  .YFCVFRttAdlfFbBdOkbtiQ span:nth-child(2) {   display: none; }  .MchPVZEwqRykxeEXOfpdZw {   display: flex;   background: #586A91;   height: 44px;   align-items: center;   justify-content: center;   padding: 0 1em 0 0.5em;   position: relative;   z-index: 2; }    .MchPVZEwqRykxeEXOfpdZw:after {   position: absolute;   right: 100%;   top: 50%;   content: "";   width: 36px;   height: 36px;   background: #586A91;   border-radius: 0.5em;   transform: translate(50%, -50%) rotate(45deg);   z-index: -1; }    .MchPVZEwqRykxeEXOfpdZw > span {   margin-right: 1em;   font-weight: 600;   font-size: 16px;   letter-spacing: 0.5px;   margin-top: 0.1em; }  @media (max-width: 725px) {   .iuRfamyZidbeOgnnoPHbpQ button {     display: none;   }   .YFCVFRttAdlfFbBdOkbtiQ {     margin-left: 1em;   } }   @media (max-width: 550px) {   .MchPVZEwqRykxeEXOfpdZw span span {     display: none;   } }  @media (max-width: 465px) {   .MchPVZEwqRykxeEXOfpdZw {     display: none;   }   .iuRfamyZidbeOgnnoPHbpQ {     justify-content: center;   } }
+.nNbDeeQCkDWpjWTsFIfMag {   width: 900px;   height: 44px;   max-width: 100%;   background: #fff;   display: flex;   justify-content: space-between;   align-items: center;   text-decoration: none !important;   font-size: 16px;   color: #fff !important;   font-family: arial, sans-serif;   overflow: hidden; }    .nNbDeeQCkDWpjWTsFIfMag button {   border: none;   background: #8EE000;   color: #fff;   outline: none;   font-size: 1em;   padding: 0.5em 1.2em;   margin-left: 0.4em;   border-radius: 2em;   text-transform: uppercase;   font-weight: 600;   cursor: pointer;   transition: all 0.3s; }  button:hover {   transform: scale(1.05); }  .dmNasFdexEbtXMqStfSyBA:hover span {   display: none; }  .dmNasFdexEbtXMqStfSyBA:hover span:nth-child(2) {   display: block; }  .dmNasFdexEbtXMqStfSyBA {   display: flex;   align-items: center;   color: #5CB9F7; }    .dmNasFdexEbtXMqStfSyBA span {   margin-left: 0.1em;   font-size: 1em;   font-weight: 700;   letter-spacing: 0.5px;   font-size: 20px;   width: 11em;   text-align: center; }  .XHAWNCZFxcUzdhqsDSqrGA {   display: inline-block; }  .dmNasFdexEbtXMqStfSyBA span:nth-child(2) {   display: none; }  .UgzfSmsrzEhOPkZLOsOqxg {   display: flex;   background: #586A91;   height: 44px;   align-items: center;   justify-content: center;   padding: 0 1em 0 0.5em;   position: relative;   z-index: 2; }    .UgzfSmsrzEhOPkZLOsOqxg:after {   position: absolute;   right: 100%;   top: 50%;   content: "";   width: 36px;   height: 36px;   background: #586A91;   border-radius: 0.5em;   transform: translate(50%, -50%) rotate(45deg);   z-index: -1; }    .UgzfSmsrzEhOPkZLOsOqxg > span {   margin-right: 1em;   font-weight: 600;   font-size: 16px;   letter-spacing: 0.5px;   margin-top: 0.1em; }  @media (max-width: 725px) {   .nNbDeeQCkDWpjWTsFIfMag button {     display: none;   }   .dmNasFdexEbtXMqStfSyBA {     margin-left: 1em;   } }   @media (max-width: 550px) {   .UgzfSmsrzEhOPkZLOsOqxg span span {     display: none;   } }  @media (max-width: 465px) {   .UgzfSmsrzEhOPkZLOsOqxg {     display: none;   }   .nNbDeeQCkDWpjWTsFIfMag {     justify-content: center;   } }
+.afyjmgfwxxEYLqcNPgXlrg {   width: 900px;   height: 44px;   margin: 0 auto;   background: #fff;   max-width: 100%;   display: flex;   justify-content: space-between;   align-items: center;   text-decoration: none !important;   color: #000 !important;   font-family: arial, sans-serif;   overflow: hidden; } .afyjmgfwxxEYLqcNPgXlrg:hover {   color: #fff;   background: #715AD0; } .afyjmgfwxxEYLqcNPgXlrg:hover .nJfksiZRaUjgsHcExxQwqQ span:nth-child(1) {   display: none; } .afyjmgfwxxEYLqcNPgXlrg:hover .nJfksiZRaUjgsHcExxQwqQ span:nth-child(2) {   display: block; } .afyjmgfwxxEYLqcNPgXlrg:hover .yewCsGbxxeYIcAGDjTfUqA span:nth-child(1) {   display: none;   color: #000; } .afyjmgfwxxEYLqcNPgXlrg:hover .yewCsGbxxeYIcAGDjTfUqA span:nth-child(2) {   display: block;   color: #000; } .afyjmgfwxxEYLqcNPgXlrg:hover .nJfksiZRaUjgsHcExxQwqQ {   background: #fff;   color: #000; } .afyjmgfwxxEYLqcNPgXlrg:hover .yewCsGbxxeYIcAGDjTfUqA {   background: #fff;   color: #000; } .afyjmgfwxxEYLqcNPgXlrg:hover .nJfksiZRaUjgsHcExxQwqQ:after {   background: #715AD0; } .afyjmgfwxxEYLqcNPgXlrg:hover .nJfksiZRaUjgsHcExxQwqQ:before {   background: #715AD0; } .afyjmgfwxxEYLqcNPgXlrg:hover .nJfksiZRaUjgsHcExxQwqQ span {   color: #000; } .afyjmgfwxxEYLqcNPgXlrg:hover .yewCsGbxxeYIcAGDjTfUqA:after {   background: #715AD0; } .afyjmgfwxxEYLqcNPgXlrg:hover .yewCsGbxxeYIcAGDjTfUqA:before {   background: #715AD0; } .afyjmgfwxxEYLqcNPgXlrg:hover .jvhBLgXgteLBnyiuwLDAug {   color: #fff; } .afyjmgfwxxEYLqcNPgXlrg:hover .jvhBLgXgteLBnyiuwLDAug:before {   background: #fff; } .afyjmgfwxxEYLqcNPgXlrg:hover .jvhBLgXgteLBnyiuwLDAug:after {   background: #fff; } .afyjmgfwxxEYLqcNPgXlrg .jvhBLgXgteLBnyiuwLDAug {   display: flex;   height: 32px;   align-items: center;   justify-content: center;   border-radius: 5px;   padding: 0 1em;   position: relative;   z-index: 2;   font-size: 18px;   color: #000;   width: 160px; } .afyjmgfwxxEYLqcNPgXlrg .jvhBLgXgteLBnyiuwLDAug:after{   position: absolute;   right: 98%;   top: 50%;   content: "";   width: 25px;   height: 25px;   background: #715AD0;   border-radius: 0.3em;   transform: translate(50%, -50%) rotate(45deg);   z-index: -1; } .afyjmgfwxxEYLqcNPgXlrg .jvhBLgXgteLBnyiuwLDAug:before{   position: absolute;   right: 2%;   top: 50%;   content: "";   width: 25px;   height: 25px;   background: #715AD0;   border-radius: 0.3em;   transform: translate(50%, -50%) rotate(45deg);   z-index: -1; } .afyjmgfwxxEYLqcNPgXlrg .jvhBLgXgteLBnyiuwLDAug span {   font-size: 26px;   font-family: Existence;   font-weight: 600; } .afyjmgfwxxEYLqcNPgXlrg .jvhBLgXgteLBnyiuwLDAug span:hover {   color: #fff;   text-decoration: none; } .afyjmgfwxxEYLqcNPgXlrg .nJfksiZRaUjgsHcExxQwqQ {   display: flex;   background: #715AD0;   height: 30px;   align-items: center;   justify-content: center;   border-radius: 5px;   padding: 0 1em;   margin-left: 1em;   position: relative;   z-index: 2;   font-size: 14px;   color: #fff;   width: 220px } .afyjmgfwxxEYLqcNPgXlrg .nJfksiZRaUjgsHcExxQwqQ:after{   position: absolute;   right: 102%;   top: 50%;   content: "";   width: 18px;   height: 18px;   background: #fff;   border-radius: 0.3em;   transform: translate(50%, -50%) rotate(45deg);   z-index: 2; } .afyjmgfwxxEYLqcNPgXlrg .nJfksiZRaUjgsHcExxQwqQ:before{   position: absolute;   right: -2%;   top: 50%;   content: "";   width: 18px;   height: 18px;   background: #fff;   border-radius: 0.3em;   transform: translate(50%, -50%) rotate(45deg);   z-index: 3; } .afyjmgfwxxEYLqcNPgXlrg .nJfksiZRaUjgsHcExxQwqQ span {   color: #fff;   font-size: 13px;   line-height: 13px; } .afyjmgfwxxEYLqcNPgXlrg .nJfksiZRaUjgsHcExxQwqQ span:nth-child(2) {   display: none; } .afyjmgfwxxEYLqcNPgXlrg .yewCsGbxxeYIcAGDjTfUqA{   display: flex;   flex-direction: column;   height: 44px;   align-items: center;   justify-content: center;   padding: 0 1em;   position: relative;   z-index: 2;   width: 220px; } .afyjmgfwxxEYLqcNPgXlrg .yewCsGbxxeYIcAGDjTfUqA span {   color: #fff;   font-size: 13px;   line-height: 13px; } .afyjmgfwxxEYLqcNPgXlrg .yewCsGbxxeYIcAGDjTfUqA span:nth-child(2) {   display: none; } .afyjmgfwxxEYLqcNPgXlrg .yewCsGbxxeYIcAGDjTfUqA {   display: flex;   background: #715AD0;   height: 30px;   align-items: center;   justify-content: center;   border-radius: 5px;   padding: 0 1em;   margin-right: 1em;   position: relative;   z-index: 2;   font-size: 14px;   color: #fff;   width: 220px } .afyjmgfwxxEYLqcNPgXlrg .yewCsGbxxeYIcAGDjTfUqA:after{   position: absolute;   right: 102%;   top: 50%;   content: "";   width: 18px;   height: 18px;   background: #fff;   border-radius: 0.3em;   transform: translate(50%, -50%) rotate(45deg);   z-index: 2; } .afyjmgfwxxEYLqcNPgXlrg .yewCsGbxxeYIcAGDjTfUqA:before{   position: absolute;   right: -2%;   top: 50%;   content: "";   width: 18px;   height: 18px;   background: #fff;   border-radius: 0.3em;   transform: translate(50%, -50%) rotate(45deg);   z-index: 3; }
+.fbnpSyQsgdaTJaxfuycCvw {   width: 900px;   height: 44px;   margin: 0 auto;   background: #715AD0;   max-width: 100%;   display: flex;   justify-content: space-between;   align-items: center;   text-decoration: none !important;   color: #fff !important;   font-family: arial, sans-serif;   overflow: hidden; } .fbnpSyQsgdaTJaxfuycCvw:hover {   color: #fff; } .fbnpSyQsgdaTJaxfuycCvw:hover .VSVLmRZXjylySGDGgnWdpg span:nth-child(1) {   display: none; } .fbnpSyQsgdaTJaxfuycCvw:hover .VSVLmRZXjylySGDGgnWdpg span:nth-child(2) {   display: block; } .fbnpSyQsgdaTJaxfuycCvw:hover .gaWaTgxTySjtWCqhQVehoA span:nth-child(2) {   display: none; } .fbnpSyQsgdaTJaxfuycCvw:hover .gaWaTgxTySjtWCqhQVehoA span:nth-child(3) {   display: block; } .fbnpSyQsgdaTJaxfuycCvw .xaYmeGkCrGtVyHaPnYhxQA {   display: flex;   background: #fff;   height: 32px;   align-items: center;   justify-content: center;   border-radius: 5px;   padding: 0 1em;   margin-right: 1em;   position: relative;   z-index: 2;   font-size: 18px;   color: #000;   width: 150px } // forma mid 1 .fbnpSyQsgdaTJaxfuycCvw .xaYmeGkCrGtVyHaPnYhxQA:after{   position: absolute;   right: 90%;   top: 115%;   content: "";   width: 22px;   height: 22px;   background: #715AD0;   border-radius: 0.3em;   transform: translate(50%, -50%) rotate(45deg);   z-index: -1; } .fbnpSyQsgdaTJaxfuycCvw .xaYmeGkCrGtVyHaPnYhxQA:before{   position: absolute;   right: 10%;   top: -15%;   content: "";   width: 22px;   height: 22px;   background: #715AD0;   border-radius: 0.3em;   transform: translate(50%, -50%) rotate(45deg);   z-index: -1; } // forma mid 2 .fbnpSyQsgdaTJaxfuycCvw .xaYmeGkCrGtVyHaPnYhxQA:after{   position: absolute;   right: 98%;   top: 50%;   content: "";   width: 25px;   height: 25px;   background: #fff;   border-radius: 0.3em;   transform: translate(50%, -50%) rotate(45deg);   z-index: -1; } .fbnpSyQsgdaTJaxfuycCvw .xaYmeGkCrGtVyHaPnYhxQA:before{   position: absolute;   right: 2%;   top: 50%;   content: "";   width: 25px;   height: 25px;   background: #fff;   border-radius: 0.3em;   transform: translate(50%, -50%) rotate(45deg);   z-index: -1; } .fbnpSyQsgdaTJaxfuycCvw .xaYmeGkCrGtVyHaPnYhxQA span {   font-size: 24px;   font-family: Existence;   font-weight: 600; } .fbnpSyQsgdaTJaxfuycCvw .xaYmeGkCrGtVyHaPnYhxQA span:hover {   color: #000;   text-decoration: none; } .fbnpSyQsgdaTJaxfuycCvw .VSVLmRZXjylySGDGgnWdpg {   display: flex;   height: 44px;   flex-direction: column;   align-items: center;   justify-content: center;   padding: 0 1em;   position: relative;   z-index: 2;   width: 230px; } .fbnpSyQsgdaTJaxfuycCvw .VSVLmRZXjylySGDGgnWdpg:after{   position: absolute;   right: 81%;   top: 70%;   content: "";   width: 14px;   height: 14px;   background: #715AD0;   border-radius: 0.3em;   transform: translate(50%, -50%) rotate(45deg);   z-index: 2; } .fbnpSyQsgdaTJaxfuycCvw .VSVLmRZXjylySGDGgnWdpg:before{   position: absolute;   right: 19%;   top: 70%;   content: "";   width: 14px;   height: 14px;   background: #715AD0;   border-radius: 0.3em;   transform: translate(50%, -50%) rotate(45deg);   z-index: 3; } .fbnpSyQsgdaTJaxfuycCvw .VSVLmRZXjylySGDGgnWdpg span:nth-child(3) {   display: flex;   background: #fff;   height: 18px;   align-items: center;   justify-content: center;   border-radius: 5px;   padding: 0 1em;   margin-top: 0.35em;   position: relative;   z-index: 2;   font-size: 14px;   color: #000;   width: 130px } .fbnpSyQsgdaTJaxfuycCvw .VSVLmRZXjylySGDGgnWdpg span {   color: #fff;   font-size: 13px;   line-height: 13px; } .fbnpSyQsgdaTJaxfuycCvw .VSVLmRZXjylySGDGgnWdpg span:nth-child(2) {   display: none; } .fbnpSyQsgdaTJaxfuycCvw .gaWaTgxTySjtWCqhQVehoA{   display: flex;   flex-direction: column;   height: 44px;   align-items: center;   justify-content: center;   padding: 0 1em;   position: relative;   z-index: 2;   width: 230px; } .fbnpSyQsgdaTJaxfuycCvw .gaWaTgxTySjtWCqhQVehoA span {   color: #fff;   font-size: 13px;   line-height: 13px; } .fbnpSyQsgdaTJaxfuycCvw .gaWaTgxTySjtWCqhQVehoA span:nth-child(3) {   display: none; } .fbnpSyQsgdaTJaxfuycCvw .gaWaTgxTySjtWCqhQVehoA span:nth-child(1) {   display: flex;   background: #fff;   height: 18px;   align-items: center;   justify-content: center;   border-radius: 5px;   margin-bottom: 0.35em;   padding: 0 1em;   position: relative;   z-index: 2;   font-size: 14px;   color: #000;   width: 130px } .fbnpSyQsgdaTJaxfuycCvw .gaWaTgxTySjtWCqhQVehoA:after{   position: absolute;   right: 81%;   top: 30%;   content: "";   width: 14px;   height: 14px;   background: #715AD0;   border-radius: 0.3em;   transform: translate(50%, -50%) rotate(45deg);   z-index: 2; } .fbnpSyQsgdaTJaxfuycCvw .gaWaTgxTySjtWCqhQVehoA:before{   position: absolute;   right: 19%;   top: 30%;   content: "";   width: 14px;   height: 14px;   background: #715AD0;   border-radius: 0.3em;   transform: translate(50%, -50%) rotate(45deg);   z-index: 3; }
+.JKjKzNCcWxixAxVrTweHzA {   background-color:#142155;   width:912px;   height:42px;   display:flex;   justify-content:flex-start;   align-items:center;   position:relative;   padding-left: 20px;   overflow: hidden; }  .JKjKzNCcWxixAxVrTweHzA > a {   position: absolute;   width: 932px;   height: 42px;   margin-left: -20px;   z-index: 44; }  .JKjKzNCcWxixAxVrTweHzA > img:nth-child(2) {   margin-right: 48px;   margin-bottom: 4px; }  .JKjKzNCcWxixAxVrTweHzA > img:nth-child(3) {   margin-right: 48px;   opacity: 1;   transition: opacity 0.2s linear, margin-left 0.2s cubic-bezier(0.05, 0.8, 0.05, 0.8) 0.1s, margin-right 0.2s cubic-bezier(0.05, 0.8, 0.05, 0.8) 0.3s; }  .JKjKzNCcWxixAxVrTweHzA > img:nth-child(4) {   margin-right: 14px;   transition: opacity 0.3s linear; }  .JKjKzNCcWxixAxVrTweHzA > .dlZysmwReuZocdTawqbnqQ {    background-color:#fff;    width:48px;    height:16px;    padding:4px 8px;    transition: opacity 0.3s linear; }  .JKjKzNCcWxixAxVrTweHzA > .dlZysmwReuZocdTawqbnqQ > img {    width:48px; }  .JKjKzNCcWxixAxVrTweHzA > svg {    position:absolute;    top:0;    left:-184px; }  .JKjKzNCcWxixAxVrTweHzA:hover > .KgeJzhImUTfTpbDXFaTZHA > .iacZidgyeimZtBXhONdOHw {   right: 0;   transition: all 0.3s cubic-bezier(0.05, 0.8, 0.05, 0.8); } .JKjKzNCcWxixAxVrTweHzA:hover > img:nth-child(3) {   opacity: 0;   margin-left: 880px;   margin-right: 600px; } .JKjKzNCcWxixAxVrTweHzA:hover > img:nth-child(4) {   opacity: 0; } .JKjKzNCcWxixAxVrTweHzA:hover > .dlZysmwReuZocdTawqbnqQ {   opacity: 0; }  .KgeJzhImUTfTpbDXFaTZHA {   position:absolute;   top:0;   right:0;   height:42px;   width:800px;   overflow: hidden; }  .KgeJzhImUTfTpbDXFaTZHA > .iacZidgyeimZtBXhONdOHw {   position: absolute;   height:42px;   width:760px;   right: -820px;   top: 0;   background-color:#fff;   transition: all 0.2s cubic-bezier(0.8, 0.3, 0.8, 0.3); }  .KgeJzhImUTfTpbDXFaTZHA > .iacZidgyeimZtBXhONdOHw::after {   content: "";   position: absolute;   border: 0px solid transparent;   border-top: 40px solid #fff;   border-left: 42px solid transparent;   width: 0;   height: 0;   top: 1px;   left: -40px;   transform: rotate(90deg); }  .KgeJzhImUTfTpbDXFaTZHA > .iacZidgyeimZtBXhONdOHw > img {   margin-left: 185px;   margin-top: 11px; }
+.lmiMjrdWDhoRnTWUYwTpDw { 	width: 100%; 	max-height: 47px; 	height: 47px; 	border-radius: 8px; 	background: #009FFF; 	background: -webkit-linear-gradient(to right, #736df8, #ec2F4B); 	background: -webkit-gradient(linear, left top, right top, from(#736df8), to(#ec2F4B)); 	background: -webkit-linear-gradient(left, #736df8, #ec2F4B); 	background: -o-linear-gradient(left, #736df8, #ec2F4B); 	background: linear-gradient(to right, #736df8, #ec2F4B); 	color: #ffffff; 	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif; 	text-decoration: none; 	display: -webkit-box; 	display: -ms-flexbox; 	display: flex; 	-ms-flex-pack: distribute; 	justify-content: space-around; 	-webkit-box-align: center; 	-ms-flex-align: center; 	align-items: center; 	position: relative; }  .xjXjJrawoeQdsigwoFkIsA { 	position: absolute; 	width: 100%; 	height: 100%; }  .FUaxyMHarGBUZVKzADdBFA { 	background-color: #333648; 	padding: 8px 20px; 	border-radius: 1000px; 	text-align: center; 	-webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, .08); 	box-shadow: 0 5px 15px rgba(0, 0, 0, .08); 	text-transform: uppercase; 	letter-spacing: 0.0625em; 	font-weight: bold; 	font-size: 14px; 	color: #ffffff; 	text-decoration: none; 	cursor: pointer; }  .aLfyGIOJigwhnxuxydOLlA { 	display: -webkit-box; 	display: -ms-flexbox; 	display: flex; 	-webkit-box-pack: center; 	-ms-flex-pack: center; 	justify-content: center; 	-webkit-box-align: center; 	-ms-flex-align: center; 	align-items: center; 	font-size: 16px; }  .aLfyGIOJigwhnxuxydOLlA>span { 	margin-left: 8px; 	margin-right: 8px; }  .TCmaRzaSvYrAtHhlIibsgA { 	font-size: 20px; }
+.tLVroGhIrKsngJIOXfGCBg:link {font-size:18px;font-weight:bold;color:orange}
+.tLVroGhIrKsngJIOXfGCBg:active {font-size:18px;font-weight:bold;color:orange}
+.tLVroGhIrKsngJIOXfGCBg:visited {font-size:18px;font-weight:bold;color:tan}
+.tLVroGhIrKsngJIOXfGCBg:hover {text-decoration:none !important;color:red}
+.nounderline:hover {text-decoration:none}
+.exempttable {display:inline-table !important}
+.bbca table, .bbca tbody, .bbca tr, .bbca td{
+	display: inline-block !important;
+	min-width: 0px !important;
+	text-align: center !important;
+}
+.gunbot td{text-align:left !important}
+.olddiv{display:block}
+.cryptokg {display:inline-block;padding:2px;font-size:17px;height:42px;width:500px;background-color:white; font-weight:700;color:orange} .cryptokg a:link{color:orange} .cryptokg a:hover{color:orange} .cryptokg a:visited{color:orange}
+</style>
+<link rel="stylesheet" type="text/css" href="https://bitcointalk.org/extra1.css" />
+<link rel="stylesheet" type="text/css" href="https://bitcointalk.org/extra3.css" />
+<link rel="stylesheet" type="text/css" href="https://bitcointalk.org/extra6.css" />
+<link rel="stylesheet" type="text/css" href="https://bitcointalk.org/extra9.css" />
+<link rel="stylesheet" type="text/css" href="https://bitcointalk.org/extra8.css" />
+
+	<link rel="help" href="https://bitcointalk.org/index.php?action=help" target="_blank" />
+	<link rel="search" href="https://bitcointalk.org/index.php?action=search" />
+	<link rel="contents" href="https://bitcointalk.org/index.php" />
+	<link rel="alternate" type="application/rss+xml" title="Bitcoin Forum - RSS" href="https://bitcointalk.org/index.php?type=rss;action=.xml" />
+	<link rel="prev" href="https://bitcointalk.org/index.php?topic=626361.0;prev_next=prev" />
+	<link rel="next" href="https://bitcointalk.org/index.php?topic=626361.0;prev_next=next" />
+	<link rel="index" href="https://bitcointalk.org/index.php?board=42.0" /><meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+<script language="JavaScript" type="text/javascript"><!-- // --><![CDATA[
+		function showhide(msgnr)
+		{
+			if (document.getElementById("message"+msgnr).style.display == "")
+			    {document.getElementById("message"+msgnr).style.display = "none";
+			     document.getElementById("ignmsgbttns"+msgnr).style.visibility = "hidden";
+			     document.getElementById("ignoremessage"+msgnr).style.display = "";
+			     document.getElementById("ignfooter"+msgnr).style.display = "none";
+			     document.getElementById("showhide"+msgnr).src = "https://bitcointalk.org/Themes/custom1/images/english/ignshow.gif";
+			     document.getElementById("showhide"+msgnr).alt = "Show";
+			     document.getElementById("ignprofile"+msgnr).style.display = "none";
+			    }
+			    else
+			    {document.getElementById("message"+msgnr).style.display = "";
+			     document.getElementById("ignmsgbttns"+msgnr).style.visibility = "visible";
+			     document.getElementById("ignoremessage"+msgnr).style.display = "none";
+			     document.getElementById("ignfooter"+msgnr).style.display = "";
+			     document.getElementById("showhide"+msgnr).src = "https://bitcointalk.org/Themes/custom1/images/english/ignhide.gif";
+			     document.getElementById("showhide"+msgnr).alt = "Hide";
+			     document.getElementById("ignprofile"+msgnr).style.display = "";
+			     }
+		}
+// ]]></script>
+
+	<script language="JavaScript" type="text/javascript"><!-- // --><![CDATA[
+		var current_header = false;
+
+		function shrinkHeader(mode)
+		{
+			document.cookie = "upshrink=" + (mode ? 1 : 0);
+			document.getElementById("upshrink").src = smf_images_url + (mode ? "/upshrink2.gif" : "/upshrink.gif");
+
+			document.getElementById("upshrinkHeader").style.display = mode ? "none" : "";
+			document.getElementById("upshrinkHeader2").style.display = mode ? "none" : "";
+
+			current_header = mode;
+		}
+	// ]]></script>
+		<script language="JavaScript" type="text/javascript"><!-- // --><![CDATA[
+			var current_header_ic = false;
+
+			function shrinkHeaderIC(mode)
+			{
+				document.cookie = "upshrinkIC=" + (mode ? 1 : 0);
+				document.getElementById("upshrink_ic").src = smf_images_url + (mode ? "/expand.gif" : "/collapse.gif");
+
+				document.getElementById("upshrinkHeaderIC").style.display = mode ? "none" : "";
+
+				current_header_ic = mode;
+			}
+		// ]]></script></head>
+<body>
+	<div class="tborder" >
+		<table width="100%" cellpadding="0" cellspacing="0" border="0" id="smfheader">
+			<tr>
+				<td class="catbg" height="32">
+					<span style="font-family: Verdana, sans-serif; font-size: 140%; ">Bitcoin Forum</span>
+				</td>
+				<td align="right" class="catbg">
+					<img src="https://bitcointalk.org/Themes/custom1/images/smflogo.gif" style="margin: 2px;" alt="" />
+				</td>
+			</tr>
+		</table>
+		<table width="100%" cellpadding="0" cellspacing="0" border="0" >
+			<tr>
+				<td class="titlebg2" height="32" align="right">
+					<span class="smalltext">November 18, 2019, 06:34:16 PM</span>
+					<a href="#" onclick="shrinkHeader(!current_header); return false;"><img id="upshrink" src="https://bitcointalk.org/Themes/custom1/images/upshrink.gif" alt="*" title="Shrink or expand the header." align="bottom" style="margin: 0 1ex;" /></a>
+				</td>
+			</tr>
+			<tr id="upshrinkHeader">
+				<td valign="top" colspan="2">
+					<table width="100%" class="bordercolor" cellpadding="8" cellspacing="1" border="0" style="margin-top: 1px;">
+						<tr>
+							<td colspan="2" width="100%" valign="top" class="windowbg2" id="variousheadlinks"><span class="middletext">Welcome, <b>Guest</b>. Please <a href="https://bitcointalk.org/index.php?action=login">login</a> or <a href="https://bitcointalk.org/index.php?action=register">register</a>.				</span>
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</table>
+		<table id="upshrinkHeader2" width="100%" cellpadding="4" cellspacing="0" border="0">
+			<tr>
+				<td width="90%" class="titlebg2">
+					<span class="smalltext"><b>News</b>: Latest Bitcoin Core release: <a class="ul" href="https://bitcoin.org/en/download">0.18.1</a> [<a class="ul" href="https://bitcointalk.org/bitcoin-0.18.1.torrent">Torrent</a>]</span>
+				</td>
+				<td class="titlebg2" align="right" nowrap="nowrap" valign="top">
+					<form action="https://bitcointalk.org/index.php?action=search2" method="post" accept-charset="ISO-8859-1" style="margin: 0;">
+						<a href="https://bitcointalk.org/index.php?action=search;advanced"><img src="https://bitcointalk.org/Themes/custom1/images/filter.gif" align="middle" style="margin: 0 1ex;" alt="" /></a>
+						<input type="text" name="search" value="" style="width: 190px;" />&nbsp;
+						<input type="submit" name="submit" value="Search" style="width: 11ex;" />
+						<input type="hidden" name="advanced" value="0" />
+						<input type="hidden" name="topic" value="626361" />
+					</form>
+				</td>
+			</tr>
+		</table>
+	</div>
+			<table cellpadding="0" cellspacing="0" border="0" style="margin-left: 10px;">
+				<tr>
+					<td class="maintab_first">&nbsp;</td><td class="maintab_active_first">&nbsp;</td>
+				<td valign="top" class="maintab_active_back">
+					<a href="https://bitcointalk.org/index.php">Home</a>
+				</td><td class="maintab_active_last">&nbsp;</td>
+				<td valign="top" class="maintab_back">
+					<a href="https://bitcointalk.org/index.php?action=help">Help</a>
+				</td>
+				<td valign="top" class="maintab_back">
+					<a href="https://bitcointalk.org/index.php?action=search">Search</a>
+				</td>
+				<td valign="top" class="maintab_back">
+					<a href="https://bitcointalk.org/index.php?action=login">Login</a>
+				</td>
+				<td valign="top" class="maintab_back">
+					<a href="https://bitcointalk.org/index.php?action=register">Register</a>
+				</td>
+                                <td valign="top" class="maintab_back">
+                                        <a href="/more.php">More</a>
+                                </td>
+				<td class="maintab_last">&nbsp;</td>
+			</tr>
+		</table>
+	<div id="bodyarea" style="padding: 1ex 0px 2ex 0px;">
+<a name="top"></a>
+<a name="msg7982683"></a>
+<div><div class="nav" style="font-size: smaller; margin-bottom: 2ex; margin-top: 2ex;"><b><a href="https://bitcointalk.org/index.php" class="nav">Bitcoin Forum</a></b>&nbsp;>&nbsp;<b><a href="https://bitcointalk.org/index.php#1" class="nav">Bitcoin</a></b>&nbsp;>&nbsp;<b><a href="https://bitcointalk.org/index.php?board=14.0" class="nav">Mining</a></b>&nbsp;>&nbsp;<b><a href="https://bitcointalk.org/index.php?board=42.0" class="nav">Mining software (miners)</a></b>&nbsp;>&nbsp;<b><a href="https://bitcointalk.org/index.php?topic=626361.0" class="nav">OLD: BFGMiner 4.10.0: GBT+Stratum, RPC, Mac/Linux/Win64, Spondoolies SP30</a></b></div></div>
+<table width="100%" cellpadding="0" cellspacing="0" border="0">
+	<tr>
+		<td class="middletext" valign="bottom" style="padding-bottom: 4px;">Pages: <span class="prevnext"><a class="navPages" href="https://bitcointalk.org/index.php?topic=626361.340">&#171;</a> </span><a class="navPages" href="https://bitcointalk.org/index.php?topic=626361.0">1</a> <a class="navPages" href="https://bitcointalk.org/index.php?topic=626361.20">2</a> <a class="navPages" href="https://bitcointalk.org/index.php?topic=626361.40">3</a> <a class="navPages" href="https://bitcointalk.org/index.php?topic=626361.60">4</a> <a class="navPages" href="https://bitcointalk.org/index.php?topic=626361.80">5</a> <a class="navPages" href="https://bitcointalk.org/index.php?topic=626361.100">6</a> <a class="navPages" href="https://bitcointalk.org/index.php?topic=626361.120">7</a> <a class="navPages" href="https://bitcointalk.org/index.php?topic=626361.140">8</a> <a class="navPages" href="https://bitcointalk.org/index.php?topic=626361.160">9</a> <a class="navPages" href="https://bitcointalk.org/index.php?topic=626361.180">10</a> <a class="navPages" href="https://bitcointalk.org/index.php?topic=626361.200">11</a> <a class="navPages" href="https://bitcointalk.org/index.php?topic=626361.220">12</a> <a class="navPages" href="https://bitcointalk.org/index.php?topic=626361.240">13</a> <a class="navPages" href="https://bitcointalk.org/index.php?topic=626361.260">14</a> <a class="navPages" href="https://bitcointalk.org/index.php?topic=626361.280">15</a> <a class="navPages" href="https://bitcointalk.org/index.php?topic=626361.300">16</a> <a class="navPages" href="https://bitcointalk.org/index.php?topic=626361.320">17</a> <a class="navPages" href="https://bitcointalk.org/index.php?topic=626361.340">18</a> [<b>19</b>] <a class="navPages" href="https://bitcointalk.org/index.php?topic=626361.380">20</a> <a class="navPages" href="https://bitcointalk.org/index.php?topic=626361.400">21</a> <a class="navPages" href="https://bitcointalk.org/index.php?topic=626361.420">22</a> <a class="navPages" href="https://bitcointalk.org/index.php?topic=626361.440">23</a> <a class="navPages" href="https://bitcointalk.org/index.php?topic=626361.460">24</a> <a class="navPages" href="https://bitcointalk.org/index.php?topic=626361.480">25</a> <a class="navPages" href="https://bitcointalk.org/index.php?topic=626361.500">26</a> <a class="navPages" href="https://bitcointalk.org/index.php?topic=626361.520">27</a> <a class="navPages" href="https://bitcointalk.org/index.php?topic=626361.540">28</a> <a class="navPages" href="https://bitcointalk.org/index.php?topic=626361.560">29</a> <a class="navPages" href="https://bitcointalk.org/index.php?topic=626361.580">30</a> <a class="navPages" href="https://bitcointalk.org/index.php?topic=626361.600">31</a> <a class="navPages" href="https://bitcointalk.org/index.php?topic=626361.620">32</a> <a class="navPages" href="https://bitcointalk.org/index.php?topic=626361.640">33</a> <a class="navPages" href="https://bitcointalk.org/index.php?topic=626361.660">34</a> <a class="navPages" href="https://bitcointalk.org/index.php?topic=626361.680">35</a> <a class="navPages" href="https://bitcointalk.org/index.php?topic=626361.700">36</a> <a class="navPages" href="https://bitcointalk.org/index.php?topic=626361.720">37</a> <a class="navPages" href="https://bitcointalk.org/index.php?topic=626361.740">38</a> <a class="navPages" href="https://bitcointalk.org/index.php?topic=626361.760">39</a> <a class="navPages" href="https://bitcointalk.org/index.php?topic=626361.780">40</a> <a class="navPages" href="https://bitcointalk.org/index.php?topic=626361.800">41</a> <span class="prevnext"><a class="navPages" href="https://bitcointalk.org/index.php?topic=626361.380">&#187;</a> </span></td>
+		<td align="right" style="padding-right: 1ex;">
+			<div class="nav" style="margin-bottom: 2px;"> <a href="https://bitcointalk.org/index.php?topic=626361.0;prev_next=prev#new">&laquo; previous topic</a> <a href="https://bitcointalk.org/index.php?topic=626361.0;prev_next=next#new">next topic &raquo;</a></div>
+			<table cellpadding="0" cellspacing="0">
+				<tr>
+					
+		<td class="mirrortab_first">&nbsp;</td>
+		<td class="mirrortab_back"><a href="https://bitcointalk.org/index.php?action=printpage;topic=626361.0" target="_blank">Print</a></td>
+		<td class="mirrortab_last">&nbsp;</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>
+<table width="100%" cellpadding="3" cellspacing="0" border="0" class="tborder" style="border-bottom: 0;">
+		<tr class="catbg3">
+				<td valign="middle" width="2%" style="padding-left: 6px;">
+						<img src="https://bitcointalk.org/Themes/custom1/images/topic/veryhot_post_locked.gif" align="bottom" alt="" />
+				</td>
+				<td width="13%"> Author</td>
+				<td valign="middle" width="85%" style="padding-left: 6px;" id="top_subject">
+						Topic: OLD: BFGMiner 4.10.0: GBT+Stratum, RPC, Mac/Linux/Win64, Spondoolies SP30 &nbsp;(Read 307722 times)
+				</td>
+		</tr><tr>
+				<td colspan="3" class="smalltext"> This is a self-moderated topic. If you do not want to be moderated by the person who started this topic, create a new topic.  </td>
+		</tr>
+</table>
+<form action="https://bitcointalk.org/index.php?action=quickmod2;topic=626361.360" method="post" accept-charset="ISO-8859-1" name="quickModForm" id="quickModForm" style="margin: 0;" onsubmit="return in_edit_mode == 1 ? modify_save('a78555bb75406eafd4d176c9734f76b6') : confirm('Are you sure you want to do this?');">
+<table cellpadding="0" cellspacing="0" border="0" width="100%" class="bordercolor">
+	<tr class="YruBXtQFqdLmabzcdfsymQ"><td class="GUEqyLfOBVOkFxjlzJuiCA"><b><i></i></b><b><i></i></b>
+		<table width="100%" cellpadding="3" cellspacing="0" border="0">
+			<tr><td class="windowbg">
+				<table width="100%" cellpadding="5" cellspacing="0" style="table-layout: fixed;">
+					<tr>
+								<td valign="top" width="16%" rowspan="2" style="overflow: hidden;" class="poster_info">
+							<b><a href="https://bitcointalk.org/index.php?action=profile;u=91620" title="View the profile of jeezy">jeezy</a></b>
+							<div class="smalltext">
+								Legendary<br />
+								<img src="https://bitcointalk.org/Themes/custom1/images/legendary.gif" alt="*" border="0" /><br />
+								<img src="https://bitcointalk.org/Themes/custom1/images/useroff.gif" alt="Offline" border="0" style="margin-top: 2px;" /><span class="smalltext"> Offline</span><br /><br />
+								Activity: 1231<br />
+								Merit: 1010<br /><br />
+								<div style="overflow: auto; width: 100%;"><img src="/useravatars/avatar_91620.png" alt="" class="avatar" border="0" /></div><br />
+								
+								
+								
+								<br />
+								<a href="https://bitcointalk.org/index.php?action=profile;u=91620"><img src="https://bitcointalk.org/Themes/custom1/images/icons/profile_sm.gif" alt="View Profile" title="View Profile" border="0" /></a><br />
+							</div>
+						</td>
+								<td valign="top" width="85%" height="100%" style="padding: 2px;" class="td_headerandpost">
+							<table width="100%" border="0"><tr>
+								<td valign="middle"><a href="https://bitcointalk.org/index.php?topic=626361.msg7982683#msg7982683"><img src="https://bitcointalk.org/Themes/custom1/images/post/xx.gif" alt="" border="0" /></a></td>
+								<td valign="middle">
+												<div style="font-weight: bold;" class="subject" id="subject_7982683">
+										<a href="https://bitcointalk.org/index.php?topic=626361.msg7982683#msg7982683">Re: BFGMiner 4.4.0: GBT+Strtm, RPC, Mac/Lnx/W64, Mac autodetect, JTMiner, proxy</a>
+									</div>
+												<div class="smalltext">July 23, 2014, 08:28:59 AM</div></td>
+										  <td align="right" valign="middle" height="20" style="font-size: smaller; padding-top: 4px;" class="td_buttons" ><div id="ignmsgbttns361" style="visibility: visible;">  <a class="message_number" style="vertical-align: middle;" href="https://bitcointalk.org/index.php?topic=626361.msg7982683#msg7982683">#361</a>
+		 </div>
+								</td>
+							</tr></table>
+									 <hr width="100%" size="1" class="hrcolor"  style="margin-top: 4px;" />
+							<div class="post">What are the exact commands/config options to set Zeus Blizzard clock rates per device?</div>
+						</td>
+					</tr>
+					<tr>
+						<td valign="bottom" class="smalltext" width="85%">
+							<table width="100%" border="0" style="table-layout: fixed;"><tr>
+								<td colspan="2" class="smalltext" width="100%">
+								</td>
+							</tr><tr>
+								<td valign="bottom" class="smalltext" id="modified_7982683">
+								</td>
+								<td align="right" valign="bottom" class="smalltext">
+									<img src="https://bitcointalk.org/Themes/custom1/images/ip.gif" alt="" border="0" />
+								</td>
+							</tr></table>
+						</td>
+					</tr>
+				</table>
+			</td></tr>
+		</table>
+	</td></tr><tr><td class="GUEqyLfOBVOkFxjlzJuiCA"></td></tr><tr class="RqDWhtnHADHcfUrVUpyBpw"><td class="GUEqyLfOBVOkFxjlzJuiCA"><b><i></i></b><b><i></i></b><b><i></i></b><b><i></i></b><b><i></i></b> <a name="msg1574102056"></a>
+ <table width="100%" border="0" cellpadding="3" cellspacing="0">
+  <tbody><tr><td class="windowbg2">
+   <table style="table-layout: fixed;" width="100%" cellpadding="5" cellspacing="0">
+    <tbody><tr>
+       <td rowspan="2" style="overflow: hidden;" class="poster_info" valign="top" width="16%">
+      <b><a href="https://bitcointalk.org/index.php?action=profile;u=1574102056" title="View the profile of 1574102056">1574102056</a></b>
+      <div class="smalltext">
+       Hero Member<br />
+       <img src="/Themes/custom1/images/star.gif" alt="*" border="0" /><br />
+       <a href="https://bitcointalk.org/index.php?action=pm;sa=send;u=1574102056" title="Personal Message (Offline)"><img src="/Themes/custom1/images/useroff.gif" alt="Offline" style="margin-top: 2px;" border="0" /></a><span class="smalltext"> Offline</span><br /><br />
+       Posts: 1574102056<br />
+       
+       
+       
+       <br />
+       <a href="https://bitcointalk.org/index.php?action=profile;u=1574102056"><img src="/Themes/custom1/images/icons/profile_sm.gif" alt="View Profile" title="View Profile" border="0" /></a>
+       <a href="https://bitcointalk.org/index.php?action=pm;sa=send;u=1574102056" title="Personal Message (Offline)"><img src="/Themes/custom1/images/im_off.gif" alt="Personal Message (Offline)" border="0" /></a><br />
+       <br /><a href="https://bitcointalk.org/index.php?action=ignore;u=1574102056;topic=1574102056;msg=1574102056">Ignore</a>
+      </div>
+     </td>
+       <td style="padding: 2px;" class="td_headerandpost" valign="top" width="85%" height="100%">
+      <table width="100%" border="0"><tbody><tr>
+       <td valign="middle"><a href="https://bitcointalk.org/index.php?topic=1574102056.msg1574102056#msg1574102056"><img src="/Themes/custom1/images/post/xx.gif" alt="" border="0" /></a></td>
+       <td valign="middle">
+           <div style="font-weight: bold;" class="subject">
+         <a href="https://bitcointalk.org/index.php?topic=1574102056.msg1574102056#msg1574102056">1574102056</a>
+        </div>
+           <div class="smalltext">1574102056</div></td>
+           <td style="font-size: smaller; padding-top: 4px;" class="td_buttons" valign="middle" align="right" height="20"><div style="visibility: visible;">
+    <a href="https://bitcointalk.org/index.php?action=post;quote=1574102056;topic=1574102056.100;num_replies=2;sesc=1574102056"><img src="/Themes/custom1/images/frostee/frostee_quote.png" alt="Reply with quote" class="reply_button" style="vertical-align: middle;" /></a>
+       &nbsp;<a class="message_number" style="vertical-align: middle;" href="https://bitcointalk.org/index.php?topic=1574102056.msg1574102056#msg1574102056">#2</a>
+  </div>
+       </td>
+      </tr></tbody></table>
+         <hr class="hrcolor" style="margin-top: 4px;" size="1" width="100%" />
+      <div class="post">1574102056</div>
+     </td>
+    </tr>
+    <tr>
+     <td class="smalltext" valign="bottom" width="85%">
+      <table style="table-layout: fixed;" width="100%" border="0"><tbody><tr>
+       <td colspan="2" class="smalltext" width="100%">
+       </td>
+      </tr><tr>
+       <td class="smalltext" valign="bottom">
+       </td>
+       <td class="smalltext" valign="bottom" align="right">
+        <a href="https://bitcointalk.org/index.php?action=reporttm;topic=1574102056.101;msg=1574102056">Report to moderator</a>
+       </td>
+      </tr></tbody></table>
+     </td>
+    </tr>
+   </tbody></table>
+  </td></tr>
+ </tbody></table>
+</td></tr><tr class="xETLfRaUHdjzOrryOvcotw"><td class="GUEqyLfOBVOkFxjlzJuiCA"><b><i></i></b><b><i></i></b><b><i></i></b><b><i></i></b><b><i></i></b> <a name="msg1574102056"></a>
+ <table width="100%" border="0">
+  <tbody><tr><td>
+   <table width="100%">
+    <tbody><tr>
+       <td rowspan="2">
+     </td>
+       <td>
+      <table width="100%" class="vmfgYNjjtUrOwMaCUfTJfg"><tr><td></td></tr>
+      </table>
+      <div class="PDxpIxxjumKesHNiHCdAgg"><a href="https://bitcointalk.org/index.php?topic=3061317.msg31526163#msg31526163" class="tLVroGhIrKsngJIOXfGCBg">Bitcointalk.org starts using SegWit for payments</a></div>
+     </td>
+    </tr>
+    <tr class="vmfgYNjjtUrOwMaCUfTJfg"><td></td>
+    </tr>
+   </tbody></table>
+  </td></tr>
+ </tbody></table>
+ <span style="font-size:x-small">The Bitcoin Forum is turning 10 years old! Join the community in <a href="https://bitcointalk.org/captions.php">sharing</a> and exploring the notable posts made over the years.</span>
+</td></tr><tr class="RqDWhtnHADHcfUrVUpyBpw"><td class="GUEqyLfOBVOkFxjlzJuiCA"><b><i></i></b><b><i></i></b><b><i></i></b><b><i></i></b><b><i></i></b> <a name="msg1574102056"></a>
+ <table width="100%" border="0" cellpadding="3" cellspacing="0">
+  <tbody><tr><td class="windowbg2">
+   <table style="table-layout: fixed;" width="100%" cellpadding="5" cellspacing="0">
+    <tbody><tr>
+       <td rowspan="2" style="overflow: hidden;" class="poster_info" valign="top" width="16%">
+      <b><a href="https://bitcointalk.org/index.php?action=profile;u=1574102056" title="View the profile of 1574102056">1574102056</a></b>
+      <div class="smalltext">
+       Hero Member<br />
+       <img src="/Themes/custom1/images/star.gif" alt="*" border="0" /><br />
+       <a href="https://bitcointalk.org/index.php?action=pm;sa=send;u=1574102056" title="Personal Message (Offline)"><img src="/Themes/custom1/images/useroff.gif" alt="Offline" style="margin-top: 2px;" border="0" /></a><span class="smalltext"> Offline</span><br /><br />
+       Posts: 1574102056<br />
+       
+       
+       
+       <br />
+       <a href="https://bitcointalk.org/index.php?action=profile;u=1574102056"><img src="/Themes/custom1/images/icons/profile_sm.gif" alt="View Profile" title="View Profile" border="0" /></a>
+       <a href="https://bitcointalk.org/index.php?action=pm;sa=send;u=1574102056" title="Personal Message (Offline)"><img src="/Themes/custom1/images/im_off.gif" alt="Personal Message (Offline)" border="0" /></a><br />
+       <br /><a href="https://bitcointalk.org/index.php?action=ignore;u=1574102056;topic=1574102056;msg=1574102056">Ignore</a>
+      </div>
+     </td>
+       <td style="padding: 2px;" class="td_headerandpost" valign="top" width="85%" height="100%">
+      <table width="100%" border="0"><tbody><tr>
+       <td valign="middle"><a href="https://bitcointalk.org/index.php?topic=1574102056.msg1574102056#msg1574102056"><img src="/Themes/custom1/images/post/xx.gif" alt="" border="0" /></a></td>
+       <td valign="middle">
+           <div style="font-weight: bold;" class="subject">
+         <a href="https://bitcointalk.org/index.php?topic=1574102056.msg1574102056#msg1574102056">1574102056</a>
+        </div>
+           <div class="smalltext">1574102056</div></td>
+           <td style="font-size: smaller; padding-top: 4px;" class="td_buttons" valign="middle" align="right" height="20"><div style="visibility: visible;">
+    <a href="https://bitcointalk.org/index.php?action=post;quote=1574102056;topic=1574102056.100;num_replies=2;sesc=1574102056"><img src="/Themes/custom1/images/frostee/frostee_quote.png" alt="Reply with quote" class="reply_button" style="vertical-align: middle;" /></a>
+       &nbsp;<a class="message_number" style="vertical-align: middle;" href="https://bitcointalk.org/index.php?topic=1574102056.msg1574102056#msg1574102056">#2</a>
+  </div>
+       </td>
+      </tr></tbody></table>
+         <hr class="hrcolor" style="margin-top: 4px;" size="1" width="100%" />
+      <div class="post">1574102056</div>
+     </td>
+    </tr>
+    <tr>
+     <td class="smalltext" valign="bottom" width="85%">
+      <table style="table-layout: fixed;" width="100%" border="0"><tbody><tr>
+       <td colspan="2" class="smalltext" width="100%">
+       </td>
+      </tr><tr>
+       <td class="smalltext" valign="bottom">
+       </td>
+       <td class="smalltext" valign="bottom" align="right">
+        <a href="https://bitcointalk.org/index.php?action=reporttm;topic=1574102056.101;msg=1574102056">Report to moderator</a>
+       </td>
+      </tr></tbody></table>
+     </td>
+    </tr>
+   </tbody></table>
+  </td></tr>
+ </tbody></table>
+</td></tr><tr class="RqDWhtnHADHcfUrVUpyBpw"><td class="GUEqyLfOBVOkFxjlzJuiCA"><b><i></i></b><b><i></i></b><b><i></i></b><b><i></i></b><b><i></i></b> <a name="msg1574102056"></a>
+ <table width="100%" border="0" cellpadding="3" cellspacing="0">
+  <tbody><tr><td class="windowbg2">
+   <table style="table-layout: fixed;" width="100%" cellpadding="5" cellspacing="0">
+    <tbody><tr>
+       <td rowspan="2" style="overflow: hidden;" class="poster_info" valign="top" width="16%">
+      <b><a href="https://bitcointalk.org/index.php?action=profile;u=1574102056" title="View the profile of 1574102056">1574102056</a></b>
+      <div class="smalltext">
+       Hero Member<br />
+       <img src="/Themes/custom1/images/star.gif" alt="*" border="0" /><br />
+       <a href="https://bitcointalk.org/index.php?action=pm;sa=send;u=1574102056" title="Personal Message (Offline)"><img src="/Themes/custom1/images/useroff.gif" alt="Offline" style="margin-top: 2px;" border="0" /></a><span class="smalltext"> Offline</span><br /><br />
+       Posts: 1574102056<br />
+       
+       
+       
+       <br />
+       <a href="https://bitcointalk.org/index.php?action=profile;u=1574102056"><img src="/Themes/custom1/images/icons/profile_sm.gif" alt="View Profile" title="View Profile" border="0" /></a>
+       <a href="https://bitcointalk.org/index.php?action=pm;sa=send;u=1574102056" title="Personal Message (Offline)"><img src="/Themes/custom1/images/im_off.gif" alt="Personal Message (Offline)" border="0" /></a><br />
+       <br /><a href="https://bitcointalk.org/index.php?action=ignore;u=1574102056;topic=1574102056;msg=1574102056">Ignore</a>
+      </div>
+     </td>
+       <td style="padding: 2px;" class="td_headerandpost" valign="top" width="85%" height="100%">
+      <table width="100%" border="0"><tbody><tr>
+       <td valign="middle"><a href="https://bitcointalk.org/index.php?topic=1574102056.msg1574102056#msg1574102056"><img src="/Themes/custom1/images/post/xx.gif" alt="" border="0" /></a></td>
+       <td valign="middle">
+           <div style="font-weight: bold;" class="subject">
+         <a href="https://bitcointalk.org/index.php?topic=1574102056.msg1574102056#msg1574102056">1574102056</a>
+        </div>
+           <div class="smalltext">1574102056</div></td>
+           <td style="font-size: smaller; padding-top: 4px;" class="td_buttons" valign="middle" align="right" height="20"><div style="visibility: visible;">
+    <a href="https://bitcointalk.org/index.php?action=post;quote=1574102056;topic=1574102056.100;num_replies=2;sesc=1574102056"><img src="/Themes/custom1/images/frostee/frostee_quote.png" alt="Reply with quote" class="reply_button" style="vertical-align: middle;" /></a>
+       &nbsp;<a class="message_number" style="vertical-align: middle;" href="https://bitcointalk.org/index.php?topic=1574102056.msg1574102056#msg1574102056">#2</a>
+  </div>
+       </td>
+      </tr></tbody></table>
+         <hr class="hrcolor" style="margin-top: 4px;" size="1" width="100%" />
+      <div class="post">1574102056</div>
+     </td>
+    </tr>
+    <tr>
+     <td class="smalltext" valign="bottom" width="85%">
+      <table style="table-layout: fixed;" width="100%" border="0"><tbody><tr>
+       <td colspan="2" class="smalltext" width="100%">
+       </td>
+      </tr><tr>
+       <td class="smalltext" valign="bottom">
+       </td>
+       <td class="smalltext" valign="bottom" align="right">
+        <a href="https://bitcointalk.org/index.php?action=reporttm;topic=1574102056.101;msg=1574102056">Report to moderator</a>
+       </td>
+      </tr></tbody></table>
+     </td>
+    </tr>
+   </tbody></table>
+  </td></tr>
+ </tbody></table>
+</td></tr><tr class="RqDWhtnHADHcfUrVUpyBpw"><td class="GUEqyLfOBVOkFxjlzJuiCA"><b><i></i></b><b><i></i></b><b><i></i></b><b><i></i></b><b><i></i></b> <a name="msg1574102056"></a>
+ <table width="100%" border="0" cellpadding="3" cellspacing="0">
+  <tbody><tr><td class="windowbg2">
+   <table style="table-layout: fixed;" width="100%" cellpadding="5" cellspacing="0">
+    <tbody><tr>
+       <td rowspan="2" style="overflow: hidden;" class="poster_info" valign="top" width="16%">
+      <b><a href="https://bitcointalk.org/index.php?action=profile;u=1574102056" title="View the profile of 1574102056">1574102056</a></b>
+      <div class="smalltext">
+       Hero Member<br />
+       <img src="/Themes/custom1/images/star.gif" alt="*" border="0" /><br />
+       <a href="https://bitcointalk.org/index.php?action=pm;sa=send;u=1574102056" title="Personal Message (Offline)"><img src="/Themes/custom1/images/useroff.gif" alt="Offline" style="margin-top: 2px;" border="0" /></a><span class="smalltext"> Offline</span><br /><br />
+       Posts: 1574102056<br />
+       
+       
+       
+       <br />
+       <a href="https://bitcointalk.org/index.php?action=profile;u=1574102056"><img src="/Themes/custom1/images/icons/profile_sm.gif" alt="View Profile" title="View Profile" border="0" /></a>
+       <a href="https://bitcointalk.org/index.php?action=pm;sa=send;u=1574102056" title="Personal Message (Offline)"><img src="/Themes/custom1/images/im_off.gif" alt="Personal Message (Offline)" border="0" /></a><br />
+       <br /><a href="https://bitcointalk.org/index.php?action=ignore;u=1574102056;topic=1574102056;msg=1574102056">Ignore</a>
+      </div>
+     </td>
+       <td style="padding: 2px;" class="td_headerandpost" valign="top" width="85%" height="100%">
+      <table width="100%" border="0"><tbody><tr>
+       <td valign="middle"><a href="https://bitcointalk.org/index.php?topic=1574102056.msg1574102056#msg1574102056"><img src="/Themes/custom1/images/post/xx.gif" alt="" border="0" /></a></td>
+       <td valign="middle">
+           <div style="font-weight: bold;" class="subject">
+         <a href="https://bitcointalk.org/index.php?topic=1574102056.msg1574102056#msg1574102056">1574102056</a>
+        </div>
+           <div class="smalltext">1574102056</div></td>
+           <td style="font-size: smaller; padding-top: 4px;" class="td_buttons" valign="middle" align="right" height="20"><div style="visibility: visible;">
+    <a href="https://bitcointalk.org/index.php?action=post;quote=1574102056;topic=1574102056.100;num_replies=2;sesc=1574102056"><img src="/Themes/custom1/images/frostee/frostee_quote.png" alt="Reply with quote" class="reply_button" style="vertical-align: middle;" /></a>
+       &nbsp;<a class="message_number" style="vertical-align: middle;" href="https://bitcointalk.org/index.php?topic=1574102056.msg1574102056#msg1574102056">#2</a>
+  </div>
+       </td>
+      </tr></tbody></table>
+         <hr class="hrcolor" style="margin-top: 4px;" size="1" width="100%" />
+      <div class="post">1574102056</div>
+     </td>
+    </tr>
+    <tr>
+     <td class="smalltext" valign="bottom" width="85%">
+      <table style="table-layout: fixed;" width="100%" border="0"><tbody><tr>
+       <td colspan="2" class="smalltext" width="100%">
+       </td>
+      </tr><tr>
+       <td class="smalltext" valign="bottom">
+       </td>
+       <td class="smalltext" valign="bottom" align="right">
+        <a href="https://bitcointalk.org/index.php?action=reporttm;topic=1574102056.101;msg=1574102056">Report to moderator</a>
+       </td>
+      </tr></tbody></table>
+     </td>
+    </tr>
+   </tbody></table>
+  </td></tr>
+ </tbody></table>
+</td></tr>
+	<tr class="YruBXtQFqdLmabzcdfsymQ"><td class="GUEqyLfOBVOkFxjlzJuiCA"><b><i></i></b><b><i></i></b><b><i></i></b><b><i></i></b><b><i></i></b>
+		<a name="msg7987796"></a>
+		<table width="100%" cellpadding="3" cellspacing="0" border="0">
+			<tr><td class="windowbg2">
+				<table width="100%" cellpadding="5" cellspacing="0" style="table-layout: fixed;">
+					<tr>
+								<td valign="top" width="16%" rowspan="2" style="overflow: hidden;" class="poster_info">
+							<b><a href="https://bitcointalk.org/index.php?action=profile;u=358132" title="View the profile of bmoscato">bmoscato</a></b>
+							<div class="smalltext">
+								Sr. Member<br />
+								<img src="https://bitcointalk.org/Themes/custom1/images/star.gif" alt="*" border="0" /><img src="https://bitcointalk.org/Themes/custom1/images/star.gif" alt="*" border="0" /><img src="https://bitcointalk.org/Themes/custom1/images/star.gif" alt="*" border="0" /><img src="https://bitcointalk.org/Themes/custom1/images/star.gif" alt="*" border="0" /><br />
+								<img src="https://bitcointalk.org/Themes/custom1/images/useroff.gif" alt="Offline" border="0" style="margin-top: 2px;" /><span class="smalltext"> Offline</span><br /><br />
+								Activity: 257<br />
+								Merit: 250<br /><br />
+								
+								
+								
+								<br />
+								<a href="https://bitcointalk.org/index.php?action=profile;u=358132"><img src="https://bitcointalk.org/Themes/custom1/images/icons/profile_sm.gif" alt="View Profile" title="View Profile" border="0" /></a><br />
+							</div>
+						</td>
+								<td valign="top" width="85%" height="100%" style="padding: 2px;" class="td_headerandpost">
+							<table width="100%" border="0"><tr>
+								<td valign="middle"><a href="https://bitcointalk.org/index.php?topic=626361.msg7987796#msg7987796"><img src="https://bitcointalk.org/Themes/custom1/images/post/xx.gif" alt="" border="0" /></a></td>
+								<td valign="middle">
+												<div style="font-weight: bold;" class="subject" id="subject_7987796">
+										<a href="https://bitcointalk.org/index.php?topic=626361.msg7987796#msg7987796">Re: BFGMiner 4.4.0: GBT+Strtm, RPC, Mac/Lnx/W64, Mac autodetect, JTMiner, proxy</a>
+									</div>
+												<div class="smalltext">July 23, 2014, 03:20:25 PM</div></td>
+										  <td align="right" valign="middle" height="20" style="font-size: smaller; padding-top: 4px;" class="td_buttons" ><div id="ignmsgbttns362" style="visibility: visible;">  <a class="message_number" style="vertical-align: middle;" href="https://bitcointalk.org/index.php?topic=626361.msg7987796#msg7987796">#362</a>
+		 </div>
+								</td>
+							</tr></table>
+									 <hr width="100%" size="1" class="hrcolor"  style="margin-top: 4px;" />
+							<div class="post"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=626361.msg7974958#msg7974958">Quote from: Sonya on July 22, 2014, 08:02:39 PM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=626361.msg7968984#msg7968984">Quote from: bmoscato on July 22, 2014, 01:24:46 PM</a></div><div class="quote">Can I use BFGMiner with 2 different types of ASIC devices at the same time? &nbsp;Currently I’m running 10 AntMiner U2’s, I just ordered a few Rockminer R-BOX units. &nbsp;I’d like to run all from 1 instance of BFG.<br /></div><br />Yep, Currently have 3 NanoFurys (F1/F2), 23 Antminer U1/U2 and 6 r-boxes all running.<br /><br />I could use some help writing a config file, mine seems to only save pools.<br /><br /></div><br />Do you specify different speeds for the U1 and U2?&nbsp; I have both and I have everything running at the same speed because I couldn&#039;t figure out how to run some at 0981 and others at 0781.<br /><br /><br /><div class="codeheader">Code:</div><div class="code">bfgminer.exe -o stratum+tcp://stratum.bitcoin.cz:3333 -u worker -p xxx -S antminer:all --set-device antminer:clock=x0781</div></div>
+						</td>
+					</tr>
+					<tr>
+						<td valign="bottom" class="smalltext" width="85%">
+							<table width="100%" border="0" style="table-layout: fixed;"><tr>
+								<td colspan="2" class="smalltext" width="100%">
+								</td>
+							</tr><tr>
+								<td valign="bottom" class="smalltext" id="modified_7987796">
+								</td>
+								<td align="right" valign="bottom" class="smalltext">
+									<img src="https://bitcointalk.org/Themes/custom1/images/ip.gif" alt="" border="0" />
+								</td>
+							</tr></table>
+						</td>
+					</tr>
+				</table>
+			</td></tr>
+		</table>
+	</td></tr>
+	<tr class="YruBXtQFqdLmabzcdfsymQ"><td class="GUEqyLfOBVOkFxjlzJuiCA"><b><i></i></b>
+		<a name="msg7988008"></a>
+		<table width="100%" cellpadding="3" cellspacing="0" border="0">
+			<tr><td class="windowbg">
+				<table width="100%" cellpadding="5" cellspacing="0" style="table-layout: fixed;">
+					<tr>
+								<td valign="top" width="16%" rowspan="2" style="overflow: hidden;" class="poster_info">
+							<b><a href="https://bitcointalk.org/index.php?action=profile;u=101033" title="View the profile of BRADLEYPLOOF">BRADLEYPLOOF</a></b>
+							<div class="smalltext">
+								Hero Member<br />
+								<img src="https://bitcointalk.org/Themes/custom1/images/star.gif" alt="*" border="0" /><img src="https://bitcointalk.org/Themes/custom1/images/star.gif" alt="*" border="0" /><img src="https://bitcointalk.org/Themes/custom1/images/star.gif" alt="*" border="0" /><img src="https://bitcointalk.org/Themes/custom1/images/star.gif" alt="*" border="0" /><img src="https://bitcointalk.org/Themes/custom1/images/star.gif" alt="*" border="0" /><br />
+								<img src="https://bitcointalk.org/Themes/custom1/images/useroff.gif" alt="Offline" border="0" style="margin-top: 2px;" /><span class="smalltext"> Offline</span><br /><br />
+								Activity: 520<br />
+								Merit: 500<br /><br />
+								
+								
+								
+								<br />
+								<a href="https://bitcointalk.org/index.php?action=profile;u=101033"><img src="https://bitcointalk.org/Themes/custom1/images/icons/profile_sm.gif" alt="View Profile" title="View Profile" border="0" /></a><br />
+							</div>
+						</td>
+								<td valign="top" width="85%" height="100%" style="padding: 2px;" class="td_headerandpost">
+							<table width="100%" border="0"><tr>
+								<td valign="middle"><a href="https://bitcointalk.org/index.php?topic=626361.msg7988008#msg7988008"><img src="https://bitcointalk.org/Themes/custom1/images/post/xx.gif" alt="" border="0" /></a></td>
+								<td valign="middle">
+												<div style="font-weight: bold;" class="subject" id="subject_7988008">
+										<a href="https://bitcointalk.org/index.php?topic=626361.msg7988008#msg7988008">Re: BFGMiner 4.4.0: GBT+Strtm, RPC, Mac/Lnx/W64, Mac autodetect, JTMiner, proxy</a>
+									</div>
+												<div class="smalltext">July 23, 2014, 03:34:08 PM</div></td>
+										  <td align="right" valign="middle" height="20" style="font-size: smaller; padding-top: 4px;" class="td_buttons" ><div id="ignmsgbttns363" style="visibility: visible;">  <a class="message_number" style="vertical-align: middle;" href="https://bitcointalk.org/index.php?topic=626361.msg7988008#msg7988008">#363</a>
+		 </div>
+								</td>
+							</tr></table>
+									 <hr width="100%" size="1" class="hrcolor"  style="margin-top: 4px;" />
+							<div class="post"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=626361.msg7987796#msg7987796">Quote from: bmoscato on July 23, 2014, 03:20:25 PM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=626361.msg7974958#msg7974958">Quote from: Sonya on July 22, 2014, 08:02:39 PM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=626361.msg7968984#msg7968984">Quote from: bmoscato on July 22, 2014, 01:24:46 PM</a></div><div class="quote">Can I use BFGMiner with 2 different types of ASIC devices at the same time? &nbsp;Currently I’m running 10 AntMiner U2’s, I just ordered a few Rockminer R-BOX units. &nbsp;I’d like to run all from 1 instance of BFG.<br /></div><br />Yep, Currently have 3 NanoFurys (F1/F2), 23 Antminer U1/U2 and 6 r-boxes all running.<br /><br />I could use some help writing a config file, mine seems to only save pools.<br /><br /></div><br />Do you specify different speeds for the U1 and U2?&nbsp; I have both and I have everything running at the same speed because I couldn&#039;t figure out how to run some at 0981 and others at 0781.<br /><br /><br /><div class="codeheader">Code:</div><div class="code">bfgminer.exe -o stratum+tcp://stratum.bitcoin.cz:3333 -u worker -p xxx -S antminer:all --set-device antminer:clock=x0781</div></div><br />To set individual frequencies on those beasts, you need to use:<br /><br />-S antminer:all --set-device antminer@\\.\com#:clock=x####&nbsp; so you&#039;ll need to know the COM#</div>
+						</td>
+					</tr>
+					<tr>
+						<td valign="bottom" class="smalltext" width="85%">
+							<table width="100%" border="0" style="table-layout: fixed;"><tr>
+								<td colspan="2" class="smalltext" width="100%">
+								</td>
+							</tr><tr>
+								<td valign="bottom" class="smalltext" id="modified_7988008">
+								</td>
+								<td align="right" valign="bottom" class="smalltext">
+									<img src="https://bitcointalk.org/Themes/custom1/images/ip.gif" alt="" border="0" />
+								</td>
+							</tr></table>
+						</td>
+					</tr>
+				</table>
+			</td></tr>
+		</table>
+	</td></tr>
+	<tr class="YruBXtQFqdLmabzcdfsymQ"><td class="GUEqyLfOBVOkFxjlzJuiCA">
+		<a name="msg7989715"></a>
+		<table width="100%" cellpadding="3" cellspacing="0" border="0">
+			<tr><td class="windowbg2">
+				<table width="100%" cellpadding="5" cellspacing="0" style="table-layout: fixed;">
+					<tr>
+								<td valign="top" width="16%" rowspan="2" style="overflow: hidden;" class="poster_info">
+							<b><a href="https://bitcointalk.org/index.php?action=profile;u=91620" title="View the profile of jeezy">jeezy</a></b>
+							<div class="smalltext">
+								Legendary<br />
+								<img src="https://bitcointalk.org/Themes/custom1/images/legendary.gif" alt="*" border="0" /><br />
+								<img src="https://bitcointalk.org/Themes/custom1/images/useroff.gif" alt="Offline" border="0" style="margin-top: 2px;" /><span class="smalltext"> Offline</span><br /><br />
+								Activity: 1231<br />
+								Merit: 1010<br /><br />
+								<div style="overflow: auto; width: 100%;"><img src="/useravatars/avatar_91620.png" alt="" class="avatar" border="0" /></div><br />
+								
+								
+								
+								<br />
+								<a href="https://bitcointalk.org/index.php?action=profile;u=91620"><img src="https://bitcointalk.org/Themes/custom1/images/icons/profile_sm.gif" alt="View Profile" title="View Profile" border="0" /></a><br />
+							</div>
+						</td>
+								<td valign="top" width="85%" height="100%" style="padding: 2px;" class="td_headerandpost">
+							<table width="100%" border="0"><tr>
+								<td valign="middle"><a href="https://bitcointalk.org/index.php?topic=626361.msg7989715#msg7989715"><img src="https://bitcointalk.org/Themes/custom1/images/post/xx.gif" alt="" border="0" /></a></td>
+								<td valign="middle">
+												<div style="font-weight: bold;" class="subject" id="subject_7989715">
+										<a href="https://bitcointalk.org/index.php?topic=626361.msg7989715#msg7989715">Re: BFGMiner 4.4.0: GBT+Strtm, RPC, Mac/Lnx/W64, Mac autodetect, JTMiner, proxy</a>
+									</div>
+												<div class="smalltext">July 23, 2014, 05:27:42 PM</div></td>
+										  <td align="right" valign="middle" height="20" style="font-size: smaller; padding-top: 4px;" class="td_buttons" ><div id="ignmsgbttns364" style="visibility: visible;">  <a class="message_number" style="vertical-align: middle;" href="https://bitcointalk.org/index.php?topic=626361.msg7989715#msg7989715">#364</a>
+		 </div>
+								</td>
+							</tr></table>
+									 <hr width="100%" size="1" class="hrcolor"  style="margin-top: 4px;" />
+							<div class="post"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=626361.msg7988008#msg7988008">Quote from: BRADLEYPLOOF on July 23, 2014, 03:34:08 PM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=626361.msg7987796#msg7987796">Quote from: bmoscato on July 23, 2014, 03:20:25 PM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=626361.msg7974958#msg7974958">Quote from: Sonya on July 22, 2014, 08:02:39 PM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=626361.msg7968984#msg7968984">Quote from: bmoscato on July 22, 2014, 01:24:46 PM</a></div><div class="quote">Can I use BFGMiner with 2 different types of ASIC devices at the same time? &nbsp;Currently I’m running 10 AntMiner U2’s, I just ordered a few Rockminer R-BOX units. &nbsp;I’d like to run all from 1 instance of BFG.<br /></div><br />Yep, Currently have 3 NanoFurys (F1/F2), 23 Antminer U1/U2 and 6 r-boxes all running.<br /><br />I could use some help writing a config file, mine seems to only save pools.<br /><br /></div><br />Do you specify different speeds for the U1 and U2?&nbsp; I have both and I have everything running at the same speed because I couldn&#039;t figure out how to run some at 0981 and others at 0781.<br /><br /><br /><div class="codeheader">Code:</div><div class="code">bfgminer.exe -o stratum+tcp://stratum.bitcoin.cz:3333 -u worker -p xxx -S antminer:all --set-device antminer:clock=x0781</div></div><br />To set individual frequencies on those beasts, you need to use:<br /><br />-S antminer:all --set-device antminer@\\.\com#:clock=x####&nbsp; so you&#039;ll need to know the COM#<br /></div><br />So for Zeus it would then be zus@//./COM1:342?</div>
+						</td>
+					</tr>
+					<tr>
+						<td valign="bottom" class="smalltext" width="85%">
+							<table width="100%" border="0" style="table-layout: fixed;"><tr>
+								<td colspan="2" class="smalltext" width="100%">
+								</td>
+							</tr><tr>
+								<td valign="bottom" class="smalltext" id="modified_7989715">
+								</td>
+								<td align="right" valign="bottom" class="smalltext">
+									<img src="https://bitcointalk.org/Themes/custom1/images/ip.gif" alt="" border="0" />
+								</td>
+							</tr></table>
+						</td>
+					</tr>
+				</table>
+			</td></tr>
+		</table>
+	</td></tr>
+	<tr class="YruBXtQFqdLmabzcdfsymQ"><td class="GUEqyLfOBVOkFxjlzJuiCA"><b><i></i></b>
+		<a name="msg7991713"></a>
+		<table width="100%" cellpadding="3" cellspacing="0" border="0">
+			<tr><td class="windowbg">
+				<table width="100%" cellpadding="5" cellspacing="0" style="table-layout: fixed;">
+					<tr>
+								<td valign="top" width="16%" rowspan="2" style="overflow: hidden;" class="poster_info">
+							<b><a href="https://bitcointalk.org/index.php?action=profile;u=101033" title="View the profile of BRADLEYPLOOF">BRADLEYPLOOF</a></b>
+							<div class="smalltext">
+								Hero Member<br />
+								<img src="https://bitcointalk.org/Themes/custom1/images/star.gif" alt="*" border="0" /><img src="https://bitcointalk.org/Themes/custom1/images/star.gif" alt="*" border="0" /><img src="https://bitcointalk.org/Themes/custom1/images/star.gif" alt="*" border="0" /><img src="https://bitcointalk.org/Themes/custom1/images/star.gif" alt="*" border="0" /><img src="https://bitcointalk.org/Themes/custom1/images/star.gif" alt="*" border="0" /><br />
+								<img src="https://bitcointalk.org/Themes/custom1/images/useroff.gif" alt="Offline" border="0" style="margin-top: 2px;" /><span class="smalltext"> Offline</span><br /><br />
+								Activity: 520<br />
+								Merit: 500<br /><br />
+								
+								
+								
+								<br />
+								<a href="https://bitcointalk.org/index.php?action=profile;u=101033"><img src="https://bitcointalk.org/Themes/custom1/images/icons/profile_sm.gif" alt="View Profile" title="View Profile" border="0" /></a><br />
+							</div>
+						</td>
+								<td valign="top" width="85%" height="100%" style="padding: 2px;" class="td_headerandpost">
+							<table width="100%" border="0"><tr>
+								<td valign="middle"><a href="https://bitcointalk.org/index.php?topic=626361.msg7991713#msg7991713"><img src="https://bitcointalk.org/Themes/custom1/images/post/xx.gif" alt="" border="0" /></a></td>
+								<td valign="middle">
+												<div style="font-weight: bold;" class="subject" id="subject_7991713">
+										<a href="https://bitcointalk.org/index.php?topic=626361.msg7991713#msg7991713">Re: BFGMiner 4.4.0: GBT+Strtm, RPC, Mac/Lnx/W64, Mac autodetect, JTMiner, proxy</a>
+									</div>
+												<div class="smalltext">July 23, 2014, 07:56:35 PM</div></td>
+										  <td align="right" valign="middle" height="20" style="font-size: smaller; padding-top: 4px;" class="td_buttons" ><div id="ignmsgbttns365" style="visibility: visible;">  <a class="message_number" style="vertical-align: middle;" href="https://bitcointalk.org/index.php?topic=626361.msg7991713#msg7991713">#365</a>
+		 </div>
+								</td>
+							</tr></table>
+									 <hr width="100%" size="1" class="hrcolor"  style="margin-top: 4px;" />
+							<div class="post"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=626361.msg7989715#msg7989715">Quote from: jeezy on July 23, 2014, 05:27:42 PM</a></div><div class="quote">So for Zeus it would then be zus@//./COM1:342?<br /></div><br />Make sure your slashes are facing the right way: &nbsp;\ instead of / &nbsp;But yeah, that should do it.<br /><br />--set-device zus@\\.\COM1:Clock=342</div>
+						</td>
+					</tr>
+					<tr>
+						<td valign="bottom" class="smalltext" width="85%">
+							<table width="100%" border="0" style="table-layout: fixed;"><tr>
+								<td colspan="2" class="smalltext" width="100%">
+								</td>
+							</tr><tr>
+								<td valign="bottom" class="smalltext" id="modified_7991713">
+								</td>
+								<td align="right" valign="bottom" class="smalltext">
+									<img src="https://bitcointalk.org/Themes/custom1/images/ip.gif" alt="" border="0" />
+								</td>
+							</tr></table>
+						</td>
+					</tr>
+				</table>
+			</td></tr>
+		</table>
+	</td></tr>
+	<tr class="YruBXtQFqdLmabzcdfsymQ"><td class="GUEqyLfOBVOkFxjlzJuiCA"><b><i></i></b><b><i></i></b><b><i></i></b>
+		<a name="msg7992045"></a>
+		<table width="100%" cellpadding="3" cellspacing="0" border="0">
+			<tr><td class="windowbg2">
+				<table width="100%" cellpadding="5" cellspacing="0" style="table-layout: fixed;">
+					<tr>
+								<td valign="top" width="16%" rowspan="2" style="overflow: hidden;" class="poster_info">
+							<b><a href="https://bitcointalk.org/index.php?action=profile;u=91620" title="View the profile of jeezy">jeezy</a></b>
+							<div class="smalltext">
+								Legendary<br />
+								<img src="https://bitcointalk.org/Themes/custom1/images/legendary.gif" alt="*" border="0" /><br />
+								<img src="https://bitcointalk.org/Themes/custom1/images/useroff.gif" alt="Offline" border="0" style="margin-top: 2px;" /><span class="smalltext"> Offline</span><br /><br />
+								Activity: 1231<br />
+								Merit: 1010<br /><br />
+								<div style="overflow: auto; width: 100%;"><img src="/useravatars/avatar_91620.png" alt="" class="avatar" border="0" /></div><br />
+								
+								
+								
+								<br />
+								<a href="https://bitcointalk.org/index.php?action=profile;u=91620"><img src="https://bitcointalk.org/Themes/custom1/images/icons/profile_sm.gif" alt="View Profile" title="View Profile" border="0" /></a><br />
+							</div>
+						</td>
+								<td valign="top" width="85%" height="100%" style="padding: 2px;" class="td_headerandpost">
+							<table width="100%" border="0"><tr>
+								<td valign="middle"><a href="https://bitcointalk.org/index.php?topic=626361.msg7992045#msg7992045"><img src="https://bitcointalk.org/Themes/custom1/images/post/xx.gif" alt="" border="0" /></a></td>
+								<td valign="middle">
+												<div style="font-weight: bold;" class="subject" id="subject_7992045">
+										<a href="https://bitcointalk.org/index.php?topic=626361.msg7992045#msg7992045">Re: BFGMiner 4.4.0: GBT+Strtm, RPC, Mac/Lnx/W64, Mac autodetect, JTMiner, proxy</a>
+									</div>
+												<div class="smalltext">July 23, 2014, 08:20:33 PM</div></td>
+										  <td align="right" valign="middle" height="20" style="font-size: smaller; padding-top: 4px;" class="td_buttons" ><div id="ignmsgbttns366" style="visibility: visible;">  <a class="message_number" style="vertical-align: middle;" href="https://bitcointalk.org/index.php?topic=626361.msg7992045#msg7992045">#366</a>
+		 </div>
+								</td>
+							</tr></table>
+									 <hr width="100%" size="1" class="hrcolor"  style="margin-top: 4px;" />
+							<div class="post"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=626361.msg7991713#msg7991713">Quote from: BRADLEYPLOOF on July 23, 2014, 07:56:35 PM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=626361.msg7989715#msg7989715">Quote from: jeezy on July 23, 2014, 05:27:42 PM</a></div><div class="quote">So for Zeus it would then be zus@//./COM1:342?<br /></div><br />Make sure your slashes are facing the right way: &nbsp;\ instead of / &nbsp;But yeah, that should do it.<br /><br />--set-device zus@\\.\COM1:Clock=342<br /></div><br />It&#039;s actually working better with forward slashes. Otherwise you need to escape them but even then it might not work. </div>
+						</td>
+					</tr>
+					<tr>
+						<td valign="bottom" class="smalltext" width="85%">
+							<table width="100%" border="0" style="table-layout: fixed;"><tr>
+								<td colspan="2" class="smalltext" width="100%">
+								</td>
+							</tr><tr>
+								<td valign="bottom" class="smalltext" id="modified_7992045">
+								</td>
+								<td align="right" valign="bottom" class="smalltext">
+									<img src="https://bitcointalk.org/Themes/custom1/images/ip.gif" alt="" border="0" />
+								</td>
+							</tr></table>
+						</td>
+					</tr>
+				</table>
+			</td></tr>
+		</table>
+	</td></tr>
+	<tr class="YruBXtQFqdLmabzcdfsymQ"><td class="GUEqyLfOBVOkFxjlzJuiCA">
+		<a name="msg7992265"></a>
+		<table width="100%" cellpadding="3" cellspacing="0" border="0">
+			<tr><td class="windowbg">
+				<table width="100%" cellpadding="5" cellspacing="0" style="table-layout: fixed;">
+					<tr>
+								<td valign="top" width="16%" rowspan="2" style="overflow: hidden;" class="poster_info">
+							<b><a href="https://bitcointalk.org/index.php?action=profile;u=3318" title="View the profile of Luke-Jr">Luke-Jr</a></b>
+							<div class="smalltext">
+								Legendary<br />
+								<img src="https://bitcointalk.org/Themes/custom1/images/legendary.gif" alt="*" border="0" /><br />
+								<img src="https://bitcointalk.org/Themes/custom1/images/useroff.gif" alt="Offline" border="0" style="margin-top: 2px;" /><span class="smalltext"> Offline</span><br /><br />
+								Activity: 2492<br />
+								Merit: 1022<br /><br />
+								<div style="overflow: auto; width: 100%;"><img src="/useravatars/avatar_3318.png" alt="" class="avatar" border="0" /></div><br />
+								
+								
+								
+								<br />
+								<a href="https://bitcointalk.org/index.php?action=profile;u=3318"><img src="https://bitcointalk.org/Themes/custom1/images/icons/profile_sm.gif" alt="View Profile" title="View Profile" border="0" /></a><br />
+							</div>
+						</td>
+								<td valign="top" width="85%" height="100%" style="padding: 2px;" class="td_headerandpost">
+							<table width="100%" border="0"><tr>
+								<td valign="middle"><a href="https://bitcointalk.org/index.php?topic=626361.msg7992265#msg7992265"><img src="https://bitcointalk.org/Themes/custom1/images/post/xx.gif" alt="" border="0" /></a></td>
+								<td valign="middle">
+												<div style="font-weight: bold;" class="subject" id="subject_7992265">
+										<a href="https://bitcointalk.org/index.php?topic=626361.msg7992265#msg7992265">Re: BFGMiner 4.4.0: GBT+Strtm, RPC, Mac/Lnx/W64, Mac autodetect, JTMiner, proxy</a>
+									</div>
+												<div class="smalltext">July 23, 2014, 08:35:33 PM</div></td>
+										  <td align="right" valign="middle" height="20" style="font-size: smaller; padding-top: 4px;" class="td_buttons" ><div id="ignmsgbttns367" style="visibility: visible;">  <a class="message_number" style="vertical-align: middle;" href="https://bitcointalk.org/index.php?topic=626361.msg7992265#msg7992265">#367</a>
+		 </div>
+								</td>
+							</tr></table>
+									 <hr width="100%" size="1" class="hrcolor"  style="margin-top: 4px;" />
+							<div class="post"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=626361.msg7992045#msg7992045">Quote from: jeezy on July 23, 2014, 08:20:33 PM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=626361.msg7991713#msg7991713">Quote from: BRADLEYPLOOF on July 23, 2014, 07:56:35 PM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=626361.msg7989715#msg7989715">Quote from: jeezy on July 23, 2014, 05:27:42 PM</a></div><div class="quote">So for Zeus it would then be zus@//./COM1:342?<br /></div><br />Make sure your slashes are facing the right way: &nbsp;\ instead of / &nbsp;But yeah, that should do it.<br /><br />--set-device zus@\\.\COM1:Clock=342<br /></div><br />It&#039;s actually working better with forward slashes. Otherwise you need to escape them but even then it might not work. <br /></div>Forward slashes shouldn&#039;t work at all. The code looks for backslashes explicitly:<br /><a class="ul" href="https://github.com/luke-jr/bfgminer/blob/65a7398457a858a9a22d5bb3b309d1e7bf21a2d4/miner.c#L537">https://github.com/luke-jr/bfgminer/blob/65a7398457a858a9a22d5bb3b309d1e7bf21a2d4/miner.c#L537</a></div>
+						</td>
+					</tr>
+					<tr>
+						<td valign="bottom" class="smalltext" width="85%">
+							<table width="100%" border="0" style="table-layout: fixed;"><tr>
+								<td colspan="2" class="smalltext" width="100%">
+								</td>
+							</tr><tr>
+								<td valign="bottom" class="smalltext" id="modified_7992265">
+								</td>
+								<td align="right" valign="bottom" class="smalltext">
+									<img src="https://bitcointalk.org/Themes/custom1/images/ip.gif" alt="" border="0" />
+								</td>
+							</tr></table>
+							<hr width="100%" size="1" class="hrcolor" />
+							<div class="signature sig3318">Donate: <a class="ul" href="bitcoin:134dV6U7gQ6wCFbfHUz2CMh6Dth72oGpgH">134dV6U7gQ6wCFbfHUz2CMh6Dth72oGpgH</a><br />My projects: <a class="ul" href="http://bitcoinknots.org/">Bitcoin Knots</a>, <a class="ul" href="https://bitcoincore.org/">Bitcoin Core</a>, <a class="ul" href="https://bitcointalk.org/?topic=626361">BFGMiner</a>, <a class="ul" href="https://bitcointalk.org/index.php?topic=61731.0">Eloipool (pool software)</a>, <a class="ul" href="https://en.bitcoin.it/wiki/Tonal_Bitcoin">Tonal Bitcoin</a>, and <a class="ul" href="http://luke.dashjr.org/programs/bitcoin/">BitGit (Bitcoin code directory)</a></div>
+						</td>
+					</tr>
+				</table>
+			</td></tr>
+		</table>
+	</td></tr>
+	<tr class="YruBXtQFqdLmabzcdfsymQ"><td class="GUEqyLfOBVOkFxjlzJuiCA"><b><i></i></b><b><i></i></b>
+		<a name="msg7992339"></a>
+		<table width="100%" cellpadding="3" cellspacing="0" border="0">
+			<tr><td class="windowbg2">
+				<table width="100%" cellpadding="5" cellspacing="0" style="table-layout: fixed;">
+					<tr>
+								<td valign="top" width="16%" rowspan="2" style="overflow: hidden;" class="poster_info">
+							<b><a href="https://bitcointalk.org/index.php?action=profile;u=358132" title="View the profile of bmoscato">bmoscato</a></b>
+							<div class="smalltext">
+								Sr. Member<br />
+								<img src="https://bitcointalk.org/Themes/custom1/images/star.gif" alt="*" border="0" /><img src="https://bitcointalk.org/Themes/custom1/images/star.gif" alt="*" border="0" /><img src="https://bitcointalk.org/Themes/custom1/images/star.gif" alt="*" border="0" /><img src="https://bitcointalk.org/Themes/custom1/images/star.gif" alt="*" border="0" /><br />
+								<img src="https://bitcointalk.org/Themes/custom1/images/useroff.gif" alt="Offline" border="0" style="margin-top: 2px;" /><span class="smalltext"> Offline</span><br /><br />
+								Activity: 257<br />
+								Merit: 250<br /><br />
+								
+								
+								
+								<br />
+								<a href="https://bitcointalk.org/index.php?action=profile;u=358132"><img src="https://bitcointalk.org/Themes/custom1/images/icons/profile_sm.gif" alt="View Profile" title="View Profile" border="0" /></a><br />
+							</div>
+						</td>
+								<td valign="top" width="85%" height="100%" style="padding: 2px;" class="td_headerandpost">
+							<table width="100%" border="0"><tr>
+								<td valign="middle"><a href="https://bitcointalk.org/index.php?topic=626361.msg7992339#msg7992339"><img src="https://bitcointalk.org/Themes/custom1/images/post/xx.gif" alt="" border="0" /></a></td>
+								<td valign="middle">
+												<div style="font-weight: bold;" class="subject" id="subject_7992339">
+										<a href="https://bitcointalk.org/index.php?topic=626361.msg7992339#msg7992339">Re: BFGMiner 4.4.0: GBT+Strtm, RPC, Mac/Lnx/W64, Mac autodetect, JTMiner, proxy</a>
+									</div>
+												<div class="smalltext">July 23, 2014, 08:40:56 PM</div></td>
+										  <td align="right" valign="middle" height="20" style="font-size: smaller; padding-top: 4px;" class="td_buttons" ><div id="ignmsgbttns368" style="visibility: visible;">  <a class="message_number" style="vertical-align: middle;" href="https://bitcointalk.org/index.php?topic=626361.msg7992339#msg7992339">#368</a>
+		 </div>
+								</td>
+							</tr></table>
+									 <hr width="100%" size="1" class="hrcolor"  style="margin-top: 4px;" />
+							<div class="post"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=626361.msg7988008#msg7988008">Quote from: BRADLEYPLOOF on July 23, 2014, 03:34:08 PM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=626361.msg7987796#msg7987796">Quote from: bmoscato on July 23, 2014, 03:20:25 PM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=626361.msg7974958#msg7974958">Quote from: Sonya on July 22, 2014, 08:02:39 PM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=626361.msg7968984#msg7968984">Quote from: bmoscato on July 22, 2014, 01:24:46 PM</a></div><div class="quote">Can I use BFGMiner with 2 different types of ASIC devices at the same time? &nbsp;Currently I’m running 10 AntMiner U2’s, I just ordered a few Rockminer R-BOX units. &nbsp;I’d like to run all from 1 instance of BFG.<br /></div><br />Yep, Currently have 3 NanoFurys (F1/F2), 23 Antminer U1/U2 and 6 r-boxes all running.<br /><br />I could use some help writing a config file, mine seems to only save pools.<br /><br /></div><br />Do you specify different speeds for the U1 and U2?&nbsp; I have both and I have everything running at the same speed because I couldn&#039;t figure out how to run some at 0981 and others at 0781.<br /><br /><br /><div class="codeheader">Code:</div><div class="code">bfgminer.exe -o stratum+tcp://stratum.bitcoin.cz:3333 -u worker -p xxx -S antminer:all --set-device antminer:clock=x0781</div></div><br />To set individual frequencies on those beasts, you need to use:<br /><br />-S antminer:all --set-device antminer@\\.\com#:clock=x####&nbsp; so you&#039;ll need to know the COM#<br /></div><br />I went through my control panel and made sure I had the correct COM ports then I tries both of these without any success:<br /><div class="codeheader">Code:</div><div class="code">bfgminer.exe -o stratum+tcp://stratum.bitcoin.cz:333 -u worker1 -p x -S antminer:all --set-device antminer@\\.\COM4:clock=x0881 --set-device antminer@\\.\COM5:clock=x0881 --set-device antminer@\\.\COM6:clock=x0881 --set-device antminer@\\.\COM7:clock=x0981 --set-device antminer@\\.\COM8:clock=x0881 --set-device antminer@\\.\COM9:clock=x0881 --set-device antminer@\\.\COM10:clock=x0881 --set-device antminer@\\.\COM11:clock=x0981 --set-device antminer@\\.\COM12:clock=x0981</div><br /><div class="codeheader">Code:</div><div class="code">bfgminer.exe -o stratum+tcp://stratum.bitcoin.cz:333 -u worker1 -p x -S antminer:all -d antminer@\\.\COM4 --set-device antminer@\\.\COM4:clock=x0881 -d antminer@\\.\COM5 --set-device antminer@\\.\COM5:clock=x0881 -d antminer@\\.\COM6 --set-device antminer@\\.\COM6:clock=x0881 -d antminer@\\.\COM7 --set-device antminer@\\.\COM7:clock=x0981 -d antminer@\\.\COM8 --set-device antminer@\\.\COM8:clock=x0881 -d antminer@\\.\COM9 --set-device antminer@\\.\COM9:clock=x0881 -d antminer@\\.\COM10 --set-device antminer@\\.\COM10:clock=x0881 -d antminer@\\.\COM11 --set-device antminer@\\.\COM11:clock=x0981 -d antminer@\\.\COM12 --set-device antminer@\\.\COM12:clock=x0981</div></div>
+						</td>
+					</tr>
+					<tr>
+						<td valign="bottom" class="smalltext" width="85%">
+							<table width="100%" border="0" style="table-layout: fixed;"><tr>
+								<td colspan="2" class="smalltext" width="100%">
+								</td>
+							</tr><tr>
+								<td valign="bottom" class="smalltext" id="modified_7992339">
+								</td>
+								<td align="right" valign="bottom" class="smalltext">
+									<img src="https://bitcointalk.org/Themes/custom1/images/ip.gif" alt="" border="0" />
+								</td>
+							</tr></table>
+						</td>
+					</tr>
+				</table>
+			</td></tr>
+		</table>
+	</td></tr>
+	<tr class="YruBXtQFqdLmabzcdfsymQ"><td class="GUEqyLfOBVOkFxjlzJuiCA"><b><i></i></b><b><i></i></b><b><i></i></b><b><i></i></b>
+		<a name="msg7995610"></a>
+		<table width="100%" cellpadding="3" cellspacing="0" border="0">
+			<tr><td class="windowbg">
+				<table width="100%" cellpadding="5" cellspacing="0" style="table-layout: fixed;">
+					<tr>
+								<td valign="top" width="16%" rowspan="2" style="overflow: hidden;" class="poster_info">
+							<b><a href="https://bitcointalk.org/index.php?action=profile;u=227399" title="View the profile of Sonya">Sonya</a></b>
+							<div class="smalltext">
+								Newbie<br />
+								<img src="https://bitcointalk.org/Themes/custom1/images/star.gif" alt="*" border="0" /><br />
+								<img src="https://bitcointalk.org/Themes/custom1/images/useroff.gif" alt="Offline" border="0" style="margin-top: 2px;" /><span class="smalltext"> Offline</span><br /><br />
+								Activity: 42<br />
+								Merit: 0<br /><br />
+								
+								
+								
+								<br />
+								<a href="https://bitcointalk.org/index.php?action=profile;u=227399"><img src="https://bitcointalk.org/Themes/custom1/images/icons/profile_sm.gif" alt="View Profile" title="View Profile" border="0" /></a><br />
+							</div>
+						</td>
+								<td valign="top" width="85%" height="100%" style="padding: 2px;" class="td_headerandpost">
+							<table width="100%" border="0"><tr>
+								<td valign="middle"><a href="https://bitcointalk.org/index.php?topic=626361.msg7995610#msg7995610"><img src="https://bitcointalk.org/Themes/custom1/images/post/xx.gif" alt="" border="0" /></a></td>
+								<td valign="middle">
+												<div style="font-weight: bold;" class="subject" id="subject_7995610">
+										<a href="https://bitcointalk.org/index.php?topic=626361.msg7995610#msg7995610">Re: BFGMiner 4.4.0: GBT+Strtm, RPC, Mac/Lnx/W64, Mac autodetect, JTMiner, proxy</a>
+									</div>
+												<div class="smalltext">July 24, 2014, 01:36:33 AM</div></td>
+										  <td align="right" valign="middle" height="20" style="font-size: smaller; padding-top: 4px;" class="td_buttons" ><div id="ignmsgbttns369" style="visibility: visible;">  <a class="message_number" style="vertical-align: middle;" href="https://bitcointalk.org/index.php?topic=626361.msg7995610#msg7995610">#369</a>
+		 </div>
+								</td>
+							</tr></table>
+									 <hr width="100%" size="1" class="hrcolor"  style="margin-top: 4px;" />
+							<div class="post"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=626361.msg7987796#msg7987796">Quote from: bmoscato on July 23, 2014, 03:20:25 PM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=626361.msg7974958#msg7974958">Quote from: Sonya on July 22, 2014, 08:02:39 PM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=626361.msg7968984#msg7968984">Quote from: bmoscato on July 22, 2014, 01:24:46 PM</a></div><div class="quote">Can I use BFGMiner with 2 different types of ASIC devices at the same time? &nbsp;Currently I’m running 10 AntMiner U2’s, I just ordered a few Rockminer R-BOX units. &nbsp;I’d like to run all from 1 instance of BFG.<br /></div><br />Yep, Currently have 3 NanoFurys (F1/F2), 23 Antminer U1/U2 and 6 r-boxes all running.<br /><br />I could use some help writing a config file, mine seems to only save pools.<br /><br /></div><br />Do you specify different speeds for the U1 and U2?&nbsp; I have both and I have everything running at the same speed because I couldn&#039;t figure out how to run some at 0981 and others at 0781.<br /><br /><br /><div class="codeheader">Code:</div><div class="code">bfgminer.exe -o stratum+tcp://stratum.bitcoin.cz:3333 -u worker -p xxx -S antminer:all --set-device antminer:clock=x0781</div></div><br />I&#039;m in the same boat really. I tried using the command for U2 but that just drove U1s and U2 crazy with tons of hardware errors</div>
+						</td>
+					</tr>
+					<tr>
+						<td valign="bottom" class="smalltext" width="85%">
+							<table width="100%" border="0" style="table-layout: fixed;"><tr>
+								<td colspan="2" class="smalltext" width="100%">
+								</td>
+							</tr><tr>
+								<td valign="bottom" class="smalltext" id="modified_7995610">
+								</td>
+								<td align="right" valign="bottom" class="smalltext">
+									<img src="https://bitcointalk.org/Themes/custom1/images/ip.gif" alt="" border="0" />
+								</td>
+							</tr></table>
+						</td>
+					</tr>
+				</table>
+			</td></tr>
+		</table>
+	</td></tr>
+	<tr class="YruBXtQFqdLmabzcdfsymQ"><td class="GUEqyLfOBVOkFxjlzJuiCA"><b><i></i></b><b><i></i></b><b><i></i></b>
+		<a name="msg7996367"></a>
+		<table width="100%" cellpadding="3" cellspacing="0" border="0">
+			<tr><td class="windowbg2">
+				<table width="100%" cellpadding="5" cellspacing="0" style="table-layout: fixed;">
+					<tr>
+								<td valign="top" width="16%" rowspan="2" style="overflow: hidden;" class="poster_info">
+							<b><a href="https://bitcointalk.org/index.php?action=profile;u=358132" title="View the profile of bmoscato">bmoscato</a></b>
+							<div class="smalltext">
+								Sr. Member<br />
+								<img src="https://bitcointalk.org/Themes/custom1/images/star.gif" alt="*" border="0" /><img src="https://bitcointalk.org/Themes/custom1/images/star.gif" alt="*" border="0" /><img src="https://bitcointalk.org/Themes/custom1/images/star.gif" alt="*" border="0" /><img src="https://bitcointalk.org/Themes/custom1/images/star.gif" alt="*" border="0" /><br />
+								<img src="https://bitcointalk.org/Themes/custom1/images/useroff.gif" alt="Offline" border="0" style="margin-top: 2px;" /><span class="smalltext"> Offline</span><br /><br />
+								Activity: 257<br />
+								Merit: 250<br /><br />
+								
+								
+								
+								<br />
+								<a href="https://bitcointalk.org/index.php?action=profile;u=358132"><img src="https://bitcointalk.org/Themes/custom1/images/icons/profile_sm.gif" alt="View Profile" title="View Profile" border="0" /></a><br />
+							</div>
+						</td>
+								<td valign="top" width="85%" height="100%" style="padding: 2px;" class="td_headerandpost">
+							<table width="100%" border="0"><tr>
+								<td valign="middle"><a href="https://bitcointalk.org/index.php?topic=626361.msg7996367#msg7996367"><img src="https://bitcointalk.org/Themes/custom1/images/post/xx.gif" alt="" border="0" /></a></td>
+								<td valign="middle">
+												<div style="font-weight: bold;" class="subject" id="subject_7996367">
+										<a href="https://bitcointalk.org/index.php?topic=626361.msg7996367#msg7996367">Re: BFGMiner 4.4.0: GBT+Strtm, RPC, Mac/Lnx/W64, Mac autodetect, JTMiner, proxy</a>
+									</div>
+												<div class="smalltext">July 24, 2014, 02:46:07 AM</div></td>
+										  <td align="right" valign="middle" height="20" style="font-size: smaller; padding-top: 4px;" class="td_buttons" ><div id="ignmsgbttns370" style="visibility: visible;">  <a class="message_number" style="vertical-align: middle;" href="https://bitcointalk.org/index.php?topic=626361.msg7996367#msg7996367">#370</a>
+		 </div>
+								</td>
+							</tr></table>
+									 <hr width="100%" size="1" class="hrcolor"  style="margin-top: 4px;" />
+							<div class="post">I&#039;m able to run all of them at either 0781 or 0881 without any issues; I&#039;ve been running at 0881 (1.8gh/s) for the last 8 hours without hardware errors.&nbsp; But I have the Rockminers coming this week and I want to have everything tuned correctly.</div>
+						</td>
+					</tr>
+					<tr>
+						<td valign="bottom" class="smalltext" width="85%">
+							<table width="100%" border="0" style="table-layout: fixed;"><tr>
+								<td colspan="2" class="smalltext" width="100%">
+								</td>
+							</tr><tr>
+								<td valign="bottom" class="smalltext" id="modified_7996367">
+								</td>
+								<td align="right" valign="bottom" class="smalltext">
+									<img src="https://bitcointalk.org/Themes/custom1/images/ip.gif" alt="" border="0" />
+								</td>
+							</tr></table>
+						</td>
+					</tr>
+				</table>
+			</td></tr>
+		</table>
+	</td></tr>
+	<tr class="YruBXtQFqdLmabzcdfsymQ"><td class="GUEqyLfOBVOkFxjlzJuiCA"><b><i></i></b><b><i></i></b><b><i></i></b><b><i></i></b>
+		<a name="msg8008950"></a>
+		<table width="100%" cellpadding="3" cellspacing="0" border="0">
+			<tr><td class="windowbg">
+				<table width="100%" cellpadding="5" cellspacing="0" style="table-layout: fixed;">
+					<tr>
+								<td valign="top" width="16%" rowspan="2" style="overflow: hidden;" class="poster_info">
+							<b><a href="https://bitcointalk.org/index.php?action=profile;u=91620" title="View the profile of jeezy">jeezy</a></b>
+							<div class="smalltext">
+								Legendary<br />
+								<img src="https://bitcointalk.org/Themes/custom1/images/legendary.gif" alt="*" border="0" /><br />
+								<img src="https://bitcointalk.org/Themes/custom1/images/useroff.gif" alt="Offline" border="0" style="margin-top: 2px;" /><span class="smalltext"> Offline</span><br /><br />
+								Activity: 1231<br />
+								Merit: 1010<br /><br />
+								<div style="overflow: auto; width: 100%;"><img src="/useravatars/avatar_91620.png" alt="" class="avatar" border="0" /></div><br />
+								
+								
+								
+								<br />
+								<a href="https://bitcointalk.org/index.php?action=profile;u=91620"><img src="https://bitcointalk.org/Themes/custom1/images/icons/profile_sm.gif" alt="View Profile" title="View Profile" border="0" /></a><br />
+							</div>
+						</td>
+								<td valign="top" width="85%" height="100%" style="padding: 2px;" class="td_headerandpost">
+							<table width="100%" border="0"><tr>
+								<td valign="middle"><a href="https://bitcointalk.org/index.php?topic=626361.msg8008950#msg8008950"><img src="https://bitcointalk.org/Themes/custom1/images/post/xx.gif" alt="" border="0" /></a></td>
+								<td valign="middle">
+												<div style="font-weight: bold;" class="subject" id="subject_8008950">
+										<a href="https://bitcointalk.org/index.php?topic=626361.msg8008950#msg8008950">Re: BFGMiner 4.4.0: GBT+Strtm, RPC, Mac/Lnx/W64, Mac autodetect, JTMiner, proxy</a>
+									</div>
+												<div class="smalltext">July 24, 2014, 08:21:08 PM</div></td>
+										  <td align="right" valign="middle" height="20" style="font-size: smaller; padding-top: 4px;" class="td_buttons" ><div id="ignmsgbttns371" style="visibility: visible;">  <a class="message_number" style="vertical-align: middle;" href="https://bitcointalk.org/index.php?topic=626361.msg8008950#msg8008950">#371</a>
+		 </div>
+								</td>
+							</tr></table>
+									 <hr width="100%" size="1" class="hrcolor"  style="margin-top: 4px;" />
+							<div class="post"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=626361.msg7992265#msg7992265">Quote from: Luke-Jr on July 23, 2014, 08:35:33 PM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=626361.msg7992045#msg7992045">Quote from: jeezy on July 23, 2014, 08:20:33 PM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=626361.msg7991713#msg7991713">Quote from: BRADLEYPLOOF on July 23, 2014, 07:56:35 PM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=626361.msg7989715#msg7989715">Quote from: jeezy on July 23, 2014, 05:27:42 PM</a></div><div class="quote">So for Zeus it would then be zus@//./COM1:342?<br /></div><br />Make sure your slashes are facing the right way: &nbsp;\ instead of / &nbsp;But yeah, that should do it.<br /><br />--set-device zus@\\.\COM1:Clock=342<br /></div><br />It&#039;s actually working better with forward slashes. Otherwise you need to escape them but even then it might not work. <br /></div>Forward slashes shouldn&#039;t work at all. The code looks for backslashes explicitly:<br /><a class="ul" href="https://github.com/luke-jr/bfgminer/blob/65a7398457a858a9a22d5bb3b309d1e7bf21a2d4/miner.c#L537">https://github.com/luke-jr/bfgminer/blob/65a7398457a858a9a22d5bb3b309d1e7bf21a2d4/miner.c#L537</a><br /></div><br />Would this work in a config file?<br /><br />&quot;set-device&quot; : [<br />&nbsp; &nbsp; &nbsp;&quot;zus@\\.\COM1:clock=342&quot;,<br />&nbsp; &nbsp; &nbsp;&quot;zus@....&quot;,<br />&nbsp; &nbsp; &nbsp;...<br />]</div>
+						</td>
+					</tr>
+					<tr>
+						<td valign="bottom" class="smalltext" width="85%">
+							<table width="100%" border="0" style="table-layout: fixed;"><tr>
+								<td colspan="2" class="smalltext" width="100%">
+								</td>
+							</tr><tr>
+								<td valign="bottom" class="smalltext" id="modified_8008950">
+								</td>
+								<td align="right" valign="bottom" class="smalltext">
+									<img src="https://bitcointalk.org/Themes/custom1/images/ip.gif" alt="" border="0" />
+								</td>
+							</tr></table>
+						</td>
+					</tr>
+				</table>
+			</td></tr>
+		</table>
+	</td></tr>
+	<tr class="YruBXtQFqdLmabzcdfsymQ"><td class="GUEqyLfOBVOkFxjlzJuiCA"><b><i></i></b><b><i></i></b><b><i></i></b>
+		<a name="msg8009921"></a>
+		<table width="100%" cellpadding="3" cellspacing="0" border="0">
+			<tr><td class="windowbg2">
+				<table width="100%" cellpadding="5" cellspacing="0" style="table-layout: fixed;">
+					<tr>
+								<td valign="top" width="16%" rowspan="2" style="overflow: hidden;" class="poster_info">
+							<b><a href="https://bitcointalk.org/index.php?action=profile;u=96601" title="View the profile of loszhor">loszhor</a></b>
+							<div class="smalltext">
+								Sr. Member<br />
+								<img src="https://bitcointalk.org/Themes/custom1/images/star.gif" alt="*" border="0" /><img src="https://bitcointalk.org/Themes/custom1/images/star.gif" alt="*" border="0" /><img src="https://bitcointalk.org/Themes/custom1/images/star.gif" alt="*" border="0" /><img src="https://bitcointalk.org/Themes/custom1/images/star.gif" alt="*" border="0" /><br />
+								<img src="https://bitcointalk.org/Themes/custom1/images/useroff.gif" alt="Offline" border="0" style="margin-top: 2px;" /><span class="smalltext"> Offline</span><br /><br />
+								Activity: 369<br />
+								Merit: 250<br /><br />
+								
+								
+								
+								<br />
+								<a href="https://bitcointalk.org/index.php?action=profile;u=96601"><img src="https://bitcointalk.org/Themes/custom1/images/icons/profile_sm.gif" alt="View Profile" title="View Profile" border="0" /></a><br />
+							</div>
+						</td>
+								<td valign="top" width="85%" height="100%" style="padding: 2px;" class="td_headerandpost">
+							<table width="100%" border="0"><tr>
+								<td valign="middle"><a href="https://bitcointalk.org/index.php?topic=626361.msg8009921#msg8009921"><img src="https://bitcointalk.org/Themes/custom1/images/post/xx.gif" alt="" border="0" /></a></td>
+								<td valign="middle">
+												<div style="font-weight: bold;" class="subject" id="subject_8009921">
+										<a href="https://bitcointalk.org/index.php?topic=626361.msg8009921#msg8009921">Re: BFGMiner 4.4.0: GBT+Strtm, RPC, Mac/Lnx/W64, Mac autodetect, JTMiner, proxy</a>
+									</div>
+												<div class="smalltext">July 24, 2014, 09:38:57 PM</div></td>
+										  <td align="right" valign="middle" height="20" style="font-size: smaller; padding-top: 4px;" class="td_buttons" ><div id="ignmsgbttns372" style="visibility: visible;">  <a class="message_number" style="vertical-align: middle;" href="https://bitcointalk.org/index.php?topic=626361.msg8009921#msg8009921">#372</a>
+		 </div>
+								</td>
+							</tr></table>
+									 <hr width="100%" size="1" class="hrcolor"  style="margin-top: 4px;" />
+							<div class="post">Good day, is there a native way to automatically schedule BFGMiner to restart without the need of an outside API application? It would cut out a middle man and save resources if it is possible and if not is there a modification available for such a command?<br /><br />Thank you.</div>
+						</td>
+					</tr>
+					<tr>
+						<td valign="bottom" class="smalltext" width="85%">
+							<table width="100%" border="0" style="table-layout: fixed;"><tr>
+								<td colspan="2" class="smalltext" width="100%">
+								</td>
+							</tr><tr>
+								<td valign="bottom" class="smalltext" id="modified_8009921">
+								</td>
+								<td align="right" valign="bottom" class="smalltext">
+									<img src="https://bitcointalk.org/Themes/custom1/images/ip.gif" alt="" border="0" />
+								</td>
+							</tr></table>
+							<hr width="100%" size="1" class="hrcolor" />
+							<div class="signature sig96601">16wQCVFXYuSp4AYsBqV9Uqa2dd1V4YXvJ5</div>
+						</td>
+					</tr>
+				</table>
+			</td></tr>
+		</table>
+	</td></tr>
+	<tr class="YruBXtQFqdLmabzcdfsymQ"><td class="GUEqyLfOBVOkFxjlzJuiCA"><b><i></i></b><b><i></i></b><b><i></i></b>
+		<a name="msg8012840"></a>
+		<table width="100%" cellpadding="3" cellspacing="0" border="0">
+			<tr><td class="windowbg">
+				<table width="100%" cellpadding="5" cellspacing="0" style="table-layout: fixed;">
+					<tr>
+								<td valign="top" width="16%" rowspan="2" style="overflow: hidden;" class="poster_info">
+							<b><a href="https://bitcointalk.org/index.php?action=profile;u=183116" title="View the profile of BeerPimp">BeerPimp</a></b>
+							<div class="smalltext">
+								Member<br />
+								<img src="https://bitcointalk.org/Themes/custom1/images/star.gif" alt="*" border="0" /><img src="https://bitcointalk.org/Themes/custom1/images/star.gif" alt="*" border="0" /><br />
+								<img src="https://bitcointalk.org/Themes/custom1/images/useroff.gif" alt="Offline" border="0" style="margin-top: 2px;" /><span class="smalltext"> Offline</span><br /><br />
+								Activity: 94<br />
+								Merit: 10<br /><br />
+								
+								
+								
+								<br />
+								<a href="https://bitcointalk.org/index.php?action=profile;u=183116"><img src="https://bitcointalk.org/Themes/custom1/images/icons/profile_sm.gif" alt="View Profile" title="View Profile" border="0" /></a><br />
+							</div>
+						</td>
+								<td valign="top" width="85%" height="100%" style="padding: 2px;" class="td_headerandpost">
+							<table width="100%" border="0"><tr>
+								<td valign="middle"><a href="https://bitcointalk.org/index.php?topic=626361.msg8012840#msg8012840"><img src="https://bitcointalk.org/Themes/custom1/images/post/xx.gif" alt="" border="0" /></a></td>
+								<td valign="middle">
+												<div style="font-weight: bold;" class="subject" id="subject_8012840">
+										<a href="https://bitcointalk.org/index.php?topic=626361.msg8012840#msg8012840">Re: BFGMiner 4.4.0: GBT+Strtm, RPC, Mac/Lnx/W64, Mac autodetect, JTMiner, proxy</a>
+									</div>
+												<div class="smalltext">July 25, 2014, 02:40:14 AM</div></td>
+										  <td align="right" valign="middle" height="20" style="font-size: smaller; padding-top: 4px;" class="td_buttons" ><div id="ignmsgbttns373" style="visibility: visible;">  <a class="message_number" style="vertical-align: middle;" href="https://bitcointalk.org/index.php?topic=626361.msg8012840#msg8012840">#373</a>
+		 </div>
+								</td>
+							</tr></table>
+									 <hr width="100%" size="1" class="hrcolor"  style="margin-top: 4px;" />
+							<div class="post">Hello,<br /><br />Trying to help a friend set up his blade in bfgminer got it running and everything. &nbsp;But ocl keeps showing up as a device. &nbsp;How do you disable the GPU?&nbsp; He can go into settings and shut if&nbsp; off there.<br /></div>
+						</td>
+					</tr>
+					<tr>
+						<td valign="bottom" class="smalltext" width="85%">
+							<table width="100%" border="0" style="table-layout: fixed;"><tr>
+								<td colspan="2" class="smalltext" width="100%">
+								</td>
+							</tr><tr>
+								<td valign="bottom" class="smalltext" id="modified_8012840">
+								</td>
+								<td align="right" valign="bottom" class="smalltext">
+									<img src="https://bitcointalk.org/Themes/custom1/images/ip.gif" alt="" border="0" />
+								</td>
+							</tr></table>
+						</td>
+					</tr>
+				</table>
+			</td></tr>
+		</table>
+	</td></tr>
+	<tr class="YruBXtQFqdLmabzcdfsymQ"><td class="GUEqyLfOBVOkFxjlzJuiCA"><b><i></i></b><b><i></i></b><b><i></i></b>
+		<a name="msg8015545"></a>
+		<table width="100%" cellpadding="3" cellspacing="0" border="0">
+			<tr><td class="windowbg2">
+				<table width="100%" cellpadding="5" cellspacing="0" style="table-layout: fixed;">
+					<tr>
+								<td valign="top" width="16%" rowspan="2" style="overflow: hidden;" class="poster_info">
+							<b><a href="https://bitcointalk.org/index.php?action=profile;u=123873" title="View the profile of Taugeran">Taugeran</a></b>
+							<div class="smalltext">
+								Hero Member<br />
+								<img src="https://bitcointalk.org/Themes/custom1/images/star.gif" alt="*" border="0" /><img src="https://bitcointalk.org/Themes/custom1/images/star.gif" alt="*" border="0" /><img src="https://bitcointalk.org/Themes/custom1/images/star.gif" alt="*" border="0" /><img src="https://bitcointalk.org/Themes/custom1/images/star.gif" alt="*" border="0" /><img src="https://bitcointalk.org/Themes/custom1/images/star.gif" alt="*" border="0" /><br />
+								<img src="https://bitcointalk.org/Themes/custom1/images/useroff.gif" alt="Offline" border="0" style="margin-top: 2px;" /><span class="smalltext"> Offline</span><br /><br />
+								Activity: 658<br />
+								Merit: 500<br /><br />
+								<div style="overflow: auto; width: 100%;"><img src="/useravatars/avatar_123873.png" alt="" class="avatar" border="0" /></div><br />
+								CCNA: There i fixed the internet.<br />
+								<br />
+								
+								
+								
+								<br />
+								<a href="https://bitcointalk.org/index.php?action=profile;u=123873"><img src="https://bitcointalk.org/Themes/custom1/images/icons/profile_sm.gif" alt="View Profile" title="View Profile" border="0" /></a><br />
+							</div>
+						</td>
+								<td valign="top" width="85%" height="100%" style="padding: 2px;" class="td_headerandpost">
+							<table width="100%" border="0"><tr>
+								<td valign="middle"><a href="https://bitcointalk.org/index.php?topic=626361.msg8015545#msg8015545"><img src="https://bitcointalk.org/Themes/custom1/images/post/xx.gif" alt="" border="0" /></a></td>
+								<td valign="middle">
+												<div style="font-weight: bold;" class="subject" id="subject_8015545">
+										<a href="https://bitcointalk.org/index.php?topic=626361.msg8015545#msg8015545">Re: BFGMiner 4.4.0: GBT+Strtm, RPC, Mac/Lnx/W64, Mac autodetect, JTMiner, proxy</a>
+									</div>
+												<div class="smalltext">July 25, 2014, 08:05:30 AM</div></td>
+										  <td align="right" valign="middle" height="20" style="font-size: smaller; padding-top: 4px;" class="td_buttons" ><div id="ignmsgbttns374" style="visibility: visible;">  <a class="message_number" style="vertical-align: middle;" href="https://bitcointalk.org/index.php?topic=626361.msg8015545#msg8015545">#374</a>
+		 </div>
+								</td>
+							</tr></table>
+									 <hr width="100%" size="1" class="hrcolor"  style="margin-top: 4px;" />
+							<div class="post">Is he a time traveler?</div>
+						</td>
+					</tr>
+					<tr>
+						<td valign="bottom" class="smalltext" width="85%">
+							<table width="100%" border="0" style="table-layout: fixed;"><tr>
+								<td colspan="2" class="smalltext" width="100%">
+								</td>
+							</tr><tr>
+								<td valign="bottom" class="smalltext" id="modified_8015545">
+								</td>
+								<td align="right" valign="bottom" class="smalltext">
+									<img src="https://bitcointalk.org/Themes/custom1/images/ip.gif" alt="" border="0" />
+								</td>
+							</tr></table>
+							<hr width="100%" size="1" class="hrcolor" />
+							<div class="signature sig123873">Bitfury HW &amp; Habañero : 1.625Th/s<br />tips/Donations: 1NoS89H3Mr6U5CmP4VwWzU2318JEMxHL1<br />Come join <b><a class="ul" href="https://coinbase.com/?r=52122067ac7084702f00005b&amp;utm_campaign=user-referral&amp;src=referral-link">Coinbase</a></b></div>
+						</td>
+					</tr>
+				</table>
+			</td></tr>
+		</table>
+	</td></tr>
+	<tr class="YruBXtQFqdLmabzcdfsymQ"><td class="GUEqyLfOBVOkFxjlzJuiCA">
+		<a name="msg8015731"></a>
+		<table width="100%" cellpadding="3" cellspacing="0" border="0">
+			<tr><td class="windowbg">
+				<table width="100%" cellpadding="5" cellspacing="0" style="table-layout: fixed;">
+					<tr>
+								<td valign="top" width="16%" rowspan="2" style="overflow: hidden;" class="poster_info">
+							<b><a href="https://bitcointalk.org/index.php?action=profile;u=126867" title="View the profile of chup">chup</a></b>
+							<div class="smalltext">
+								Sr. Member<br />
+								<img src="https://bitcointalk.org/Themes/custom1/images/star.gif" alt="*" border="0" /><img src="https://bitcointalk.org/Themes/custom1/images/star.gif" alt="*" border="0" /><img src="https://bitcointalk.org/Themes/custom1/images/star.gif" alt="*" border="0" /><img src="https://bitcointalk.org/Themes/custom1/images/star.gif" alt="*" border="0" /><br />
+								<img src="https://bitcointalk.org/Themes/custom1/images/useroff.gif" alt="Offline" border="0" style="margin-top: 2px;" /><span class="smalltext"> Offline</span><br /><br />
+								Activity: 704<br />
+								Merit: 262<br /><br />
+								<div style="overflow: auto; width: 100%;"><img src="/useravatars/avatar_126867.png" alt="" class="avatar" border="0" /></div><br />
+								Me, Myself &amp; I<br />
+								<br />
+								
+								
+								
+								<br />
+								<a href="https://bitcointalk.org/index.php?action=profile;u=126867"><img src="https://bitcointalk.org/Themes/custom1/images/icons/profile_sm.gif" alt="View Profile" title="View Profile" border="0" /></a><br />
+							</div>
+						</td>
+								<td valign="top" width="85%" height="100%" style="padding: 2px;" class="td_headerandpost">
+							<table width="100%" border="0"><tr>
+								<td valign="middle"><a href="https://bitcointalk.org/index.php?topic=626361.msg8015731#msg8015731"><img src="https://bitcointalk.org/Themes/custom1/images/post/lamp.gif" alt="" border="0" /></a></td>
+								<td valign="middle">
+												<div style="font-weight: bold;" class="subject" id="subject_8015731">
+										<a href="https://bitcointalk.org/index.php?topic=626361.msg8015731#msg8015731">Re: BFGMiner 4.4.0: GBT+Strtm, RPC, Mac/Lnx/W64, Mac autodetect, JTMiner, proxy</a>
+									</div>
+												<div class="smalltext">July 25, 2014, 08:21:26 AM</div></td>
+										  <td align="right" valign="middle" height="20" style="font-size: smaller; padding-top: 4px;" class="td_buttons" ><div id="ignmsgbttns375" style="visibility: visible;">  <a class="message_number" style="vertical-align: middle;" href="https://bitcointalk.org/index.php?topic=626361.msg8015731#msg8015731">#375</a>
+		 </div>
+								</td>
+							</tr></table>
+									 <hr width="100%" size="1" class="hrcolor"  style="margin-top: 4px;" />
+							<div class="post"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=626361.msg8009921#msg8009921">Quote from: loszhor on July 24, 2014, 09:38:57 PM</a></div><div class="quote">Good day, is there a native way to automatically schedule BFGMiner to restart without the need of an outside API application? It would cut out a middle man and save resources if it is possible and if not is there a modification available for such a command?<br /><br />Thank you.<br /></div><br /><div class="codeheader">Code:</div><div class="code">bfgminer 4.4.0<br /><br />Usage: bfgminer<br />Options for both config file and command line:<br /><br />--sched-start &lt;arg&gt;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Set a time of day in HH:MM to start mining (a<br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;once off without a stop time)<br />--sched-stop &lt;arg&gt;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Set a time of day in HH:MM to stop mining (will<br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;quit without a start time)<br /></div><br />As far as I understand help description, stop and start of mining is possible. For restarting the miner better option is &quot;middle man&quot; in a form of CGWatcher. It&#039;s free.</div>
+						</td>
+					</tr>
+					<tr>
+						<td valign="bottom" class="smalltext" width="85%">
+							<table width="100%" border="0" style="table-layout: fixed;"><tr>
+								<td colspan="2" class="smalltext" width="100%">
+								</td>
+							</tr><tr>
+								<td valign="bottom" class="smalltext" id="modified_8015731">
+								</td>
+								<td align="right" valign="bottom" class="smalltext">
+									<img src="https://bitcointalk.org/Themes/custom1/images/ip.gif" alt="" border="0" />
+								</td>
+							</tr></table>
+							<hr width="100%" size="1" class="hrcolor" />
+							<div class="signature sig126867"><a class="ul" href="http://bit.ly/MegabonusCshBck"><span style="color: orange;">MEGABONUS </span>&#128293;&nbsp; <span style="color: red;">up to 8.25% </span>&#128293;&nbsp; <span style="color: green;">CASHBACK</span> at <span style="color: orange;">ALIEXPRESS, </span> &#128293; <span style="color: red;">$10.45</span>&nbsp; &#128293;&nbsp; <span style="color: green;">at </span><span style="color: orange;">AIRBNB...</span></a><br /><a class="ul" href="http://bit.ly/BTCard"><span style="color: red;">BTC </span><span style="color: orange;">Mastercard </span><span style="color: red;">debit card </span><span style="color: green;">worldwide delivery in 2019!!!</span>&#9989;</a></div>
+						</td>
+					</tr>
+				</table>
+			</td></tr>
+		</table>
+	</td></tr>
+	<tr class="YruBXtQFqdLmabzcdfsymQ"><td class="GUEqyLfOBVOkFxjlzJuiCA"><b><i></i></b><b><i></i></b><b><i></i></b><b><i></i></b><b><i></i></b>
+		<a name="msg8016941"></a>
+		<table width="100%" cellpadding="3" cellspacing="0" border="0">
+			<tr><td class="windowbg2">
+				<table width="100%" cellpadding="5" cellspacing="0" style="table-layout: fixed;">
+					<tr>
+								<td valign="top" width="16%" rowspan="2" style="overflow: hidden;" class="poster_info">
+							<b><a href="https://bitcointalk.org/index.php?action=profile;u=359150" title="View the profile of Tompinara">Tompinara</a></b>
+							<div class="smalltext">
+								Newbie<br />
+								<img src="https://bitcointalk.org/Themes/custom1/images/star.gif" alt="*" border="0" /><br />
+								<img src="https://bitcointalk.org/Themes/custom1/images/useroff.gif" alt="Offline" border="0" style="margin-top: 2px;" /><span class="smalltext"> Offline</span><br /><br />
+								Activity: 4<br />
+								Merit: 0<br /><br />
+								
+								
+								
+								<br />
+								<a href="https://bitcointalk.org/index.php?action=profile;u=359150"><img src="https://bitcointalk.org/Themes/custom1/images/icons/profile_sm.gif" alt="View Profile" title="View Profile" border="0" /></a><br />
+							</div>
+						</td>
+								<td valign="top" width="85%" height="100%" style="padding: 2px;" class="td_headerandpost">
+							<table width="100%" border="0"><tr>
+								<td valign="middle"><a href="https://bitcointalk.org/index.php?topic=626361.msg8016941#msg8016941"><img src="https://bitcointalk.org/Themes/custom1/images/post/xx.gif" alt="" border="0" /></a></td>
+								<td valign="middle">
+												<div style="font-weight: bold;" class="subject" id="subject_8016941">
+										<a href="https://bitcointalk.org/index.php?topic=626361.msg8016941#msg8016941">Re: BFGMiner 4.4.0: GBT+Strtm, RPC, Mac/Lnx/W64, Mac autodetect, JTMiner, proxy</a>
+									</div>
+												<div class="smalltext">July 25, 2014, 10:17:19 AM</div></td>
+										  <td align="right" valign="middle" height="20" style="font-size: smaller; padding-top: 4px;" class="td_buttons" ><div id="ignmsgbttns376" style="visibility: visible;">  <a class="message_number" style="vertical-align: middle;" href="https://bitcointalk.org/index.php?topic=626361.msg8016941#msg8016941">#376</a>
+		 </div>
+								</td>
+							</tr></table>
+									 <hr width="100%" size="1" class="hrcolor"  style="margin-top: 4px;" />
+							<div class="post"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=626361.msg8012840#msg8012840">Quote from: BeerPimp on July 25, 2014, 02:40:14 AM</a></div><div class="quote">Hello,<br /><br />Trying to help a friend set up his blade in bfgminer got it running and everything. &nbsp;But ocl keeps showing up as a device. &nbsp;How do you disable the GPU?&nbsp; He can go into settings and shut if&nbsp; off there.<br /><br /></div><br /><br />I use this in .bat : -S noauto -S gridseed:all --set-device gridseed:clock=800,usefifo=0,btc=0 --scrypt <br /><br /><br />Alberto</div>
+						</td>
+					</tr>
+					<tr>
+						<td valign="bottom" class="smalltext" width="85%">
+							<table width="100%" border="0" style="table-layout: fixed;"><tr>
+								<td colspan="2" class="smalltext" width="100%">
+								</td>
+							</tr><tr>
+								<td valign="bottom" class="smalltext" id="modified_8016941">
+								</td>
+								<td align="right" valign="bottom" class="smalltext">
+									<img src="https://bitcointalk.org/Themes/custom1/images/ip.gif" alt="" border="0" />
+								</td>
+							</tr></table>
+						</td>
+					</tr>
+				</table>
+			</td></tr>
+		</table>
+	</td></tr>
+	<tr class="YruBXtQFqdLmabzcdfsymQ"><td class="GUEqyLfOBVOkFxjlzJuiCA"><b><i></i></b><b><i></i></b><b><i></i></b><b><i></i></b>
+		<a name="msg8029047"></a>
+		<table width="100%" cellpadding="3" cellspacing="0" border="0">
+			<tr><td class="windowbg">
+				<table width="100%" cellpadding="5" cellspacing="0" style="table-layout: fixed;">
+					<tr>
+								<td valign="top" width="16%" rowspan="2" style="overflow: hidden;" class="poster_info">
+							<b><a href="https://bitcointalk.org/index.php?action=profile;u=183116" title="View the profile of BeerPimp">BeerPimp</a></b>
+							<div class="smalltext">
+								Member<br />
+								<img src="https://bitcointalk.org/Themes/custom1/images/star.gif" alt="*" border="0" /><img src="https://bitcointalk.org/Themes/custom1/images/star.gif" alt="*" border="0" /><br />
+								<img src="https://bitcointalk.org/Themes/custom1/images/useroff.gif" alt="Offline" border="0" style="margin-top: 2px;" /><span class="smalltext"> Offline</span><br /><br />
+								Activity: 94<br />
+								Merit: 10<br /><br />
+								
+								
+								
+								<br />
+								<a href="https://bitcointalk.org/index.php?action=profile;u=183116"><img src="https://bitcointalk.org/Themes/custom1/images/icons/profile_sm.gif" alt="View Profile" title="View Profile" border="0" /></a><br />
+							</div>
+						</td>
+								<td valign="top" width="85%" height="100%" style="padding: 2px;" class="td_headerandpost">
+							<table width="100%" border="0"><tr>
+								<td valign="middle"><a href="https://bitcointalk.org/index.php?topic=626361.msg8029047#msg8029047"><img src="https://bitcointalk.org/Themes/custom1/images/post/xx.gif" alt="" border="0" /></a></td>
+								<td valign="middle">
+												<div style="font-weight: bold;" class="subject" id="subject_8029047">
+										<a href="https://bitcointalk.org/index.php?topic=626361.msg8029047#msg8029047">Re: BFGMiner 4.4.0: GBT+Strtm, RPC, Mac/Lnx/W64, Mac autodetect, JTMiner, proxy</a>
+									</div>
+												<div class="smalltext">July 26, 2014, 01:57:56 AM</div></td>
+										  <td align="right" valign="middle" height="20" style="font-size: smaller; padding-top: 4px;" class="td_buttons" ><div id="ignmsgbttns377" style="visibility: visible;">  <a class="message_number" style="vertical-align: middle;" href="https://bitcointalk.org/index.php?topic=626361.msg8029047#msg8029047">#377</a>
+		 </div>
+								</td>
+							</tr></table>
+									 <hr width="100%" size="1" class="hrcolor"  style="margin-top: 4px;" />
+							<div class="post"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=626361.msg8016941#msg8016941">Quote from: Tompinara on July 25, 2014, 10:17:19 AM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=626361.msg8012840#msg8012840">Quote from: BeerPimp on July 25, 2014, 02:40:14 AM</a></div><div class="quote">Hello,<br /><br />Trying to help a friend set up his blade in bfgminer got it running and everything. &nbsp;But ocl keeps showing up as a device. &nbsp;How do you disable the GPU?&nbsp; He can go into settings and shut if&nbsp; off there.<br /><br /></div><br /><br />I use this in .bat : -S noauto -S gridseed:all --set-device gridseed:clock=800,usefifo=0,btc=0 --scrypt <br /><br /><br />Alberto<br /></div><br />Thanks Alberto for the info on the startup bat.&nbsp; Does the -S noauto stop the gpu from mining?</div>
+						</td>
+					</tr>
+					<tr>
+						<td valign="bottom" class="smalltext" width="85%">
+							<table width="100%" border="0" style="table-layout: fixed;"><tr>
+								<td colspan="2" class="smalltext" width="100%">
+								</td>
+							</tr><tr>
+								<td valign="bottom" class="smalltext" id="modified_8029047">
+								</td>
+								<td align="right" valign="bottom" class="smalltext">
+									<img src="https://bitcointalk.org/Themes/custom1/images/ip.gif" alt="" border="0" />
+								</td>
+							</tr></table>
+						</td>
+					</tr>
+				</table>
+			</td></tr>
+		</table>
+	</td></tr>
+	<tr class="YruBXtQFqdLmabzcdfsymQ"><td class="GUEqyLfOBVOkFxjlzJuiCA"><b><i></i></b><b><i></i></b><b><i></i></b><b><i></i></b><b><i></i></b>
+		<a name="msg8029082"></a>
+		<table width="100%" cellpadding="3" cellspacing="0" border="0">
+			<tr><td class="windowbg2">
+				<table width="100%" cellpadding="5" cellspacing="0" style="table-layout: fixed;">
+					<tr>
+								<td valign="top" width="16%" rowspan="2" style="overflow: hidden;" class="poster_info">
+							<b><a href="https://bitcointalk.org/index.php?action=profile;u=183116" title="View the profile of BeerPimp">BeerPimp</a></b>
+							<div class="smalltext">
+								Member<br />
+								<img src="https://bitcointalk.org/Themes/custom1/images/star.gif" alt="*" border="0" /><img src="https://bitcointalk.org/Themes/custom1/images/star.gif" alt="*" border="0" /><br />
+								<img src="https://bitcointalk.org/Themes/custom1/images/useroff.gif" alt="Offline" border="0" style="margin-top: 2px;" /><span class="smalltext"> Offline</span><br /><br />
+								Activity: 94<br />
+								Merit: 10<br /><br />
+								
+								
+								
+								<br />
+								<a href="https://bitcointalk.org/index.php?action=profile;u=183116"><img src="https://bitcointalk.org/Themes/custom1/images/icons/profile_sm.gif" alt="View Profile" title="View Profile" border="0" /></a><br />
+							</div>
+						</td>
+								<td valign="top" width="85%" height="100%" style="padding: 2px;" class="td_headerandpost">
+							<table width="100%" border="0"><tr>
+								<td valign="middle"><a href="https://bitcointalk.org/index.php?topic=626361.msg8029082#msg8029082"><img src="https://bitcointalk.org/Themes/custom1/images/post/xx.gif" alt="" border="0" /></a></td>
+								<td valign="middle">
+												<div style="font-weight: bold;" class="subject" id="subject_8029082">
+										<a href="https://bitcointalk.org/index.php?topic=626361.msg8029082#msg8029082">Re: BFGMiner 4.4.0: GBT+Strtm, RPC, Mac/Lnx/W64, Mac autodetect, JTMiner, proxy</a>
+									</div>
+												<div class="smalltext"><span title="Last edit: July 26, 2014, 02:34:36 AM by BeerPimp" class="edited">July 26, 2014, 02:01:33 AM</span><span class="editplain"><br />Last edit: July 26, 2014, 02:34:36 AM by BeerPimp</span></div></td>
+										  <td align="right" valign="middle" height="20" style="font-size: smaller; padding-top: 4px;" class="td_buttons" ><div id="ignmsgbttns378" style="visibility: visible;">  <a class="message_number" style="vertical-align: middle;" href="https://bitcointalk.org/index.php?topic=626361.msg8029082#msg8029082">#378</a>
+		 </div>
+								</td>
+							</tr></table>
+									 <hr width="100%" size="1" class="hrcolor"  style="margin-top: 4px;" />
+							<div class="post"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=626361.msg8015545#msg8015545">Quote from: Taugeran on July 25, 2014, 08:05:30 AM</a></div><div class="quote">Is he a time traveler?<br /></div><br />Hello Taugeran were you responding to my post or loszhor&#039;s?</div>
+						</td>
+					</tr>
+					<tr>
+						<td valign="bottom" class="smalltext" width="85%">
+							<table width="100%" border="0" style="table-layout: fixed;"><tr>
+								<td colspan="2" class="smalltext" width="100%">
+								</td>
+							</tr><tr>
+								<td valign="bottom" class="smalltext" id="modified_8029082">
+								</td>
+								<td align="right" valign="bottom" class="smalltext">
+									<img src="https://bitcointalk.org/Themes/custom1/images/ip.gif" alt="" border="0" />
+								</td>
+							</tr></table>
+						</td>
+					</tr>
+				</table>
+			</td></tr>
+		</table>
+	</td></tr>
+	<tr class="YruBXtQFqdLmabzcdfsymQ"><td class="GUEqyLfOBVOkFxjlzJuiCA">
+		<a name="msg8038266"></a><a name="new"></a>
+		<table width="100%" cellpadding="3" cellspacing="0" border="0">
+			<tr><td class="windowbg">
+				<table width="100%" cellpadding="5" cellspacing="0" style="table-layout: fixed;">
+					<tr>
+								<td valign="top" width="16%" rowspan="2" style="overflow: hidden;" class="poster_info">
+							<b><a href="https://bitcointalk.org/index.php?action=profile;u=3318" title="View the profile of Luke-Jr">Luke-Jr</a></b>
+							<div class="smalltext">
+								Legendary<br />
+								<img src="https://bitcointalk.org/Themes/custom1/images/legendary.gif" alt="*" border="0" /><br />
+								<img src="https://bitcointalk.org/Themes/custom1/images/useroff.gif" alt="Offline" border="0" style="margin-top: 2px;" /><span class="smalltext"> Offline</span><br /><br />
+								Activity: 2492<br />
+								Merit: 1022<br /><br />
+								<div style="overflow: auto; width: 100%;"><img src="/useravatars/avatar_3318.png" alt="" class="avatar" border="0" /></div><br />
+								
+								
+								
+								<br />
+								<a href="https://bitcointalk.org/index.php?action=profile;u=3318"><img src="https://bitcointalk.org/Themes/custom1/images/icons/profile_sm.gif" alt="View Profile" title="View Profile" border="0" /></a><br />
+							</div>
+						</td>
+								<td valign="top" width="85%" height="100%" style="padding: 2px;" class="td_headerandpost">
+							<table width="100%" border="0"><tr>
+								<td valign="middle"><a href="https://bitcointalk.org/index.php?topic=626361.msg8038266#msg8038266"><img src="https://bitcointalk.org/Themes/custom1/images/post/xx.gif" alt="" border="0" /></a></td>
+								<td valign="middle">
+												<div style="font-weight: bold;" class="subject" id="subject_8038266">
+										<a href="https://bitcointalk.org/index.php?topic=626361.msg8038266#msg8038266">Re: BFGMiner 4.5.0: GBT+Strtm, RPC, Mac/Lnx/W64</a>
+									</div>
+												<div class="smalltext">July 26, 2014, 05:08:46 PM</div></td>
+										  <td align="right" valign="middle" height="20" style="font-size: smaller; padding-top: 4px;" class="td_buttons" ><div id="ignmsgbttns379" style="visibility: visible;">  <a class="message_number" style="vertical-align: middle;" href="https://bitcointalk.org/index.php?topic=626361.msg8038266#msg8038266">#379</a>
+		 </div>
+								</td>
+							</tr></table>
+									 <hr width="100%" size="1" class="hrcolor"  style="margin-top: 4px;" />
+							<div class="post"><b>NEW VERSION 4.5.0, JULY 26 2014</b><br /><br /><b>Human readable changelog:</b><ul style="margin-top: 0; margin-bottom: 0;"><li>bitforce: A new setup-vfio shell script is included to simplify configuring VFIO for Monarchs on PCIe.</li><li>bitforce: Support for PCIe on Windows.</li><li>cairnsmore, icarus, zeusminer: Per-core mining statistics support.</li><li>gridseed: Ability to set clock speed via Manage TUI.</li><li>hashfast: Include chip/core address in RPC procdetails.</li><li>hashfast: Implement ability to change clock setting at runtime.</li><li>rockminer: Allow setting clock 300-2560 as long as prefixed by &quot;unsafe:&quot;.</li><li>zeusminer: Support for the GAW War Machine.</li><li>zeusminer: Ability to set clock speed via Manage TUI.</li></ul><br /><b>Full changelog:</b><ul style="margin-top: 0; margin-bottom: 0;"><li>Bugfix: zeusminer: Fix crash in TUI with newly introduced feature</li><li>Bugfix: gridseed: Fix crash in TUI with newly introduced feature</li><li>gridseed: Add the ability to set clock speed via the TUI</li><li>bitforce: Support for Monarch devices on Windows using new &quot;mswin&quot; lowlevel interface to scan for KMDF driver</li><li>Bugfix: gridseed: Implement a proper scanhash routine for GridSeeds</li><li>zeusminer: Add the ability to set clock speed via the TUI</li><li>Bugfix: gridseed: Only set PLL frequency once (not once per processor)</li><li>Bugfix: zeusminer: Retry detection on failure - ZM fails detection 1 / ~30 times</li><li>Bugfix: zeusminer: Enabling the ZeusMiner driver should flag needing lowl-vcom</li><li>aan: Silence false warnings</li><li>Include broad udev rules when configured with --enable-broad-udevrules option</li><li>Bugfix: util: Lower the threshold for considering pool Scrypt diff broken</li><li>Bugfix: gc3355: Do not send work_id (or anything) in the last 4 bytes of work</li><li>gridseed: Refactor code to clean up and organize</li><li>gridseed: Document GridSeed specifics with comments and URLs</li><li>Copyright cleanups and updates</li><li>Bugfix: zeusminer: using icarus timing can lead to false positive Idle detection</li><li>zeusminer: Return the Chip # via the RPC API call procdetails</li><li>zeusminer: Display the Chip # in the UI when viewing per-proc details</li><li>Bugfix: miner: Check work-&gt;blk.nonce to see if work should be abandoned</li><li>rockminer: Allow setting clock 300-2560 as long as prefixed by &quot;unsafe:&quot;</li><li>util: Work around broken Scrypt pools automatically using realistic pdiff assumptions</li><li>scanhash: Document scanhash related methods with comments</li><li>Bugfix: gridseed: Report communication errors using dev_error()</li><li>gc3355: Return bytes read to distinguish 0 bytes from error</li><li>Bugfix: gridseed: Add delay between Scrypt reset and sending work</li><li>gridseed: Bugfix: fix the constant used for estimated hash rates</li><li>klondike: zero_stats support</li><li>bitforce: zero_stats support (Temperature, Voltage, and Avg Wait)</li><li>avalon: zero_stats support (temp_max, no_matching_work, match_work_count%d)</li><li>Add driver interface for zero_stats function</li><li>Bugfix: bitforce: Short-circuit bitforce_read(0) to avoid lowlif issues</li><li>Bugfix: bitforce: Ensure data for the current command is always read (and only once), with lowl-pci</li><li>Bugfix: setup-vfio: Add device ids to vfio-pci even if they didn&#039;t have a driver previously</li><li>Bugfix: lowl-pci: Use volatile qualifier for PCI mmaps</li><li>Bugfix: bitforce: Use lowlevel interface device was probed with, for actual mining</li><li>setup-vfio: New shell script to automatically configure VFIO</li><li>README.ASIC: Monarch: Need to do new_id for every affected device, and only after unbinding them</li><li>README.ASIC: Monarch: Use shell variables for commands</li><li>gridseed: Bugfix: Revert earlier changes to scanhash based on feedback</li><li>hashfast: Support for changing clock at runtime</li><li>hashfast: Store a copy of what we believe to be the chip configuration data</li><li>hashfast: Store firmware revision</li><li>util: pk_uNle macro for changing a number inside a packed structure</li><li>README.ASIC: KnCMiner: Talk about additional i2c-tools dependency</li><li>README.ASIC: KnCMiner: Remove mention of now-obsolete Bertmod</li><li>README.ASIC: KnCMiner: Grammatical corrections</li><li>Bugfix: RPC: Avoid processor-specific details in devdetails</li><li>gridseed: Bugfix: log invalid detect responses as debug info, not an error</li><li>zeusminer: Support setting clock via RPC API procset call</li><li>README: Add Controla and Minera controller software links &amp; info</li><li>gridseed: Bugfix: Fix hash-rate calculation when no nonces are being found</li><li>dualminer: Bugfix: assign the proper value for work_division</li><li>gridseed: Refactor to clarify GridSeed terminology</li><li>gridseed: Add support for displaying per-chip statistics</li><li>gridseed: Convert to use newer set_device_funcs interface</li><li>Bugfix: gridseed: Don&#039;t leak cgpu_info when devices are already claimed</li><li>icarus: Processor detail support</li><li>DevAPI: Allow using device_proc_by_id with const struct cgpu_info</li><li>icarus: Ensure fpga_count is finalised before add_cgpu is called</li><li>icarus: Move work_division autodetection code into new icarus_probe_work_division function</li><li>icarus: Remove ability to change fpga_count at runtime</li><li>Bugfix: gen-version.sh: Replace bashism (&quot;here string&quot;)</li><li>gridseed: Support devices with more than 255 physical processors</li><li>Use `git describe` to generate version.h to avoid user confusion over builds from git</li><li>zeusminer: Support devices with more than 255 physical processors</li><li>hashfast: Include chip/core address in RPC procdetails</li><li>gridseed: Reduce traffic sending work to GridSeed devices</li><li>gridseed: Bugfix: previous refactor (unpublished) changed logic</li><li>gc3355: Refactor to remove SHA2 code specific to the 5-Chip GridSeed Orb</li><li>lowl-vcom: Bugfix: do not attempt to open the USB devices when enumerating</li></ul></div>
+						</td>
+					</tr>
+					<tr>
+						<td valign="bottom" class="smalltext" width="85%">
+							<table width="100%" border="0" style="table-layout: fixed;"><tr>
+								<td colspan="2" class="smalltext" width="100%">
+								</td>
+							</tr><tr>
+								<td valign="bottom" class="smalltext" id="modified_8038266">
+								</td>
+								<td align="right" valign="bottom" class="smalltext">
+									<img src="https://bitcointalk.org/Themes/custom1/images/ip.gif" alt="" border="0" />
+								</td>
+							</tr></table>
+							<hr width="100%" size="1" class="hrcolor" />
+							<div class="signature sig3318">Donate: <a class="ul" href="bitcoin:134dV6U7gQ6wCFbfHUz2CMh6Dth72oGpgH">134dV6U7gQ6wCFbfHUz2CMh6Dth72oGpgH</a><br />My projects: <a class="ul" href="http://bitcoinknots.org/">Bitcoin Knots</a>, <a class="ul" href="https://bitcoincore.org/">Bitcoin Core</a>, <a class="ul" href="https://bitcointalk.org/?topic=626361">BFGMiner</a>, <a class="ul" href="https://bitcointalk.org/index.php?topic=61731.0">Eloipool (pool software)</a>, <a class="ul" href="https://en.bitcoin.it/wiki/Tonal_Bitcoin">Tonal Bitcoin</a>, and <a class="ul" href="http://luke.dashjr.org/programs/bitcoin/">BitGit (Bitcoin code directory)</a></div>
+						</td>
+					</tr>
+				</table>
+			</td></tr>
+		</table>
+	</td></tr>
+	<tr class="YruBXtQFqdLmabzcdfsymQ"><td class="GUEqyLfOBVOkFxjlzJuiCA"><b><i></i></b><b><i></i></b><b><i></i></b><b><i></i></b>
+		<a name="msg8038442"></a>
+		<table width="100%" cellpadding="3" cellspacing="0" border="0">
+			<tr><td class="windowbg2">
+				<table width="100%" cellpadding="5" cellspacing="0" style="table-layout: fixed;">
+					<tr>
+								<td valign="top" width="16%" rowspan="2" style="overflow: hidden;" class="poster_info">
+							<b><a href="https://bitcointalk.org/index.php?action=profile;u=100786" title="View the profile of nwoolls">nwoolls</a></b>
+							<div class="smalltext">
+								Hero Member<br />
+								<img src="https://bitcointalk.org/Themes/custom1/images/star.gif" alt="*" border="0" /><img src="https://bitcointalk.org/Themes/custom1/images/star.gif" alt="*" border="0" /><img src="https://bitcointalk.org/Themes/custom1/images/star.gif" alt="*" border="0" /><img src="https://bitcointalk.org/Themes/custom1/images/star.gif" alt="*" border="0" /><img src="https://bitcointalk.org/Themes/custom1/images/star.gif" alt="*" border="0" /><br />
+								<img src="https://bitcointalk.org/Themes/custom1/images/useroff.gif" alt="Offline" border="0" style="margin-top: 2px;" /><span class="smalltext"> Offline</span><br /><br />
+								Activity: 840<br />
+								Merit: 1002<br /><br />
+								
+								
+								
+								<br />
+								<a href="https://bitcointalk.org/index.php?action=profile;u=100786"><img src="https://bitcointalk.org/Themes/custom1/images/icons/profile_sm.gif" alt="View Profile" title="View Profile" border="0" /></a>
+								<a href="http://www.nwoolls.com" title="nwoolls.com" ><img src="https://bitcointalk.org/Themes/custom1/images/www_sm.gif" alt="WWW" border="0" /></a><br />
+							</div>
+						</td>
+								<td valign="top" width="85%" height="100%" style="padding: 2px;" class="td_headerandpost">
+							<table width="100%" border="0"><tr>
+								<td valign="middle"><a href="https://bitcointalk.org/index.php?topic=626361.msg8038442#msg8038442"><img src="https://bitcointalk.org/Themes/custom1/images/post/xx.gif" alt="" border="0" /></a></td>
+								<td valign="middle">
+												<div style="font-weight: bold;" class="subject" id="subject_8038442">
+										<a href="https://bitcointalk.org/index.php?topic=626361.msg8038442#msg8038442">Re: BFGMiner 4.5.0: GBT+Strtm, RPC, Mac/Lnx/W64</a>
+									</div>
+												<div class="smalltext"><span title="Last edit: July 26, 2014, 07:46:59 PM by nwoolls" class="edited">July 26, 2014, 05:23:09 PM</span><span class="editplain"><br />Last edit: July 26, 2014, 07:46:59 PM by nwoolls</span></div></td>
+										  <td align="right" valign="middle" height="20" style="font-size: smaller; padding-top: 4px;" class="td_buttons" ><div id="ignmsgbttns380" style="visibility: visible;">  <a class="message_number" style="vertical-align: middle;" href="https://bitcointalk.org/index.php?topic=626361.msg8038442#msg8038442">#380</a>
+		 </div>
+								</td>
+							</tr></table>
+									 <hr width="100%" size="1" class="hrcolor"  style="margin-top: 4px;" />
+							<div class="post"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=626361.msg8038266#msg8038266">Quote from: Luke-Jr on July 26, 2014, 05:08:46 PM</a></div><div class="quote"><b>NEW VERSION 4.5.0, JULY 26 2014</b><br /><br /><b>Human readable changelog:</b><ul style="margin-top: 0; margin-bottom: 0;"><li>bitforce: A new setup-vfio shell script is included to simplify configuring VFIO for Monarchs on PCIe.</li><li>bitforce: Support for PCIe on Windows.</li><li>cairnsmore, icarus, zeusminer: Per-core mining statistics support.</li><li>gridseed: Ability to set clock speed via Manage TUI.</li><li>hashfast: Include chip/core address in RPC procdetails.</li><li>hashfast: Implement ability to change clock setting at runtime.</li><li>rockminer: Allow setting clock 300-2560 as long as prefixed by &quot;unsafe:&quot;.</li><li>zeusminer: Support for the GAW War Machine.</li><li>zeusminer: Ability to set clock speed via Manage TUI.</li></ul></div><br />Some Scrypt-specific notes on 4.5 (beyond what is called out above):<br /><br /><ul style="margin-top: 0; margin-bottom: 0;"><li>Per-core mining statistics for GridSeed devices</li><li>Ability to set ZeusMiner clock speed via RPC API</li><li>Increased compatibility (for now) with broken Scrypt pools</li></ul><br />Happy mining!<br /><br /><i><b>Edit 1</b></i>: Updated firmware for 703n is available <a class="ul" href="https://github.com/nwoolls/BFGMiner-OpenWrt-Tools/releases/tag/v4.5.0-r1">here</a>.<br /><i><b>Edit 2</b></i>: <a class="ul" href="http://blog.nwoolls.com/2014/07/26/bfgminer-4-5-run-down-for-scrypt-miners/">Here</a> is a detailed post on changes for Scrypt miners.</div>
+						</td>
+					</tr>
+					<tr>
+						<td valign="bottom" class="smalltext" width="85%">
+							<table width="100%" border="0" style="table-layout: fixed;"><tr>
+								<td colspan="2" class="smalltext" width="100%">
+								</td>
+							</tr><tr>
+								<td valign="bottom" class="smalltext" id="modified_8038442">
+								</td>
+								<td align="right" valign="bottom" class="smalltext">
+									<img src="https://bitcointalk.org/Themes/custom1/images/ip.gif" alt="" border="0" />
+								</td>
+							</tr></table>
+							<hr width="100%" size="1" class="hrcolor" />
+							<div class="signature sig100786"><div align="center"><a class="ul" href="http://multiminerapp.com">MultiMiner</a>: Any Miner, Any Where, on Any Device |&nbsp; <a class="ul" href="https://github.com/nwoolls/xgminer-osx">Xgminer</a>: Mine with popular miners on Mac OS X</div><div align="center">btc: <a class="ul" href="https://blockchain.info/address/1BmXY4ZZQh1iHSVre658gM1gPAEtDnq8rv">1BmXY4ZZQh1iHSVre658gM1gPAEtDnq8rv</a>&nbsp; |&nbsp; ltc: <a class="ul" href="http://ltc.block-explorer.com/search?search=LP1SsHZTDexndkvRKsqAkXNsienPHwaMb5">LP1SsHZTDexndkvRKsqAkXNsienPHwaMb5</a>&nbsp; |&nbsp; hardware: nwoolls at gmail dot com</div></div>
+						</td>
+					</tr>
+				</table>
+			</td></tr>
+		</table>
+	</td></tr>
+	<tr><td style="padding: 0 0 1px 0;"></td></tr>
+</table>
+<a name="lastPost"></a>
+<table width="100%" cellpadding="0" cellspacing="0" border="0">
+	<tr>
+		<td class="middletext">Pages: <span class="prevnext"><a class="navPages" href="https://bitcointalk.org/index.php?topic=626361.340">&#171;</a> </span><a class="navPages" href="https://bitcointalk.org/index.php?topic=626361.0">1</a> <a class="navPages" href="https://bitcointalk.org/index.php?topic=626361.20">2</a> <a class="navPages" href="https://bitcointalk.org/index.php?topic=626361.40">3</a> <a class="navPages" href="https://bitcointalk.org/index.php?topic=626361.60">4</a> <a class="navPages" href="https://bitcointalk.org/index.php?topic=626361.80">5</a> <a class="navPages" href="https://bitcointalk.org/index.php?topic=626361.100">6</a> <a class="navPages" href="https://bitcointalk.org/index.php?topic=626361.120">7</a> <a class="navPages" href="https://bitcointalk.org/index.php?topic=626361.140">8</a> <a class="navPages" href="https://bitcointalk.org/index.php?topic=626361.160">9</a> <a class="navPages" href="https://bitcointalk.org/index.php?topic=626361.180">10</a> <a class="navPages" href="https://bitcointalk.org/index.php?topic=626361.200">11</a> <a class="navPages" href="https://bitcointalk.org/index.php?topic=626361.220">12</a> <a class="navPages" href="https://bitcointalk.org/index.php?topic=626361.240">13</a> <a class="navPages" href="https://bitcointalk.org/index.php?topic=626361.260">14</a> <a class="navPages" href="https://bitcointalk.org/index.php?topic=626361.280">15</a> <a class="navPages" href="https://bitcointalk.org/index.php?topic=626361.300">16</a> <a class="navPages" href="https://bitcointalk.org/index.php?topic=626361.320">17</a> <a class="navPages" href="https://bitcointalk.org/index.php?topic=626361.340">18</a> [<b>19</b>] <a class="navPages" href="https://bitcointalk.org/index.php?topic=626361.380">20</a> <a class="navPages" href="https://bitcointalk.org/index.php?topic=626361.400">21</a> <a class="navPages" href="https://bitcointalk.org/index.php?topic=626361.420">22</a> <a class="navPages" href="https://bitcointalk.org/index.php?topic=626361.440">23</a> <a class="navPages" href="https://bitcointalk.org/index.php?topic=626361.460">24</a> <a class="navPages" href="https://bitcointalk.org/index.php?topic=626361.480">25</a> <a class="navPages" href="https://bitcointalk.org/index.php?topic=626361.500">26</a> <a class="navPages" href="https://bitcointalk.org/index.php?topic=626361.520">27</a> <a class="navPages" href="https://bitcointalk.org/index.php?topic=626361.540">28</a> <a class="navPages" href="https://bitcointalk.org/index.php?topic=626361.560">29</a> <a class="navPages" href="https://bitcointalk.org/index.php?topic=626361.580">30</a> <a class="navPages" href="https://bitcointalk.org/index.php?topic=626361.600">31</a> <a class="navPages" href="https://bitcointalk.org/index.php?topic=626361.620">32</a> <a class="navPages" href="https://bitcointalk.org/index.php?topic=626361.640">33</a> <a class="navPages" href="https://bitcointalk.org/index.php?topic=626361.660">34</a> <a class="navPages" href="https://bitcointalk.org/index.php?topic=626361.680">35</a> <a class="navPages" href="https://bitcointalk.org/index.php?topic=626361.700">36</a> <a class="navPages" href="https://bitcointalk.org/index.php?topic=626361.720">37</a> <a class="navPages" href="https://bitcointalk.org/index.php?topic=626361.740">38</a> <a class="navPages" href="https://bitcointalk.org/index.php?topic=626361.760">39</a> <a class="navPages" href="https://bitcointalk.org/index.php?topic=626361.780">40</a> <a class="navPages" href="https://bitcointalk.org/index.php?topic=626361.800">41</a> <span class="prevnext"><a class="navPages" href="https://bitcointalk.org/index.php?topic=626361.380">&#187;</a> </span></td>
+		<td align="right" style="padding-right: 1ex;">
+			<table cellpadding="0" cellspacing="0">
+				<tr>
+					
+		<td class="maintab_first">&nbsp;</td>
+		<td class="maintab_back"><a href="https://bitcointalk.org/index.php?action=printpage;topic=626361.0" target="_blank">Print</a></td>
+		<td class="maintab_last">&nbsp;</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>
+<script language="JavaScript" type="text/javascript" src="https://bitcointalk.org/Themes/default/xml_topic.js"></script>
+<script language="JavaScript" type="text/javascript">//<!--
+	quickReplyCollapsed = true;
+
+	smf_topic = 626361;
+	smf_start = 360;
+	smf_show_modify = 0;
+
+	// On quick modify, this is what the body will look like.
+	var smf_template_body_edit = '<div id="error_box" style="padding: 4px; color: red;"></div><textarea class="editor" name="message" rows="12" style="width: 94%; margin-bottom: 10px;">%body%</textarea><br /><input type="hidden" name="sc" value="a78555bb75406eafd4d176c9734f76b6" /><input type="hidden" name="topic" value="626361" /><input type="hidden" name="msg" value="%msg_id%" /><div style="text-align: center;"><input type="submit" name="post" value="Save" onclick="return modify_save(\'a78555bb75406eafd4d176c9734f76b6\');" accesskey="s" />&nbsp;&nbsp;<input type="submit" name="cancel" value="Cancel" onclick="return modify_cancel();" /></div>';
+
+	// And this is the replacement for the subject.
+	var smf_template_subject_edit = '<input type="text" name="subject" value="%subject%" size="60" style="width: 99%;"  maxlength="80" />';
+
+	// Restore the message to this after editing.
+	var smf_template_body_normal = '%body%';
+	var smf_template_subject_normal = '<a href="https://bitcointalk.org/index.php?topic=626361.msg%msg_id%#msg%msg_id%">%subject%</a>';
+	var smf_template_top_subject = "Topic: %subject% &nbsp;(Read 307722 times)"
+
+	if (window.XMLHttpRequest)
+		showModifyButtons();
+// --></script>
+<table border="0" width="100%" cellpadding="0" cellspacing="0" style="margin-bottom: 1ex;">
+		<tr>
+				<td valign="top"><div class="nav" style="font-size: smaller; margin-bottom: 2ex; margin-top: 2ex;"><b><a href="https://bitcointalk.org/index.php" class="nav">Bitcoin Forum</a></b>&nbsp;>&nbsp;<b><a href="https://bitcointalk.org/index.php#1" class="nav">Bitcoin</a></b>&nbsp;>&nbsp;<b><a href="https://bitcointalk.org/index.php?board=14.0" class="nav">Mining</a></b>&nbsp;>&nbsp;<b><a href="https://bitcointalk.org/index.php?board=42.0" class="nav">Mining software (miners)</a></b>&nbsp;>&nbsp;<b><a href="https://bitcointalk.org/index.php?topic=626361.0" class="nav">OLD: BFGMiner 4.10.0: GBT+Stratum, RPC, Mac/Linux/Win64, Spondoolies SP30</a></b></div></td> 
+				<td valign="top" align="right" class="nav"> <a href="https://bitcointalk.org/index.php?topic=626361.0;prev_next=prev#new">&laquo; previous topic</a> <a href="https://bitcointalk.org/index.php?topic=626361.0;prev_next=next#new">next topic &raquo;</a></td>
+		</tr>
+</table>
+	<table cellpadding="0" cellspacing="0" border="0" style="margin-left: 1ex;">
+		<tr>
+			<td>&nbsp;</td>
+		</tr>
+	</table>
+</form>
+<div class="tborder"><div class="titlebg2" style="padding: 4px;" align="right">
+	<form action="https://bitcointalk.org/index.php" method="get" accept-charset="ISO-8859-1" style="padding:0; margin: 0;">
+		<span class="smalltext">Jump to:</span>
+		<select name="jumpto" id="jumpto" onchange="if (this.selectedIndex > 0 &amp;&amp; this.options[this.selectedIndex].value) window.location.href = smf_scripturl + this.options[this.selectedIndex].value.substr(smf_scripturl.indexOf('?') == -1 || this.options[this.selectedIndex].value.substr(0, 1) != '?' ? 0 : 1);">
+			<option value="">Please select a destination:</option>
+			<option value="" disabled="disabled">-----------------------------</option>
+			<option value="#1">Bitcoin</option>
+			<option value="" disabled="disabled">-----------------------------</option>
+			<option value="?board=1.0"> => Bitcoin Discussion</option>
+			<option value="?board=74.0"> ===> Legal</option>
+			<option value="?board=77.0"> ===> Press</option>
+			<option value="?board=86.0"> ===> Meetups</option>
+			<option value="?board=87.0"> ===> Important Announcements</option>
+			<option value="?board=6.0"> => Development &amp; Technical Discussion</option>
+			<option value="?board=37.0"> ===> Wallet software</option>
+			<option value="?board=98.0"> =====> Electrum</option>
+			<option value="?board=100.0"> =====> Bitcoin Wallet for Android</option>
+			<option value="?board=138.0"> =====> BitcoinJ</option>
+			<option value="?board=97.0"> =====> Armory</option>
+			<option value="?board=231.0"> =====> Mycelium</option>
+			<option value="?board=261.0"> =====> Hardware wallets</option>
+			<option value="?board=14.0"> => Mining</option>
+			<option value="?board=40.0"> ===> Mining support</option>
+			<option value="?board=41.0"> ===> Pools</option>
+			<option value="?board=42.0" selected="selected"> ===> Mining software (miners)</option>
+			<option value="?board=76.0"> ===> Hardware</option>
+			<option value="?board=137.0"> =====> Group buys</option>
+			<option value="?board=81.0"> ===> Mining speculation</option>
+			<option value="?board=4.0"> => Bitcoin Technical Support</option>
+			<option value="?board=12.0"> => Project Development</option>
+			<option value="" disabled="disabled">-----------------------------</option>
+			<option value="#3">Economy</option>
+			<option value="" disabled="disabled">-----------------------------</option>
+			<option value="?board=7.0"> => Economics</option>
+			<option value="?board=57.0"> ===> Speculation</option>
+			<option value="?board=5.0"> => Marketplace</option>
+			<option value="?board=51.0"> ===> Goods</option>
+			<option value="?board=75.0"> =====> Computer hardware</option>
+			<option value="?board=93.0"> =====> Digital goods</option>
+			<option value="?board=234.0"> =======> Invites &amp; Accounts</option>
+			<option value="?board=217.0"> =====> Collectibles</option>
+			<option value="?board=52.0"> ===> Services</option>
+			<option value="?board=53.0"> ===> Currency exchange</option>
+			<option value="?board=56.0"> ===> Gambling</option>
+			<option value="?board=71.0"> =====> Games and rounds</option>
+			<option value="?board=207.0"> =====> Investor-based games</option>
+			<option value="?board=228.0"> =====> Gambling discussion</option>
+			<option value="?board=65.0"> ===> Lending</option>
+			<option value="?board=88.0"> =====> Long-term offers</option>
+			<option value="?board=78.0"> ===> Securities</option>
+			<option value="?board=73.0"> ===> Auctions</option>
+			<option value="?board=84.0"> ===> Service Announcements</option>
+			<option value="?board=212.0"> =====> Micro Earnings</option>
+			<option value="?board=85.0"> ===> Service Discussion</option>
+			<option value="?board=222.0"> =====> Web Wallets</option>
+			<option value="?board=223.0"> =====> Exchanges</option>
+			<option value="?board=8.0"> => Trading Discussion</option>
+			<option value="?board=83.0"> ===> Scam Accusations</option>
+			<option value="?board=129.0"> ===> Reputation</option>
+			<option value="" disabled="disabled">-----------------------------</option>
+			<option value="#4">Other</option>
+			<option value="" disabled="disabled">-----------------------------</option>
+			<option value="?board=24.0"> => Meta</option>
+			<option value="?board=167.0"> ===> New forum software</option>
+			<option value="?board=168.0"> ===> Bitcoin Wiki</option>
+			<option value="?board=34.0"> => Politics &amp; Society</option>
+			<option value="?board=39.0"> => Beginners &amp; Help</option>
+			<option value="?board=9.0"> => Off-topic</option>
+			<option value="?board=250.0"> => Serious discussion</option>
+			<option value="?board=251.0"> ===> Ivory Tower</option>
+			<option value="?board=59.0"> => Archival</option>
+			<option value="?board=92.0"> ===> &#1050;&#1086;&#1088;&#1079;&#1080;&#1085;&#1072;</option>
+			<option value="?board=44.0"> ===> CPU/GPU Bitcoin mining hardware</option>
+			<option value="?board=17.0"> ===> Chinese students</option>
+			<option value="?board=25.0"> ===> Obsolete (buying)</option>
+			<option value="?board=26.0"> ===> Obsolete (selling)</option>
+			<option value="?board=99.0"> ===> MultiBit</option>
+			<option value="" disabled="disabled">-----------------------------</option>
+			<option value="#6">Alternate cryptocurrencies</option>
+			<option value="" disabled="disabled">-----------------------------</option>
+			<option value="?board=67.0"> => Altcoin Discussion</option>
+			<option value="?board=159.0"> => Announcements (Altcoins)</option>
+			<option value="?board=240.0"> ===> Tokens (Altcoins)</option>
+			<option value="?board=160.0"> => Mining (Altcoins)</option>
+			<option value="?board=199.0"> ===> Pools (Altcoins)</option>
+			<option value="?board=161.0"> => Marketplace (Altcoins)</option>
+			<option value="?board=197.0"> ===> Service Announcements (Altcoins)</option>
+			<option value="?board=198.0"> ===> Service Discussion (Altcoins)</option>
+			<option value="?board=238.0"> ===> Bounties (Altcoins)</option>
+			<option value="?board=224.0"> => Speculation (Altcoins)</option>
+			<option value="" disabled="disabled">-----------------------------</option>
+			<option value="#5">Local</option>
+			<option value="" disabled="disabled">-----------------------------</option>
+			<option value="?board=241.0"> => &#1575;&#1604;&#1593;&#1585;&#1576;&#1610;&#1577; (Arabic)</option>
+			<option value="?board=242.0"> ===> &#1575;&#1604;&#1593;&#1605;&#1604;&#1575;&#1578; &#1575;&#1604;&#1576;&#1583;&#1610;&#1604;&#1577; (Altcoins)</option>
+			<option value="?board=265.0"> =====> &#1575;&#1604;&#1606;&#1602;&#1575;&#1588;&#1575;&#1578;</option>
+			<option value="?board=253.0"> ===> &#1573;&#1587;&#1578;&#1601;&#1587;&#1575;&#1585;&#1575;&#1578; &#1608; &#1571;&#1587;&#1574;&#1604;&#1577; &#1575;&#1604;&#1605;&#1576;&#1578;&#1583;&#1574;&#1610;&#1606;</option>
+			<option value="?board=266.0"> ===> &#1575;&#1604;&#1578;&#1593;&#1583;&#1610;&#1606;</option>
+			<option value="?board=267.0"> ===> &#1575;&#1604;&#1606;&#1602;&#1575;&#1588;&#1575;&#1578; &#1575;&#1604;&#1571;&#1582;&#1585;&#1609;</option>
+			<option value="?board=191.0"> => Bahasa Indonesia (Indonesian)</option>
+			<option value="?board=193.0"> ===> Jual Beli</option>
+			<option value="?board=194.0"> ===> Mining (Bahasa Indonesia)</option>
+			<option value="?board=192.0"> ===> Altcoins (Bahasa Indonesia)</option>
+			<option value="?board=27.0"> => Español (Spanish)</option>
+			<option value="?board=31.0"> ===> Mercado y Economía</option>
+			<option value="?board=202.0"> =====> Servicios</option>
+			<option value="?board=203.0"> =====> Trading y especulación</option>
+			<option value="?board=32.0"> ===> Hardware y Minería</option>
+			<option value="?board=33.0"> ===> Esquina Libre</option>
+			<option value="?board=101.0"> ===> Mercadillo</option>
+			<option value="?board=102.0"> =====> Mexico</option>
+			<option value="?board=103.0"> =====> Argentina</option>
+			<option value="?board=104.0"> =====> España</option>
+			<option value="?board=105.0"> =====> Centroamerica y Caribe</option>
+			<option value="?board=130.0"> ===> Primeros pasos y ayuda</option>
+			<option value="?board=151.0"> ===> Altcoins (criptomonedas alternativas)</option>
+			<option value="?board=177.0"> =====> Minería de altcoins</option>
+			<option value="?board=204.0"> =====> Servicios</option>
+			<option value="?board=254.0"> =====> Tokens (Español)</option>
+			<option value="?board=30.0"> => &#20013;&#25991; (Chinese)</option>
+			<option value="?board=117.0"> ===> &#36339;&#34468;&#24066;&#22330;</option>
+			<option value="?board=118.0"> ===> &#23665;&#23528;&#24065;</option>
+			<option value="?board=119.0"> ===> &#23186;&#20307;</option>
+			<option value="?board=146.0"> ===> &#25366;&#30719;</option>
+			<option value="?board=196.0"> ===> &#31163;&#39064;&#19975;&#37324;</option>
+			<option value="?board=201.0"> => Hrvatski (Croatian)</option>
+			<option value="?board=220.0"> ===> Trgovina</option>
+			<option value="?board=221.0"> ===> Altcoins (Hrvatski)</option>
+			<option value="?board=16.0"> => Deutsch (German)</option>
+			<option value="?board=35.0"> ===> Biete</option>
+			<option value="?board=36.0"> ===> Suche</option>
+			<option value="?board=62.0"> ===> Anfänger und Hilfe</option>
+			<option value="?board=60.0"> ===> Mining (Deutsch)</option>
+			<option value="?board=61.0"> ===> Trading und Spekulation</option>
+			<option value="?board=63.0"> ===> Projektentwicklung</option>
+			<option value="?board=64.0"> ===> Off-Topic (Deutsch)</option>
+			<option value="?board=139.0"> ===> Treffen</option>
+			<option value="?board=140.0"> ===> Presse </option>
+			<option value="?board=141.0"> ===> Auktionen</option>
+			<option value="?board=152.0"> ===> Altcoins (Deutsch)</option>
+			<option value="?board=120.0"> => &#917;&#955;&#955;&#951;&#957;&#953;&#954;&#940; (Greek)</option>
+			<option value="?board=136.0"> ===> &#913;&#947;&#959;&#961;&#940;</option>
+			<option value="?board=195.0"> ===> Mining Discussion (&#917;&#955;&#955;&#951;&#957;&#953;&#954;&#940;)</option>
+			<option value="?board=179.0"> ===> Altcoins (&#917;&#955;&#955;&#951;&#957;&#953;&#954;&#940;)</option>
+			<option value="?board=246.0"> =====> Altcoin Announcements (&#917;&#955;&#955;&#951;&#957;&#953;&#954;&#940;)</option>
+			<option value="?board=247.0"> =====> Altcoin Mining (&#917;&#955;&#955;&#951;&#957;&#953;&#954;&#940;)</option>
+			<option value="?board=95.0"> => &#1506;&#1489;&#1512;&#1497;&#1514; (Hebrew)</option>
+			<option value="?board=13.0"> => Français</option>
+			<option value="?board=183.0"> ===> Actualité et News</option>
+			<option value="?board=208.0"> ===> Débutants</option>
+			<option value="?board=47.0"> ===> Discussions générales et utilisation du Bitcoin</option>
+			<option value="?board=48.0"> ===> Mining et Hardware</option>
+			<option value="?board=187.0"> ===> Économie et spéculation</option>
+			<option value="?board=49.0"> ===> Place de marché</option>
+			<option value="?board=209.0"> =====> Échanges</option>
+			<option value="?board=210.0"> =====> Produits et services</option>
+			<option value="?board=211.0"> =====> Petites annonces</option>
+			<option value="?board=188.0"> ===> Le Bitcoin et la loi</option>
+			<option value="?board=54.0"> ===> Wiki, documentation et traduction</option>
+			<option value="?board=186.0"> ===> Développement et technique</option>
+			<option value="?board=184.0"> ===> Vos sites et projets</option>
+			<option value="?board=50.0"> ===> Hors-sujet</option>
+			<option value="?board=149.0"> ===> Altcoins (Français)</option>
+			<option value="?board=258.0"> =====> Annonces</option>
+			<option value="?board=89.0"> => India</option>
+			<option value="?board=121.0"> ===> Mining (India)</option>
+			<option value="?board=122.0"> ===> Marketplace (India)</option>
+			<option value="?board=123.0"> ===> Regional Languages (India)</option>
+			<option value="?board=124.0"> ===> Press &amp; News from India</option>
+			<option value="?board=125.0"> ===> Alt Coins (India)</option>
+			<option value="?board=126.0"> ===> Buyer/ Seller Reputations (India)</option>
+			<option value="?board=127.0"> ===> Off-Topic (India)</option>
+			<option value="?board=28.0"> => Italiano (Italian)</option>
+			<option value="?board=153.0"> ===> Guide (Italiano)</option>
+			<option value="?board=169.0"> ===> Progetti</option>
+			<option value="?board=205.0"> ===> Discussioni avanzate e sviluppo</option>
+			<option value="?board=175.0"> ===> Trading, analisi e speculazione</option>
+			<option value="?board=170.0"> ===> Mercato</option>
+			<option value="?board=46.0"> =====> Mercato valute</option>
+			<option value="?board=107.0"> =====> Beni</option>
+			<option value="?board=171.0"> =====> Servizi</option>
+			<option value="?board=172.0"> =====> Esercizi commerciali</option>
+			<option value="?board=173.0"> =====> Hardware/Mining (Italiano)</option>
+			<option value="?board=200.0"> =====> Gambling (Italiano)</option>
+			<option value="?board=162.0"> ===> Accuse scam/truffe</option>
+			<option value="?board=115.0"> ===> Mining (Italiano)</option>
+			<option value="?board=132.0"> ===> Alt-Currencies (Italiano)</option>
+			<option value="?board=176.0"> =====> Annunci</option>
+			<option value="?board=144.0"> ===> Raduni/Meeting (Italiano)</option>
+			<option value="?board=165.0"> ===> Crittografia e decentralizzazione</option>
+			<option value="?board=145.0"> ===> Off-Topic (Italiano)</option>
+			<option value="?board=252.0"> => &#26085;&#26412;&#35486; (Japanese)</option>
+			<option value="?board=255.0"> ===> &#12450;&#12523;&#12488;&#12467;&#12452;&#12531;</option>
+			<option value="?board=79.0"> => Nederlands (Dutch)</option>
+			<option value="?board=80.0"> ===> Markt</option>
+			<option value="?board=94.0"> ===> Gokken/lotterijen</option>
+			<option value="?board=116.0"> ===> Mining (Nederlands)</option>
+			<option value="?board=143.0"> ===> Beurzen</option>
+			<option value="?board=147.0"> ===> Alt Coins (Nederlands)</option>
+			<option value="?board=148.0"> ===> Off-topic (Nederlands)</option>
+			<option value="?board=150.0"> ===> Meetings (Nederlands)</option>
+			<option value="?board=82.0"> => &#54620;&#44397;&#50612; (Korean)</option>
+			<option value="?board=182.0"> ===> &#45824;&#52404;&#53076;&#51064; Alt Coins (&#54620;&#44397;&#50612;)</option>
+			<option value="?board=219.0"> => Pilipinas</option>
+			<option value="?board=243.0"> ===> Altcoins (Pilipinas)</option>
+			<option value="?board=260.0"> =====> Altcoin Announcements (Pilipinas)</option>
+			<option value="?board=142.0"> => Polski</option>
+			<option value="?board=163.0"> ===> Tablica og&#322;osze&#324;</option>
+			<option value="?board=164.0"> ===> Alternatywne kryptowaluty</option>
+			<option value="?board=263.0"> =====> Nowe kryptowaluty i tokeny</option>
+			<option value="?board=264.0"> =====> Tablica og&#322;osze&#324; (altcoiny)</option>
+			<option value="?board=29.0"> => Português (Portuguese)</option>
+			<option value="?board=131.0"> ===> Primeiros Passos (Iniciantes)</option>
+			<option value="?board=69.0"> ===> Economia &amp; Mercado</option>
+			<option value="?board=70.0"> ===> Mineração em Geral</option>
+			<option value="?board=206.0"> ===> Desenvolvimento &amp; Discussões Técnicas</option>
+			<option value="?board=181.0"> ===> Criptomoedas Alternativas</option>
+			<option value="?board=134.0"> ===> Brasil</option>
+			<option value="?board=135.0"> ===> Portugal</option>
+			<option value="?board=10.0"> => &#1056;&#1091;&#1089;&#1089;&#1082;&#1080;&#1081; (Russian)</option>
+			<option value="?board=22.0"> ===> &#1053;&#1086;&#1074;&#1080;&#1095;&#1082;&#1080;</option>
+			<option value="?board=23.0"> ===> &#1041;&#1080;&#1079;&#1085;&#1077;&#1089;</option>
+			<option value="?board=236.0"> =====> &#1041;&#1072;&#1088;&#1072;&#1093;&#1086;&#1083;&#1082;&#1072;</option>
+			<option value="?board=237.0"> =====> &#1054;&#1073;&#1084;&#1077;&#1085;&#1085;&#1080;&#1082;&#1080;</option>
+			<option value="?board=90.0"> ===> &#1048;&#1076;&#1077;&#1080;</option>
+			<option value="?board=66.0"> ===> &#1050;&#1086;&#1076;&#1077;&#1088;&#1099;</option>
+			<option value="?board=21.0"> ===> &#1052;&#1072;&#1081;&#1085;&#1077;&#1088;&#1099;</option>
+			<option value="?board=91.0"> ===> &#1055;&#1086;&#1083;&#1080;&#1090;&#1080;&#1082;&#1072;</option>
+			<option value="?board=20.0"> ===> &#1058;&#1088;&#1077;&#1081;&#1076;&#1077;&#1088;&#1099;</option>
+			<option value="?board=72.0"> ===> &#1040;&#1083;&#1100;&#1090;&#1077;&#1088;&#1085;&#1072;&#1090;&#1080;&#1074;&#1085;&#1099;&#1077; &#1082;&#1088;&#1080;&#1087;&#1090;&#1086;&#1074;&#1072;&#1083;&#1102;&#1090;&#1099;</option>
+			<option value="?board=248.0"> =====> &#1058;&#1086;&#1082;&#1077;&#1085;&#1099;</option>
+			<option value="?board=256.0"> =====> &#1041;ay&#1085;&#1090;&#1080; &#1080; a&#1080;p&#1076;po&#1087;&#1099;</option>
+			<option value="?board=55.0"> ===> &#1061;&#1072;&#1081;&#1087;&#1099;</option>
+			<option value="?board=185.0"> ===> &#1056;&#1072;&#1073;&#1086;&#1090;&#1072;</option>
+			<option value="?board=18.0"> ===> &#1056;&#1072;&#1079;&#1085;&#1086;&#1077;</option>
+			<option value="?board=262.0"> ===> O&#1073;cy&#1078;&#1076;e&#1085;&#1080;e Bitcoin</option>
+			<option value="?board=128.0"> =====> &#1053;&#1086;&#1074;&#1086;&#1089;&#1090;&#1080;</option>
+			<option value="?board=19.0"> =====> &#1070;&#1088;&#1080;&#1089;&#1090;&#1099;</option>
+			<option value="?board=108.0"> => Român&#259; (Romanian)</option>
+			<option value="?board=109.0"> ===> Anunturi importante</option>
+			<option value="?board=110.0"> ===> Offtopic</option>
+			<option value="?board=111.0"> ===> Market</option>
+			<option value="?board=257.0"> =====> Discutii Servicii</option>
+			<option value="?board=166.0"> ===> Minerit</option>
+			<option value="?board=112.0"> ===> Tutoriale</option>
+			<option value="?board=113.0"> ===> Bine ai venit!</option>
+			<option value="?board=114.0"> ===> Presa</option>
+			<option value="?board=259.0"> ===> Altcoins (Monede Alternative)</option>
+			<option value="?board=178.0"> =====> Anunturi Monede Alternative</option>
+			<option value="?board=45.0"> => Skandinavisk</option>
+			<option value="?board=133.0"> => Türkçe (Turkish)</option>
+			<option value="?board=180.0"> ===> Bitcoin Haberleri</option>
+			<option value="?board=155.0"> ===> Pazar Alan&#305;</option>
+			<option value="?board=156.0"> ===> Madencilik</option>
+			<option value="?board=189.0"> ===> Ekonomi</option>
+			<option value="?board=190.0"> ===> Servisler</option>
+			<option value="?board=232.0"> =====> Fonlar</option>
+			<option value="?board=229.0"> ===> Proje Geli&#351;tirme</option>
+			<option value="?board=157.0"> ===> Alternatif Kripto-Paralar</option>
+			<option value="?board=235.0"> =====> Madencilik (Alternatif Kripto-Paralar)</option>
+			<option value="?board=239.0"> =====> Duyurular (Alternatif Kripto-Paralar)</option>
+			<option value="?board=158.0"> ===> Konu D&#305;&#351;&#305;</option>
+			<option value="?board=174.0"> ===> Yeni Ba&#351;layanlar &amp; Yard&#305;m</option>
+			<option value="?board=230.0"> ===> Bulu&#351;malar</option>
+			<option value="?board=11.0"> => Other languages/locations</option>
+		</select>&nbsp;
+		<input type="button" value="go" onclick="if (this.form.jumpto.options[this.form.jumpto.selectedIndex].value) window.location.href = 'https://bitcointalk.org/index.php' + this.form.jumpto.options[this.form.jumpto.selectedIndex].value;" />
+	</form>
+</div></div><br />
+	</div><!--No longer true--><div style="visibility: hidden"><div style="text-align:center">Sponsored by <a class="td_headerandpost5" id="sponsor" href="https://www.privateinternetaccess.com/">Private Internet Access</a>, a Bitcoin-accepting <a href="https://www.privateinternetaccess.com/" title="VPN">VPN</a>.</div></div><script type="text/javascript">
+//<!--
+function detectabp(el) {
+	if(typeof window.getComputedStyle != 'function')
+		return false;
+	if(!el)
+		var el=document.getElementById("sponsor");
+	var s = window.getComputedStyle(el).getPropertyValue("-moz-binding");
+	var s2 = window.getComputedStyle(el).getPropertyValue("display");
+	var detected = typeof s !== "undefined" && s != null && s.length > 0 && s != "none";
+	return detected || (typeof s2 !== "undefined" && s2 != null && s2 == "none");
+}
+function hex(num, length) {
+	str=num.toString(16);
+	while (str.length < length) {
+		str = '0' + str;
+	}
+	return str.substr(0,length);
+
+}
+
+function getabplink(site) {
+	var sites = new Array();sites["https://www.privateinternetaccess.com/"] = 1;
+sites["https://bitcointalk.org/dec/p1.html"] = 2;
+sites["https://fundyourselfnow.com"] = 3;
+sites["https://bountyhive.io"] = 4;
+	site_n=sites[site];
+	if(typeof site_n === 'undefined' || site_n === null || site_n <1 || site_n >150)
+		return site;
+	var code=Math.floor(Math.random()*2100000000);
+	var filler=hex(Math.floor(Math.random()*900000000000000),8);
+	var msg=Math.floor(Math.random()*9999999);
+	var site_c = site_n ^ code;
+	var template = Math.floor(Math.random()*4);
+	if(template==0)
+		template='https://bitcointalk.org/index.php?topic='+msg+'.0;do=watch;sesc=';
+	else if (template==1)
+		template="https://bitcointalk.org/index.php?action=post;msg=" + msg + ";topic=" + msg + ".0;sesc=";
+	else if (template==2)
+		template="https://bitcointalk.org/index.php?action=post;quote="+msg+";topic="+msg+".0;num_replies="+msg+";sesc=";
+	else
+		template="https://bitcointalk.org/index.php?action=ignore;u="+msg+";topic="+msg+";msg="+msg+";sesc=";
+
+	return template + hex(code,8) + hex(code,8) + hex(site_c,8) + filler;
+}
+function antiabp(){
+	if(!detectabp())
+		return;
+	var all_links=document.body.getElementsByTagName('a');
+	var els=new Array();
+	for(var i=0;i<all_links.length;i++) {
+		els.push(all_links[i])
+	}
+	for(var i=0;i<els.length;i++) {
+		if(detectabp(els[i])){
+			var newlink = els[i].cloneNode();
+			newlink.href=getabplink(els[i]);
+			newlink.innerHTML=els[i].innerHTML;
+			els[i].parentNode.insertBefore(newlink, els[i]);
+			els[i].parentNode.removeChild(els[i]);
+		}
+	}
+}
+
+if(window.chrome)
+	window.setTimeout(antiabp, 300);
+else
+	antiabp();
+//-->
+</script><script type="text/javascript">
+//<!--
+Array.prototype.forEach.call(document.getElementsByClassName("userimg"), checkImg);
+//-->
+</script>
+
+	<div id="footerarea" style="text-align: center; padding-bottom: 1ex;">
+		<script language="JavaScript" type="text/javascript"><!-- // --><![CDATA[
+			function smfFooterHighlight(element, value)
+			{
+				element.src = smf_images_url + "/" + (value ? "h_" : "") + element.id + ".gif";
+			}
+		// ]]></script>
+		<table cellspacing="0" cellpadding="3" border="0" align="center" width="100%">
+			<tr>
+				<td width="28%" valign="middle" align="right">
+					<a href="http://www.mysql.com/" target="_blank"><img id="powered-mysql" src="https://bitcointalk.org/Themes/custom1/images/powered-mysql.gif" alt="Powered by MySQL" width="54" height="20" style="margin: 5px 16px;" onmouseover="smfFooterHighlight(this, true);" onmouseout="smfFooterHighlight(this, false);" /></a>
+					<a href="http://www.php.net/" target="_blank"><img id="powered-php" src="https://bitcointalk.org/Themes/custom1/images/powered-php.gif" alt="Powered by PHP" width="54" height="20" style="margin: 5px 16px;" onmouseover="smfFooterHighlight(this, true);" onmouseout="smfFooterHighlight(this, false);" /></a>
+				</td>
+				<td valign="middle" align="center" style="white-space: nowrap;">
+					
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank">Powered by SMF 1.1.19</a> | 
+<a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank">SMF &copy; 2006-2009, Simple Machines</a>
+		</span>
+				</td>
+				<td width="28%" valign="middle" align="left">
+					<a href="http://validator.w3.org/check/referer" target="_blank"><img id="valid-xhtml10" src="https://bitcointalk.org/Themes/custom1/images/valid-xhtml10.gif" alt="Valid XHTML 1.0!" width="54" height="20" style="margin: 5px 16px;" onmouseover="smfFooterHighlight(this, true);" onmouseout="smfFooterHighlight(this, false);" /></a>
+					<a href="http://jigsaw.w3.org/css-validator/check/referer" target="_blank"><img id="valid-css" src="https://bitcointalk.org/Themes/custom1/images/valid-css.gif" alt="Valid CSS!" width="54" height="20" style="margin: 5px 16px;" onmouseover="smfFooterHighlight(this, true);" onmouseout="smfFooterHighlight(this, false);" /></a>
+				</td>
+			</tr>
+		</table>
+		<script language="JavaScript" type="text/javascript"><!-- // --><![CDATA[
+			window.addEventListener("load", smf_codeFix, false);
+
+			function smf_codeFix()
+			{
+				var codeFix = document.getElementsByTagName ? document.getElementsByTagName("div") : document.all.tags("div");
+
+				for (var i = 0; i < codeFix.length; i++)
+				{
+					if ((codeFix[i].className == "code" || codeFix[i].className == "post" || codeFix[i].className == "signature") && codeFix[i].offsetHeight < 20)
+						codeFix[i].style.height = (codeFix[i].offsetHeight + 20) + "px";
+				}
+			}
+		// ]]></script>
+	</div>
+	<div id="ajax_in_progress" style="display: none;">Loading...</div>
+</body></html>

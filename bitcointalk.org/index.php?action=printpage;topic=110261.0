@@ -1,0 +1,104 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+		<link rel="canonical" href="https://bitcointalk.org/index.php?topic=110261.0" />
+		<title>Print Page - Maximum Length of Satoshi Client Transactions?</title>
+		<style type="text/css">
+			body
+			{
+				color: black;
+				background-color: white;
+			}
+			body, td, .normaltext
+			{
+				font-family: Verdana, arial, helvetica, serif;
+				font-size: small;
+			}
+			*, a:link, a:visited, a:hover, a:active
+			{
+				color: black !important;
+			}
+			table
+			{
+				empty-cells: show;
+			}
+			.code
+			{
+				font-size: x-small;
+				font-family: monospace;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.quote
+			{
+				font-size: x-small;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.smalltext, .quoteheader, .codeheader
+			{
+				font-size: x-small;
+			}
+			.largetext
+			{
+				font-size: large;
+			}
+			hr
+			{
+				height: 1px;
+				border: 0;
+				color: black;
+				background-color: black;
+			}
+		</style>
+	</head>
+	<body>
+		<h1 class="largetext">Bitcoin Forum</h1>
+		<h2 class="normaltext">Bitcoin => Bitcoin Technical Support => Topic started by: The-Real-Link on September 18, 2012, 01:18:56 AM</h2>
+
+		<table width="90%" cellpadding="0" cellspacing="0" border="0">
+			<tr>
+				<td>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Maximum Length of Satoshi Client Transactions?</b><br />
+					Post by: <b>The-Real-Link</b> on <b>September 18, 2012, 01:18:56 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">&nbsp;&nbsp;Hey guys,<br /><br />&nbsp;&nbsp;Just been thinking about this for a bit but couldn&#039;t find an answer.<br /><br />&nbsp;&nbsp;Using the 0.6.2 Beta &quot;Bitcoin-Qt&quot; client (I think it&#039;s just the normal Satoshi Client people mention) and had a question.<br /><br />&nbsp;&nbsp;Under the &quot;Transactions&quot; tab, I of course, can see all the way back to my first bitcents earned. &nbsp;Is there a limit on how many log entries will show up though to the client? &nbsp;If I perform 1,000 transactions, will it show them all? &nbsp;If I do 10,000, would they still all show up?<br /><br />&nbsp;&nbsp;For recordkeeping and other purposes, I&#039;d like to keep track of things in the future and would rather not suddenly see the client prune my log data. &nbsp;<br /><br />&nbsp;&nbsp;I can&#039;t imagine even 1,000 transactions (date, from/to addresses, amount, and tx details) taking up that much space.<br /><br />&nbsp;&nbsp;Thanks for the help.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Maximum Length of Satoshi Client Transactions?</b><br />
+					Post by: <b>Stephen Gornick</b> on <b>September 18, 2012, 02:33:48 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=110261.msg1199676#msg1199676">Quote from: The-Real-Link on September 18, 2012, 01:18:56 AM</a></div><div class="quote">If I do 10,000, would they still all show up?<br /></div><br />10K transaction is still a trivially small amount of storage.<br /><br />They will still show, but don&#039;t expect your client to perform very well when you start to have that many.<br /><br />Ask anyone who has been running a Martingale betting bot. &nbsp;After a while it just bogs.<br /><br />The next version of the Bitcoin.org client (next after v0.7) will likely include a combination of changes that will help with this (LevelDB for performance and ultraprune for reducing disk space requirements).</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Maximum Length of Satoshi Client Transactions?</b><br />
+					Post by: <b>The-Real-Link</b> on <b>September 18, 2012, 02:52:46 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=110261.msg1199829#msg1199829">Quote from: Stephen Gornick on September 18, 2012, 02:33:48 AM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=110261.msg1199676#msg1199676">Quote from: The-Real-Link on September 18, 2012, 01:18:56 AM</a></div><div class="quote">If I do 10,000, would they still all show up?<br /></div><br />10K transaction is still a trivially small amount of storage.<br /><br />They will still show, but don&#039;t expect your client to perform very well when you start to have that many.<br /><br />Ask anyone who has been running a Martingale betting bot. &nbsp;After a while it just bogs.<br /><br />The next version of the Bitcoin.org client (next after v0.7) will likely include a combination of changes that will help with this (LevelDB for performance and ultraprune for reducing disk space requirements).<br /></div><br />Ah, interesting.&nbsp; Thank you.&nbsp; <br /><br />Wait wait... people who run Martingale betting bots still have money left?&nbsp; ;p<br /><br />Good to know that the feasible size is good for most everyone save &quot;power users&quot; and that even for people who put a lot of bets and so forth out there that the client can be adjusted in time to handle that kind of load / record keeping.&nbsp; Thanks!</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Maximum Length of Satoshi Client Transactions?</b><br />
+					Post by: <b>Seal</b> on <b>September 19, 2012, 11:54:26 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Won&#039;t this make future transactions very inefficient? Correct me if I&#039;m wrong but isnt the whole transaction log for any given address used to sign and broadcast future transactions?</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Maximum Length of Satoshi Client Transactions?</b><br />
+					Post by: <b>DeathAndTaxes</b> on <b>September 20, 2012, 12:18:22 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=110261.msg1205430#msg1205430">Quote from: Seal on September 19, 2012, 11:54:26 PM</a></div><div class="quote">Won&#039;t this make future transactions very inefficient? Correct me if I&#039;m wrong but isnt the whole transaction log for any given address used to sign and broadcast future transactions?<br /></div><br />No.&nbsp; <br /><br />A tx consists of inputs and outputs.&nbsp; Unspent outputs becomes the inputs of a new tx.&nbsp; <br />The tx is hashed and the hash signed by the private key of the address the unspent outputs were sent to.</div>
+					<br /><br />
+					<div align="center" class="smalltext">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank">Powered by SMF 1.1.19</a> | 
+<a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank">SMF &copy; 2006-2009, Simple Machines</a>
+		</span></div>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

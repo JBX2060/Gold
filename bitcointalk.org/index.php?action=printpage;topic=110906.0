@@ -1,0 +1,86 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+		<link rel="canonical" href="https://bitcointalk.org/index.php?topic=110906.0" />
+		<title>Print Page - Anybody familiar with KeePass</title>
+		<style type="text/css">
+			body
+			{
+				color: black;
+				background-color: white;
+			}
+			body, td, .normaltext
+			{
+				font-family: Verdana, arial, helvetica, serif;
+				font-size: small;
+			}
+			*, a:link, a:visited, a:hover, a:active
+			{
+				color: black !important;
+			}
+			table
+			{
+				empty-cells: show;
+			}
+			.code
+			{
+				font-size: x-small;
+				font-family: monospace;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.quote
+			{
+				font-size: x-small;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.smalltext, .quoteheader, .codeheader
+			{
+				font-size: x-small;
+			}
+			.largetext
+			{
+				font-size: large;
+			}
+			hr
+			{
+				height: 1px;
+				border: 0;
+				color: black;
+				background-color: black;
+			}
+		</style>
+	</head>
+	<body>
+		<h1 class="largetext">Bitcoin Forum</h1>
+		<h2 class="normaltext">Bitcoin => Bitcoin Technical Support => Topic started by: Daily Anarchist on September 21, 2012, 12:18:37 AM</h2>
+
+		<table width="90%" cellpadding="0" cellspacing="0" border="0">
+			<tr>
+				<td>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Anybody familiar with KeePass</b><br />
+					Post by: <b>Daily Anarchist</b> on <b>September 21, 2012, 12:18:37 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Today I was attempting to get my wife set up in the world of Bitcoin, so I set up a wallet for her on blockchain.info and she sent 2 BTC to her wallet from her Satoshi Client. I also set her up with KeePass on her Mac, so that she could start to save her passwords in an organized manner. Well, somewhere along the way we created a key file that doesn&#039;t work. Of course, we only find out it doesn&#039;t work after we&#039;ve closed the program and along with it the password to her blockchain wallet. Needless to say, she&#039;s spoiled on bitcoin and password managers.&nbsp; &nbsp;:&#039;(<br /><br />I&#039;m fricking pissed because I can open up the key file and it contains a string of text. It looks like the keyfile is perfectly fine, but we keep getting a corrupted message every time we try to open the database. $#@*&amp;@#$*&amp; @$*@&amp;*@&#38;#*#@# @#@@##@ $*@&amp;$@*&amp;@$!!@!!!!!!!!!<br /><br />The KeePass forum blows and don&#039;t expect to get any help there. If anybody here can help it would be awesome.<br /><br />BTW, the key file we created was a brand new generated file. I don&#039;t see how it could have gotten corrupted. *sigh*</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Anybody familiar with KeePass</b><br />
+					Post by: <b>Daily Anarchist</b> on <b>September 21, 2012, 01:09:01 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">WHEW!!!!!!!<br /><br />My wife fixed it! It seems KeePass doesn&#039;t like filenames with SPACES in them. And to think of those poor little Bitcoins that would have been lost if that stupid little technically didn&#039;t get discovered!</div>
+					<br /><br />
+					<div align="center" class="smalltext">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank">Powered by SMF 1.1.19</a> | 
+<a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank">SMF &copy; 2006-2009, Simple Machines</a>
+		</span></div>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

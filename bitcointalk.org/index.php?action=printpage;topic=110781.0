@@ -1,0 +1,356 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+		<link rel="canonical" href="https://bitcointalk.org/index.php?topic=110781.0" />
+		<title>Print Page - Can the encrypted wallet be recovered using the unencrypted?</title>
+		<style type="text/css">
+			body
+			{
+				color: black;
+				background-color: white;
+			}
+			body, td, .normaltext
+			{
+				font-family: Verdana, arial, helvetica, serif;
+				font-size: small;
+			}
+			*, a:link, a:visited, a:hover, a:active
+			{
+				color: black !important;
+			}
+			table
+			{
+				empty-cells: show;
+			}
+			.code
+			{
+				font-size: x-small;
+				font-family: monospace;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.quote
+			{
+				font-size: x-small;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.smalltext, .quoteheader, .codeheader
+			{
+				font-size: x-small;
+			}
+			.largetext
+			{
+				font-size: large;
+			}
+			hr
+			{
+				height: 1px;
+				border: 0;
+				color: black;
+				background-color: black;
+			}
+		</style>
+	</head>
+	<body>
+		<h1 class="largetext">Bitcoin Forum</h1>
+		<h2 class="normaltext">Bitcoin => Bitcoin Technical Support => Topic started by: sethsethseth on September 20, 2012, 06:24:46 AM</h2>
+
+		<table width="90%" cellpadding="0" cellspacing="0" border="0">
+			<tr>
+				<td>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Can the encrypted wallet be recovered using the unencrypted?</b><br />
+					Post by: <b>sethsethseth</b> on <b>September 20, 2012, 06:24:46 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Here is what happened:<br /><br />Made new wallet using satoshi client on windows 7<br />Made a backup<br />Sent a large amount of bitcoins to it<br />Realized the wallet wasn&#039;t encrypted, and encrypted it<br />Apparently did not back up the encrypted wallet<br />Made a few tx using the encrypted wallet, causing the balance to get sent as change to an address on the encrypted version<br />Got laptop stolen<br />Spent the last couple days trying to figure out why the backup wallet had a zero balance and couldn&#039;t see the change that had come back to it in the next tx<br /><br />Hoping it is possible to replicate the process and recover the encrypted version. &nbsp;There are enough bitcoins on this wallet to put a huge amount of work into recovering them. &nbsp;I would guess that the encryption process is repeatable, but if there are any random factors in the new generation of 100 addresses, I am screwed.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Can the encrypted wallet be recovered using the unencrypted?</b><br />
+					Post by: <b>Revalin</b> on <b>September 20, 2012, 06:28:22 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Yes, your coins are probably still there.&nbsp; The client pre-generates a bunch of addresses for change, so it&#039;s likely all there.<br /><br />Shut it down and rerun it in a cmd window: &quot;bitcoin-qt.exe -rescan&quot;.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Can the encrypted wallet be recovered using the unencrypted?</b><br />
+					Post by: <b>CIYAM</b> on <b>September 20, 2012, 06:30:47 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Any change addresses that had been used prior to the encryption will still be present (otherwise the encrypted wallet would not be able to find those funds) it is only those addresses in the key pool that were unused (as far as the client could tell at that time) will have been discarded so as per Revalin&#039;s advice do a rescan and all should be good.<br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Can the encrypted wallet be recovered using the unencrypted?</b><br />
+					Post by: <b>sethsethseth</b> on <b>September 20, 2012, 06:31:43 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">edited OP to state that I made tx after I encrypted the wallet</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Can the encrypted wallet be recovered using the unencrypted?</b><br />
+					Post by: <b>CIYAM</b> on <b>September 20, 2012, 06:34:10 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=110781.msg1206050#msg1206050">Quote from: sethsethseth on September 20, 2012, 06:31:43 AM</a></div><div class="quote">edited OP to state that I made tx after I encrypted the wallet<br /></div><br />In that case unfortunately you really have a problem as the unused addresses in the original backed up key pool were discarded when the wallet was encrypted (and re-encrypting the backup with the same password won&#039;t help as am pretty sure the addresses will be random).<br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Can the encrypted wallet be recovered using the unencrypted?</b><br />
+					Post by: <b>Revalin</b> on <b>September 20, 2012, 06:36:11 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Ouch, I wasn&#039;t aware of that - why would it throw away the pool?</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Can the encrypted wallet be recovered using the unencrypted?</b><br />
+					Post by: <b>CIYAM</b> on <b>September 20, 2012, 06:38:26 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=110781.msg1206055#msg1206055">Quote from: Revalin on September 20, 2012, 06:36:11 AM</a></div><div class="quote">Ouch, I wasn&#039;t aware of that - why would it throw away the pool?<br /></div><br />Ironically (for the OP) this is done just in case someone managed to get a copy of the unencrypted wallet.<br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Can the encrypted wallet be recovered using the unencrypted?</b><br />
+					Post by: <b>sethsethseth</b> on <b>September 20, 2012, 07:05:26 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Something needs to be changed if I really can&#039;t get these coins back.&nbsp; It is reasonable for me to think that if I have an unencrypted file, back it up, and then encrypt one of them, that I can derive the encrypted version from the unencrypted one if I know the password.&nbsp; There should be a warning in there somewhere.&nbsp; I am sick over losing this many coins.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Can the encrypted wallet be recovered using the unencrypted?</b><br />
+					Post by: <b>CIYAM</b> on <b>September 20, 2012, 07:11:42 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">This type of recovery is possible with deterministic wallets but AFAIA the Satoshi client doesn&#039;t support this.<br /><br />Sorry to give you such bad news (and would be happily corrected if I&#039;ve got anything wrong).<br /><br />One thing that probably should be added to the Satoshi client is a message to tell you to backup your wallet as soon as you have encrypted it.<br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Can the encrypted wallet be recovered using the unencrypted?</b><br />
+					Post by: <b>sethsethseth</b> on <b>September 20, 2012, 07:46:14 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">It is remotely possible there is a deleted version of the encrypted backup on a thumb drive, if someone can recommend a program to unerase....</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Can the encrypted wallet be recovered using the unencrypted?</b><br />
+					Post by: <b>CIYAM</b> on <b>September 20, 2012, 07:54:34 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">That&#039;s great - be sure not to copy any new files to it before using file recovery software.<br /><br />You could try this software: http://www.nchsoftware.com/data-recovery/index.html?gclid=CM3ktL3Ww7ICFS5U4godHhkA4w<br /><br />(I haven&#039;t used it myself though so can&#039;t personally recommend it)<br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Can the encrypted wallet be recovered using the unencrypted?</b><br />
+					Post by: <b>scintill</b> on <b>September 20, 2012, 08:08:54 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Some topics that might help (recovering using hex editor from raw disk image):<br />https://bitcointalk.org/index.php?topic=14698.0<br />https://bitcointalk.org/index.php?topic=7116.0<br />https://bitcointalk.org/index.php?topic=8274.0<br />https://bitcointalk.org/index.php?topic=25091.0<br /><br />I say might because none of them seem to indicate if this works for encrypted wallets.&nbsp; Good luck!</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Can the encrypted wallet be recovered using the unencrypted?</b><br />
+					Post by: <b>flatfly</b> on <b>September 20, 2012, 08:29:33 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=110781.msg1206155#msg1206155">Quote from: sethsethseth on September 20, 2012, 07:46:14 AM</a></div><div class="quote">It is remotely possible there is a deleted version of the encrypted backup on a thumb drive, if someone can recommend a program to unerase....<br /></div><br />I can vouch for tokiwa datarecovery, it&#039;s free and fantastic. Saved my ass many times. <br /><br />http://tokiwa.qee.jp/EN/dr.html</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Can the encrypted wallet be recovered using the unencrypted?</b><br />
+					Post by: <b>Puppet</b> on <b>September 20, 2012, 09:06:13 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=110781.msg1206155#msg1206155">Quote from: sethsethseth on September 20, 2012, 07:46:14 AM</a></div><div class="quote">It is remotely possible there is a deleted version of the encrypted backup on a thumb drive, if someone can recommend a program to unerase....<br /></div><br />If you didnt overwrite that space, there is a very good chance of being able to recover it. Use testdisk:<br />http://www.cgsecurity.org/wiki/TestDisk<br /><br />I would also advice you to make a copy of the drive first. Not a regular copy of course, but using dd under linux so you copy &quot;every bit&quot; of the drive.<br />Boot linux and run<br /><br />dd if=/dev/yourusbdrive of=backup.dat<br /><br />That way if you mess up the undelete, nothing is lost and you can try again.<br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Can the encrypted wallet be recovered using the unencrypted?</b><br />
+					Post by: <b>Remember remember the 5th of November</b> on <b>September 20, 2012, 09:48:04 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Well this is what happens when people mindlessly encrypt their wallets. Obviously better safe than sorry, but again, this is what happens when people mindlessly encrypt their wallets.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Can the encrypted wallet be recovered using the unencrypted?</b><br />
+					Post by: <b>JoelKatz</b> on <b>September 20, 2012, 09:54:35 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=110781.msg1206057#msg1206057">Quote from: CIYAM Pty. Ltd. on September 20, 2012, 06:38:26 AM</a></div><div class="quote">Ironically (for the OP) this is done just in case someone managed to get a copy of the unencrypted wallet.<br /></div>Typically, this is what a user would want. The reason you opt to encrypt the wallet is to prevent someone from being able to get your coins without knowing the key to decrypt the wallet. It is generally understood that your coins are only assuredly protected if you backup your wallet after your last transaction.<br /><br />However, I 100% firmly believe that non-deterministic wallets should be abandoned entirely as a failed experiment. Perhaps they should be left as an option with clear warnings about their problems.<br /><br />People keep losing their money and it&#039;s getting ridiculous. One of the biggest problems with Bitcoin is it&#039;s damn near impossible to use it safely.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Can the encrypted wallet be recovered using the unencrypted?</b><br />
+					Post by: <b>caveden</b> on <b>September 20, 2012, 10:04:32 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=110781.msg1206314#msg1206314">Quote from: JoelKatz on September 20, 2012, 09:54:35 AM</a></div><div class="quote">However, I 100% firmly believe that non-deterministic wallets should be abandoned entirely as a failed experiment. Perhaps they should be left as an option with clear warnings about their problems.<br /></div><br />+1<br /><br />While the Satoshi client doesn&#039;t use deterministic wallets, an alternative for its users would be to have the wallet.dat be a symbolic link towards a safe backup account, like Wuala for example.<br />This way your backup is updated on real-time.<br /><br /><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=110781.msg1206314#msg1206314">Quote from: JoelKatz on September 20, 2012, 09:54:35 AM</a></div><div class="quote">People keep losing their money and it&#039;s getting ridiculous. One of the biggest problems with Bitcoin is it&#039;s damn near impossible to use it safely.<br /></div><br />You use strong words, but yeah, you have to understand in details how things work to be safe. We cannot expect that of most people. I still don&#039;t recommend my parents for example, to store wealth in bitcoins. And they&#039;re not totally computer-illiterate, they know how to send e-mails, to chat, to use facebook and watch youtube. My father even has a blog. :D But I don&#039;t think they would be able to protect their keys. It&#039;s a pity. </div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Can the encrypted wallet be recovered using the unencrypted?</b><br />
+					Post by: <b>JoelKatz</b> on <b>September 20, 2012, 10:35:35 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=110781.msg1206329#msg1206329">Quote from: caveden on September 20, 2012, 10:04:32 AM</a></div><div class="quote">You use strong words, but yeah, you have to understand in details how things work to be safe. We cannot expect that of most people. I still don&#039;t recommend my parents for example, to store wealth in bitcoins. And they&#039;re not totally computer-illiterate, they know how to send e-mails, to chat, to use facebook and watch youtube. My father even has a blog. :D But I don&#039;t think they would be able to protect their keys. It&#039;s a pity.</div>I&#039;m a computer security person, and I don&#039;t trust myself to keep a significant amount of money in Bitcoins. It&#039;s just too difficult to balance making sure you can always access the coins no matter what might go wrong with making sure others can never access them no matter what might go wrong.<br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Can the encrypted wallet be recovered using the unencrypted?</b><br />
+					Post by: <b>bitvientiane</b> on <b>September 20, 2012, 10:49:20 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">I think at this point in time everybody&#039;s best bet is an electrum deterministic wallet, like Joel hinted at.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Can the encrypted wallet be recovered using the unencrypted?</b><br />
+					Post by: <b>sethsethseth</b> on <b>September 20, 2012, 10:58:49 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=110781.msg1206314#msg1206314">Quote from: JoelKatz on September 20, 2012, 09:54:35 AM</a></div><div class="quote">The reason you opt to encrypt the wallet is to prevent someone from being able to get your coins without knowing the key to decrypt the wallet.<br /><br />However, I 100% firmly believe that non-deterministic wallets should be abandoned entirely as a failed experiment. Perhaps they should be left as an option with clear warnings about their problems.<br /></div><br /><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=110781.msg1206314#msg1206314">Quote from: JoelKatz on September 20, 2012, 09:54:35 AM</a></div><div class="quote"> It is generally understood that your coins are only assuredly protected if you backup your wallet after your last transaction. </div><br />This is absolutely not generally understood, and the main dev team should not assume this. &nbsp;Multiple people with thousands of posts have told me that the wallet can always be recovered as long as you don&#039;t use more than 100 addresses on it after the backup. &nbsp;The 100 address generation is the part that is generally understood. &nbsp;The client should accommodate this view. &nbsp;If I have the password, I should not be able to destroy the coins before 100 addresses if it is common knowledge that you cannot. &nbsp;The new 100 keys should be able to be generated from the unencrypted ones if you have the password.<br /><br /><br /><br /><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=110781.msg1206314#msg1206314">Quote from: JoelKatz on September 20, 2012, 09:54:35 AM</a></div><div class="quote">People keep losing their money and it&#039;s getting ridiculous. One of the biggest problems with Bitcoin is it&#039;s damn near impossible to use it safely.<br /></div><br /><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=110781.msg1206361#msg1206361">Quote from: JoelKatz on September 20, 2012, 10:35:35 AM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=110781.msg1206329#msg1206329">Quote from: caveden on September 20, 2012, 10:04:32 AM</a></div><div class="quote">You use strong words, but yeah, you have to understand in details how things work to be safe. We cannot expect that of most people. I still don&#039;t recommend my parents for example, to store wealth in bitcoins. And they&#039;re not totally computer-illiterate, they know how to send e-mails, to chat, to use facebook and watch youtube. My father even has a blog. :D But I don&#039;t think they would be able to protect their keys. It&#039;s a pity.</div><br />I&#039;m a computer security person, and I don&#039;t trust myself to keep a significant amount of money in Bitcoins. It&#039;s just too difficult to balance making sure you can always access the coins no matter what might go wrong with making sure others can never access them no matter what might go wrong.<br /><br /></div><br />A large part of the reason I think I did not back up as well as I should have is that I didn&#039;t want someone with access to the wallet file I was storing on the internet to be able to see the balance and transactions. &nbsp;I always reencrypted the wallet file, making it more of a hassle to do a backup. &nbsp;This may be a stupid line of thinking, but it may be helpful for devs to know this in making the client more user-friendly and secure.<br /><br />I have spent several hours a day for the last two years reading the forums, and still made this error. &nbsp;I knew it was risky to put them on my computer, but I thought with my knowledge of bitcoin it was less risky than keeping them online. &nbsp;Obviously I was wrong.<br /><br />That said, I had to make at least 4 catastrophic errors that are not at all logical to allow this to happen. &nbsp;If I only made any 3 of these errors I would still have the coins:<br /><br />Used a wallet with a huge balance as a main wallet to conduct tiny transactions on bitcoin-otc<br />Only backed up the wallet on dropbox. &nbsp;Need to email, dropbox, and flash drive the backup<br />Left laptop in insecure location<br />Didn&#039;t do a wallet backup when I made an account on OTC a few days after encrypting the wallet. &nbsp;There was a warning to do so.<br /><br />I lost over 1300 btc. &nbsp;Where does that put me on the loser&#039;s list of losses due to carelessness?</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Can the encrypted wallet be recovered using the unencrypted?</b><br />
+					Post by: <b>helloworld</b> on <b>September 20, 2012, 11:12:22 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=110781.msg1208045#msg1208045">Quote from: sethsethseth on September 20, 2012, 10:58:49 PM</a></div><div class="quote">I lost over 1300 btc.&nbsp; Where does that put me on the loser&#039;s list of losses due to carelessness?<br /></div><br />My guess is &quot;nowhere near the top of the list&quot; unfortunately.<br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Can the encrypted wallet be recovered using the unencrypted?</b><br />
+					Post by: <b>JoelKatz</b> on <b>September 20, 2012, 11:26:37 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">The developers and in fact the entire community have failed you and lots of other people. This and the investment scams are the two biggest problems facing Bitcoin right now.<br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Can the encrypted wallet be recovered using the unencrypted?</b><br />
+					Post by: <b>scintill</b> on <b>September 21, 2012, 02:06:24 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=110781.msg1208045#msg1208045">Quote from: sethsethseth on September 20, 2012, 10:58:49 PM</a></div><div class="quote">I lost over 1300 btc.<br /></div><br />Ouch, sorry.&nbsp; When you said, &quot;There are enough bitcoins on this wallet to put a huge amount of work into recovering them&quot; I misread and thought there weren&#039;t very many coins.<br /><br />So, have you learned anything about the possible backup on the thumb drive?&nbsp; For this much money, I think it worth it to hire someone trustworthy with experience in this.&nbsp; I think Casascius has recovered (unencrypted?) wallets and seems willing to do it for a smallish payment.<br /><br />Good luck.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Can the encrypted wallet be recovered using the unencrypted?</b><br />
+					Post by: <b>flatfly</b> on <b>September 21, 2012, 04:50:51 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Approaching this from a different angle (assuming the thief hasn&#039;t found and spent the coins already - hopefully your password was strong enough, but check on blockchain.info whether the coins have moved): <br /><br />try everything you can to recover the stolen laptop. This may be possible with some luck and if the thief isn&#039;t too smart.<br /><br />You mentioned you are a dropbox user. Try the following: log on to the dropbox website and check your access logs - perhaps you&#039;ll discover the thief&#039;s ip address. Some people have been known to track and recover their stolen laptop thanks to dropbox logs.&nbsp; <br /><br />Or perhaps you have some other software running on that laptop allowing you to remotely access it? Teamviewer, remote desktop, ftp, telnet perhaps?&nbsp; </div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Can the encrypted wallet be recovered using the unencrypted?</b><br />
+					Post by: <b>Revalin</b> on <b>September 21, 2012, 09:07:30 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=110781.msg1208045#msg1208045">Quote from: sethsethseth on September 20, 2012, 10:58:49 PM</a></div><div class="quote">This is absolutely not generally understood, and the main dev team should not assume this.</div><br />+1.&nbsp; It caught me by surprise.<br /><br /><br /><div class="quoteheader">Quote</div><div class="quote">I lost over 1300 btc. &nbsp;Where does that put me on the loser&#039;s list of losses due to carelessness?</div><br />Ouch.&nbsp; That&#039;s enough to warrant some serious exploration of your USB stick.&nbsp; Definitely make a dd block dump of it before you do anything.&nbsp; Even if the undelete utilities can&#039;t find anything, we may be able to scrounge something.&nbsp; There&#039;s a good utility here for recovering unencrypted keys by looking for their raw signature:&nbsp; https://bitcointalk.org/index.php?topic=25091.0 .&nbsp; If they were encrypted you can probably place a bounty for someone to extend the program to recognize encrypted keys.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Can the encrypted wallet be recovered using the unencrypted?</b><br />
+					Post by: <b>Jutarul</b> on <b>September 21, 2012, 10:05:23 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=110781.msg1209066#msg1209066">Quote from: Revalin on September 21, 2012, 09:07:30 AM</a></div><div class="quote">Ouch. &nbsp;That&#039;s enough to warrant some serious exploration of your USB stick. &nbsp;Definitely make a dd block dump of it before you do anything. &nbsp;Even if the undelete utilities can&#039;t find anything, we may be able to scrounge something. &nbsp;There&#039;s a good utility here for recovering unencrypted keys by looking for their raw signature: &nbsp;https://bitcointalk.org/index.php?topic=25091.0 . &nbsp;If they were encrypted you can probably place a bounty for someone to extend the program to recognize encrypted keys.<br /></div>+1<br /><br />There are several threads where raw data inspection has been discussed to find out whether wallet data is on the deleted drive. E.g. a recommended a procedure is a deep scan, here:<br />https://bitcointalk.org/index.php?topic=91702.msg1016998#msg1016998<br /><br />If you are not familiar with these techniques, find someone trustworthy who is. </div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Can the encrypted wallet be recovered using the unencrypted?</b><br />
+					Post by: <b>Dabs</b> on <b>September 27, 2012, 05:42:28 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">What&#039;s the update on the OP? You can try piriform&#039;s recuva. That works on deleted files that have not been wiped.<br /><br />The current bitcoin client (satoshi) is not making any specific warnings when encrypting the wallet about making a backup.<br /><br />I did an experiment and made a backup of my wallet file, encrypted it, and made a backup of the encrypted wallet file. I then used pywallet to extract the keys and made a comparison.<br /><br />It seems that my unencrypted wallet has 108 keys. The encrypted wallet has 208 keys. Getting the keys into a spreadsheet and doing a basic lookup, and / or dupe check, it seems the encrypted wallet now has 100 new additional keys, in addition to the existing keys that were in the unencrypted wallet.<br /><br />This tells me, than the unencrypted wallet has all the old keys, the encrypted wallet has new keys, but it&#039;s possible that the change bitcoins were sent to one of the new keys instead of the old keys.<br /><br />When you lost the new encrypted wallet, you essentially lost the change bitcoins that were sent to one of the new keys.<br /><br />In my experiment, all the new keys are of the compressed type (private keys beginning with L or K instead of 5.)</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Can the encrypted wallet be recovered using the unencrypted?</b><br />
+					Post by: <b>sethsethseth</b> on <b>September 29, 2012, 05:15:34 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Still a tiny chance of recovering the laptop.&nbsp; The encrypted wallet is not on the flash drives.&nbsp; In my mind at the time, I thought that encrypting the wallet was a repeatable process just like encrypting any other file, so I did not think to back it up again.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Can the encrypted wallet be recovered using the unencrypted?</b><br />
+					Post by: <b>Jutarul</b> on <b>September 29, 2012, 06:00:08 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=110781.msg1230386#msg1230386">Quote from: sethsethseth on September 29, 2012, 05:15:34 AM</a></div><div class="quote">Still a tiny chance of recovering the laptop.&nbsp; The encrypted wallet is not on the flash drives.&nbsp; In my mind at the time, I thought that encrypting the wallet was a repeatable process just like encrypting any other file, so I did not think to back it up again.<br /></div>Yes the developers really screwed that one up. That&#039;s why bitcoin still deserves beta status.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Can the encrypted wallet be recovered using the unencrypted?</b><br />
+					Post by: <b>casascius</b> on <b>September 29, 2012, 06:07:39 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">To answer the question as to whether the deleted encrypted wallet material is still on the drive, I think it should be deterministically possible to confirm it or rule it out with a simple disk scan with a hex editor.<br /><br />My understanding is that an encrypted wallet is simply an unencrypted database with encrypted records in it. &nbsp;I think the wallet file itself, the database overhead being unencrypted, could easily be found on a hard drive simply by scanning all disk sectors for unique string markers that are plenty easy to find with a tool like WinHex.<br /><br />I don&#039;t have a computer with an encrypted wallet.dat handy, but I will bet I could find tons of strings in the file that would be highly likely to appear in every wallet.dat, and I am sure others can provide a suitable search string as well.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Can the encrypted wallet be recovered using the unencrypted?</b><br />
+					Post by: <b>Jutarul</b> on <b>September 29, 2012, 06:15:38 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=110781.msg1230442#msg1230442">Quote from: casascius on September 29, 2012, 06:07:39 AM</a></div><div class="quote">My understanding is that an encrypted wallet is simply an unencrypted database with encrypted records in it. &nbsp;I think the wallet file itself, the database overhead being unencrypted, could easily be found on a hard drive simply by scanning all disk sectors for unique string markers that are plenty easy to find with a tool like WinHex.<br /></div>Exactly. https://bitcointalk.org/index.php?topic=91702.msg1016998#msg1016998<br /><br />I suppose the OP explored this option already. If not - I recommend reading the advice more carefully...</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Can the encrypted wallet be recovered using the unencrypted?</b><br />
+					Post by: <b>casascius</b> on <b>September 29, 2012, 06:22:23 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=110781.msg1230457#msg1230457">Quote from: Jutarul on September 29, 2012, 06:15:38 AM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=110781.msg1230442#msg1230442">Quote from: casascius on September 29, 2012, 06:07:39 AM</a></div><div class="quote">My understanding is that an encrypted wallet is simply an unencrypted database with encrypted records in it. &nbsp;I think the wallet file itself, the database overhead being unencrypted, could easily be found on a hard drive simply by scanning all disk sectors for unique string markers that are plenty easy to find with a tool like WinHex.<br /></div>Exactly. https://bitcointalk.org/index.php?topic=91702.msg1016998#msg1016998<br /><br />I suppose the OP explored this option already. If not - I recommend reading the advice more carefully...<br /></div><br />Ironically, I don&#039;t think the wallet file stores Bitcoin addresses in human-readable text form anywhere in the wallet.dat, even in an unencrypted wallet.&nbsp; I believe it only stores the actual underlying public key and hash, which are just random-looking binary data.&nbsp; So even if this wallet existed on the drive, if I&#039;m right about this, the script wouldn&#039;t be able to find it.<br /><br />You would, rather, be searching for strings that appear, such as &quot;blockindex&quot;, &quot;bestblock&quot;, &quot;pool&quot;... the most valuable record is &quot;key&quot;, and surely there has got to be a few relatively static bytes that could be searched.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Can the encrypted wallet be recovered using the unencrypted?</b><br />
+					Post by: <b>scintill</b> on <b>September 29, 2012, 07:15:45 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=110781.msg1230464#msg1230464">Quote from: casascius on September 29, 2012, 06:22:23 AM</a></div><div class="quote">I believe it only stores the actual underlying public key and hash, which are just random-looking binary data.<br /></div><br />Maybe if he knows an address, he could search for that in hex?&nbsp; (Going on the assumption there might be something to recover.)<br /><br />I just pulled two addresses out of my wallet, one I received coins at and one I sent coins to; base58-decoded them into hex at brainwallet.org, and searched wallet.dat for them in a hex editor, found both in the clear in my encrypted wallet.&nbsp; (This is pretty disconcerting, depending on what you were hoping an encrypted wallet would do for you.)<br /><br />So, if you do this on a whole disk and find stuff, there&#039;s a good chance they&#039;re wallet fragments.&nbsp; From there I guess you start looking for nearby markers like Casascius talked about.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Can the encrypted wallet be recovered using the unencrypted?</b><br />
+					Post by: <b>Jutarul</b> on <b>September 29, 2012, 07:18:24 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=110781.msg1230464#msg1230464">Quote from: casascius on September 29, 2012, 06:22:23 AM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=110781.msg1230457#msg1230457">Quote from: Jutarul on September 29, 2012, 06:15:38 AM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=110781.msg1230442#msg1230442">Quote from: casascius on September 29, 2012, 06:07:39 AM</a></div><div class="quote">My understanding is that an encrypted wallet is simply an unencrypted database with encrypted records in it. &nbsp;I think the wallet file itself, the database overhead being unencrypted, could easily be found on a hard drive simply by scanning all disk sectors for unique string markers that are plenty easy to find with a tool like WinHex.<br /></div>Exactly. https://bitcointalk.org/index.php?topic=91702.msg1016998#msg1016998<br /><br />I suppose the OP explored this option already. If not - I recommend reading the advice more carefully...<br /></div><br />Ironically, I don&#039;t think the wallet file stores Bitcoin addresses in human-readable text form anywhere in the wallet.dat, even in an unencrypted wallet.&nbsp; I believe it only stores the actual underlying public key and hash, which are just random-looking binary data.&nbsp; So even if this wallet existed on the drive, if I&#039;m right about this, the script wouldn&#039;t be able to find it.<br /><br />You would, rather, be searching for strings that appear, such as &quot;blockindex&quot;, &quot;bestblock&quot;, &quot;pool&quot;... the most valuable record is &quot;key&quot;, and surely there has got to be a few relatively static bytes that could be searched.<br /></div>BTC addresses are stored in binary form. The referenced script works, since the tool grep searches for the supplied key in binary form. Try it out. Replace /dev/sdaX with your wallet file.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Can the encrypted wallet be recovered using the unencrypted?</b><br />
+					Post by: <b>flatfly</b> on <b>September 29, 2012, 07:46:26 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Errr.. Guys, read the OP (and subsequent posts) again. Your advice is good but unfortunately not relevant at this stage. Before any of that can happen, the laptop must be <b>recovered from the thief</b>.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Can the encrypted wallet be recovered using the unencrypted?</b><br />
+					Post by: <b>Jutarul</b> on <b>September 29, 2012, 08:02:50 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=110781.msg1230561#msg1230561">Quote from: flatfly on September 29, 2012, 07:46:26 AM</a></div><div class="quote">Errr.. Guys, read the OP (and subsequent posts) again. Your advice is good but unfortunately not relevant at this stage. Before any of that can happen, the laptop must be <b>recovered from the thief</b>.<br /></div>https://bitcointalk.org/index.php?topic=110781.msg1206155#msg1206155</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Can the encrypted wallet be recovered using the unencrypted?</b><br />
+					Post by: <b>flatfly</b> on <b>September 29, 2012, 08:18:08 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Sorry, I should&#039;ve emphasized today&#039;s update:<br /><br /><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=110781.msg1230386#msg1230386">Quote from: sethsethseth on September 29, 2012, 05:15:34 AM</a></div><div class="quote">Still a tiny chance of recovering the laptop. &nbsp;<b>The encrypted wallet is not on the flash drives. &nbsp;</b><br /></div></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Can the encrypted wallet be recovered using the unencrypted?</b><br />
+					Post by: <b>Jutarul</b> on <b>September 29, 2012, 08:26:26 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=110781.msg1230597#msg1230597">Quote from: flatfly on September 29, 2012, 08:18:08 AM</a></div><div class="quote">Sorry, I should&#039;ve emphasized today&#039;s update:<br /><br /><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=110781.msg1230386#msg1230386">Quote from: sethsethseth on September 29, 2012, 05:15:34 AM</a></div><div class="quote">Still a tiny chance of recovering the laptop. &nbsp;<b>The encrypted wallet is not on the flash drives. &nbsp;</b><br /></div></div>Yes. That assumes the OP has done a deep scan. casascius implicitly asked the OP to confirm that. </div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Can the encrypted wallet be recovered using the unencrypted?</b><br />
+					Post by: <b>Dabs</b> on <b>September 29, 2012, 09:06:53 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">There are many laptop tracking software available. A commercial one is Lo Jack for computers. An open source one is Prey.<br /><br />BUT, they have to be installed and activated prior to your laptop being stolen. (Works with desktops and smart phones too.)</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Can the encrypted wallet be recovered using the unencrypted?</b><br />
+					Post by: <b>sethsethseth</b> on <b>September 29, 2012, 03:42:42 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">I do not believe I backed the encrypted wallet up on the flash drive.&nbsp; If on some off chance I did, it is not showing up on the recovery tools.&nbsp; Perhaps I will mess with this hex thing once I determine if I cannot recover the laptop</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Can the encrypted wallet be recovered using the unencrypted?</b><br />
+					Post by: <b>flatfly</b> on <b>September 29, 2012, 03:45:59 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=110781.msg1231128#msg1231128">Quote from: sethsethseth on September 29, 2012, 03:42:42 PM</a></div><div class="quote">I do not believe I backed the encrypted wallet up on the flash drive.&nbsp; If on some off chance I did, it is not showing up on the recovery tools.&nbsp; Perhaps I will mess with this hex thing once I determine if I cannot recover the laptop<br /></div><br />Have you tried to check your Dropbox access logs as I mentioned?<br />If you can&#039;t find them, let me know and I&#039;ll help you out. </div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Can the encrypted wallet be recovered using the unencrypted?</b><br />
+					Post by: <b>sethsethseth</b> on <b>September 29, 2012, 10:39:37 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">yeah i checked that.&nbsp; the computer had a logon password, and they didnt steal the charger, and it was constantly crashing and I had to boot it like 8 times to get it to load windows properly, so the thief would probably just wipe it.&nbsp; Probably still recoverable if I get it back though.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Can the encrypted wallet be recovered using the unencrypted?</b><br />
+					Post by: <b>kjj</b> on <b>September 30, 2012, 03:41:44 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=110781.msg1230431#msg1230431">Quote from: Jutarul on September 29, 2012, 06:00:08 AM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=110781.msg1230386#msg1230386">Quote from: sethsethseth on September 29, 2012, 05:15:34 AM</a></div><div class="quote">Still a tiny chance of recovering the laptop.&nbsp; The encrypted wallet is not on the flash drives.&nbsp; In my mind at the time, I thought that encrypting the wallet was a repeatable process just like encrypting any other file, so I did not think to back it up again.<br /></div>Yes the developers really screwed that one up. That&#039;s why bitcoin still deserves beta status.<br /></div><br />https://github.com/bitcoin/bitcoin/issues/1884<br /><br />Don&#039;t be too hard on the devs.&nbsp; Wallet encryption has been around for like a year, and we are just now noticing this problem, which suggests that it is not obvious except in hindsight.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Can the encrypted wallet be recovered using the unencrypted?</b><br />
+					Post by: <b>FactoredPrimes</b> on <b>September 30, 2012, 04:28:17 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Why does the standard client always send the change to a new address?? It would make more sense to send the change back to one of the sending addresses.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Can the encrypted wallet be recovered using the unencrypted?</b><br />
+					Post by: <b>kjj</b> on <b>September 30, 2012, 04:36:42 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=110781.msg1232766#msg1232766">Quote from: FactoredPrimes on September 30, 2012, 04:28:17 AM</a></div><div class="quote">Why does the standard client always send the change to a new address?? It would make more sense to send the change back to one of the sending addresses.<br /></div><br />Sending to a new address leaks the least privacy.&nbsp; Also, there is no concept of a sending address in the bitcoin system.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Can the encrypted wallet be recovered using the unencrypted?</b><br />
+					Post by: <b>sunnankar</b> on <b>September 30, 2012, 08:31:00 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=110781.msg1206098#msg1206098">Quote from: sethsethseth on September 20, 2012, 07:05:26 AM</a></div><div class="quote">Something needs to be changed if I really can&#039;t get these coins back.&nbsp; It is reasonable for me to think that if I have an unencrypted file, back it up, and then encrypt one of them, that I can derive the encrypted version from the unencrypted one if I know the password.&nbsp; There should be a warning in there somewhere.&nbsp; I am sick over losing this many coins.<br /></div><br /><br />As far as creating a safe and secure backup of private keys, what about <b>(1)</b> using an offline computer to create a wallet address via bitaddress.org (http://www.bitaddress.org)&#039;s html/javascript then <b>(2)</b> placing the keys into a TrueCrypt volume and <b>(3)</b> transferring the TrueCrypt volume, or offline generated transaction, via USB to an online computer and backing up to multiple places like Dropbox, AWS, Google Drive, etc.<br /><br />Here is the code to create offline wallets and generate offline transactions (http://www.howtovanish.com/images/offline-transactions.zip).<br /><br />Is there a flaw in this procedure that I am not seeing?</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Can the encrypted wallet be recovered using the unencrypted?</b><br />
+					Post by: <b>FreeMoney</b> on <b>September 30, 2012, 08:38:26 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=110781.msg1232779#msg1232779">Quote from: kjj on September 30, 2012, 04:36:42 AM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=110781.msg1232766#msg1232766">Quote from: FactoredPrimes on September 30, 2012, 04:28:17 AM</a></div><div class="quote">Why does the standard client always send the change to a new address?? It would make more sense to send the change back to one of the sending addresses.<br /></div><br />Sending to a new address leaks the least privacy.&nbsp; Also, there is no concept of a sending address in the bitcoin system.<br /></div><br />Sending back to one of the input addresses could be an optional setting.</div>
+					<br /><br />
+					<div align="center" class="smalltext">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank">Powered by SMF 1.1.19</a> | 
+<a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank">SMF &copy; 2006-2009, Simple Machines</a>
+		</span></div>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

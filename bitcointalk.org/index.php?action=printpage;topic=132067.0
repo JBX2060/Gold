@@ -1,0 +1,104 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+		<link rel="canonical" href="https://bitcointalk.org/index.php?topic=132067.0" />
+		<title>Print Page - What is the Deterministic Wallet?</title>
+		<style type="text/css">
+			body
+			{
+				color: black;
+				background-color: white;
+			}
+			body, td, .normaltext
+			{
+				font-family: Verdana, arial, helvetica, serif;
+				font-size: small;
+			}
+			*, a:link, a:visited, a:hover, a:active
+			{
+				color: black !important;
+			}
+			table
+			{
+				empty-cells: show;
+			}
+			.code
+			{
+				font-size: x-small;
+				font-family: monospace;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.quote
+			{
+				font-size: x-small;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.smalltext, .quoteheader, .codeheader
+			{
+				font-size: x-small;
+			}
+			.largetext
+			{
+				font-size: large;
+			}
+			hr
+			{
+				height: 1px;
+				border: 0;
+				color: black;
+				background-color: black;
+			}
+		</style>
+	</head>
+	<body>
+		<h1 class="largetext">Bitcoin Forum</h1>
+		<h2 class="normaltext">Bitcoin => Bitcoin Technical Support => Topic started by: goldlyre on December 22, 2012, 11:53:14 AM</h2>
+
+		<table width="90%" cellpadding="0" cellspacing="0" border="0">
+			<tr>
+				<td>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>What is the Deterministic Wallet?</b><br />
+					Post by: <b>goldlyre</b> on <b>December 22, 2012, 11:53:14 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">There is a term called Deterministic Wallet in the Armory software. I checked some English-Chinese dictionaries but got no answer yet. Who can give me an explanation for this? Thanks.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: What is the Deterministic Wallet?</b><br />
+					Post by: <b>ThomasV</b> on <b>December 22, 2012, 12:00:20 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">A deterministic wallet is a wallet that you need to backup only once. <br />It creates all your Bitcoin addresses from a random number called &quot;seed&quot;.<br />Your wallet can be recovered from the seed, if the wallet file is accidentally deleted.<br /><br />That is an important security feature, because it protects you from your own mistakes, or computer crashes.<br /><br />the following clients have deterministic wallets:<br />&nbsp;- Electrum<br />&nbsp;- Armory<br />&nbsp;- Bitcoinspinner<br /><br />the official Bitcoin client might support deterministic wallets in the future; google for &quot;Bitcoin BIP 32&quot;<br /><br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: What is the Deterministic Wallet?</b><br />
+					Post by: <b>mazi</b> on <b>December 22, 2012, 05:43:42 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=132067.msg1415207#msg1415207">Quote from: goldlyre on December 22, 2012, 11:53:14 AM</a></div><div class="quote">There is a term called Deterministic Wallet in the Armory software. I checked some English-Chinese dictionaries but got no answer yet. Who can give me an explanation for this? Thanks.<br /></div><br />Here&#039;s an explanation in the Wiki:<br />https://en.bitcoin.it/wiki/Deterministic_wallet</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: What is the Deterministic Wallet?</b><br />
+					Post by: <b>goldlyre</b> on <b>December 22, 2012, 11:38:09 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Thanks a lot for your quick and kind replies. It&#039;s very helpful for me - a newbie in this field. <br /><br />Sorry, I have one more question here: How to transfer the Btcs in my online Armory (watching-only wallet copy) into another offline Armory (on another old laptop) via a USB flash stick? <br /><br />After having carefully refered to the Amory tutorials on their webpages, I&#039;ve successfully made installation of Armory on my offline laptop as well as on an everyday-using desktop pc. I&#039;ve also made a watching-only wallet on the desktop and sent from my another address 0.25 Btcs to the online Armory (watching-only wallet copy). <br /><br />Now my question is: Shall I transfer the money via USB flash stick back to the offline Armory? And if I should, how to do it? I&#039;ve earnestly checked the help text on their webpages but got no clue. Thanks again! &nbsp;:)<br /><br /><a href="http://s1.sinaimg.cn/mw690/625918c2td1799162db40&amp;690">http://s1.sinaimg.cn/mw690/625918c2td1799162db40&amp;690</a></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: What is the Deterministic Wallet?</b><br />
+					Post by: <b>b!z</b> on <b>December 23, 2012, 05:13:05 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=132067.msg1415978#msg1415978">Quote from: goldlyre on December 22, 2012, 11:38:09 PM</a></div><div class="quote">Thanks a lot for your quick and kind replies. It&#039;s very helpful for me - a newbie in this field. <br /><br />Sorry, I have one more question here: How to transfer the Btcs in my online Armory (watching-only wallet copy) into another offline Armory (on another old laptop) via a USB flash stick? <br /><br />After having carefully refered to the Amory tutorials on their webpages, I&#039;ve successfully made installation of Armory on my offline laptop as well as on an everyday-using desktop pc. I&#039;ve also made a watching-only wallet on the desktop and sent from my another address 0.25 Btcs to the online Armory (watching-only wallet copy). <br /><br />Now my question is: Shall I transfer the money via USB flash stick back to the offline Armory? And if I should, how to do it? I&#039;ve earnestly checked the help text on their webpages but got no clue. Thanks again! &nbsp;:)<br /><br /><a href="http://s1.sinaimg.cn/mw690/625918c2td1799162db40&amp;690">http://s1.sinaimg.cn/mw690/625918c2td1799162db40&amp;690</a><br /></div><br /><b>To send your Bitcoins to your offline wallet</b>, it should have one or more Bitcoin addresses. Go to your online wallet, and send your Bitcoins to the offline wallet address.<br />The coins will be sent to the offline address, even if the offline wallet is never connected to the Internet.<br /><br /><b>If you just want to access your wallet on the offline computer </b>(not send coins to it), just put your wallet.dat onto a USB, and import it on the offline machine.<br /><br /><b>Tip me:</b> 1234568syWuTdAMp1Fxg3hroz2F1W5VvDS<br /><br />Good luck!</div>
+					<br /><br />
+					<div align="center" class="smalltext">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank">Powered by SMF 1.1.19</a> | 
+<a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank">SMF &copy; 2006-2009, Simple Machines</a>
+		</span></div>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

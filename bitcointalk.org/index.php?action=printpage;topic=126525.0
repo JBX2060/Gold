@@ -1,0 +1,98 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+		<link rel="canonical" href="https://bitcointalk.org/index.php?topic=126525.0" />
+		<title>Print Page - Running bitcoin through TOR</title>
+		<style type="text/css">
+			body
+			{
+				color: black;
+				background-color: white;
+			}
+			body, td, .normaltext
+			{
+				font-family: Verdana, arial, helvetica, serif;
+				font-size: small;
+			}
+			*, a:link, a:visited, a:hover, a:active
+			{
+				color: black !important;
+			}
+			table
+			{
+				empty-cells: show;
+			}
+			.code
+			{
+				font-size: x-small;
+				font-family: monospace;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.quote
+			{
+				font-size: x-small;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.smalltext, .quoteheader, .codeheader
+			{
+				font-size: x-small;
+			}
+			.largetext
+			{
+				font-size: large;
+			}
+			hr
+			{
+				height: 1px;
+				border: 0;
+				color: black;
+				background-color: black;
+			}
+		</style>
+	</head>
+	<body>
+		<h1 class="largetext">Bitcoin Forum</h1>
+		<h2 class="normaltext">Bitcoin => Bitcoin Technical Support => Topic started by: danuel on November 18, 2012, 10:58:39 AM</h2>
+
+		<table width="90%" cellpadding="0" cellspacing="0" border="0">
+			<tr>
+				<td>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Running bitcoin through TOR</b><br />
+					Post by: <b>danuel</b> on <b>November 18, 2012, 10:58:39 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">sorry to be digging up the topic.<br />I am using TAILS (Debian + TOR + USB) and I&#039;m having a little problem (or not).<br />To synchronize with the bitcoinApp takes a lot of time and only have about 3-5 active connections.<br /><br />Is there any way to speed up the synchronization process bitcoinApp?</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Running bitcoin through TOR</b><br />
+					Post by: <b>picobit</b> on <b>November 18, 2012, 12:54:48 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=126525.msg1342794#msg1342794">Quote from: gweedo on November 18, 2012, 11:14:18 AM</a></div><div class="quote">You can&#039;t, syncing is based on I/O speeds and CPU, not your network, but you may want to connect to some onion addressed bitcoin nodes, you read about that on the wiki<br /></div>&#039;<br /><br />Your harddisk is likely to be the limitation - or your USB stick if that is where the database ends up.&nbsp; And they can be sloooow.<br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Running bitcoin through TOR</b><br />
+					Post by: <b>kjj</b> on <b>November 18, 2012, 02:43:54 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Set up a RAM disk, copy your current blockchain files to that, start bitcoin using that for the data directory.&nbsp; Wait for it to catch up, then shut down.&nbsp; Copy the blockchain files back to your USB stick, start bitcoin from the normal data directory.<br /><br />Starting from absolutely nothing, you can get the full chain in a few hours using tmpfs, assuming you can connect to a decent node for the IBD.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Running bitcoin through TOR</b><br />
+					Post by: <b>J-Norm</b> on <b>November 22, 2012, 10:34:56 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">If you are using tails then the stock bitcoin client is probably not ideal. I would use electrum instead. There are some concerns that whoever is running the electrum server you connect to will be able to corralate your addresses to one wallet, so you want to take that into account regarding being anonymous.<br /><br />I think there may be a way to tell it to use different servers for each address but I don&#039;t know how,<br /><br />A blockchain.info account is also a good way to go, just store the uri with a good password on your encrypted persistence volume. If you don&#039;t want to be tie your addresses create a different blockchain.info account for each address, you can use &quot;custom send&quot; to make sure change always goes back to the same address.</div>
+					<br /><br />
+					<div align="center" class="smalltext">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank">Powered by SMF 1.1.19</a> | 
+<a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank">SMF &copy; 2006-2009, Simple Machines</a>
+		</span></div>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

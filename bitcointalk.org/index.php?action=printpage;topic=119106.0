@@ -1,0 +1,86 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+		<link rel="canonical" href="https://bitcointalk.org/index.php?topic=119106.0" />
+		<title>Print Page - transaction question</title>
+		<style type="text/css">
+			body
+			{
+				color: black;
+				background-color: white;
+			}
+			body, td, .normaltext
+			{
+				font-family: Verdana, arial, helvetica, serif;
+				font-size: small;
+			}
+			*, a:link, a:visited, a:hover, a:active
+			{
+				color: black !important;
+			}
+			table
+			{
+				empty-cells: show;
+			}
+			.code
+			{
+				font-size: x-small;
+				font-family: monospace;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.quote
+			{
+				font-size: x-small;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.smalltext, .quoteheader, .codeheader
+			{
+				font-size: x-small;
+			}
+			.largetext
+			{
+				font-size: large;
+			}
+			hr
+			{
+				height: 1px;
+				border: 0;
+				color: black;
+				background-color: black;
+			}
+		</style>
+	</head>
+	<body>
+		<h1 class="largetext">Bitcoin Forum</h1>
+		<h2 class="normaltext">Bitcoin => Bitcoin Technical Support => Topic started by: Lurk on October 18, 2012, 04:23:44 PM</h2>
+
+		<table width="90%" cellpadding="0" cellspacing="0" border="0">
+			<tr>
+				<td>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>transaction question</b><br />
+					Post by: <b>Lurk</b> on <b>October 18, 2012, 04:23:44 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">here is my satoshidice bet. &nbsp; &nbsp;79f7b303876f2872d675748da3f366e7c5e44c35e1ef4a9677db47e8d2646aa2<br />&nbsp;&nbsp; <br />&nbsp;one of the payments arrived to me.<br /><br />I placed 2 bets at once. &nbsp;when i look it up on satoshidice it says they were both paid and gives a payment transaction for both.<br />&nbsp;&nbsp;this payment never arrived and on blockchain.info it says it cant be found. <br />&nbsp;&nbsp;<br />&nbsp;79f7b303876f2872d675748da3f366e7c5e44c35e1ef4a9677db47e8d2646aa2<br /><br />&nbsp;Im just wondering what could have happened and im pretty sure when i won the pop up window showed 2 different wins but then the one win disappeared.<br /><br />[edit]&nbsp; it seems to have happened again the payment transaction hash is:<br />&nbsp; &nbsp;1a52e53113de780ebb7f18e7fcfda3b43533cdf64653fd13c9f07fca7ec19e1b<br /><br />&nbsp;i&#039;m done until this gets figured out....one bet paid the other doesnt exist.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: transaction question</b><br />
+					Post by: <b>Stephen Gornick</b> on <b>October 18, 2012, 05:24:11 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=119106.msg1281142#msg1281142">Quote from: Lurk on October 18, 2012, 04:23:44 PM</a></div><div class="quote">when i look it up on satoshidice it says they were both paid and gives a payment transaction for both.<br /></div><br />Are you sure it showed both as paid?<br /><br /><del>It currently shows &quot;Payment TX Status: UNKNOWN&quot; on the second wager (the Less than 16,000):</del> &nbsp;[Update: Now it shows PENDING. &nbsp;Your winnings have been been broadcast and will be in the blockchain once a miner includes the transaction.]<br /><br />&nbsp;- http://satoshidice.com/full.php?tx=79f7b303876f2872d675748da3f366e7c5e44c35e1ef4a9677db47e8d2646aa2<br /><br /></div>
+					<br /><br />
+					<div align="center" class="smalltext">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank">Powered by SMF 1.1.19</a> | 
+<a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank">SMF &copy; 2006-2009, Simple Machines</a>
+		</span></div>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

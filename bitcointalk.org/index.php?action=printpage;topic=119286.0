@@ -1,0 +1,86 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+		<link rel="canonical" href="https://bitcointalk.org/index.php?topic=119286.0" />
+		<title>Print Page - Receive coin vs. Addressbook - std. client</title>
+		<style type="text/css">
+			body
+			{
+				color: black;
+				background-color: white;
+			}
+			body, td, .normaltext
+			{
+				font-family: Verdana, arial, helvetica, serif;
+				font-size: small;
+			}
+			*, a:link, a:visited, a:hover, a:active
+			{
+				color: black !important;
+			}
+			table
+			{
+				empty-cells: show;
+			}
+			.code
+			{
+				font-size: x-small;
+				font-family: monospace;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.quote
+			{
+				font-size: x-small;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.smalltext, .quoteheader, .codeheader
+			{
+				font-size: x-small;
+			}
+			.largetext
+			{
+				font-size: large;
+			}
+			hr
+			{
+				height: 1px;
+				border: 0;
+				color: black;
+				background-color: black;
+			}
+		</style>
+	</head>
+	<body>
+		<h1 class="largetext">Bitcoin Forum</h1>
+		<h2 class="normaltext">Bitcoin => Bitcoin Technical Support => Topic started by: questionstorm on October 19, 2012, 02:11:52 PM</h2>
+
+		<table width="90%" cellpadding="0" cellspacing="0" border="0">
+			<tr>
+				<td>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Receive coin vs. Addressbook - std. client</b><br />
+					Post by: <b>questionstorm</b> on <b>October 19, 2012, 02:11:52 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Hello everybody,<br /><br />Could someone please explain me what&#039;s the difference between my<br />addresses under &quot;Receive coins&quot; and &quot;Addressbook&quot; in the standard<br />bitcoin client?&nbsp; Can I move them from one list to the other?<br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Receive coin vs. Addressbook - std. client</b><br />
+					Post by: <b>AndrewBUD</b> on <b>October 19, 2012, 04:15:58 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">The addresses under Receive coins are your receiving addresses. <br /><br /><br />Address book saves addresses that you have used to send coins to. <br /><br />You can put whatever addresses you want in the address book. </div>
+					<br /><br />
+					<div align="center" class="smalltext">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank">Powered by SMF 1.1.19</a> | 
+<a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank">SMF &copy; 2006-2009, Simple Machines</a>
+		</span></div>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

@@ -1,0 +1,104 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+		<link rel="canonical" href="https://bitcointalk.org/index.php?topic=120546.0" />
+		<title>Print Page - bitcoind ?</title>
+		<style type="text/css">
+			body
+			{
+				color: black;
+				background-color: white;
+			}
+			body, td, .normaltext
+			{
+				font-family: Verdana, arial, helvetica, serif;
+				font-size: small;
+			}
+			*, a:link, a:visited, a:hover, a:active
+			{
+				color: black !important;
+			}
+			table
+			{
+				empty-cells: show;
+			}
+			.code
+			{
+				font-size: x-small;
+				font-family: monospace;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.quote
+			{
+				font-size: x-small;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.smalltext, .quoteheader, .codeheader
+			{
+				font-size: x-small;
+			}
+			.largetext
+			{
+				font-size: large;
+			}
+			hr
+			{
+				height: 1px;
+				border: 0;
+				color: black;
+				background-color: black;
+			}
+		</style>
+	</head>
+	<body>
+		<h1 class="largetext">Bitcoin Forum</h1>
+		<h2 class="normaltext">Bitcoin => Bitcoin Technical Support => Topic started by: Lurk on October 25, 2012, 05:18:05 PM</h2>
+
+		<table width="90%" cellpadding="0" cellspacing="0" border="0">
+			<tr>
+				<td>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>bitcoind ?</b><br />
+					Post by: <b>Lurk</b> on <b>October 25, 2012, 05:18:05 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">I&#039;m using windows 7 with the current version of bitcoin client.&nbsp; &nbsp; when i start bitcoind.exe a blank box shows up.&nbsp; Nothing else happens.<br />&nbsp; &nbsp;when i go to close it,&nbsp; i get a message saying bitcoind has stopped responding.&nbsp; &nbsp; Are there any files I might be missing to use bitcoind?<br />Thanks.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: bitcoind ?</b><br />
+					Post by: <b>MysteryMiner</b> on <b>October 25, 2012, 06:42:10 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Bitcoin<b>d</b> is a version without GUI also know as a <b>D</b>aemon. Run regular Bitcoin instead.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: bitcoind ?</b><br />
+					Post by: <b>stevegee58</b> on <b>October 25, 2012, 07:37:57 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">I recall earlier this year that p2pool couldn&#039;t use bitcoin-qt as a server due to freezes/crashes so you had to use bitcoind.<br /><br />Lately I&#039;ve been using bitcoin-qt as a server with p2pool without problems.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: bitcoind ?</b><br />
+					Post by: <b>Lurk</b> on <b>October 26, 2012, 12:32:19 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">its exits at the rpc stage&nbsp; and tells me to use this random password..... soo i entered the random password and defualt username into my bitcoin.conf&nbsp; file&nbsp; &nbsp;but its still telling me that it cant read my .conf and i should create one if it doesnt exist.&nbsp; &nbsp; &nbsp;its in the right directory&nbsp; and its not&nbsp; a&nbsp; .txt&nbsp; &nbsp;file&nbsp; &nbsp; its .conf&nbsp; &nbsp; &nbsp;not sure whats going on with it</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: bitcoind ?</b><br />
+					Post by: <b>Lurk</b> on <b>October 26, 2012, 01:19:48 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">tried saving the conf file to a txt&nbsp; &nbsp;and then back to conf&nbsp; &nbsp;with no luck.&nbsp; &nbsp; Tried dropping the -server part and still the same error.<br />&nbsp; for some reason its not recognizing my .conf file&nbsp; &nbsp;I&#039;m the administrator&nbsp; and run bitcoind as admin still doesnt help.</div>
+					<br /><br />
+					<div align="center" class="smalltext">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank">Powered by SMF 1.1.19</a> | 
+<a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank">SMF &copy; 2006-2009, Simple Machines</a>
+		</span></div>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

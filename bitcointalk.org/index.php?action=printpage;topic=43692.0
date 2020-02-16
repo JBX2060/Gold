@@ -1,0 +1,176 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+		<link rel="canonical" href="https://bitcointalk.org/index.php?topic=43692.0" />
+		<title>Print Page - Possible way to make a very profitable 50 plus ish attack for pools?</title>
+		<style type="text/css">
+			body
+			{
+				color: black;
+				background-color: white;
+			}
+			body, td, .normaltext
+			{
+				font-family: Verdana, arial, helvetica, serif;
+				font-size: small;
+			}
+			*, a:link, a:visited, a:hover, a:active
+			{
+				color: black !important;
+			}
+			table
+			{
+				empty-cells: show;
+			}
+			.code
+			{
+				font-size: x-small;
+				font-family: monospace;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.quote
+			{
+				font-size: x-small;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.smalltext, .quoteheader, .codeheader
+			{
+				font-size: x-small;
+			}
+			.largetext
+			{
+				font-size: large;
+			}
+			hr
+			{
+				height: 1px;
+				border: 0;
+				color: black;
+				background-color: black;
+			}
+		</style>
+	</head>
+	<body>
+		<h1 class="largetext">Bitcoin Forum</h1>
+		<h2 class="normaltext">Bitcoin => Development &amp; Technical Discussion => Topic started by: Grinder on September 12, 2011, 07:18:36 PM</h2>
+
+		<table width="90%" cellpadding="0" cellspacing="0" border="0">
+			<tr>
+				<td>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Possible way to make a very profitable 50 plus ish attack for pools?</b><br />
+					Post by: <b>Grinder</b> on <b>September 12, 2011, 07:18:36 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">I have searched the forum and Google, but I not find a discussion of this particular variation.<br /><br />Say one pool starts paying 150% reward to attract more than 50% of the miners. At the next difficulty change block it mines until it solves it, and sets difficulty to 25%. Then it can mine on this chain and solve 4x as many blocks as everybody else, and still have the most difficult block chain. Is there any way to stop this, other than hoping that miners don&#039;t join?</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Possible way to make a very profitable 50 plus ish attack for pools?</b><br />
+					Post by: <b>Stephen Gornick</b> on <b>September 12, 2011, 08:26:42 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=43692.msg521410#msg521410">Quote from: Grinder on September 12, 2011, 07:18:36 PM</a></div><div class="quote">until it solves it, and sets difficulty to 25%</div><br />The difficulty is set by an algorithm and not something set by the miner. &nbsp;The miner could try changing the rules re: difficulty (i.e., and mine a blockchain that forks) but other clients wouldn&#039;t accept blocks as those blocks violate the Bitcoin protocol.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Possible way to make a very profitable 50 plus ish attack for pools?</b><br />
+					Post by: <b>Sekioh</b> on <b>September 12, 2011, 09:02:28 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=43692.msg521598#msg521598">Quote from: Stephen Gornick on September 12, 2011, 08:26:42 PM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=43692.msg521410#msg521410">Quote from: Grinder on September 12, 2011, 07:18:36 PM</a></div><div class="quote">until it solves it, and sets difficulty to 25%</div><br />The difficulty is set by an algorithm and not something set by the miner. &nbsp;The miner could try changing the rules re: difficulty (i.e., and mine a blockchain that forks) but other clients wouldn&#039;t accept blocks as those blocks violate the Bitcoin protocol.<br /></div><br />But this isn&#039;t quite true, as seen on the Geist coin and possibly soon the Namecoin, there&#039;s an attack that all other 49% accept the new forking of the chain as the original, and the 51% attacker can set accepts/declines at will. They &#039;mined&#039; 20000 blocks in a hour instead of the previous 20000 taking days. &#039;violating&#039; the protocol is only applicable to the few that are in the 49% and try to change rules, whoever has more than half makes the rules it seems from what I gather based on these attacks.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Possible way to make a very profitable 50 plus ish attack for pools?</b><br />
+					Post by: <b>theymos</b> on <b>September 12, 2011, 09:11:17 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=43692.msg521677#msg521677">Quote from: Sekioh on September 12, 2011, 09:02:28 PM</a></div><div class="quote">whoever has more than half makes the rules it seems from what I gather based on these attacks.<br /></div><br />The majority can&#039;t change the rules used by the minority. The minority will always reject invalid blocks, even if the minority is just one person.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Possible way to make a very profitable 50 plus ish attack for pools?</b><br />
+					Post by: <b>im3w1l</b> on <b>September 12, 2011, 09:20:20 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">His coins will not be worth very much then...</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Possible way to make a very profitable 50 plus ish attack for pools?</b><br />
+					Post by: <b>ArtForz</b> on <b>September 12, 2011, 09:39:28 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Erm, no, those blocks are *valid*.<br />By exploiting the fact that retargeting ignores one block interval every period, it&#039;s possible for an attackers&#039; fork chain to &quot;jump backwards in time&quot; and create lots of blocks at low difficulty without running nTime off into the far future.<br /><br />Bitcoin (and most *coin) rules re. block timestamps:<br />nTime has to be &gt; median of prev 11 blocks.<br />nTime has to be &lt; now() + some buffer.<br /><br />let&#039;s say we have a chain with 4-block interval and 10 sec/block.<br />Official chain, currect diff for hashrate, blocks found at nominal time:<br /><div class="codeheader">Code:</div><div class="code">blk# &nbsp;0 &nbsp; 1 &nbsp; 2 &nbsp; 3 &nbsp; 4 &nbsp; 5 &nbsp; 6 &nbsp; 7 &nbsp; 8 &nbsp; 9&nbsp; 10 &nbsp;11 &nbsp;12 &nbsp;13 &nbsp;14 &nbsp;15<br />time &nbsp;0 &nbsp;10 &nbsp;20 &nbsp;30 &nbsp;40 &nbsp;50 &nbsp;60 &nbsp;70 &nbsp;80 &nbsp;90 100 110 120 130 140 150<br /></div>Now here&#039;s the weird part, we retarget after blocks 3, 7, 11, 15, and for block 3 we use 0 as first and 3 as last, for 7 we use 4 as first and 7 as last, ...<br />so what happens if an attackers chain has blk timestamps like this:<br /><div class="codeheader">Code:</div><div class="code">blk# &nbsp;0 &nbsp; 1 &nbsp; 2 &nbsp; 3 &nbsp; 4 &nbsp; 5 &nbsp; 6 &nbsp; 7 &nbsp; 8 &nbsp; 9&nbsp; 10 &nbsp;11 &nbsp;12 &nbsp;13 &nbsp;14 &nbsp;15<br />time &nbsp;0 &nbsp; 1 &nbsp; 2 &nbsp;30 &nbsp; 4 &nbsp; 5 &nbsp; 6&nbsp; 70&nbsp; &nbsp;8 &nbsp; 9 &nbsp;10 110 &nbsp;12 &nbsp;13 &nbsp;14 150<br /></div>?<br />first period (#3 - #0) is 30s as before<br />2nd period is (#7 - #4) ... 66s<br />3rd period is (#11 - #8) ... 104s<br />Whoops.<br />Obviously this ignores the &quot;problem&quot; of the attackers chain having way lower sum-of-difficulty<br />but thats easy to fix:<br /><div class="codeheader">Code:</div><div class="code">blk# 16 17 18 19 20 21 22 23 ...<br />time 16 17 18 19 20 21 22 23 ...<br /></div>just keep driving diff up at maximum speed until you have the same total work as the real chain.<br />result-&gt; the attackers chain does not violate the block timestamp rules, finishes at a *earlier* block timestamp than the real chain, ends up at a higher total work as the real chain, but contains way more blocks.<br /><br />This was done on the GeistGeld chain yesterday/today, so it&#039;s not a theoretical problem.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Possible way to make a very profitable 50 plus ish attack for pools?</b><br />
+					Post by: <b>ByteCoin</b> on <b>September 12, 2011, 10:06:23 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Thanks for the clear explanation ArtForz!<br /><br /><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=43692.msg521772#msg521772">Quote from: ArtForz on September 12, 2011, 09:39:28 PM</a></div><div class="quote">Now here&#039;s the weird part, we retarget after blocks 3, 7, 11, 15, and for block 3 we use 0 as first and 3 as last, for 7 we use 4 as first and 7 as last, ...<br /></div><br />It&#039;s clear that the calculation needs to be made piecewise continuous, so for 7 we use 3 as the first.<br /><br /><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=43692.msg521772#msg521772">Quote from: ArtForz on September 12, 2011, 09:39:28 PM</a></div><div class="quote">Obviously this ignores the &quot;problem&quot; of the attackers chain having way lower sum-of-difficulty<br />but that&#039;s easy to fix - just keep driving diff up at maximum speed until you have the same total work as the real chain.<br /></div>Here&#039;s where I get confused. I haven&#039;t looked at the calculation in detail but surely you can&#039;t get the same total work as the real chain without doing approximately the same amount of hashing as the real chain, no matter how many blocks is in your chain or how you&#039;ve manipulated the difficulty? Please explain further...<br /><br />ByteCoin</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Possible way to make a very profitable 50 plus ish attack for pools?</b><br />
+					Post by: <b>ArtForz</b> on <b>September 12, 2011, 10:10:58 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">No, obviously you need to do the same or more total hashes as the real chain (it is a 51% attack...)<br />The &quot;bad&quot; part is that you can make your chain have more blocks while having the same start and end nTime.<br />And yes, it *should* be using 3-7, 7-11, ... but it doesn&#039;t. (probably to avoid the issue of the first interval after genesis, as you&#039;d need to know when hashing of genesis started = the timestamp of the block before genesis).<br />The code I&#039;m currently playing with gets around this by special-casing that first retarget to have a nInterval-1 span instead of nInterval.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Possible way to make a very profitable 50 plus ish attack for pools?</b><br />
+					Post by: <b>ArtForz</b> on <b>September 12, 2011, 10:17:13 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Oh, and this also means this isn&#039;t a too massive issue for bitcoin simply due to the scale and time required (attacker needs more hashrate than the real net over at least 4-5 real retargeting periods for it to be somewhat effective, more time = more profit), but it could be pretty bad news for altchains.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Possible way to make a very profitable 50 plus ish attack for pools?</b><br />
+					Post by: <b>ByteCoin</b> on <b>September 12, 2011, 10:48:48 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=43692.msg521894#msg521894">Quote from: ArtForz on September 12, 2011, 10:10:58 PM</a></div><div class="quote">No, obviously you need to do the same or more total hashes as the real chain (it is a 51% attack...)<br />The &quot;bad&quot; part is that you can make your chain have more blocks while having the same start and end nTime.<br /></div><br />Ok so it&#039;s a 51% attack which replaces the whole block chain. <br /><br />You seem to be implying that the main negative effect is that the attacker gets more blocks over the period than he &quot;deserves&quot; from his hashing power. However, isn&#039;t the main effect that all the previous coinbase transactions are deleted and hence all transactions are declared invalid? This would effectively destroy the system and the response would be to either lock in the valid chain (preventing the attack) or start again with a new genesis block. Either solution would result in the attacker having wasted his hashing power.<br /><br />Is this purely a destructive attack or can it be made profitable?<br /><br />ByteCoin</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Possible way to make a very profitable 50 plus ish attack for pools?</b><br />
+					Post by: <b>ArtForz</b> on <b>September 12, 2011, 10:59:16 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Depends, obviously this one is destructive, but there&#039;s a few variations on it.<br />A &quot;fun&quot; one that doesn&#039;t require orphaning massive parts of the chain:<br />With decently &gt; 50%, only fork the chain if legit miners find &gt; 5 blocks in a row (as that&#039;d reset the median to where it should be) or the last block in a diff period (as that would prevent the wanted diff drop).<br />Broadcast blocks as usual.<br />Result: while things go mostly as normal (well, with quicker blocks the network now has over twice the hashpower and a few shortish chain forks getting orphaned), nTime of the chain except for the last block in each period basically stops increasing, and difficulty starts dropping after 2-3 retargeting periods.<br />So basically &quot;a majority of miner hashpower can decide to near-arbitrarily lower difficulty, and there&#039;s nothing short of a chain lockin or changing the retarget rules to stop em&quot;</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Possible way to make a very profitable 50 plus ish attack for pools?</b><br />
+					Post by: <b>ArtForz</b> on <b>September 12, 2011, 11:08:32 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">another variant, which doesn&#039;t orphan anything:<br />get a *massive* majority of miners to switch to nTime rules like this for mining:<br />if ((pPrevBlock-&gt;nHeight+2) % retarget_block_count == 0)<br />&nbsp; &nbsp;set nTime as normal<br />else<br />&nbsp; &nbsp;block-&gt;nTime = medianofprev11()+1<br />Once enough miners switch to this so that &quot;legit miners finding 6 blocks in a row&quot; gets unlikely enough so it doesn&#039;t occur over 2+ diff periods, difficulty starts decreasing.<br />Adding some limits to make it head towards any arbitrary difficulty instead of going for &quot;maximum decrease&quot; is pretty simple.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Possible way to make a very profitable 50 plus ish attack for pools?</b><br />
+					Post by: <b>makomk</b> on <b>September 13, 2011, 01:17:34 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=43692.msg521894#msg521894">Quote from: ArtForz on September 12, 2011, 10:10:58 PM</a></div><div class="quote">The code I&#039;m currently playing with gets around this by special-casing that first retarget to have a nInterval-1 span instead of nInterval.<br /></div>Presumably if the Bitcoin developers decided they needed to change the difficulty algorithm fix this issue, they could just as easily change over from nInterval-1 to nInterval at a specified block some time in the future?</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Possible way to make a very profitable 50 plus ish attack for pools?</b><br />
+					Post by: <b>ArtForz</b> on <b>September 13, 2011, 04:29:22 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Yes. Obviously you&#039;d put a chain checkpoint right before the switchover to prevent any future 51% attack from mucking with earlier blocks.<br />GeistGeld reloaded is the first chain testing retargeting over the full period, we&#039;ll see how that goes.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Possible way to make a very profitable 50 plus ish attack for pools?</b><br />
+					Post by: <b>ctoon6</b> on <b>September 16, 2011, 12:52:13 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">if somebody makes a block that does not fit in the rules of your client, it rejects it, simple as that. the rules your client has set can not be changed no matter how many bad blocks it rejects. the only thing an attack like that would do is waste yours and their time and their energy and money. sure they could make some transactions look like they never existed, but i don&#039;t see that going on for long, as it would cost large amounts of energy.<br /><br />we are at 13.8 Thash/s only to be predicted to grow. id imagine, in less than 60 days, it will be over 14Thash/s<br /><br />thats about 18,000 6990s<br />and i doubt you could even buy half that many. and at USD770 each, it would be USD13M, not counting the energy to run all that.<br /><br />or another scenario, you use cpus, since there several orders of magnitude more cpus than gpus, it would take like 650000 1100T&#039;s to get less than half of the hashing power.<br /><br />overall, its not possible, you literally have to match or beat everything the ENTIRE network throws at you. it would be a never ending stream of spending money. although you do not need 50% to do damage, you could start doing damage at like 30% on an irregular basis.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Possible way to make a very profitable 50 plus ish attack for pools?</b><br />
+					Post by: <b>Grinder</b> on <b>September 16, 2011, 08:47:22 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=43692.msg528164#msg528164">Quote from: ctoon6 on September 16, 2011, 12:52:13 AM</a></div><div class="quote">overall, its not possible, you literally have to match or beat everything the ENTIRE network throws at you. it would be a never ending stream of spending money. although you do not need 50% to do damage, you could start doing damage at like 30% on an irregular basis.<br /></div>What part of the word &quot;pool&quot; do you not understand? I&#039;m not talking about beating the total hash rate of the network, but about enough miners colluding to maximize profits. For every miner that joins, the hash rate of the honest part will get smaller and easier to beat. I didn&#039;t get the technical part quite right, but ArtForz has already explained how it could be done.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Possible way to make a very profitable 50 plus ish attack for pools?</b><br />
+					Post by: <b>zawy</b> on <b>August 04, 2018, 11:54:43 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Artforz&#039;s attack is still possible?&nbsp; The main protection is threat of a chain re-org?&nbsp; i&#039;ve written an article to explain it better.<br /><br />https://github.com/zawy12/difficulty-algorithms/issues/30</div>
+					<br /><br />
+					<div align="center" class="smalltext">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank">Powered by SMF 1.1.19</a> | 
+<a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank">SMF &copy; 2006-2009, Simple Machines</a>
+		</span></div>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

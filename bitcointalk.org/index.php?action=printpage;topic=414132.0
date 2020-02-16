@@ -1,0 +1,158 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+		<link rel="canonical" href="https://bitcointalk.org/index.php?topic=414132.0" />
+		<title>Print Page - [ANN] thenodeslist.com, like the name says, a list all nodes in one place!</title>
+		<style type="text/css">
+			body
+			{
+				color: black;
+				background-color: white;
+			}
+			body, td, .normaltext
+			{
+				font-family: Verdana, arial, helvetica, serif;
+				font-size: small;
+			}
+			*, a:link, a:visited, a:hover, a:active
+			{
+				color: black !important;
+			}
+			table
+			{
+				empty-cells: show;
+			}
+			.code
+			{
+				font-size: x-small;
+				font-family: monospace;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.quote
+			{
+				font-size: x-small;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.smalltext, .quoteheader, .codeheader
+			{
+				font-size: x-small;
+			}
+			.largetext
+			{
+				font-size: large;
+			}
+			hr
+			{
+				height: 1px;
+				border: 0;
+				color: black;
+				background-color: black;
+			}
+		</style>
+	</head>
+	<body>
+		<h1 class="largetext">Bitcoin Forum</h1>
+		<h2 class="normaltext">Alternate cryptocurrencies => Service Announcements (Altcoins) => Topic started by: maardein on January 13, 2014, 08:49:11 PM</h2>
+
+		<table width="90%" cellpadding="0" cellspacing="0" border="0">
+			<tr>
+				<td>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>[ANN] thenodeslist.com, like the name says, a list all nodes in one place!</b><br />
+					Post by: <b>maardein</b> on <b>January 13, 2014, 08:49:11 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">I was getting frustrated with sifting through thread to find some extra nodes for various coins.<br /><br />So, that is why I started http://thenodeslist.com/, where you can find exactly what the name suggests: a list of nodes for all your favorite coins. Added to that are config files, available for download, with all of these nodes included. The site is extremely basic at the moment, but it works.<br /><br />Currently the list is far from complete, but it will take quite some time before all coins are added. That&#039;s why I am posting the site already, since I would really like to know what you think about the idea :) And feel free to suggest coins that need to be added! (link to ANN thread would be nice)<br /><br />I also would like to invite you to send me nodes which are not included yet. Please only send nodes that run permanently, not just your home computer. If you find nodes in the list that do not work any more, please let me know as well!</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [ANN] thenodeslist.com, like the name says, a list all nodes in one place!</b><br />
+					Post by: <b>maardein</b> on <b>January 13, 2014, 09:31:10 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=414132.msg4492887#msg4492887">Quote from: atleticofa on January 13, 2014, 09:05:22 PM</a></div><div class="quote">Great<br /></div><br />I&#039;ll add Kushcoin ;)</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [ANN] thenodeslist.com, like the name says, a list all nodes in one place!</b><br />
+					Post by: <b>NextLevelBitBar</b> on <b>January 13, 2014, 09:43:06 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Please add BitBar</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [ANN] thenodeslist.com, like the name says, a list all nodes in one place!</b><br />
+					Post by: <b>maardein</b> on <b>January 13, 2014, 10:06:33 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=414132.msg4493568#msg4493568">Quote from: NextLevelBitBar on January 13, 2014, 09:43:06 PM</a></div><div class="quote">Please add BitBar<br /></div><br />Do you have some nodes for bitbar?</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [ANN] thenodeslist.com, like the name says, a list all nodes in one place!</b><br />
+					Post by: <b>maardein</b> on <b>January 14, 2014, 03:49:00 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Bitbar is added, as are several others :)</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [ANN] thenodeslist.com, like the name says, a list all nodes in one place!</b><br />
+					Post by: <b>pengar</b> on <b>January 20, 2014, 05:05:59 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Very cool idea, it was always hard to find current nodes for different altcoins.<br /><br />Please add Ekrona [KRN], PM sent.<br />Thanks.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [ANN] thenodeslist.com, like the name says, a list all nodes in one place!</b><br />
+					Post by: <b>PinkPotatos</b> on <b>January 20, 2014, 05:26:07 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Add franko please</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [ANN] thenodeslist.com, like the name says, a list all nodes in one place!</b><br />
+					Post by: <b>maardein</b> on <b>February 09, 2014, 01:12:48 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=414132.msg4623350#msg4623350">Quote from: PinkPotatos on January 20, 2014, 05:26:07 PM</a></div><div class="quote">Add franko please<br /></div><br />Sorry, it took some time, but Franko is added. There are so many new coins, it&#039;s hard to keep up :)</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [ANN] thenodeslist.com, like the name says, a list all nodes in one place!</b><br />
+					Post by: <b>digitalbrass</b> on <b>July 10, 2014, 09:55:25 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">the nodes for 42 coin are those legit? There is one different then the main post by hendo.&nbsp; just wondering, seems they gave up on this coin so nobody knows whats going on with it but its still on p2pool and traded on crypty..</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [ANN] thenodeslist.com, like the name says, a list all nodes in one place!</b><br />
+					Post by: <b>hitndahedfred</b> on <b>January 26, 2015, 10:12:05 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Hey hey hey ,,,,<br /><br />This is an AWESOME IDEA !!!&nbsp; Keep it alive please,,, I have used&nbsp; the website quite a FEW TIMES.<br /><br />If you need help gathering and updating this thread or the actual website,,, shoot me a PM&gt;<br /><br />More than willing to help keep this updated.<br /><br />Hit</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [ANN] thenodeslist.com, like the name says, a list all nodes in one place!</b><br />
+					Post by: <b>Oldminer</b> on <b>June 19, 2015, 09:43:29 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">I found this site helpful..is it still being maintained?<br /><br />If so, please add Worldcoin.conf<br /><br />rpcuser=user<br />rpcpassword=pass<br />port=11082<br />maxconnections=500<br />rpcallowip=192.*<br />rpcport=11082<br />listen=1<br />daemon=1<br />maxconnections=100<br /><br />Nodes:<br /><br /><br />&#65532;<br />[<br />{<br />&quot;addr&quot; : &quot;157.161.128.54:11081&quot;,<br />&quot;services&quot; : &quot;00000003&quot;,<br />&quot;lastsend&quot; : 1434750194,<br />&quot;lastrecv&quot; : 1434750223,<br />&quot;bytessent&quot; : 1154280,<br />&quot;bytesrecv&quot; : 3790301,<br />&quot;blocksrequested&quot; : 0,<br />&quot;conntime&quot; : 1434749230,<br />&quot;version&quot; : 75000,<br />&quot;subver&quot; : &quot;/WorldcoinFoundation:0.8.6.2/&quot;,<br />&quot;inbound&quot; : false,<br />&quot;startingheight&quot; : 1976519,<br />&quot;banscore&quot; : 0,<br />&quot;syncnode&quot; : true<br />},<br />{<br />&quot;addr&quot; : &quot;188.138.94.6:11081&quot;,<br />&quot;services&quot; : &quot;00000003&quot;,<br />&quot;lastsend&quot; : 1434750191,<br />&quot;lastrecv&quot; : 1434750223,<br />&quot;bytessent&quot; : 1810060,<br />&quot;bytesrecv&quot; : 3291526,<br />&quot;blocksrequested&quot; : 0,<br />&quot;conntime&quot; : 1434749236,<br />&quot;version&quot; : 75000,<br />&quot;subver&quot; : &quot;/WorldcoinFoundation:0.8.6.2/&quot;,<br />&quot;inbound&quot; : false,<br />&quot;startingheight&quot; : 1976519,<br />&quot;banscore&quot; : 0<br />},<br />{<br />&quot;addr&quot; : &quot;174.45.248.80:11081&quot;,<br />&quot;services&quot; : &quot;00000003&quot;,<br />&quot;lastsend&quot; : 1434750228,<br />&quot;lastrecv&quot; : 1434750233,<br />&quot;bytessent&quot; : 2647316,<br />&quot;bytesrecv&quot; : 22841190,<br />&quot;blocksrequested&quot; : 0,<br />&quot;conntime&quot; : 1434749248,<br />&quot;version&quot; : 75000,<br />&quot;subver&quot; : &quot;/Worldcoin BC:1.1.0/&quot;,<br />&quot;inbound&quot; : false,<br />&quot;startingheight&quot; : 1976519,<br />&quot;banscore&quot; : 0<br />},<br />{<br />&quot;addr&quot; : &quot;107.150.62.234:11081&quot;,<br />&quot;services&quot; : &quot;00000003&quot;,<br />&quot;lastsend&quot; : 1434750233,<br />&quot;lastrecv&quot; : 1434750233,<br />&quot;bytessent&quot; : 9410638,<br />&quot;bytesrecv&quot; : 20761654,<br />&quot;blocksrequested&quot; : 0,<br />&quot;conntime&quot; : 1434749249,<br />&quot;version&quot; : 75000,<br />&quot;subver&quot; : &quot;/WorldcoinFoundation:0.8.6.2/&quot;,<br />&quot;inbound&quot; : false,<br />&quot;startingheight&quot; : 1976519,<br />&quot;banscore&quot; : 0<br />},<br />{<br />&quot;addr&quot; : &quot;146.0.32.101:11081&quot;,<br />&quot;services&quot; : &quot;00000003&quot;,<br />&quot;lastsend&quot; : 1434750230,<br />&quot;lastrecv&quot; : 1434750230,<br />&quot;bytessent&quot; : 2614893,<br />&quot;bytesrecv&quot; : 7248526,<br />&quot;blocksrequested&quot; : 0,<br />&quot;conntime&quot; : 1434749250,<br />&quot;version&quot; : 75000,<br />&quot;subver&quot; : &quot;/WorldcoinFoundation:0.8.6.2/&quot;,<br />&quot;inbound&quot; : false,<br />&quot;startingheight&quot; : 1976519,<br />&quot;banscore&quot; : 0<br />},<br />{<br />&quot;addr&quot; : &quot;63.231.13.70:11081&quot;,<br />&quot;services&quot; : &quot;00000003&quot;,<br />&quot;lastsend&quot; : 1434750228,<br />&quot;lastrecv&quot; : 1434750228,<br />&quot;bytessent&quot; : 1510810,<br />&quot;bytesrecv&quot; : 3782596,<br />&quot;blocksrequested&quot; : 0,<br />&quot;conntime&quot; : 1434749256,<br />&quot;version&quot; : 75000,<br />&quot;subver&quot; : &quot;/WorldcoinFoundation:0.8.6.2/&quot;,<br />&quot;inbound&quot; : false,<br />&quot;startingheight&quot; : 1976519,<br />&quot;banscore&quot; : 0<br />},<br />{<br />&quot;addr&quot; : &quot;198.27.97.172:11081&quot;,<br />&quot;services&quot; : &quot;00000003&quot;,<br />&quot;lastsend&quot; : 1434750233,<br />&quot;lastrecv&quot; : 1434750233,<br />&quot;bytessent&quot; : 4715508,<br />&quot;bytesrecv&quot; : 11614982,<br />&quot;blocksrequested&quot; : 0,<br />&quot;conntime&quot; : 1434749257,<br />&quot;version&quot; : 75000,<br />&quot;subver&quot; : &quot;/WorldcoinFoundation:0.8.6.2/&quot;,<br />&quot;inbound&quot; : false,<br />&quot;startingheight&quot; : 1976519,<br />&quot;banscore&quot; : 0<br />},<br />{<br />&quot;addr&quot; : &quot;174.88.43.71:11081&quot;,<br />&quot;services&quot; : &quot;00000003&quot;,<br />&quot;lastsend&quot; : 1434750226,<br />&quot;lastrecv&quot; : 1434750225,<br />&quot;bytessent&quot; : 1415791,<br />&quot;bytesrecv&quot; : 3056639,<br />&quot;blocksrequested&quot; : 0,<br />&quot;conntime&quot; : 1434749258,<br />&quot;version&quot; : 75000,<br />&quot;subver&quot; : &quot;/WorldcoinFoundation:0.8.6.2/&quot;,<br />&quot;inbound&quot; : false,<br />&quot;startingheight&quot; : 1976519,<br />&quot;banscore&quot; : 0<br />},<br />{<br />&quot;addr&quot; : &quot;85.214.61.209:46084&quot;,<br />&quot;services&quot; : &quot;00000003&quot;,<br />&quot;lastsend&quot; : 1434750096,<br />&quot;lastrecv&quot; : 1434750096,<br />&quot;bytessent&quot; : 103392,<br />&quot;bytesrecv&quot; : 125241,<br />&quot;blocksrequested&quot; : 0,<br />&quot;conntime&quot; : 1434749831,<br />&quot;version&quot; : 70002,<br />&quot;subver&quot; : &quot;/Satoshi:1.1.0.1/&quot;,<br />&quot;inbound&quot; : true,<br />&quot;startingheight&quot; : 363743,<br />&quot;banscore&quot; : 0<br />},<br />{<br />&quot;addr&quot; : &quot;37.139.26.213:58513&quot;,<br />&quot;services&quot; : &quot;00000000&quot;,<br />&quot;lastsend&quot; : 1434750233,<br />&quot;lastrecv&quot; : 1434750233,<br />&quot;bytessent&quot; : 57290,<br />&quot;bytesrecv&quot; : 178,<br />&quot;blocksrequested&quot; : 0,<br />&quot;conntime&quot; : 1434750232,<br />&quot;version&quot; : 70002,<br />&quot;subver&quot; : &quot;/potcoinseeder:0.01/&quot;,<br />&quot;inbound&quot; : true,<br />&quot;startingheight&quot; : 564663,<br />&quot;banscore&quot; : 0<br />}<br />]<br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [ANN] thenodeslist.com, like the name says, a list all nodes in one place!</b><br />
+					Post by: <b>BitcoinNational</b> on <b>October 12, 2015, 02:22:55 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">pls keep this active ;)<br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [ANN] thenodeslist.com, like the name says, a list all nodes in one place!</b><br />
+					Post by: <b>bumbacoin</b> on <b>December 28, 2015, 03:21:35 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><br />this would be cool automated.<br />run a script, peers are sent to a database.<br /><br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [ANN] thenodeslist.com, like the name says, a list all nodes in one place!</b><br />
+					Post by: <b>BitcoinNational</b> on <b>April 18, 2016, 11:46:47 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=414132.msg13376558#msg13376558">Quote from: bumbacoin on December 28, 2015, 03:21:35 AM</a></div><div class="quote">this would be cool automated.<br />run a script, peers are sent to a database.<br /></div><br />this.<br />the domain is right.<br />still would like see this project progress. </div>
+					<br /><br />
+					<div align="center" class="smalltext">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank">Powered by SMF 1.1.19</a> | 
+<a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank">SMF &copy; 2006-2009, Simple Machines</a>
+		</span></div>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

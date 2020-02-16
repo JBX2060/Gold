@@ -1,0 +1,170 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+		<link rel="canonical" href="https://bitcointalk.org/index.php?topic=389129.0" />
+		<title>Print Page - Scrypt mining with xfx 7970 GHZ, low hashrate</title>
+		<style type="text/css">
+			body
+			{
+				color: black;
+				background-color: white;
+			}
+			body, td, .normaltext
+			{
+				font-family: Verdana, arial, helvetica, serif;
+				font-size: small;
+			}
+			*, a:link, a:visited, a:hover, a:active
+			{
+				color: black !important;
+			}
+			table
+			{
+				empty-cells: show;
+			}
+			.code
+			{
+				font-size: x-small;
+				font-family: monospace;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.quote
+			{
+				font-size: x-small;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.smalltext, .quoteheader, .codeheader
+			{
+				font-size: x-small;
+			}
+			.largetext
+			{
+				font-size: large;
+			}
+			hr
+			{
+				height: 1px;
+				border: 0;
+				color: black;
+				background-color: black;
+			}
+		</style>
+	</head>
+	<body>
+		<h1 class="largetext">Bitcoin Forum</h1>
+		<h2 class="normaltext">Alternate cryptocurrencies => Altcoin Discussion => Topic started by: kosmarnik on December 28, 2013, 03:41:50 PM</h2>
+
+		<table width="90%" cellpadding="0" cellspacing="0" border="0">
+			<tr>
+				<td>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Scrypt mining with xfx 7970 GHZ, low hashrate</b><br />
+					Post by: <b>kosmarnik</b> on <b>December 28, 2013, 03:41:50 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Hi,<br />might as well do my introduction with a proper post.<br /><br />So I got an XFX 7970 Gigahertz edition, double dissipation. non-reference board with two dvi, hdmi and two dp ports. No bios switch too.<br /><br />The sticker on the board says: 797G-TD&nbsp; FX-797G-TDF VA1<br />GHZ DD RADEON XT2 1050M WITH BOOST<br /><br />Atiflash product name: Tahiti B0 XT2 C38620 GDDR5 3GB 500e/150m<br />BIOS P/N: 113-797TDF70-101<br />BIOS ver: 015.022.000.001.000000<br />BIOS date: 07/18/12<br /><br />No matter how I configure cgminer I can only get ~520kh/s out of the card.<br /><br />Reading around, it seems a different BIOS would help, so I tried a bunch with crappy results.<br />None of the XFX ones will even boot, gigabyte won&#039;t load drivers, sapphire will load drivers but crashes. All were different 7970 BIOSes.<br />I tried one xfx r9 280x but that one wouldn&#039;t even flash for some reason (flashing failed).<br /><br />I welcome any suggestion as to what BIOS might work for this card.<br /><br /><br /><br /><br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Scrypt mining with xfx 7970 GHZ, low hashrate</b><br />
+					Post by: <b>bazarimajom</b> on <b>December 28, 2013, 05:03:32 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Hello!<br /><br />I&#039;d suggest trying playing with different switches in cgminer. I have 2 280xs which are basically 7970s. Here is what you should try: --gpu-engine 1098,1084 --gpu-memclock 1500,1500 --thread-concurrency 11200 -I 13. First i set gpu-memclock to 1500 which helped me to get above 600 then, thread concurrency, then set gpu-engine clock and try a few values between 1050-1100, and wait a few seconds for the hashrate to stablize. Hope this help, i&nbsp; don&#039;t think flashing new bios will help. Also try it on a fresh windows, it helped me a lot too. </div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Scrypt mining with xfx 7970 GHZ, low hashrate</b><br />
+					Post by: <b>kosmarnik</b> on <b>December 29, 2013, 11:34:08 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=389129.msg4188265#msg4188265">Quote from: bazarimajom on December 28, 2013, 05:03:32 PM</a></div><div class="quote">Hello!<br /><br />I&#039;d suggest trying playing with different switches in cgminer. I have 2 280xs which are basically 7970s. Here is what you should try: --gpu-engine 1098,1084 --gpu-memclock 1500,1500 --thread-concurrency 11200 -I 13. First i set gpu-memclock to 1500 which helped me to get above 600 then, thread concurrency, then set gpu-engine clock and try a few values between 1050-1100, and wait a few seconds for the hashrate to stablize. Hope this help, i&nbsp; don&#039;t think flashing new bios will help. Also try it on a fresh windows, it helped me a lot too. <br /></div><br />Thanks, but I systematically went over a lot of combination of switches, cgminer versions, driver versions, SDK versions.<br />I tried it on linux just to be doubly sure.<br /><br />On the other hand it&#039;s been confirmed that XFX and some other cards have mining crippled firmware. <br />Some folks can flash their cards and get normal hashrates ~700-750kh/s.<br />I&#039;m just unlucky as this is a non-ref design.<br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Scrypt mining with xfx 7970 GHZ, low hashrate</b><br />
+					Post by: <b>infinitybo</b> on <b>December 29, 2013, 03:24:51 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">@Kosmarnik Everyone should use the same stuff because this hardware mining looks so powerful !</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Scrypt mining with xfx 7970 GHZ, low hashrate</b><br />
+					Post by: <b>makafeli</b> on <b>December 29, 2013, 03:31:37 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">try this: http://infinitecointalk.org/index.php?topic=36.0</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Scrypt mining with xfx 7970 GHZ, low hashrate</b><br />
+					Post by: <b>kosmarnik</b> on <b>December 31, 2013, 02:17:01 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=389129.msg4203423#msg4203423">Quote from: makafeli on December 29, 2013, 03:31:37 PM</a></div><div class="quote">try this: http://infinitecointalk.org/index.php?topic=36.0<br /></div><br />Try what?<br />The poster did not say what BIOS he flashed?<br />As I mentioned in the OP, I already tried a bunch of BIOS from different cards/mfgs but no luck yet.<br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Scrypt mining with xfx 7970 GHZ, low hashrate</b><br />
+					Post by: <b>nongdanvoz</b> on <b>December 31, 2013, 03:08:18 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">1080/1500<br />TC 8192<br />I 13<br /><br />750kh/s<br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Scrypt mining with xfx 7970 GHZ, low hashrate</b><br />
+					Post by: <b>JamesBolivar</b> on <b>December 31, 2013, 03:11:24 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=389129.msg4187260#msg4187260">Quote from: kosmarnik on December 28, 2013, 03:41:50 PM</a></div><div class="quote">I tried one xfx r9 280x but that one wouldn&#039;t even flash for some reason (flashing failed).<br /></div><br />Flashing a 7970 with a 280X BIOS needs to be done from command prompt using &quot;-f&quot; (force option) because of different sub ids.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Scrypt mining with xfx 7970 GHZ, low hashrate</b><br />
+					Post by: <b>Davidbc</b> on <b>December 31, 2013, 03:12:27 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Without any overclock, a 7970 should be getting more than 520 khash/s easily. I have a 7950 boost (925/1250) and I&#039;m getting more than 520 khash/s.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Scrypt mining with xfx 7970 GHZ, low hashrate</b><br />
+					Post by: <b>kosmarnik</b> on <b>December 31, 2013, 06:51:12 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=389129.msg4239649#msg4239649">Quote from: Davidbc on December 31, 2013, 03:12:27 PM</a></div><div class="quote">Without any overclock, a 7970 should be getting more than 520 khash/s easily. I have a 7950 boost (925/1250) and I&#039;m getting more than 520 khash/s.<br /></div>I know. <br />It&#039;s a known problem with some cards, especially GHZ edition. mine is 1050/1500 stock, and is only 500-520kh/s.<br />Lots of people solved it by flashing non-GHZ BIOS, but I can&#039;t find one that will work with my card :(<br />Hopefully someone with the same card will share a good BIOS for mining.<br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Scrypt mining with xfx 7970 GHZ, low hashrate</b><br />
+					Post by: <b>ArcticWolfie</b> on <b>December 31, 2013, 06:54:17 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=389129.msg4242899#msg4242899">Quote from: kosmarnik on December 31, 2013, 06:51:12 PM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=389129.msg4239649#msg4239649">Quote from: Davidbc on December 31, 2013, 03:12:27 PM</a></div><div class="quote">Without any overclock, a 7970 should be getting more than 520 khash/s easily. I have a 7950 boost (925/1250) and I&#039;m getting more than 520 khash/s.<br /></div>I know. <br />It&#039;s a known problem with some cards, especially GHZ edition. mine is 1050/1500 stock, and is only 500-520kh/s.<br />Lots of people solved it by flashing non-GHZ BIOS, but I can&#039;t find one that will work with my card :(<br />Hopefully someone with the same card will share a good BIOS for mining.<br /><br /></div>Did you try any other miner? Like bfgminer (or reaper...)?<br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Scrypt mining with xfx 7970 GHZ, low hashrate</b><br />
+					Post by: <b>makafeli</b> on <b>December 31, 2013, 07:11:08 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">this is the bios I used..<br />http://www.techpowerup.com/vgabios/131592/gigabyte-hd7970-3072-121214.html</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Scrypt mining with xfx 7970 GHZ, low hashrate</b><br />
+					Post by: <b>fishbone</b> on <b>January 05, 2014, 12:33:14 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">I have the same problem With XFX 7970 DD Ghz card too. It has 2 dvi ports.<br /><br />The sticker says:<br /><br />FX - 797A - TD FX- 797A - TDBC V3.1 <br /><br /><br />Any got a suggestion to a BIOS that Works and gives good hashing?<br /><br /><br />-edit:<br /><br />This bios Works:<br /><br />http://www.techpowerup.com/vgabios/133826/gigabyte-hd7970-3072-121106.html<br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Scrypt mining with xfx 7970 GHZ, low hashrate</b><br />
+					Post by: <b>iTunesStats</b> on <b>January 12, 2014, 08:34:26 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">cgminer switches will be easiest way, bios last option</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Scrypt mining with xfx 7970 GHZ, low hashrate</b><br />
+					Post by: <b>DogeNukem</b> on <b>February 16, 2014, 06:39:42 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">I have this same exact card OP, and I can&#039;t get any BIOS to flash.&nbsp; I tried using ATIflash in dos, and unlocking the BIOS then using /f switch.&nbsp; No go.<br /><br />Winflash fails as well.<br /><br />I can&#039;t even get it to top 450 most of the time :(<br /><br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Scrypt mining with xfx 7970 GHZ, low hashrate</b><br />
+					Post by: <b>TranZer</b> on <b>February 16, 2014, 08:35:06 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=389129.msg4239628#msg4239628">Quote from: JamesBolivar on December 31, 2013, 03:11:24 PM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=389129.msg4187260#msg4187260">Quote from: kosmarnik on December 28, 2013, 03:41:50 PM</a></div><div class="quote">I tried one xfx r9 280x but that one wouldn&#039;t even flash for some reason (flashing failed).<br /></div><br />Flashing a 7970 with a 280X BIOS needs to be done from command prompt using &quot;-f&quot; (force option) because of different sub ids.<br /></div><br />I pesonally did the same... I had 7970 Matrix and it didnt get over 520khash/s. After flashing it with BIOS of 280x I get 750.<br /><br />Do not forget to set GPU clock to 1080Mhz and mem to 1500Mhz.</div>
+					<br /><br />
+					<div align="center" class="smalltext">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank">Powered by SMF 1.1.19</a> | 
+<a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank">SMF &copy; 2006-2009, Simple Machines</a>
+		</span></div>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

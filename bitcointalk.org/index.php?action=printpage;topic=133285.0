@@ -1,0 +1,176 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+		<link rel="canonical" href="https://bitcointalk.org/index.php?topic=133285.0" />
+		<title>Print Page - Bitcoins gone</title>
+		<style type="text/css">
+			body
+			{
+				color: black;
+				background-color: white;
+			}
+			body, td, .normaltext
+			{
+				font-family: Verdana, arial, helvetica, serif;
+				font-size: small;
+			}
+			*, a:link, a:visited, a:hover, a:active
+			{
+				color: black !important;
+			}
+			table
+			{
+				empty-cells: show;
+			}
+			.code
+			{
+				font-size: x-small;
+				font-family: monospace;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.quote
+			{
+				font-size: x-small;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.smalltext, .quoteheader, .codeheader
+			{
+				font-size: x-small;
+			}
+			.largetext
+			{
+				font-size: large;
+			}
+			hr
+			{
+				height: 1px;
+				border: 0;
+				color: black;
+				background-color: black;
+			}
+		</style>
+	</head>
+	<body>
+		<h1 class="largetext">Bitcoin Forum</h1>
+		<h2 class="normaltext">Bitcoin => Bitcoin Technical Support => Topic started by: farlack on December 25, 2012, 06:16:48 PM</h2>
+
+		<table width="90%" cellpadding="0" cellspacing="0" border="0">
+			<tr>
+				<td>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Bitcoins gone</b><br />
+					Post by: <b>farlack</b> on <b>December 25, 2012, 06:16:48 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">So here is whats going on, I bought a new laptop with windows 8, I transferred all my data onto an external hard drive, when I opened it up on W8 I had to load the blockchain again, and the UI looked odd. When everything loaded, everything was there except my coins, transaction names are there but nothing else.<br /><br />I thought it may be a failure of transfer from my hard drive so I plugged in my old hard drive to my new computer via external ports so W8 and W7 were hooked up at the same time, and the same results. The UI looks weird, so I plugged in my non-external hard drive to another computer that&#039;s the same model as my windows 7 while their hard drive was still loaded, and re downloaded the block chain off my W7 hard drive. The chain loaded, the saved transaction names loaded, no coins showed up.<br /><br />The persons who W7 computer I used also has bitcoin-qt installed they didn&#039;t have any coins in their account, but after the blockchain reloaded, and nothing showed up, I opened his bitcoin-qt, and my transaction names are saved under his client, and all coins are missing.<br /><br />What am I missing? I thought that having the data on the external was safe enough, had no paper backups, but somewhere something conflicted.<br />It was only 10 coins gone, but I&#039;m curious if anyone knows of a fix, or have had the same issue and can tell me if I&#039;m wasting time trying to get the coins.<br /><br />Let me know if I confused you with my explanation lol.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Bitcoins gone</b><br />
+					Post by: <b>K1773R</b> on <b>December 25, 2012, 06:26:29 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">you didnt backup ur Bitcoin folder in AppData, why didnt u?</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Bitcoins gone</b><br />
+					Post by: <b>farlack</b> on <b>December 25, 2012, 10:47:13 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">I thought I did on my external and when I went to transfer it didn&#039;t work.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Bitcoins gone</b><br />
+					Post by: <b>farlack</b> on <b>December 25, 2012, 10:51:28 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">When I loaded my main hard drive as an external would that make it overwrite everything for my data and load the c drive files of the host computer? When I loaded my hard drive as an external it was like f and g drive.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Bitcoins gone</b><br />
+					Post by: <b>JoelKatz</b> on <b>December 25, 2012, 10:59:33 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Before you do anything else, search all your drives for any &#039;wallet.dat&#039; files. Save copies of every one you find.<br /><br />(Fixed: Sorry for the typo.)<br /><br /><br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Bitcoins gone</b><br />
+					Post by: <b>K1773R</b> on <b>December 25, 2012, 11:25:05 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=133285.msg1419800#msg1419800">Quote from: JoelKatz on December 25, 2012, 10:59:33 PM</a></div><div class="quote">Before you do anything else, search all your drives for any &#039;wallet.data&#039; files. Save copies of every one you find.<br /><br /></div>search for wallet.dat not .data<br />if u didnt wipe ur harddisk then theres a script (have to search) who scans the full HD for privkeys/wallets.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Bitcoins gone</b><br />
+					Post by: <b>farlack</b> on <b>December 26, 2012, 04:36:48 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=133285.msg1419825#msg1419825">Quote from: K1773R on December 25, 2012, 11:25:05 PM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=133285.msg1419800#msg1419800">Quote from: JoelKatz on December 25, 2012, 10:59:33 PM</a></div><div class="quote">Before you do anything else, search all your drives for any &#039;wallet.data&#039; files. Save copies of every one you find.<br /><br /></div>search for wallet.dat not .data<br />if u didnt wipe ur harddisk then theres a script (have to search) who scans the full HD for privkeys/wallets.<br /></div><br />I found it, last change was 12/21/12 I think this is it. I don&#039;t know anything else that I&#039;m doing, so I&#039;ll try to figure it out. Please link me your donation link if I get my coins I&#039;ll send you some cash.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Bitcoins gone</b><br />
+					Post by: <b>John (John K.)</b> on <b>December 26, 2012, 04:52:17 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=133285.msg1420069#msg1420069">Quote from: farlack on December 26, 2012, 04:36:48 AM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=133285.msg1419825#msg1419825">Quote from: K1773R on December 25, 2012, 11:25:05 PM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=133285.msg1419800#msg1419800">Quote from: JoelKatz on December 25, 2012, 10:59:33 PM</a></div><div class="quote">Before you do anything else, search all your drives for any &#039;wallet.data&#039; files. Save copies of every one you find.<br /><br /></div>search for wallet.dat not .data<br />if u didnt wipe ur harddisk then theres a script (have to search) who scans the full HD for privkeys/wallets.<br /></div><br />I found it, last change was 12/21/12 I think this is it. I don&#039;t know anything else that I&#039;m doing, so I&#039;ll try to figure it out. Please link me your donation link if I get my coins I&#039;ll send you some cash.<br /></div>Whatever you do next remember to backup it first. If it fails to load remember to run the dumpprivkey command to get the keys out.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Bitcoins gone</b><br />
+					Post by: <b>farlack</b> on <b>December 26, 2012, 04:58:46 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">I now have it on my old main hard drive, external hard drive, and now on my new computer. I don&#039;t know much of the technical properties of this, but for the info you provided about dumpkey, I&#039;ll toss you some cash too if I get them.<br /><br />What do I do with the keys? lol..</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Bitcoins gone</b><br />
+					Post by: <b>John (John K.)</b> on <b>December 26, 2012, 05:15:17 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=133285.msg1420091#msg1420091">Quote from: farlack on December 26, 2012, 04:58:46 AM</a></div><div class="quote">I now have it on my old main hard drive, external hard drive, and now on my new computer. I don&#039;t know much of the technical properties of this, but for the info you provided about dumpkey, I&#039;ll toss you some cash too if I get them.<br /><br />What do I do with the keys? lol..<br /></div>You can import the keys to Electrum, Mt.Gox, blockchain.info..... they&#039;re essentially your bitcoins. Try pywallet (https://github.com/jackjack-jj/pywallet) if loading to bitcoin-qt fails (it can happen sometimes). </div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Bitcoins gone</b><br />
+					Post by: <b>farlack</b> on <b>December 26, 2012, 05:52:39 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=133285.msg1420105#msg1420105">Quote from: John (johnthedong) on December 26, 2012, 05:15:17 AM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=133285.msg1420091#msg1420091">Quote from: farlack on December 26, 2012, 04:58:46 AM</a></div><div class="quote">I now have it on my old main hard drive, external hard drive, and now on my new computer. I don&#039;t know much of the technical properties of this, but for the info you provided about dumpkey, I&#039;ll toss you some cash too if I get them.<br /><br />What do I do with the keys? lol..<br /></div>You can import the keys to Electrum, Mt.Gox, blockchain.info..... they&#039;re essentially your bitcoins. Try pywallet (https://github.com/jackjack-jj/pywallet) if loading to bitcoin-qt fails (it can happen sometimes). <br /></div><br />Does pywallet work with windows 8? I&#039;m trying and all its doing is telling me it cant find the path. Probably due to the fact W8 doesn&#039;t have a start menu.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Bitcoins gone</b><br />
+					Post by: <b>John (John K.)</b> on <b>December 26, 2012, 11:12:14 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=133285.msg1420129#msg1420129">Quote from: farlack on December 26, 2012, 05:52:39 AM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=133285.msg1420105#msg1420105">Quote from: John (johnthedong) on December 26, 2012, 05:15:17 AM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=133285.msg1420091#msg1420091">Quote from: farlack on December 26, 2012, 04:58:46 AM</a></div><div class="quote">I now have it on my old main hard drive, external hard drive, and now on my new computer. I don&#039;t know much of the technical properties of this, but for the info you provided about dumpkey, I&#039;ll toss you some cash too if I get them.<br /><br />What do I do with the keys? lol..<br /></div>You can import the keys to Electrum, Mt.Gox, blockchain.info..... they&#039;re essentially your bitcoins. Try pywallet (https://github.com/jackjack-jj/pywallet) if loading to bitcoin-qt fails (it can happen sometimes). <br /></div><br />Does pywallet work with windows 8? I&#039;m trying and all its doing is telling me it cant find the path. Probably due to the fact W8 doesn&#039;t have a start menu.<br /></div>It should work, although I&#039;ve never used Win 8 with pywallet before. Was the import to bitcoin QT unsuccessful?</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Bitcoins gone</b><br />
+					Post by: <b>farlack</b> on <b>December 26, 2012, 09:21:57 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">I was able to copy wallet.dat into my new client. Thanks for the help :) .3 btc to both of you.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Bitcoins gone</b><br />
+					Post by: <b>K1773R</b> on <b>December 26, 2012, 09:24:59 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=133285.msg1421117#msg1421117">Quote from: farlack on December 26, 2012, 09:21:57 PM</a></div><div class="quote">I was able to copy wallet.dat into my new client. Thanks for the help :) .3 btc to both of you.<br /></div>ty :) enjoy ur Bitcoin journey ;)</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Bitcoins gone</b><br />
+					Post by: <b>John (John K.)</b> on <b>December 28, 2012, 01:57:48 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=133285.msg1421117#msg1421117">Quote from: farlack on December 26, 2012, 09:21:57 PM</a></div><div class="quote">I was able to copy wallet.dat into my new client. Thanks for the help :) .3 btc to both of you.<br /></div>Thanks, I was wondering where the .3 came from.&nbsp; :D<br />Remember to back up your wallet regularly!</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Bitcoins gone</b><br />
+					Post by: <b>betatest512</b> on <b>December 28, 2012, 07:19:20 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=133285.msg1422870#msg1422870">Quote from: John (johnthedong) on December 28, 2012, 01:57:48 AM</a></div><div class="quote">Remember to back up your wallet regularly!<br /></div><br />+1</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Bitcoins gone</b><br />
+					Post by: <b>mc_lovin</b> on <b>December 28, 2012, 08:56:03 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">i like happy endings.&nbsp; thread should be called &#039;Bitcoins found&#039; now :D</div>
+					<br /><br />
+					<div align="center" class="smalltext">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank">Powered by SMF 1.1.19</a> | 
+<a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank">SMF &copy; 2006-2009, Simple Machines</a>
+		</span></div>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

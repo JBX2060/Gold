@@ -1,0 +1,206 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+		<link rel="canonical" href="https://bitcointalk.org/index.php?topic=122677.0" />
+		<title>Print Page - Instawallet URL lost - Is there any hope? BTC FOR HELP!</title>
+		<style type="text/css">
+			body
+			{
+				color: black;
+				background-color: white;
+			}
+			body, td, .normaltext
+			{
+				font-family: Verdana, arial, helvetica, serif;
+				font-size: small;
+			}
+			*, a:link, a:visited, a:hover, a:active
+			{
+				color: black !important;
+			}
+			table
+			{
+				empty-cells: show;
+			}
+			.code
+			{
+				font-size: x-small;
+				font-family: monospace;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.quote
+			{
+				font-size: x-small;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.smalltext, .quoteheader, .codeheader
+			{
+				font-size: x-small;
+			}
+			.largetext
+			{
+				font-size: large;
+			}
+			hr
+			{
+				height: 1px;
+				border: 0;
+				color: black;
+				background-color: black;
+			}
+		</style>
+	</head>
+	<body>
+		<h1 class="largetext">Bitcoin Forum</h1>
+		<h2 class="normaltext">Bitcoin => Bitcoin Technical Support => Topic started by: omgitsmehehe on November 06, 2012, 08:35:02 PM</h2>
+
+		<table width="90%" cellpadding="0" cellspacing="0" border="0">
+			<tr>
+				<td>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Instawallet URL lost - Is there any hope? BTC FOR HELP!</b><br />
+					Post by: <b>omgitsmehehe</b> on <b>November 06, 2012, 08:35:02 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Hi everyone,<br /><br />I&#039;m sure this probably gets asked a lot but I lost my instawallet url.<br /><br />I have the bitcoin address if that may carry some weight. Is there any hope for me?<br /><br />PLEASEEEEEE lol.<br /><br />Thanks<br /><br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Instawallet URL lost - Is there any hope?</b><br />
+					Post by: <b>Stephen Gornick</b> on <b>November 06, 2012, 08:56:31 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=122677.msg1320551#msg1320551">Quote from: omgitsmehehe on November 06, 2012, 08:35:02 PM</a></div><div class="quote">Is there any hope for me?</div><br />InstaWallet is a low-security wallet, which doesn&#039;t require username or password to access the wallet.<br /><br />Thus knowledge of the URL gives the ability to spend the funds.<br /><br />Your browser will cache the browsing history, so unless you clear history you should be able to recover the URL from your browser.<br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Instawallet URL lost - Is there any hope?</b><br />
+					Post by: <b>omgitsmehehe</b> on <b>November 06, 2012, 08:58:14 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=122677.msg1320619#msg1320619">Quote from: Stephen Gornick on November 06, 2012, 08:56:31 PM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=122677.msg1320551#msg1320551">Quote from: omgitsmehehe on November 06, 2012, 08:35:02 PM</a></div><div class="quote">Is there any hope for me?</div><br />InstaWallet is a low-security wallet, which doesn&#039;t require username or password to access the wallet.<br /><br />Thus knowledge of the URL gives the ability to spend the funds.<br /><br />Your browser will cache the browsing history, so unless you clear history you should be able to recover the URL from your browser.<br /><br /></div><br />I clear everything upon closing the browser :( I read a topic of &#039;brute forcing&#039; instwallet urls. Could this apply to my situation?<br /><br />Thanks</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Instawallet URL lost - Is there any hope?</b><br />
+					Post by: <b>paraipan</b> on <b>November 06, 2012, 09:00:01 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=122677.msg1320626#msg1320626">Quote from: omgitsmehehe on November 06, 2012, 08:58:14 PM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=122677.msg1320619#msg1320619">Quote from: Stephen Gornick on November 06, 2012, 08:56:31 PM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=122677.msg1320551#msg1320551">Quote from: omgitsmehehe on November 06, 2012, 08:35:02 PM</a></div><div class="quote">Is there any hope for me?</div><br />InstaWallet is a low-security wallet, which doesn&#039;t require username or password to access the wallet.<br /><br />Thus knowledge of the URL gives the ability to spend the funds.<br /><br />Your browser will cache the browsing history, so unless you clear history you should be able to recover the URL from your browser.<br /><br /></div><br />I clear everything upon closing the browser :( I read a topic of &#039;brute forcing&#039; instwallet urls. Could this apply to my situation?<br /><br />Thanks<br /></div><br />How much was that? From where you received the coins?</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Instawallet URL lost - Is there any hope?</b><br />
+					Post by: <b>omgitsmehehe</b> on <b>November 06, 2012, 09:01:29 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=122677.msg1320629#msg1320629">Quote from: paraipan on November 06, 2012, 09:00:01 PM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=122677.msg1320626#msg1320626">Quote from: omgitsmehehe on November 06, 2012, 08:58:14 PM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=122677.msg1320619#msg1320619">Quote from: Stephen Gornick on November 06, 2012, 08:56:31 PM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=122677.msg1320551#msg1320551">Quote from: omgitsmehehe on November 06, 2012, 08:35:02 PM</a></div><div class="quote">Is there any hope for me?</div><br />InstaWallet is a low-security wallet, which doesn&#039;t require username or password to access the wallet.<br /><br />Thus knowledge of the URL gives the ability to spend the funds.<br /><br />Your browser will cache the browsing history, so unless you clear history you should be able to recover the URL from your browser.<br /><br /></div><br />I clear everything upon closing the browser :( I read a topic of &#039;brute forcing&#039; instwallet urls. Could this apply to my situation?<br /><br />Thanks<br /></div><br />How much was that? From where you received the coins?<br /></div><br />From BitcoinFog so multiple addresses and for around 13 coins.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Instawallet URL lost - Is there any hope?</b><br />
+					Post by: <b>SgtSpike</b> on <b>November 06, 2012, 09:04:09 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Whoops - shouldn&#039;t have cleared your browsing history.<br /><br />You could try one of those &quot;recover lost files&quot; programs, and see if you can recover the URL in your browsing history.&nbsp; But install it on a different computer, slave the drive you are using, and do it that way, else the installation of said program may overwrite the data you are looking for.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Instawallet URL lost - Is there any hope?</b><br />
+					Post by: <b>paraipan</b> on <b>November 06, 2012, 09:06:03 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=122677.msg1320632#msg1320632">Quote from: omgitsmehehe on November 06, 2012, 09:01:29 PM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=122677.msg1320629#msg1320629">Quote from: paraipan on November 06, 2012, 09:00:01 PM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=122677.msg1320626#msg1320626">Quote from: omgitsmehehe on November 06, 2012, 08:58:14 PM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=122677.msg1320619#msg1320619">Quote from: Stephen Gornick on November 06, 2012, 08:56:31 PM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=122677.msg1320551#msg1320551">Quote from: omgitsmehehe on November 06, 2012, 08:35:02 PM</a></div><div class="quote">Is there any hope for me?</div><br />InstaWallet is a low-security wallet, which doesn&#039;t require username or password to access the wallet.<br /><br />Thus knowledge of the URL gives the ability to spend the funds.<br /><br />Your browser will cache the browsing history, so unless you clear history you should be able to recover the URL from your browser.<br /><br /></div><br />I clear everything upon closing the browser :( I read a topic of &#039;brute forcing&#039; instwallet urls. Could this apply to my situation?<br /><br />Thanks<br /></div><br />How much was that? From where you received the coins?<br /></div><br />From BitcoinFog so multiple addresses and for around 13 coins.<br /></div><br />Lol, good luck with that, and welcome to bitcoin. Btw, ctrl-c ctrl-v has never been so powerful at saving money.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Instawallet URL lost - Is there any hope?</b><br />
+					Post by: <b>omgitsmehehe</b> on <b>November 06, 2012, 09:09:25 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=122677.msg1320645#msg1320645">Quote from: SgtSpike on November 06, 2012, 09:04:09 PM</a></div><div class="quote">Whoops - shouldn&#039;t have cleared your browsing history.<br /><br />You could try one of those &quot;recover lost files&quot; programs, and see if you can recover the URL in your browsing history.&nbsp; But install it on a different computer, slave the drive you are using, and do it that way, else the installation of said program may overwrite the data you are looking for.<br /></div><br />The computer was not turned off and was left running the whole time. I started the bitcoinfog withdrawal about 3pm for 6 hours so finished around 5 minutes ago. The browser was opened and closed numerous times in &#039;private browsing&#039; <br /><br />to paraipan, I used instawallet numerous times without issues just by c and p the url to a notepad. I could have sworn I saved it cos I remember typing in the total amount to be received to the wallet. I have checked the &#039;previous file versions&#039; of notepad and found nothing.<br /><br />Thanks</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Instawallet URL lost - Is there any hope?</b><br />
+					Post by: <b>MysteryMiner</b> on <b>November 06, 2012, 10:06:23 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Recent Firefox versions overwrite the data when deleting browsing history.<br /><br />The chance to recover is very small. Better chances of success is providing the Instawallet owner with information that only You know (such as access to Bitcoin Fog account from what the coins is sent) and that cannot be harvested from blockchain or some other source to prove that it is you who sent the transaction.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Instawallet URL lost - Is there any hope?</b><br />
+					Post by: <b>omgitsmehehe</b> on <b>November 06, 2012, 10:08:53 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=122677.msg1320788#msg1320788">Quote from: MysteryMiner on November 06, 2012, 10:06:23 PM</a></div><div class="quote">Recent Firefox versions overwrite the data when deleting browsing history.<br /><br />The chance to recover is very small. Better chances of success is providing the Instawallet owner with information that only You know (such as access to Bitcoin Fog account from what the coins is sent) and that cannot be harvested from blockchain or some other source to prove that it is you who sent the transaction.<br /></div><br />What sort of identifying information could I relay to the webmaster thats not readily available on the blockchain? <br /><br />I don&#039;t want to waste their time by sending them pointless info so any help is muchly appreciated. If I can retrieve the coins there will be some coins in for all that helped to the retrieval, including the webmaster of course!<br /><br />Thanks</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Instawallet URL lost - Is there any hope? BTC FOR HELP!</b><br />
+					Post by: <b>MysteryMiner</b> on <b>November 06, 2012, 10:16:28 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader">Quote</div><div class="quote">What sort of identifying information could I relay to the webmaster thats not readily available on the blockchain? </div>Prove that You own the sending addresses to the transaction of yours. Giving Instawallet admin access to the Bitcoin Fog account to see history will show that You have sent the coins. You will lose privacy but you can possibly get your coins back.<br /><br />I have not used Bitcoin Fog for long time, don&#039;t even know how it looks now or does it have history saved somewhere.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Instawallet URL lost - Is there any hope? BTC FOR HELP!</b><br />
+					Post by: <b>omgitsmehehe</b> on <b>November 06, 2012, 10:20:11 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">BitcoinFog doesn&#039;t keep any logs :(<br /><br />I think its safe to say the coins are gone.<br /><br />Thanks</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Instawallet URL lost - Is there any hope? BTC FOR HELP!</b><br />
+					Post by: <b>koin</b> on <b>November 06, 2012, 10:27:07 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=122677.msg1320816#msg1320816">Quote from: omgitsmehehe on November 06, 2012, 10:20:11 PM</a></div><div class="quote">I think its safe to say the coins are gone.<br /></div><br /><br />yup.<br /><br /><a href="http://i.imgur.com/tl6oL.png">http://i.imgur.com/tl6oL.png</a><br /><br />and<br /><br /><a href="http://i.imgur.com/ESWu3.png">http://i.imgur.com/ESWu3.png</a><br /><br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Instawallet URL lost - Is there any hope? BTC FOR HELP!</b><br />
+					Post by: <b>DannyHamilton</b> on <b>November 06, 2012, 11:04:01 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Useless for your current situation, but possibly useful knowledge for future use of instawallet...<br /><br />After playing around with the instawallet URL a bit it appears that the site will accept any 31 character alphanumeric string and produce a useable bitcoin address.&nbsp; So if you are only briefly storing your coins there with plans to forward them on somewhere else rather quickly, and you are willing to accept the risk of using a URL that isn&#039;t randomly generated, you could come up with your own (easier to memorize) URL.<br /><br />Examples that seem to work (Probably best not to use these now that I&#039;ve posted them here, but you get the idea, just come up with your own string easy for you to remember):<br /><br />https://instawallet.org/w/bitcoinbitcoinbitcoinbitcoinbit<br />https://instawallet.org/w/1111111111111111111111111111111<br />https://instawallet.org/w/0123456789abcdefghijklmnopqrstu<br />https://instawallet.org/w/IamANidiotFORusingAguessableURL</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Instawallet URL lost - Is there any hope? BTC FOR HELP!</b><br />
+					Post by: <b>omgitsmehehe</b> on <b>November 06, 2012, 11:50:16 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Yeah I noticed that after messing around with random integers! Although I never really thought about creating a custom string of characters.<br /><br />Thanks for sharing!</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Instawallet URL lost - Is there any hope? BTC FOR HELP!</b><br />
+					Post by: <b>MysteryMiner</b> on <b>November 07, 2012, 03:29:20 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">The question is not what online wallet to use in future. Problem is that OP lost 13 BTC. I wish I could steal them!</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Instawallet URL lost - Is there any hope? BTC FOR HELP!</b><br />
+					Post by: <b>deepceleron</b> on <b>November 07, 2012, 03:57:25 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">It may be possible to boot off a forensic live CD such as Deft Linux (http://www.deftlinux.net/about/), mount the raw disk partition, and scan the entire drive for &quot;instawallet.org/w&quot;. If the url was written anywhere on the disk (even page file) and not properly erased, this may discover it.<br /><br /><a href="http://i1-linux.softpedia-static.com/screenshots/DEFT_4.jpg">http://i1-linux.softpedia-static.com/screenshots/DEFT_4.jpg</a></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Instawallet URL lost - Is there any hope? BTC FOR HELP!</b><br />
+					Post by: <b>MysteryMiner</b> on <b>November 07, 2012, 04:36:04 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">I would use HxD to search for this string with harddrive connected to another machine.. But as I said the chances are very slim.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Instawallet URL lost - Is there any hope? BTC FOR HELP!</b><br />
+					Post by: <b>omgitsmehehe</b> on <b>November 07, 2012, 05:15:58 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Thanks for all replies but computer has now been power cycled so coins are gone.<br /><br />Anyone who thinks they may be able to crack it then you&#039;re welcome to the booty!<br /><br />P.S if you do crack it please be kind enough to send me the 3 BTC and you can keep the 10!</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Instawallet URL lost - Is there any hope? BTC FOR HELP!</b><br />
+					Post by: <b>MysteryMiner</b> on <b>November 07, 2012, 06:07:10 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader">Quote</div><div class="quote">Thanks for all replies but computer has now been power cycled so coins are gone.</div>Power cycling is not so bad as letting OS and software to write data to it. When something is lost from hard drive by deletion the best action is pull out the power cord to write as less information as possible.<div class="quoteheader">Quote</div><div class="quote">Anyone who thinks they may be able to crack it then you&#039;re welcome to the booty!</div>For that I need the physical hard drive or at least properly made sector by sector copy of it. I doubt anyone will trust me with such information as I might recover other data.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Instawallet URL lost - Is there any hope? BTC FOR HELP!</b><br />
+					Post by: <b>omgitsmehehe</b> on <b>November 07, 2012, 06:13:18 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=122677.msg1322475#msg1322475">Quote from: MysteryMiner on November 07, 2012, 06:07:10 PM</a></div><div class="quote"><div class="quoteheader">Quote</div><div class="quote">Thanks for all replies but computer has now been power cycled so coins are gone.</div>Power cycling is not so bad as letting OS and software to write data to it. When something is lost from hard drive by deletion the best action is pull out the power cord to write as less information as possible.<div class="quoteheader">Quote</div><div class="quote">Anyone who thinks they may be able to crack it then you&#039;re welcome to the booty!</div>For that I need the physical hard drive or at least properly made sector by sector copy of it. I doubt anyone will trust me with such information as I might recover other data.<br /></div><br />Lol yeah I don&#039;t think I&#039;ll be sending any shadow copies of my drive, especially to recover about $200.<br /><br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Instawallet URL lost - Is there any hope? BTC FOR HELP!</b><br />
+					Post by: <b>MysteryMiner</b> on <b>November 07, 2012, 06:16:33 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">If the porn mode was used with Firefox then only place where the URL might be stored by chance is the swapfile.<br /><br />Being over paranoid sometimes is counterproductive if something is not done properly.</div>
+					<br /><br />
+					<div align="center" class="smalltext">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank">Powered by SMF 1.1.19</a> | 
+<a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank">SMF &copy; 2006-2009, Simple Machines</a>
+		</span></div>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

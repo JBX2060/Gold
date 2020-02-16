@@ -1,0 +1,92 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+		<link rel="canonical" href="https://bitcointalk.org/index.php?topic=129527.0" />
+		<title>Print Page - Forgot transaction fee...</title>
+		<style type="text/css">
+			body
+			{
+				color: black;
+				background-color: white;
+			}
+			body, td, .normaltext
+			{
+				font-family: Verdana, arial, helvetica, serif;
+				font-size: small;
+			}
+			*, a:link, a:visited, a:hover, a:active
+			{
+				color: black !important;
+			}
+			table
+			{
+				empty-cells: show;
+			}
+			.code
+			{
+				font-size: x-small;
+				font-family: monospace;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.quote
+			{
+				font-size: x-small;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.smalltext, .quoteheader, .codeheader
+			{
+				font-size: x-small;
+			}
+			.largetext
+			{
+				font-size: large;
+			}
+			hr
+			{
+				height: 1px;
+				border: 0;
+				color: black;
+				background-color: black;
+			}
+		</style>
+	</head>
+	<body>
+		<h1 class="largetext">Bitcoin Forum</h1>
+		<h2 class="normaltext">Bitcoin => Bitcoin Technical Support => Topic started by: jspring on December 06, 2012, 09:37:42 PM</h2>
+
+		<table width="90%" cellpadding="0" cellspacing="0" border="0">
+			<tr>
+				<td>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Forgot transaction fee...</b><br />
+					Post by: <b>jspring</b> on <b>December 06, 2012, 09:37:42 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Edit: nvm problem solved</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Forgot transaction fee...</b><br />
+					Post by: <b>MaxSan</b> on <b>December 06, 2012, 09:40:41 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">I think you could probably resign the transaction again and add a fee, although I don&#039;t think this is possible within blockchain client.. but can be done as far as im aware.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Forgot transaction fee...</b><br />
+					Post by: <b>DannyHamilton</b> on <b>December 06, 2012, 09:41:08 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">It&#039;ll be picked up eventually, but you&#039;ll have to be patient. &nbsp;I&#039;m not aware of any &quot;easy&quot; way to cancel or modify an unconfirmed transaction.</div>
+					<br /><br />
+					<div align="center" class="smalltext">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank">Powered by SMF 1.1.19</a> | 
+<a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank">SMF &copy; 2006-2009, Simple Machines</a>
+		</span></div>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

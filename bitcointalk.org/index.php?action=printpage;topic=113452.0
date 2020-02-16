@@ -1,0 +1,104 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+		<link rel="canonical" href="https://bitcointalk.org/index.php?topic=113452.0" />
+		<title>Print Page - Can't install Electrum (help!) Mac OSX 10.6.8 (console log posted)</title>
+		<style type="text/css">
+			body
+			{
+				color: black;
+				background-color: white;
+			}
+			body, td, .normaltext
+			{
+				font-family: Verdana, arial, helvetica, serif;
+				font-size: small;
+			}
+			*, a:link, a:visited, a:hover, a:active
+			{
+				color: black !important;
+			}
+			table
+			{
+				empty-cells: show;
+			}
+			.code
+			{
+				font-size: x-small;
+				font-family: monospace;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.quote
+			{
+				font-size: x-small;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.smalltext, .quoteheader, .codeheader
+			{
+				font-size: x-small;
+			}
+			.largetext
+			{
+				font-size: large;
+			}
+			hr
+			{
+				height: 1px;
+				border: 0;
+				color: black;
+				background-color: black;
+			}
+		</style>
+	</head>
+	<body>
+		<h1 class="largetext">Bitcoin Forum</h1>
+		<h2 class="normaltext">Bitcoin => Bitcoin Technical Support => Topic started by: NoobBitcoinUzr on September 27, 2012, 02:14:06 PM</h2>
+
+		<table width="90%" cellpadding="0" cellspacing="0" border="0">
+			<tr>
+				<td>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Can't install Electrum (help!) Mac OSX 10.6.8 (console log posted)</b><br />
+					Post by: <b>NoobBitcoinUzr</b> on <b>September 27, 2012, 02:14:06 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Any help is appreciated. I can basically navigate a terminal window or monkey with some code otherwise if need be, but I would need a little handholding. <br /><br />Thanks so much. <br /><br />http://pastebin.com/YbR54nkt<br /><br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Can't install Electrum (help!) Mac OSX 10.6.8 (console log posted)</b><br />
+					Post by: <b>nomnomnom</b> on <b>September 28, 2012, 06:10:42 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Probably relevant lines from the pastebin:<br /><div class="codeheader">Code:</div><div class="code">9/27/12 7:12:15 AM &nbsp; &nbsp; &nbsp;SIMBL Agent[2755] &nbsp; &nbsp; &nbsp; warning: failed to get scripting definition from /Applications/Electrum.app; it may not be scriptable.<br />9/27/12 7:12:15 AM &nbsp; &nbsp; &nbsp;[0x0-0xd50d5].org.pythonmac.unspecified.Electrum[3184] &nbsp;Traceback (most recent call last):<br />9/27/12 7:12:15 AM &nbsp; &nbsp; &nbsp;[0x0-0xd50d5].org.pythonmac.unspecified.Electrum[3184] &nbsp; &nbsp;File &quot;/Applications/Electrum.app/Contents/Resources/__boot__.py&quot;, line 309, in &lt;module&gt;<br />9/27/12 7:12:15 AM &nbsp; &nbsp; &nbsp;[0x0-0xd50d5].org.pythonmac.unspecified.Electrum[3184] &nbsp; &nbsp; &nbsp;_run(&#039;electrum.py&#039;)<br />9/27/12 7:12:15 AM &nbsp; &nbsp; &nbsp;[0x0-0xd50d5].org.pythonmac.unspecified.Electrum[3184] &nbsp; &nbsp;File &quot;/Applications/Electrum.app/Contents/Resources/__boot__.py&quot;, line 306, in _run<br />9/27/12 7:12:15 AM &nbsp; &nbsp; &nbsp;[0x0-0xd50d5].org.pythonmac.unspecified.Electrum[3184] &nbsp; &nbsp; &nbsp;execfile(path, globals(), globals())<br />9/27/12 7:12:15 AM &nbsp; &nbsp; &nbsp;[0x0-0xd50d5].org.pythonmac.unspecified.Electrum[3184] &nbsp; &nbsp;File &quot;/Applications/Electrum.app/Contents/Resources/electrum.py&quot;, line 147, in &lt;module&gt;<br />9/27/12 7:12:15 AM &nbsp; &nbsp; &nbsp;[0x0-0xd50d5].org.pythonmac.unspecified.Electrum[3184] &nbsp; &nbsp; &nbsp;import electrum.gui_lite as gui<br />9/27/12 7:12:15 AM &nbsp; &nbsp; &nbsp;[0x0-0xd50d5].org.pythonmac.unspecified.Electrum[3184] &nbsp;ImportError: No module named gui_lite<br />9/27/12 7:12:15 AM &nbsp; &nbsp; &nbsp;Electrum[3184] &nbsp;Electrum Error<br /></div><br />I am on linux, but I remember that I had this error message one time. Updating electrum to a newer version fixed it IIRC.<br />Do you have the newest version? <br /><br />Here: https://bitcointalk.org/index.php?topic=100502.msg1144908#msg1144908 someone had this problem and fixed it by updating MacOS.<br />&nbsp;</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Can't install Electrum (help!) Mac OSX 10.6.8 (console log posted)</b><br />
+					Post by: <b>Tachikoma</b> on <b>September 28, 2012, 07:33:58 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Sorry but Electrum for OS X needs 10.7.4 or higher. If you are technical enough you could try building it from source. Upgrading to 10.7.4 should solve your problems. </div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Can't install Electrum (help!) Mac OSX 10.6.8 (console log posted)</b><br />
+					Post by: <b>NoobBitcoinUzr</b> on <b>September 29, 2012, 01:01:54 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Thanks, 10.7.4 it is then, I couldn&#039;t begin to start digging into the code<br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Can't install Electrum (help!) Mac OSX 10.6.8 (console log posted)</b><br />
+					Post by: <b>Tachikoma</b> on <b>September 30, 2012, 08:47:29 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">You wouldn&#039;t have to touch the code itself, I added some OS X build instructions to the download page (http://electrum-desktop.com/download.html), just scroll all the way down. :)</div>
+					<br /><br />
+					<div align="center" class="smalltext">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank">Powered by SMF 1.1.19</a> | 
+<a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank">SMF &copy; 2006-2009, Simple Machines</a>
+		</span></div>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

@@ -1,0 +1,104 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+		<link rel="canonical" href="https://bitcointalk.org/index.php?topic=117367.0" />
+		<title>Print Page - Yubikeys for Blockchain, and Mt Gox</title>
+		<style type="text/css">
+			body
+			{
+				color: black;
+				background-color: white;
+			}
+			body, td, .normaltext
+			{
+				font-family: Verdana, arial, helvetica, serif;
+				font-size: small;
+			}
+			*, a:link, a:visited, a:hover, a:active
+			{
+				color: black !important;
+			}
+			table
+			{
+				empty-cells: show;
+			}
+			.code
+			{
+				font-size: x-small;
+				font-family: monospace;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.quote
+			{
+				font-size: x-small;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.smalltext, .quoteheader, .codeheader
+			{
+				font-size: x-small;
+			}
+			.largetext
+			{
+				font-size: large;
+			}
+			hr
+			{
+				height: 1px;
+				border: 0;
+				color: black;
+				background-color: black;
+			}
+		</style>
+	</head>
+	<body>
+		<h1 class="largetext">Bitcoin Forum</h1>
+		<h2 class="normaltext">Bitcoin => Bitcoin Technical Support => Topic started by: RyanRed on October 09, 2012, 07:56:25 AM</h2>
+
+		<table width="90%" cellpadding="0" cellspacing="0" border="0">
+			<tr>
+				<td>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Yubikeys for Blockchain, and Mt Gox</b><br />
+					Post by: <b>RyanRed</b> on <b>October 09, 2012, 07:56:25 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Im just wondering if I ordered a Yubikey from Mt Gox how secure is it on Blockchain.info?<br />*side question: about how long does it take to get to you? Im in the states. <br /><br />Mt Gox states you can only use their key for their website, but Blockchain has it listed as an option for their 2nd form factor. <br /><br />Last but not least. Would I better off just ordering two? One from Mt Gox, and one from the main Yubikey website?<br /><br />Thanks all!<br /><br />-Ryan<br /><br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Yubikeys for Blockchain, and Mt Gox</b><br />
+					Post by: <b>Stephen Gornick</b> on <b>October 09, 2012, 08:35:53 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=117367.msg1258502#msg1258502">Quote from: RyanRed on October 09, 2012, 07:56:25 AM</a></div><div class="quote">Mt Gox states you can only use their key for their website, but Blockchain has it listed as an option for their 2nd form factor. <br /></div><br />If I remember correctly, the one from Mt. Gox only works with BlockChain.info for static password.&nbsp; i.e., it is vulnerable to a replay attack.&nbsp; &nbsp;The one from YubiKey is supported for true OTP against Blockchain.info&#039;s site.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Yubikeys for Blockchain, and Mt Gox</b><br />
+					Post by: <b>RyanRed</b> on <b>October 09, 2012, 10:12:49 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=117367.msg1258534#msg1258534">Quote from: Stephen Gornick on October 09, 2012, 08:35:53 AM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=117367.msg1258502#msg1258502">Quote from: RyanRed on October 09, 2012, 07:56:25 AM</a></div><div class="quote">Mt Gox states you can only use their key for their website, but Blockchain has it listed as an option for their 2nd form factor. <br /></div><br />If I remember correctly, the one from Mt. Gox only works with BlockChain.info for static password.&nbsp; i.e., it is vulnerable to a replay attack.&nbsp; &nbsp;The one from YubiKey is supported for true OTP against Blockchain.info&#039;s site.<br /></div><br />Got ya. With that said, I suppose its best to get one of each then :)<br /><br />thank you for the info!<br /><br />-Ryan</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Yubikeys for Blockchain, and Mt Gox</b><br />
+					Post by: <b>jborkl</b> on <b>October 09, 2012, 04:25:40 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">It took two weeks to get one from Gox</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Yubikeys for Blockchain, and Mt Gox</b><br />
+					Post by: <b>RyanRed</b> on <b>October 10, 2012, 08:11:38 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=117367.msg1259488#msg1259488">Quote from: jborkl on October 09, 2012, 04:25:40 PM</a></div><div class="quote">It took two weeks to get one from Gox<br /></div><br />Awesome ty :)</div>
+					<br /><br />
+					<div align="center" class="smalltext">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank">Powered by SMF 1.1.19</a> | 
+<a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank">SMF &copy; 2006-2009, Simple Machines</a>
+		</span></div>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

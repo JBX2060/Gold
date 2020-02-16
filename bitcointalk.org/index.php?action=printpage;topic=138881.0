@@ -1,0 +1,164 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+		<link rel="canonical" href="https://bitcointalk.org/index.php?topic=138881.0" />
+		<title>Print Page - Please Help! Blockchain.info says &quot;Unconfirmed Transaction&quot; !!??</title>
+		<style type="text/css">
+			body
+			{
+				color: black;
+				background-color: white;
+			}
+			body, td, .normaltext
+			{
+				font-family: Verdana, arial, helvetica, serif;
+				font-size: small;
+			}
+			*, a:link, a:visited, a:hover, a:active
+			{
+				color: black !important;
+			}
+			table
+			{
+				empty-cells: show;
+			}
+			.code
+			{
+				font-size: x-small;
+				font-family: monospace;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.quote
+			{
+				font-size: x-small;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.smalltext, .quoteheader, .codeheader
+			{
+				font-size: x-small;
+			}
+			.largetext
+			{
+				font-size: large;
+			}
+			hr
+			{
+				height: 1px;
+				border: 0;
+				color: black;
+				background-color: black;
+			}
+		</style>
+	</head>
+	<body>
+		<h1 class="largetext">Bitcoin Forum</h1>
+		<h2 class="normaltext">Bitcoin => Bitcoin Technical Support => Topic started by: Extravagant on January 25, 2013, 10:33:35 PM</h2>
+
+		<table width="90%" cellpadding="0" cellspacing="0" border="0">
+			<tr>
+				<td>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Please Help! Blockchain.info says &quot;Unconfirmed Transaction&quot; !!??</b><br />
+					Post by: <b>Extravagant</b> on <b>January 25, 2013, 10:33:35 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><br />Im waiting on these bitcoins.<br /><br />I sent bitcoins to the address, Then again i sent bitcoins 5 minutes later, the bitcoins 5 minutes later are there, the bitcoins i sent first are not there.<br /><br />Blockchain.info says Unconfirmed Transaction&quot; <br /><br />What do i do? did i loose $300 in coin?</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Please Help! Blockchain.info says &quot;Unconfirmed Transaction&quot; !!??</b><br />
+					Post by: <b>K1773R</b> on <b>January 25, 2013, 10:39:17 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=138881.msg1479642#msg1479642">Quote from: Extravagant on January 25, 2013, 10:33:35 PM</a></div><div class="quote"><br />Im waiting on these bitcoins.<br /><br />I sent bitcoins to the address, Then again i sent bitcoins 5 minutes later, the bitcoins 5 minutes later are there, the bitcoins i sent first are not there.<br /><br />Blockchain.info says Unconfirmed Transaction&quot; <br /><br />What do i do? did i loose $300 in coin?<br /></div>u gotta be kidding right?</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Please Help! Blockchain.info says &quot;Unconfirmed Transaction&quot; !!??</b><br />
+					Post by: <b>Extravagant</b> on <b>January 25, 2013, 10:41:22 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Dude im sorry but i have no idea what the means,<br /><br />Call me stupid, a noob w/e i just dont know what that means. First time i ever had this happen.<br /><br />So no im not kidding.<br /><br />I am guessing, something happened with the original transaction, and now its just sitting?<br /><br />How long does it take to get info another block?</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Please Help! Blockchain.info says &quot;Unconfirmed Transaction&quot; !!??</b><br />
+					Post by: <b>SgtSpike</b> on <b>January 25, 2013, 10:43:14 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Unconfirmed just means that it hasn&#039;t been written to stone in the blockchain yet.&nbsp; It&#039;ll get there eventually.&nbsp; You haven&#039;t lost anything if you see an unconfirmed transaction at blockchain.info - it just means that it hasn&#039;t been processed yet (effectively).</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Please Help! Blockchain.info says &quot;Unconfirmed Transaction&quot; !!??</b><br />
+					Post by: <b>kgo</b> on <b>January 25, 2013, 10:45:21 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">A score is calculated to determine how &#039;important&#039; your transaction is. &nbsp;More coins are more important. &nbsp;Older coins are more important. &nbsp;Paying the transaction fee makes them more important. &nbsp;Then the highest scoring TXs get batched up and included in the next block.&nbsp; If that block fills up, the lower scoring transactions stick around and need to go in a later block.<br /><br />In this case one transaction probably had a lower score for some reason, and takes a while to get the first transaction.<br /><br />Not sure what you&#039;re doing, but eventually that transaction will hit the right threshold and go through. &nbsp;So you&#039;ll have paid twice. &nbsp;Since I don&#039;t know the details, I&#039;m not sure if you can get someone to send one payment back.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Please Help! Blockchain.info says &quot;Unconfirmed Transaction&quot; !!??</b><br />
+					Post by: <b>nebulus</b> on <b>January 25, 2013, 10:46:54 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Just wait.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Please Help! Blockchain.info says &quot;Unconfirmed Transaction&quot; !!??</b><br />
+					Post by: <b>Extravagant</b> on <b>January 25, 2013, 10:47:20 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Thank You sgtspike, <br /><br />i was thinking thats what it ment. But now its been 2hrs and nothing has changed so, freaked me out some<br /><br />How much are the payments? there only like 0.005 btc correct?<br /><br />@kgo Thank you for the info, very informative</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Please Help! Blockchain.info says &quot;Unconfirmed Transaction&quot; !!??</b><br />
+					Post by: <b>K1773R</b> on <b>January 25, 2013, 10:52:50 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=138881.msg1479660#msg1479660">Quote from: Extravagant on January 25, 2013, 10:41:22 PM</a></div><div class="quote">Dude im sorry but i have no idea what the means,<br /><br />Call me stupid, a noob w/e i just dont know what that means. First time i ever had this happen.<br /><br />So no im not kidding.<br /><br />I am guessing, something happened with the original transaction, and now its just sitting?<br /><br />How long does it take to get info another block?<br /></div>i would recommend u to read the basics of BTC @ wiki</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Please Help! Blockchain.info says &quot;Unconfirmed Transaction&quot; !!??</b><br />
+					Post by: <b>SgtSpike</b> on <b>January 25, 2013, 10:58:38 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=138881.msg1479677#msg1479677">Quote from: Extravagant on January 25, 2013, 10:47:20 PM</a></div><div class="quote">Thank You sgtspike, <br /><br />i was thinking thats what it ment. But now its been 2hrs and nothing has changed so, freaked me out some<br /><br />How much are the payments? there only like 0.005 btc correct?<br /><br />@kgo Thank you for the info, very informative<br /></div>Sometimes payments never go through, but it is rare, and if you are using any sort of default client to send the money, you shouldn&#039;t run into that problem - it&#039;ll automatically add a fee if a transaction is so low of priority that it will take a long time to go through.<br /><br />That said, it is extremely odd that $300 worth of BTC hasn&#039;t made it into the blockchain within a couple of hours.&nbsp; Care to link to the address you are looking at?</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Please Help! Blockchain.info says &quot;Unconfirmed Transaction&quot; !!??</b><br />
+					Post by: <b>Extravagant</b> on <b>January 25, 2013, 11:25:04 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><br />ok, 3hrs 20mins later, just rechecked blockchain and its got 2 confirmations.<br /><br />Sorry for the stupid question initially. But all seems well now.<br /><br />Thank you every1 for your help</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Please Help! Blockchain.info says &quot;Unconfirmed Transaction&quot; !!??</b><br />
+					Post by: <b>constitution</b> on <b>January 25, 2013, 11:43:51 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Patience is a virtue.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Please Help! Blockchain.info says &quot;Unconfirmed Transaction&quot; !!??</b><br />
+					Post by: <b>niner</b> on <b>March 06, 2013, 10:59:36 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Thanks that&#039;s comforting to know.&nbsp; I had the same question after waiting<br />about an hour for the first confirmation on a transaction.<br />As an added bonus my coins came in while I was reading this thread!</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Please Help! Blockchain.info says &quot;Unconfirmed Transaction&quot; !!??</b><br />
+					Post by: <b>Trillian</b> on <b>April 23, 2013, 04:00:48 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Makes one wonder if it will ever be possible to pay a $5 coffee with bitcoin, if it takes hours to get confirmed. <br /><br />Unless one pays a hefty % premium for transaction fees to speed it through.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Please Help! Blockchain.info says &quot;Unconfirmed Transaction&quot; !!??</b><br />
+					Post by: <b>jackjack</b> on <b>April 23, 2013, 05:00:38 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=138881.msg1479824#msg1479824">Quote from: constitution on January 25, 2013, 11:43:51 PM</a></div><div class="quote">Patience is a virtue.<br /></div>RTFM too</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Please Help! Blockchain.info says &quot;Unconfirmed Transaction&quot; !!??</b><br />
+					Post by: <b>DannyHamilton</b> on <b>April 24, 2013, 02:14:17 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=138881.msg1921540#msg1921540">Quote from: Trillian on April 23, 2013, 04:00:48 PM</a></div><div class="quote">Makes one wonder if it will ever be possible to pay a $5 coffee with bitcoin, if it takes hours to get confirmed. <br /><br />Unless one pays a hefty % premium for transaction fees to speed it through.<br /></div><br />I&#039;m not sure that a $0.07 fee on a $5 coffee would be considered &quot;a hefty % premium&quot;.<br /><br />That being said, a merchant isn&#039;t going to wait for confirmations to sell you a $5 coffee.&nbsp; If they are willing to accept bitcoin for the purchase, then they&#039;ll either be willing to accept it with 0 confirmations, or they&#039;ll have a third-party service that will handle the risk.</div>
+					<br /><br />
+					<div align="center" class="smalltext">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank">Powered by SMF 1.1.19</a> | 
+<a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank">SMF &copy; 2006-2009, Simple Machines</a>
+		</span></div>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

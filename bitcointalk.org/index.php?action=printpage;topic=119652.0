@@ -1,0 +1,134 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+		<link rel="canonical" href="https://bitcointalk.org/index.php?topic=119652.0" />
+		<title>Print Page - Bitcoin download mirror</title>
+		<style type="text/css">
+			body
+			{
+				color: black;
+				background-color: white;
+			}
+			body, td, .normaltext
+			{
+				font-family: Verdana, arial, helvetica, serif;
+				font-size: small;
+			}
+			*, a:link, a:visited, a:hover, a:active
+			{
+				color: black !important;
+			}
+			table
+			{
+				empty-cells: show;
+			}
+			.code
+			{
+				font-size: x-small;
+				font-family: monospace;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.quote
+			{
+				font-size: x-small;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.smalltext, .quoteheader, .codeheader
+			{
+				font-size: x-small;
+			}
+			.largetext
+			{
+				font-size: large;
+			}
+			hr
+			{
+				height: 1px;
+				border: 0;
+				color: black;
+				background-color: black;
+			}
+		</style>
+	</head>
+	<body>
+		<h1 class="largetext">Bitcoin Forum</h1>
+		<h2 class="normaltext">Bitcoin => Bitcoin Technical Support => Topic started by: pointbiz on October 21, 2012, 08:03:19 PM</h2>
+
+		<table width="90%" cellpadding="0" cellspacing="0" border="0">
+			<tr>
+				<td>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Bitcoin download mirror</b><br />
+					Post by: <b>pointbiz</b> on <b>October 21, 2012, 08:03:19 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><b>Edit: Updated for 0.8.0</b><br /><br />I would like to encourage the decentralized distribution of Bitcoin releases.<br /><br />I have mirrored the sourceforge bitcoin URL:<br />http://iweb.dl.sourceforge.net/project/bitcoin/Bitcoin/bitcoin-0.8.0/<br /><br />Here:<br />https://www.bitaddress.org/mirror/bitcoin-0.8.0/<br /><br />Here is a direct link to the Windows installer:<br />https://www.bitaddress.org/mirror/bitcoin-0.8.0/bitcoin-0.8.0-win32-setup.exe<br /><br />Can others members of the community post mirrors? Can we agree on a URL path structure?<br />I propose:<br />/mirror/bitcoin-0.8.0/<br /><br />If we create a mirroring convention then people can mirror bitcoin downloads without posting that they are doing this. With the hope that one day many sites provide these hidden mirrors and it becomes unpractical to block the global availability of bitcoin software.<br /><br />Included in the folder is the .ASC signed hashes. <del>Can someone let me know who is signing the hashes and post a link to their public key?</del><br />Gavin&#039;s public key is in the folder and is used to sign the .ASC<br /><br />Also, why is the public key of the hash signer not included in the README.txt information?</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Bitcoin download mirror</b><br />
+					Post by: <b>Remember remember the 5th of November</b> on <b>October 21, 2012, 10:30:19 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">The average Joe cannot check file signature. An attacker could compile the client with malicious code and claim as original.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Bitcoin download mirror</b><br />
+					Post by: <b>MysteryMiner</b> on <b>October 21, 2012, 11:21:33 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">When Bitcoin installers and files will have a digital signatures recognized by Windows file properties that will be the easy signature checking for dummies against dummies.<br /><br />For smart people all that is needed to find file is checksum and helpfully also a file name. Bitcoin installers are spread all over P2P systems.<br /><br />If government wanted to damage Bitcoin it will go not only after sites hosting official installers but also the seednodes in clean install and bootstrap IRC channel in hope it will prevent new people from coming in.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Bitcoin download mirror</b><br />
+					Post by: <b>pointbiz</b> on <b>October 22, 2012, 12:36:40 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=119652.msg1288696#msg1288696">Quote from: MysteryMiner on October 21, 2012, 11:21:33 PM</a></div><div class="quote">When Bitcoin installers and files will have a digital signatures recognized by Windows file properties that will be the easy signature checking for dummies against dummies.<br /><br />For smart people all that is needed to find file is checksum and helpfully also a file name. Bitcoin installers are spread all over P2P systems.<br /><br />If government wanted to damage Bitcoin it will go not only after sites hosting official installers but also the seednodes in clean install and bootstrap IRC channel in hope it will prevent new people from coming in.<br /></div><br />I couldn&#039;t find a torrent for anything newer than version 5. Can you post a magnet link?</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Bitcoin download mirror</b><br />
+					Post by: <b>pointbiz</b> on <b>October 22, 2012, 12:49:18 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=119652.msg1288611#msg1288611">Quote from: Remember remember the 5th of November on October 21, 2012, 10:30:19 PM</a></div><div class="quote">The average Joe cannot check file signature. An attacker could compile the client with malicious code and claim as original.<br /></div><br />If you are not going to verify the signed hash of the file then you should download from sourceforge. If you cannot download from sourceforge then it&#039;s worth learning how to verify the download and no one should download from a mirror and use the binaries without verifying the download.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Bitcoin download mirror</b><br />
+					Post by: <b>MysteryMiner</b> on <b>October 22, 2012, 02:08:44 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader">Quote</div><div class="quote">I couldn&#039;t find a torrent for anything newer than version 5. Can you post a magnet link?</div>I&#039;m talking about other P2P systems like DirectConnect and Gnutella2<br /><br />Someone with good TPB account (Trusted or VIP status) can make a torrent of 0.7.1 version and upload it to TPB. My own account got suspended.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Bitcoin download mirror</b><br />
+					Post by: <b>pointbiz</b> on <b>October 23, 2012, 03:48:14 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Here is how to verify the hash of the file:<br /><br />Linux (or cygwin)<br /><div class="quoteheader">Quote</div><div class="quote">$ wget --quiet -O - http://www.bitaddress.org/mirror/bitcoin-0.7.1/bitcoin-0.7.1-win32-setup.exe | sha1sum<br /></div><br />For Windows or anything else I found this website where you can upload the file or paste a URL and get the sha1 hash:<br />http://hash.online-convert.com/sha1-generator</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Bitcoin download mirror</b><br />
+					Post by: <b>pointbiz</b> on <b>October 24, 2012, 12:34:25 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Here is a free command line tool available from Microsoft.<br />File Checksum Integrity Verifier (FCIV) utility:<br />http://support.microsoft.com/kb/841290<br /><br />Windows:<br /><div class="quoteheader">Quote</div><div class="quote">fciv -sha1 bitcoin-0.7.1-win32-setup.exe<br /></div></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Bitcoin download mirror</b><br />
+					Post by: <b>pointbiz</b> on <b>January 06, 2013, 02:18:30 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">0.7.2 now available on the mirror:<br />http://www.bitaddress.org/mirror/bitcoin-0.7.2/</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Bitcoin download mirror</b><br />
+					Post by: <b>pointbiz</b> on <b>February 23, 2013, 04:23:56 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">http://www.bitaddress.org/mirror/bitcoin-0.8.0/</div>
+					<br /><br />
+					<div align="center" class="smalltext">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank">Powered by SMF 1.1.19</a> | 
+<a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank">SMF &copy; 2006-2009, Simple Machines</a>
+		</span></div>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

@@ -1,0 +1,218 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+		<link rel="canonical" href="https://bitcointalk.org/index.php?topic=112289.0" />
+		<title>Print Page - Oh Gosh,,,, MSI 890FXA-GD70 4 x 5830,, Was working fine,,, out of nowhere KABOOM</title>
+		<style type="text/css">
+			body
+			{
+				color: black;
+				background-color: white;
+			}
+			body, td, .normaltext
+			{
+				font-family: Verdana, arial, helvetica, serif;
+				font-size: small;
+			}
+			*, a:link, a:visited, a:hover, a:active
+			{
+				color: black !important;
+			}
+			table
+			{
+				empty-cells: show;
+			}
+			.code
+			{
+				font-size: x-small;
+				font-family: monospace;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.quote
+			{
+				font-size: x-small;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.smalltext, .quoteheader, .codeheader
+			{
+				font-size: x-small;
+			}
+			.largetext
+			{
+				font-size: large;
+			}
+			hr
+			{
+				height: 1px;
+				border: 0;
+				color: black;
+				background-color: black;
+			}
+		</style>
+	</head>
+	<body>
+		<h1 class="largetext">Bitcoin Forum</h1>
+		<h2 class="normaltext">Bitcoin => Bitcoin Technical Support => Topic started by: AndrewBUD on September 23, 2012, 11:04:02 PM</h2>
+
+		<table width="90%" cellpadding="0" cellspacing="0" border="0">
+			<tr>
+				<td>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Oh Gosh,,,, MSI 890FXA-GD70 4 x 5830,, Was working fine,,, out of nowhere KABOOM</b><br />
+					Post by: <b>AndrewBUD</b> on <b>September 23, 2012, 11:04:02 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">It didn&#039;t blow up but it crashed, now only two cards will show up. All cards have been tested and work fine mining... I can get two cards to mine on this board no problem, <br /><br /><br />This thing was working fine hours ago.... Has anyone had this problem where connected cards wont show up? <br /><br />I am running winblows 7 64bit.. </div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Oh Gosh,,,, MSI 890FXA-GD70 4 x 5830,, Was working fine,,, out of nowhere KABOOM</b><br />
+					Post by: <b>Undefined31415</b> on <b>September 23, 2012, 11:06:43 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Let me get this straight, any two cards will work, but all 4 won&#039;t work at once?<br /><br />Hmm...</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Oh Gosh,,,, MSI 890FXA-GD70 4 x 5830,, Was working fine,,, out of nowhere KABOOM</b><br />
+					Post by: <b>AndrewBUD</b> on <b>September 24, 2012, 10:38:18 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">exactly, they wont show up.... power supply is fine.. seems like two lanes are just disabled somehow..... </div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Oh Gosh,,,, MSI 890FXA-GD70 4 x 5830,, Was working fine,,, out of nowhere KABOOM</b><br />
+					Post by: <b>BitcoinINV</b> on <b>September 24, 2012, 02:00:18 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">try dummy plugs see if that will make them pick it up.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Oh Gosh,,,, MSI 890FXA-GD70 4 x 5830,, Was working fine,,, out of nowhere KABOOM</b><br />
+					Post by: <b>BookLover</b> on <b>September 24, 2012, 04:41:42 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">It sounds like your hardware failed. :-\&nbsp; You should test different configurations (card slots and power cables) to determine where the problem is.&nbsp; You may have to replace the motherboard or power supply. :-[</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Oh Gosh,,,, MSI 890FXA-GD70 4 x 5830,, Was working fine,,, out of nowhere KABOOM</b><br />
+					Post by: <b>Fjordbit</b> on <b>September 24, 2012, 06:00:52 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">I&#039;ve had problems like this 3 times in the past. I don&#039;t miss my GPU days.<br /><br />The only thing that fixed it was unseating all of the cards but one, starting and letting windows see that configuration, then shutting down, reseating the cards, and starting again. It&#039;s a pain in the ass because of the PCI plastic thingy that keeps the card in place. A popsicle stick worked best for me.<br /><br />Fuckin&#039; windows.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Oh Gosh,,,, MSI 890FXA-GD70 4 x 5830,, Was working fine,,, out of nowhere KABOOM</b><br />
+					Post by: <b>AndrewBUD</b> on <b>September 24, 2012, 08:14:01 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">All the cards fan&#039;s spin. I am lost here. Maybe a dummy plug would help.. I am going to try that... but i never needed them before.... drivers are the same... <br /><br />Going to go screw around with it .... </div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Oh Gosh,,,, MSI 890FXA-GD70 4 x 5830,, Was working fine,,, out of nowhere KABOOM</b><br />
+					Post by: <b>Fjordbit</b> on <b>September 25, 2012, 05:20:47 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=112289.msg1217396#msg1217396">Quote from: AndrewBUD on September 24, 2012, 08:14:01 PM</a></div><div class="quote">All the cards fan&#039;s spin. I am lost here. Maybe a dummy plug would help.. I am going to try that... but i never needed them before.... drivers are the same... <br /><br />Going to go screw around with it .... <br /></div><br />The card&#039;s fans spin because the power cable is attached and feeding power. In my case it was definitely a software issue but I couldn&#039;t get it to fix without removing the cards form the machine and then letting Windows see that they were gone. When I put them back in, they reconfigured and worked fine.<br /><br />If you didn&#039;t need dummy plug before, you don&#039;t need them now, and my recollection is the ATI drivers changed to not require dummy plugs late 2011.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Oh Gosh,,,, MSI 890FXA-GD70 4 x 5830,, Was working fine,,, out of nowhere KABOOM</b><br />
+					Post by: <b>silverbox</b> on <b>September 25, 2012, 07:20:31 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=112289.msg1218630#msg1218630">Quote from: Fjordbit on September 25, 2012, 05:20:47 AM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=112289.msg1217396#msg1217396">Quote from: AndrewBUD on September 24, 2012, 08:14:01 PM</a></div><div class="quote">All the cards fan&#039;s spin. I am lost here. Maybe a dummy plug would help.. I am going to try that... but i never needed them before.... drivers are the same... <br /><br />Going to go screw around with it .... <br /></div><br />The card&#039;s fans spin because the power cable is attached and feeding power. In my case it was definitely a software issue but I couldn&#039;t get it to fix without removing the cards form the machine and then letting Windows see that they were gone. When I put them back in, they reconfigured and worked fine.<br /><br />If you didn&#039;t need dummy plug before, you don&#039;t need them now, and my recollection is the ATI drivers changed to not require dummy plugs late 2011.<br /></div><br />I&#039;ve also had some success with removing cards from the device manager till you just have one then rebooting, its sometimes worth a shot vs pulling them all then adding them one by one (I&#039;ve resorted to this before also), also it can sometimes take windows a few minutes to find new cards, don&#039;t boot up only see two cards then reboot like 15 seconds later, give it a chance to find the other two.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Oh Gosh,,,, MSI 890FXA-GD70 4 x 5830,, Was working fine,,, out of nowhere KABOOM</b><br />
+					Post by: <b>segabtc</b> on <b>September 29, 2012, 05:06:34 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">could be just the riser is bad, I think that is what shorted out one of my boards. the connection where the cables run into the hard place got kinked and arc off on the board. BAD, VERY BAD! that is why I just ordered more riser cables, freakin 3 dollar part smoked a 125 dollar motherboard! LOL</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Oh Gosh,,,, MSI 890FXA-GD70 4 x 5830,, Was working fine,,, out of nowhere KABOOM</b><br />
+					Post by: <b>AndrewBUD</b> on <b>September 29, 2012, 05:25:10 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">The risers were not being used.... I gave up on them.. <br /><br />The board is being RMA&#039;d with MSI... I shipped them the board overnight... they shipped out a new board. I will have it monday..... <br /><br /><br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Oh Gosh,,,, MSI 890FXA-GD70 4 x 5830,, Was working fine,,, out of nowhere KABOOM</b><br />
+					Post by: <b>BitcoinINV</b> on <b>September 29, 2012, 05:28:21 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Sometimes its the best thing to do lol. Better then staying up till 3am trying to figure something out that you can not fix.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Oh Gosh,,,, MSI 890FXA-GD70 4 x 5830,, Was working fine,,, out of nowhere KABOOM</b><br />
+					Post by: <b>AndrewBUD</b> on <b>September 29, 2012, 05:35:19 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">They said it&#039;s a known issue for people like me.... people that run their hardware very hard.. :)</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Oh Gosh,,,, MSI 890FXA-GD70 4 x 5830,, Was working fine,,, out of nowhere KABOOM</b><br />
+					Post by: <b>betatest512</b> on <b>October 04, 2012, 06:23:59 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=112289.msg1231452#msg1231452">Quote from: AndrewBUD on September 29, 2012, 05:35:19 PM</a></div><div class="quote">They said it&#039;s a known issue for people like me.... people that run their hardware very hard.. :)<br /></div><br />did you solve it?</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Oh Gosh,,,, MSI 890FXA-GD70 4 x 5830,, Was working fine,,, out of nowhere KABOOM</b><br />
+					Post by: <b>AndrewBUD</b> on <b>October 04, 2012, 09:19:40 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Yup.. got a new board works perfect... 2 days later another identical board did the exact same thing running different hardware..... <br /><br /><br />They sent me out another replacement board I should receive it tomorrow. <br /><br /><br />I think it has something to do with not enough power going to the PCI-E lanes.. MSI wont give me any straight answers but in their defense they do have very good &quot;FAST&quot; customer service... ( it does help that I live about 3 hours away from their Canadian service center. <br /><br /><br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Oh Gosh,,,, MSI 890FXA-GD70 4 x 5830,, Was working fine,,, out of nowhere KABOOM</b><br />
+					Post by: <b>betatest512</b> on <b>October 05, 2012, 12:22:52 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=112289.msg1245880#msg1245880">Quote from: AndrewBUD on October 04, 2012, 09:19:40 PM</a></div><div class="quote">Yup.. got a new board works perfect... 2 days later another identical board did the exact same thing running different hardware..... <br /><br /><br />They sent me out another replacement board I should receive it tomorrow. <br /><br /><br />I think it has something to do with not enough power going to the PCI-E lanes.. MSI wont give me any straight answers but in their defense they do have very good &quot;FAST&quot; customer service... ( it does help that I live about 3 hours away from their Canadian service center. <br /><br /><br /><br /></div><br />are your graphic&#039;s card from MSI</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Oh Gosh,,,, MSI 890FXA-GD70 4 x 5830,, Was working fine,,, out of nowhere KABOOM</b><br />
+					Post by: <b>QuantumFoam</b> on <b>October 06, 2012, 06:38:58 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">I&#039;m running 5 cards on this same exact motherboard which has been mining for 8+ months, no such failure has happened to me yet. My AX1200 psu did fail during that time, but the motherboard has been solid. How long were you mining on it before it failed?</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Oh Gosh,,,, MSI 890FXA-GD70 4 x 5830,, Was working fine,,, out of nowhere KABOOM</b><br />
+					Post by: <b>AndrewBUD</b> on <b>October 06, 2012, 07:02:55 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">I have a few of these.. I have noticed only my revision 1.1 boards have started to give me issues. <br /><br />My other rev 1.3 boards are fine. Have been mining strong for months... <br /><br /><br />The boards have been mining for well over a year... <br /><br /><br />Has anyone had any issues with their rev 1.1 boards? <br /><br /><br /><br />No my GPU&#039;s are not MSI.. I may have a couple MSI 5850/5870&#039;s in the mix but mostly sapphire.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Oh Gosh,,,, MSI 890FXA-GD70 4 x 5830,, Was working fine,,, out of nowhere KABOOM</b><br />
+					Post by: <b>AndrewBUD</b> on <b>October 06, 2012, 07:05:06 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">The second rev 1.1 board that gave me problems did the same thing.. It ran 4 cards fine for a while... Crashed and only 2 cards would show up. After using the 2 cards on this bad board the entire thing died and would not post... <br /><br />It gave me Error code 2E on the LED.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Oh Gosh,,,, MSI 890FXA-GD70 4 x 5830,, Was working fine,,, out of nowhere KABOOM</b><br />
+					Post by: <b>betatest512</b> on <b>October 07, 2012, 02:19:20 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=112289.msg1250816#msg1250816">Quote from: AndrewBUD on October 06, 2012, 07:05:06 PM</a></div><div class="quote">The second rev 1.1 board that gave me problems did the same thing.. It ran 4 cards fine for a while... Crashed and only 2 cards would show up. After using the 2 cards on this bad board the entire thing died and would not post... <br /><br />It gave me Error code 2E on the LED.<br /></div><br />did you give to to MSI?</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Oh Gosh,,,, MSI 890FXA-GD70 4 x 5830,, Was working fine,,, out of nowhere KABOOM</b><br />
+					Post by: <b>420</b> on <b>October 07, 2012, 04:48:46 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">simple fix for ya but painful....buy my rig https://bitcointalk.org/index.php?topic=115621.0<br /><br />:)<br /><br />[/TROLL]</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Oh Gosh,,,, MSI 890FXA-GD70 4 x 5830,, Was working fine,,, out of nowhere KABOOM</b><br />
+					Post by: <b>AndrewBUD</b> on <b>October 07, 2012, 01:49:51 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">LOL.. No way.... I just picked up another board PSU and set of cards the other day.... <br /><br /><br /><br />Send them over, i&#039;ll host them for you... 50/50 split :D<br /><br /><br /><br /><br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Oh Gosh,,,, MSI 890FXA-GD70 4 x 5830,, Was working fine,,, out of nowhere KABOOM</b><br />
+					Post by: <b>420</b> on <b>October 07, 2012, 08:09:06 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=112289.msg1253077#msg1253077">Quote from: AndrewBUD on October 07, 2012, 01:49:51 PM</a></div><div class="quote">LOL.. No way.... I just picked up another board PSU and set of cards the other day.... <br /><br /><br /><br />Send them over, i&#039;ll host them for you... 50/50 split :D<br /><br /><br /><br /></div><br />what state is that in</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Oh Gosh,,,, MSI 890FXA-GD70 4 x 5830,, Was working fine,,, out of nowhere KABOOM</b><br />
+					Post by: <b>AndrewBUD</b> on <b>October 08, 2012, 12:30:18 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">The Province of Ontario..... <br /><br /><br />I am located in the city of Sarnia.... Border to Port Huron Michigan. </div>
+					<br /><br />
+					<div align="center" class="smalltext">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank">Powered by SMF 1.1.19</a> | 
+<a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank">SMF &copy; 2006-2009, Simple Machines</a>
+		</span></div>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

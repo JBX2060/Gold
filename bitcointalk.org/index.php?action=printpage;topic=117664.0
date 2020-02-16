@@ -1,0 +1,98 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+		<link rel="canonical" href="https://bitcointalk.org/index.php?topic=117664.0" />
+		<title>Print Page - [Feeler] Xen VPS service for BTC</title>
+		<style type="text/css">
+			body
+			{
+				color: black;
+				background-color: white;
+			}
+			body, td, .normaltext
+			{
+				font-family: Verdana, arial, helvetica, serif;
+				font-size: small;
+			}
+			*, a:link, a:visited, a:hover, a:active
+			{
+				color: black !important;
+			}
+			table
+			{
+				empty-cells: show;
+			}
+			.code
+			{
+				font-size: x-small;
+				font-family: monospace;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.quote
+			{
+				font-size: x-small;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.smalltext, .quoteheader, .codeheader
+			{
+				font-size: x-small;
+			}
+			.largetext
+			{
+				font-size: large;
+			}
+			hr
+			{
+				height: 1px;
+				border: 0;
+				color: black;
+				background-color: black;
+			}
+		</style>
+	</head>
+	<body>
+		<h1 class="largetext">Bitcoin Forum</h1>
+		<h2 class="normaltext">Economy => Service Discussion => Topic started by: sega01 on October 10, 2012, 07:41:16 PM</h2>
+
+		<table width="90%" cellpadding="0" cellspacing="0" border="0">
+			<tr>
+				<td>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>[Feeler] Xen VPS service for BTC</b><br />
+					Post by: <b>sega01</b> on <b>October 10, 2012, 07:41:16 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Hi everyone,<br /><br />I have the potential to host 1 or 2 1U, dual, dual core Opteron boxes in a local datacenter as colocation. I haven&#039;t confirmed this, but they should be able to hold (and I have, on hand) 24GB of ECC DDR2 RAM a piece. Processors support the AMD virtualization extensions needed for HVM or KVM, but I&#039;d probably just do paravirt.<br /><br />I worked for almost two years as a customer service lead tech and administrator of a major Xen VPS hosting company, and know the ins-and-outs of Xen administration. I&#039;ve never setup a Xen box from scratch, but could do it with no problems. I understand real-world Linux administration to a T, and am very experienced in networking, particular in virtualized environments.<br /><br />Anyways, I&#039;d like to see if anyone is interested in cheap (probably a bit higher than PRGMR rates) VPS host that&#039;s ran by one person. There would be no ticketing system, no fancy website or ordering. Just email back and forth directly with me, and prepaid credit-based VPS payments. Support is unmanaged. There&#039;s no imaging system or official backup. This also means not as much to break and go wrong. And with one admin over two servers, I could probably run a close eye on performance or potential issues.<br /><br />Not certain if I could get an IPv4 address per VPS, but there would be IPv6, no doubt. Disk space would probably be in the 40GB per 1GB of RAM range, more might be possible.<br /><br />This would be hosted in San Antonio, Texas, US, so content illegal to the US is a bit of a no-no. But, I&#039;m not generally aware of what you&#039;re doing on your VPS, so if I don&#039;t receive any complaints nothing needs to be shutdown.<br /><br />I haven&#039;t decided on bandwidth allotments; would depend on what the datacenter&#039;s contract and rates look like. I may adjust the rates without warning from time to time, giving ample notice. Price wouldn&#039;t be locked to the USD, but if it crashed drastically, I&#039;d have to hike the price. Silver and gold payment could also be accepted. No USD accepted as payment. I don&#039;t need any details such as name, really just email and preferably a good Bitcoin-OTC rating. I would prefer dedicated contact information in case I need to reach out to you about anything, however.<br /><br />Serial terminals accessible over key-only SSH can be done from the dom0, too. I&#039;m still debating this as it&#039;s nice to avoid all public accessibility to the dom0 for security, but it may be worth the trade-off.<br /><br />Anyways, does this interest anyone? What would I need to offer to get your business? What are your biggest questions and concerns?<br /><br />Thanks so much,<br />Teran</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [Feeler] Xen VPS service for BTC</b><br />
+					Post by: <b>bytedisorder</b> on <b>October 22, 2012, 10:12:00 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Would you be interested in a part time support job at Bitronic Technologies VPS Hosting (http://www.bitronictech.net/vps-hosting.php)? Because I may need an additional tech support person soon.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [Feeler] Xen VPS service for BTC</b><br />
+					Post by: <b>sega01</b> on <b>October 26, 2012, 05:54:27 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Hi bytedisorder,<br /><br />Thanks for the offer! I sent a PM in response.<br /><br />Sincerely,<br />Teran</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [Feeler] Xen VPS service for BTC</b><br />
+					Post by: <b>sega01</b> on <b>December 23, 2012, 08:25:45 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Bump. Anyone interested in this kind of VPS service?<br /><br />Thanks!</div>
+					<br /><br />
+					<div align="center" class="smalltext">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank">Powered by SMF 1.1.19</a> | 
+<a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank">SMF &copy; 2006-2009, Simple Machines</a>
+		</span></div>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

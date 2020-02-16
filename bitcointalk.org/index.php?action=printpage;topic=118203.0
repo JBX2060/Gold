@@ -1,0 +1,146 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+		<link rel="canonical" href="https://bitcointalk.org/index.php?topic=118203.0" />
+		<title>Print Page - Bitcoin-Qt will not start on Mac</title>
+		<style type="text/css">
+			body
+			{
+				color: black;
+				background-color: white;
+			}
+			body, td, .normaltext
+			{
+				font-family: Verdana, arial, helvetica, serif;
+				font-size: small;
+			}
+			*, a:link, a:visited, a:hover, a:active
+			{
+				color: black !important;
+			}
+			table
+			{
+				empty-cells: show;
+			}
+			.code
+			{
+				font-size: x-small;
+				font-family: monospace;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.quote
+			{
+				font-size: x-small;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.smalltext, .quoteheader, .codeheader
+			{
+				font-size: x-small;
+			}
+			.largetext
+			{
+				font-size: large;
+			}
+			hr
+			{
+				height: 1px;
+				border: 0;
+				color: black;
+				background-color: black;
+			}
+		</style>
+	</head>
+	<body>
+		<h1 class="largetext">Bitcoin Forum</h1>
+		<h2 class="normaltext">Bitcoin => Bitcoin Technical Support => Topic started by: bitcoinbear on October 13, 2012, 06:00:00 AM</h2>
+
+		<table width="90%" cellpadding="0" cellspacing="0" border="0">
+			<tr>
+				<td>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Bitcoin-Qt will not start on Mac</b><br />
+					Post by: <b>bitcoinbear</b> on <b>October 13, 2012, 06:00:00 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Hi, I was just trying to install bitcoin on a mac, I just downloaded the latest version from bitcoin.org. When I click on Bitcoin-Qt, The bitcoin icon bounces a couple times in my dock, then it goes away. I don&#039;t get any messages or anything.<br /><br />Any ideas on how to make it run?</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Bitcoin-Qt will not start on Mac</b><br />
+					Post by: <b>tbcoin</b> on <b>October 13, 2012, 06:06:50 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=118203.msg1268981#msg1268981">Quote from: bitcoinbear on October 13, 2012, 06:00:00 AM</a></div><div class="quote">Hi, I was just trying to install bitcoin on a mac, I just downloaded the latest version from bitcoin.org. When I click on Bitcoin-Qt, The bitcoin icon bounces a couple times in my dock, then it goes away. I don&#039;t get any messages or anything.<br /><br />Any ideas on how to make it run?<br /></div><br />takes quite until interface opens</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Bitcoin-Qt will not start on Mac</b><br />
+					Post by: <b>joecascio</b> on <b>October 13, 2012, 06:10:41 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">It is probably loading the block chain, which will take a Looooong time the first time you run the program. After that, it will only have to load the blocks since the last time you ran it. :) . <br /><br />Hit F3 (shows all windows) and you should see a small window with a picture of the &quot;wallet&quot;. <br /><br />Just let it go overnight. It may take several hours to load the first time.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Bitcoin-Qt will not start on Mac</b><br />
+					Post by: <b>bitcoinbear</b> on <b>October 13, 2012, 06:15:31 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">I don&#039;t see any windows open. You are saying that once I tell it to open, it does not even bring up a window until it loads the block chain? Not even something to say how far it has progressed? How do I even know it is doing anything?</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Bitcoin-Qt will not start on Mac</b><br />
+					Post by: <b>joecascio</b> on <b>October 13, 2012, 06:18:23 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">The client has had some UI quirks the last couple of releases. Try this: Right click on the icon in the Dock and select &quot;Show/Hide Bitcoin&quot;</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Bitcoin-Qt will not start on Mac</b><br />
+					Post by: <b>flatfly</b> on <b>October 13, 2012, 06:46:43 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">What version if OSX are you running? 10.5 and lower are no longer supported by Bitcoin-Qt. See here: https://bitcointalk.org/index.php?topic=117874.0</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Bitcoin-Qt will not start on Mac</b><br />
+					Post by: <b>bitcoinbear</b> on <b>October 13, 2012, 01:12:40 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=118203.msg1269023#msg1269023">Quote from: flatfly on October 13, 2012, 06:46:43 AM</a></div><div class="quote">What version if OSX are you running? 10.5 and lower are no longer supported by Bitcoin-Qt. See here: https://bitcointalk.org/index.php?topic=117874.0<br /></div><br />I have OSX 10.5, why is it no longer supported?<br /><br />I have run into a few programs that are no longer supported on my &quot;older&quot; OSX, it is just a few years old. This is very frustrating, I suppose it is time to upgrade my computer anyway.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Bitcoin-Qt will not start on Mac</b><br />
+					Post by: <b>Raoul Duke</b> on <b>October 18, 2012, 06:30:35 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=118203.msg1269339#msg1269339">Quote from: bitcoinbear on October 13, 2012, 01:12:40 PM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=118203.msg1269023#msg1269023">Quote from: flatfly on October 13, 2012, 06:46:43 AM</a></div><div class="quote">What version if OSX are you running? 10.5 and lower are no longer supported by Bitcoin-Qt. See here: https://bitcointalk.org/index.php?topic=117874.0<br /></div><br />I have OSX 10.5, why is it no longer supported?<br /><br />I have run into a few programs that are no longer supported on my &quot;older&quot; OSX, it is just a few years old. This is very frustrating, I suppose it is time to upgrade my computer anyway.<br /></div><br />Why not just update your OS instead of the whole computer?</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Bitcoin-Qt will not start on Mac</b><br />
+					Post by: <b>bitcoinbear</b> on <b>October 18, 2012, 07:36:27 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=118203.msg1281417#msg1281417">Quote from: psy on October 18, 2012, 06:30:35 PM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=118203.msg1269339#msg1269339">Quote from: bitcoinbear on October 13, 2012, 01:12:40 PM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=118203.msg1269023#msg1269023">Quote from: flatfly on October 13, 2012, 06:46:43 AM</a></div><div class="quote">What version if OSX are you running? 10.5 and lower are no longer supported by Bitcoin-Qt. See here: https://bitcointalk.org/index.php?topic=117874.0<br /></div><br />I have OSX 10.5, why is it no longer supported?<br /><br />I have run into a few programs that are no longer supported on my &quot;older&quot; OSX, it is just a few years old. This is very frustrating, I suppose it is time to upgrade my computer anyway.<br /></div><br />Why not just update your OS instead of the whole computer?<br /></div><br />The newer OSX operating systems apparently will not run on my computer?</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Bitcoin-Qt will not start on Mac</b><br />
+					Post by: <b>Raoul Duke</b> on <b>October 18, 2012, 07:37:38 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=118203.msg1281566#msg1281566">Quote from: bitcoinbear on October 18, 2012, 07:36:27 PM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=118203.msg1281417#msg1281417">Quote from: psy on October 18, 2012, 06:30:35 PM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=118203.msg1269339#msg1269339">Quote from: bitcoinbear on October 13, 2012, 01:12:40 PM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=118203.msg1269023#msg1269023">Quote from: flatfly on October 13, 2012, 06:46:43 AM</a></div><div class="quote">What version if OSX are you running? 10.5 and lower are no longer supported by Bitcoin-Qt. See here: https://bitcointalk.org/index.php?topic=117874.0<br /></div><br />I have OSX 10.5, why is it no longer supported?<br /><br />I have run into a few programs that are no longer supported on my &quot;older&quot; OSX, it is just a few years old. This is very frustrating, I suppose it is time to upgrade my computer anyway.<br /></div><br />Why not just update your OS instead of the whole computer?<br /></div><br />The newer OSX operating systems apparently will not run on my computer?<br /></div><br />Oh gawd... Gotta love Apple lol</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Bitcoin-Qt will not start on Mac</b><br />
+					Post by: <b>bitcoinbear</b> on <b>October 18, 2012, 09:25:28 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=118203.msg1281572#msg1281572">Quote from: psy on October 18, 2012, 07:37:38 PM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=118203.msg1281566#msg1281566">Quote from: bitcoinbear on October 18, 2012, 07:36:27 PM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=118203.msg1281417#msg1281417">Quote from: psy on October 18, 2012, 06:30:35 PM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=118203.msg1269339#msg1269339">Quote from: bitcoinbear on October 13, 2012, 01:12:40 PM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=118203.msg1269023#msg1269023">Quote from: flatfly on October 13, 2012, 06:46:43 AM</a></div><div class="quote">What version if OSX are you running? 10.5 and lower are no longer supported by Bitcoin-Qt. See here: https://bitcointalk.org/index.php?topic=117874.0<br /></div><br />I have OSX 10.5, why is it no longer supported?<br /><br />I have run into a few programs that are no longer supported on my &quot;older&quot; OSX, it is just a few years old. This is very frustrating, I suppose it is time to upgrade my computer anyway.<br /></div><br />Why not just update your OS instead of the whole computer?<br /></div><br />The newer OSX operating systems apparently will not run on my computer?<br /></div><br />Oh gawd... Gotta love Apple lol<br /></div><br />Right? Apparently backwards compatibility is not very important to them.<br /><br />I have been thinking my next computer should be a linux box of some sort. For those people who are running linux: do you ever run into this sort of problem, where the hardware you have is unable to run updates to the operating system? Do you ever run into updates to programs that will no longer work on your system?</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Bitcoin-Qt will not start on Mac</b><br />
+					Post by: <b>Foxpup</b> on <b>October 19, 2012, 02:31:38 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=118203.msg1281861#msg1281861">Quote from: bitcoinbear on October 18, 2012, 09:25:28 PM</a></div><div class="quote">I have been thinking my next computer should be a linux box of some sort. For those people who are running linux: do you ever run into this sort of problem, where the hardware you have is unable to run updates to the operating system? Do you ever run into updates to programs that will no longer work on your system?<br /></div>Nope. Linux was originally designed to run on a 12 MHz i386DX, and the current version still does (though most modern distros with a GUI require a little bit more than that, typically a Pentium II with 128 MB of RAM). Pretty much every device that was ever supported in Linux is either still supported or has an old driver available that still works. One of the (many) reasons I use Linux is that I actually have some old hardware that is no longer supported by other operating systems.<br /><br />As for program updates requiring a newer version of the OS, that does sometimes happen, though it isn&#039;t a problem to keep the OS up to date, even on old hardware.</div>
+					<br /><br />
+					<div align="center" class="smalltext">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank">Powered by SMF 1.1.19</a> | 
+<a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank">SMF &copy; 2006-2009, Simple Machines</a>
+		</span></div>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

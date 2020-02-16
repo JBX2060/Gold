@@ -1,0 +1,86 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+		<link rel="canonical" href="https://bitcointalk.org/index.php?topic=127413.0" />
+		<title>Print Page - Lost blockchain.info android client coin?</title>
+		<style type="text/css">
+			body
+			{
+				color: black;
+				background-color: white;
+			}
+			body, td, .normaltext
+			{
+				font-family: Verdana, arial, helvetica, serif;
+				font-size: small;
+			}
+			*, a:link, a:visited, a:hover, a:active
+			{
+				color: black !important;
+			}
+			table
+			{
+				empty-cells: show;
+			}
+			.code
+			{
+				font-size: x-small;
+				font-family: monospace;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.quote
+			{
+				font-size: x-small;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.smalltext, .quoteheader, .codeheader
+			{
+				font-size: x-small;
+			}
+			.largetext
+			{
+				font-size: large;
+			}
+			hr
+			{
+				height: 1px;
+				border: 0;
+				color: black;
+				background-color: black;
+			}
+		</style>
+	</head>
+	<body>
+		<h1 class="largetext">Bitcoin Forum</h1>
+		<h2 class="normaltext">Bitcoin => Bitcoin Technical Support => Topic started by: sethsethseth on November 23, 2012, 02:40:56 PM</h2>
+
+		<table width="90%" cellpadding="0" cellspacing="0" border="0">
+			<tr>
+				<td>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Lost blockchain.info android client coin?</b><br />
+					Post by: <b>sethsethseth</b> on <b>November 23, 2012, 02:40:56 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">I was showing a new user how to use bitcoin on his phone and here is what happened:<br />He went to blockchain.info and made a wallet with a password<br />I sent 1btc to this address<br />One of the website buttons was being unresponsive on his S3, so he downloaded the blockchain.info android app instead<br />he opened the app and it asked to &quot;pair device&quot; or &quot;new account&quot;<br />he pressed &quot;back&quot; to get rid of that dialog box<br />he went to receive coins and copied the btc address<br />he opened the browser blockchain wallet again, hit send coins, pasted the address, deleted the first part of it where it says &quot;bitcoin: &quot; and sent .999 btc with a .001 fee to it<br />the coins never showed up in the android wallet, so he opened the client up again and looked at the receive address, and it had changed to something else.&nbsp; They both started with &quot;1F&quot; though<br />Where the hell did the original address come from and where are the coins?<br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Lost blockchain.info android client coin?</b><br />
+					Post by: <b>piuk</b> on <b>November 23, 2012, 02:52:07 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">I don&#039;t know what went on here, either:<br /><br />a) Two wallets were created. In which case the easiest way to solve it will be to just find the wallets and login through the web interface. Do you know the ip address that was used to create them?<br />b) Perhaps there was a syncing issue caused by using both apps simultaneously, causing one to overwrite each-others wallet. Login through the web interface click [Import / Export] the [Import backup] and click the import link next to each backup.</div>
+					<br /><br />
+					<div align="center" class="smalltext">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank">Powered by SMF 1.1.19</a> | 
+<a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank">SMF &copy; 2006-2009, Simple Machines</a>
+		</span></div>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

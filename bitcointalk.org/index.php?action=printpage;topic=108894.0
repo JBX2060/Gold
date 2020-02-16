@@ -1,0 +1,206 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+		<link rel="canonical" href="https://bitcointalk.org/index.php?topic=108894.0" />
+		<title>Print Page - Need help to not lose bitcoins</title>
+		<style type="text/css">
+			body
+			{
+				color: black;
+				background-color: white;
+			}
+			body, td, .normaltext
+			{
+				font-family: Verdana, arial, helvetica, serif;
+				font-size: small;
+			}
+			*, a:link, a:visited, a:hover, a:active
+			{
+				color: black !important;
+			}
+			table
+			{
+				empty-cells: show;
+			}
+			.code
+			{
+				font-size: x-small;
+				font-family: monospace;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.quote
+			{
+				font-size: x-small;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.smalltext, .quoteheader, .codeheader
+			{
+				font-size: x-small;
+			}
+			.largetext
+			{
+				font-size: large;
+			}
+			hr
+			{
+				height: 1px;
+				border: 0;
+				color: black;
+				background-color: black;
+			}
+		</style>
+	</head>
+	<body>
+		<h1 class="largetext">Bitcoin Forum</h1>
+		<h2 class="normaltext">Bitcoin => Bitcoin Technical Support => Topic started by: supersonic3974 on September 12, 2012, 04:05:04 AM</h2>
+
+		<table width="90%" cellpadding="0" cellspacing="0" border="0">
+			<tr>
+				<td>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Need help to not lose bitcoins</b><br />
+					Post by: <b>supersonic3974</b> on <b>September 12, 2012, 04:05:04 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Hi there!<br /><br />I use to mine bitcoins for a while with EclipseMC and I had about 37 BTC stored in my account there.&nbsp; Well I was going to cash them out, but accidentally hit the cash out button sooner than I meant to and they were sent to my address.<br /><br />Well it has been a very long time since I used my bitcoin wallet and so the blockchain it has is very outdated.&nbsp; I currently have it updating the blockchain, but it has been running for 24 hours and still has about 10,000 blocks to go.&nbsp; And it&#039;s getting slower the closer it gets.&nbsp; I&#039;m only getting about 8-9 connections and the version I&#039;m using is 0.3.23-beta.&nbsp; I know I need to update the version, but I&#039;m worried that I&#039;ll lose my address and the transaction that&#039;s in progress.&nbsp; Btw, I&#039;ve already backed up my wallet.dat, but I don&#039;t think it will do much good since my bitcoins have not arrived yet.<br /><br />Is there any way to speed up the updating of the blockchain?&nbsp; (I did the port-forwarding for the firewall, but I&#039;m not exactly sure if I did it correctly.)</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Need help to not lose bitcoins</b><br />
+					Post by: <b>Revalin</b> on <b>September 12, 2012, 04:09:06 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">The coins don&#039;t have to arrive in your wallet.dat. &nbsp;They just need to get listed in the public blockchain.<br /><br />As long as you have a backup of your wallet.dat, you&#039;re fine. &nbsp;Go ahead and update to the latest.<br /><br />You can also download a recent blockchain here: &nbsp;http://sourceforge.net/projects/bitcoin/files/Bitcoin/blockchain/ (http://sourceforge.net/projects/bitcoin/files/Bitcoin/blockchain/)<br /><br />However, make sure you run with -rescan the first time so it&#039;ll find your coins.<br /><br />Edit: fixed URL</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Need help to not lose bitcoins</b><br />
+					Post by: <b>DeathAndTaxes</b> on <b>September 12, 2012, 04:12:21 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">If you have a backup of your wallet.dat which contains the address you sent them to there is absolutely no risk of losing coins. &nbsp;It will take a very long time to download the blockchain but that is to be expected. &nbsp;0.3.23 is ancient any particularly reason you are still using that? worst case scenario you can export the private key from your wallet.dat and import it into another wallet. &nbsp;<br /><br />As Revalin indicated coins don&#039;t go to your client. &nbsp;The go the blockchain (alll 20,000+ nodes all around the planet). &nbsp;Your wallet.dat simply contains the keys which let you (and only you) spend/transfer coins you have received. &nbsp; You don&#039;t need to be online, or have a client up to date, or even have a computer to receive bitcoins.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Need help to not lose bitcoins</b><br />
+					Post by: <b>supersonic3974</b> on <b>September 12, 2012, 04:14:28 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">How do I run the updated Wallet with -rescan? &nbsp;I&#039;m using windows and I&#039;ll be installing &quot;bitcoin-0.6.2-win32-setup.exe&quot;.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Need help to not lose bitcoins</b><br />
+					Post by: <b>Revalin</b> on <b>September 12, 2012, 04:16:30 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">After installing it, start a cmd window and run &quot;c:\path\to\bitcoin\bitcoin-qt.exe -rescan&quot;.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Need help to not lose bitcoins</b><br />
+					Post by: <b>supersonic3974</b> on <b>September 12, 2012, 04:17:18 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=108894.msg1183848#msg1183848">Quote from: DeathAndTaxes on September 12, 2012, 04:12:21 AM</a></div><div class="quote">If you have a backup of your wallet.dat which contains the address you sent them to there is absolutely no risk of losing coins.&nbsp; It will take a very long time to download the blockchain but that is to be expected.&nbsp; 0.3.23 is ancient any particularly reason you are still using that? worst case scenario you can export the private key from your wallet.dat and import it into another wallet.&nbsp; <br /><br />As Revalin indicated coins don&#039;t go to your client.&nbsp; The go the blockchain (alll 20,000+ nodes all around the planet).&nbsp; Your wallet.dat simply contains the keys which let you spend/transfer coins you have received.&nbsp; &nbsp;You don&#039;t need to be online, or have a client up to date, or even have a computer to receive bitcoins.<br /></div><br />Yeah, the reason I&#039;m still using it is simply that I haven&#039;t used my wallet in forever. &nbsp;In hindsight, I should have just sent my coins from the EclipseMC account straight to an account on MtGox or something. </div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Need help to not lose bitcoins</b><br />
+					Post by: <b>supersonic3974</b> on <b>September 12, 2012, 04:20:25 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=108894.msg1183866#msg1183866">Quote from: Revalin on September 12, 2012, 04:16:30 AM</a></div><div class="quote">After installing it, start a cmd window and run &quot;c:\path\to\bitcoin\bitcoin-qt.exe -rescan&quot;.<br /></div><br />I&#039;m guessing that before I run the updated wallet I need to download the latest blockchain and put both it and my wallet.dat file somewhere.&nbsp; Where do I need to put these?</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Need help to not lose bitcoins</b><br />
+					Post by: <b>Revalin</b> on <b>September 12, 2012, 04:22:06 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Actually, the sourceforge blockchain is only to block 170k. &nbsp;If you&#039;re already within 10k blocks of finished then there&#039;s no point in downloading it again.<br /><br />All you have to do is exit, update to 0.6.2, then fire it up again. &nbsp;It will pick up where it left off.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Need help to not lose bitcoins</b><br />
+					Post by: <b>supersonic3974</b> on <b>September 12, 2012, 04:24:35 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=108894.msg1183882#msg1183882">Quote from: Revalin on September 12, 2012, 04:22:06 AM</a></div><div class="quote">Actually, the sourceforge blockchain is only to block 170k. &nbsp;If you&#039;re already within 10k blocks of finished then there&#039;s no point in downloading it again.<br /><br />All you have to do is exit, update to 0.6.2, then fire it up again. &nbsp;It will pick up where it left off.<br /></div><br />But I will need to put my wallet.dat file somewhere after installing 0.6.2, correct? <br /><br />Where does it need to go?</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Need help to not lose bitcoins</b><br />
+					Post by: <b>Revalin</b> on <b>September 12, 2012, 04:28:29 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">%APPDATA%\Bitcoin<br /><br />On Windows 7, that means C:\Users\(username)\AppData\Roaming\Bitcoin<br /><br />But you shouldn&#039;t have to do anything manually.&nbsp; Upgrading won&#039;t delete the wallet.dat, so it&#039;ll already be there when you start it up again.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Need help to not lose bitcoins</b><br />
+					Post by: <b>FreeMoney</b> on <b>September 12, 2012, 04:29:45 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=108894.msg1183887#msg1183887">Quote from: supersonic3974 on September 12, 2012, 04:24:35 AM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=108894.msg1183882#msg1183882">Quote from: Revalin on September 12, 2012, 04:22:06 AM</a></div><div class="quote">Actually, the sourceforge blockchain is only to block 170k. &nbsp;If you&#039;re already within 10k blocks of finished then there&#039;s no point in downloading it again.<br /><br />All you have to do is exit, update to 0.6.2, then fire it up again. &nbsp;It will pick up where it left off.<br /></div><br />But I will need to put my wallet.dat file somewhere after installing 0.6.2, correct? <br /><br />Where does it need to go?<br /></div><br />You don&#039;t need to move it at all. But back it up just in case.<br /><br />On an old version you&#039;ll need to go to C:\Users\user\AppData\Roaming\Bitcoin it might be hidden.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Need help to not lose bitcoins</b><br />
+					Post by: <b>supersonic3974</b> on <b>September 12, 2012, 04:39:08 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Ok, I have the updated wallet up and running and everything looks good.&nbsp; The only problem now is that I&#039;m only getting 10 connections.&nbsp; Is there any way to speed up the blockchain update?</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Need help to not lose bitcoins</b><br />
+					Post by: <b>Revalin</b> on <b>September 12, 2012, 04:41:06 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">10 is plenty.&nbsp; The update is usually limited by the speed of your CPU and disk, not the number of connections.<br /><br />0.6.2 should update faster than 0.3.23.&nbsp; Just give it a bit.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Need help to not lose bitcoins</b><br />
+					Post by: <b>supersonic3974</b> on <b>September 12, 2012, 04:42:49 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Ok, thanks Revalin.&nbsp; One last question though.&nbsp; How can I check the blockchain to see the transaction I sent?</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Need help to not lose bitcoins</b><br />
+					Post by: <b>Revalin</b> on <b>September 12, 2012, 04:43:58 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">http://blockchain.info/ or http://blockexplorer.com/<br /><br />Just enter your address in the search box.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Need help to not lose bitcoins</b><br />
+					Post by: <b>supersonic3974</b> on <b>September 12, 2012, 04:50:07 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Ok cool. &nbsp;I was trying to use blockexplorer.com earlier, but for some reason it kept timing out. &nbsp;But blockchain.info worked just fine.<br /><br />Thanks again Revalin, what address should I use to send you a tip once my blockchain finishes?</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Need help to not lose bitcoins</b><br />
+					Post by: <b>Revalin</b> on <b>September 12, 2012, 04:53:31 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Yeah, I&#039;ve seen that on blockexplorer sometimes.&nbsp; I suspect it happens occasionally when it&#039;s busy.<br /><br />&lt;-&nbsp; My address is right over there.&nbsp; :)<br /><br />And no problem, always glad to help.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Need help to not lose bitcoins</b><br />
+					Post by: <b>supersonic3974</b> on <b>September 12, 2012, 04:56:18 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">I&#039;m confused about the space in the middle of your address.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Need help to not lose bitcoins</b><br />
+					Post by: <b>Revalin</b> on <b>September 12, 2012, 04:57:12 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">It&#039;s just so that it wraps into the available width. &nbsp;Delete the space. &nbsp;:)<br /><br />Edit: 165YUuQUWhBz3d27iXKxRiazQnjEtJNG9g</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Need help to not lose bitcoins</b><br />
+					Post by: <b>supersonic3974</b> on <b>September 12, 2012, 04:58:10 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Haha, I see.&nbsp; It looked funny on my widescreen monitor.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Need help to not lose bitcoins</b><br />
+					Post by: <b>supersonic3974</b> on <b>September 13, 2012, 12:32:33 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=108894.msg1183971#msg1183971">Quote from: Revalin on September 12, 2012, 04:57:12 AM</a></div><div class="quote">It&#039;s just so that it wraps into the available width. &nbsp;Delete the space. &nbsp;:)<br /><br />Edit: 165YUuQUWhBz3d27iXKxRiazQnjEtJNG9g<br /></div><br />The tip should be on its way.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Need help to not lose bitcoins</b><br />
+					Post by: <b>Revalin</b> on <b>September 13, 2012, 01:21:10 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Thanks.&nbsp; :)&nbsp; Glad to hear it worked out.</div>
+					<br /><br />
+					<div align="center" class="smalltext">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank">Powered by SMF 1.1.19</a> | 
+<a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank">SMF &copy; 2006-2009, Simple Machines</a>
+		</span></div>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

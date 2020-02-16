@@ -1,0 +1,92 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+		<link rel="canonical" href="https://bitcointalk.org/index.php?topic=117345.0" />
+		<title>Print Page - Downloading block risks forking?</title>
+		<style type="text/css">
+			body
+			{
+				color: black;
+				background-color: white;
+			}
+			body, td, .normaltext
+			{
+				font-family: Verdana, arial, helvetica, serif;
+				font-size: small;
+			}
+			*, a:link, a:visited, a:hover, a:active
+			{
+				color: black !important;
+			}
+			table
+			{
+				empty-cells: show;
+			}
+			.code
+			{
+				font-size: x-small;
+				font-family: monospace;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.quote
+			{
+				font-size: x-small;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.smalltext, .quoteheader, .codeheader
+			{
+				font-size: x-small;
+			}
+			.largetext
+			{
+				font-size: large;
+			}
+			hr
+			{
+				height: 1px;
+				border: 0;
+				color: black;
+				background-color: black;
+			}
+		</style>
+	</head>
+	<body>
+		<h1 class="largetext">Bitcoin Forum</h1>
+		<h2 class="normaltext">Bitcoin => Bitcoin Technical Support => Topic started by: chufchuf on October 09, 2012, 04:51:11 AM</h2>
+
+		<table width="90%" cellpadding="0" cellspacing="0" border="0">
+			<tr>
+				<td>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Downloading block risks forking?</b><br />
+					Post by: <b>chufchuf</b> on <b>October 09, 2012, 04:51:11 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">If you download blocks from a client server site like bitcoincharts instead of waiting for the bitcoin client to update through peer to peer, what exactly are the risks? Can the bitcoin client belong to a bitcoin fork and can the coins in the wallet become worthless?</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Downloading block risks forking?</b><br />
+					Post by: <b>Stephen Gornick</b> on <b>October 09, 2012, 05:31:52 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=117345.msg1258259#msg1258259">Quote from: chufchuf on October 09, 2012, 04:51:11 AM</a></div><div class="quote">If you download blocks from a client server site like bitcoincharts instead of waiting for the bitcoin client to update through peer to peer, what exactly are the risks? Can the bitcoin client belong to a bitcoin fork and can the coins in the wallet become worthless?<br /></div><br />This was addressed here:<br /><br />How can one download the initial Blockchain data files securely?<br />&nbsp;- http://bitcoin.stackexchange.com/questions/3551<br /><br />The problem is that the client doesn&#039;t validate each block on startup, so unless the client downloads the blockchain from the P2P network blockchain, you are exposing yourself to the risk where you have invalid data in your data files. &nbsp;If a manual download was offered with the intention to defraud, this could make you vulnerable to a double spend attack against you that could be successful.<br /><br />With the version 0.7 client, -loadblock= &nbsp;is now available and with that you can manually download the blockchain data files, but instead of using them directly you can load the blocks from the manually downloaded data files. &nbsp;Thus the blockchain is loaded securely and as fast as your system can go. &nbsp;There is no security risks as long as after the load is done you let the client finish the last bit of catching up to protect against the chance that the longest chain in the manual download had something other than the current longest bitcoin blockchain.<br /><br />[Edited for readability]</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Downloading block risks forking?</b><br />
+					Post by: <b>jgarzik</b> on <b>October 09, 2012, 05:34:07 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=117345.msg1258312#msg1258312">Quote from: Stephen Gornick on October 09, 2012, 05:31:52 AM</a></div><div class="quote">With the version 0.7 client, -loadblock=&nbsp; is now available and with that you can securely download the blockchain data files, but instead of using them directly you can load the blocks from them and thus the blockchain is loaded as fast as your system can go, and there is no security risks as long as after the load is done you let the client finish the last bit of catching up (e.g., in case the data files had the longest chain as something other than the current longest bitcoin blockchain.)<br /></div><br />Correct.&nbsp; -loadblock=FILE is the answer for the current client (0.7 or later).&nbsp; That imports and validates blocks from the given file(s) in the same manner as the Initial Block Download (IBD) performed over the network.<br /><br /></div>
+					<br /><br />
+					<div align="center" class="smalltext">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank">Powered by SMF 1.1.19</a> | 
+<a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank">SMF &copy; 2006-2009, Simple Machines</a>
+		</span></div>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

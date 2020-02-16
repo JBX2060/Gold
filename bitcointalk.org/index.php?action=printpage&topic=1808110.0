@@ -1,0 +1,470 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+		<link rel="canonical" href="https://bitcointalk.org/index.php?action=printpage&amp;topic=1808110.0" />
+		<title>Print Page - Z170 Z170A BIOS setting 7 GPU mining success </title>
+		<style type="text/css">
+			body
+			{
+				color: black;
+				background-color: white;
+			}
+			body, td, .normaltext
+			{
+				font-family: Verdana, arial, helvetica, serif;
+				font-size: small;
+			}
+			*, a:link, a:visited, a:hover, a:active
+			{
+				color: black !important;
+			}
+			table
+			{
+				empty-cells: show;
+			}
+			.code
+			{
+				font-size: x-small;
+				font-family: monospace;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.quote
+			{
+				font-size: x-small;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.smalltext, .quoteheader, .codeheader
+			{
+				font-size: x-small;
+			}
+			.largetext
+			{
+				font-size: large;
+			}
+			hr
+			{
+				height: 1px;
+				border: 0;
+				color: black;
+				background-color: black;
+			}
+		</style>
+	</head>
+	<body>
+		<h1 class="largetext">Bitcoin Forum</h1>
+		<h2 class="normaltext">Alternate cryptocurrencies => Mining (Altcoins) => Topic started by: mining-hardware on February 28, 2017, 09:17:06 AM</h2>
+
+		<table width="90%" cellpadding="0" cellspacing="0" border="0">
+			<tr>
+				<td>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Z170 Z170A BIOS setting 7 GPU mining success </b><br />
+					Post by: <b>mining-hardware</b> on <b>February 28, 2017, 09:17:06 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><br />Hello,<br /><br />My bitcointalk Activity is to low to past image.<br />So, I past all step by step with image on my website.<br /><br />It&#039;s easily to setting BIOS !<br /><br />Secret is BIOS Above 4G Decoding to Enable.<br /><br />Z170 Z170A&nbsp; BIOS setting&nbsp; Run 7 GPU mining Success on Win 10&nbsp; Step by step&#8203;<br />http://mining-hardware.weebly.com/blog/z170-z170a-bios-setting-7-gpu-success-on-win-10-step-by-step (http://mining-hardware.weebly.com/blog/z170-z170a-bios-setting-7-gpu-success-on-win-10-step-by-step)<br /><br /><br /><br /><br />My Other past . <br />It&#039;s my mining collect knowledge to share everyone. <br />Thank&#039;s everyone.<br /><br />How to distinguish GPU quality to tuning your GPU<br />http://mining-hardware.weebly.com/blog/category/tuning-gpu (http://mining-hardware.weebly.com/blog/category/tuning-gpu)<br /><br /><br />MSI GAMING X RX 470 4GB BIOS MOD Hynix chip &#8203;28 Mh Step by step&#8203;<br />http://mining-hardware.weebly.com/blog/msi-gaming-x-rx-470-4gb-bios-mod-eth-28mhs-hynix-chip-overclocking (http://mining-hardware.weebly.com/blog/msi-gaming-x-rx-470-4gb-bios-mod-eth-28mhs-hynix-chip-overclocking)<br /><br /><br /><br />MSI GAMING X RX 470 8GB BIOS MOD Micron chip &#8203;28 Mh Step by step&#8203;<br />http://mining-hardware.weebly.com/blog/msi-gaming-x-rx-470-8gb-bios-mod-28mhs (http://mining-hardware.weebly.com/blog/msi-gaming-x-rx-470-8gb-bios-mod-28mhs)<br /><br /><br /><br />OLD BIOS Z170 Z170A BIOS MOD 6 GPU Success mining step by step <br />Secret is&nbsp; BIOS&nbsp; modify<br />All PCI-E to Gen 1 and&nbsp; MAX TOLUD set to 3GB&nbsp; <br />http://mining-hardware.weebly.com/blog/category/z170-bios-mod (http://mining-hardware.weebly.com/blog/category/z170-bios-mod)<br /><br /><br />Hope it helps you.<br /><br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Z170 Z170A BIOS setting 7 GPU mining success </b><br />
+					Post by: <b>ccccccc7</b> on <b>February 28, 2017, 09:22:16 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">In your pictures you have plugged the PCIEx1 Riser into the PCIEx16 slot.<br /><br />Does that work??? I never thought of that.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Z170 Z170A BIOS setting 7 GPU mining success </b><br />
+					Post by: <b>mining-hardware</b> on <b>February 28, 2017, 09:37:45 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=1808110.msg18007901#msg18007901">Quote from: ccccccc7 on February 28, 2017, 09:22:16 AM</a></div><div class="quote">In your pictures you have plugged the PCIEx1 Riser into the PCIEx16 slot.<br /><br />Does that work??? I never thought of that.<br /></div><br />Yes ,&nbsp; that all 7 Riser is work . <br />Do you have plug power cable into USB Riser<br /><br />I have two power type slot USB Riser,it must plugged power cable~<br />http://imgur.com/a/eIXIh</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Z170 Z170A BIOS setting 7 GPU mining success </b><br />
+					Post by: <b>ccccccc7</b> on <b>February 28, 2017, 11:15:38 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=1808110.msg18008047#msg18008047">Quote from: mining-hardware on February 28, 2017, 09:37:45 AM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=1808110.msg18007901#msg18007901">Quote from: ccccccc7 on February 28, 2017, 09:22:16 AM</a></div><div class="quote">In your pictures you have plugged the PCIEx1 Riser into the PCIEx16 slot.<br /><br />Does that work??? I never thought of that.<br /></div><br />Yes ,&nbsp; that all 7 Riser is work . <br />Do you have plug power cable into USB Riser<br /><br />I have two power type slot USB Riser,it must plugged power cable~<br />http://imgur.com/a/eIXIh<br /></div><br />I will have to try now for myself&nbsp; ;D<br /><br />The SATA powered riser would be dangerous for AMD rx as they can draw more power through the riser than a SATA cable can handle, no?</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Z170 Z170A BIOS setting 7 GPU mining success </b><br />
+					Post by: <b>deadsix</b> on <b>February 28, 2017, 12:12:42 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=1808110.msg18009092#msg18009092">Quote from: ccccccc7 on February 28, 2017, 11:15:38 AM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=1808110.msg18008047#msg18008047">Quote from: mining-hardware on February 28, 2017, 09:37:45 AM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=1808110.msg18007901#msg18007901">Quote from: ccccccc7 on February 28, 2017, 09:22:16 AM</a></div><div class="quote">In your pictures you have plugged the PCIEx1 Riser into the PCIEx16 slot.<br /><br />Does that work??? I never thought of that.<br /></div><br />Yes ,&nbsp; that all 7 Riser is work . <br />Do you have plug power cable into USB Riser<br /><br />I have two power type slot USB Riser,it must plugged power cable~<br />http://imgur.com/a/eIXIh<br /></div><br />I will have to try now for myself&nbsp; ;D<br /><br />The SATA powered riser would be dangerous for AMD rx as they can draw more power through the riser than a SATA cable can handle, no?<br /></div><br /><br />Sata powered risers are still better than using Molex to Sata converters. And as long as you can keep each cards power draw under 120W sata powered risers are safe.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Z170 Z170A BIOS setting 7 GPU mining success </b><br />
+					Post by: <b>Rutdam</b> on <b>February 28, 2017, 12:31:16 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=1808110.msg18009668#msg18009668">Quote from: deadsix on February 28, 2017, 12:12:42 PM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=1808110.msg18009092#msg18009092">Quote from: ccccccc7 on February 28, 2017, 11:15:38 AM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=1808110.msg18008047#msg18008047">Quote from: mining-hardware on February 28, 2017, 09:37:45 AM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=1808110.msg18007901#msg18007901">Quote from: ccccccc7 on February 28, 2017, 09:22:16 AM</a></div><div class="quote">In your pictures you have plugged the PCIEx1 Riser into the PCIEx16 slot.<br /><br />Does that work??? I never thought of that.<br /></div><br />Yes ,&nbsp; that all 7 Riser is work . <br />Do you have plug power cable into USB Riser<br /><br />I have two power type slot USB Riser,it must plugged power cable~<br />http://imgur.com/a/eIXIh<br /></div><br />I will have to try now for myself&nbsp; ;D<br /><br />The SATA powered riser would be dangerous for AMD rx as they can draw more power through the riser than a SATA cable can handle, no?<br /></div><br /><br />Sata powered risers are still better than using Molex to Sata converters. And as long as you can keep each cards power draw under 120W sata powered risers are safe.<br /></div><br />I thought the molex can draw more power.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Z170 Z170A BIOS setting 7 GPU mining success </b><br />
+					Post by: <b>dddrgonzooo</b> on <b>February 28, 2017, 01:04:30 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">The rx cards take more power from the pcie slot compared to previous generation cards. The sata connectors have a high rate of arching which can melt the connector and give you problems. Newer version risers use 6 pin pcie cables for power which I have had the best luck with. Also when viewing with the flir they run cool and haven&#039;t given me any problems. I have some sata to molex that start to melt the sheathing (of the molex side) with rx cards and melt in the same spot. Now I scan with the flir and can see temps rising before the sheathing melts.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Z170 Z170A BIOS setting 7 GPU mining success </b><br />
+					Post by: <b>miropp</b> on <b>February 28, 2017, 04:01:52 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">I want to buy new version MSI Z270 Gaming Pro Carbon or Asus Prime Z270-A.<br />Do you think that it will be working with all PCIE slots (6/7 GPUs)?</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Z170 Z170A BIOS setting 7 GPU mining success </b><br />
+					Post by: <b>bughatti</b> on <b>February 28, 2017, 05:20:10 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Would be nice if someone can confirm the MSI z170A Gaming 5 <br /><br />https://www.amazon.com/MSI-Performance-Gaming-Z170A-Motherboard/dp/B01BIUW9PO/ref=sr_1_1?ie=UTF8&amp;qid=1488302387&amp;sr=8-1&amp;keywords=z170a+gaming+5 </div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Z170 Z170A BIOS setting 7 GPU mining success </b><br />
+					Post by: <b>Rutdam</b> on <b>February 28, 2017, 07:57:24 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=1808110.msg18013274#msg18013274">Quote from: bughatti on February 28, 2017, 05:20:10 PM</a></div><div class="quote">Would be nice if someone can confirm the MSI z170A Gaming 5 <br /><br />https://www.amazon.com/MSI-Performance-Gaming-Z170A-Motherboard/dp/B01BIUW9PO/ref=sr_1_1?ie=UTF8&amp;qid=1488302387&amp;sr=8-1&amp;keywords=z170a+gaming+5 <br /></div><br />It should work.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Z170 Z170A BIOS setting 7 GPU mining success </b><br />
+					Post by: <b>otto_diesel</b> on <b>February 28, 2017, 08:15:52 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">thank you, its very useful</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Z170 Z170A BIOS setting 7 GPU mining success </b><br />
+					Post by: <b>bughatti</b> on <b>February 28, 2017, 09:11:01 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=1808110.msg18014936#msg18014936">Quote from: Rutdam on February 28, 2017, 07:57:24 PM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=1808110.msg18013274#msg18013274">Quote from: bughatti on February 28, 2017, 05:20:10 PM</a></div><div class="quote">Would be nice if someone can confirm the MSI z170A Gaming 5 <br /><br />https://www.amazon.com/MSI-Performance-Gaming-Z170A-Motherboard/dp/B01BIUW9PO/ref=sr_1_1?ie=UTF8&amp;qid=1488302387&amp;sr=8-1&amp;keywords=z170a+gaming+5 <br /></div><br />It should work.<br /></div><br />Just bought one along with 7 rx 480&#039;s, Ill post an update after they come in.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Z170 Z170A BIOS setting 7 GPU mining success </b><br />
+					Post by: <b>mojoxc</b> on <b>March 01, 2017, 05:38:38 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=1808110.msg18013274#msg18013274">Quote from: bughatti on February 28, 2017, 05:20:10 PM</a></div><div class="quote">Would be nice if someone can confirm the MSI z170A Gaming 5 <br /><br />https://www.amazon.com/MSI-Performance-Gaming-Z170A-Motherboard/dp/B01BIUW9PO/ref=sr_1_1?ie=UTF8&amp;qid=1488302387&amp;sr=8-1&amp;keywords=z170a+gaming+5 <br /></div><br />That combination does work I can confirm that.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Z170 Z170A BIOS setting 7 GPU mining success </b><br />
+					Post by: <b>bughatti</b> on <b>March 09, 2017, 02:38:12 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Hello team, I am really hoping someone can help here. &nbsp;I am on my second MSI z170A carbon and I can not get a boot screen to show up. &nbsp;I have followed the guide and not installed any gpu&#039;s and am using the onboard HDMI and tried the onboard dvi. &nbsp;Tried 2 different monitors, also 2 sets of ram and 2 different procs. &nbsp;When I watch both of them boot i see the diagnostic lights flash for ram and cpu but never for vga. &nbsp;I have reset the cmos. &nbsp;Am I missing something here?<br /><br />Proc:&nbsp; Intel BX80677G3930 7th Gen Celeron Desktop Processors<br />Mem:&nbsp; Kingston HyperX FURY Black 8GB Kit (2x4GB) 2133MHz DDR4 Non-ECC CL14 DIMM Desktop Memory (HX421C14FBK2/8)<br />&nbsp; &nbsp;Tried memory with just 1 stick in slot 2</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Z170 Z170A BIOS setting 7 GPU mining success </b><br />
+					Post by: <b>andrewaka</b> on <b>March 09, 2017, 06:27:58 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=1808110.msg18012289#msg18012289">Quote from: miropp on February 28, 2017, 04:01:52 PM</a></div><div class="quote">I want to buy new version MSI Z270 Gaming Pro Carbon or Asus Prime Z270-A.<br />Do you think that it will be working with all PCIE slots (6/7 GPUs)?<br /></div>I&#039;ve got asus z270-a. 7 gpu works fine</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Z170 Z170A BIOS setting 7 GPU mining success </b><br />
+					Post by: <b>deadsix</b> on <b>March 09, 2017, 08:55:26 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=1808110.msg18119302#msg18119302">Quote from: andrewaka on March 09, 2017, 06:27:58 AM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=1808110.msg18012289#msg18012289">Quote from: miropp on February 28, 2017, 04:01:52 PM</a></div><div class="quote">I want to buy new version MSI Z270 Gaming Pro Carbon or Asus Prime Z270-A.<br />Do you think that it will be working with all PCIE slots (6/7 GPUs)?<br /></div>I&#039;ve got asus z270-a. 7 gpu works fine<br /></div><br />Could you post a screenie of your system running 7 cards off an Asus Z270 a?</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Z170 Z170A BIOS setting 7 GPU mining success </b><br />
+					Post by: <b>mankeen</b> on <b>March 09, 2017, 10:47:18 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=1808110.msg18007862#msg18007862">Quote from: mining-hardware on February 28, 2017, 09:17:06 AM</a></div><div class="quote"><br />Hello,<br /><br />My bitcointalk Activity is to low to past image.<br />So, I past all step by step with image on my website.<br /><br />It&#039;s easily to setting BIOS !<br /><br />Secret is BIOS Above 4G Decoding to Enable.<br /><br />Z170 Z170A&nbsp; BIOS setting&nbsp; Run 7 GPU mining Success on Win 10&nbsp; Step by step&#8203;<br />http://mining-hardware.weebly.com/blog/z170-z170a-bios-setting-7-gpu-success-on-win-10-step-by-step (http://mining-hardware.weebly.com/blog/z170-z170a-bios-setting-7-gpu-success-on-win-10-step-by-step)<br /><br /><br /><br /><br />My Other past . <br />It&#039;s my mining collect knowledge to share everyone. <br />Thank&#039;s everyone.<br /><br />How to distinguish GPU quality to tuning your GPU<br />http://mining-hardware.weebly.com/blog/category/tuning-gpu (http://mining-hardware.weebly.com/blog/category/tuning-gpu)<br /><br /><br />MSI GAMING X RX 470 4GB BIOS MOD Hynix chip &#8203;28 Mh Step by step&#8203;<br />http://mining-hardware.weebly.com/blog/msi-gaming-x-rx-470-4gb-bios-mod-eth-28mhs-hynix-chip-overclocking (http://mining-hardware.weebly.com/blog/msi-gaming-x-rx-470-4gb-bios-mod-eth-28mhs-hynix-chip-overclocking)<br /><br /><br /><br />MSI GAMING X RX 470 8GB BIOS MOD Micron chip &#8203;28 Mh Step by step&#8203;<br />http://mining-hardware.weebly.com/blog/msi-gaming-x-rx-470-8gb-bios-mod-28mhs (http://mining-hardware.weebly.com/blog/msi-gaming-x-rx-470-8gb-bios-mod-28mhs)<br /><br /><br /><br />OLD BIOS Z170 Z170A BIOS MOD 6 GPU Success mining step by step <br />Secret is&nbsp; BIOS&nbsp; modify<br />All PCI-E to Gen 1 and&nbsp; MAX TOLUD set to 3GB&nbsp; <br />http://mining-hardware.weebly.com/blog/category/z170-bios-mod (http://mining-hardware.weebly.com/blog/category/z170-bios-mod)<br /><br /><br />Hope it helps you.<br /><br /><br /></div>thank you for share this information</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Z170 Z170A BIOS setting 7 GPU mining success </b><br />
+					Post by: <b>andrewaka</b> on <b>March 09, 2017, 04:05:40 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=1808110.msg18120501#msg18120501">Quote from: deadsix on March 09, 2017, 08:55:26 AM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=1808110.msg18119302#msg18119302">Quote from: andrewaka on March 09, 2017, 06:27:58 AM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=1808110.msg18012289#msg18012289">Quote from: miropp on February 28, 2017, 04:01:52 PM</a></div><div class="quote">I want to buy new version MSI Z270 Gaming Pro Carbon or Asus Prime Z270-A.<br />Do you think that it will be working with all PCIE slots (6/7 GPUs)?<br /></div>I&#039;ve got asus z270-a. 7 gpu works fine<br /></div><br />Could you post a screening of your system running 7 cards off an Asus Z270 a?<br /></div><br /><br /><a href="https://lut.im/QMKYpY9fDQ/j9KQKytcA82C1snE.JPG">https://lut.im/QMKYpY9fDQ/j9KQKytcA82C1snE.JPG</a><br /><a href="https://lut.im/2gs0PillR8/rkswMTaNDgdmgFxs.JPG">https://lut.im/2gs0PillR8/rkswMTaNDgdmgFxs.JPG</a><br /><a href="https://lut.im/4JCWQAkDua/TBkwuKdZxwEN88zG.JPG">https://lut.im/4JCWQAkDua/TBkwuKdZxwEN88zG.JPG</a></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Z170 Z170A BIOS setting 7 GPU mining success </b><br />
+					Post by: <b>deadsix</b> on <b>March 09, 2017, 08:37:06 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=1808110.msg18124858#msg18124858">Quote from: andrewaka on March 09, 2017, 04:05:40 PM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=1808110.msg18120501#msg18120501">Quote from: deadsix on March 09, 2017, 08:55:26 AM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=1808110.msg18119302#msg18119302">Quote from: andrewaka on March 09, 2017, 06:27:58 AM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=1808110.msg18012289#msg18012289">Quote from: miropp on February 28, 2017, 04:01:52 PM</a></div><div class="quote">I want to buy new version MSI Z270 Gaming Pro Carbon or Asus Prime Z270-A.<br />Do you think that it will be working with all PCIE slots (6/7 GPUs)?<br /></div>I&#039;ve got asus z270-a. 7 gpu works fine<br /></div><br />Could you post a screening of your system running 7 cards off an Asus Z270 a?<br /></div><br /><br /><a href="https://lut.im/QMKYpY9fDQ/j9KQKytcA82C1snE.JPG">https://lut.im/QMKYpY9fDQ/j9KQKytcA82C1snE.JPG</a><br /><a href="https://lut.im/2gs0PillR8/rkswMTaNDgdmgFxs.JPG">https://lut.im/2gs0PillR8/rkswMTaNDgdmgFxs.JPG</a><br /><a href="https://lut.im/4JCWQAkDua/TBkwuKdZxwEN88zG.JPG">https://lut.im/4JCWQAkDua/TBkwuKdZxwEN88zG.JPG</a><br /></div><br />Thank you man, that&#039;s great news, I guess ill order one right away :)</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Z170 Z170A BIOS setting 7 GPU mining success </b><br />
+					Post by: <b>du44</b> on <b>March 09, 2017, 10:27:51 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Can it mean what 7x Nvidia GPU&#039;s can be plugged and work fine?</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Z170 Z170A BIOS setting 7 GPU mining success </b><br />
+					Post by: <b>bughatti</b> on <b>March 10, 2017, 06:37:30 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">FYI, I have have sapphire rx480 nitro+ 4gb and setting gen1 and above 4g locks my computer up. &nbsp;I had to set them back to defaults, I have not tested 7 cards yet. &nbsp;This is the msi z170a pro gaming carbon with 8 gb of 2300 ram and a g4400 pentium proc<br /><br />Would it be possible for someone to share a setup that got more than 4 cards working on the msi z170a gaming pro carbon, no matter what I try, linux crashes at boot with 5.&nbsp; All the tricks in the walk through did not work</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Z170 Z170A BIOS setting 7 GPU mining success </b><br />
+					Post by: <b>Diosel</b> on <b>March 17, 2017, 12:00:02 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=1808110.msg18007862#msg18007862">Quote from: mining-hardware on February 28, 2017, 09:17:06 AM</a></div><div class="quote"><br />Hello,<br /><br />My bitcointalk Activity is to low to past image.<br />So, I past all step by step with image on my website.<br /><br />It&#039;s easily to setting BIOS !<br /><br />Secret is BIOS Above 4G Decoding to Enable.<br /><br />Z170 Z170A&nbsp; BIOS setting&nbsp; Run 7 GPU mining Success on Win 10&nbsp; Step by step&#8203;<br />http://mining-hardware.weebly.com/blog/z170-z170a-bios-setting-7-gpu-success-on-win-10-step-by-step (http://mining-hardware.weebly.com/blog/z170-z170a-bios-setting-7-gpu-success-on-win-10-step-by-step)<br /><br /><br /><br /><br />My Other past . <br />It&#039;s my mining collect knowledge to share everyone. <br />Thank&#039;s everyone.<br /><br />How to distinguish GPU quality to tuning your GPU<br />http://mining-hardware.weebly.com/blog/category/tuning-gpu (http://mining-hardware.weebly.com/blog/category/tuning-gpu)<br /><br /><br />MSI GAMING X RX 470 4GB BIOS MOD Hynix chip &#8203;28 Mh Step by step&#8203;<br />http://mining-hardware.weebly.com/blog/msi-gaming-x-rx-470-4gb-bios-mod-eth-28mhs-hynix-chip-overclocking (http://mining-hardware.weebly.com/blog/msi-gaming-x-rx-470-4gb-bios-mod-eth-28mhs-hynix-chip-overclocking)<br /><br /><br /><br />MSI GAMING X RX 470 8GB BIOS MOD Micron chip &#8203;28 Mh Step by step&#8203;<br />http://mining-hardware.weebly.com/blog/msi-gaming-x-rx-470-8gb-bios-mod-28mhs (http://mining-hardware.weebly.com/blog/msi-gaming-x-rx-470-8gb-bios-mod-28mhs)<br /><br /><br /><br />OLD BIOS Z170 Z170A BIOS MOD 6 GPU Success mining step by step <br />Secret is&nbsp; BIOS&nbsp; modify<br />All PCI-E to Gen 1 and&nbsp; MAX TOLUD set to 3GB&nbsp; <br />http://mining-hardware.weebly.com/blog/category/z170-bios-mod (http://mining-hardware.weebly.com/blog/category/z170-bios-mod)<br /><br /><br />Hope it helps you.<br /><br /><br /></div><br />&nbsp; Hi first thanks for that information but you think that i can put 7 R9 Fury?</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Z170 Z170A BIOS setting 7 GPU mining success </b><br />
+					Post by: <b>bughatti</b> on <b>March 17, 2017, 03:34:44 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=1808110.msg18222650#msg18222650">Quote from: Diosel on March 17, 2017, 12:00:02 PM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=1808110.msg18007862#msg18007862">Quote from: mining-hardware on February 28, 2017, 09:17:06 AM</a></div><div class="quote"><br />Hello,<br /><br />My bitcointalk Activity is to low to past image.<br />So, I past all step by step with image on my website.<br /><br />It&#039;s easily to setting BIOS !<br /><br />Secret is BIOS Above 4G Decoding to Enable.<br /><br />Z170 Z170A&nbsp; BIOS setting&nbsp; Run 7 GPU mining Success on Win 10&nbsp; Step by step&#8203;<br />http://mining-hardware.weebly.com/blog/z170-z170a-bios-setting-7-gpu-success-on-win-10-step-by-step (http://mining-hardware.weebly.com/blog/z170-z170a-bios-setting-7-gpu-success-on-win-10-step-by-step)<br /><br /><br /><br /><br />My Other past . <br />It&#039;s my mining collect knowledge to share everyone. <br />Thank&#039;s everyone.<br /><br />How to distinguish GPU quality to tuning your GPU<br />http://mining-hardware.weebly.com/blog/category/tuning-gpu (http://mining-hardware.weebly.com/blog/category/tuning-gpu)<br /><br /><br />MSI GAMING X RX 470 4GB BIOS MOD Hynix chip &#8203;28 Mh Step by step&#8203;<br />http://mining-hardware.weebly.com/blog/msi-gaming-x-rx-470-4gb-bios-mod-eth-28mhs-hynix-chip-overclocking (http://mining-hardware.weebly.com/blog/msi-gaming-x-rx-470-4gb-bios-mod-eth-28mhs-hynix-chip-overclocking)<br /><br /><br /><br />MSI GAMING X RX 470 8GB BIOS MOD Micron chip &#8203;28 Mh Step by step&#8203;<br />http://mining-hardware.weebly.com/blog/msi-gaming-x-rx-470-8gb-bios-mod-28mhs (http://mining-hardware.weebly.com/blog/msi-gaming-x-rx-470-8gb-bios-mod-28mhs)<br /><br /><br /><br />OLD BIOS Z170 Z170A BIOS MOD 6 GPU Success mining step by step <br />Secret is&nbsp; BIOS&nbsp; modify<br />All PCI-E to Gen 1 and&nbsp; MAX TOLUD set to 3GB&nbsp; <br />http://mining-hardware.weebly.com/blog/category/z170-bios-mod (http://mining-hardware.weebly.com/blog/category/z170-bios-mod)<br /><br /><br />Hope it helps you.<br /><br /><br /></div><br />&nbsp; Hi first thanks for that information but you think that i can put 7 R9 Fury?<br /></div><br />Don&#039;t waste your breath with this, numerous others on this forum have tried and wasted money on a 150$ motherboard that only holds 4 cards.&nbsp; This thread was probably created to boost sales or something, who knows.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Z170 Z170A BIOS setting 7 GPU mining success </b><br />
+					Post by: <b>DR_TAMFR_DHP</b> on <b>March 17, 2017, 06:14:32 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">I have a MSI Z170A mobo.<br /><br />I have gotten 6 cards to be detected.&nbsp; But 6th card does not behave properly.&nbsp; Fans run at 100% and it mines very low hashrate.&nbsp; Now 6th card is only detected if it is plugged into 16x PCI slot E_2 (silver colored) SLI slot.&nbsp; If it is plugged into E_5 the other silver SLI x16 slot, it is not detected.&nbsp; Even when I put 7th card, 7th card is not detected in E_5 and GPU in E_2 still runs fans at 100% and very low hash rate.<br /><br />Anyone know what is going on and how to fix?</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Z170 Z170A BIOS setting 7 GPU mining success </b><br />
+					Post by: <b>groovy1962</b> on <b>March 17, 2017, 07:27:26 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=1808110.msg18119302#msg18119302">Quote from: andrewaka on March 09, 2017, 06:27:58 AM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=1808110.msg18012289#msg18012289">Quote from: miropp on February 28, 2017, 04:01:52 PM</a></div><div class="quote">I want to buy new version MSI Z270 Gaming Pro Carbon or Asus Prime Z270-A.<br />Do you think that it will be working with all PCIE slots (6/7 GPUs)?<br /></div>I&#039;ve got asus z270-a. 7 gpu works fine<br /></div><br />What BIOS settings?&nbsp; How much RAM in your GPUs?<br /><br />I have same MB and can only run 4 GPUs</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Z170 Z170A BIOS setting 7 GPU mining success </b><br />
+					Post by: <b>andrewaka</b> on <b>March 17, 2017, 08:24:17 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=1808110.msg18227477#msg18227477">Quote from: groovy1962 on March 17, 2017, 07:27:26 PM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=1808110.msg18119302#msg18119302">Quote from: andrewaka on March 09, 2017, 06:27:58 AM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=1808110.msg18012289#msg18012289">Quote from: miropp on February 28, 2017, 04:01:52 PM</a></div><div class="quote">I want to buy new version MSI Z270 Gaming Pro Carbon or Asus Prime Z270-A.<br />Do you think that it will be working with all PCIE slots (6/7 GPUs)?<br /></div>I&#039;ve got asus z270-a. 7 gpu works fine<br /></div><br />What BIOS settings?&nbsp; How much RAM in your GPUs?<br /><br />I have same MB and can only run 4 GPUs<br /></div><br />pc ram - 4gb<br />7 x rx480 8gb<br /><br />I dont know what exactly helped to run 7 gpu, but here what I changed:<br />above 4g decoding - enabled <br />pcie switch to gen 1<br />dmi max link speed switch to gen1<br />disable all sata, which is not used<br />disable all usb, with is not used</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Z170 Z170A BIOS setting 7 GPU mining success </b><br />
+					Post by: <b>sp_</b> on <b>March 19, 2017, 02:58:34 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Managed to run 6 cards on Msi Z170-A-PRO.<br /><br />-Download and install the latest bios<br />- pcie gen 1 <br />-above 4g decoding - enabled <br /><br />https://www.msi.com/Motherboard/Z170-A-PRO.html<br /><br />AMI BIOS&nbsp;&nbsp;&nbsp;<br />Version&nbsp;&nbsp;&nbsp;1.H&nbsp;&nbsp;&nbsp;File Size&nbsp;&nbsp;&nbsp;6.8 MB<br /><br />Description&nbsp;&nbsp;&nbsp;- Enhanced M.2 Genie function.<br />- Improved Board Explorer function.<br />- Improved NVME device compatibility.<br />- Updated VBIOS and GOP.<br />- Support multi graphic cards.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Z170 Z170A BIOS setting 7 GPU mining success </b><br />
+					Post by: <b>Cubirez</b> on <b>March 20, 2017, 07:00:13 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=1808110.msg18225152#msg18225152">Quote from: bughatti on March 17, 2017, 03:34:44 PM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=1808110.msg18222650#msg18222650">Quote from: Diosel on March 17, 2017, 12:00:02 PM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=1808110.msg18007862#msg18007862">Quote from: mining-hardware on February 28, 2017, 09:17:06 AM</a></div><div class="quote"><br />Hello,<br /><br />My bitcointalk Activity is to low to past image.<br />So, I past all step by step with image on my website.<br /><br />It&#039;s easily to setting BIOS !<br /><br />Secret is BIOS Above 4G Decoding to Enable.<br /><br />Z170 Z170A &nbsp;BIOS setting &nbsp;Run 7 GPU mining Success on Win 10 &nbsp;Step by step&#8203;<br />http://mining-hardware.weebly.com/blog/z170-z170a-bios-setting-7-gpu-success-on-win-10-step-by-step (http://mining-hardware.weebly.com/blog/z170-z170a-bios-setting-7-gpu-success-on-win-10-step-by-step)<br /><br /><br /><br /><br />My Other past . <br />It&#039;s my mining collect knowledge to share everyone. <br />Thank&#039;s everyone.<br /><br />How to distinguish GPU quality to tuning your GPU<br />http://mining-hardware.weebly.com/blog/category/tuning-gpu (http://mining-hardware.weebly.com/blog/category/tuning-gpu)<br /><br /><br />MSI GAMING X RX 470 4GB BIOS MOD Hynix chip &#8203;28 Mh Step by step&#8203;<br />http://mining-hardware.weebly.com/blog/msi-gaming-x-rx-470-4gb-bios-mod-eth-28mhs-hynix-chip-overclocking (http://mining-hardware.weebly.com/blog/msi-gaming-x-rx-470-4gb-bios-mod-eth-28mhs-hynix-chip-overclocking)<br /><br /><br /><br />MSI GAMING X RX 470 8GB BIOS MOD Micron chip &#8203;28 Mh Step by step&#8203;<br />http://mining-hardware.weebly.com/blog/msi-gaming-x-rx-470-8gb-bios-mod-28mhs (http://mining-hardware.weebly.com/blog/msi-gaming-x-rx-470-8gb-bios-mod-28mhs)<br /><br /><br /><br />OLD BIOS Z170 Z170A BIOS MOD 6 GPU Success mining step by step <br />Secret is &nbsp;BIOS &nbsp;modify<br />All PCI-E to Gen 1 and &nbsp;MAX TOLUD set to 3GB &nbsp;<br />http://mining-hardware.weebly.com/blog/category/z170-bios-mod (http://mining-hardware.weebly.com/blog/category/z170-bios-mod)<br /><br /><br />Hope it helps you.<br /><br /><br /></div><br />&nbsp;&nbsp;Hi first thanks for that information but you think that i can put 7 R9 Fury?<br /></div><br />Don&#039;t waste your breath with this, numerous others on this forum have tried and wasted money on a 150$ motherboard that only holds 4 cards. &nbsp;This thread was probably created to boost sales or something, who knows.<br /></div><br />I confirm these settings to be working on a Z170A pro carbon. Thanks @mining-hardware !<br />@bughatti : It&#039;s strange it doesn&#039;t work out for you. My setup is the follwing : 7 RX480 Nitro 4GB, G4400 CPU, 4GB Ram (cheapest i could find), 1600W PSU, win10.<br /><br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Z170 Z170A BIOS setting 7 GPU mining success </b><br />
+					Post by: <b>Ursul0</b> on <b>March 21, 2017, 08:26:52 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Just to clear things up: &quot;above 4G&quot; means 64bit addresses for all devices, including HD so your drive should be GPT and boot should be UEFI</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Z170 Z170A BIOS setting 7 GPU mining success </b><br />
+					Post by: <b>groovy1962</b> on <b>March 21, 2017, 01:45:16 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=1808110.msg18228048#msg18228048">Quote from: andrewaka on March 17, 2017, 08:24:17 PM</a></div><div class="quote"><br />pc ram - 4gb<br />7 x rx480 8gb<br /><br />I dont know what exactly helped to run 7 gpu, but here what I changed:<br />above 4g decoding - enabled <br />pcie switch to gen 1<br />dmi max link speed switch to gen1<br />disable all sata, which is not used<br />disable all usb, with is not used<br /></div><br />Ok, I have replicated Andrews experience. <br /><br />Here&#039;s what I found:<br /><br />-- Had to flash the BIOS.&nbsp; Board shipped with 5.0.0 and I updated it to the latest (7.0.0 I think)-- this is necessary to get the &quot;Above 4g decoding&quot; option. Which appears on the boot menu in the bios.<br />-- PCIe switched to Gen2<br />-- Didn&#039;t make the other changes.<br /><br />WARNING WARNING WARNING<br /><br />When I flashed the BIOS the onboard network hardware stopped working with linux. this caused a bunch of problems.<br /><br />I had to run this utility to refresh the network drivers ROM to make things work:<br />https://downloadcenter.intel.com/download/19186<br /><br />Current setup for this board-<br />-- Ubuntu 16.04 server<br />-- 7x NVIDIA 1070 8GB Cards<br /><br />Working fine. (And about %10 more hash under linux than under Windows.)</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Z170 Z170A BIOS setting 7 GPU mining success </b><br />
+					Post by: <b>Bare</b> on <b>March 24, 2017, 06:19:54 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=1808110.msg18250465#msg18250465">Quote from: sp_ on March 19, 2017, 02:58:34 PM</a></div><div class="quote">Managed to run 6 cards on Msi Z170-A-PRO.<br /><br />-Download and install the latest bios<br />- pcie gen 1 <br />-above 4g decoding - enabled <br /><br />https://www.msi.com/Motherboard/Z170-A-PRO.html<br /><br />AMI BIOS&nbsp;&nbsp;&nbsp;<br />Version&nbsp;&nbsp;&nbsp;1.H&nbsp;&nbsp;&nbsp;File Size&nbsp;&nbsp;&nbsp;6.8 MB<br /><br />Description&nbsp;&nbsp;&nbsp;- Enhanced M.2 Genie function.<br />- Improved Board Explorer function.<br />- Improved NVME device compatibility.<br />- Updated VBIOS and GOP.<br />- Support multi graphic cards.<br /></div><br /><br />Please elaborate more on how.<br /><br />I have the exact motherboard and I&#039;ve installed latest bios 1.H version, set these settings in bios as you described<br />- pcie gen 1 <br />-above 4g decoding - enabled <br /><br />&nbsp;but no success, still works only with 4 cards, when I plug 5th card in I get error code 48 this time, different error than before(code 12 not enough resources)<br />(haven&#039;t tried plugging all 6 cards because all my cards are 390x&#039;s and fury&#039;s<br />- that&#039;s 2x8pin power connectors per card and my 1700w platimax PSU doesn&#039;t have more than 10 x8pin connectors so I&#039;m limited to 5 cards per rig with my setup)<br /><br />Note that I use windows 7 x64.<br />ram 8gb<br />cpu intel i3<br /><br />did you manage to get it working on win7 or win10? also, have you tried running with only 5 cards?<br /><br />Thanks!</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Z170 Z170A BIOS setting 7 GPU mining success </b><br />
+					Post by: <b>matmator</b> on <b>March 26, 2017, 11:04:47 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Hello, I have a big problem with this motherboard!<br /><br />I can not boot on USB key to install windows10!<br /><br />Has anyone had this problem?<br /><br />What do you select in the bios to start on usb key? When I select usb key.j &#039;has a black screen, but no boot.<br /><br />an idea ?<br /><br />thank you</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Z170 Z170A BIOS setting 7 GPU mining success </b><br />
+					Post by: <b>nexitorned</b> on <b>March 30, 2017, 07:47:15 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=1808110.msg18319495#msg18319495">Quote from: Bare on March 24, 2017, 06:19:54 PM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=1808110.msg18250465#msg18250465">Quote from: sp_ on March 19, 2017, 02:58:34 PM</a></div><div class="quote">Managed to run 6 cards on Msi Z170-A-PRO.<br /><br />-Download and install the latest bios<br />- pcie gen 1 <br />-above 4g decoding - enabled <br /><br />https://www.msi.com/Motherboard/Z170-A-PRO.html<br /><br />AMI BIOS&nbsp;&nbsp;&nbsp;<br />Version&nbsp;&nbsp;&nbsp;1.H&nbsp;&nbsp;&nbsp;File Size&nbsp;&nbsp;&nbsp;6.8 MB<br /><br />Description&nbsp;&nbsp;&nbsp;- Enhanced M.2 Genie function.<br />- Improved Board Explorer function.<br />- Improved NVME device compatibility.<br />- Updated VBIOS and GOP.<br />- Support multi graphic cards.<br /></div><br /><br />Please elaborate more on how.<br /><br />I have the exact motherboard and I&#039;ve installed latest bios 1.H version, set these settings in bios as you described<br />- pcie gen 1 <br />-above 4g decoding - enabled <br /><br />&nbsp;but no success, still works only with 4 cards, when I plug 5th card in I get error code 48 this time, different error than before(code 12 not enough resources)<br />(haven&#039;t tried plugging all 6 cards because all my cards are 390x&#039;s and fury&#039;s<br />- that&#039;s 2x8pin power connectors per card and my 1700w platimax PSU doesn&#039;t have more than 10 x8pin connectors so I&#039;m limited to 5 cards per rig with my setup)<br /><br />Note that I use windows 7 x64.<br />ram 8gb<br />cpu intel i3<br /><br />did you manage to get it working on win7 or win10? also, have you tried running with only 5 cards?<br /><br />Thanks!<br /></div><br />Hi mate, your windows 10 installation should be in uefi or it should support uefi in bios not legacy, windows hardrive should be in gpt format otherwise the above 4g setting won’t work and you will get a black screen when you try to boot into windows 10.<br /><br />- Windows 10<br />- PCIe GEN1<br />- Above 4g decoding enabled <br />- BIOS Version 1.H<br /><br />Please notify me if it work.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Z170 Z170A BIOS setting 7 GPU mining success </b><br />
+					Post by: <b>Truthchanter</b> on <b>March 30, 2017, 08:06:19 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=1808110.msg18117864#msg18117864">Quote from: bughatti on March 09, 2017, 02:38:12 AM</a></div><div class="quote">Hello team, I am really hoping someone can help here. &nbsp;I am on my second MSI z170A carbon and I can not get a boot screen to show up. &nbsp;I have followed the guide and not installed any gpu&#039;s and am using the onboard HDMI and tried the onboard dvi. &nbsp;Tried 2 different monitors, also 2 sets of ram and 2 different procs. &nbsp;When I watch both of them boot i see the diagnostic lights flash for ram and cpu but never for vga. &nbsp;I have reset the cmos. &nbsp;Am I missing something here?<br /><br />Proc:&nbsp; Intel BX80677G3930 7th Gen Celeron Desktop Processors<br />Mem:&nbsp; Kingston HyperX FURY Black 8GB Kit (2x4GB) 2133MHz DDR4 Non-ECC CL14 DIMM Desktop Memory (HX421C14FBK2/8)<br />&nbsp; &nbsp;Tried memory with just 1 stick in slot 2<br /></div><br />Your problem seems clear. As far as I know, 7th gen is kaby lake cpu and the z170a mobos are not compatible. You either need a skylake (older) cpu or a z270a mobo to support a kaby lake cpu. </div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Z170 Z170A BIOS setting 7 GPU mining success </b><br />
+					Post by: <b>sp_</b> on <b>March 30, 2017, 08:10:23 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=1808110.msg18319495#msg18319495">Quote from: Bare on March 24, 2017, 06:19:54 PM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=1808110.msg18250465#msg18250465">Quote from: sp_ on March 19, 2017, 02:58:34 PM</a></div><div class="quote">Managed to run 6 cards on Msi Z170-A-PRO.<br /><br />-Download and install the latest bios<br />- pcie gen 1 <br />-above 4g decoding - enabled <br /><br />https://www.msi.com/Motherboard/Z170-A-PRO.html<br /><br />AMI BIOS&nbsp;&nbsp;&nbsp;<br />Version&nbsp;&nbsp;&nbsp;1.H&nbsp;&nbsp;&nbsp;File Size&nbsp;&nbsp;&nbsp;6.8 MB<br /><br />Description&nbsp;&nbsp;&nbsp;- Enhanced M.2 Genie function.<br />- Improved Board Explorer function.<br />- Improved NVME device compatibility.<br />- Updated VBIOS and GOP.<br />- Support multi graphic cards.<br /></div><br /><br />Please elaborate more on how.<br /><br />I have the exact motherboard and I&#039;ve installed latest bios 1.H version, set these settings in bios as you described<br />- pcie gen 1 <br />-above 4g decoding - enabled <br /><br />&nbsp;but no success, still works only with 4 cards, when I plug 5th card in I get error code 48 this time, different error than before(code 12 not enough resources)<br />(haven&#039;t tried plugging all 6 cards because all my cards are 390x&#039;s and fury&#039;s<br />- that&#039;s 2x8pin power connectors per card and my 1700w platimax PSU doesn&#039;t have more than 10 x8pin connectors so I&#039;m limited to 5 cards per rig with my setup)<br /><br />Note that I use windows 7 x64.<br />ram 8gb<br />cpu intel i3<br /><br />did you manage to get it working on win7 or win10? also, have you tried running with only 5 cards?<br /><br />Thanks!<br /></div><br />I use nvidia 1070 cards. on amd Code 48 can be fixed with gpu mod software.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Z170 Z170A BIOS setting 7 GPU mining success </b><br />
+					Post by: <b>Cubirez</b> on <b>March 31, 2017, 02:37:00 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=1808110.msg18395946#msg18395946">Quote from: Truthchanter on March 30, 2017, 08:06:19 PM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=1808110.msg18117864#msg18117864">Quote from: bughatti on March 09, 2017, 02:38:12 AM</a></div><div class="quote">Hello team, I am really hoping someone can help here. &nbsp;I am on my second MSI z170A carbon and I can not get a boot screen to show up. &nbsp;I have followed the guide and not installed any gpu&#039;s and am using the onboard HDMI and tried the onboard dvi. &nbsp;Tried 2 different monitors, also 2 sets of ram and 2 different procs. &nbsp;When I watch both of them boot i see the diagnostic lights flash for ram and cpu but never for vga. &nbsp;I have reset the cmos. &nbsp;Am I missing something here?<br /><br />Proc:&nbsp; Intel BX80677G3930 7th Gen Celeron Desktop Processors<br />Mem:&nbsp; Kingston HyperX FURY Black 8GB Kit (2x4GB) 2133MHz DDR4 Non-ECC CL14 DIMM Desktop Memory (HX421C14FBK2/8)<br />&nbsp; &nbsp;Tried memory with just 1 stick in slot 2<br /></div><br />Your problem seems clear. As far as I know, 7th gen is kaby lake cpu and the z170a mobos are not compatible. You either need a skylake (older) cpu or a z270a mobo to support a kaby lake cpu. <br /></div><br />Actually they are compatible with kaby lake once you update the BIOS to the last version. <br />However to do this, you need ... a skylake CPU :p</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Z170 Z170A BIOS setting 7 GPU mining success </b><br />
+					Post by: <b>sp_</b> on <b>March 31, 2017, 05:40:46 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">There is a way to get 5 cards running without the above 4g encoding option and skylake cpu.<br /><br />-set pcie gen 1<br />-Enable the internal graphics, but use the pci for the screen. (dual display)<br />-boot. (if you get a freeze, you need to reinstall windows from scratch.)<br /><br />install the driver for the 5 cards. then disable the internal graphics. Reeboot, and you have 5 working cards.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Z170 Z170A BIOS setting 7 GPU mining success </b><br />
+					Post by: <b>gablay12</b> on <b>April 14, 2017, 04:17:21 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Has anyone tried 7 gpu edited bios?</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Z170 Z170A BIOS setting 7 GPU mining success </b><br />
+					Post by: <b>drrobert</b> on <b>April 14, 2017, 06:24:15 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Deadsix did you try to use m2 to PCI to add 8th gpu ?</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Z170 Z170A BIOS setting 7 GPU mining success </b><br />
+					Post by: <b>deadsix</b> on <b>April 14, 2017, 06:34:20 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=1808110.msg18582038#msg18582038">Quote from: drrobert on April 14, 2017, 06:24:15 AM</a></div><div class="quote">Deadsix did you try to use m2 to PCI to add 8th gpu ?<br /></div><br />No, 8 cards do not work on Windows, only work on Linux. And I can not under-volt on linux, so my 1000W PSU can not handle 8 cards.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Z170 Z170A BIOS setting 7 GPU mining success </b><br />
+					Post by: <b>Cubirez</b> on <b>April 14, 2017, 07:41:47 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=1808110.msg18582129#msg18582129">Quote from: deadsix on April 14, 2017, 06:34:20 AM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=1808110.msg18582038#msg18582038">Quote from: drrobert on April 14, 2017, 06:24:15 AM</a></div><div class="quote">Deadsix did you try to use m2 to PCI to add 8th gpu ?<br /></div><br />No, 8 cards do not work on Windows, only work on Linux. And I can not under-volt on linux, so my 1000W PSU can not handle 8 cards.<br /></div><br />Even with very advanced undervolting, a 1000W PSU wouldn&#039;t handle 8 GPU (or only on XMR, which is not &#039;that&#039; profitable atm)</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Z170 Z170A BIOS setting 7 GPU mining success </b><br />
+					Post by: <b>Nissa</b> on <b>April 14, 2017, 09:13:52 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">@andrewaka<br /><div class="quoteheader">Quote</div><div class="quote"><br /><br /><br /><a href="https://lut.im/4JCWQAkDua/TBkwuKdZxwEN88zG.JPG">https://lut.im/4JCWQAkDua/TBkwuKdZxwEN88zG.JPG</a><br /></div><br />What power consumption you have @wall?</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Z170 Z170A BIOS setting 7 GPU mining success </b><br />
+					Post by: <b>mimk97</b> on <b>April 20, 2017, 10:53:08 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=1808110.msg18228048#msg18228048">Quote from: andrewaka on March 17, 2017, 08:24:17 PM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=1808110.msg18227477#msg18227477">Quote from: groovy1962 on March 17, 2017, 07:27:26 PM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=1808110.msg18119302#msg18119302">Quote from: andrewaka on March 09, 2017, 06:27:58 AM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=1808110.msg18012289#msg18012289">Quote from: miropp on February 28, 2017, 04:01:52 PM</a></div><div class="quote">I want to buy new version MSI Z270 Gaming Pro Carbon or Asus Prime Z270-A.<br />Do you think that it will be working with all PCIE slots (6/7 GPUs)?<br /></div>I&#039;ve got asus z270-a. 7 gpu works fine<br /></div><br />What BIOS settings?&nbsp; How much RAM in your GPUs?<br /><br />I have same MB and can only run 4 GPUs<br /></div><br />pc ram - 4gb<br />7 x rx480 8gb<br /><br />I dont know what exactly helped to run 7 gpu, but here what I changed:<br />above 4g decoding - enabled <br />pcie switch to gen 1<br />dmi max link speed switch to gen1<br />disable all sata, which is not used<br />disable all usb, with is not used<br /></div><br />Where do you found above 4G decoding setting?<br />OK, found it in Boot Men&#252;. All Cards are recognized. but SSD exxtreme slowly</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Z170 Z170A BIOS setting 7 GPU mining success </b><br />
+					Post by: <b>Apneal</b> on <b>April 27, 2017, 05:33:09 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=1808110.msg18338566#msg18338566">Quote from: matmator on March 26, 2017, 11:04:47 AM</a></div><div class="quote">Hello, I have a big problem with this motherboard!<br /><br />I can not boot on USB key to install windows10!<br /><br />Has anyone had this problem?<br /><br />What do you select in the bios to start on usb key? When I select usb key.j &#039;has a black screen, but no boot.<br /><br />an idea ?<br /><br />thank you<br /></div><br />Disable Above 4G Decoding for installing your OS, but make sure BIOS is set to UEFI only</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Z170 Z170A BIOS setting 7 GPU mining success </b><br />
+					Post by: <b>BTC_ISTANBUL</b> on <b>May 07, 2017, 05:58:38 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">DMI stands for &quot;Digital Media Interface&quot; and is the connection between the Intel processor and the chipset.<br />This link can be run with different speeds. Among other things the chipset provides the communication to the<br />onboard LAN controllers, USB controllers, onboard SAS/SATA controllers and, if applicable, also to PCIe<br />slots, etc. In order to reduce power consumption the speed of the DMI link from &quot;GEN 2&quot; to &quot;GEN 1&quot; can be<br />reduced for environments, in which the communication provided by the chipset is only little used.<br /><br />Without disabling sata and USB ports these settings (peg0,peg1,enabled 4 G coding) will allow you to run 7 GPUs.However, uou may experience a black screen if your mobo does not provide enough energy.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Z170 Z170A BIOS setting 7 GPU mining success </b><br />
+					Post by: <b>BeastMinero</b> on <b>May 16, 2017, 06:41:30 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=1808110.msg18127535#msg18127535">Quote from: deadsix on March 09, 2017, 08:37:06 PM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=1808110.msg18124858#msg18124858">Quote from: andrewaka on March 09, 2017, 04:05:40 PM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=1808110.msg18120501#msg18120501">Quote from: deadsix on March 09, 2017, 08:55:26 AM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=1808110.msg18119302#msg18119302">Quote from: andrewaka on March 09, 2017, 06:27:58 AM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=1808110.msg18012289#msg18012289">Quote from: miropp on February 28, 2017, 04:01:52 PM</a></div><div class="quote">I want to buy new version MSI Z270 Gaming Pro Carbon or Asus Prime Z270-A.<br />Do you think that it will be working with all PCIE slots (6/7 GPUs)?<br /></div>I&#039;ve got asus z270-a. 7 gpu works fine<br /></div><br />Could you post a screening of your system running 7 cards off an Asus Z270 a?<br /></div><br /><br /><a href="https://lut.im/QMKYpY9fDQ/j9KQKytcA82C1snE.JPG">https://lut.im/QMKYpY9fDQ/j9KQKytcA82C1snE.JPG</a><br /><a href="https://lut.im/2gs0PillR8/rkswMTaNDgdmgFxs.JPG">https://lut.im/2gs0PillR8/rkswMTaNDgdmgFxs.JPG</a><br /><a href="https://lut.im/4JCWQAkDua/TBkwuKdZxwEN88zG.JPG">https://lut.im/4JCWQAkDua/TBkwuKdZxwEN88zG.JPG</a><br /></div><br />Thank you man, that&#039;s great news, I guess ill order one right away :)<br /></div><br />Hi guys. Please please help me with my asus prime z270-A. i cant find 4g enable in bios even i update my bios. Please can you help me. Thank you!</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Z170 Z170A BIOS setting 7 GPU mining success </b><br />
+					Post by: <b>BeastMinero</b> on <b>May 17, 2017, 06:52:42 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=1808110.msg18124858#msg18124858">Quote from: andrewaka on March 09, 2017, 04:05:40 PM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=1808110.msg18120501#msg18120501">Quote from: deadsix on March 09, 2017, 08:55:26 AM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=1808110.msg18119302#msg18119302">Quote from: andrewaka on March 09, 2017, 06:27:58 AM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=1808110.msg18012289#msg18012289">Quote from: miropp on February 28, 2017, 04:01:52 PM</a></div><div class="quote">I want to buy new version MSI Z270 Gaming Pro Carbon or Asus Prime Z270-A.<br />Do you think that it will be working with all PCIE slots (6/7 GPUs)?<br /></div>I&#039;ve got asus z270-a. 7 gpu works fine<br /></div><br />Could you post a screening of your system running 7 cards off an Asus Z270 a?<br /></div><br /><br /><a href="https://lut.im/QMKYpY9fDQ/j9KQKytcA82C1snE.JPG">https://lut.im/QMKYpY9fDQ/j9KQKytcA82C1snE.JPG</a><br /><a href="https://lut.im/2gs0PillR8/rkswMTaNDgdmgFxs.JPG">https://lut.im/2gs0PillR8/rkswMTaNDgdmgFxs.JPG</a><br /><a href="https://lut.im/4JCWQAkDua/TBkwuKdZxwEN88zG.JPG">https://lut.im/4JCWQAkDua/TBkwuKdZxwEN88zG.JPG</a><br /></div><br />Hi Sir! Can you please help me. Why does my bios doesnt have setting enable 4g? Even i updated to the latest version as of now. Please. Thank you!</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Z170 Z170A BIOS setting 7 GPU mining success </b><br />
+					Post by: <b>R0mi</b> on <b>May 21, 2017, 05:30:34 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><br />[/quote]<br /><br />Hi Sir! Can you please help me. Why does my bios doesnt have setting enable 4g? Even i updated to the latest version as of now. Please. Thank you!<br />[/quote]<br /><br />You need to change from EZ Bios settings to &gt; Advanced BIOS.<br /><br />Then choose the &lt;BOOT&gt; menu.&nbsp; There you will find the &#039;ENABLE 4G&#039; option.<br /><br />Enable 4G is *not* under the &lt;ADVANCED&gt; OR &lt;TOOLS&gt; OR &lt;MAIN&gt; menus.<br /><br />It is under &lt;BOOT&gt;.<br /><br />Turn enable 4G on, disable unused SATA/USB ports.&nbsp; Set speed for PCIe to Gen1.<br /><br />Then 7 cards will work fine.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Z170 Z170A BIOS setting 7 GPU mining success </b><br />
+					Post by: <b>noobminer001</b> on <b>May 21, 2017, 04:05:54 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Hello,<br /><br />System:<br /><br />Intel G4400<br />MSI Z170a gaming M5 (updated BIOS to 1.D)<br />7x RX470 4GB<br />120GB SSD (UEFI)<br />Win10 Pro<br />8Gb Ram<br /><br />I&#039;ve been able to get 7 RX470 GPUs to work using MSI z170a gaming m5 however I ran into some issues.<br /><br />I needed to first disable 4G, install only one card and load drivers. Then shutown, install all 7 GPUs, enable 4G and reset<br /><br />However, with 4G enabled and PCIe set to GEN1, my system would not boot - would keep getting a black screen. To get around this, there&#039;s an option for Win8.1/10 optimization in the BIOS that I enabled. I have no idea what this actually does to the system. I haven&#039;t tried disabling this and rebooting to see if windows loads again or not now that the system recognized the cards. Does anyone here know what this BIOS config does? Has anyone been able to get 7 GPUs to work on this MB without enabling this option?<br /><br />Also, what drivers are you running in general? I&#039;m currently running the latest (17.5.2) and I have had issues before with older drivers causing the system to boot with a black screen.<br /><br />Cheers</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Z170 Z170A BIOS setting 7 GPU mining success </b><br />
+					Post by: <b>enochi</b> on <b>May 24, 2017, 02:10:21 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">404 not found.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Z170 Z170A BIOS setting 7 GPU mining success </b><br />
+					Post by: <b>jeremyf327</b> on <b>May 30, 2017, 01:06:46 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">I am struggling getting Windows 10 to install all the drivers on this Z170a (Pro Carbon). I have (6) RX 580&#039;s 8gb. Only three of them take to the drivers. The other three are recognized by Windows but don&#039;t install the drivers. With that said, I cannot enable 4G encoding without getting that backlit black screen. Any ideas to get Windows to load all drivers? I&#039;ve tried 16.9.1, 17.4.1, and 17.5.1. I do have the latest BIOS. </div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Z170 Z170A BIOS setting 7 GPU mining success </b><br />
+					Post by: <b>jeremyf327</b> on <b>May 30, 2017, 04:15:34 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Finally got all six cards working!</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Z170 Z170A BIOS setting 7 GPU mining success </b><br />
+					Post by: <b>Tarcisio</b> on <b>June 01, 2017, 10:15:30 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Personally, I have asrock z170 extreme 3, but I do not think in bios the deconding 4g, someone please could help, I do not know what to do, I recognize 5 gpus, but after 12 minutes of mining, one of the gpus stops working and Blocks mining.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Z170 Z170A BIOS setting 7 GPU mining success </b><br />
+					Post by: <b>roliejitsuSS</b> on <b>June 01, 2017, 09:02:34 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=1808110.msg19276687#msg19276687">Quote from: jeremyf327 on May 30, 2017, 04:15:34 PM</a></div><div class="quote">Finally got all six cards working!<br /></div><br />@jeremyf327 what did you change to get it to work? <br />I&#039;m still running into the issue to where when I turn on 4g decoding my screen will turn black after the BIOS screen. </div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Z170 Z170A BIOS setting 7 GPU mining success </b><br />
+					Post by: <b>Kainzo</b> on <b>June 03, 2017, 08:49:58 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=1808110.msg18008047#msg18008047">Quote from: mining-hardware on February 28, 2017, 09:37:45 AM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=1808110.msg18007901#msg18007901">Quote from: ccccccc7 on February 28, 2017, 09:22:16 AM</a></div><div class="quote">In your pictures you have plugged the PCIEx1 Riser into the PCIEx16 slot.<br /><br />Does that work??? I never thought of that.<br /></div><br />Yes ,&nbsp; that all 7 Riser is work . <br />Do you have plug power cable into USB Riser<br /><br />I have two power type slot USB Riser,it must plugged power cable~<br />http://imgur.com/a/eIXIh<br /></div><br />So which kind of riser do you get? MOLEX or SATA?</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Z170 Z170A BIOS setting 7 GPU mining success </b><br />
+					Post by: <b>chondo</b> on <b>June 20, 2017, 10:12:28 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">on your z270 setup could you share if you&#039;re running...<br /><br />- out of the box BIOS<br />- win10 / Linux / ethOS<br />- any settings that everyone is missing<br /><br />...and...<br /><br />what GPU cards you&#039;re running.<br /><br />Nice work btw!!!</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Z170 Z170A BIOS setting 7 GPU mining success </b><br />
+					Post by: <b>steezmatic</b> on <b>June 21, 2017, 12:48:21 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">I am using a z170a sli plus mobo running 6 xfx rx480&#039;s and either one or two of the gpus will stop mining. This also happens when I have 4 plugged in. Also, I am using a Corsair hx1200 psu. Do you happen to have the bios settings that worked for you? I couldn&#039;t use your links since they are broken :(</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Z170 Z170A BIOS setting 7 GPU mining success </b><br />
+					Post by: <b>bobbywalker</b> on <b>July 04, 2017, 10:40:28 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><br /><br />I have a z170 pro and had tried all the suggestions from this thread<br />but no matter what i did i could only get it to detect 5 gtx 1060&#039;s<br /><br />What i ended up doing to get the 6th card to show up was put the<br />display setting back to auto, then plug up one of the cards to my<br />monitor<br /><br />That disabled the intel onboard graphics gpu in the chip and allowed<br />the 6th card to show up<br /><br />What I&#039;m now confused about is the motherboard has 7 slots but it<br />appears you can only detect 6 cards max if you disable the onboard<br />graphics<br /><br />If anyone else has this board and have 7 nvidia cards running please<br />share what you did to get all 7 slots to work<br /><br />Anyway I wanted to post this in case someone else was having this<br />same issue and couldn&#039;t get the 6th card to work :)<br /><br />Cheers!</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Z170 Z170A BIOS setting 7 GPU mining success </b><br />
+					Post by: <b>swellcoins</b> on <b>August 17, 2017, 08:02:31 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">I have Asus Prime Z270-A with 7 GTX 1070 running fine&nbsp; :)</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Z170 Z170A BIOS setting 7 GPU mining success </b><br />
+					Post by: <b>swellcoins</b> on <b>August 17, 2017, 08:35:06 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">I have a rig with 6 AMD RX470, Asus Prime Z270-A Motherboard and Windows Pro 10 (64). I am gettin 19.8 Mh/s per card mining ethereum. My other RX470 rig gets 21.9 Mh/s. Same cards, same brand, different hash rates. <br /><br />There is something wrong with the 19.8 Mh/s rig, because Claymore does not report the temperature and fan velocity of the cards. Also sometimes the pc freezes and MSI Afterburner does not work.Can&#039;t figure out where is the problem. Card driver is 171.1024. The rig with 21.9 Mh/z hashrate has Driver 162.4<br /><br />Can the problem be in the card driver? If so, how do I uninstall and install the correct driver?</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Z170 Z170A BIOS setting 7 GPU mining success </b><br />
+					Post by: <b>KryptoNinja007</b> on <b>October 04, 2017, 04:48:17 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=1808110.msg19941181#msg19941181">Quote from: bobbywalker on July 04, 2017, 10:40:28 PM</a></div><div class="quote"><br /><br />I have a z170 pro and had tried all the suggestions from this thread<br />but no matter what i did i could only get it to detect 5 gtx 1060&#039;s<br /><br />What i ended up doing to get the 6th card to show up was put the<br />display setting back to auto, then plug up one of the cards to my<br />monitor<br /><br />That disabled the intel onboard graphics gpu in the chip and allowed<br />the 6th card to show up<br /><br />What I&#039;m now confused about is the motherboard has 7 slots but it<br />appears you can only detect 6 cards max if you disable the onboard<br />graphics<br /><br />If anyone else has this board and have 7 nvidia cards running please<br />share what you did to get all 7 slots to work<br /><br />Anyway I wanted to post this in case someone else was having this<br />same issue and couldn&#039;t get the 6th card to work :)<br /><br />Cheers!<br /></div>Hi.&nbsp; I am pretty new on here.&nbsp; Just built my first rig using the asus z170 pro mobo.&nbsp; I was having all of the same problems as everyone else here, so I was reading your guys posts to get some ideas on how to fix the issue.&nbsp; I was having trouble getting my rig to notice all 6 cards.&nbsp; Let me tell you what worked for me.&nbsp; All my bios settings were correct, but there is a little trick to getting the mobo to read your cards.&nbsp; The pcie slots are numbered (3 large slots and 4 small slots)&nbsp; They go in order from top to bottom 1-3 and 1-4.&nbsp; So you have to plug your usb risers in the correct order.&nbsp; The 4th small pcie slot at the bottom should be left empty, so the second to last slot will not have anything plugged into it.&nbsp; After this my pc recognized all cards after loading them up.&nbsp; I restarted my pc after all cards were recognized and now am hashing away.&nbsp; If anyone needs more details please let me know.&nbsp; I will be happy to share my settings.&nbsp; Happy Hashings!<br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Z170 Z170A BIOS setting 7 GPU mining success </b><br />
+					Post by: <b>parentibule</b> on <b>January 28, 2018, 10:43:24 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Hi all,<br /><br />Up this thread because when I want to use IGP for display, not a GPU. But if I choose IGP, even if all my GPUs are detected in Windows, none of them is detected in mining software (ccminer, nicehash).<br /><br />Is there something to do?<br /><br />Thanks.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Z170 Z170A BIOS setting 7 GPU mining success </b><br />
+					Post by: <b>miningfirst</b> on <b>March 07, 2018, 12:00:39 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Hello everyone,<br /><br />I have a rig with the following..<br />- Z170A GAMING M5 (MS-7977)<br />- Intel(R) Celeron(R) CPU G3930 @2.90GHz<br />- 1000W PSU<br />- GPU: RADEON RX 560 4GB<br />- using simple mining (linix)<br /><br />I have 7 GPUs and when i got the rig, it was working at 1/3 card capacity - 100 sol/sec per card. The error stated that I need more RAM for 4GB was not sufficient.&nbsp; I upgraded the RAM to 16 GB DDR4 and the rig stopped working. I was mining ZENCASH. The then had taken the rig to a tech to trouble shoot it.&nbsp; He thought it was the power supply, so I got a new one. I added the new power supply but it still does the same thing. Everything seems to be on but the Simple Mining is not coming up on the screen and the rig is not mining. The mining pool states that the rig is off. I switched back to the 4GB RAM and I tried to adjust the bios but that did nothing and the rig is still not working. (BIOS adjustment: . Enable above 4g decoding). <br /><br />Could someone please help?&nbsp; <br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Z170 Z170A BIOS setting 7 GPU mining success </b><br />
+					Post by: <b>jimmykl</b> on <b>March 07, 2018, 03:41:34 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=1808110.msg31742326#msg31742326">Quote from: miningfirst on March 07, 2018, 12:00:39 AM</a></div><div class="quote">Hello everyone,<br /><br />I have a rig with the following..<br />- Z170A GAMING M5 (MS-7977)<br />- Intel(R) Celeron(R) CPU G3930 @2.90GHz<br />- 1000W PSU<br />- GPU: RADEON RX 560 4GB<br />- using simple mining (linix)<br /><br />I have 7 GPUs and when i got the rig, it was working at 1/3 card capacity - 100 sol/sec per card. The error stated that I need more RAM for 4GB was not sufficient. &nbsp;I upgraded the RAM to 16 GB DDR4 and the rig stopped working. I was mining ZENCASH. The then had taken the rig to a tech to trouble shoot it. &nbsp;He thought it was the power supply, so I got a new one. I added the new power supply but it still does the same thing. Everything seems to be on but the Simple Mining is not coming up on the screen and the rig is not mining. The mining pool states that the rig is off. I switched back to the 4GB RAM and I tried to adjust the bios but that did nothing and the rig is still not working. (BIOS adjustment: . Enable above 4g decoding). <br /><br />Could someone please help? &nbsp;<br /><br /></div><br />You need to be methodical with your troubleshooting. Remove as many factors as possible. Take out all the 560s. Unless you are a linux guru I&#039;d recommend plugging in another ssd and install windows from scratch. Make sure the machine runs ok with just the motherboard, ram, ssd and no video cards. Then add the cards one by one and check each one can be recognised and mines. Even if you intend to use SMOS in the end this will let you check all the components are functional.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Z170 Z170A BIOS setting 7 GPU mining success </b><br />
+					Post by: <b>miningfirst</b> on <b>March 07, 2018, 06:59:24 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=1808110.msg31748643#msg31748643">Quote from: jimmykl on March 07, 2018, 03:41:34 AM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=1808110.msg31742326#msg31742326">Quote from: miningfirst on March 07, 2018, 12:00:39 AM</a></div><div class="quote">Hello everyone,<br /><br />I have a rig with the following..<br />- Z170A GAMING M5 (MS-7977)<br />- Intel(R) Celeron(R) CPU G3930 @2.90GHz<br />- 1000W PSU<br />- GPU: RADEON RX 560 4GB<br />- using simple mining (linix)<br /><br />I have 7 GPUs and when i got the rig, it was working at 1/3 card capacity - 100 sol/sec per card. The error stated that I need more RAM for 4GB was not sufficient. &nbsp;I upgraded the RAM to 16 GB DDR4 and the rig stopped working. I was mining ZENCASH. The then had taken the rig to a tech to trouble shoot it. &nbsp;He thought it was the power supply, so I got a new one. I added the new power supply but it still does the same thing. Everything seems to be on but the Simple Mining is not coming up on the screen and the rig is not mining. The mining pool states that the rig is off. I switched back to the 4GB RAM and I tried to adjust the bios but that did nothing and the rig is still not working. (BIOS adjustment: . Enable above 4g decoding). <br /><br />Could someone please help? &nbsp;<br /><br /></div><br />You need to be methodical with your troubleshooting. Remove as many factors as possible. Take out all the 560s. Unless you are a linux guru I&#039;d recommend plugging in another ssd and install windows from scratch. Make sure the machine runs ok with just the motherboard, ram, ssd and no video cards. Then add the cards one by one and check each one can be recognised and mines. Even if you intend to use SMOS in the end this will let you check all the components are functional.<br /></div><br />Ok, thank you for the help. <br />I rechecked everything and found that the BIOS switched the IGD to the the PEG. I switch it and now it is running with the new RAM (I.E. 16 GB). It does not give an error anymore that it is running at 1/3 capacity but it . I still seems to be running at about 100sol/sec per card. I am using SMOS. Is there any resolution to this?&nbsp; I should be getting about 1800sol/sec and not 700sol/sec.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Z170 Z170A BIOS setting 7 GPU mining success </b><br />
+					Post by: <b>firebird631</b> on <b>December 05, 2018, 11:41:04 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Recently got two of those chipset, and now I know its a bad idea. I&#039;ve another H110 working perfectly with the 6 gpus.<br />I&#039;m able on an ASROCK Z170 Extreme 4 to set 5 GPUs but I&#039;m using a PCI-E card splitter 1x to 4 PCI-E. I explain :<br /><br />- 2 GPUs on the first and last 1x slots<br />- 1 GPU on the last 16x slot<br />- the extending card on the 2th 1x slot and plug the 2 remaining GPUs onto<br /><br />It works no latency, no instabilities. If I try to plug the 6th GPU I&#039;ve got a 5D error and then forced to clear CMOS, cannot reboot.<br />And if I plug a GPU on the first or second 16x then slow down of the GPUs on the 16x, instabilities and finally lost one or two GPUs, reboot...<br /><br />And on a MSI Z170-A Pro, the maximum I&#039;ve success is 3. But maybe I could do more investigations on that model. Just bored of wasting my time on these Z170 MBs.<br /><br />About the BIOS I&#039;ve tested anything possible, GEN 1,2,3,Auto, 4G (only on the MSI), TOLUD 2.5 (only on the ASROCK), disabling any non used features, tried anything we can found over the Web.<br /><br />The BIOS are updated to the latest version.<br /><br />If you have a suggestion ? For the next I will use H87 or H110 only.</div>
+					<br /><br />
+					<div align="center" class="smalltext">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank">Powered by SMF 1.1.19</a> | 
+<a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank">SMF &copy; 2006-2009, Simple Machines</a>
+		</span></div>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

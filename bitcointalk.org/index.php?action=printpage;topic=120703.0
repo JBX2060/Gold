@@ -1,0 +1,104 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+		<link rel="canonical" href="https://bitcointalk.org/index.php?topic=120703.0" />
+		<title>Print Page - confused once again  jsonrpc    (bounty  =ad space)</title>
+		<style type="text/css">
+			body
+			{
+				color: black;
+				background-color: white;
+			}
+			body, td, .normaltext
+			{
+				font-family: Verdana, arial, helvetica, serif;
+				font-size: small;
+			}
+			*, a:link, a:visited, a:hover, a:active
+			{
+				color: black !important;
+			}
+			table
+			{
+				empty-cells: show;
+			}
+			.code
+			{
+				font-size: x-small;
+				font-family: monospace;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.quote
+			{
+				font-size: x-small;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.smalltext, .quoteheader, .codeheader
+			{
+				font-size: x-small;
+			}
+			.largetext
+			{
+				font-size: large;
+			}
+			hr
+			{
+				height: 1px;
+				border: 0;
+				color: black;
+				background-color: black;
+			}
+		</style>
+	</head>
+	<body>
+		<h1 class="largetext">Bitcoin Forum</h1>
+		<h2 class="normaltext">Bitcoin => Bitcoin Technical Support => Topic started by: Lurk on October 26, 2012, 04:59:36 PM</h2>
+
+		<table width="90%" cellpadding="0" cellspacing="0" border="0">
+			<tr>
+				<td>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>confused once again  jsonrpc    (bounty  =ad space)</b><br />
+					Post by: <b>Lurk</b> on <b>October 26, 2012, 04:59:36 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">alright i&#039;ve been trying everything to get either bitcoind&nbsp; or my blockchain.info wallet&nbsp; to communicate with my website&nbsp; &nbsp;with no luck.<br /><br />when i try to use bitcoind it doesnt recognize my .conf file<br /><br />when i try to use blockchain.info wallet&nbsp; &nbsp;i get this error&nbsp; &nbsp; &nbsp;<br />&nbsp; &nbsp;<br />&nbsp; &nbsp; &nbsp;Invalid return payload: enable debugging to examine incoming payload JSON parsing did not return correct jsonrpc response object thrown in on line 0<br /><br />Am I completely missing something?&nbsp; Do I need to download jsonRpc library or something?&nbsp; &nbsp; If I do&nbsp; &nbsp;where would i install it?<br /><br />&nbsp; This has been driving me crazy for about a week&nbsp; &nbsp;everytime I think I have it figured out.......I run into the same problems.<br /><br /><br />I&#039;m trying to make a bitcoin faucet.&nbsp; &nbsp; I have all the code&nbsp; and database uploaded.&nbsp; I used greedis faucet off of github.<br /><br />&nbsp;when i try to use the blockchain.info wallet&nbsp; &nbsp; &nbsp; i&nbsp; put blockchain.info as the host&nbsp; &nbsp;is that wrong?&nbsp; should i use an ip address?<br /><br />&nbsp; Id really appreciate some help&nbsp; I&#039;m at my wits end.<br />&nbsp; <br />&nbsp;1 btc to help me troubleshoot, and walk me through my values&nbsp; in my config.php file&nbsp; server.php&nbsp; file&nbsp; and my header.php file&nbsp; &nbsp;my bitcoin.conf&nbsp; file&nbsp; &nbsp; &nbsp; <br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<br />&nbsp; &nbsp; &nbsp;So whoever helps me get this basic version of the faucet running successfully will get a banner ad slot on the page for a year.<br />Once i get this basic core running&nbsp; I will work to update it&nbsp; &nbsp; but id like to have this up and running asap.<br /><br />&nbsp; </div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: confused once again  jsonrpc    (bounty  =ad space)</b><br />
+					Post by: <b>Lurk</b> on <b>October 26, 2012, 05:26:58 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">that makes me want to punch myself in the face... thanks...let me download this and see what happens.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: confused once again  jsonrpc    (bounty  =ad space)</b><br />
+					Post by: <b>Lurk</b> on <b>October 26, 2012, 05:28:57 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">so where would i place this&nbsp; &nbsp;and how would i get bitcoin qt or bitcoind to look for it?</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: confused once again  jsonrpc    (bounty  =ad space)</b><br />
+					Post by: <b>grimd34th</b> on <b>October 29, 2012, 08:56:23 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">find me on freenode, D34TH, usually in #litecoin-dev, #litecoin,#bitcoin-dev<br /><br />i&#039;ll help you, i helped greedi a bit, so i know some of his coding is a little funky</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: confused once again  jsonrpc    (bounty  =ad space)</b><br />
+					Post by: <b>bytedisorder</b> on <b>March 08, 2013, 10:51:51 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">I&#039;m having the same problem with the same script with blockchain. Did anybody ever figure it out?</div>
+					<br /><br />
+					<div align="center" class="smalltext">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank">Powered by SMF 1.1.19</a> | 
+<a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank">SMF &copy; 2006-2009, Simple Machines</a>
+		</span></div>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

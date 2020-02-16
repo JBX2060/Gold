@@ -1,0 +1,104 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+		<link rel="canonical" href="https://bitcointalk.org/index.php?topic=117883.0" />
+		<title>Print Page - is there a way to send 0 confirmed Transection's?</title>
+		<style type="text/css">
+			body
+			{
+				color: black;
+				background-color: white;
+			}
+			body, td, .normaltext
+			{
+				font-family: Verdana, arial, helvetica, serif;
+				font-size: small;
+			}
+			*, a:link, a:visited, a:hover, a:active
+			{
+				color: black !important;
+			}
+			table
+			{
+				empty-cells: show;
+			}
+			.code
+			{
+				font-size: x-small;
+				font-family: monospace;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.quote
+			{
+				font-size: x-small;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.smalltext, .quoteheader, .codeheader
+			{
+				font-size: x-small;
+			}
+			.largetext
+			{
+				font-size: large;
+			}
+			hr
+			{
+				height: 1px;
+				border: 0;
+				color: black;
+				background-color: black;
+			}
+		</style>
+	</head>
+	<body>
+		<h1 class="largetext">Bitcoin Forum</h1>
+		<h2 class="normaltext">Bitcoin => Bitcoin Technical Support => Topic started by: betatest512 on October 11, 2012, 04:12:42 PM</h2>
+
+		<table width="90%" cellpadding="0" cellspacing="0" border="0">
+			<tr>
+				<td>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>is there a way to send 0 confirmed Transection's?</b><br />
+					Post by: <b>betatest512</b> on <b>October 11, 2012, 04:12:42 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">i received some coin&#039;s from Eclipse mining pool<br /><br />and it has zero confirmation&#039;s and i want to send it without waiting for a confirmation as Eclipse pool will not try a double spend attack<br /><br />and is there a way to send it after it received 1-confirmation if it is not possible with 0 confirmation </div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: is there a way to send 0 confirmed Transection's?</b><br />
+					Post by: <b>DeathAndTaxes</b> on <b>October 11, 2012, 04:28:04 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">The protocol will allow you to transfer 0-confirm txs however the Satoshi client will not.&nbsp; There is no override (other than compile your own fork) possible.<br /><br />You can send after 1 confirm.&nbsp; I believe the GUI will let you but if it doesn&#039;t then it is possible using bitcoind (or debug window in GUI).<br /><br />bitcoind sendtoaddress &lt;address&gt; &lt;amount&gt;<br /><br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: is there a way to send 0 confirmed Transection's?</b><br />
+					Post by: <b>DannyHamilton</b> on <b>October 11, 2012, 04:44:56 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Of course, by the time you got the reply from DeathAndTaxes you would already have received 1 confirmation.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: is there a way to send 0 confirmed Transection's?</b><br />
+					Post by: <b>betatest512</b> on <b>October 11, 2012, 05:07:04 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">nope still 0-confirmation&#039;s<br /><br />i am using electrum 1.01-e</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: is there a way to send 0 confirmed Transection's?</b><br />
+					Post by: <b>DannyHamilton</b> on <b>October 11, 2012, 05:24:26 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=117883.msg1265211#msg1265211">Quote from: betatest512 on October 11, 2012, 05:07:04 PM</a></div><div class="quote">nope still 0-confirmation&#039;s<br /></div>Interesting.&nbsp; I had assumed that a transaction from a mining pool would make it into a block pretty quickly, even if it was a small transaction with no fee.</div>
+					<br /><br />
+					<div align="center" class="smalltext">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank">Powered by SMF 1.1.19</a> | 
+<a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank">SMF &copy; 2006-2009, Simple Machines</a>
+		</span></div>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

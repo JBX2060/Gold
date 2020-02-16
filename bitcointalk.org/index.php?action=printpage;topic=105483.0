@@ -1,0 +1,164 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+		<link rel="canonical" href="https://bitcointalk.org/index.php?topic=105483.0" />
+		<title>Print Page - What happens to Bitcoins that are sent to a non-existent address?</title>
+		<style type="text/css">
+			body
+			{
+				color: black;
+				background-color: white;
+			}
+			body, td, .normaltext
+			{
+				font-family: Verdana, arial, helvetica, serif;
+				font-size: small;
+			}
+			*, a:link, a:visited, a:hover, a:active
+			{
+				color: black !important;
+			}
+			table
+			{
+				empty-cells: show;
+			}
+			.code
+			{
+				font-size: x-small;
+				font-family: monospace;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.quote
+			{
+				font-size: x-small;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.smalltext, .quoteheader, .codeheader
+			{
+				font-size: x-small;
+			}
+			.largetext
+			{
+				font-size: large;
+			}
+			hr
+			{
+				height: 1px;
+				border: 0;
+				color: black;
+				background-color: black;
+			}
+		</style>
+	</head>
+	<body>
+		<h1 class="largetext">Bitcoin Forum</h1>
+		<h2 class="normaltext">Bitcoin => Bitcoin Technical Support => Topic started by: Mitchow on September 02, 2012, 07:09:08 PM</h2>
+
+		<table width="90%" cellpadding="0" cellspacing="0" border="0">
+			<tr>
+				<td>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>What happens to Bitcoins that are sent to a non-existent address?</b><br />
+					Post by: <b>Mitchow</b> on <b>September 02, 2012, 07:09:08 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">In three situations:<br /><br />1) If the coins are sent from a local wallet<br />2) If the coins are sent from an online wallet with a static address<br />3) If the coins are sent from an online wallet with a dynamic address<br /><br />I&#039;ve always been afraid of mis-copying/mis-pasting an address into the corresponding field, so I want to get this cleared to prevent future worry.<br /><br />Would appreciate any info :]<br /><br />Thanks!</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: What happens to Bitcoins that are sent to a non-existent address?</b><br />
+					Post by: <b>Revalin</b> on <b>September 02, 2012, 07:13:15 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">There is a checksum to prevent sending to a completely bogus address.<br /><br />However, if you send to the <i>wrong</i> address, you lose your money.&nbsp; If you send to the wrong address and you happen to know who it is, you can ask them to give your money back, but it&#039;s on their honor to actually do so.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: What happens to Bitcoins that are sent to a non-existent address?</b><br />
+					Post by: <b>DeathAndTaxes</b> on <b>September 02, 2012, 07:14:40 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">the 3 situations are exactly the same.<br /><br />If you send coins to an INCORRECT but VALID address they are gone forever.<br /><br />Bitcoin addresses have a 32 bit checksum so the odds of creating a typo which is INCORRECT but VALID is about one in 4 billion.<br />Still it could happen.&nbsp; If you are copying and pasting the odds are essentially zero (that you could drop or add an extra digit and still produce a valid address with the same checksum).<br /><br />The much more common problem is doing something stupid:<br />For example thinking you are sending coins to yourself (i.e. your address) but copying the last outgoing address and sending a boatload of coins to someone you sent coins to before.<br />Obviously the network can&#039;t protect you from that.<br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: What happens to Bitcoins that are sent to a non-existent address?</b><br />
+					Post by: <b>Mitchow</b> on <b>September 02, 2012, 07:18:51 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">ah, thank you two for the help! I was always under the impression that if coins were sent to a completely non-existent address, it would still leave the wallet, but later return to the sender&#039;s address.<br /><br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: What happens to Bitcoins that are sent to a non-existent address?</b><br />
+					Post by: <b>Lumpy</b> on <b>September 02, 2012, 07:25:36 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=105483.msg1155002#msg1155002">Quote from: Mitchow on September 02, 2012, 07:18:51 PM</a></div><div class="quote">ah, thank you two for the help! I was always under the impression that if coins were sent to a completely non-existent address, it would still leave the wallet, but later return to the sender&#039;s address.<br /></div><br />Define &quot;non-existent address.&quot; In a sense, an address doesn&#039;t &quot;exist&quot; until coins are sent to it. There might be a corresponding private key on someone&#039;s computer, or there might not, but the network doesn&#039;t know that. For example, I have my Bitcoin savings in an address that doesn&#039;t have its private key stored anywhere but my brain. There&#039;s no way for the network to say, &quot;Whoops, nobody is using this address--return to sender!&quot;</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: What happens to Bitcoins that are sent to a non-existent address?</b><br />
+					Post by: <b>DeathAndTaxes</b> on <b>September 02, 2012, 07:47:17 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=105483.msg1155002#msg1155002">Quote from: Mitchow on September 02, 2012, 07:18:51 PM</a></div><div class="quote">ah, thank you two for the help! I was always under the impression that if coins were sent to a completely non-existent address, it would still leave the wallet, but later return to the sender&#039;s address.<br /><br /><br /></div><br />There is no such thing as &quot;non-existent&quot; address.&nbsp; <br /><br />There are valid addresses and invalid addresses.<br /><br />If you send it to a valid address it is gone.<br />If you try to send it to an invalid address the client/nodes/protocol/miners won&#039;t let you.<br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: What happens to Bitcoins that are sent to a non-existent address?</b><br />
+					Post by: <b>Mitchow</b> on <b>September 02, 2012, 08:00:32 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">What I mean by non-existent address is a 34-character address that has never been generated or used before.<br /><br />For example, my address:<br /><br />1F2ZoMkKXpjxe4SbhmU8LvXHkmCdANdsDS<br /><br />But mistakenly modified as<br /><br />1F2ZoMkKXpjxe4SbhmU8LvXHkmCdANdsD<b>A</b><br /><br />But as long as that checksum is in place, I feel safe.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: What happens to Bitcoins that are sent to a non-existent address?</b><br />
+					Post by: <b>DeathAndTaxes</b> on <b>September 02, 2012, 08:05:52 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">How would the network know an address hasn&#039;t been generated before?<br /><br />I take my offline computer, generate a keypair and print it out on a piece of paper. &nbsp;How would the network &quot;know&quot; that address has been generated.<br /><br />As far as &quot;not been used before&quot; that wouldn&#039;t be very useful check.&nbsp; A new address by default hasn&#039;t been used before so you could never send coins to a new address.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: What happens to Bitcoins that are sent to a non-existent address?</b><br />
+					Post by: <b>Lumpy</b> on <b>September 02, 2012, 11:49:43 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=105483.msg1155091#msg1155091">Quote from: DeathAndTaxes on September 02, 2012, 08:05:52 PM</a></div><div class="quote">How would the network know an address hasn&#039;t been generated before?<br /><br />I take my offline computer, generate a keypair and print it out on a piece of paper.&nbsp; How would the network &quot;know&quot; that address has been generated.<br /><br />As far as &quot;not been used before&quot; that would be even more useless.<br /><br />So I generate an address but I can&#039;t send funds because it has no funds and I also can&#039;t receive funds because it has never been used before.&nbsp; So it is impossible to receive or send funds to new addresses.<br /></div><br />Exactly. If you talk about &quot;non-existent&quot; addresses I think you are misunderstanding how Bitcoin works.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: What happens to Bitcoins that are sent to a non-existent address?</b><br />
+					Post by: <b>Eisenhower34</b> on <b>September 03, 2012, 03:31:10 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Most that have been said is true...<br /><br />DeathAndTaxes let me help you :)<br /><br />Whenever you install a new bitcoind or generate a new wallet.dat you are generating out of random numbers a &quot;secret key&quot;. With this &quot;secret key&quot; and more random numbers you can generate several &quot;public keys&quot;, know as &quot;addresses&quot;. With your secret key, you can &quot;claim&quot; your public keys as a proof those are yours.<br /><br />This can happen complete offline, so the network doesnt know your &quot;addresses&quot; nor your &quot;secret key&quot;. The second you solve a block and generate 50 BTC or you receive a transaction, your address will appear in the &quot;chain&quot; and therfor is public visible. As a result you can send BTC to &quot;valid&quot; addresses, but those addresses dont necessary need to exist. So it could happen, that you install a new bitcoind, generate an address and instantly have funds in your wallet, because someone else send some BTC to that address before it was actually existing.<br /><br />An address is &quot;valid&quot; when its hash has a special value. So like already said, its nearly impossible that you can misstype an address and its still &quot;valid&quot;.<br /><br />Just to make it clear, &quot;valid&quot; and &quot;existing&quot; are not the same. Addresses can be valid and not exist (not yet generated) at the same time!</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: What happens to Bitcoins that are sent to a non-existent address?</b><br />
+					Post by: <b>Shirik</b> on <b>September 03, 2012, 05:49:15 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=105483.msg1156917#msg1156917">Quote from: Eisenhower34 on September 03, 2012, 03:31:10 PM</a></div><div class="quote">Most that have been said is true...<br /><br />DeathAndTaxes let me help you :)<br /><br />Whenever you install a new bitcoind or generate a new wallet.dat you are generating out of random numbers a &quot;secret key&quot;. With this &quot;secret key&quot; and more random numbers you can generate several &quot;public keys&quot;, know as &quot;addresses&quot;. With your secret key, you can &quot;claim&quot; your public keys as a proof those are yours.<br /><br />This can happen complete offline, so the network doesnt know your &quot;addresses&quot; nor your &quot;secret key&quot;. The second you solve a block and generate 50 BTC or you receive a transaction, your address will appear in the &quot;chain&quot; and therfor is public visible. As a result you can send BTC to &quot;valid&quot; addresses, but those addresses dont necessary need to exist. So it could happen, that you install a new bitcoind, generate an address and instantly have funds in your wallet, because someone else send some BTC to that address before it was actually existing.<br /><br />An address is &quot;valid&quot; when its hash has a special value. So like already said, its nearly impossible that you can misstype an address and its still &quot;valid&quot;.<br /><br />Just to make it clear, &quot;valid&quot; and &quot;existing&quot; are not the same. Addresses can be valid and not exist (not yet generated) at the same time!<br /></div>DeathAndTaxes wasn&#039;t trying to say &quot;how do I prove to the network that address is mine?&quot; but rather &quot;how does the network know that there is a person in existence with a private key paired to that address?&quot;. That is, if I generated an address, and never said anything to the network, how could the network know that sending to that address is &quot;more correct&quot; than sending to an unowned but valid address?<br /><br />The answer is &quot;it can&#039;t&quot;.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: What happens to Bitcoins that are sent to a non-existent address?</b><br />
+					Post by: <b>Eisenhower34</b> on <b>September 03, 2012, 06:28:51 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Thats what I explained or not? To explain why it cannot check the &quot;existence&quot; of a bitcoin address, i explained how the bitcoin secret / public key thing works.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: What happens to Bitcoins that are sent to a non-existent address?</b><br />
+					Post by: <b>hottweelz</b> on <b>September 05, 2012, 03:04:02 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Can I attempt to &quot;dumb this down?&quot;<br /><br />I think the OP was asking, what if, offline I create a wallet address with 1BbwCCkwWDVJXLojxYpZrtPp8LSSRghisH by just typing it out... better yet, my five year old just bangs on the keys of the computer and she created my new address.&nbsp; Now I physically hand someone a piece of paper with 1BbwCCkwWDVJXLojxYpZrtPp8LSSRghisH written on it for a fellow bitcoin&#039;er and they send money to that aforementioned address.<br /><br />For the first time ever, I bring my wallet online and find out that this mysterious wallet address belonged to Jane SMith for the past year, but never knew.&nbsp; <br /><br />Did Jain Smith just receive that money?&nbsp; Is my wallet &quot;Invalid&quot; but &quot;Online with the P2P network?&quot;</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: What happens to Bitcoins that are sent to a non-existent address?</b><br />
+					Post by: <b>DeathAndTaxes</b> on <b>September 05, 2012, 03:20:16 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Well the OP wasn&#039;t asking that. &nbsp;Your scenario is different in a couple of ways and I also think you are confusing some key terms.<br /><br />1) While you could produce an address randomly it would be useless. &nbsp;The address is the hash of the public key which is derived from the private key. &nbsp; The private key (secret) for the address give you control over funds sent to that address. Generating a random address without a private key simply produces an address where coins are lost forever.<br /><br />2) Addresses have a 32 bit checksum. &nbsp;4,294,967,295 out of 4,294,967,296 random addresses will just result in an invalid address. &nbsp;Your client decodes and checks the address and if it is invalid it will not create the transaction.<br /><br />3) If you did happen to beat the odds (1 in 4,294,967,296) and randomly generate a valid address then whoever has the private keys controls the funds. &nbsp;Given how many possible addresses there are, the probability that you would randomly type an address someone (anyone) has the key for is essentially 0%. &nbsp; If you did that person would have access to any funds sent to their address. Otherwise any funds sent to it will be lost forever.<br /><br />3) &nbsp;Address =/= Wallet. &nbsp;A wallet is a client side &quot;concept&quot;. &nbsp;It is a collection of private keys (and other tx data). &nbsp;The network doesn&#039;t &quot;know&quot; about wallets, just addresses. &nbsp;The input for every txn is the output of a prior txn.&nbsp; If nobody has the corresponding private key then nobody can spend the coins.<br /><br /><br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: What happens to Bitcoins that are sent to a non-existent address?</b><br />
+					Post by: <b>hottweelz</b> on <b>September 05, 2012, 03:42:31 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Well, this is how I learn,&nbsp; Perfect.<br /><br />Even if I misunderstood the OP.</div>
+					<br /><br />
+					<div align="center" class="smalltext">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank">Powered by SMF 1.1.19</a> | 
+<a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank">SMF &copy; 2006-2009, Simple Machines</a>
+		</span></div>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

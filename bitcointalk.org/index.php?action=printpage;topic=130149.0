@@ -1,0 +1,122 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+		<link rel="canonical" href="https://bitcointalk.org/index.php?topic=130149.0" />
+		<title>Print Page - How to use existing Yubikey with mt Gox</title>
+		<style type="text/css">
+			body
+			{
+				color: black;
+				background-color: white;
+			}
+			body, td, .normaltext
+			{
+				font-family: Verdana, arial, helvetica, serif;
+				font-size: small;
+			}
+			*, a:link, a:visited, a:hover, a:active
+			{
+				color: black !important;
+			}
+			table
+			{
+				empty-cells: show;
+			}
+			.code
+			{
+				font-size: x-small;
+				font-family: monospace;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.quote
+			{
+				font-size: x-small;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.smalltext, .quoteheader, .codeheader
+			{
+				font-size: x-small;
+			}
+			.largetext
+			{
+				font-size: large;
+			}
+			hr
+			{
+				height: 1px;
+				border: 0;
+				color: black;
+				background-color: black;
+			}
+		</style>
+	</head>
+	<body>
+		<h1 class="largetext">Bitcoin Forum</h1>
+		<h2 class="normaltext">Bitcoin => Bitcoin Technical Support => Topic started by: yoyoceramic on December 11, 2012, 12:36:12 AM</h2>
+
+		<table width="90%" cellpadding="0" cellspacing="0" border="0">
+			<tr>
+				<td>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>How to use existing Yubikey with mt Gox</b><br />
+					Post by: <b>yoyoceramic</b> on <b>December 11, 2012, 12:36:12 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Hi Everyone,<br /><br />I already use a Yubikey that I bought in order to have a 2 factor with lastpass and blockchain.info.&nbsp; Is there a way to use the same key with Mt Gox?&nbsp; <br /><br />When I get to the &quot;Add new software Authentication System&quot; I get a &quot;standard private key&#039; and a &quot;secure private key&quot; and a blank field called &quot;code&quot;.&nbsp; Do I need to use the Yubikey personalization software to generate the code?<br /><br />I do not want to use google authenticator, and I don&#039;t want to have to buy Mt. Gox&#039;s yubi key.&nbsp; <br /><br />Thanks</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: How to use existing Yubikey with mt Gox</b><br />
+					Post by: <b>Stephen Gornick</b> on <b>December 11, 2012, 07:35:48 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=130149.msg1391383#msg1391383">Quote from: yoyoceramic on December 11, 2012, 12:36:12 AM</a></div><div class="quote">I do not want to use google authenticator, and I don&#039;t want to have to buy Mt. Gox&#039;s yubi key. &nbsp;<br /></div><br />I believe you program the Yubikey OTP with the secret from Mt. Gox, just like you would configure Google Authenticator.<br />&nbsp;&nbsp;- http://www.yubico.com/products/services-software/personalization-tools/yubikey-otp/</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: How to use existing Yubikey with mt Gox</b><br />
+					Post by: <b>mjc</b> on <b>December 11, 2012, 09:52:52 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">No you cannot use an existing YubiKey with Mt Gox.&nbsp; I thought the same.&nbsp; You have to order a YubiKey from them for their site.<br /><br />That&#039;s their policy.&nbsp; there is no technical reason why, except they want to make a few extra bucks off the process, I guess.<br /><br />They program to OTP into the key.&nbsp; The first profile is for log in on to their system, the second profile is used for transferring money from your account.<br /><br />While it is a pain, it is advisable to go ahead and get one.&nbsp; When I did, I got the one that was branded with the Mt Gox logo.&nbsp; Makes it easier to manage.<br /><br />Hope that helps.<br /><br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: How to use existing Yubikey with mt Gox</b><br />
+					Post by: <b>247saver</b> on <b>December 11, 2012, 10:29:20 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">This leads me to think:<br /><br />If I bought a Yubikey for Mt Gox (first) could I then also use it later with a Blockchain.info wallet?<br /><br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: How to use existing Yubikey with mt Gox</b><br />
+					Post by: <b>davout</b> on <b>December 11, 2012, 10:40:02 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=130149.msg1393546#msg1393546">Quote from: 247saver on December 11, 2012, 10:29:20 PM</a></div><div class="quote">This leads me to think:<br /><br />If I bought a Yubikey for Mt Gox could I then also use it with a Blockchain.info wallet?<br /></div>nope, well yes, but that&#039;s just because blockchain.info doesn&#039;t do the right thing and only checks the key id without actually validating the OTP meaning its vulnerable to replay attacks. boo</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: How to use existing Yubikey with mt Gox</b><br />
+					Post by: <b>davout</b> on <b>December 11, 2012, 10:42:40 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=130149.msg1393463#msg1393463">Quote from: mjc on December 11, 2012, 09:52:52 PM</a></div><div class="quote">That&#039;s their policy. &nbsp;there is no technical reason why, except they want to make a few extra bucks off the process, I guess.<br /></div>Their technical reason is that they are the only ones keeping a copy of the AES key that&#039;s in the yubikey, regular yubikeys need the OTPs to be validated against yubico&#039;s service who keeps a copy of the AES key. I don&#039;t think it makes much sense but that&#039;s the technical reason they advertise.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: How to use existing Yubikey with mt Gox</b><br />
+					Post by: <b>Blazr</b> on <b>December 11, 2012, 11:37:23 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=130149.msg1393546#msg1393546">Quote from: 247saver on December 11, 2012, 10:29:20 PM</a></div><div class="quote">This leads me to think:<br /><br />If I bought a Yubikey for Mt Gox (first) could I then also use it later with a Blockchain.info wallet?<br /><br /><br /></div><br />Yes, but a cat with a straw in its mouth would do a better job at protecting your wallet. If your yubikey is keylogged, it can actually be re-used by an attacker due to the way BC.info decided to support Yubikeys (the wrong way).</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: How to use existing Yubikey with mt Gox</b><br />
+					Post by: <b>247saver</b> on <b>December 11, 2012, 11:51:34 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><br />Thanks for the quick replies!<br /><br />&nbsp;:)</div>
+					<br /><br />
+					<div align="center" class="smalltext">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank">Powered by SMF 1.1.19</a> | 
+<a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank">SMF &copy; 2006-2009, Simple Machines</a>
+		</span></div>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

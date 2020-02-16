@@ -1,0 +1,182 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+		<link rel="canonical" href="https://bitcointalk.org/index.php?topic=143516.0" />
+		<title>Print Page - Problem transfering bitcoins</title>
+		<style type="text/css">
+			body
+			{
+				color: black;
+				background-color: white;
+			}
+			body, td, .normaltext
+			{
+				font-family: Verdana, arial, helvetica, serif;
+				font-size: small;
+			}
+			*, a:link, a:visited, a:hover, a:active
+			{
+				color: black !important;
+			}
+			table
+			{
+				empty-cells: show;
+			}
+			.code
+			{
+				font-size: x-small;
+				font-family: monospace;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.quote
+			{
+				font-size: x-small;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.smalltext, .quoteheader, .codeheader
+			{
+				font-size: x-small;
+			}
+			.largetext
+			{
+				font-size: large;
+			}
+			hr
+			{
+				height: 1px;
+				border: 0;
+				color: black;
+				background-color: black;
+			}
+		</style>
+	</head>
+	<body>
+		<h1 class="largetext">Bitcoin Forum</h1>
+		<h2 class="normaltext">Bitcoin => Bitcoin Technical Support => Topic started by: oliviancool on February 12, 2013, 01:07:24 PM</h2>
+
+		<table width="90%" cellpadding="0" cellspacing="0" border="0">
+			<tr>
+				<td>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Problem transfering bitcoins</b><br />
+					Post by: <b>oliviancool</b> on <b>February 12, 2013, 01:07:24 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Hi i have just transfered my entired amount of bitcoins to btc-e.com for withdrawing, but i have go a problem, i did this an hour ago<br /><br />and i am getting this <br /><br />Uncommitted transactions:<br /><br />+13.505 BTC, 0 confirmations, 16:33 12.02.13<br /><br />Note: The information is updated every minute.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Problem transfering bitcoins</b><br />
+					Post by: <b>DannyHamilton</b> on <b>February 12, 2013, 01:16:42 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=143516.msg1521470#msg1521470">Quote from: oliviancool on February 12, 2013, 01:07:24 PM</a></div><div class="quote">Hi i have just transfered my entired amount of bitcoins to btc-e.com for withdrawing, but i have go a problem, i did this an hour ago<br /><br />and i am getting this <br /><br />Uncommitted transactions:<br /><br />+13.505 BTC, 0 confirmations, 16:33 12.02.13<br /><br />Note: The information is updated every minute.<br /></div>Most likely it is a low priority transaction that doesn&#039;t have a large enough fee to be considered by the miners that solved the 6 most recent blocks.<br /><br />If you are willing to post (or PM) your transaction ID, someone could possibly explain the issue better.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Problem transfering bitcoins</b><br />
+					Post by: <b>oliviancool</b> on <b>February 12, 2013, 01:18:44 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=143516.msg1521495#msg1521495">Quote from: DannyHamilton on February 12, 2013, 01:16:42 PM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=143516.msg1521470#msg1521470">Quote from: oliviancool on February 12, 2013, 01:07:24 PM</a></div><div class="quote">Hi i have just transfered my entired amount of bitcoins to btc-e.com for withdrawing, but i have go a problem, i did this an hour ago<br /><br />and i am getting this <br /><br />Uncommitted transactions:<br /><br />+13.505 BTC, 0 confirmations, 16:33 12.02.13<br /><br />Note: The information is updated every minute.<br /></div>Most likely it is a low priority transaction that doesn&#039;t have a large enough fee to be considered by the miners that solved the 6 most recent blocks.<br /><br />If you are willing to post (or PM) your transaction ID, someone could possibly explain the issue better.<br /></div><br />Well i do not know from where to get it<br /><br /><br />This one? https://blockchain.info/tx/de1cee00df3cdfcc433477fa6a180e15dd87f6b55f24c463f0716bcf0924a882</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Problem transfering bitcoins</b><br />
+					Post by: <b>CIYAM</b> on <b>February 12, 2013, 01:28:51 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=143516.msg1521499#msg1521499">Quote from: oliviancool on February 12, 2013, 01:18:44 PM</a></div><div class="quote">This one? https://blockchain.info/tx/de1cee00df3cdfcc433477fa6a180e15dd87f6b55f24c463f0716bcf0924a882<br /></div><br />That tx shows 13.50503811 BTC with 1 confirmation.<br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Problem transfering bitcoins</b><br />
+					Post by: <b>oliviancool</b> on <b>February 12, 2013, 01:33:49 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">2:) One more, am i right?</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Problem transfering bitcoins</b><br />
+					Post by: <b>DannyHamilton</b> on <b>February 12, 2013, 01:34:13 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=143516.msg1521517#msg1521517">Quote from: CIYAM Open on February 12, 2013, 01:28:51 PM</a></div><div class="quote">That tx shows 13.50503811 BTC with 1 confirmation . . .<br /></div>And now there are 2 confirmations. &nbsp;So it looks like your problem is solved.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Problem transfering bitcoins</b><br />
+					Post by: <b>oliviancool</b> on <b>February 12, 2013, 01:37:06 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Well i guess yeah, i didn&#039;t know this thing, really and i was scaref when i saw that these bitcoins are not coming:)</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Problem transfering bitcoins</b><br />
+					Post by: <b>CIYAM</b> on <b>February 12, 2013, 01:43:07 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">No worries - you do need to be a little bit patient (they are not instantaneous transfers despite some of the misinformation you might have read).<br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Problem transfering bitcoins</b><br />
+					Post by: <b>oliviancool</b> on <b>February 12, 2013, 01:56:07 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=143516.msg1521537#msg1521537">Quote from: CIYAM Open on February 12, 2013, 01:43:07 PM</a></div><div class="quote">No worries - you do need to be a little bit patient (they are not instantaneous transfers despite some of the misinformation you might have read).<br /><br /></div><br />I did, btw problem solved thank all of you who answered to me:)</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Problem transfering bitcoins</b><br />
+					Post by: <b>dstriker</b> on <b>February 13, 2013, 07:50:00 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Moral of the story, add fee. :-)</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Problem transfering bitcoins</b><br />
+					Post by: <b>BookLover</b> on <b>February 14, 2013, 02:55:38 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=143516.msg1523751#msg1523751">Quote from: dstriker on February 13, 2013, 07:50:00 AM</a></div><div class="quote">Moral of the story, add fee. :-)<br /></div>Or age you coins!&nbsp; ;)</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Problem transfering bitcoins</b><br />
+					Post by: <b>marika70</b> on <b>March 30, 2013, 12:51:41 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Uncommitted transactions:<br />+22.02000000 BTC, 0 confirmations, 03:00 30.03.13<br />i have the same problem for 5 hours <br />1J9nZwBH2SXwqswPDboBS3o5BERmZwvtLc<br />thats where its supposed to be deposited any idea whats going on ?</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Problem transfering bitcoins</b><br />
+					Post by: <b>DannyHamilton</b> on <b>March 30, 2013, 03:03:51 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=143516.msg1702516#msg1702516">Quote from: marika70 on March 30, 2013, 12:51:41 AM</a></div><div class="quote">Uncommitted transactions:<br />+22.02000000 BTC, 0 confirmations, 03:00 30.03.13<br />i have the same problem for 5 hours <br />1J9nZwBH2SXwqswPDboBS3o5BERmZwvtLc<br />thats where its supposed to be deposited any idea whats going on ?<br /></div><br />I don&#039;t see any such transaction to that address.&nbsp; Do you have the transactionID?&nbsp; Are you the one who sent it, or are you just receiving it?</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Problem transfering bitcoins</b><br />
+					Post by: <b>marika70</b> on <b>March 30, 2013, 03:23:21 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">i sent it and im receiving it its going from SR and i cant seem to find any info on it ..like at all whats so ever no info </div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Problem transfering bitcoins</b><br />
+					Post by: <b>DannyHamilton</b> on <b>March 30, 2013, 03:39:07 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=143516.msg1703044#msg1703044">Quote from: marika70 on March 30, 2013, 03:23:21 AM</a></div><div class="quote">i sent it and im receiving it its going from SR and i cant seem to find any info on it ..like at all whats so ever no info <br /></div><br />You&#039;ll have to check with SR.&nbsp; There is no indication that they ever sent it as far as I can tell.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Problem transfering bitcoins</b><br />
+					Post by: <b>marika70</b> on <b>March 30, 2013, 03:50:25 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">on one of the forums they said that SR payes a very low miners fee or 0 so transaction being broadcasted like it is unnoticed untill some miner will do it ,is it true? and do you think there are any ways to speed up the process if i pay more may be ? or can i contact some miner and pay him to do my transaction im so new in all these things im sorry if my questions are stupid i apreciate alll your time and help you are giving me </div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Problem transfering bitcoins</b><br />
+					Post by: <b>Shiba</b> on <b>May 17, 2013, 02:40:31 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">hi, i made a bitcoin deposit of 7.9btc in to my btc-e account, but after 129 confirmations on blockchain, it seems my deposit is still stuck at 0 confirmation on btc-e. it over 24hours now. <br />i opened 5 tickets already with btc-e support, but no reply.<br />can anyone help me out or explain what i can do.<br />thanks<br />blockchain transaction- https://blockchain.info/tx/89a51ea735bca437e014e4536974eb442f57900d3fe1d6fbc13d70bc9ca29ced</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Problem transfering bitcoins</b><br />
+					Post by: <b>DannyHamilton</b> on <b>May 17, 2013, 03:27:34 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=143516.msg2181125#msg2181125">Quote from: Shiba on May 17, 2013, 02:40:31 PM</a></div><div class="quote">hi, i made a bitcoin deposit of 7.9btc in to my btc-e account, but after 129 confirmations on blockchain, it seems my deposit is still stuck at 0 confirmation on btc-e. it over 24hours now. <br />i opened 5 tickets already with btc-e support, but no reply.<br />can anyone help me out or explain what i can do.<br />thanks<br />blockchain transaction- https://blockchain.info/tx/89a51ea735bca437e014e4536974eb442f57900d3fe1d6fbc13d70bc9ca29ced<br /></div><br />Bitcoin worked properly, BTC-e has your bitcoins.&nbsp; Unfortunately, they are the only ones that can help you now.&nbsp; Hopefully you will find a way to get BTC-e to pay attention to your concerns.</div>
+					<br /><br />
+					<div align="center" class="smalltext">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank">Powered by SMF 1.1.19</a> | 
+<a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank">SMF &copy; 2006-2009, Simple Machines</a>
+		</span></div>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

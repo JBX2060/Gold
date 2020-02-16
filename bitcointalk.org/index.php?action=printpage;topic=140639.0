@@ -1,0 +1,98 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+		<link rel="canonical" href="https://bitcointalk.org/index.php?topic=140639.0" />
+		<title>Print Page - sent btc to one address but two appear at blockchain.info</title>
+		<style type="text/css">
+			body
+			{
+				color: black;
+				background-color: white;
+			}
+			body, td, .normaltext
+			{
+				font-family: Verdana, arial, helvetica, serif;
+				font-size: small;
+			}
+			*, a:link, a:visited, a:hover, a:active
+			{
+				color: black !important;
+			}
+			table
+			{
+				empty-cells: show;
+			}
+			.code
+			{
+				font-size: x-small;
+				font-family: monospace;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.quote
+			{
+				font-size: x-small;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.smalltext, .quoteheader, .codeheader
+			{
+				font-size: x-small;
+			}
+			.largetext
+			{
+				font-size: large;
+			}
+			hr
+			{
+				height: 1px;
+				border: 0;
+				color: black;
+				background-color: black;
+			}
+		</style>
+	</head>
+	<body>
+		<h1 class="largetext">Bitcoin Forum</h1>
+		<h2 class="normaltext">Bitcoin => Bitcoin Technical Support => Topic started by: fresca on February 02, 2013, 04:50:46 AM</h2>
+
+		<table width="90%" cellpadding="0" cellspacing="0" border="0">
+			<tr>
+				<td>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>sent btc to one address but two appear at blockchain.info</b><br />
+					Post by: <b>fresca</b> on <b>February 02, 2013, 04:50:46 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">I sent an amount to one address for x btc.&nbsp; My wallet shows the transaction unconfirmed.&nbsp; block chain.info shows the transaction confirmed with a second address listed for an additional amount.&nbsp; how can this happen?&nbsp; in addition my btc wallet crashed/closed right after I sent the transaction.&nbsp; there are no other transactions to this new address that is coupled with the intended address.&nbsp; any ideas what might have happened?</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: sent btc to one address but two appear at blockchain.info</b><br />
+					Post by: <b>Zeilap</b> on <b>February 02, 2013, 05:06:20 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=140639.msg1497279#msg1497279">Quote from: fresca on February 02, 2013, 04:50:46 AM</a></div><div class="quote">I sent an amount to one address for x btc.&nbsp; My wallet shows the transaction unconfirmed.&nbsp; block chain.info shows the transaction confirmed with a second address listed for an additional amount.&nbsp; how can this happen?&nbsp; in addition my btc wallet crashed/closed right after I sent the transaction.&nbsp; there are no other transactions to this new address that is coupled with the intended address.&nbsp; any ideas what might have happened?<br /></div>Assuming both sending addresses are yours:<br />Maybe you sent all the available funds from the address, and the program tried to send a fee.<br />It found no more funds at the original address and so used another address (which would be a bug). <br />Later on some code that is working on the assumption that only one address has funds changed finds that 2 addresses have changed funds and this leads to a crash.<br /><br />What client were you using?</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: sent btc to one address but two appear at blockchain.info</b><br />
+					Post by: <b>DannyHamilton</b> on <b>February 02, 2013, 05:12:24 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=140639.msg1497279#msg1497279">Quote from: fresca on February 02, 2013, 04:50:46 AM</a></div><div class="quote">I sent an amount to one address for x btc. &nbsp;My wallet shows the transaction unconfirmed. &nbsp;block chain.info shows the transaction confirmed with a second address listed for an additional amount. &nbsp;how can this happen? . . .<br /></div><br />With the way bitcoin works, you can&#039;t partially spend a previous output that you received. &nbsp;It has to be completely spent. &nbsp;So, if you receive 10 BTC all in a single transaction from someone/somewhere at an address, then that address now has a single 10 BTC output.<br /><br />Later if you want to send 2 BTC to somebody, the program can use the previous 10 BTC output as an input into the transaction, and create a 2 BTC output to the address where you want to send it. &nbsp;This leaves 8 BTC leftover in the transaction. &nbsp;If you don&#039;t send those 8 BTC somewhere, then they become miner fees and end up in the coinbase transaction of the new block for the miner to keep. &nbsp;If you don&#039;t want to give those 8 BTC away as fees to the miner, then you need to include a second output in your transaction sending the 8 BTC back to your own wallet. &nbsp;As an analogy, think of pulling a $10 bill out of your pocket to pay for something that costs $2, you get $8 back in &quot;change&quot;.<br /><br />The way Bitcoin-Qt does this is to create a new bitcoin address that it doesn&#039;t tell you about and keep track of that address and the associated private key in your wallet.dat. &nbsp;Since this isn&#039;t an address that you requested in the &quot;Receive Coins&quot; tab of the user interface, it doesn&#039;t show up in that list. &nbsp;Bitcoin-Qt knows about the address since it is in the wallet.dat file, so it includes it in the balance that it shows you. &nbsp;Bitcoin-Qt uses a new change address for every transaction. &nbsp;So if you create 10 different transactions, each sending bitcoins somewhere, then your wallet will have used 10 different change addresses (although some of them may be empty if Bitcoin-Qt used the bitcoins associated with some of those address as inputs into other transactions).<br /><br /><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=140639.msg1497279#msg1497279">Quote from: fresca on February 02, 2013, 04:50:46 AM</a></div><div class="quote">. . . in addition my btc wallet crashed/closed right after I sent the transaction. &nbsp;there are no other transactions to this new address that is coupled with the intended address. &nbsp;any ideas what might have happened?<br /></div>Not sure why your wallet crashed, but the crash probably caused your wallet to fall out of sync with the blockchain. &nbsp;This is probably why your wallet isn&#039;t showing confirmations even though blockchain.info show it confirmed.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: sent btc to one address but two appear at blockchain.info</b><br />
+					Post by: <b>fresca</b> on <b>February 02, 2013, 05:16:59 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">got it.&nbsp; that makes a lot of sense.&nbsp; The syncro was taking so long that I deleted the blockchain and am reloading it.&nbsp; I&#039;m expecting once I&#039;m synched to have all my transactions confirmed.<br /><br />thanks.</div>
+					<br /><br />
+					<div align="center" class="smalltext">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank">Powered by SMF 1.1.19</a> | 
+<a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank">SMF &copy; 2006-2009, Simple Machines</a>
+		</span></div>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

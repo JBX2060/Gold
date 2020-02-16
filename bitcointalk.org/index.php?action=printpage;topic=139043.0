@@ -1,0 +1,98 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+		<link rel="canonical" href="https://bitcointalk.org/index.php?topic=139043.0" />
+		<title>Print Page - [Electrum] Export private keys (Windows)</title>
+		<style type="text/css">
+			body
+			{
+				color: black;
+				background-color: white;
+			}
+			body, td, .normaltext
+			{
+				font-family: Verdana, arial, helvetica, serif;
+				font-size: small;
+			}
+			*, a:link, a:visited, a:hover, a:active
+			{
+				color: black !important;
+			}
+			table
+			{
+				empty-cells: show;
+			}
+			.code
+			{
+				font-size: x-small;
+				font-family: monospace;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.quote
+			{
+				font-size: x-small;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.smalltext, .quoteheader, .codeheader
+			{
+				font-size: x-small;
+			}
+			.largetext
+			{
+				font-size: large;
+			}
+			hr
+			{
+				height: 1px;
+				border: 0;
+				color: black;
+				background-color: black;
+			}
+		</style>
+	</head>
+	<body>
+		<h1 class="largetext">Bitcoin Forum</h1>
+		<h2 class="normaltext">Bitcoin => Electrum => Topic started by: ingrownpocket on January 26, 2013, 06:21:45 PM</h2>
+
+		<table width="90%" cellpadding="0" cellspacing="0" border="0">
+			<tr>
+				<td>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>[Electrum] Export private keys (Windows)</b><br />
+					Post by: <b>ingrownpocket</b> on <b>January 26, 2013, 06:21:45 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">How can I export the private keys from addresses created and used by Electrum?</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [Electrum] Export private keys (Windows)</b><br />
+					Post by: <b>DannyHamilton</b> on <b>January 26, 2013, 11:00:26 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Looking at the Electrum.org website (http://electrum.org/) I see they have a &quot;community&quot; page.<br />http://electrum.org/community.html<br /><br />Clicking that link (http://electrum.org/community.html), I see the following:<br /><br /><div class="quoteheader">Quote</div><div class="quote"><ul style="margin-top: 0; margin-bottom: 0;"><li>Documentation: https://en.bitcoin.it/wiki/Electrum</li></ul></div><br />When I click that link (https://en.bitcoin.it/wiki/Electrum), I see the following:<br /><br /><div class="quoteheader">Quote</div><div class="quote">You can export your private keys using the &#039;addresses&#039; command:<br /><br /><div class="codeheader">Code:</div><div class="code">$ ./electrum addresses -ak<br />Password:<br />1LGoehbyeX4QBEPK1a6dhyaoMQZfqg5LKX:5JBSttEGhjEcPidSovW66Rin2EZ6LEHZ2qx8Pu2RqqNaDTBVWaF&nbsp; &nbsp;<br />1KcsBJa2cCxVkGJfSsg5bUeXN7Y5uLa8mP:5KiP4uiNT6KG8jnXbainCM8rDWRrgxt3PAyut4FFpDoCo1Rh6VM&nbsp; &nbsp;<br />1PXsn7LVXTccGhJPTUL8r2EGB4fF9kvex3:5Kj8mvBJReyk8xEBMx5cTnciQCxto5JmudiTPkqwMcd61Kf1Jqc&nbsp; &nbsp;<br />1KteSFTAphyByLTtUfFiVQ9s7fMVmx7c2h:5JeZ3FTbWcksLt3PKydd5U9p952UQRHwv3LoxzCA9LZ7V2bku5p&nbsp; &nbsp;<br />1GE5ZChAobeTEPLHDCDDKTSg3XvLkcQFjS:5JwtGEygTwF2nouhRVzW3w5DWZd1sCgxLtnd1v51wjkbUrp5sqH&nbsp; &nbsp;<br />12YNehfAoYTiwjTXULwaZqTCauu2D61fq6:5Jvcq19ePCXKcVun4n7US99CsrEByUK2kgxXBA3rBVBqYZjhfwD&nbsp; [change] <br /></div><br />There are two options in this example:<br /><br />&nbsp; &nbsp; option -a means: &#039;list all addresses&#039;. if you don&#039;t use it, change addresses are not listed.<br />&nbsp; &nbsp; option -k means: display the private keys <br /></div><br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [Electrum] Export private keys (Windows)</b><br />
+					Post by: <b>sacko</b> on <b>January 27, 2013, 11:14:30 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">If your wallet is not encrypted, you can take a look inside the electrum.dat. There you find all the priv keys.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [Electrum] Export private keys (Windows)</b><br />
+					Post by: <b>flatfly</b> on <b>January 27, 2013, 06:52:36 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=139043.msg1482842#msg1482842">Quote from: sacko on January 27, 2013, 11:14:30 AM</a></div><div class="quote">If your wallet is not encrypted, you can take a look inside the electrum.dat. There you find all the priv keys.<br /></div><br />Unfortunately, this will only give you the imported keys (if any), not keys created by Electrum, because these are not stored in any file (they are dynamically derived from the seed.) <br /><br />Only &quot;<b>electrum -oak addresses</b>&quot; will show them. However, as far as I know the current official Windows version doesn&#039;t support it. You may want to double-check on the Electrum thread or the #electrum IRC channel for the latest status on this.<br /><br />Or if you still have access to one of my old builds (which are no longer supported but they will work fine), you can just hold down the SHIFT key while starting electrum and type the above command in the resulting console window.<br /><br />PS: sacko, thanks for your kind words on the other thread ;)</div>
+					<br /><br />
+					<div align="center" class="smalltext">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank">Powered by SMF 1.1.19</a> | 
+<a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank">SMF &copy; 2006-2009, Simple Machines</a>
+		</span></div>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

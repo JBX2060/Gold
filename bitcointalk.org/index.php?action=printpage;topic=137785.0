@@ -1,0 +1,122 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+		<link rel="canonical" href="https://bitcointalk.org/index.php?topic=137785.0" />
+		<title>Print Page - What does this RED transaction mean? Bitcoin Wallet</title>
+		<style type="text/css">
+			body
+			{
+				color: black;
+				background-color: white;
+			}
+			body, td, .normaltext
+			{
+				font-family: Verdana, arial, helvetica, serif;
+				font-size: small;
+			}
+			*, a:link, a:visited, a:hover, a:active
+			{
+				color: black !important;
+			}
+			table
+			{
+				empty-cells: show;
+			}
+			.code
+			{
+				font-size: x-small;
+				font-family: monospace;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.quote
+			{
+				font-size: x-small;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.smalltext, .quoteheader, .codeheader
+			{
+				font-size: x-small;
+			}
+			.largetext
+			{
+				font-size: large;
+			}
+			hr
+			{
+				height: 1px;
+				border: 0;
+				color: black;
+				background-color: black;
+			}
+		</style>
+	</head>
+	<body>
+		<h1 class="largetext">Bitcoin Forum</h1>
+		<h2 class="normaltext">Bitcoin => Bitcoin Technical Support => Topic started by: Bitconian on January 21, 2013, 08:05:07 PM</h2>
+
+		<table width="90%" cellpadding="0" cellspacing="0" border="0">
+			<tr>
+				<td>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>What does this RED transaction mean? Bitcoin Wallet</b><br />
+					Post by: <b>Bitconian</b> on <b>January 21, 2013, 08:05:07 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">I sent money yesterday and almost 12 hours later is still red and I haven&#039;t received the money I sent.<br /><br />Anybody knows why is red and with a small cross? what does it mean?<br /><br />thanks!<br /><a href="http://fotos.subefotos.com/25b33be492366aae8fcd4679f99afc23o.jpg">http://fotos.subefotos.com/25b33be492366aae8fcd4679f99afc23o.jpg</a></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: What does this RED transaction mean? Bitcoin Wallet</b><br />
+					Post by: <b>asw0210</b> on <b>January 21, 2013, 08:15:10 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">I have had something similar happen while using that application on my Android. <br /><br />It looks like you need to re-download the block-chain in order to resolve your issue.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: What does this RED transaction mean? Bitcoin Wallet</b><br />
+					Post by: <b>Bitconian</b> on <b>January 21, 2013, 08:21:30 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">I&#039;m doing that now....let you know if that works.<br /><br />My problem is I have 4 wallets in the app, and my balance is combined so whenever I tried to send money, either crashes or that red transaction happens.<br /><br />thanks!</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: What does this RED transaction mean? Bitcoin Wallet</b><br />
+					Post by: <b>asw0210</b> on <b>January 21, 2013, 08:27:57 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Interesting. I&#039;ve only ever used 1 wallet with that app. <br /><br />You may want to consider using a web-based wallet in conjunction with or replacement of this app if you keep having these issues.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: What does this RED transaction mean? Bitcoin Wallet</b><br />
+					Post by: <b>Bitconian</b> on <b>January 21, 2013, 08:32:16 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">I was thinking once I take my money out, I will delete the app, download it again and using 1 wallet.<br /><br />I don&#039;t understand why it gives you the option of create more wallets if it crashes with more than one.<br /><br />But I&#039;m afraid I will have to lose my money because I can&#039;t transfer it anywhere.<br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: What does this RED transaction mean? Bitcoin Wallet</b><br />
+					Post by: <b>asw0210</b> on <b>January 21, 2013, 08:37:05 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Create a web-based wallet and just transfer them there for the time being. </div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: What does this RED transaction mean? Bitcoin Wallet</b><br />
+					Post by: <b>Bitconian</b> on <b>January 21, 2013, 09:31:50 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">my problem is that I can&#039;t transfer my money anywhere</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: What does this RED transaction mean? Bitcoin Wallet</b><br />
+					Post by: <b>BitcoinOxygen</b> on <b>January 22, 2013, 09:50:09 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=137785.msg1468920#msg1468920">Quote from: Bitconian on January 21, 2013, 09:31:50 PM</a></div><div class="quote">my problem is that I can&#039;t transfer my money anywhere<br /></div><br />Is your android phone rooted?</div>
+					<br /><br />
+					<div align="center" class="smalltext">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank">Powered by SMF 1.1.19</a> | 
+<a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank">SMF &copy; 2006-2009, Simple Machines</a>
+		</span></div>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

@@ -1,0 +1,92 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+		<link rel="canonical" href="https://bitcointalk.org/index.php?topic=105372.0" />
+		<title>Print Page - wallet backup question</title>
+		<style type="text/css">
+			body
+			{
+				color: black;
+				background-color: white;
+			}
+			body, td, .normaltext
+			{
+				font-family: Verdana, arial, helvetica, serif;
+				font-size: small;
+			}
+			*, a:link, a:visited, a:hover, a:active
+			{
+				color: black !important;
+			}
+			table
+			{
+				empty-cells: show;
+			}
+			.code
+			{
+				font-size: x-small;
+				font-family: monospace;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.quote
+			{
+				font-size: x-small;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.smalltext, .quoteheader, .codeheader
+			{
+				font-size: x-small;
+			}
+			.largetext
+			{
+				font-size: large;
+			}
+			hr
+			{
+				height: 1px;
+				border: 0;
+				color: black;
+				background-color: black;
+			}
+		</style>
+	</head>
+	<body>
+		<h1 class="largetext">Bitcoin Forum</h1>
+		<h2 class="normaltext">Bitcoin => Bitcoin Technical Support => Topic started by: dburdett84 on September 02, 2012, 01:55:06 AM</h2>
+
+		<table width="90%" cellpadding="0" cellspacing="0" border="0">
+			<tr>
+				<td>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>wallet backup question</b><br />
+					Post by: <b>dburdett84</b> on <b>September 02, 2012, 01:55:06 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">I have been looking around and not sure if this is the right place for this, but i am using the bitcoin for android as a wallet right now and would like to back it up. Is there a way to do this or should I use a different wallet and only use the one current one for small amounts?<br /><br />Also does the wallet need to be backed up again with every deposit or will the original back up sync when I restore it?</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: wallet backup question</b><br />
+					Post by: <b>sauc1er</b> on <b>September 02, 2012, 03:11:28 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Get the app &quot;Cryptonite&quot; from the Play store, it works like encfs, and store your wallet encrypted in the cloud (dropbox, box, spideroak etc)</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: wallet backup question</b><br />
+					Post by: <b>dburdett84</b> on <b>September 02, 2012, 04:50:05 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">I may be missing something but I installed cryptonite linked it to dropbox, and can not find my wallet file on the phone, it should be stored in /data/data/de.schildbach.wallet/files&nbsp; But I am finding nothing in /data, do i need to root my phone first(haven&#039;t gotten around to rooting my new phone yet).<br /><br />I think I got it sorted, rooted the phone and that opened up browsing of the /data folder, encrypted the dropbox folder uploaded the <br /><br />/data/data/de.schildbach.wallet/files/wallet-protobuf<br />and<br />/data/data/de.schildbach.wallet/files/key-backup-base58<br /><br />those are the files i needed to back up right there was also a key-backup-base58.54 and key-backup-base 58.55, do I need to back those up also?</div>
+					<br /><br />
+					<div align="center" class="smalltext">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank">Powered by SMF 1.1.19</a> | 
+<a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank">SMF &copy; 2006-2009, Simple Machines</a>
+		</span></div>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

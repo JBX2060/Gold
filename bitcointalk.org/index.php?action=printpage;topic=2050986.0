@@ -1,0 +1,152 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+		<link rel="canonical" href="https://bitcointalk.org/index.php?topic=2050986.0" />
+		<title>Print Page - Kann eine Bitcoin Wallet Adresse theoretisch doppelt vergeben werden?</title>
+		<style type="text/css">
+			body
+			{
+				color: black;
+				background-color: white;
+			}
+			body, td, .normaltext
+			{
+				font-family: Verdana, arial, helvetica, serif;
+				font-size: small;
+			}
+			*, a:link, a:visited, a:hover, a:active
+			{
+				color: black !important;
+			}
+			table
+			{
+				empty-cells: show;
+			}
+			.code
+			{
+				font-size: x-small;
+				font-family: monospace;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.quote
+			{
+				font-size: x-small;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.smalltext, .quoteheader, .codeheader
+			{
+				font-size: x-small;
+			}
+			.largetext
+			{
+				font-size: large;
+			}
+			hr
+			{
+				height: 1px;
+				border: 0;
+				color: black;
+				background-color: black;
+			}
+		</style>
+	</head>
+	<body>
+		<h1 class="largetext">Bitcoin Forum</h1>
+		<h2 class="normaltext">Local => Deutsch (German) => Topic started by: mensa84 on July 28, 2017, 06:17:48 AM</h2>
+
+		<table width="90%" cellpadding="0" cellspacing="0" border="0">
+			<tr>
+				<td>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Kann eine Bitcoin Wallet Adresse theoretisch doppelt vergeben werden?</b><br />
+					Post by: <b>mensa84</b> on <b>July 28, 2017, 06:17:48 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Hallo,<br /><br />wäre es theoretisch eigentlich möglich, dass eine Wallet Adresse samt Private Key doppelt vergeben wird?<br />Da man sich ja auch offline eine Paper Wallet Adresse generieren kann, könnte es theoretisch doch passieren, dass 2 verschiedene Personen irgendwann die gleiche Wallet Adresse und Private Key ausgespuckt bekommen, oder?<br />Die Wahrscheinlichkeit ist natürlich extrem gering, oder ist es wirklich unmöglich? Wenn unmöglich, durch was kann das ausgeschlossen werden?</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Kann eine Bitcoin Wallet Adresse theoretisch doppelt vergeben werden?</b><br />
+					Post by: <b>mezzomix</b> on <b>July 28, 2017, 06:44:40 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Die Wallet Adresse ist letztendlich der Private Key. Der Private Key wird nicht vergeben, sondern erzeugt. Da der Private Key nur eine (hoffentlich) zufällige (sehr grosse) Zahl ist, kann tatsächlich der gleiche Private Key mehrfach erzeugt werden. Die einzige Absicherung ist, dass es extrem unwahrscheinlich ist, mehrmals die gleiche sehr grosse Zufallszahl zu erzeugen. Die Zahl kann auch aus einer Passphrase erzeugt werden. Allerdings ist dies meist unsicherer als ein guter Zufallszahlengenerator. Der Mensch ist extrem schlecht beim Erzeugen zufälliger Zahlen!<br /><br />Damit wird auch klar, dass ein guter Zufallszahlengenerator bzw. die Geheimhaltung der Zahl von zentraler Bedeutung ist.<br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Kann eine Bitcoin Wallet Adresse theoretisch doppelt vergeben werden?</b><br />
+					Post by: <b>mensa84</b> on <b>July 28, 2017, 08:43:49 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Danke für die rasche Antwort :)<br />Aber denkt ihr nicht, dass kriminelle solche Zufallsgeneratoren laufen haben und automatisiert sekündlich hunderte Private Keys durchprobieren? Sobald auf einer Adresse dann Guthaben gefunden wird, könnte das mit dem Key ja sofort wegtransportiert werden.<br />Oder denkt ihr, dass dies trotzdem sooo extrem unwahrscheinlich ist, dass dies auch nicht passieren würde, wenn der den Rechner 10 Jahr durchlaufen läßt?</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Kann eine Bitcoin Wallet Adresse theoretisch doppelt vergeben werden?</b><br />
+					Post by: <b>Lincoln6Echo</b> on <b>July 28, 2017, 08:54:31 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=2050986.msg20440935#msg20440935">Quote from: mensa84 on July 28, 2017, 08:43:49 AM</a></div><div class="quote">Danke für die rasche Antwort :)<br />Aber denkt ihr nicht, dass kriminelle solche Zufallsgeneratoren laufen haben und automatisiert sekündlich hunderte Private Keys durchprobieren? Sobald auf einer Adresse dann Guthaben gefunden wird, könnte das mit dem Key ja sofort wegtransportiert werden.<br />Oder denkt ihr, dass dies trotzdem sooo extrem unwahrscheinlich ist, dass dies auch nicht passieren würde, wenn der den Rechner 10 Jahr durchlaufen läßt?<br /></div><br />Siehe hier ein Experiment dazu:<br /><br />https://bitcointalk.org/index.php?topic=1581701.0</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Kann eine Bitcoin Wallet Adresse theoretisch doppelt vergeben werden?</b><br />
+					Post by: <b>mezzomix</b> on <b>July 28, 2017, 09:08:55 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Genau. Diese &quot;Kriminellen&quot; gibt es bereits und anscheinend kommen sie inzwischen auf GKeys/s und nicht nur auf 100Keys/s. Trotzdem sind sie noch weit davon entfernt, tatsächlich genutzte Keys zu finden.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Kann eine Bitcoin Wallet Adresse theoretisch doppelt vergeben werden?</b><br />
+					Post by: <b>mensa84</b> on <b>July 28, 2017, 09:38:18 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Gegen dieses &quot;Experiment&quot; kann man sich also eigentlich gar nicht schützen, oder?<br />Es ist extrem unwahrscheinlich, dass es einen erwischt. Aber sollte es so sein, hat man Pech gehabt. Man kann gar nix dagegen tun, wenn ich es richtig verstehe?</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Kann eine Bitcoin Wallet Adresse theoretisch doppelt vergeben werden?</b><br />
+					Post by: <b>fronti</b> on <b>July 28, 2017, 09:53:13 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=2050986.msg20441963#msg20441963">Quote from: mensa84 on July 28, 2017, 09:38:18 AM</a></div><div class="quote">Gegen dieses &quot;Experiment&quot; kann man sich also eigentlich gar nicht schützen, oder?<br />Es ist extrem unwahrscheinlich, dass es einen erwischt. Aber sollte es so sein, hat man Pech gehabt. Man kann gar nix dagegen tun, wenn ich es richtig verstehe?<br /></div><br />ja das verstehst du richtig, da kann man nix gegen tun..<br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Kann eine Bitcoin Wallet Adresse theoretisch doppelt vergeben werden?</b><br />
+					Post by: <b>Aggrophobia</b> on <b>July 28, 2017, 09:56:17 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Ich glaube im 10^25key/s-Bereich müsste die Leistung liegen um eine &quot;hohe&quot; Wahrscheinlichkeit einer Kollision hervorzurufen</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Kann eine Bitcoin Wallet Adresse theoretisch doppelt vergeben werden?</b><br />
+					Post by: <b>mezzomix</b> on <b>July 28, 2017, 10:53:47 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Davon sind wir mit 10^9 Keys/s noch ein gutes Stück weg. Mann könnte übrigens (per Soft-Fork) den Algorithmus (neue Outputs / neues Transaktionsformat) ändern. Man kann also zumindest für neue Geldeingänge durchaus etwas tun, wenn die Rechenleistung massiv ansteigt oder Schwächen im Verfahren gefunden werden. Alte Stände müssten dann einmal umgebucht werden, um sie abzusichern.<br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Kann eine Bitcoin Wallet Adresse theoretisch doppelt vergeben werden?</b><br />
+					Post by: <b>bitcoinkaufen</b> on <b>August 02, 2017, 10:12:31 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">In der Theorie kann das passieren aber das ist EXTREMST unwahrscheinlich.<br /><br />Hier mal ein Beispiel:<br />Angenommen du kannst <b>1 Gkeys/s</b> testen<br /><br />Wenn du das <b>100 Jahre lange</b> machst hast du 1000000000*60*60*24*365*100 = <b>3,1536*10^18 Keys getestet</b><br />Bei einem <b>Hash der 256 Bits lang</b> ist wäre die <b>Kollisionswahrscheinlichkeit 4.294418*10ˆ-41</b> (Quelle http://davidjohnstone.net/pages/hash-collision-probability (http://davidjohnstone.net/pages/hash-collision-probability)).<br /><br />Zum Vergleich die Wahrscheinlichkeit, dass ein Mensch vom <b>Blitz getroffen wird ist 3.33*10ˆ-7</b> (Quelle https://kelbet.de/10-dinge-die-wahrscheinlicher-sind-als-im-lotto-zu-gewinnen.html (https://kelbet.de/10-dinge-die-wahrscheinlicher-sind-als-im-lotto-zu-gewinnen.html)).<br /><br />Dazu kommt noch, dass es extrem viel Strom kosten würde diese Brute Force Attacke durchzuführen. (https://bitcoinkaufen.io) Das würde sich nicht lohnen :)<br /><br />hoffe ich hab alles richtig gerechnet :)</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Kann eine Bitcoin Wallet Adresse theoretisch doppelt vergeben werden?</b><br />
+					Post by: <b>Chefin</b> on <b>August 03, 2017, 07:55:00 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=2050986.msg20441963#msg20441963">Quote from: mensa84 on July 28, 2017, 09:38:18 AM</a></div><div class="quote">Gegen dieses &quot;Experiment&quot; kann man sich also eigentlich gar nicht schützen, oder?<br />Es ist extrem unwahrscheinlich, dass es einen erwischt. Aber sollte es so sein, hat man Pech gehabt. Man kann gar nix dagegen tun, wenn ich es richtig verstehe?<br /></div><br />Doch, es ist Diebstahl. Eine Anzeige kann man machen. Wie weit die erfolgreich ist, ist eine andere Sache. Allerdings steigen die chancen. Und diese Leute, welche Keys suchen, müssen, wenn sie eine profitable Adresse entdecken, sehr vorsichtig sein. Nicht jeder Adresse gehört ehrbaren Bürgern die sich der Polizei bedienen. Gut gefüllte Adressen können durchaus auch Menschen gehören, die keine Polizei brauchen. <br /><br />Aber auch das verfolgen von Coins wird immer ausgereifter. Sobald die Coins das erstemal den Besitz wechseln, wird der neue Besitzer wohl eher nicht das hohe kriminelle Potential haben sich weiterhin gut zu verstecken. Dort wird man also an Daten rankommen, woher die Summen kommen. Erst vor kurzem sind Geldwäschebörsen ganz böse auf die Schnauze gefallen. <br /><br />Da es sich um Diebstahl oder zumindest Unterschlagung handelt, jedenfalls NICHT um rechtmässig erworbenes Geld, wird ein Staatsanwalt auch entsprechend agieren. Da ich diesbezüglich schon öfters gelesen habe, das wäre alles harmlos und einfach Pech für den Besitzer: wenn ich die Kreditkarte finde und zufällig die richtige Pin eingebe (habe eine 1:3333 Chance) gehört mir das damit abgezogene Geld trotzdem nicht. Selbst wenn das Geld auf der Strasse liegt und ich behalte es, ist es Unterschlagung. Lediglich das es selten Zeugen gibt und somit der Täter nur zufällig ermittelt werden kann, macht es relativ risikolos. Straffrei ist es nicht. </div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Kann eine Bitcoin Wallet Adresse theoretisch doppelt vergeben werden?</b><br />
+					Post by: <b>fronti</b> on <b>August 03, 2017, 11:23:40 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=2050986.msg20582575#msg20582575">Quote from: Chefin on August 03, 2017, 07:55:00 AM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=2050986.msg20441963#msg20441963">Quote from: mensa84 on July 28, 2017, 09:38:18 AM</a></div><div class="quote">Gegen dieses &quot;Experiment&quot; kann man sich also eigentlich gar nicht schützen, oder?<br />Es ist extrem unwahrscheinlich, dass es einen erwischt. Aber sollte es so sein, hat man Pech gehabt. Man kann gar nix dagegen tun, wenn ich es richtig verstehe?<br /></div><br />Doch, es ist Diebstahl. <br /></div><br /><br />Ach ja, aus welcher Definition des Diebstahl?<br /><br />Das magst du sicher erklären wie beweglich Bitcoins sind. evtl kommt 263a in Betracht.<br />IMHO..<br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Kann eine Bitcoin Wallet Adresse theoretisch doppelt vergeben werden?</b><br />
+					Post by: <b>Chris601</b> on <b>August 03, 2017, 12:36:23 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Ich kenne die Meinung der Chefin, teilen kann ich sie aber nicht - schon gar nicht als pauschale Aussage. Es wird eine Auslegungssache sein, wenn es darauf ankommt. <br />Und es wird maßgeblich sein, wie genau der Transfer dann stattgefunden hat.<br /><br />Ich sehe einen Diebstahl, wenn ich irgwendwie (unrechtmäßig) in den Besitz des Privatkeys gelangt bin. <br /><br />Ich sehe aber keinen Diebstahl, wenn ich mit einem <b>anderen zufällig generierten</b> zweiten Schlüssel auf die Coins zugreife. Schließlich kann mir ja niemand verbieten Schlüssel zu erzeugen.<br /><br />Im Allgemeinen denke ich, dass uns die Wahrscheinlichkeit noch ganz gut vor einem solchen Fall schützt und in Zukunft bestimmt neben Multisig noch andere Schutzmechanismen inkraft treten, dass es auch weiterhin SEHR unwahrscheinlich bleibt, eine Kollision zu finden.<br /><br />Auch denke ich, dass die meisten Teilnehmer am LBC durchaus fair sind. Wenn man als normaler kleiner Teilnehmer dort z.B. auf eine 4stellige Anzahl Coins stoßen sollte, bekommt man sicherlich schon von allein kalte Füße. Die Coins einfach zu &quot;behalten&quot; sollte schon ein schlechtes Gewissen machen und der &quot;Ruhm&quot;, eine ECHTE Kollision (als erster!) gefunden zu haben und bestimmt einen gewissen &quot;Finderlohn&quot; behalten zu dürfen, ist doch schließlich auch toll. Außerdem muss dann ja erst einmal jemand anderes Anspruch auf die Coins erheben - und das ist auch bei größeren Beträgen (https://www.heise.de/newsticker/meldung/291-Bitcoin-Transaktionsgebuehr-Mining-Pool-spendet-Haelfte-des-Geldes-3208545.html) nicht selbstverständlich.</div>
+					<br /><br />
+					<div align="center" class="smalltext">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank">Powered by SMF 1.1.19</a> | 
+<a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank">SMF &copy; 2006-2009, Simple Machines</a>
+		</span></div>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

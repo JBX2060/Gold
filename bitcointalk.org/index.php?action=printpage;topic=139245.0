@@ -1,0 +1,86 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+		<link rel="canonical" href="https://bitcointalk.org/index.php?topic=139245.0" />
+		<title>Print Page - How to install updates from ssh machine Linux ??</title>
+		<style type="text/css">
+			body
+			{
+				color: black;
+				background-color: white;
+			}
+			body, td, .normaltext
+			{
+				font-family: Verdana, arial, helvetica, serif;
+				font-size: small;
+			}
+			*, a:link, a:visited, a:hover, a:active
+			{
+				color: black !important;
+			}
+			table
+			{
+				empty-cells: show;
+			}
+			.code
+			{
+				font-size: x-small;
+				font-family: monospace;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.quote
+			{
+				font-size: x-small;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.smalltext, .quoteheader, .codeheader
+			{
+				font-size: x-small;
+			}
+			.largetext
+			{
+				font-size: large;
+			}
+			hr
+			{
+				height: 1px;
+				border: 0;
+				color: black;
+				background-color: black;
+			}
+		</style>
+	</head>
+	<body>
+		<h1 class="largetext">Bitcoin Forum</h1>
+		<h2 class="normaltext">Bitcoin => Bitcoin Technical Support => Topic started by: Frequency on January 27, 2013, 01:45:42 PM</h2>
+
+		<table width="90%" cellpadding="0" cellspacing="0" border="0">
+			<tr>
+				<td>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>How to install updates from ssh machine Linux ??</b><br />
+					Post by: <b>Frequency</b> on <b>January 27, 2013, 01:45:42 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Hi,<br /><br />What command do i have to use in my terminal, to install updates from (xubuntu 12.04) from an ssh machine??<br /><br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: How to install updates from ssh machine Linux ??</b><br />
+					Post by: <b>Frequency</b> on <b>January 27, 2013, 01:58:27 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=139245.msg1483017#msg1483017">Quote from: stan.distortion on January 27, 2013, 01:52:55 PM</a></div><div class="quote">If your ssh&#039;d in then its just the same commands, sudo apt-get update and sudo apt-get upgrade. There&#039;s more sophisticated options but that&#039;s the basics, I&#039;d suggest reading up on ssh security too though.<br /></div><br />Hey thanks for that man, i am reading up how to run it but i wasn,t sure ..thx.. ;)</div>
+					<br /><br />
+					<div align="center" class="smalltext">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank">Powered by SMF 1.1.19</a> | 
+<a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank">SMF &copy; 2006-2009, Simple Machines</a>
+		</span></div>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

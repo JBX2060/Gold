@@ -1,0 +1,110 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+		<link rel="canonical" href="https://bitcointalk.org/index.php?topic=134688.0" />
+		<title>Print Page - Odd importprivkey behavior?</title>
+		<style type="text/css">
+			body
+			{
+				color: black;
+				background-color: white;
+			}
+			body, td, .normaltext
+			{
+				font-family: Verdana, arial, helvetica, serif;
+				font-size: small;
+			}
+			*, a:link, a:visited, a:hover, a:active
+			{
+				color: black !important;
+			}
+			table
+			{
+				empty-cells: show;
+			}
+			.code
+			{
+				font-size: x-small;
+				font-family: monospace;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.quote
+			{
+				font-size: x-small;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.smalltext, .quoteheader, .codeheader
+			{
+				font-size: x-small;
+			}
+			.largetext
+			{
+				font-size: large;
+			}
+			hr
+			{
+				height: 1px;
+				border: 0;
+				color: black;
+				background-color: black;
+			}
+		</style>
+	</head>
+	<body>
+		<h1 class="largetext">Bitcoin Forum</h1>
+		<h2 class="normaltext">Bitcoin => Bitcoin Technical Support => Topic started by: DannyHamilton on January 04, 2013, 05:12:24 PM</h2>
+
+		<table width="90%" cellpadding="0" cellspacing="0" border="0">
+			<tr>
+				<td>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Odd importprivkey behavior?</b><br />
+					Post by: <b>DannyHamilton</b> on <b>January 04, 2013, 05:12:24 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">I&#039;m not sure if this is:<br /><br /><ul style="margin-top: 0; margin-bottom: 0;"><li>A known issue with 0.7.1</li><li>Something I did wrong</li><li>Something I&#039;m misunderstanding</li></ul><br />In the Debug window Console, I entered:<br /><div class="codeheader">Code:</div><div class="code">importprivkey 5Kb8kLf9zgWQnogidDA76MzPL6TsZZY36hWXMssSzNydYXYB9KF &quot;This is a test&quot;<br /></div><br /><b>Issue 1</b><br />After the client finished scanning the blockchain, the &quot;This is a test&quot; label showed up in the &quot;Address Book&quot; tab in my client? &nbsp;I expected to see it in my &quot;Receive coins&quot; tab.<br /><br />I selected the &quot;This is a test&quot; row from the &quot;Address Book&quot; and clicked the &quot;Delete&quot; button on the bottom of the window. &nbsp;The &quot;This is a test&quot; row disappeared from the window as expected.<br /><br />In the Debug window Console, I then entered:<br /><div class="codeheader">Code:</div><div class="code">dumpprivkey 1CC3X2gu58d6wXUWMffpuzN9JAfTUWu4Kj<br /></div><br />I received the previously imported 5Kb8kLf9zgWQnogidDA76MzPL6TsZZY36hWXMssSzNydYXYB9KF key as output. &nbsp;I assumed that this means that the private key and address are still in my wallet even though the address no longer shows up in either the &quot;Address Book&quot; window nor the &quot;Receive coins&quot; window. &nbsp;I figured maybe the client was recognizing the address the way it does a change address.<br /><br />In the Debug window Console, I then entered:<br /><div class="codeheader">Code:</div><div class="code">listreceivedbyaddress 0 true<br /></div><br /><b>Issue 2</b><br />I expected this to list <span style="text-decoration: underline;">ALL</span> addresses in my wallet. &nbsp;However, I didn&#039;t see the 1CC3X2gu58d6wXUWMffpuzN9JAfTUWu4Kj in the list at all?<br /><br />Any explanations as to what is going on here would be appreciated.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Odd importprivkey behavior?</b><br />
+					Post by: <b>CIYAM</b> on <b>January 05, 2013, 03:56:26 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Actually in playing around with the &quot;raw tx&#039;s&quot; API and then using &quot;importprivkey&quot; for an &quot;offline&quot; generated address I experienced a similar problem (didn&#039;t see the address in the &quot;receive&quot; list but did see the unspent output in the &quot;listunspent&quot; list).<br /><br />I resolved my problem by sending another tx from the unspent output to another address that *was* in my &quot;receive&quot; list but still don&#039;t quite understand why the problem happened.<br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Odd importprivkey behavior?</b><br />
+					Post by: <b>247saver</b> on <b>January 05, 2013, 05:20:10 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">There&#039;s definitely something quirky.&nbsp; I tried previously in the GUI and had to restart it sometimes to get the newly imported addresses to appear.<br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Odd importprivkey behavior?</b><br />
+					Post by: <b>rickylford</b> on <b>February 06, 2013, 12:16:41 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">This is a semi-old thread, but I wanted to report to you all what happened to me.<br /><br />I imported a private key, and as stated in the OP, it showed up in my &quot;Address Book&quot;, not my &quot;Receive Coins&quot; list. Well, what I did was shut down the Bitcoin-QT client and re-opened it. When I re-opened it, it told me the wallet was out of sync, and after it finished getting IN sync (hahaha) it showed up in my &quot;Receive Coins&quot; list like I expected it to from the get-go.<br /><br />I haven&#039;t tested sending money to it and sending money out of it, but I&#039;ll do that later on when I have enough coins to lost in case something goes wrong.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Odd importprivkey behavior?</b><br />
+					Post by: <b>Rygon</b> on <b>February 06, 2013, 08:11:12 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">I&#039;ve haven&#039;t used that function previous to 0.7.1, so I don&#039;t know if it&#039;s new. Same thing happened to me. Just had to restart bitcoin-qt before it showed up in the right spot. I figure that it adds it to the wallet.dat file, but doesn&#039;t re-import it to the program. Or something. It&#039;s on my growing list of user unfriendly features of Bitcoin-qt.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Odd importprivkey behavior?</b><br />
+					Post by: <b>PoorGirl</b> on <b>April 07, 2013, 06:35:30 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">If a new private key is added it ends up in the address book first. Well, we see only its address.<br /><br />When the next new block is received and processed that new address is scanned against the new block (transaction list) and the address moves to &quot;receive coins&quot;. <br /><br />Still a rescan is needed if that address has old coins sitting around as without a rescan you will never see them.<br /><br /><br /></div>
+					<br /><br />
+					<div align="center" class="smalltext">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank">Powered by SMF 1.1.19</a> | 
+<a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank">SMF &copy; 2006-2009, Simple Machines</a>
+		</span></div>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

@@ -1,0 +1,104 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+		<link rel="canonical" href="https://bitcointalk.org/index.php?topic=142199.0" />
+		<title>Print Page - private key to public</title>
+		<style type="text/css">
+			body
+			{
+				color: black;
+				background-color: white;
+			}
+			body, td, .normaltext
+			{
+				font-family: Verdana, arial, helvetica, serif;
+				font-size: small;
+			}
+			*, a:link, a:visited, a:hover, a:active
+			{
+				color: black !important;
+			}
+			table
+			{
+				empty-cells: show;
+			}
+			.code
+			{
+				font-size: x-small;
+				font-family: monospace;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.quote
+			{
+				font-size: x-small;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.smalltext, .quoteheader, .codeheader
+			{
+				font-size: x-small;
+			}
+			.largetext
+			{
+				font-size: large;
+			}
+			hr
+			{
+				height: 1px;
+				border: 0;
+				color: black;
+				background-color: black;
+			}
+		</style>
+	</head>
+	<body>
+		<h1 class="largetext">Bitcoin Forum</h1>
+		<h2 class="normaltext">Bitcoin => Bitcoin Technical Support => Topic started by: CliffordM on February 09, 2013, 08:50:13 PM</h2>
+
+		<table width="90%" cellpadding="0" cellspacing="0" border="0">
+			<tr>
+				<td>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>private key to public</b><br />
+					Post by: <b>CliffordM</b> on <b>February 09, 2013, 08:50:13 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">If all I have is a private-key, can I recover the public-key ? </div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: private key to public</b><br />
+					Post by: <b>notme</b> on <b>February 09, 2013, 08:51:41 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=142199.msg1515004#msg1515004">Quote from: CliffordM on February 09, 2013, 08:50:13 PM</a></div><div class="quote">If all I have is a private-key, can I recover the public-key ? <br /></div><br />Yes.<br /><br />https://www.bitaddress.org/<br /><br />wallet details</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: private key to public</b><br />
+					Post by: <b>franky1</b> on <b>February 09, 2013, 09:46:57 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">or simply import the privatekey into your client and &#039;bam&#039; the public address appears. </div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: private key to public</b><br />
+					Post by: <b>Zangelbert Bingledack</b> on <b>February 10, 2013, 02:34:09 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=142199.msg1515124#msg1515124">Quote from: franky1 on February 09, 2013, 09:46:57 PM</a></div><div class="quote">or simply import the privatekey into your client and &#039;bam&#039; the public address appears. <br /></div><br />It&#039;s easy to get the public key, but actually importing the private key into a client has been a nightmare for me. I tried to do this on ALL the Android bitcoin apps, plus Electrum, and they all refused for different reasons. I tried Multibit but it took forever to download the blockchain. Finally I just used blockchain.info as I nervously sent the funds from a paper wallet that I realized may be insecure to a new, more secure one. This experience made me realize how far we are from mainstream adoption (joe blow really has to use paper savings wallets for large amounts, yet something as simple as redeeming a private key is incredibly difficult).</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: private key to public</b><br />
+					Post by: <b>tom1</b> on <b>February 10, 2013, 01:06:00 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=142199.msg1515010#msg1515010">Quote from: notme on February 09, 2013, 08:51:41 PM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=142199.msg1515004#msg1515004">Quote from: CliffordM on February 09, 2013, 08:50:13 PM</a></div><div class="quote">If all I have is a private-key, can I recover the public-key ? <br /></div><br />Yes.<br /><br />https://www.bitaddress.org/<br /><br />wallet details<br /></div>... or http://brainwallet.org</div>
+					<br /><br />
+					<div align="center" class="smalltext">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank">Powered by SMF 1.1.19</a> | 
+<a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank">SMF &copy; 2006-2009, Simple Machines</a>
+		</span></div>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

@@ -1,0 +1,104 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+		<link rel="canonical" href="https://bitcointalk.org/index.php?topic=143551.0" />
+		<title>Print Page - My blockchain doesn't get downloaded after client update</title>
+		<style type="text/css">
+			body
+			{
+				color: black;
+				background-color: white;
+			}
+			body, td, .normaltext
+			{
+				font-family: Verdana, arial, helvetica, serif;
+				font-size: small;
+			}
+			*, a:link, a:visited, a:hover, a:active
+			{
+				color: black !important;
+			}
+			table
+			{
+				empty-cells: show;
+			}
+			.code
+			{
+				font-size: x-small;
+				font-family: monospace;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.quote
+			{
+				font-size: x-small;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.smalltext, .quoteheader, .codeheader
+			{
+				font-size: x-small;
+			}
+			.largetext
+			{
+				font-size: large;
+			}
+			hr
+			{
+				height: 1px;
+				border: 0;
+				color: black;
+				background-color: black;
+			}
+		</style>
+	</head>
+	<body>
+		<h1 class="largetext">Bitcoin Forum</h1>
+		<h2 class="normaltext">Bitcoin => Bitcoin Technical Support => Topic started by: zx9r on February 12, 2013, 05:02:57 PM</h2>
+
+		<table width="90%" cellpadding="0" cellspacing="0" border="0">
+			<tr>
+				<td>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>My blockchain doesn't get downloaded after client update</b><br />
+					Post by: <b>zx9r</b> on <b>February 12, 2013, 05:02:57 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">I downloaded the version 0.7.2 and made an update from 0.3.24 (before this I made a backup of entire /users/appdata/bitcoin directory which I have in a safe place)<br /><br />After the upgrade, the new version 0.7.2 doesnt start. It throws I kind of segmentation fault and hangs.<br /><br />Then I tried removing the users/bitcoin directory and it starts pretty fine downloading from the beginning of the blockchain withot problems.<br /><br />I deleted again the users/bitcoin directory contents and put in it my wallet.dat. Now the bitcoin client can start, it reads the content of the wallet (I can see the transactions but all unconfirmed) and it is stucked at the block number 149. After that it doesnt any more blocks.<br /><br />I can post some logs:<br /><br />/users/bitcoin/db.txt<br /><br />file wallet.dat has LSN 353/5524652, past end of log at 1/384363<br />Commonly caused by moving a database from one database environment<br />to another without clearing the database LSNs, or by removing all of<br />the log files from a database environment<br />DB_ENV-&gt;log_flush: LSN of 353/5524652 past current end-of-log of 1/384363<br />Database environment corrupt; the wrong log files may have been removed or incompatible database files imported from another environment<br />PANIC: DB_RUNRECOVERY: Fatal error, run database recovery<br />wallet.dat: unable to flush page: 7<br />txn_checkpoint: failed to flush the buffer cache: DB_RUNRECOVERY: Fatal error, run database recovery<br />PANIC: fatal region error detected; run recovery<br />PANIC: fatal region error detected; run recovery<br />PANIC: fatal region error detected; run recovery<br />PANIC: fatal region error detected; run recovery<br />[...]<br /><br /><br />/users/bitcoin/debug.txt<br /><br />received block 0000000000a86824bc08<br />ERROR: AcceptBlock() : AddToBlockIndex failed<br />ERROR: ProcessBlock() : AcceptBlock FAILED<br />received block 0000000000b9ecdee1ed<br />ERROR: AcceptBlock() : AddToBlockIndex failed<br />ERROR: ProcessBlock() : AcceptBlock FAILED<br />received block 00000000002cce65fb66<br />ERROR: AcceptBlock() : AddToBlockIndex failed<br />ERROR: ProcessBlock() : AcceptBlock FAILED<br />received block 00000000002eda10df0e<br />ERROR: AcceptBlock() : AddToBlockIndex failed<br />ERROR: ProcessBlock() : AcceptBlock FAILED<br />received block 0000000000a17b36b3ba<br />ERROR: AcceptBlock() : AddToBlockIndex failed<br />ERROR: ProcessBlock() : AcceptBlock FAILED<br />received block 0000000000daf3e57997<br />ERROR: AcceptBlock() : AddToBlockIndex failed<br />ERROR: ProcessBlock() : AcceptBlock FAILED<br />ERROR: FetchInputs() : 44209c865e mempool Tx prev not found b8ced7a6fd<br />stored orphan tx 44209c865e (mapsz 1106)<br />ERROR: FetchInputs() : 8aef4715a6 mempool Tx prev not found 5b59d4adb6<br />stored orphan tx 8aef4715a6 (mapsz 1107)<br />ERROR: FetchInputs() : 9f2e70fa49 mempool Tx prev not found c4a2919907<br />stored orphan tx 9f2e70fa49 (mapsz 1108)<br />ERROR: FetchInputs() : abdc448bb2 mempool Tx prev not found 9f2e70fa49<br />stored orphan tx abdc448bb2 (mapsz 1109)<br /><br />[...]<br /><br />Flush(false)<br />blkindex.dat refcount=0<br />blkindex.dat checkpoint<br />blkindex.dat closed<br />wallet.dat refcount=0<br />wallet.dat checkpoint<br />wallet.dat detach<br />wallet.dat closed<br />DBFlush(false) ended&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;0ms<br />StopNode()<br />ThreadOpenConnections exited<br />ThreadSocketHandler exited<br />ipcThread exited<br />ThreadMessageHandler exited<br />ThreadMapPort exited<br />Flushed 13638 addresses to peers.dat&nbsp; 78ms<br />Flush(true)<br />DBFlush(true) ended&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;0ms<br />EnvShutdown exception: DB_RUNRECOVERY: Fatal error, run database recovery (-30974)<br />Bitcoin exited<br /><br /><br /><br />Anybody knows what can I do ?<br /><br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: My blockchain doesn't get downloaded after client update</b><br />
+					Post by: <b>zvs</b> on <b>February 13, 2013, 04:43:24 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">well, you could try getting<br /><br />http://sourceforge.net/projects/bitcoin/files/Bitcoin/bitcoin-0.8.0/test/<br /><br />that<br /><br />and then<br /><br />www.nogleg.com/archive/v0.8.0-Feb-11th/v0.8.0-Feb-11th.7z<br /><br />i havent tested it yet on my windows machine (it&#039;s slow to DL 4 gigs)<br /><br />i assume it would work, and be missing a couple hundred blocks maybe?<br /><br />it looks like you&#039;d have to reDL whole blockchain regardless<br /><br />maybe it would need txindex?&nbsp; i duno, i dont keep wallets with transactions on either</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: My blockchain doesn't get downloaded after client update</b><br />
+					Post by: <b>zvs</b> on <b>February 13, 2013, 06:16:57 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">first try, got an error. &nbsp;deleted database directory and it finished resyncing in about 5 minutes.. &nbsp;starting from 220807<br /><br />i was going to edit the file to remove that log.00000002 , but it looked like it was gonna take about 30m.. so..<br /><br />bah.&nbsp; i&#039;ll remove it</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: My blockchain doesn't get downloaded after client update</b><br />
+					Post by: <b>BookLover</b> on <b>February 14, 2013, 03:06:56 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Clear the bitcoin directory and copy your backup wallet and blockchain files to the bitcoin directory.&nbsp; Then run the bitcoin client with the commands -detachb and -rescan.<br /><br />This may not work but based on the info given it may resolve your problem.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: My blockchain doesn't get downloaded after client update</b><br />
+					Post by: <b>zx9r</b> on <b>February 17, 2013, 07:58:56 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Finally I made a clean installation and copy only the wallet. It took a big time to download all the entire chain but it is all ok now.</div>
+					<br /><br />
+					<div align="center" class="smalltext">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank">Powered by SMF 1.1.19</a> | 
+<a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank">SMF &copy; 2006-2009, Simple Machines</a>
+		</span></div>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

@@ -1,0 +1,92 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+		<link rel="canonical" href="https://bitcointalk.org/index.php?topic=131849.0" />
+		<title>Print Page - Blockchain Wallet - Error Decrypting Wallet?</title>
+		<style type="text/css">
+			body
+			{
+				color: black;
+				background-color: white;
+			}
+			body, td, .normaltext
+			{
+				font-family: Verdana, arial, helvetica, serif;
+				font-size: small;
+			}
+			*, a:link, a:visited, a:hover, a:active
+			{
+				color: black !important;
+			}
+			table
+			{
+				empty-cells: show;
+			}
+			.code
+			{
+				font-size: x-small;
+				font-family: monospace;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.quote
+			{
+				font-size: x-small;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.smalltext, .quoteheader, .codeheader
+			{
+				font-size: x-small;
+			}
+			.largetext
+			{
+				font-size: large;
+			}
+			hr
+			{
+				height: 1px;
+				border: 0;
+				color: black;
+				background-color: black;
+			}
+		</style>
+	</head>
+	<body>
+		<h1 class="largetext">Bitcoin Forum</h1>
+		<h2 class="normaltext">Bitcoin => Bitcoin Technical Support => Topic started by: GreenLamp on December 21, 2012, 12:01:16 AM</h2>
+
+		<table width="90%" cellpadding="0" cellspacing="0" border="0">
+			<tr>
+				<td>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Blockchain Wallet - Error Decrypting Wallet?</b><br />
+					Post by: <b>GreenLamp</b> on <b>December 21, 2012, 12:01:16 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Getting this message: Error Decrypting Wallet. Please check your password is correct.<br /><br />However my password is correct.&nbsp; It has been stored in a password manager and never changed.&nbsp; I&#039;ve checked for trailing spaces and manually copied/pasted the password from the manager to the webpage.&nbsp; Tried Chrome and Safari.<br /><br />Any ideas how this could happen?<br /><br /><br /><br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Blockchain Wallet - Error Decrypting Wallet?</b><br />
+					Post by: <b>Stephen Gornick</b> on <b>December 21, 2012, 06:42:09 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=131849.msg1412625#msg1412625">Quote from: GreenLamp on December 21, 2012, 12:01:16 AM</a></div><div class="quote">Getting this message: Error Decrypting Wallet. Please check your password is correct.<br /><br />However my password is correct. &nbsp;It has been stored in a password manager and never changed. &nbsp;I&#039;ve checked for trailing spaces and manually copied/pasted the password from the manager to the webpage. &nbsp;Tried Chrome and Safari.<br /><br />Any ideas how this could happen?<br /></div><br />Is this the first time you&#039;ve used the password from the password manager to decrypt the wallet?<br /><br />Are you sure you are using the right wallet identifier? &nbsp; Some people have two different ones. &nbsp;If you had given your wallet an alias, try accessing it by alias.<br /><br />Do you have any older backups of the wallet? &nbsp;You can try using the &quot;Import Wallet&quot; feature to import an older wallet and see if your password works on the older wallet from the backup.<br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Blockchain Wallet - Error Decrypting Wallet?</b><br />
+					Post by: <b>zero3112</b> on <b>December 25, 2012, 08:33:00 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Make sure your using the right wallet identifier.&nbsp; If you don&#039;t the identifier for you account you can recover it here &quot;https://blockchain.info/wallet/forgot-identifier&quot;.</div>
+					<br /><br />
+					<div align="center" class="smalltext">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank">Powered by SMF 1.1.19</a> | 
+<a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank">SMF &copy; 2006-2009, Simple Machines</a>
+		</span></div>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

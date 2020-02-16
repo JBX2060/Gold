@@ -1,0 +1,242 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+		<link rel="canonical" href="https://bitcointalk.org/index.php?topic=121326.0" />
+		<title>Print Page - I am Raging about Bitcoin qt client :(</title>
+		<style type="text/css">
+			body
+			{
+				color: black;
+				background-color: white;
+			}
+			body, td, .normaltext
+			{
+				font-family: Verdana, arial, helvetica, serif;
+				font-size: small;
+			}
+			*, a:link, a:visited, a:hover, a:active
+			{
+				color: black !important;
+			}
+			table
+			{
+				empty-cells: show;
+			}
+			.code
+			{
+				font-size: x-small;
+				font-family: monospace;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.quote
+			{
+				font-size: x-small;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.smalltext, .quoteheader, .codeheader
+			{
+				font-size: x-small;
+			}
+			.largetext
+			{
+				font-size: large;
+			}
+			hr
+			{
+				height: 1px;
+				border: 0;
+				color: black;
+				background-color: black;
+			}
+		</style>
+	</head>
+	<body>
+		<h1 class="largetext">Bitcoin Forum</h1>
+		<h2 class="normaltext">Bitcoin => Bitcoin Technical Support => Topic started by: kuusj98 on October 30, 2012, 09:04:47 PM</h2>
+
+		<table width="90%" cellpadding="0" cellspacing="0" border="0">
+			<tr>
+				<td>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>I am Raging about Bitcoin qt client :(</b><br />
+					Post by: <b>kuusj98</b> on <b>October 30, 2012, 09:04:47 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Hello!<br />I am trying to download the blockchain for the wallet for almost a month now, and I am TOTALY DONE WITH IT!<br />Its ALWAYS the same problem, first time I got the: &#039;&#039;error while opening blkindex&#039;&#039; was when it downloaded 99.7% and I deleted the files, again afer 2 days 90%, again, again, again and today the same anoying error, I want to spend my hard earned BTC and the stupid thing is only giving me errors and lets me download the whole 5.5 gb chain again...<br /><br />Anyone a solution for this? When I turn off my pc (I cant run it 24/7) I first close down the client and then the pc, and then when I boot it gives the freaking error&nbsp; ???<br />Serious, Im totaly DONE with the thing, I missed some chances on gr8 deals with this problem and I am angry as hell (I hope you can understand).<br /><br />I tryed downloading a torrent blockchain but it was only 2.4 gbs and when it importet it had to download the other 4 gbs and gave me another error (always the same BTW: error while loadin blkindex)<br /><br />PLEASE god help me....<br /><br />-kuusj98<br /><br />(btw sorry for the bad grammar and language and stuff, im just very angry ;))</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: I am Raging about Bitcoin qt client :(</b><br />
+					Post by: <b>SgtSpike</b> on <b>October 30, 2012, 09:06:48 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">How about using a different client?&nbsp; Electum, blockchain.info, etc?<br /><br />Also, check your HDD for errors.&nbsp; You never know, it could be a bad block causing all your troubles.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: I am Raging about Bitcoin qt client :(</b><br />
+					Post by: <b>kuusj98</b> on <b>October 30, 2012, 09:09:23 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Mhhh, dindt know there where other clients available...<br /><br />And no Bad sectors (I have Seagate Barracuda 1 tb 7200 tpm, newest Barracuda btw)<br />Can I place the already downloaded indexes in the other client or what?</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: I am Raging about Bitcoin qt client :(</b><br />
+					Post by: <b>ingrownpocket</b> on <b>October 30, 2012, 09:10:09 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">I&#039;m having the same fucking problem and I have BTC stuck in that wallet.<br /><br />How can I use other clients to open this wallet (created with the bitcoin.org client)?<br /><br />EDIT: https://bitcointalk.org/index.php?topic=121034</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: I am Raging about Bitcoin qt client :(</b><br />
+					Post by: <b>kuusj98</b> on <b>October 30, 2012, 09:11:54 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=121326.msg1307846#msg1307846">Quote from: Carlos L. on October 30, 2012, 09:10:09 PM</a></div><div class="quote">I&#039;m having the same fucking problem and I have BTC stuck in that wallet.<br /><br />How can I use other clients to open this wallet (created with the bitcoin.org client)?<br /></div><br />Ohh, thats what I just wanted to post :P<br /><br />Yeah can I copy the Wallet.dat to the other client?</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: I am Raging about Bitcoin qt client :(</b><br />
+					Post by: <b>ingrownpocket</b> on <b>October 30, 2012, 09:12:50 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=121326.msg1307853#msg1307853">Quote from: kuusj98 on October 30, 2012, 09:11:54 PM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=121326.msg1307846#msg1307846">Quote from: Carlos L. on October 30, 2012, 09:10:09 PM</a></div><div class="quote">I&#039;m having the same fucking problem and I have BTC stuck in that wallet.<br /><br />How can I use other clients to open this wallet (created with the bitcoin.org client)?<br /></div><br />Ohh, thats what I just wanted to post :P<br /><br />Yeah can I copy the Wallet.dat to the other client?<br /></div><br />I&#039;ve tried that and it didn&#039;t work.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: I am Raging about Bitcoin qt client :(</b><br />
+					Post by: <b>casascius</b> on <b>October 30, 2012, 09:12:56 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Blockchain.info is the one I would recommend.<br /><br />I am also a heavy advocate of using paper wallets (such as ones you can print from BitAddress.org). &nbsp;I don&#039;t leave bitcoins online and any time I transact in bitcoins, I physically grab the coins I need, transact in them, and send the change to another paper wallet. &nbsp;That way, the only coins I ever risk getting stuck anywhere are the ones I&#039;m working with at the moment, and with BlockChain.info I believe I&#039;m not likely to get my coins stuck.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: I am Raging about Bitcoin qt client :(</b><br />
+					Post by: <b>kuusj98</b> on <b>October 30, 2012, 09:14:25 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=121326.msg1307858#msg1307858">Quote from: casascius on October 30, 2012, 09:12:56 PM</a></div><div class="quote">Blockchain.info is the one I would recommend.<br /><br />I am also a heavy advocate of using paper wallets (such as ones you can print from BitAddress.org). &nbsp;I don&#039;t leave bitcoins online and any time I transact in bitcoins, I physically grab the coins I need, transact in them, and send the change to another paper wallet. &nbsp;That way, the only coins I ever risk getting stuck anywhere are the ones I&#039;m working with at the moment, and with BlockChain.info I believe I&#039;m not likely to get my coins stuck.<br /></div><br />Yes thanks but what about my current wallet? There is about 0.30 btc on it (For me much) and I really DONT ever want to lose them<br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: I am Raging about Bitcoin qt client :(</b><br />
+					Post by: <b>kuusj98</b> on <b>October 30, 2012, 09:19:08 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=121326.msg1307868#msg1307868">Quote from: Blazr on October 30, 2012, 09:16:02 PM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=121326.msg1307844#msg1307844">Quote from: kuusj98 on October 30, 2012, 09:09:23 PM</a></div><div class="quote">I have Seagate Barracuda 1 tb 7200rpm</div><br />Most likely not related, but I killed two of these drives a couple months ago &amp; the 2 replacements I was sent. It was normal desktop usage, they all done that &#039;click-whirl&#039; cycle and didn&#039;t work at all, wouldn&#039;t recommend them at all personally even though they get good reviews online.<br /><br />I&#039;d recommend you not to use the official client, its slow bulky and unnecessary for the average user. MultiBit, Electrum and blockchain.info are my favourite clients.<br /></div><br />yep made account on Blockchain.info and now going to upload wallet.dat (hope everything goes alright)<br /><br />But what is my wallet &#039;&#039;private key&#039;&#039;</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: I am Raging about Bitcoin qt client :(</b><br />
+					Post by: <b>SgtSpike</b> on <b>October 30, 2012, 09:20:43 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=121326.msg1307879#msg1307879">Quote from: kuusj98 on October 30, 2012, 09:19:08 PM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=121326.msg1307868#msg1307868">Quote from: Blazr on October 30, 2012, 09:16:02 PM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=121326.msg1307844#msg1307844">Quote from: kuusj98 on October 30, 2012, 09:09:23 PM</a></div><div class="quote">I have Seagate Barracuda 1 tb 7200rpm</div><br />Most likely not related, but I killed two of these drives a couple months ago &amp; the 2 replacements I was sent. It was normal desktop usage, they all done that &#039;click-whirl&#039; cycle and didn&#039;t work at all, wouldn&#039;t recommend them at all personally even though they get good reviews online.<br /><br />I&#039;d recommend you not to use the official client, its slow bulky and unnecessary for the average user. MultiBit, Electrum and blockchain.info are my favourite clients.<br /></div><br />yep made account on Blockchain.info and now going to upload wallet.dat (hope everything goes alright)<br /><br />But what is my wallet &#039;&#039;private key&#039;&#039;<br /></div>Your wallet contains private keys for each address within it.&nbsp; There isn&#039;t a single wallet private key.&nbsp; A private key corresponds to an address, and a wallet holds many private keys.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: I am Raging about Bitcoin qt client :(</b><br />
+					Post by: <b>kuusj98</b> on <b>October 30, 2012, 09:24:14 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Yeah, but what should I do to import my wallet to Blockchain.info? There are options, but I cant upload the wallet.dat file itself... <br />And where can I find all these Private Keys?<br /><br />(sorry for my stupid questions, still a bit of a noob...)</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: I am Raging about Bitcoin qt client :(</b><br />
+					Post by: <b>Stephen Gornick</b> on <b>October 30, 2012, 09:25:23 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=121326.msg1307879#msg1307879">Quote from: kuusj98 on October 30, 2012, 09:19:08 PM</a></div><div class="quote">yep made account on Blockchain.info and now going to upload wallet.dat<br /></div><br />Well, there&#039;s no way to just import the wallet.dat.<br /><br />You can use pywallet to dumpwallet then import that into Blockchain.info/wallet.<br /><br />What Blockchain.info/wallet does offer is Desktop Sync, using a browser plugin (Chrome, Safari).<br /><br />What you do is configure your Bitcoin-Qt to run as a server (create a bitcoin.conf with rpcuser=, rpcpassword=, and server=) then the sync tool will bring over everything from your wallet.dat into your Blockchain.info/wallet &nbsp; &nbsp;(and vice-versa).<br /><br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: I am Raging about Bitcoin qt client :(</b><br />
+					Post by: <b>ingrownpocket</b> on <b>October 30, 2012, 09:26:54 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=121326.msg1307889#msg1307889">Quote from: kuusj98 on October 30, 2012, 09:24:14 PM</a></div><div class="quote">Yeah, but what should I do to import my wallet to Blockchain.info? There are options, but I cant upload the wallet.dat file itself... <br />And where can I find all these Private Keys?<br /><br />(sorry for my stupid questions, still a bit of a noob...)<br /></div><br />I think you need to open your wallet.dat file, copy the content and paste it into the textarea at blockchain &quot;Import Wallet&quot; option.<br /><br />But that isn&#039;t working for me since my wallet have 9 MB in site and the browser just crashes. fuck me<br /><br />Edit: Nevermind, I&#039;m dumb.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: I am Raging about Bitcoin qt client :(</b><br />
+					Post by: <b>kuusj98</b> on <b>October 30, 2012, 09:28:36 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Ok Thanks for all of your help!&nbsp; &nbsp;;D<br />Lets see if I can do it :D</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: I am Raging about Bitcoin qt client :(</b><br />
+					Post by: <b>Raoul Duke</b> on <b>October 30, 2012, 09:48:13 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">guys... since bitcoin-qt 0.7.0 you can send RPC commands using the Console on the Debug Window...<br />No need to mess with bitcoin.conf to make it run as a server.<br />Also, recommending pywallet for someone who will need to export a couple private keys is a bit overkill lol<br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: I am Raging about Bitcoin qt client :(</b><br />
+					Post by: <b>DannyHamilton</b> on <b>October 30, 2012, 10:07:04 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=121326.msg1307970#msg1307970">Quote from: psy on October 30, 2012, 09:48:13 PM</a></div><div class="quote">guys... since bitcoin-qt 0.7.0 you can send RPC commands using the Console on the Debug Window...<br /></div>Wow! Hadn&#039;t realized this.&nbsp; Thanks for the information, this is great!</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: I am Raging about Bitcoin qt client :(</b><br />
+					Post by: <b>Stephen Gornick</b> on <b>October 30, 2012, 10:23:09 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=121326.msg1307970#msg1307970">Quote from: psy on October 30, 2012, 09:48:13 PM</a></div><div class="quote">Also, recommending pywallet for someone who will need to export a couple private keys is a bit overkill lol</div><br />If your wallet includes funds sent to change addresses, how would you know these addresses?<br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: I am Raging about Bitcoin qt client :(</b><br />
+					Post by: <b>kuusj98</b> on <b>October 30, 2012, 10:34:14 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=121326.msg1308025#msg1308025">Quote from: Stephen Gornick on October 30, 2012, 10:23:09 PM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=121326.msg1307970#msg1307970">Quote from: psy on October 30, 2012, 09:48:13 PM</a></div><div class="quote">Also, recommending pywallet for someone who will need to export a couple private keys is a bit overkill lol</div><br />If your wallet includes funds sent to change addresses, how would you know these addresses?<br /><br /></div><br />indeed, there are fund on the wallet....<br /><br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: I am Raging about Bitcoin qt client :(</b><br />
+					Post by: <b>kuusj98</b> on <b>October 30, 2012, 10:47:43 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=121326.msg1307948#msg1307948">Quote from: subSTRATA on October 30, 2012, 09:40:57 PM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=121326.msg1307894#msg1307894">Quote from: Stephen Gornick on October 30, 2012, 09:25:23 PM</a></div><div class="quote"></div>Regarding HDDs, never go for consumer-grade ones. Don&#039;t look at capacity first = look at RPM and how many years warranty covers.<br />Rather buy 10.000+ RPM server-grade, 5 years warranty, 250GB HDD than 7.200 RPM, 1 or 2 years warranty, 1+ TB HDD. Seriously.<br /></div><br />mhh, I dont think so...<br />Btw I really need the storage -_- <br />I have an 13 year old barracuda in a old pc with 35 gb storage, its workt perfectly till now and further. <br />Also have another Barracuda 5 year old with 320gb 7200tpm and 0 bad sectors/errors etc.<br /><br />This drive is fast (150mb/s+ write) and thats exactly what I need, Btw I have 5 year warranty on the hdd.<br />I dont need &#039;server rate 10.000rpm 250gb&#039; hdd&#039;s, 7200 tpm is fast enough and I can easely get 100 gbs more on my hdd in a few days...<br /><br />But on the topic again: <br />I downloaded Pywallet and installed everything succesfully but now when I click &#039;pywllet.py&#039; there is a cmd screen that pops up and goes away in 1/10 of a second, whats the matter with the thing? I cant execute it as Admin as there is no option for it.. </div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: I am Raging about Bitcoin qt client :(</b><br />
+					Post by: <b>diego1000</b> on <b>October 30, 2012, 10:59:20 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">you can download blockchain here: http://eu1.bitcoincharts.com/blockchain/</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: I am Raging about Bitcoin qt client :(</b><br />
+					Post by: <b>SgtSpike</b> on <b>October 30, 2012, 11:14:54 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=121326.msg1308074#msg1308074">Quote from: kuusj98 on October 30, 2012, 10:47:43 PM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=121326.msg1307948#msg1307948">Quote from: subSTRATA on October 30, 2012, 09:40:57 PM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=121326.msg1307894#msg1307894">Quote from: Stephen Gornick on October 30, 2012, 09:25:23 PM</a></div><div class="quote"></div>Regarding HDDs, never go for consumer-grade ones. Don&#039;t look at capacity first = look at RPM and how many years warranty covers.<br />Rather buy 10.000+ RPM server-grade, 5 years warranty, 250GB HDD than 7.200 RPM, 1 or 2 years warranty, 1+ TB HDD. Seriously.<br /></div><br />mhh, I dont think so...<br />Btw I really need the storage -_- <br />I have an 13 year old barracuda in a old pc with 35 gb storage, its workt perfectly till now and further. <br />Also have another Barracuda 5 year old with 320gb 7200tpm and 0 bad sectors/errors etc.<br /><br />This drive is fast (150mb/s+ write) and thats exactly what I need, Btw I have 5 year warranty on the hdd.<br />I dont need &#039;server rate 10.000rpm 250gb&#039; hdd&#039;s, 7200 tpm is fast enough and I can easely get 100 gbs more on my hdd in a few days...<br /><br />But on the topic again: <br />I downloaded Pywallet and installed everything succesfully but now when I click &#039;pywllet.py&#039; there is a cmd screen that pops up and goes away in 1/10 of a second, whats the matter with the thing? I cant execute it as Admin as there is no option for it.. <br /></div>I think you have to do it from the command line.... start--&gt;run--&gt;cmd</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: I am Raging about Bitcoin qt client :(</b><br />
+					Post by: <b>Raoul Duke</b> on <b>October 31, 2012, 01:12:47 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=121326.msg1308025#msg1308025">Quote from: Stephen Gornick on October 30, 2012, 10:23:09 PM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=121326.msg1307970#msg1307970">Quote from: psy on October 30, 2012, 09:48:13 PM</a></div><div class="quote">Also, recommending pywallet for someone who will need to export a couple private keys is a bit overkill lol</div><br />If your wallet includes funds sent to change addresses, how would you know these addresses?<br /><br /></div><br />Get them looking for the transactions you sent on blockchain.info and blockexplorer.com?<br />Notice I said a couple private keys. For big/huge wallets pywallet is the way to go. <br />Just remember that the blockchain.info wallet has a 400 addresses limit, so, if the wallet is really big, importing the pywallet wallet dump there is not the way to go.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: I am Raging about Bitcoin qt client :(</b><br />
+					Post by: <b>ingrownpocket</b> on <b>October 31, 2012, 08:41:41 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=121326.msg1308097#msg1308097">Quote from: diego1000 on October 30, 2012, 10:59:20 PM</a></div><div class="quote">you can download blockchain here: http://eu1.bitcoincharts.com/blockchain/<br /></div><br />It doesn&#039;t work. Always have that blkindex error.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: I am Raging about Bitcoin qt client :(</b><br />
+					Post by: <b>byronbb</b> on <b>October 31, 2012, 03:44:18 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=121326.msg1307858#msg1307858">Quote from: casascius on October 30, 2012, 09:12:56 PM</a></div><div class="quote">Blockchain.info is the one I would recommend.<br /><br />I am also a heavy advocate of using paper wallets (such as ones you can print from BitAddress.org). &nbsp;I don&#039;t leave bitcoins online and any time I transact in bitcoins, I physically grab the coins I need, transact in them, and send the change to another paper wallet. &nbsp;That way, the only coins I ever risk getting stuck anywhere are the ones I&#039;m working with at the moment, and with BlockChain.info I believe I&#039;m not likely to get my coins stuck.<br /></div><br />I really think this is the best way to operate a wallet.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: I am Raging about Bitcoin qt client :(</b><br />
+					Post by: <b>byronbb</b> on <b>October 31, 2012, 03:45:17 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=121326.msg1308713#msg1308713">Quote from: Carlos L. on October 31, 2012, 08:41:41 AM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=121326.msg1308097#msg1308097">Quote from: diego1000 on October 30, 2012, 10:59:20 PM</a></div><div class="quote">you can download blockchain here: http://eu1.bitcoincharts.com/blockchain/<br /></div><br />It doesn&#039;t work. Always have that blkindex error.<br /></div><br />https://bitcointalk.org/index.php?topic=117982.0<br /><br />How about this?</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: I am Raging about Bitcoin qt client :(</b><br />
+					Post by: <b>kuusj98</b> on <b>October 31, 2012, 04:24:49 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=121326.msg1309183#msg1309183">Quote from: byronbb on October 31, 2012, 03:45:17 PM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=121326.msg1308713#msg1308713">Quote from: Carlos L. on October 31, 2012, 08:41:41 AM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=121326.msg1308097#msg1308097">Quote from: diego1000 on October 30, 2012, 10:59:20 PM</a></div><div class="quote">you can download blockchain here: http://eu1.bitcoincharts.com/blockchain/<br /></div><br />It doesn&#039;t work. Always have that blkindex error.<br /></div><br />https://bitcointalk.org/index.php?topic=117982.0<br /><br />How about this?<br /></div><br />Yeah I downloaded that, but like sed, after normal pc reboot (cant let it run 24/7) it gives the error.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: I am Raging about Bitcoin qt client :(</b><br />
+					Post by: <b>kuusj98</b> on <b>October 31, 2012, 07:42:32 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Mhh, succesfully did the pywallet thing, and inserted the code it given, it imports succesfullyinto Blockchain.info BUT it shows NO btc in it while it has..<br />Should I be patient or what?</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: I am Raging about Bitcoin qt client :(</b><br />
+					Post by: <b>Stephen Gornick</b> on <b>October 31, 2012, 09:21:20 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=121326.msg1309549#msg1309549">Quote from: kuusj98 on October 31, 2012, 07:42:32 PM</a></div><div class="quote">Should I be patient or what?<br /></div><br />There&#039;s one more thing you could try.&nbsp; take a look at getting the private key using gavin&#039;s bitcointools and see if dbdump.py gives the exact same key as pywallet does.<br />&nbsp;- https://github.com/gavinandresen/bitcointools<br /></div>
+					<br /><br />
+					<div align="center" class="smalltext">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank">Powered by SMF 1.1.19</a> | 
+<a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank">SMF &copy; 2006-2009, Simple Machines</a>
+		</span></div>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

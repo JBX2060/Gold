@@ -1,0 +1,122 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+		<link rel="canonical" href="https://bitcointalk.org/index.php?topic=138725.0" />
+		<title>Print Page - Over an hour and no confirmations...?</title>
+		<style type="text/css">
+			body
+			{
+				color: black;
+				background-color: white;
+			}
+			body, td, .normaltext
+			{
+				font-family: Verdana, arial, helvetica, serif;
+				font-size: small;
+			}
+			*, a:link, a:visited, a:hover, a:active
+			{
+				color: black !important;
+			}
+			table
+			{
+				empty-cells: show;
+			}
+			.code
+			{
+				font-size: x-small;
+				font-family: monospace;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.quote
+			{
+				font-size: x-small;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.smalltext, .quoteheader, .codeheader
+			{
+				font-size: x-small;
+			}
+			.largetext
+			{
+				font-size: large;
+			}
+			hr
+			{
+				height: 1px;
+				border: 0;
+				color: black;
+				background-color: black;
+			}
+		</style>
+	</head>
+	<body>
+		<h1 class="largetext">Bitcoin Forum</h1>
+		<h2 class="normaltext">Bitcoin => Bitcoin Technical Support => Topic started by: kwoody on January 25, 2013, 02:21:11 AM</h2>
+
+		<table width="90%" cellpadding="0" cellspacing="0" border="0">
+			<tr>
+				<td>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Over an hour and no confirmations...?</b><br />
+					Post by: <b>kwoody</b> on <b>January 25, 2013, 02:21:11 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">I sent a payment 1 hour and 13 minutes ago to somebody. No confirmations so my purchase hasn&#039;t gone through. I received a payment earlier at 4:26PM eastern standard time and it&#039;s now 9:20PM and there are only 25 confirmations on it. Is something wrong with the network...? surely these numbers can&#039;t be normal.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Over an hour and no confirmations...?</b><br />
+					Post by: <b>CurbsideProphet</b> on <b>January 25, 2013, 02:34:58 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=138725.msg1477582#msg1477582">Quote from: kwoody on January 25, 2013, 02:21:11 AM</a></div><div class="quote">I sent a payment 1 hour and 13 minutes ago to somebody. No confirmations so my purchase hasn&#039;t gone through. I received a payment earlier at 4:26PM eastern standard time and it&#039;s now 9:20PM and there are only 25 confirmations on it. Is something wrong with the network...? surely these numbers can&#039;t be normal.<br /></div><br />Did you add on a fee?&nbsp; How much?</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Over an hour and no confirmations...?</b><br />
+					Post by: <b>kwoody</b> on <b>January 25, 2013, 02:36:49 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">I didn&#039;t, but it also didn&#039;t prompt me to give one.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Over an hour and no confirmations...?</b><br />
+					Post by: <b>CurbsideProphet</b> on <b>January 25, 2013, 02:37:43 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">That&#039;s probably why.&nbsp; It will go through eventually but will take considerably longer.&nbsp; </div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Over an hour and no confirmations...?</b><br />
+					Post by: <b>mb300sd</b> on <b>January 25, 2013, 03:07:09 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Are you using bitcoin-qt? Closing and reopening it will make it rebroadcast the transaction, helps sometimes.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Over an hour and no confirmations...?</b><br />
+					Post by: <b>constitution</b> on <b>January 25, 2013, 03:35:31 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Sometimes payments take 1-3 hours just wait.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Over an hour and no confirmations...?</b><br />
+					Post by: <b>jayson3</b> on <b>January 26, 2013, 09:49:12 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Looking at block chain.info, it appears that sometimes there is a gap of an hour or more between blocks being generated. I don&#039;t understand why this happens, but I think that would delay all transactions and create a big backlog, because the blocks are what confirm the transactions.&nbsp; Paying a bigger fee might get you to the head of the line, but it looks like a flaw in the system.<br /><br />On 1/24, I had a transfer between codebase and Mt. Gox that took over 6 hours! This does not build trust in bitcoin as a currency.&nbsp; Will this get worse as transaction volume grows?</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Over an hour and no confirmations...?</b><br />
+					Post by: <b>DannyHamilton</b> on <b>January 26, 2013, 01:23:47 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=138725.msg1480658#msg1480658">Quote from: jayson3 on January 26, 2013, 09:49:12 AM</a></div><div class="quote">Looking at block chain.info, it appears that sometimes there is a gap of an hour or more between blocks being generated. I don&#039;t understand why this happens, but I think that would delay all transactions and create a big backlog, because the blocks are what confirm the transactions.&nbsp; Paying a bigger fee might get you to the head of the line, but it looks like a flaw in the system.<br /><br />On 1/24, I had a transfer between codebase and Mt. Gox that took over 6 hours! This does not build trust in bitcoin as a currency.&nbsp; Will this get worse as transaction volume grows?<br /></div>The time between generated blocks is completely random.&nbsp; It is designed to be approximately 10 minutes, but it is frequently more or less than that.&nbsp; The transaction volume doesn&#039;t have much effect on time between blocks.<br /><br /></div>
+					<br /><br />
+					<div align="center" class="smalltext">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank">Powered by SMF 1.1.19</a> | 
+<a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank">SMF &copy; 2006-2009, Simple Machines</a>
+		</span></div>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

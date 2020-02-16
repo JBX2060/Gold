@@ -1,0 +1,140 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+		<link rel="canonical" href="https://bitcointalk.org/index.php?topic=144292.0" />
+		<title>Print Page - if i put a wallet.dat file on a stick in a safe</title>
+		<style type="text/css">
+			body
+			{
+				color: black;
+				background-color: white;
+			}
+			body, td, .normaltext
+			{
+				font-family: Verdana, arial, helvetica, serif;
+				font-size: small;
+			}
+			*, a:link, a:visited, a:hover, a:active
+			{
+				color: black !important;
+			}
+			table
+			{
+				empty-cells: show;
+			}
+			.code
+			{
+				font-size: x-small;
+				font-family: monospace;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.quote
+			{
+				font-size: x-small;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.smalltext, .quoteheader, .codeheader
+			{
+				font-size: x-small;
+			}
+			.largetext
+			{
+				font-size: large;
+			}
+			hr
+			{
+				height: 1px;
+				border: 0;
+				color: black;
+				background-color: black;
+			}
+		</style>
+	</head>
+	<body>
+		<h1 class="largetext">Bitcoin Forum</h1>
+		<h2 class="normaltext">Bitcoin => Bitcoin Technical Support => Topic started by: paulie_w on February 15, 2013, 09:05:28 AM</h2>
+
+		<table width="90%" cellpadding="0" cellspacing="0" border="0">
+			<tr>
+				<td>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>if i put a wallet.dat file on a stick in a safe</b><br />
+					Post by: <b>paulie_w</b> on <b>February 15, 2013, 09:05:28 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">will the bitcoin client even recognize the format in 8-10 years, assuming that the satoshi client is still even supported?<br /><br />how much has the wallet.dat format already changed?<br /><br />is there any chance that it might not import extremely old wallets and that i would be screwed?</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: if i put a wallet.dat file on a stick in a safe</b><br />
+					Post by: <b>luffy</b> on <b>February 15, 2013, 09:19:24 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">this is a question fro BTC developers. <br />But i don&#039;t think it needs to be changed or even if it is, it will be backward compatible,<br />hopefully.<br />Of course, this is my opinion&nbsp; :)</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: if i put a wallet.dat file on a stick in a safe</b><br />
+					Post by: <b>Jouke</b> on <b>February 15, 2013, 09:22:34 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=144292.msg1529939#msg1529939">Quote from: paulie_w on February 15, 2013, 09:05:28 AM</a></div><div class="quote">will the bitcoin client even recognize the format in 8-10 years, assuming that the satoshi client is still even supported?<br /><br />how much has the wallet.dat format already changed?<br /><br />is there any chance that it might not import extremely old wallets and that i would be screwed?<br /></div>Put a tool that will be able to extract the private keys out of the wallet.dat on the stick as well.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: if i put a wallet.dat file on a stick in a safe</b><br />
+					Post by: <b>paulie_w</b> on <b>February 15, 2013, 09:24:03 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=144292.msg1529973#msg1529973">Quote from: Jouke on February 15, 2013, 09:22:34 AM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=144292.msg1529939#msg1529939">Quote from: paulie_w on February 15, 2013, 09:05:28 AM</a></div><div class="quote">will the bitcoin client even recognize the format in 8-10 years, assuming that the satoshi client is still even supported?<br /><br />how much has the wallet.dat format already changed?<br /><br />is there any chance that it might not import extremely old wallets and that i would be screwed?<br /></div>Put a tool that will be able to extract the private keys out of the wallet.dat on the stick as well.<br /></div><br />sure, and the whole OS as well? maybe a computer too? will the network still be compatible with an old client?<br /><br />who knows where the software/hardware ecosystem will be at that point.<br /><br />would love to hear from some devs about this.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: if i put a wallet.dat file on a stick in a safe</b><br />
+					Post by: <b>asdf</b> on <b>February 15, 2013, 09:57:31 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">don&#039;t store the wallet.dat. just export the keys into some raw format. The satoshi client can to this.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: if i put a wallet.dat file on a stick in a safe</b><br />
+					Post by: <b>DannyHamilton</b> on <b>February 15, 2013, 10:21:02 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=144292.msg1530036#msg1530036">Quote from: asdf on February 15, 2013, 09:57:31 AM</a></div><div class="quote">don&#039;t store the wallet.dat. just export the keys into some raw format. The satoshi client can to this.<br /></div><br />If you are not going to keep an eye on the major developments in bitcoin during that time, then that would be your best bet for having a universally supported archive.&nbsp; Extract your private keys.&nbsp; Save them somewhere human readable (can you find ink and paper that won&#039;t degrade?&nbsp; Maybe etch or engrave it into something durable?)<br /><br />If you put it on a USB stick, there is a chance that in 10 years it will be difficult to find a computer that can still read a USB stick even if the wallet format is the same. How would you access a wallet that is stored on a 5.25&quot; or 3.5&#039; floppy disk right now?&nbsp; What if you stored the wallet on a device that connected via Centronix DB-25 pin parallel port, or DE-9 serial port?&nbsp; I still have programs for my old TRS-80 32k CoCo stored on audio cassette tape in my attic.&nbsp; I have no idea how I&#039;d ever get them off if I wanted to.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: if i put a wallet.dat file on a stick in a safe</b><br />
+					Post by: <b>paulie_w</b> on <b>February 15, 2013, 11:05:09 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=144292.msg1530077#msg1530077">Quote from: DannyHamilton on February 15, 2013, 10:21:02 AM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=144292.msg1530036#msg1530036">Quote from: asdf on February 15, 2013, 09:57:31 AM</a></div><div class="quote">don&#039;t store the wallet.dat. just export the keys into some raw format. The satoshi client can to this.<br /></div><br />If you are not going to keep an eye on the major developments in bitcoin during that time, then that would be your best bet for having a universally supported archive.&nbsp; Extract your private keys.&nbsp; Save them somewhere human readable (can you find ink and paper that won&#039;t degrade?&nbsp; Maybe etch or engrave it into something durable?)<br /><br />If you put it on a USB stick, there is a chance that in 10 years it will be difficult to find a computer that can still read a USB stick even if the wallet format is the same. How would you access a wallet that is stored on a 5.25&quot; or 3.5&#039; floppy disk right now?&nbsp; What if you stored the wallet on a device that connected via Centronix DB-25 pin parallel port, or DE-9 serial port?&nbsp; I still have programs for my old TRS-80 32k CoCo stored on audio cassette tape in my attic.&nbsp; I have no idea how I&#039;d ever get them off if I wanted to.<br /></div><br />a little googling maybe?<br /><br />http://www.trs-80.com/wordpress/info-transfer-tapes/<br /><br />i doubt such information will be harder to come by in the future. but your point is taken anyway. i&#039;ll put a cdrom and an sd card in there too.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: if i put a wallet.dat file on a stick in a safe</b><br />
+					Post by: <b>DannyHamilton</b> on <b>February 15, 2013, 11:16:52 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=144292.msg1530158#msg1530158">Quote from: paulie_w on February 15, 2013, 11:05:09 AM</a></div><div class="quote"> - SNIP -<br />but your point is taken anyway.<br />&nbsp;- SNIP -<br /></div>For those who may not have caught on, the point was that it is likely to be as difficult/inconvenient to use old media as it is to be difficult/inconvenient to use an old wallet format.&nbsp; In either case you are likely to have to go through some manual steps to convert from the old media/format to the new.&nbsp; There is no guarantee that there will always be a way to access the data on the old media, and there is no guarantee that there will always be a way to access the data stored in an old format.&nbsp; If you have a large enough sum that your are concerned about it, it would be wise to check up on any significant developments every few years.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: if i put a wallet.dat file on a stick in a safe</b><br />
+					Post by: <b>Scrat Acorns</b> on <b>February 16, 2013, 01:20:42 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">If you&#039;re serious about your wallet try 3+ sticks plus a few CDs. USB sticks have a high failure rate. As others have said, storing just the private keys on a piece of paper is a better idea. Storing them on CDs encrypted is an even better idea!<br /><br />If the format changes (unlikely) there will be a tool to convert to the new format, you can count on that.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: if i put a wallet.dat file on a stick in a safe</b><br />
+					Post by: <b>deepceleron</b> on <b>February 16, 2013, 02:37:10 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">The concern would be bit rot on a cold storage flash memory. For power-off data retention in flash, the charge that is the store of a bit degrades over time, and thus far storage times have only been estimated based on accelerated testing, since MLC chips have only been out a short while. Manufacturer estimates vary from 1 year to 10 years, but in many cases are not given at all.<br /><br />This paper details some testing, &quot;we typically target three months of data retention time for solid-state in enterprise applications&quot;.<br />http://storageconference.org/2011/Papers/SNAPI/1.Sun.pdf</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: if i put a wallet.dat file on a stick in a safe</b><br />
+					Post by: <b>SlickTheNick</b> on <b>February 16, 2013, 03:19:40 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Just print or write it down on a peice of paper, laminate it or something and store it somewhere safe. Like a safe. </div>
+					<br /><br />
+					<div align="center" class="smalltext">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank">Powered by SMF 1.1.19</a> | 
+<a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank">SMF &copy; 2006-2009, Simple Machines</a>
+		</span></div>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

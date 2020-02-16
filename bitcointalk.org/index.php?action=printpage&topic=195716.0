@@ -1,0 +1,104 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+		<link rel="canonical" href="https://bitcointalk.org/index.php?action=printpage&amp;topic=195716.0" />
+		<title>Print Page - [ANN][CNC][P2pool] - Yet another ChnCoin P2Pool - http://cnc.crabdance.com:8400</title>
+		<style type="text/css">
+			body
+			{
+				color: black;
+				background-color: white;
+			}
+			body, td, .normaltext
+			{
+				font-family: Verdana, arial, helvetica, serif;
+				font-size: small;
+			}
+			*, a:link, a:visited, a:hover, a:active
+			{
+				color: black !important;
+			}
+			table
+			{
+				empty-cells: show;
+			}
+			.code
+			{
+				font-size: x-small;
+				font-family: monospace;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.quote
+			{
+				font-size: x-small;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.smalltext, .quoteheader, .codeheader
+			{
+				font-size: x-small;
+			}
+			.largetext
+			{
+				font-size: large;
+			}
+			hr
+			{
+				height: 1px;
+				border: 0;
+				color: black;
+				background-color: black;
+			}
+		</style>
+	</head>
+	<body>
+		<h1 class="largetext">Bitcoin Forum</h1>
+		<h2 class="normaltext">Other => Beginners &amp; Help => Topic started by: gritter on May 05, 2013, 10:14:52 AM</h2>
+
+		<table width="90%" cellpadding="0" cellspacing="0" border="0">
+			<tr>
+				<td>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>[ANN][CNC][P2pool] - Yet another ChnCoin P2Pool - http://cnc.crabdance.com:8400</b><br />
+					Post by: <b>gritter</b> on <b>May 05, 2013, 10:14:52 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Some CNC ChnCoin pools I tried are having DDos etc. issues, so decided to setup yet another P2Pool on a fast server<br /><br /><b>CHNCoin P2Pool Server:</b><br />http://cnc.crabdance.com:8400<br /><br />Mining User: Your CHNCoin Address<br />Mining Pass: Anything<br /><br /><b>cgminer example:</b><br /><div class="quoteheader">Quote</div><div class="quote">cgminer --scrypt -o cnc.crabdance.com:8400 -u yourCNCaddress -p x -s 1 --expiry 1 --gpu-threads 1 --queue 0</div><br /><b>cudaminer example:</b><br /><div class="quoteheader">Quote</div><div class="quote">cudaminer -o cnc.crabdance.com:8400 -u yourCNCaddress -p x</div><br /><b>cpuminer example:</b><br /><div class="quoteheader">Quote</div><div class="quote">minerd -o cnc.crabdance.com:8400 -u yourCNCaddress -p x</div><br /><b>Dont know how to setup your miner?</b> See this thread for AMD GPUs&nbsp; https://bitcointalk.org/index.php?topic=117221.0<br />When mining on CNC Pools you can follow the litecoin instructions and just change the pool adress to a CNC pool<br /><br /><b>Tips to reduce DOA rate:</b> (taken from Narken&#039;s thread) <br />You can set your share difficulty by adding +0.0000xxxx to your CHNcoin adress:<br /><br />yourCNCaddress+0.0004872<br /><br />Recommend share difficulty:<br /><br />Hash Rate (KHash/s) &nbsp; Difficulty<br />1 &nbsp; +0.00000116<br />5 &nbsp; +0.00000582<br />10 &nbsp; +0.00001164<br />50 &nbsp; +0.00005821<br />100 &nbsp; +0.00011641<br />250 &nbsp; +0.00029103<br />500 &nbsp; +0.00058207<br />750 &nbsp; +0.00087310<br />1000 &nbsp; +0.00116414<br /><br />Example<br /><div class="quoteheader">Quote</div><div class="quote">cgminer --scrypt -o cnc.crabdance.com:8400 -u yourCNCaddress+0.00058207 -p x -s 1 --expiry 1 --gpu-threads 1 --queue 0</div><br />Please let me know if there are any issues, so far its running fine and payouts are happening (P2Pool uses the PPLNS system which means after you start mining it will take some time to see the first payouts, usually about an hour)</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [ANN][CNC][P2pool] - Yet another ChnCoin P2Pool - http://cnc.crabdance.com:8400</b><br />
+					Post by: <b>gritter</b> on <b>May 05, 2013, 10:52:33 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Already at ~2000KHs, thanks to whomever is pointing their hash here</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [ANN][CNC][P2pool] - Yet another ChnCoin P2Pool - http://cnc.crabdance.com:8400</b><br />
+					Post by: <b>gritter</b> on <b>May 05, 2013, 11:43:12 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Added much nicer server interface, check it out at http://cnc.crabdance.com:8400</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [ANN][CNC][P2pool] - Yet another ChnCoin P2Pool - http://cnc.crabdance.com:8400</b><br />
+					Post by: <b>gritter</b> on <b>May 05, 2013, 12:26:29 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Payouts happen when the pool finds a P2Pool Share, this is usually every hour on this node, you have to keep mining at least about an hour to be able to expect any payout, please post here if you are having issues.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [ANN][CNC][P2pool] - Yet another ChnCoin P2Pool - http://cnc.crabdance.com:8400</b><br />
+					Post by: <b>gritter</b> on <b>May 05, 2013, 01:14:00 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Thread continued here: https://bitcointalk.org/index.php?topic=195793<br /><br />only post here if you are newbie and cannot post in the main forum<br /><br /></div>
+					<br /><br />
+					<div align="center" class="smalltext">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank">Powered by SMF 1.1.19</a> | 
+<a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank">SMF &copy; 2006-2009, Simple Machines</a>
+		</span></div>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

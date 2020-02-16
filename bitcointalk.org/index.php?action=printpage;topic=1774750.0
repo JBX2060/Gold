@@ -1,0 +1,128 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+		<link rel="canonical" href="https://bitcointalk.org/index.php?topic=1774750.0" />
+		<title>Print Page - List of people who have had commit access to Bitcoin Core</title>
+		<style type="text/css">
+			body
+			{
+				color: black;
+				background-color: white;
+			}
+			body, td, .normaltext
+			{
+				font-family: Verdana, arial, helvetica, serif;
+				font-size: small;
+			}
+			*, a:link, a:visited, a:hover, a:active
+			{
+				color: black !important;
+			}
+			table
+			{
+				empty-cells: show;
+			}
+			.code
+			{
+				font-size: x-small;
+				font-family: monospace;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.quote
+			{
+				font-size: x-small;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.smalltext, .quoteheader, .codeheader
+			{
+				font-size: x-small;
+			}
+			.largetext
+			{
+				font-size: large;
+			}
+			hr
+			{
+				height: 1px;
+				border: 0;
+				color: black;
+				background-color: black;
+			}
+		</style>
+	</head>
+	<body>
+		<h1 class="largetext">Bitcoin Forum</h1>
+		<h2 class="normaltext">Bitcoin => Development &amp; Technical Discussion => Topic started by: achow101 on February 01, 2017, 10:19:06 PM</h2>
+
+		<table width="90%" cellpadding="0" cellspacing="0" border="0">
+			<tr>
+				<td>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>List of people who have had commit access to Bitcoin Core</b><br />
+					Post by: <b>achow101</b> on <b>February 01, 2017, 10:19:06 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">I am creating this thread in response to the discussion occurring at https://bitcointalk.org/index.php?topic=1773558.msg17697805#msg17697805. This list will contain the names (or pseudonyms) of everyone who I can find evidence for ever having commit access to Bitcoin Core, the dates during which they had commit access, sources for all of this information, and reasoning for the access.<br /><br /><ul style="margin-top: 0; margin-bottom: 0;"><li>Satoshi Nakamoto (satoshi, s_nakamoto): 1/3/09 - 9/13/11 (https://sourceforge.net/p/bitcoin/code/252)<sup><span style="font-size: 6pt !important; line-height: 1.3em;">[1]</span></sup> Creator, first Lead Maintainer</li><li>Martti Malmi (Sirius, sirius_m): 8/30/09 (https://sourceforge.net/p/bitcoin/code/1/) - 9/13/11 (https://sourceforge.net/p/bitcoin/code/252)<sup><span style="font-size: 6pt !important; line-height: 1.3em;">[1]</span></sup><sup><span style="font-size: 6pt !important; line-height: 1.3em;">[2]</span></sup> &nbsp; &nbsp;Creator of first SVN repo</li><li>Laszlo (laszloh) 8/4/10 (https://sourceforge.net/p/bitcoin/code/123/) - 9/13/11 (https://sourceforge.net/p/bitcoin/code/252)<sup><span style="font-size: 6pt !important; line-height: 1.3em;">[1]</span></sup> &nbsp; &nbsp;Original OSX Builds and support</li><li>Gavin Andresen (gavinandresen): 10/11/10 (https://sourceforge.net/p/bitcoin/code/165) - 5/2/16 (https://twitter.com/petertoddbtc/status/727078284345917441)<sup><span style="font-size: 6pt !important; line-height: 1.3em;">[3]</span></sup> &nbsp; &nbsp;Frequent contributor; later Lead Maintainer</li><li>Chris Moore (dooglus): 1/21/11 (https://github.com/bitcoin/bitcoin/commit/86c0af514b59971f7a5c3876898165667cbbeb6b) - 3/31/11 (https://www.reddit.com/r/Bitcoin/comments/4hvevo/slush_on_twitter_petertoddbtc_who_decided_to/d2t16mh/) &nbsp; &nbsp;Frequent contributor for some time; Still occasionally contributes</li><li><b>Pieter Wuille (sipa): 5/1/11 (https://github.com/bitcoin/bitcoin/commit/fbfbf94deb4224ce65bdbbc9151ddd44a4128753) - present &nbsp; &nbsp;Frequent contributor</b></li><li>Jeff Garzik (jgarzik): 5/6/11 (https://github.com/bitcoin/bitcoin/commit/62b427ec5532065744f9836e6a7b1676428c3434) - July/Aug 2016 <sup><span style="font-size: 6pt !important; line-height: 1.3em;">[4]</span></sup> &nbsp; &nbsp;Frequent Contributor</li><li><b>Wladimir J. van der Laan (laanwj, wumpus): 6/5/11 (https://github.com/bitcoin/bitcoin/commit/9e0576587b91e67aaad3bd4b61571c3fdeeceda7) - present<sup><span style="font-size: 6pt !important; line-height: 1.3em;">[5]</span></sup> &nbsp; &nbsp;Frequent contributor; later Lead Maintainer</b></li><li>Nils Schneider (tcatm): 9/19/11 (https://github.com/bitcoin/bitcoin/commit/2d294e080c192cbea5ac0e331a3aab695cee37c8) - 5/31/12 (https://github.com/bitcoin/bitcoin/commit/50fac686541686191647ddabd87d6dae75c24c52) &nbsp; &nbsp;Frequent contributor for some time</li><li><b>Greg Maxwell (gmaxwell): 2/11/12 (https://github.com/bitcoin/bitcoin/commit/9f3de58d83f54536076be44fe945f56670ef9b60) - 12/17/15 (https://www.reddit.com/r/Bitcoin/comments/3x7mrr/gmaxwell_unullc_no_longer_a_bitcoin_committer_on/cy29vkx/) &nbsp; &nbsp;Frequent contributor; Gave up commit access due to toxicity and drama from the community</b></li><li><b>Jonas Schnelli (jonasschnelli): 11/13/15 (https://lists.linuxfoundation.org/pipermail/bitcoin-dev/2015-November/011728.html) - present<sup><span style="font-size: 6pt !important; line-height: 1.3em;">[6]</span></sup> &nbsp; &nbsp;Frequent contributor; given access after becoming GUI Maintainer</b></li><li><b>Marco Falke (marcofalke): 4/13/16 (https://lists.linuxfoundation.org/pipermail/bitcoin-core-dev/2016-April/000003.html) - present<sup><span style="font-size: 6pt !important; line-height: 1.3em;">[7]</span></sup> &nbsp; &nbsp;Frequent Contributor; given access after becoming QA/Testing Maintainer</b></li><li><b>Samuel Dobson (MeshCollider): 12/6/18 (https://github.com/bitcoin/bitcoin/pull/14869) - present<sup><span style="font-size: 6pt !important; line-height: 1.3em;">[8]</span></sup> &nbsp; &nbsp;Frequent Contributor; given access after volunteering to be the wallet maintainer</b></li><li><b>Micahel Ford (fanquake): 6/8/19 (https://github.com/bitcoin/bitcoin/pull/16162) - present<sup><span style="font-size: 6pt !important; line-height: 1.3em;">[9]</span></sup>&nbsp; &nbsp; Frequent Contributor; given access after being nominated (http://diyhpl.us/wiki/transcripts/bitcoin-core-dev-tech/2019-06-06-maintainers/) by several other frequent contributors and maintainers to become a maintainer.</b></li></ul><br />Footnotes:<br /><ul style="margin-top: 0; margin-bottom: 0;"><li>[1] The move to Github occurred before the last SourceForge commit, but the last SourceForge commit declares sourceforge as dead. Presumably those who only committed to SourceForge no longer had commit access after the move</li><li>[2] Sirius was the one who created the original SVN repo on SourceForge.</li><li>[3] Gavin was the Lead Maintainer from 2/23/11 (https://sourceforge.net/p/bitcoin/mailman/message/27102906/) until 4/7/14 (https://bitcoinfoundation.org/bitcoin-core-maintainer-wladimir-van-der-laan/)</li><li><del>[4] I cannot find anything that suggests that Jeff Garzik has given up his commit access or has had it revoked</del> I was informed via IRC PM by some of the Core devs that Jeff&#039;s commit access was revoked some time around August 2016 after several months of inactivity.</li><li>[5] Wladimir is the current Lead Maintainer. After participating in that role for a long time, he was officially given the position by Gavin on 4/7/14 (https://bitcoinfoundation.org/bitcoin-core-maintainer-wladimir-van-der-laan/)</li><li>[6] Jonas is currently the GUI Maintainer. After participating in that role for a long time, he was officially given the position by Wladimir on 11/13/15 (https://lists.linuxfoundation.org/pipermail/bitcoin-dev/2015-November/011728.html)</li><li>[7] Marco is currently the QA/Testing Maintainer. After participating in that role for a long time, he was officially given the position by Wladimir on 4/13/16 (https://lists.linuxfoundation.org/pipermail/bitcoin-core-dev/2016-April/000003.html)</li><li>[8] MeshCollider is currently the Wallet Maintainer. He had been contributing for a while, particularly to wallet related things. When laanwj asked if anyone would like to be the role of Wallet Maintainer, MeshCollider volunteered.</li><li>[9] fanquake is currently the Build System Maintainer as well as a general maintainer. He had been contributing for a while, particularly with updating dependency versions and build system related things. He also had been doing a lot of janitorial things in the repo such as tagging issues, closing old issues and PRs, nominating things to be merged, etc. At the CoreDev event in Amsterdam which several maintainers and contributors attended, he was nominated to be a maintainer by the entire group.</li></ul><br />Other Notes: <br /><ul style="margin-top: 0; margin-bottom: 0;"><li>Dates are Month/Day/year</li><li>There may be people missing and dates may be slightly incorrect. These are all that I can determine by looking at old emails and the commit history. Please let me know if anything is incorrect</li><li>The start date is determined by the first merge commit made by that person. The end date is determined by the date of the last merge commit made by that person or other announcements of commit access revocation.</li><li>Those who still actively and frequently contribute are in bold</li></ul><br /><hr /><br />After scrolling through nearly the entire git merges history, I have found a couple of interesting things. <br /><br />Satoshi did not use a Version Control System originally. The releases and source code were originally in a rar file that was uploaded to bitcoin.org. Sirius had to setup the original SVN repository on SourceForge for him. This was then later migrated to GitHub by Gavin. Originally patches were authored by developers and then emailed to Satoshi, Sirius, or Gavin who then committed the changes to the source tree with the commit message containing the attribution, but not the actual commit itself.<br /><br />Another interesting fact is that the giving out of commit access has become more strict. It is now a privilege held by those given maintainer positions and those whose privilege was grandfathered in (i.e. they had it previously and kept it). Previously it was simply given out to those who contributed frequently and revoked after they stopped contributing. This appears to be no longer the case, although there are still multiple people who can commit to the repository so that there is not any reliance on one person. The maintainers are still given to frequent contributors as the maintainers are frequent contributors to the set of functionality for which they are maintainers of. They received the positions because of frequent contributions to those functionalities.<br /><br />Lastly, I could not find any evidence for Satoshi ever publicly announcing that Gavin was to be the Lead Maintainer after him. It seems that Gavin was already a frequent contributor and already had commit access for a while before Satoshi disappeared. After Satoshi disappeared and Sirius stopped contributing as much, Gavin simply took over the role as lead maintainer as he was the only frequent contributor with commit access.<br /><br /><hr /><br />Edits: This has been posted to reddit where the people on this list are more active (https://www.reddit.com/r/Bitcoin/comments/5riy1j/list_of_people_who_have_had_commit_access_to/).<br />Dooglus -&gt; dooglus<br />Jeff&#039;s commit access was revoked a while ago<br />Bolded active contributors<br />Clarified how maintainers got their roles</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: List of people who have had commit access to Bitcoin Core</b><br />
+					Post by: <b>Carlton Banks</b> on <b>February 01, 2017, 10:21:53 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">You were also asked to provide reasons why the commit keys were given to each person. Still researching that? :D</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: List of people who have had commit access to Bitcoin Core</b><br />
+					Post by: <b>achow101</b> on <b>February 01, 2017, 10:33:15 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=1774750.msg17700802#msg17700802">Quote from: Carlton Banks on February 01, 2017, 10:21:53 PM</a></div><div class="quote">You were also asked to provide reasons why the commit keys were given to each person. Still researching that? :D<br /></div>Fixed that. Really the only reason is &quot;frequent contributor&quot;. Now, if you are a frequent contributor to a specific set of functionality, you become the maintainer for that stuff and get commit access. But still, it is for being a frequent contributor.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: List of people who have had commit access to Bitcoin Core</b><br />
+					Post by: <b>Carlton Banks</b> on <b>February 01, 2017, 10:42:48 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Presumably you discovered this when you asked the question to every person who has generated a key for someone else? In other words, you can&#039;t really do anything except make a prosaic supposition, the real intentions are not really knowable information.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: List of people who have had commit access to Bitcoin Core</b><br />
+					Post by: <b>gmaxwell</b> on <b>February 02, 2017, 06:21:08 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader">Quote</div><div class="quote">having been given the position</div><br />I think it would be more correct to say that it was recognized that he was already doing it.&nbsp; Appointed positions often don&#039;t make sense in Open Source, because it matters a lot more what people do than some kind of title.&nbsp; </div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: List of people who have had commit access to Bitcoin Core</b><br />
+					Post by: <b>Karartma1</b> on <b>February 02, 2017, 07:17:49 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=1774750.msg17703704#msg17703704">Quote from: gmaxwell on February 02, 2017, 06:21:08 AM</a></div><div class="quote"><div class="quoteheader">Quote</div><div class="quote">having been given the position</div><br />I think it would be more correct to say that it was recognized that he was already doing it.&nbsp; Appointed positions often don&#039;t make sense in Open Source, <span style="font-size: 12pt !important; line-height: 1.3em;"><b>because it matters a lot more what people do than some kind of title.&nbsp; </b></span><br /></div>I would like it to be framed somewhere as it is the only thing that matters, really.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: List of people who have had commit access to Bitcoin Core</b><br />
+					Post by: <b>RocketSingh</b> on <b>November 26, 2017, 10:36:08 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Has there been any formal announcement about revoking Gavin &amp; Jeff&#039;s commit access?</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: List of people who have had commit access to Bitcoin Core</b><br />
+					Post by: <b>achow101</b> on <b>November 27, 2017, 12:12:00 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=1774750.msg25276713#msg25276713">Quote from: RocketSingh on November 26, 2017, 10:36:08 PM</a></div><div class="quote">Has there been any formal announcement about revoking Gavin &amp; Jeff&#039;s commit access?<br /></div>No.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: List of people who have had commit access to Bitcoin Core</b><br />
+					Post by: <b>gmaxwell</b> on <b>November 27, 2017, 05:15:41 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=1774750.msg25280143#msg25280143">Quote from: achow101 on November 27, 2017, 12:12:00 AM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=1774750.msg25276713#msg25276713">Quote from: RocketSingh on November 26, 2017, 10:36:08 PM</a></div><div class="quote">Has there been any formal announcement about revoking Gavin &amp; Jeff&#039;s commit access?<br /></div>No.<br /></div>Not so, WRT Gavin: http://laanwj.github.io/2016/05/06/hostility-scams-and-moving-forward.html&nbsp; &nbsp;AFAIK similar applies to Jgarzik. (Too bad, I wish it hadn&#039;t been removed years ago so that it could be removed now with a public condemnation of his ICO scam)</div>
+					<br /><br />
+					<div align="center" class="smalltext">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank">Powered by SMF 1.1.19</a> | 
+<a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank">SMF &copy; 2006-2009, Simple Machines</a>
+		</span></div>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

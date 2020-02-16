@@ -1,0 +1,86 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+		<link rel="canonical" href="https://bitcointalk.org/index.php?topic=4820208.0" />
+		<title>Print Page - What are these wallet addresses??</title>
+		<style type="text/css">
+			body
+			{
+				color: black;
+				background-color: white;
+			}
+			body, td, .normaltext
+			{
+				font-family: Verdana, arial, helvetica, serif;
+				font-size: small;
+			}
+			*, a:link, a:visited, a:hover, a:active
+			{
+				color: black !important;
+			}
+			table
+			{
+				empty-cells: show;
+			}
+			.code
+			{
+				font-size: x-small;
+				font-family: monospace;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.quote
+			{
+				font-size: x-small;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.smalltext, .quoteheader, .codeheader
+			{
+				font-size: x-small;
+			}
+			.largetext
+			{
+				font-size: large;
+			}
+			hr
+			{
+				height: 1px;
+				border: 0;
+				color: black;
+				background-color: black;
+			}
+		</style>
+	</head>
+	<body>
+		<h1 class="largetext">Bitcoin Forum</h1>
+		<h2 class="normaltext">Bitcoin => Development &amp; Technical Discussion => Topic started by: jrosales on August 05, 2018, 01:58:25 AM</h2>
+
+		<table width="90%" cellpadding="0" cellspacing="0" border="0">
+			<tr>
+				<td>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>What are these wallet addresses??</b><br />
+					Post by: <b>jrosales</b> on <b>August 05, 2018, 01:58:25 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Hello friends, in the course of adding bitcoin as a mean of donation for a non-profit, I came across with something I could not find an explanation.<br />I am using Bitcoin Core v0.16.1. The wallet has several addresses in the right format, and others with an unknown format.<br />They all validate just fine, the hdmasterkeyid is the same for the valid addresses as for these other, but I know are not valid.<br />Additionally, a valid validated address, whose validation output reads below contains an embedded address similar to the one right below.<br />Can anyone explain me what are those invalid addresses, their use, and the reason they were added.&nbsp; Thanks a lot!<br /><br />------Start insert invalid------<br />{<br />&nbsp; &quot;isvalid&quot;: true,<br />&nbsp; &quot;address&quot;: &quot;bc1q5cwyt5gvjd7hjdqjlgxy8c08d3guk7gzdmk6tq&quot;,<br />&nbsp; &quot;scriptPubKey&quot;: &quot;0014a61c45d10c937d793412fa0c43e1e76c51cb7902&quot;,<br />&nbsp; &quot;ismine&quot;: true,<br />&nbsp; &quot;iswatchonly&quot;: false,<br />&nbsp; &quot;isscript&quot;: false,<br />&nbsp; &quot;iswitness&quot;: true,<br />&nbsp; &quot;witness_version&quot;: 0,<br />&nbsp; &quot;witness_program&quot;: &quot;a61c45d10c937d793412fa0c43e1e76c51cb7902&quot;,<br />&nbsp; &quot;pubkey&quot;: &quot;02a8993288187150da1004e6eb446609b70256352191833cb010f3f0efd55f7968&quot;,<br />&nbsp; &quot;account&quot;: &quot;&quot;,<br />&nbsp; &quot;timestamp&quot;: 1532141579,<br />&nbsp; &quot;hdkeypath&quot;: &quot;m/0&#039;/0&#039;/3&#039;&quot;,<br />&nbsp; &quot;hdmasterkeyid&quot;: &quot;b8a1da04c8b60c4e169f725ab45a21688055d7e5&quot;<br />}<br />------Ends insert invalid------ <br /><br />------Start insert valid------<br />{<br />&nbsp; &quot;isvalid&quot;: true,<br />&nbsp; &quot;address&quot;: &quot;3M9vWs3GdoQmydabrVAcbPw2coWP8essnp&quot;,<br />&nbsp; &quot;scriptPubKey&quot;: &quot;a914d5811b339742b7340e93e5b1d8e7892d0db7f80987&quot;,<br />&nbsp; &quot;ismine&quot;: true,<br />&nbsp; &quot;iswatchonly&quot;: false,<br />&nbsp; &quot;isscript&quot;: true,<br />&nbsp; &quot;iswitness&quot;: false,<br />&nbsp; &quot;script&quot;: &quot;witness_v0_keyhash&quot;,<br />&nbsp; &quot;hex&quot;: &quot;001438b84077c582438d6d49311b3ed236cfc8fe57c7&quot;,<br />&nbsp; &quot;pubkey&quot;: &quot;03fabc1e47392c38bd8a5fb9305ecc7d435bab7a627f118c869928c85888cb79ba&quot;,<br />&nbsp; &quot;embedded&quot;: {<br />&nbsp; &nbsp; &quot;isscript&quot;: false,<br />&nbsp; &nbsp; &quot;iswitness&quot;: true,<br />&nbsp; &nbsp; &quot;witness_version&quot;: 0,<br />&nbsp; &nbsp; &quot;witness_program&quot;: &quot;38b84077c582438d6d49311b3ed236cfc8fe57c7&quot;,<br />&nbsp; &nbsp; &quot;pubkey&quot;: &quot;03fabc1e47392c38bd8a5fb9305ecc7d435bab7a627f118c869928c85888cb79ba&quot;,<br />&nbsp; &nbsp; &quot;address&quot;: &quot;bc1q8zuyqa79sfpc6m2fxydna53kely0u478u4zcga&quot;,<br />&nbsp; &nbsp; &quot;scriptPubKey&quot;: &quot;001438b84077c582438d6d49311b3ed236cfc8fe57c7&quot;<br />&nbsp; },<br />&nbsp; &quot;addresses&quot;: [<br />&nbsp; &nbsp; &quot;bc1q8zuyqa79sfpc6m2fxydna53kely0u478u4zcga&quot;<br />&nbsp; ],<br />&nbsp; &quot;account&quot;: &quot;&quot;,<br />&nbsp; &quot;timestamp&quot;: 1532141579,<br />&nbsp; &quot;hdkeypath&quot;: &quot;m/0&#039;/0&#039;/4&#039;&quot;,<br />&nbsp; &quot;hdmasterkeyid&quot;: &quot;b8a1da04c8b60c4e169f725ab45a21688055d7e5&quot;<br />}<br /><br />------Ends insert valid------ <br /><br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: What are these wallet addresses??</b><br />
+					Post by: <b>achow101</b> on <b>August 05, 2018, 05:14:37 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Those addresses are not invalid, they are segwit addresses. Native segwit uses a different address format from non-segwit (&quot;normal&quot; 1 and 3 addresses).<br /><br />The address within an address that you see is a P2SH address. This is an address that contains within it a script, which itself can map to another address.<br /><br />It is important to note that Bitcoin does not use addresses at a low level. Rather addresses are turned into scripts, and vice versa, for those scripts. So P2SH addresses contain scripts, and those scripts may map to an address, thus you will see an address within an address.</div>
+					<br /><br />
+					<div align="center" class="smalltext">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank">Powered by SMF 1.1.19</a> | 
+<a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank">SMF &copy; 2006-2009, Simple Machines</a>
+		</span></div>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

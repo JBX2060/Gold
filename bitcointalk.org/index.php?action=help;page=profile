@@ -1,0 +1,707 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+	<meta name="description" content="SMF User Help: Profile" />
+	
+	<meta name="keywords" content="bitcoin, forum, bitcoin forum, bitcointalk" />
+	<script language="JavaScript" type="text/javascript" src="https://bitcointalk.org/Themes/default/script.js"></script>
+	<script language="JavaScript" type="text/javascript"><!-- // --><![CDATA[
+		var smf_theme_url = "https://bitcointalk.org/Themes/custom1";
+		var smf_images_url = "https://bitcointalk.org/Themes/custom1/images";
+		var smf_scripturl = "https://bitcointalk.org/index.php";
+		var smf_iso_case_folding = false;
+		var smf_charset = "ISO-8859-1";
+	// ]]></script>
+	<title>SMF User Help: Profile</title><!--cd0d4c1bf86826025e7bbdf14c1262613da6ae14e586e7da2d5109e7791b496a90825e7bbdf14c1262613da6ae14e586e7dc3196fd0c5536c1725e7bbdf14c1262613da6ae14e586e7dc44c-->
+	<link rel="stylesheet" type="text/css" href="https://bitcointalk.org/Themes/custom1/style.css" />
+	 <!--[if !IE]> -->
+	 <link rel="stylesheet" type="text/css" media="only screen and (min-device-width: 320px) and (max-device-width: 650px)" href="https://bitcointalk.org/Themes/custom1/mobile.css" />
+	 <!-- <![endif]-->
+	<link rel="stylesheet" type="text/css" href="https://bitcointalk.org/Themes/default/print.css" media="print" /><style type="text/css">
+.yigeyIQydnfExrWdBpRQMQ > td {background-color: #E5E5E8; text-align:center;}
+.yigeyIQydnfExrWdBpRQMQ > td > table {margin-top:-5px}
+.yigeyIQydnfExrWdBpRQMQ .EyxvVgdIPUTnvjffthYibg {display:inline-block;max-width:100%; min-width:100%; max-height:47px; overflow:hidden}
+.yigeyIQydnfExrWdBpRQMQ table,.yigeyIQydnfExrWdBpRQMQ tbody,.yigeyIQydnfExrWdBpRQMQ tr,.yigeyIQydnfExrWdBpRQMQ td {display:inline-block;max-width:100%; min-width:100%; overflow:hidden}
+.yigeyIQydnfExrWdBpRQMQ .EyxvVgdIPUTnvjffthYibg table,.yigeyIQydnfExrWdBpRQMQ .EyxvVgdIPUTnvjffthYibg tbody,.yigeyIQydnfExrWdBpRQMQ .EyxvVgdIPUTnvjffthYibg tr,.yigeyIQydnfExrWdBpRQMQ .EyxvVgdIPUTnvjffthYibg td {display:initial; max-width:none;min-width:none;overflow:visible}
+.BiKnVzGykAkVHxSYKfFcjQ {display:none !important}
+.NZmnGscGosInnBGdeNjxww {display:none}
+.muerBPRvfhEqeyNEhaEnPg {padding: 1px 1px 0 1px;}
+.cFtrfHyvShsdJuifixeqhQ{color:#699C62; font-weight:bold; font-size:18px}
+.cFtrfHyvShsdJuifixeqhQ:link{color:#699C62; font-weight:bold; font-size:18px}
+.cFtrfHyvShsdJuifixeqhQ:visited{color:#699C62; font-weight:bold; font-size:18px}
+.aUcaQgabbZLBSqfkNiATbA{color:#00F30C;font-size:15px;font-weight:bold}
+.aUcaQgabbZLBSqfkNiATbA:link{color:#00F30C;font-size:15px;font-weight:bold}
+.aUcaQgabbZLBSqfkNiATbA:visited{color:#00F30C;font-size:15px;font-weight:bold}
+
+.PhOBLxjqvxqTdNTTjVSejA:link {font-size:22px;font-weight:bold;color:orange}
+.PhOBLxjqvxqTdNTTjVSejA:active {font-size:22px;font-weight:bold;color:orange}
+.PhOBLxjqvxqTdNTTjVSejA:visited {font-size:22px;font-weight:bold;color:orange}
+.PhOBLxjqvxqTdNTTjVSejA:hover {text-decoration:none !important;color:red}
+.qbgHjzQfAPAgbtzLEEwWpA:link {font-size:24px;font-weight:bold;color:rgb(250,180,75)}
+.qbgHjzQfAPAgbtzLEEwWpA:active {font-size:24px;font-weight:bold;color:rgb(250,180,75)}
+.qbgHjzQfAPAgbtzLEEwWpA:visited {font-size:24px;font-weight:bold;color:rgb(250,180,75)}
+.qbgHjzQfAPAgbtzLEEwWpA:hover {text-decoration:none !important;color:white;background-color:rgb(181,204,222)}
+.qbgHjzQfAPAgbtzLEEwWpA {display:inline-block;margin: 3px;0;3px;0}
+.jihrSzhzDBHInEpXeUkLQA:hover {text-decoration:none !important;}
+.jihrSzhzDBHInEpXeUkLQA {font-size:22px;font-weight:bold;}
+.fsfgcSxGgvkMzzQYHjtgFg {   width: 900px;   height: 44px;   max-width: 100%;   background: #5CB9F7;   display: flex;   justify-content: space-between;   align-items: center;   text-decoration: none !important;   font-size: 16px;   color: #fff !important;   font-family: arial, sans-serif;   overflow: hidden; }    .fsfgcSxGgvkMzzQYHjtgFg button {     border: none;     background: #8EE000;     color: #fff;     outline: none;     font-size: 1em;     padding: 0.5em 1.2em;     margin-left: 0.3em;     border-radius: 2em;     text-transform: uppercase;     font-weight: 600;     pointer-events: none;   }    .fsfgcSxGgvkMzzQYHjtgFg:hover .hUzbdjPtLidhhegbjhbcug span {   display: none; }  .fsfgcSxGgvkMzzQYHjtgFg:hover .hUzbdjPtLidhhegbjhbcug span:nth-child(2) {   display: block; }  .hUzbdjPtLidhhegbjhbcug {   display: flex;   align-items: center; }    .hUzbdjPtLidhhegbjhbcug span {   margin-left: 0.1em;   font-size: 1em;   font-weight: 700;   letter-spacing: 0.5px;   font-size: 20px;   width: 11em;   text-align: center; }  .gAwbRdpdNljOKiuPAVNOpg {   display: inline-block; }  .hUzbdjPtLidhhegbjhbcug span:nth-child(2) {   display: none; }  .HtmXygHuboPeJfCifkfHXg {   display: flex;   background: #586A91;   height: 44px;   align-items: center;   justify-content: center;   padding: 0 1em 0 0.5em;   position: relative;   z-index: 2; }    .HtmXygHuboPeJfCifkfHXg:after {   position: absolute;   right: 100%;   top: 50%;   content: "";   width: 36px;   height: 36px;   background: #586A91;   border-radius: 0.5em;   transform: translate(50%, -50%) rotate(45deg);   z-index: -1; }    .HtmXygHuboPeJfCifkfHXg > span {   margin-right: 1em;   font-weight: 600;   font-size: 16px;   letter-spacing: 0.5px;   margin-top: 0.1em; }  @media (max-width: 725px) {   .fsfgcSxGgvkMzzQYHjtgFg button {     display: none;   }   .hUzbdjPtLidhhegbjhbcug {     margin-left: 1em;   } }   @media (max-width: 550px) {   .HtmXygHuboPeJfCifkfHXg span span {     display: none;   } }  @media (max-width: 465px) {   .HtmXygHuboPeJfCifkfHXg {     display: none;   }   .fsfgcSxGgvkMzzQYHjtgFg {     justify-content: center;   } }
+.kpPbFUsDmEViyYHdFoQZVw {   width: 900px;   height: 44px;   max-width: 100%;   background: #5CB9F7;   display: flex;   justify-content: space-between;   align-items: center;   text-decoration: none !important;   font-size: 16px;   color: #fff !important;   font-family: arial, sans-serif;   overflow: hidden; }    .kpPbFUsDmEViyYHdFoQZVw button {     border: none;     background: #8EE000;     color: #fff;     outline: none;     font-size: 1em;     padding: 0.5em 1.2em;     margin-left: 0.4em;     border-radius: 2em;     text-transform: uppercase;     font-weight: 600; cursor:pointer; transition: all 0.3s;   } button:hover{transform: scale(1.05);}    .bEebZfiVANmxzpjhfmgPgA:hover span{   display: none; }  .bEebZfiVANmxzpjhfmgPgA:hover span:nth-child(2) {   display: block; }  .bEebZfiVANmxzpjhfmgPgA {   display: flex;   align-items: center; color:#fff}    .bEebZfiVANmxzpjhfmgPgA span {   margin-left: 0.1em;   font-size: 1em;   font-weight: 700;   letter-spacing: 0.5px;   font-size: 20px;   width: 11em;   text-align: center; }  .yfMbpfcnPGyIsvdMQaYwMw {   display: inline-block; }  .bEebZfiVANmxzpjhfmgPgA span:nth-child(2) {   display: none; }  .cKlIdtjSoqSjjxMKGaDhcQ {   display: flex;   background: #586A91;   height: 44px;   align-items: center;   justify-content: center;   padding: 0 1em 0 0.5em;   position: relative;   z-index: 2; }    .cKlIdtjSoqSjjxMKGaDhcQ:after {   position: absolute;   right: 100%;   top: 50%;   content: "";   width: 36px;   height: 36px;   background: #586A91;   border-radius: 0.5em;   transform: translate(50%, -50%) rotate(45deg);   z-index: -1; }    .cKlIdtjSoqSjjxMKGaDhcQ > span {   margin-right: 1em;   font-weight: 600;   font-size: 16px;   letter-spacing: 0.5px;   margin-top: 0.1em; }  @media (max-width: 725px) {   .kpPbFUsDmEViyYHdFoQZVw button {     display: none;   }   .bEebZfiVANmxzpjhfmgPgA {     margin-left: 1em;   } }   @media (max-width: 550px) {   .cKlIdtjSoqSjjxMKGaDhcQ span span {     display: none;   } }  @media (max-width: 465px) {   .cKlIdtjSoqSjjxMKGaDhcQ {     display: none;   }   .kpPbFUsDmEViyYHdFoQZVw {     justify-content: center;   } }
+.fsfgcSxGgvkMzzQYHjtgFg {   width: 900px;   height: 44px;   max-width: 100%;   background: #5CB9F7;   display: flex;   justify-content: space-between;   align-items: center;   text-decoration: none !important;   font-size: 16px;   color: #fff !important;   font-family: arial, sans-serif;   overflow: hidden; }    .fsfgcSxGgvkMzzQYHjtgFg button {   border: none;   background: #8EE000;   color: #fff;   outline: none;   font-size: 1em;   padding: 0.5em 1.2em;   margin-left: 0.4em;   border-radius: 2em;   text-transform: uppercase;   font-weight: 600;   cursor: pointer;   transition: all 0.3s; }  button:hover {   transform: scale(1.05); }  .hUzbdjPtLidhhegbjhbcug:hover span {   display: none; }  .hUzbdjPtLidhhegbjhbcug:hover span:nth-child(2) {   display: block; }  .hUzbdjPtLidhhegbjhbcug {   display: flex;   align-items: center;   color: #fff; }    .hUzbdjPtLidhhegbjhbcug span {   margin-left: 0.1em;   font-size: 1em;   font-weight: 700;   letter-spacing: 0.5px;   font-size: 20px;   width: 11em;   text-align: center; }  .gAwbRdpdNljOKiuPAVNOpg {   display: inline-block; }  .hUzbdjPtLidhhegbjhbcug span:nth-child(2) {   display: none; }  .HtmXygHuboPeJfCifkfHXg {   display: flex;   background: #586A91;   height: 44px;   align-items: center;   justify-content: center;   padding: 0 1em 0 0.5em;   position: relative;   z-index: 2; }    .HtmXygHuboPeJfCifkfHXg:after {   position: absolute;   right: 100%;   top: 50%;   content: "";   width: 36px;   height: 36px;   background: #586A91;   border-radius: 0.5em;   transform: translate(50%, -50%) rotate(45deg);   z-index: -1; }    .HtmXygHuboPeJfCifkfHXg > span {   margin-right: 1em;   font-weight: 600;   font-size: 16px;   letter-spacing: 0.5px;   margin-top: 0.1em; }  @media (max-width: 725px) {   .fsfgcSxGgvkMzzQYHjtgFg button {     display: none;   }   .hUzbdjPtLidhhegbjhbcug {     margin-left: 1em;   } }   @media (max-width: 550px) {   .HtmXygHuboPeJfCifkfHXg span span {     display: none;   } }  @media (max-width: 465px) {   .HtmXygHuboPeJfCifkfHXg {     display: none;   }   .fsfgcSxGgvkMzzQYHjtgFg {     justify-content: center;   } }
+.kpPbFUsDmEViyYHdFoQZVw {   width: 900px;   height: 44px;   max-width: 100%;   background: #fff;   display: flex;   justify-content: space-between;   align-items: center;   text-decoration: none !important;   font-size: 16px;   color: #fff !important;   font-family: arial, sans-serif;   overflow: hidden; }    .kpPbFUsDmEViyYHdFoQZVw button {   border: none;   background: #8EE000;   color: #fff;   outline: none;   font-size: 1em;   padding: 0.5em 1.2em;   margin-left: 0.4em;   border-radius: 2em;   text-transform: uppercase;   font-weight: 600;   cursor: pointer;   transition: all 0.3s; }  button:hover {   transform: scale(1.05); }  .bEebZfiVANmxzpjhfmgPgA:hover span {   display: none; }  .bEebZfiVANmxzpjhfmgPgA:hover span:nth-child(2) {   display: block; }  .bEebZfiVANmxzpjhfmgPgA {   display: flex;   align-items: center;   color: #5CB9F7; }    .bEebZfiVANmxzpjhfmgPgA span {   margin-left: 0.1em;   font-size: 1em;   font-weight: 700;   letter-spacing: 0.5px;   font-size: 20px;   width: 11em;   text-align: center; }  .yfMbpfcnPGyIsvdMQaYwMw {   display: inline-block; }  .bEebZfiVANmxzpjhfmgPgA span:nth-child(2) {   display: none; }  .cKlIdtjSoqSjjxMKGaDhcQ {   display: flex;   background: #586A91;   height: 44px;   align-items: center;   justify-content: center;   padding: 0 1em 0 0.5em;   position: relative;   z-index: 2; }    .cKlIdtjSoqSjjxMKGaDhcQ:after {   position: absolute;   right: 100%;   top: 50%;   content: "";   width: 36px;   height: 36px;   background: #586A91;   border-radius: 0.5em;   transform: translate(50%, -50%) rotate(45deg);   z-index: -1; }    .cKlIdtjSoqSjjxMKGaDhcQ > span {   margin-right: 1em;   font-weight: 600;   font-size: 16px;   letter-spacing: 0.5px;   margin-top: 0.1em; }  @media (max-width: 725px) {   .kpPbFUsDmEViyYHdFoQZVw button {     display: none;   }   .bEebZfiVANmxzpjhfmgPgA {     margin-left: 1em;   } }   @media (max-width: 550px) {   .cKlIdtjSoqSjjxMKGaDhcQ span span {     display: none;   } }  @media (max-width: 465px) {   .cKlIdtjSoqSjjxMKGaDhcQ {     display: none;   }   .kpPbFUsDmEViyYHdFoQZVw {     justify-content: center;   } }
+.pBjpegpqpbbNxhkgnLesuA {   width: 900px;   height: 44px;   margin: 0 auto;   background: #fff;   max-width: 100%;   display: flex;   justify-content: space-between;   align-items: center;   text-decoration: none !important;   color: #000 !important;   font-family: arial, sans-serif;   overflow: hidden; } .pBjpegpqpbbNxhkgnLesuA:hover {   color: #fff;   background: #715AD0; } .pBjpegpqpbbNxhkgnLesuA:hover .hcGoUggroxddFdNbaarxjw span:nth-child(1) {   display: none; } .pBjpegpqpbbNxhkgnLesuA:hover .hcGoUggroxddFdNbaarxjw span:nth-child(2) {   display: block; } .pBjpegpqpbbNxhkgnLesuA:hover .WhihpaajMehNzWBthYhjjw span:nth-child(1) {   display: none;   color: #000; } .pBjpegpqpbbNxhkgnLesuA:hover .WhihpaajMehNzWBthYhjjw span:nth-child(2) {   display: block;   color: #000; } .pBjpegpqpbbNxhkgnLesuA:hover .hcGoUggroxddFdNbaarxjw {   background: #fff;   color: #000; } .pBjpegpqpbbNxhkgnLesuA:hover .WhihpaajMehNzWBthYhjjw {   background: #fff;   color: #000; } .pBjpegpqpbbNxhkgnLesuA:hover .hcGoUggroxddFdNbaarxjw:after {   background: #715AD0; } .pBjpegpqpbbNxhkgnLesuA:hover .hcGoUggroxddFdNbaarxjw:before {   background: #715AD0; } .pBjpegpqpbbNxhkgnLesuA:hover .hcGoUggroxddFdNbaarxjw span {   color: #000; } .pBjpegpqpbbNxhkgnLesuA:hover .WhihpaajMehNzWBthYhjjw:after {   background: #715AD0; } .pBjpegpqpbbNxhkgnLesuA:hover .WhihpaajMehNzWBthYhjjw:before {   background: #715AD0; } .pBjpegpqpbbNxhkgnLesuA:hover .bQzTgCxxdffqjiIhcfyfKQ {   color: #fff; } .pBjpegpqpbbNxhkgnLesuA:hover .bQzTgCxxdffqjiIhcfyfKQ:before {   background: #fff; } .pBjpegpqpbbNxhkgnLesuA:hover .bQzTgCxxdffqjiIhcfyfKQ:after {   background: #fff; } .pBjpegpqpbbNxhkgnLesuA .bQzTgCxxdffqjiIhcfyfKQ {   display: flex;   height: 32px;   align-items: center;   justify-content: center;   border-radius: 5px;   padding: 0 1em;   position: relative;   z-index: 2;   font-size: 18px;   color: #000;   width: 160px; } .pBjpegpqpbbNxhkgnLesuA .bQzTgCxxdffqjiIhcfyfKQ:after{   position: absolute;   right: 98%;   top: 50%;   content: "";   width: 25px;   height: 25px;   background: #715AD0;   border-radius: 0.3em;   transform: translate(50%, -50%) rotate(45deg);   z-index: -1; } .pBjpegpqpbbNxhkgnLesuA .bQzTgCxxdffqjiIhcfyfKQ:before{   position: absolute;   right: 2%;   top: 50%;   content: "";   width: 25px;   height: 25px;   background: #715AD0;   border-radius: 0.3em;   transform: translate(50%, -50%) rotate(45deg);   z-index: -1; } .pBjpegpqpbbNxhkgnLesuA .bQzTgCxxdffqjiIhcfyfKQ span {   font-size: 26px;   font-family: Existence;   font-weight: 600; } .pBjpegpqpbbNxhkgnLesuA .bQzTgCxxdffqjiIhcfyfKQ span:hover {   color: #fff;   text-decoration: none; } .pBjpegpqpbbNxhkgnLesuA .hcGoUggroxddFdNbaarxjw {   display: flex;   background: #715AD0;   height: 30px;   align-items: center;   justify-content: center;   border-radius: 5px;   padding: 0 1em;   margin-left: 1em;   position: relative;   z-index: 2;   font-size: 14px;   color: #fff;   width: 220px } .pBjpegpqpbbNxhkgnLesuA .hcGoUggroxddFdNbaarxjw:after{   position: absolute;   right: 102%;   top: 50%;   content: "";   width: 18px;   height: 18px;   background: #fff;   border-radius: 0.3em;   transform: translate(50%, -50%) rotate(45deg);   z-index: 2; } .pBjpegpqpbbNxhkgnLesuA .hcGoUggroxddFdNbaarxjw:before{   position: absolute;   right: -2%;   top: 50%;   content: "";   width: 18px;   height: 18px;   background: #fff;   border-radius: 0.3em;   transform: translate(50%, -50%) rotate(45deg);   z-index: 3; } .pBjpegpqpbbNxhkgnLesuA .hcGoUggroxddFdNbaarxjw span {   color: #fff;   font-size: 13px;   line-height: 13px; } .pBjpegpqpbbNxhkgnLesuA .hcGoUggroxddFdNbaarxjw span:nth-child(2) {   display: none; } .pBjpegpqpbbNxhkgnLesuA .WhihpaajMehNzWBthYhjjw{   display: flex;   flex-direction: column;   height: 44px;   align-items: center;   justify-content: center;   padding: 0 1em;   position: relative;   z-index: 2;   width: 220px; } .pBjpegpqpbbNxhkgnLesuA .WhihpaajMehNzWBthYhjjw span {   color: #fff;   font-size: 13px;   line-height: 13px; } .pBjpegpqpbbNxhkgnLesuA .WhihpaajMehNzWBthYhjjw span:nth-child(2) {   display: none; } .pBjpegpqpbbNxhkgnLesuA .WhihpaajMehNzWBthYhjjw {   display: flex;   background: #715AD0;   height: 30px;   align-items: center;   justify-content: center;   border-radius: 5px;   padding: 0 1em;   margin-right: 1em;   position: relative;   z-index: 2;   font-size: 14px;   color: #fff;   width: 220px } .pBjpegpqpbbNxhkgnLesuA .WhihpaajMehNzWBthYhjjw:after{   position: absolute;   right: 102%;   top: 50%;   content: "";   width: 18px;   height: 18px;   background: #fff;   border-radius: 0.3em;   transform: translate(50%, -50%) rotate(45deg);   z-index: 2; } .pBjpegpqpbbNxhkgnLesuA .WhihpaajMehNzWBthYhjjw:before{   position: absolute;   right: -2%;   top: 50%;   content: "";   width: 18px;   height: 18px;   background: #fff;   border-radius: 0.3em;   transform: translate(50%, -50%) rotate(45deg);   z-index: 3; }
+.wgWgNXxeZQpzSehhiLcJqQ {   width: 900px;   height: 44px;   margin: 0 auto;   background: #715AD0;   max-width: 100%;   display: flex;   justify-content: space-between;   align-items: center;   text-decoration: none !important;   color: #fff !important;   font-family: arial, sans-serif;   overflow: hidden; } .wgWgNXxeZQpzSehhiLcJqQ:hover {   color: #fff; } .wgWgNXxeZQpzSehhiLcJqQ:hover .zWdaTbfNRjXOaVaajTYHgw span:nth-child(1) {   display: none; } .wgWgNXxeZQpzSehhiLcJqQ:hover .zWdaTbfNRjXOaVaajTYHgw span:nth-child(2) {   display: block; } .wgWgNXxeZQpzSehhiLcJqQ:hover .zSJHXHiMWlZbFyEqajHJcw span:nth-child(2) {   display: none; } .wgWgNXxeZQpzSehhiLcJqQ:hover .zSJHXHiMWlZbFyEqajHJcw span:nth-child(3) {   display: block; } .wgWgNXxeZQpzSehhiLcJqQ .dMaNCKPhPVrjjmMrDlMhOA {   display: flex;   background: #fff;   height: 32px;   align-items: center;   justify-content: center;   border-radius: 5px;   padding: 0 1em;   margin-right: 1em;   position: relative;   z-index: 2;   font-size: 18px;   color: #000;   width: 150px } // forma mid 1 .wgWgNXxeZQpzSehhiLcJqQ .dMaNCKPhPVrjjmMrDlMhOA:after{   position: absolute;   right: 90%;   top: 115%;   content: "";   width: 22px;   height: 22px;   background: #715AD0;   border-radius: 0.3em;   transform: translate(50%, -50%) rotate(45deg);   z-index: -1; } .wgWgNXxeZQpzSehhiLcJqQ .dMaNCKPhPVrjjmMrDlMhOA:before{   position: absolute;   right: 10%;   top: -15%;   content: "";   width: 22px;   height: 22px;   background: #715AD0;   border-radius: 0.3em;   transform: translate(50%, -50%) rotate(45deg);   z-index: -1; } // forma mid 2 .wgWgNXxeZQpzSehhiLcJqQ .dMaNCKPhPVrjjmMrDlMhOA:after{   position: absolute;   right: 98%;   top: 50%;   content: "";   width: 25px;   height: 25px;   background: #fff;   border-radius: 0.3em;   transform: translate(50%, -50%) rotate(45deg);   z-index: -1; } .wgWgNXxeZQpzSehhiLcJqQ .dMaNCKPhPVrjjmMrDlMhOA:before{   position: absolute;   right: 2%;   top: 50%;   content: "";   width: 25px;   height: 25px;   background: #fff;   border-radius: 0.3em;   transform: translate(50%, -50%) rotate(45deg);   z-index: -1; } .wgWgNXxeZQpzSehhiLcJqQ .dMaNCKPhPVrjjmMrDlMhOA span {   font-size: 24px;   font-family: Existence;   font-weight: 600; } .wgWgNXxeZQpzSehhiLcJqQ .dMaNCKPhPVrjjmMrDlMhOA span:hover {   color: #000;   text-decoration: none; } .wgWgNXxeZQpzSehhiLcJqQ .zWdaTbfNRjXOaVaajTYHgw {   display: flex;   height: 44px;   flex-direction: column;   align-items: center;   justify-content: center;   padding: 0 1em;   position: relative;   z-index: 2;   width: 230px; } .wgWgNXxeZQpzSehhiLcJqQ .zWdaTbfNRjXOaVaajTYHgw:after{   position: absolute;   right: 81%;   top: 70%;   content: "";   width: 14px;   height: 14px;   background: #715AD0;   border-radius: 0.3em;   transform: translate(50%, -50%) rotate(45deg);   z-index: 2; } .wgWgNXxeZQpzSehhiLcJqQ .zWdaTbfNRjXOaVaajTYHgw:before{   position: absolute;   right: 19%;   top: 70%;   content: "";   width: 14px;   height: 14px;   background: #715AD0;   border-radius: 0.3em;   transform: translate(50%, -50%) rotate(45deg);   z-index: 3; } .wgWgNXxeZQpzSehhiLcJqQ .zWdaTbfNRjXOaVaajTYHgw span:nth-child(3) {   display: flex;   background: #fff;   height: 18px;   align-items: center;   justify-content: center;   border-radius: 5px;   padding: 0 1em;   margin-top: 0.35em;   position: relative;   z-index: 2;   font-size: 14px;   color: #000;   width: 130px } .wgWgNXxeZQpzSehhiLcJqQ .zWdaTbfNRjXOaVaajTYHgw span {   color: #fff;   font-size: 13px;   line-height: 13px; } .wgWgNXxeZQpzSehhiLcJqQ .zWdaTbfNRjXOaVaajTYHgw span:nth-child(2) {   display: none; } .wgWgNXxeZQpzSehhiLcJqQ .zSJHXHiMWlZbFyEqajHJcw{   display: flex;   flex-direction: column;   height: 44px;   align-items: center;   justify-content: center;   padding: 0 1em;   position: relative;   z-index: 2;   width: 230px; } .wgWgNXxeZQpzSehhiLcJqQ .zSJHXHiMWlZbFyEqajHJcw span {   color: #fff;   font-size: 13px;   line-height: 13px; } .wgWgNXxeZQpzSehhiLcJqQ .zSJHXHiMWlZbFyEqajHJcw span:nth-child(3) {   display: none; } .wgWgNXxeZQpzSehhiLcJqQ .zSJHXHiMWlZbFyEqajHJcw span:nth-child(1) {   display: flex;   background: #fff;   height: 18px;   align-items: center;   justify-content: center;   border-radius: 5px;   margin-bottom: 0.35em;   padding: 0 1em;   position: relative;   z-index: 2;   font-size: 14px;   color: #000;   width: 130px } .wgWgNXxeZQpzSehhiLcJqQ .zSJHXHiMWlZbFyEqajHJcw:after{   position: absolute;   right: 81%;   top: 30%;   content: "";   width: 14px;   height: 14px;   background: #715AD0;   border-radius: 0.3em;   transform: translate(50%, -50%) rotate(45deg);   z-index: 2; } .wgWgNXxeZQpzSehhiLcJqQ .zSJHXHiMWlZbFyEqajHJcw:before{   position: absolute;   right: 19%;   top: 30%;   content: "";   width: 14px;   height: 14px;   background: #715AD0;   border-radius: 0.3em;   transform: translate(50%, -50%) rotate(45deg);   z-index: 3; }
+.LwfcddaLKRqqoCaYuSacMA {   background-color:#142155;   width:912px;   height:42px;   display:flex;   justify-content:flex-start;   align-items:center;   position:relative;   padding-left: 20px;   overflow: hidden; }  .LwfcddaLKRqqoCaYuSacMA > a {   position: absolute;   width: 932px;   height: 42px;   margin-left: -20px;   z-index: 44; }  .LwfcddaLKRqqoCaYuSacMA > img:nth-child(2) {   margin-right: 48px;   margin-bottom: 4px; }  .LwfcddaLKRqqoCaYuSacMA > img:nth-child(3) {   margin-right: 48px;   opacity: 1;   transition: opacity 0.2s linear, margin-left 0.2s cubic-bezier(0.05, 0.8, 0.05, 0.8) 0.1s, margin-right 0.2s cubic-bezier(0.05, 0.8, 0.05, 0.8) 0.3s; }  .LwfcddaLKRqqoCaYuSacMA > img:nth-child(4) {   margin-right: 14px;   transition: opacity 0.3s linear; }  .LwfcddaLKRqqoCaYuSacMA > .mVfVAGWhbFbbxsyjHZGyzg {    background-color:#fff;    width:48px;    height:16px;    padding:4px 8px;    transition: opacity 0.3s linear; }  .LwfcddaLKRqqoCaYuSacMA > .mVfVAGWhbFbbxsyjHZGyzg > img {    width:48px; }  .LwfcddaLKRqqoCaYuSacMA > svg {    position:absolute;    top:0;    left:-184px; }  .LwfcddaLKRqqoCaYuSacMA:hover > .rahQWCjuafiXxJvXMWSxdw > .yeVAejxxxRdOjxsjQEHXhg {   right: 0;   transition: all 0.3s cubic-bezier(0.05, 0.8, 0.05, 0.8); } .LwfcddaLKRqqoCaYuSacMA:hover > img:nth-child(3) {   opacity: 0;   margin-left: 880px;   margin-right: 600px; } .LwfcddaLKRqqoCaYuSacMA:hover > img:nth-child(4) {   opacity: 0; } .LwfcddaLKRqqoCaYuSacMA:hover > .mVfVAGWhbFbbxsyjHZGyzg {   opacity: 0; }  .rahQWCjuafiXxJvXMWSxdw {   position:absolute;   top:0;   right:0;   height:42px;   width:800px;   overflow: hidden; }  .rahQWCjuafiXxJvXMWSxdw > .yeVAejxxxRdOjxsjQEHXhg {   position: absolute;   height:42px;   width:760px;   right: -820px;   top: 0;   background-color:#fff;   transition: all 0.2s cubic-bezier(0.8, 0.3, 0.8, 0.3); }  .rahQWCjuafiXxJvXMWSxdw > .yeVAejxxxRdOjxsjQEHXhg::after {   content: "";   position: absolute;   border: 0px solid transparent;   border-top: 40px solid #fff;   border-left: 42px solid transparent;   width: 0;   height: 0;   top: 1px;   left: -40px;   transform: rotate(90deg); }  .rahQWCjuafiXxJvXMWSxdw > .yeVAejxxxRdOjxsjQEHXhg > img {   margin-left: 185px;   margin-top: 11px; }
+.nounderline:hover {text-decoration:none}
+.exempttable {display:inline-table !important}
+.bbca table, .bbca tbody, .bbca tr, .bbca td{
+	display: inline-block !important;
+	min-width: 0px !important;
+	text-align: center !important;
+}
+.gunbot td{text-align:left !important}
+.olddiv{display:block}
+.cryptokg {display:inline-block;padding:2px;font-size:17px;height:42px;width:500px;background-color:white; font-weight:700;color:orange} .cryptokg a:link{color:orange} .cryptokg a:hover{color:orange} .cryptokg a:visited{color:orange}
+</style>
+<link rel="stylesheet" type="text/css" href="https://bitcointalk.org/extra2.css" />
+<link rel="stylesheet" type="text/css" href="https://bitcointalk.org/extra3.css" />
+<link rel="stylesheet" type="text/css" href="https://bitcointalk.org/extra.css" />
+
+	<link rel="help" href="https://bitcointalk.org/index.php?action=help" target="_blank" />
+	<link rel="search" href="https://bitcointalk.org/index.php?action=search" />
+	<link rel="contents" href="https://bitcointalk.org/index.php" />
+	<link rel="alternate" type="application/rss+xml" title="Bitcoin Forum - RSS" href="https://bitcointalk.org/index.php?type=rss;action=.xml" /><meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+		<link rel="stylesheet" type="text/css" href="https://bitcointalk.org/Themes/default/help.css" />
+
+	<script language="JavaScript" type="text/javascript"><!-- // --><![CDATA[
+		var current_header = false;
+
+		function shrinkHeader(mode)
+		{
+			document.cookie = "upshrink=" + (mode ? 1 : 0);
+			document.getElementById("upshrink").src = smf_images_url + (mode ? "/upshrink2.gif" : "/upshrink.gif");
+
+			document.getElementById("upshrinkHeader").style.display = mode ? "none" : "";
+			document.getElementById("upshrinkHeader2").style.display = mode ? "none" : "";
+
+			current_header = mode;
+		}
+	// ]]></script>
+		<script language="JavaScript" type="text/javascript"><!-- // --><![CDATA[
+			var current_header_ic = false;
+
+			function shrinkHeaderIC(mode)
+			{
+				document.cookie = "upshrinkIC=" + (mode ? 1 : 0);
+				document.getElementById("upshrink_ic").src = smf_images_url + (mode ? "/expand.gif" : "/collapse.gif");
+
+				document.getElementById("upshrinkHeaderIC").style.display = mode ? "none" : "";
+
+				current_header_ic = mode;
+			}
+		// ]]></script></head>
+<body>
+	<div class="tborder" >
+		<table width="100%" cellpadding="0" cellspacing="0" border="0" id="smfheader">
+			<tr>
+				<td class="catbg" height="32">
+					<span style="font-family: Verdana, sans-serif; font-size: 140%; ">Bitcoin Forum</span>
+				</td>
+				<td align="right" class="catbg">
+					<img src="https://bitcointalk.org/Themes/custom1/images/smflogo.gif" style="margin: 2px;" alt="" />
+				</td>
+			</tr>
+		</table>
+		<table width="100%" cellpadding="0" cellspacing="0" border="0" >
+			<tr>
+				<td class="titlebg2" height="32" align="right">
+					<span class="smalltext">April 30, 2019, 04:43:25 PM</span>
+					<a href="#" onclick="shrinkHeader(!current_header); return false;"><img id="upshrink" src="https://bitcointalk.org/Themes/custom1/images/upshrink.gif" alt="*" title="Shrink or expand the header." align="bottom" style="margin: 0 1ex;" /></a>
+				</td>
+			</tr>
+			<tr id="upshrinkHeader">
+				<td valign="top" colspan="2">
+					<table width="100%" class="bordercolor" cellpadding="8" cellspacing="1" border="0" style="margin-top: 1px;">
+						<tr>
+							<td colspan="2" width="100%" valign="top" class="windowbg2" id="variousheadlinks"><span class="middletext">Welcome, <b>Guest</b>. Please <a href="https://bitcointalk.org/index.php?action=login">login</a> or <a href="https://bitcointalk.org/index.php?action=register">register</a>.				</span>
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</table>
+		<table id="upshrinkHeader2" width="100%" cellpadding="4" cellspacing="0" border="0">
+			<tr>
+				<td width="90%" class="titlebg2">
+					<span class="smalltext"><b>News</b>: Latest Bitcoin Core release: <a class="ul" href="https://bitcoin.org/en/download">0.17.1</a> [<a class="ul" href="https://bitcointalk.org/bitcoin-0.17.1.torrent">Torrent</a>]</span>
+				</td>
+				<td class="titlebg2" align="right" nowrap="nowrap" valign="top">
+					<form action="https://bitcointalk.org/index.php?action=search2" method="post" accept-charset="ISO-8859-1" style="margin: 0;">
+						<a href="https://bitcointalk.org/index.php?action=search;advanced"><img src="https://bitcointalk.org/Themes/custom1/images/filter.gif" align="middle" style="margin: 0 1ex;" alt="" /></a>
+						<input type="text" name="search" value="" style="width: 190px;" />&nbsp;
+						<input type="submit" name="submit" value="Search" style="width: 11ex;" />
+						<input type="hidden" name="advanced" value="0" />
+					</form>
+				</td>
+			</tr>
+		</table>
+	</div>
+			<table cellpadding="0" cellspacing="0" border="0" style="margin-left: 10px;">
+				<tr>
+					<td class="maintab_first">&nbsp;</td>
+				<td valign="top" class="maintab_back">
+					<a href="https://bitcointalk.org/index.php">Home</a>
+				</td><td class="maintab_active_first">&nbsp;</td>
+				<td valign="top" class="maintab_active_back">
+					<a href="https://bitcointalk.org/index.php?action=help">Help</a>
+				</td><td class="maintab_active_last">&nbsp;</td>
+				<td valign="top" class="maintab_back">
+					<a href="https://bitcointalk.org/index.php?action=search">Search</a>
+				</td>
+				<td valign="top" class="maintab_back">
+					<a href="https://bitcointalk.org/index.php?action=login">Login</a>
+				</td>
+				<td valign="top" class="maintab_back">
+					<a href="https://bitcointalk.org/index.php?action=register">Register</a>
+				</td>
+                                <td valign="top" class="maintab_back">
+                                        <a href="/more.php">More</a>
+                                </td>
+				<td class="maintab_last">&nbsp;</td>
+			</tr>
+		</table>
+	<div id="bodyarea" style="padding: 1ex 0px 2ex 0px;">
+	<div class="tborder" style="margin-top: 1ex;">
+		<div id="helpmenu" class="titlebg" style="padding: 4px;"><a href="https://bitcointalk.org/index.php?action=help;page=index">Introduction</a> &bull; <a href="https://bitcointalk.org/index.php?action=help;page=registering">Registering</a> &bull; <a href="https://bitcointalk.org/index.php?action=help;page=loginout">Logging In</a> &bull; <span class="error" style="font-weight: bold;">Profile</span> &bull; <a href="https://bitcointalk.org/index.php?action=help;page=post">Posting</a> &bull; <a href="https://bitcointalk.org/index.php?action=help;page=pm">Personal Message</a> &bull; <a href="https://bitcointalk.org/index.php?action=help;page=searching">Searching</a>
+		</div>
+		<div style="padding: 2ex;" id="helpmain" class="windowbg2">
+	<p>The profile screen in the default theme normally consists of a single main pane, with an additional menu to the left to lead you through the editing options for your own profile. Please note that, because an SMF forum may be customized extensively by its administrator(s), the features and user permissions described here are typical rather than definitive.</p>
+	<p>To edit your own profile, start by selecting <strong>Profile</strong> from the <a href="https://bitcointalk.org/index.php?action=help;page=index#main">main menu</a> or clicking your own username. You can also view (but not edit) other members' profiles by clicking on their names.</p>
+	<ol>
+		<li>
+			<a href="https://bitcointalk.org/index.php?action=help;page=profile#all">Information Normally Available to all Members</a>
+			<ol class="la">
+				<li><a href="https://bitcointalk.org/index.php?action=help;page=profile#info-all">Profile Info</a></li>
+			</ol>
+		</li>
+				<li>
+			<a href="https://bitcointalk.org/index.php?action=help;page=profile#owners">Settings Normally Available to Profile Owners</a>
+			<ol class="la">
+				<li><a href="https://bitcointalk.org/index.php?action=help;page=profile#edit-owners">Modify Profile</a></li>
+				<li><a href="https://bitcointalk.org/index.php?action=help;page=profile#actions-owners">Actions</a></li>
+			</ol>
+		</li>
+		<li>
+			<a href="https://bitcointalk.org/index.php?action=help;page=profile#admins">Settings Normally Restricted to Admins</a>
+			<ol class="la">
+				<li><a href="https://bitcointalk.org/index.php?action=help;page=profile#info-admins">Profile Info</a></li>
+				<li><a href="https://bitcointalk.org/index.php?action=help;page=profile#edit-admins">Modify Profile</a></li>
+				<li><a href="https://bitcointalk.org/index.php?action=help;page=profile#actions-admins">Actions</a></li>
+			</ol>
+		</li>
+	</ol>
+	<h2 id="all">Information Normally Available to all Members</h2>
+	<h3 id="info-all">Profile Info</h3>
+	<div style="border: solid 1px;">
+		<div style="padding: 2px 30px;">
+			<table width="100%" border="0" cellpadding="0" cellspacing="0" style="padding-top: 1ex;">
+				<tr>
+					<td width="100%" valign="top">
+						<table border="0" cellpadding="4" cellspacing="1" align="center" class="bordercolor">
+							<tr class="titlebg">
+								<td align="left" width="420" height="26"><img src="https://bitcointalk.org/Themes/custom1/images/icons/profile_sm.gif" alt="" border="0" align="top" />&nbsp; Username:&nbsp;Member's login name</td>
+								<td align="center" width="150">Picture/Text</td>
+							</tr>
+							<tr>
+								<td class="windowbg" width="420" align="left">
+									<table border="0" cellspacing="0" cellpadding="2" width="100%">
+										<tr>
+											<td><b>Name:</b></td>
+											<td>Member's screen name</td>
+										</tr>
+										<tr>
+											<td><b>Posts:</b></td>
+											<td>Member's number of posts</td>
+										</tr>
+										<tr>
+											<td><b>Position:</b></td>
+											<td>Member's member group or post group</td>
+										</tr>
+										<tr>
+											<td><b>Date Registered:</b></td>
+											<td>Date and time of registration</td>
+										</tr>
+										<tr>
+											<td><b>Last Active:</b></td>
+											<td>Date and time last active</td>
+										</tr>
+										<tr>
+											<td colspan="2">
+												<hr size="1" width="100%" class="hrcolor" />
+											</td>
+										</tr>
+										<tr>
+											<td><b>ICQ:</b></td>
+											<td></td>
+										</tr>
+										<tr>
+											<td><b>AIM:</b></td>
+											<td></td>
+										</tr>
+										<tr>
+											<td><b>MSN:</b></td>
+											<td></td>
+										</tr>
+										<tr>
+											<td><b>YIM:</b></td>
+											<td></td>
+										</tr>
+										<tr>
+											<td><b>Email:</b></td>
+											<td><a href="mailto:member@their.address" class="board">member@their.address</a></td>
+										</tr>
+										<tr>
+											<td><b>Website:</b></td>
+											<td><a href="http://www.simplemachines.org/" target="_blank"></a></td>
+										</tr>
+										<tr>
+											<td><b>Current Status:</b></td>
+											<td><i><a href="https://bitcointalk.org/index.php?action=help;page=pm" title="Personal Message (Online)  "><img src="https://bitcointalk.org/Themes/custom1/images/useron.gif" border="0" align="middle" alt="Online" /></a> <span class="smalltext">Online</span></i></td>
+										</tr>
+										<tr>
+											<td colspan="2">
+												<hr size="1" width="100%" class="hrcolor" />
+											</td>
+										</tr>
+										<tr>
+											<td><b>Gender:</b></td>
+											<td></td>
+										</tr>
+										<tr>
+											<td><b>Age:</b></td>
+											<td>N/A</td>
+										</tr>
+										<tr>
+											<td><b>Location:</b></td>
+											<td></td>
+										</tr>
+										<tr>
+											<td><b>Local Time:</b></td>
+											<td>Current date and time in member's time zone</td>
+										</tr>
+										<tr>
+											<td><b>Language:</b></td>
+											<td></td>
+										</tr>
+										<tr>
+											<td colspan="2">
+												<hr size="1" width="100%" class="hrcolor" />
+											</td>
+										</tr>
+										<tr>
+											<td colspan="2" height="25">
+												<table border="0">
+													<tr>
+														<td><b>Signature:</b></td>
+													</tr>
+													<tr>
+														<td colspan="2"></td>
+													</tr>
+												</table>
+											</td>
+										</tr>
+									</table>
+								</td>
+								<td class="windowbg" valign="middle" align="center" width="150"><br />
+								<br /></td>
+							</tr>
+							<tr class="titlebg">
+								<td colspan="2" align="left">Additional Information:</td>
+							</tr>
+							<tr>
+								<td class="windowbg2" colspan="2" align="left"><a href="https://bitcointalk.org/index.php?action=help;page=profile#all" class="board">Send this member a personal message.</a><br />
+								<br />
+								<a href="https://bitcointalk.org/index.php?action=help;page=profile#all" class="board">Show the last posts of this person.</a><br />
+								<a href="https://bitcointalk.org/index.php?action=help;page=profile#all" class="board">Show general statistics for this member.</a><br />
+								<br /></td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table><br />
+		</div>
+	</div><br />
+	<ul>
+		<li>This <strong>Summary</strong> screen is not only there to tell you about others, but also the first screen that you see when <a href="https://bitcointalk.org/index.php?action=help;page=profile#owners">editing your own profile</a>.</li>
+		<li>Members may choose to hide their <strong>email address</strong> and/or <strong>online status</strong>.</li>
+		<li>The fields left empty here are not filled in by default, so you should <a href="https://bitcointalk.org/index.php?action=help;page=profile#owners">edit your profile</a> if you wish to display this information.</li>
+		<li>You can send the profile owner a <a href="https://bitcointalk.org/index.php?action=help;page=pm">Personal Message</a> by clicking the <strong>Current Status</strong> <strong>On/Offline Icon</strong> or following the link from <strong>Additional Information</strong> below.</li>
+		<li><strong>Show the last posts of this person</strong> links to a complete paginated listing of the member's posts.</li>
+		<li><strong>Show general statistics for this member</strong> links to a screen of statistics about the member's time online and posting activity.</li>
+	</ul>
+	<h2 id="owners">Settings Normally Available to Profile Owners</h2>
+	<p>While the <strong>Summary</strong> screen is the same as the one shown above and the <strong>Show Posts</strong> and <strong>Show Stats</strong> links are effectively duplicates, profile owners are also provided with the tools to customize their own profiles:</p>
+	<h3 id="edit-owners">Modify Profile</h3>
+	<ul>
+		<li><strong>Account Related Settings</strong> enables you to make changes to your <strong>display name</strong> (your <strong>login</strong> or <strong>username</strong> can only be changed by an administrator), preferred <strong>language</strong> (if the forum administrators have installed alternative language packs), <strong>email</strong> and <strong>password</strong> settings.</li>
+		<li><strong>Forum Profile Information</strong> enables you to enter optional personal details such as <strong>gender</strong>, <strong>birthdate</strong>, <strong>location</strong>, <strong>website</strong> and <strong>instant messenger</strong> contact information. It's also where you go to enter your own <strong>personal text</strong> and <strong>signature</strong> and select an <strong>avatar</strong> (personal picture) from a list (if provided by the forum administrators) or link to one of your own on the web.</li>
+		<li><strong>Look and Layout Preferences</strong> enables you to select your preferred <strong>theme</strong> (forum skin), time zone and format and other personal choices for <strong>layout settings</strong>. Note that the currently selected option in the menu pane is highlighted in bold type:</li>
+	</ul>
+		<div style="border: solid 1px;">
+		<div style="padding: 2px 30px;">
+			<table width="100%" border="0" cellpadding="0" cellspacing="0" style="padding-top: 1ex;">
+				<tr>
+					<td width="180" valign="top">
+						<table border="0" cellpadding="4" cellspacing="1" class="bordercolor" width="170">
+							<tr>
+								<td class="catbg">Profile Info</td>
+							</tr>
+							<tr class="windowbg2">
+								<td class="smalltext"><a href="https://bitcointalk.org/index.php?action=help;page=profile#owners" style="font-size: x-small;" class="board">Summary</a><br />
+								<a href="https://bitcointalk.org/index.php?action=help;page=profile#owners" style="font-size: x-small;" class="board">Show Stats</a><br />
+								<a href="https://bitcointalk.org/index.php?action=help;page=profile#owners" style="font-size: x-small;" class="board">Show Posts</a><br />
+								<br /></td>
+							</tr>
+							<tr>
+								<td class="catbg">Modify Profile</td>
+							</tr>
+							<tr class="windowbg2">
+								<td class="smalltext"><a href="https://bitcointalk.org/index.php?action=help;page=profile#owners" style="font-size: x-small;" class="board">Account Related Settings</a><br />
+								<a href="https://bitcointalk.org/index.php?action=help;page=profile#owners" style="font-size: x-small;" class="board">Forum Profile Information</a><br />
+								<b><a href="https://bitcointalk.org/index.php?action=help;page=profile#owners" style="font-size: x-small;" class="board">Look and Layout Preferences</a></b><br />
+								<a href="https://bitcointalk.org/index.php?action=help;page=profile#owners" style="font-size: x-small;" class="board">Notifications and Email</a><br />
+								<a href="https://bitcointalk.org/index.php?action=help;page=profile#owners" style="font-size: x-small;" class="board">Personal Message Options</a><br />
+								<br /></td>
+							</tr>
+							<tr>
+								<td class="catbg">Actions</td>
+							</tr>
+							<tr class="windowbg2">
+								<td class="smalltext"><a href="https://bitcointalk.org/index.php?action=help;page=profile#owners" style="font-size: x-small;" class="board">Delete this account</a><br />
+								<br /></td>
+							</tr>
+						</table>
+					</td>
+					<td width="100%" valign="top">
+						<form action="https://bitcointalk.org/index.php?action=help;page=profile" method="post" accept-charset="ISO-8859-1">
+							<table border="0" width="85%" cellspacing="1" cellpadding="4" align="center" class="bordercolor">
+								<tr class="titlebg">
+									<td height="26" align="left">&nbsp;<img src="https://bitcointalk.org/Themes/custom1/images/icons/profile_sm.gif" alt="" border="0" align="top" />&nbsp; Edit Profile</td>
+								</tr>
+								<tr>
+									<td class="windowbg" height="25" align="left"><span class="smalltext"><br />
+									This section allows you to customize the look and layout of the forum.<br />
+									<br /></span></td>
+								</tr>
+								<tr>
+									<td class="windowbg2" align="left">
+										<table border="0" width="100%" cellpadding="3">
+											<tr>
+												<td colspan="2" width="40%"><b>Current Theme:</b>&nbsp;Forum or Board Default&nbsp;<a href="https://bitcointalk.org/index.php?action=help;page=profile#owners" class="board">(change)</a></td>
+											</tr>
+											<tr>
+												<td colspan="2">
+													<hr width="100%" size="1" class="hrcolor" />
+												</td>
+											</tr>
+											<tr>
+												<td width="40%"><b>Time Format:</b><br />
+												<a href="https://bitcointalk.org/index.php/index.php?action=helpadmin;help=time_format" onclick="return reqWin(this.href);" class="help"><img src="https://bitcointalk.org/Themes/custom1/images/helptopics.gif" alt="Help" border="0" align="left" style="padding-right: 1ex;" /></a> <span class="smalltext">The format here will be used to show dates throughout this forum.</span></td>
+												<td><select style="margin-bottom: 4px;">
+													<option selected="selected">
+														(Forum Default)
+													</option>
+													<option>
+														Month Day, Year, HH:MM:SS a/pm
+													</option>
+													<option>
+														Month Day, Year, HH:MM:SS (army time.)
+													</option>
+													<option>
+														YYYY-MM-DD, HH:MM:SS
+													</option>
+													<option>
+														DD Month YYYY, HH:MM:SS
+													</option>
+													<option>
+														DD-MM-YYYY, HH:MM:SS
+													</option>
+												</select><br />
+												<input type="text" value="" size="30" /></td>
+											</tr>
+											<tr>
+												<td width="40%">
+													<b>Time Offset:</b>
+													<div class="smalltext">
+														Number of hours to +/- to make displayed time equal to your local time.
+													</div>
+												</td>
+												<td class="smalltext"><input type="text" size="5" maxlength="5" value="0" /><br />
+												<em>(Current forum time should be displayed here.)</em></td>
+											</tr>
+											<tr>
+												<td colspan="2">
+													<hr width="100%" size="1" class="hrcolor" />
+												</td>
+											</tr>
+											<tr>
+												<td colspan="2">
+													<br />
+													<table width="100%" cellspacing="0" cellpadding="3">
+														<tr>
+															<td width="28"><input type="checkbox" class="check" /></td>
+															<td>Show board descriptions inside boards.</td>
+														</tr>
+														<tr>
+															<td width="28"><input type="checkbox" class="check" /></td>
+															<td>Show child boards on every page inside boards, not just the first.</td>
+														</tr>
+														<tr>
+															<td width="28"><input type="checkbox" class="check" /></td>
+															<td>Don't show other user's avatars.</td>
+														</tr>
+														<tr>
+															<td width="28"><input type="checkbox" class="check" /></td>
+															<td>Don't show other user's signatures.</td>
+														</tr>
+														<tr>
+															<td width="28"><input type="checkbox" class="check" /></td>
+															<td>Return to topics after posting by default.</td>
+														</tr>
+														<tr>
+															<td width="28"><input type="checkbox" class="check" /></td>
+															<td>Show most recent posts at the top.</td>
+														</tr>
+														<tr>
+															<td width="28"><input type="checkbox" class="check" /></td>
+															<td>Show most recent personal messages at top.</td>
+														</tr>
+														<tr>
+															<td colspan="2">First day of the week on the calendar:
+															<select>
+																<option selected="selected">
+																	Sunday
+																</option>
+																<option>
+																	Monday
+																</option>
+															</select></td>
+														</tr>
+														<tr>
+															<td colspan="2">Use quick reply on topic display: <select>
+																<option selected="selected">
+																	don't show at all
+																</option>
+																<option>
+																	show, off by default
+																</option>
+																<option>
+																	show, on by default
+																</option>
+															</select></td>
+														</tr>
+														<tr>
+															<td colspan="2">Show quick-moderation on message index as&nbsp; <select>
+																<option selected="selected">
+																	don't show.
+																</option>
+																<option>
+																	checkboxes.
+																</option>
+																<option>
+																	icons.
+																</option>
+															</select></td>
+														</tr>
+													</table>
+												</td>
+											</tr>
+											<tr>
+												<td colspan="2">
+													<hr width="100%" size="1" class="hrcolor" />
+												</td>
+											</tr>
+											<tr>
+												<td align="right" colspan="2"><input type="button" value="Change profile" /></td>
+											</tr>
+										</table><br />
+									</td>
+								</tr>
+							</table>
+						</form>
+					</td>
+				</tr>
+			</table><br />
+		</div>
+	</div><br />
+	<ul>
+		<li><strong>Notifications and Email</strong> enables you to select personal preferences for <strong>notifications</strong> (emails about new topics/replies) and lists any notifications that you have set up.</li>
+		<li><strong>Personal Message Options</strong> enables you to set up an <strong>ignore list</strong> (blacklist) for <a href="https://bitcointalk.org/index.php?action=help;page=pm">Personal Messages</a>, to request <strong>notification</strong> of new PMs by email and to <strong>save copies</strong> of your outgoing PMs by default.</li>
+	</ul>
+	<h3 id="actions-owners">Actions</h3>
+	<ul>
+		<li><strong>Delete this account</strong> does exactly what it says! Yes, there's a <strong>confirmation screen</strong>, but it really does <strong>delete your own account</strong>, so be careful...</li>
+	</ul>
+	<h2 id="admins">Settings Normally Restricted to Admins</h2>
+	<p>As well as being able to view/edit any of the details above from other members' profiles, some further options are normally visible to (and executable by) admins only:</p>
+		<div>
+		<div style="width: 180px; float: left; border: none;">
+			<table border="0" cellpadding="4" cellspacing="1" class="bordercolor" width="170">
+				<tr>
+					<td class="catbg">Profile Info</td>
+				</tr>
+				<tr class="windowbg2">
+					<td class="windowbg2"><b><a href="https://bitcointalk.org/index.php?action=help;page=profile#admins" style="font-size: x-small;" class="board">Summary</a></b><br />
+					<a href="https://bitcointalk.org/index.php?action=help;page=profile#admins" style="font-size: x-small;" class="board">Show Stats</a><br />
+					<a href="https://bitcointalk.org/index.php?action=help;page=profile#admins" style="font-size: x-small;" class="board">Show Posts</a><br />
+					<a href="https://bitcointalk.org/index.php?action=help;page=profile#admins" style="font-size: x-small;" class="board">Track User</a><br />
+					<a href="https://bitcointalk.org/index.php?action=help;page=profile#admins" style="font-size: x-small;" class="board">Track IP</a><br />
+					<a href="https://bitcointalk.org/index.php?action=help;page=profile#admins" style="font-size: x-small;" class="board">Show Permissions</a><br />
+					<br /></td>
+				</tr>
+				<tr>
+					<td class="catbg">Modify Profile</td>
+				</tr>
+				<tr class="windowbg2">
+					<td class="windowbg2"><a href="https://bitcointalk.org/index.php?action=help;page=profile#admins" style="font-size: x-small;" class="board">Account Related Settings</a><br />
+					<a href="https://bitcointalk.org/index.php?action=help;page=profile#admins" style="font-size: x-small;" class="board">Forum Profile Information</a><br />
+					<a href="https://bitcointalk.org/index.php?action=help;page=profile#admins" style="font-size: x-small;" class="board">Look and Layout Preferences</a><br />
+					<a href="https://bitcointalk.org/index.php?action=help;page=profile#admins" style="font-size: x-small;" class="board">Notifications and Email</a><br />
+					<a href="https://bitcointalk.org/index.php?action=help;page=profile#admins" style="font-size: x-small;" class="board">Personal Message Options</a><br />
+					<br /></td>
+				</tr>
+				<tr>
+					<td class="catbg">Actions</td>
+				</tr>
+				<tr class="windowbg2">
+					<td class="windowbg2"><a href="https://bitcointalk.org/index.php?action=help;page=profile#admins" style="font-size: x-small;" class="board">Ban this user</a><br />
+					<a href="https://bitcointalk.org/index.php?action=help;page=profile#admins" style="font-size: x-small;" class="board">Delete this account</a><br />
+					<br /></td>
+				</tr>
+			</table>
+		</div><br />
+		<div style="margin: -1.8em 20px 0 200px;">
+			<h3 id="info-admins">Profile Info</h3>
+			<ul>
+				<li><strong>Track User</strong> provides a list of <strong>IP numbers</strong> used by the member, other members who might be in the same <strong>IP range</strong> and <strong>error messages</strong> generated/experienced by the member.</li>
+				<li><strong>Track IP</strong> provides tools for tracking <strong>members</strong>, <strong>messages</strong> and <strong>errors</strong> from any specified <strong>IP range</strong>.</li>
+				<li><strong>Show Permissions</strong> lists the <strong>board permissions</strong> that have been granted to the member and who gave them.</li>
+			</ul>
+			<h3 id="edit-admins">Modify Profile</h3>
+			<ul>
+				<li><strong>Account Related Settings</strong> is basically the same screen as shown to profile owners, but with the additional option to assign members to <strong>member groups</strong>.</li>
+				<li><strong>Forum Profile Information</strong> is basically the same screen as shown to profile owners, but with the additional option to specify <strong>custom titles</strong> for members.</li>
+			</ul>
+			<h3 id="actions-admins">Actions</h3>
+			<ul>
+				<li><strong>Ban this user</strong> provides tools for <strong>banning</strong> users, configuring the <strong>level</strong> of the ban and maintaining a <strong>ban list</strong> noting the details of any bans in force.</li>
+				<li><strong>Delete this account</strong> is similar to the screen of the same name available to all members, but the <strong>confirmation question</strong> is different when it's not your own account that's about to be deleted.</li>
+			</ul>
+		</div>
+	</div><br clear="all" />
+		</div>
+		<div id="helpmenu2" class="titlebg" style="padding: 4px;"><a href="https://bitcointalk.org/index.php?action=help;page=index">Introduction</a> &bull; <a href="https://bitcointalk.org/index.php?action=help;page=registering">Registering</a> &bull; <a href="https://bitcointalk.org/index.php?action=help;page=loginout">Logging In</a> &bull; <span class="error" style="font-weight: bold;">Profile</span> &bull; <a href="https://bitcointalk.org/index.php?action=help;page=post">Posting</a> &bull; <a href="https://bitcointalk.org/index.php?action=help;page=pm">Personal Message</a> &bull; <a href="https://bitcointalk.org/index.php?action=help;page=searching">Searching</a>
+		</div>
+	</div>
+	</div><!--No longer true--><div style="visibility: hidden"><div style="text-align:center">Sponsored by <a class="td_headerandpost5" id="sponsor" href="https://www.privateinternetaccess.com/">Private Internet Access</a>, a Bitcoin-accepting <a href="https://www.privateinternetaccess.com/" title="VPN">VPN</a>.</div></div><script type="text/javascript">
+//<!--
+function detectabp(el) {
+	if(typeof window.getComputedStyle != 'function')
+		return false;
+	if(!el)
+		var el=document.getElementById("sponsor");
+	var s = window.getComputedStyle(el).getPropertyValue("-moz-binding");
+	var s2 = window.getComputedStyle(el).getPropertyValue("display");
+	var detected = typeof s !== "undefined" && s != null && s.length > 0 && s != "none";
+	return detected || (typeof s2 !== "undefined" && s2 != null && s2 == "none");
+}
+function hex(num, length) {
+	str=num.toString(16);
+	while (str.length < length) {
+		str = '0' + str;
+	}
+	return str.substr(0,length);
+
+}
+
+function getabplink(site) {
+	var sites = new Array();sites["https://www.privateinternetaccess.com/"] = 1;
+sites["https://bitcointalk.org/dec/p1.html"] = 2;
+sites["https://fundyourselfnow.com"] = 3;
+sites["https://bountyhive.io"] = 4;
+	site_n=sites[site];
+	if(typeof site_n === 'undefined' || site_n === null || site_n <1 || site_n >150)
+		return site;
+	var code=Math.floor(Math.random()*2100000000);
+	var filler=hex(Math.floor(Math.random()*900000000000000),8);
+	var msg=Math.floor(Math.random()*9999999);
+	var site_c = site_n ^ code;
+	var template = Math.floor(Math.random()*4);
+	if(template==0)
+		template='https://bitcointalk.org/index.php?topic='+msg+'.0;do=watch;sesc=';
+	else if (template==1)
+		template="https://bitcointalk.org/index.php?action=post;msg=" + msg + ";topic=" + msg + ".0;sesc=";
+	else if (template==2)
+		template="https://bitcointalk.org/index.php?action=post;quote="+msg+";topic="+msg+".0;num_replies="+msg+";sesc=";
+	else
+		template="https://bitcointalk.org/index.php?action=ignore;u="+msg+";topic="+msg+";msg="+msg+";sesc=";
+
+	return template + hex(code,8) + hex(code,8) + hex(site_c,8) + filler;
+}
+function antiabp(){
+	if(!detectabp())
+		return;
+	var all_links=document.body.getElementsByTagName('a');
+	var els=new Array();
+	for(var i=0;i<all_links.length;i++) {
+		els.push(all_links[i])
+	}
+	for(var i=0;i<els.length;i++) {
+		if(detectabp(els[i])){
+			var newlink = els[i].cloneNode();
+			newlink.href=getabplink(els[i]);
+			newlink.innerHTML=els[i].innerHTML;
+			els[i].parentNode.insertBefore(newlink, els[i]);
+			els[i].parentNode.removeChild(els[i]);
+		}
+	}
+}
+
+if(window.chrome)
+	window.setTimeout(antiabp, 300);
+else
+	antiabp();
+//-->
+</script><script type="text/javascript">
+//<!--
+Array.prototype.forEach.call(document.getElementsByClassName("userimg"), checkImg);
+//-->
+</script>
+
+	<div id="footerarea" style="text-align: center; padding-bottom: 1ex;">
+		<script language="JavaScript" type="text/javascript"><!-- // --><![CDATA[
+			function smfFooterHighlight(element, value)
+			{
+				element.src = smf_images_url + "/" + (value ? "h_" : "") + element.id + ".gif";
+			}
+		// ]]></script>
+		<table cellspacing="0" cellpadding="3" border="0" align="center" width="100%">
+			<tr>
+				<td width="28%" valign="middle" align="right">
+					<a href="http://www.mysql.com/" target="_blank"><img id="powered-mysql" src="https://bitcointalk.org/Themes/custom1/images/powered-mysql.gif" alt="Powered by MySQL" width="54" height="20" style="margin: 5px 16px;" onmouseover="smfFooterHighlight(this, true);" onmouseout="smfFooterHighlight(this, false);" /></a>
+					<a href="http://www.php.net/" target="_blank"><img id="powered-php" src="https://bitcointalk.org/Themes/custom1/images/powered-php.gif" alt="Powered by PHP" width="54" height="20" style="margin: 5px 16px;" onmouseover="smfFooterHighlight(this, true);" onmouseout="smfFooterHighlight(this, false);" /></a>
+				</td>
+				<td valign="middle" align="center" style="white-space: nowrap;">
+					
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank">Powered by SMF 1.1.19</a> | 
+<a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank">SMF &copy; 2006-2009, Simple Machines</a>
+		</span>
+				</td>
+				<td width="28%" valign="middle" align="left">
+					<a href="http://validator.w3.org/check/referer" target="_blank"><img id="valid-xhtml10" src="https://bitcointalk.org/Themes/custom1/images/valid-xhtml10.gif" alt="Valid XHTML 1.0!" width="54" height="20" style="margin: 5px 16px;" onmouseover="smfFooterHighlight(this, true);" onmouseout="smfFooterHighlight(this, false);" /></a>
+					<a href="http://jigsaw.w3.org/css-validator/check/referer" target="_blank"><img id="valid-css" src="https://bitcointalk.org/Themes/custom1/images/valid-css.gif" alt="Valid CSS!" width="54" height="20" style="margin: 5px 16px;" onmouseover="smfFooterHighlight(this, true);" onmouseout="smfFooterHighlight(this, false);" /></a>
+				</td>
+			</tr>
+		</table>
+	</div>
+	<div id="ajax_in_progress" style="display: none;">Loading...</div>
+</body></html>

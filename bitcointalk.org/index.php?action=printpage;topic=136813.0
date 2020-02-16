@@ -1,0 +1,98 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+		<link rel="canonical" href="https://bitcointalk.org/index.php?topic=136813.0" />
+		<title>Print Page - Desktop Bitcoin client implemented as local webpage?</title>
+		<style type="text/css">
+			body
+			{
+				color: black;
+				background-color: white;
+			}
+			body, td, .normaltext
+			{
+				font-family: Verdana, arial, helvetica, serif;
+				font-size: small;
+			}
+			*, a:link, a:visited, a:hover, a:active
+			{
+				color: black !important;
+			}
+			table
+			{
+				empty-cells: show;
+			}
+			.code
+			{
+				font-size: x-small;
+				font-family: monospace;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.quote
+			{
+				font-size: x-small;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.smalltext, .quoteheader, .codeheader
+			{
+				font-size: x-small;
+			}
+			.largetext
+			{
+				font-size: large;
+			}
+			hr
+			{
+				height: 1px;
+				border: 0;
+				color: black;
+				background-color: black;
+			}
+		</style>
+	</head>
+	<body>
+		<h1 class="largetext">Bitcoin Forum</h1>
+		<h2 class="normaltext">Bitcoin => Bitcoin Technical Support => Topic started by: crazy_rabbit on January 16, 2013, 11:38:54 AM</h2>
+
+		<table width="90%" cellpadding="0" cellspacing="0" border="0">
+			<tr>
+				<td>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Desktop Bitcoin client implemented as local webpage?</b><br />
+					Post by: <b>crazy_rabbit</b> on <b>January 16, 2013, 11:38:54 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">The normal bitcoin client isn&#039;t such a fantastic tool for regular users (read: totally normal users). <br /><br />Wouldn&#039;t it be possible to build an instawallet type service that sat directly on the users main computer? What would be the advantages/disadvantages of this? Obviously you would still need bitcoin running, much like Armory, but would it pave the way for people to develop skins, different layouts, more convenient interfaces? Or would it just be an additional security nightmare?<br /><br /><br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Desktop Bitcoin client implemented as local webpage?</b><br />
+					Post by: <b>BitcoinOxygen</b> on <b>January 22, 2013, 09:58:35 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Blockchain.info already provide a wallet service for newbies to keep their wallets accessible from a web interface while keeping their money secure.<br /><br /><br />Regards<br />BitcoinOxygen<br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Desktop Bitcoin client implemented as local webpage?</b><br />
+					Post by: <b>gweedo</b> on <b>January 22, 2013, 10:05:31 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=136813.msg1457427#msg1457427">Quote from: crazy_rabbit on January 16, 2013, 11:38:54 AM</a></div><div class="quote">The normal bitcoin client isn&#039;t such a fantastic tool for regular users (read: totally normal users). <br /><br />Wouldn&#039;t it be possible to build an instawallet type service that sat directly on the users main computer? What would be the advantages/disadvantages of this? Obviously you would still need bitcoin running, much like Armory, but would it pave the way for people to develop skins, different layouts, more convenient interfaces? Or would it just be an additional security nightmare?<br /></div><br />Well you would need apache and php to do that. I mean someone could write a java/python program that didn&#039;t require that and already had a server embed, but i don&#039;t know sounds actually harder.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Desktop Bitcoin client implemented as local webpage?</b><br />
+					Post by: <b>stergium</b> on <b>January 22, 2013, 10:34:30 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=136813.msg1470139#msg1470139">Quote from: gweedo on January 22, 2013, 10:05:31 AM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=136813.msg1457427#msg1457427">Quote from: crazy_rabbit on January 16, 2013, 11:38:54 AM</a></div><div class="quote">The normal bitcoin client isn&#039;t such a fantastic tool for regular users (read: totally normal users). <br /><br />Wouldn&#039;t it be possible to build an instawallet type service that sat directly on the users main computer? What would be the advantages/disadvantages of this? Obviously you would still need bitcoin running, much like Armory, but would it pave the way for people to develop skins, different layouts, more convenient interfaces? Or would it just be an additional security nightmare?<br /></div><br />Well you would need apache and php to do that. I mean someone could write a java/python program that didn&#039;t require that and already had a server embed, but i don&#039;t know sounds actually harder.<br /></div>i created a webpage in php that read rpc info&nbsp; from the actual client but as gweedo pointed out it is harder for normal users. <br />+1 bitcoinoxygen .&nbsp; blockchain.info is easier for everyone</div>
+					<br /><br />
+					<div align="center" class="smalltext">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank">Powered by SMF 1.1.19</a> | 
+<a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank">SMF &copy; 2006-2009, Simple Machines</a>
+		</span></div>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

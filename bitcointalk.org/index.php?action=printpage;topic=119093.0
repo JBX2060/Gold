@@ -1,0 +1,134 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+		<link rel="canonical" href="https://bitcointalk.org/index.php?topic=119093.0" />
+		<title>Print Page - Networking Help. DD-WRT Repeater, Dlink DIR615</title>
+		<style type="text/css">
+			body
+			{
+				color: black;
+				background-color: white;
+			}
+			body, td, .normaltext
+			{
+				font-family: Verdana, arial, helvetica, serif;
+				font-size: small;
+			}
+			*, a:link, a:visited, a:hover, a:active
+			{
+				color: black !important;
+			}
+			table
+			{
+				empty-cells: show;
+			}
+			.code
+			{
+				font-size: x-small;
+				font-family: monospace;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.quote
+			{
+				font-size: x-small;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.smalltext, .quoteheader, .codeheader
+			{
+				font-size: x-small;
+			}
+			.largetext
+			{
+				font-size: large;
+			}
+			hr
+			{
+				height: 1px;
+				border: 0;
+				color: black;
+				background-color: black;
+			}
+		</style>
+	</head>
+	<body>
+		<h1 class="largetext">Bitcoin Forum</h1>
+		<h2 class="normaltext">Bitcoin => Bitcoin Technical Support => Topic started by: AndrewBUD on October 18, 2012, 01:51:54 PM</h2>
+
+		<table width="90%" cellpadding="0" cellspacing="0" border="0">
+			<tr>
+				<td>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Networking Help. DD-WRT Repeater, Dlink DIR615</b><br />
+					Post by: <b>AndrewBUD</b> on <b>October 18, 2012, 01:51:54 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">I currently have a DIR-615 connected wireless to the main router. I then have my mining rigs connected to the DIR615 via Ethernet. <br /><br /><br />For some reason 1 of 3 of the rigs connected will not connect to the router. While the other two are working fine. <br /><br /><br />I am very networking dumb :) Any help is much appreciated. </div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Networking Help. DD-WRT Repeater, Dlink DIR615</b><br />
+					Post by: <b>max in montreal</b> on <b>October 19, 2012, 03:09:48 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">if you swap the wiring with one that works, do you still have a problem with that machine?</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Networking Help. DD-WRT Repeater, Dlink DIR615</b><br />
+					Post by: <b>exotime</b> on <b>October 19, 2012, 12:29:33 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Ensure you haven&#039;t plugged your &quot;problem&quot; rig into the WRT&#039;s WAN port. It should be on 1-4.<br /><br />Is it a faulty cable? Do you get LEDs lighting up? Try swapping the ports and the cables.<br /><br />If not, check the output of ifconfig (linux) or ipconfig (windows). The output should be close to identical, apart from the Hardware address (MAC) and IP address. Specifically, the gateway, network and subnet should be the same.<br /><br />You should also compare the output of &quot;route -n&quot; (linux) or &quot;route PRINT&quot; (windows) - your gateway should be the IP of your home router (shown next to network 0.0.0.0).<br /><br />If all seems sane and you&#039;re still confused, try doing a 30/30/30 reset on your WRT (hold reset button for 30 seconds, then unplug power for 30 seconds (still holding), plug it back in for 30s (still holding), release.)<br /><br />If you&#039;re still stuck, post some more details so we can help better.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Networking Help. DD-WRT Repeater, Dlink DIR615</b><br />
+					Post by: <b>AndrewBUD</b> on <b>October 19, 2012, 02:09:47 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">It lights up.. I have tried unplugging all rigs and plugging in only the problem rig with a working cable. I get the same issue ... <br /><br /><br />resetting the router didn&#039;t help. <br /><br /><br />I can not get the virtual wireless AP to work either.. IT won&#039;t connect. <br /><br />The router only seems to be working with two rigs. It connects to the main router fine. and I can connect two PC&#039;s to the router and they work.. The third will not... I played with it for a while last night and I still can&#039;t finger it out :) <br /><br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Networking Help. DD-WRT Repeater, Dlink DIR615</b><br />
+					Post by: <b>01BTC10</b> on <b>October 19, 2012, 02:13:53 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Try connecting the problematic rig to the main router. If it&#039;s not working maybe it&#039;s a faulty cable, network adapter or driver.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Networking Help. DD-WRT Repeater, Dlink DIR615</b><br />
+					Post by: <b>AndrewBUD</b> on <b>October 19, 2012, 02:33:56 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">I will try that next.. I can get it to connect to the main router with wireless.. But I don&#039;t want to use wireless on the mining rigs.. :P <br /><br /><br /><br />The PC in question is giving me a lot of issues lately... I am going to be farting with it most of today... <br /><br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Networking Help. DD-WRT Repeater, Dlink DIR615</b><br />
+					Post by: <b>Justin00</b> on <b>October 19, 2012, 02:46:10 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">can you ping the router or wireless device ?<br />and yeah as someone else suggested what does ipconfig /all say ?</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Networking Help. DD-WRT Repeater, Dlink DIR615</b><br />
+					Post by: <b>AndrewBUD</b> on <b>October 19, 2012, 04:15:03 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">The router connects to the main router. It distributes the connection to two PC&#039;s via Ethernet. One of the PC&#039;s will not connect at all when plugged in to either Ethernet port. <br /><br /><br />Ipconfig says the media is disconnected..&nbsp; both built in network adapters seem to work. It says unidentified network when plugged in.<br /><br />I have it connected wireless and it&#039;s working right now.. I tried changing the mac addresses on the built in NIC adapters. <br /><br />Next step is I am going to try a PCI Ethernet card.<br /><br /><br /><br /><br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Networking Help. DD-WRT Repeater, Dlink DIR615</b><br />
+					Post by: <b>Justin00</b> on <b>October 19, 2012, 04:32:15 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">ah ok hmm.. also try checking the speed/duplex setting is set to auto. goto network settings, manage adaptors, properties, configure adaptor, then it will be in the advanced menu<br /><br />*edit* if its on auto, try setting to 1000/full</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Networking Help. DD-WRT Repeater, Dlink DIR615</b><br />
+					Post by: <b>AndrewBUD</b> on <b>October 19, 2012, 04:37:41 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=119093.msg1283664#msg1283664">Quote from: Justin00 on October 19, 2012, 04:32:15 PM</a></div><div class="quote">ah ok hmm.. also try checking the speed/duplex setting is set to auto. goto network settings, manage adaptors, properties, configure adaptor, then it will be in the advanced menu<br /><br />*edit* if its on auto, try setting to 1000/full<br /></div><br />Thank you, I will give that a shot. </div>
+					<br /><br />
+					<div align="center" class="smalltext">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank">Powered by SMF 1.1.19</a> | 
+<a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank">SMF &copy; 2006-2009, Simple Machines</a>
+		</span></div>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

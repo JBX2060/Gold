@@ -1,0 +1,110 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+		<link rel="canonical" href="https://bitcointalk.org/index.php?topic=140239.0" />
+		<title>Print Page - need help recovering a wallet.dat off a corrupt vmdk file</title>
+		<style type="text/css">
+			body
+			{
+				color: black;
+				background-color: white;
+			}
+			body, td, .normaltext
+			{
+				font-family: Verdana, arial, helvetica, serif;
+				font-size: small;
+			}
+			*, a:link, a:visited, a:hover, a:active
+			{
+				color: black !important;
+			}
+			table
+			{
+				empty-cells: show;
+			}
+			.code
+			{
+				font-size: x-small;
+				font-family: monospace;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.quote
+			{
+				font-size: x-small;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.smalltext, .quoteheader, .codeheader
+			{
+				font-size: x-small;
+			}
+			.largetext
+			{
+				font-size: large;
+			}
+			hr
+			{
+				height: 1px;
+				border: 0;
+				color: black;
+				background-color: black;
+			}
+		</style>
+	</head>
+	<body>
+		<h1 class="largetext">Bitcoin Forum</h1>
+		<h2 class="normaltext">Bitcoin => Bitcoin Technical Support => Topic started by: Keninishna on January 31, 2013, 08:13:56 AM</h2>
+
+		<table width="90%" cellpadding="0" cellspacing="0" border="0">
+			<tr>
+				<td>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>need help recovering a wallet.dat off a corrupt vmdk file</b><br />
+					Post by: <b>Keninishna</b> on <b>January 31, 2013, 08:13:56 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">ok so I have a ubuntu vm that I ran bitcoind on and took several snapshots in esx a year later or esx won&#039;t boot the vm saying the vmdk file is corrupt. I managed to copy the vmdk files off the server using linux vmfs tools but still can&#039;t access the vmdk files with vmware. The base image loads up fine but doesnt have the wallet file and none of the snapshot delta files will load. Any ideas on how to get the wallet file? I know makomk has a linux wallet recovery program however I don&#039;t think I can mount the linux virtual disk. I&#039;ll throw some one a few btc if they can help me get my wallet.dat as thanks.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: need help recovering a wallet.dat off a corrupt vmdk file</b><br />
+					Post by: <b>notme</b> on <b>January 31, 2013, 08:17:39 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=140239.msg1492556#msg1492556">Quote from: Keninishna on January 31, 2013, 08:13:56 AM</a></div><div class="quote">ok so I have a ubuntu vm that I ran bitcoind on and took several snapshots in esx a year later or esx won&#039;t boot the vm saying the vmdk file is corrupt. I managed to copy the vmdk files off the server using linux vmfs tools but still can&#039;t access the vmdk files with vmware. The base image loads up fine but doesnt have the wallet file and none of the snapshot delta files will load. Any ideas on how to get the wallet file? I know makomk has a linux wallet recovery program however I don&#039;t think I can mount the linux virtual disk. I&#039;ll throw some one a few btc if they can help me get my wallet.dat as thanks.<br /></div><br />https://bitcointalk.org/index.php?topic=25091.0<br /><br />I think that should work as long as you give it the vmdk file instead of a block device.&nbsp; If not, setup a loopback device and use that.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: need help recovering a wallet.dat off a corrupt vmdk file</b><br />
+					Post by: <b>Bitsky</b> on <b>January 31, 2013, 08:46:58 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Any idea how the vmdk got corrupted?<br /><br />Since a vmdk is just a disk, you can use fdisk/sfdisk/parted to dump the partition table and use that information to calculate the offsets you need to loop-mount them.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: need help recovering a wallet.dat off a corrupt vmdk file</b><br />
+					Post by: <b>Keninishna</b> on <b>January 31, 2013, 09:18:27 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=140239.msg1492601#msg1492601">Quote from: Bitsky on January 31, 2013, 08:46:58 AM</a></div><div class="quote">Any idea how the vmdk got corrupted?<br /><br />Since a vmdk is just a disk, you can use fdisk/sfdisk/parted to dump the partition table and use that information to calculate the offsets you need to loop-mount them.<br /></div><br />well vmware was giving me some errors about the virtual swap files so I had to manually assign the ram reservations to the vm and it booted up the vm but froze at some point, after that i was getting errors from vmware trying to boot it and it would&#039;nt even let me copy the vmdk files off the raid array. All my other vms that i was running started crashing and giving disk errors. Not sure what went wrong because the raid array is reporting fine. Thanks for the guidance though, i&#039;ll look into loop mounting the vmdk then I should be able to run makomk&#039;s recovery. </div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: need help recovering a wallet.dat off a corrupt vmdk file</b><br />
+					Post by: <b>Bitsky</b> on <b>January 31, 2013, 12:38:22 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Even if your raid looks fine, I would let the raid controller do a complete verify and check the SMART status of each disk. Maybe the controller had already resynced after an error appeared.<br />Are you by any chance over-allocating resources? Maybe your vm-storage ran out of disk space and when your vm requested swap it blew up.<br />Or, if you are using network storage (NFS, iSCSI, FC) the connection went away; which is essentially just like a disappearing drive. The OS will panic and the disks will be in an inconsistent state.<br />If you find a vswp file, try renaming it, booting and re-renaming it again.<br />You did not backup your vm&#039;s to another storage, right?<br /><br />Also, I don&#039;t think you need to mount a drive to run that python tool which tries to recover keys. If you succeed mounting the partitions however, you can simply copy your wallet. The python tool only dumps the keys it can find if I remember correctly (it&#039;s somewhat like a brute-force search).</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: need help recovering a wallet.dat off a corrupt vmdk file</b><br />
+					Post by: <b>notme</b> on <b>February 02, 2013, 10:33:44 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=140239.msg1493050#msg1493050">Quote from: Bitsky on January 31, 2013, 12:38:22 PM</a></div><div class="quote">Even if your raid looks fine, I would let the raid controller do a complete verify and check the SMART status of each disk. Maybe the controller had already resynced after an error appeared.<br />Are you by any chance over-allocating resources? Maybe your vm-storage ran out of disk space and when your vm requested swap it blew up.<br />Or, if you are using network storage (NFS, iSCSI, FC) the connection went away; which is essentially just like a disappearing drive. The OS will panic and the disks will be in an inconsistent state.<br />If you find a vswp file, try renaming it, booting and re-renaming it again.<br />You did not backup your vm&#039;s to another storage, right?<br /><br />Also, I don&#039;t think you need to mount a drive to run that python tool which tries to recover keys. If you succeed mounting the partitions however, you can simply copy your wallet. The python tool only dumps the keys it can find if I remember correctly (it&#039;s somewhat like a brute-force search).<br /></div><br />I only meant to set up the loopback to run the tool on in case it wanted an actual block device instead of a file.&nbsp; You are right there is no need to mount it.</div>
+					<br /><br />
+					<div align="center" class="smalltext">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank">Powered by SMF 1.1.19</a> | 
+<a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank">SMF &copy; 2006-2009, Simple Machines</a>
+		</span></div>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

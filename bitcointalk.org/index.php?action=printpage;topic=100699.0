@@ -1,0 +1,560 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+		<link rel="canonical" href="https://bitcointalk.org/index.php?topic=100699.0" />
+		<title>Print Page - [MARKETING]Get ZeroHedge to publish an article about Bitcoin</title>
+		<style type="text/css">
+			body
+			{
+				color: black;
+				background-color: white;
+			}
+			body, td, .normaltext
+			{
+				font-family: Verdana, arial, helvetica, serif;
+				font-size: small;
+			}
+			*, a:link, a:visited, a:hover, a:active
+			{
+				color: black !important;
+			}
+			table
+			{
+				empty-cells: show;
+			}
+			.code
+			{
+				font-size: x-small;
+				font-family: monospace;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.quote
+			{
+				font-size: x-small;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.smalltext, .quoteheader, .codeheader
+			{
+				font-size: x-small;
+			}
+			.largetext
+			{
+				font-size: large;
+			}
+			hr
+			{
+				height: 1px;
+				border: 0;
+				color: black;
+				background-color: black;
+			}
+		</style>
+	</head>
+	<body>
+		<h1 class="largetext">Bitcoin Forum</h1>
+		<h2 class="normaltext">Bitcoin => Bitcoin Discussion => Topic started by: unclescrooge on August 14, 2012, 05:45:53 PM</h2>
+
+		<table width="90%" cellpadding="0" cellspacing="0" border="0">
+			<tr>
+				<td>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>[MARKETING]Get ZeroHedge to publish an article about Bitcoin</b><br />
+					Post by: <b>unclescrooge</b> on <b>August 14, 2012, 05:45:53 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Hello fellow bitcoiners,<br /><br />I often read the blog ZeroHedge (http://www.zerohedge.com/). They have a quite pessimistic but realist view on the economy, and some of the bloggers there often try to sell their &quot;solution&quot; to &quot;protect your capital/wealth against the coming end of the world&quot;. <br /><br />We can all agree that bitcoin is perfectly designed to be a great store of value, being non inflationary, so why not sell our own solution to protect others wealth? I think we can touch a public open to the idea of bitcoin. Plus bitcoin is also perfectly designed to survive a financial meltdown, as it doesn&#039;t need banks to operate. Bref, it&#039;s perfect for the target audience!<br /><br />So whose up to write and submit an article to zerohedge? English isn&#039;t my primary language so I&#039;m not able to produce a well-writen article?</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [MARKETING]Get ZeroHedge to publish an article about Bitcoin</b><br />
+					Post by: <b>cypherdoc</b> on <b>August 14, 2012, 05:56:39 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">GREAT idea.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [MARKETING]Get ZeroHedge to publish an article about Bitcoin</b><br />
+					Post by: <b>acoindr</b> on <b>August 14, 2012, 06:09:05 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Interesting...<br /><br />I actually referenced a zerohedge article (http://forums.penny-arcade.com/discussion/comment/23752356/#Comment_23752356) in trying to explain Bitcoin on another forum.<br /><br />Let me look into that site a bit more...</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [MARKETING]Get ZeroHedge to publish an article about Bitcoin</b><br />
+					Post by: <b>cypherdoc</b> on <b>August 14, 2012, 06:12:24 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">ZH has mentioned Bitcoin once or twice as i recall but certainly no full length article.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [MARKETING]Get ZeroHedge to publish an article about Bitcoin</b><br />
+					Post by: <b>acoindr</b> on <b>August 24, 2012, 09:21:05 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Okay, I finally got around to completing an article for Zero Hedge. Please let me know any suggestions. Also, does anyone have a ZH account for submission? It looks like it takes 4 to 7 days for new account approval. If nobody has an account I&#039;ll create one there and submit. I hereby release this into the public domain. Please feel free to use as you like.<br /><br /><div class="quoteheader">Quote</div><div class="quote">Betting on Bitcoin<br /><br />Word is getting out on bitcoins, a potentially world changing currency. By now many in tech circles have heard of Bitcoin, but still relatively few really know all about it. There isn&#039;t one easy-to-understand all encompassing guide. This results in misconceptions about Bitcoin which is complex, being both a currency and payment network for that currrency. To fully appreciate Bitcoin one really needs a good understanding of math, cryptography, computer networking, programming, economics, and the nature of &quot;money&quot;. In light of that it&#039;s no wonder this open-source project is sometimes erroneously summed up as a &quot;Ponzi scheme&quot;.<br /><br />Still, many people around the world are betting Bitcoin will be around in the future. The bitcoin/dollar exchange rate has gone from a few cents in 2009 when Bitcoin started to over $10 per coin as of August 2012. <br /><br />To answer what exactly Bitcoin is it&#039;s helpful to know several key things:<br /><br />1. Bitcoin is not controlled by any central authority; it&#039;s completely decentralized <br />2. Bitcoins come into existence (as defined by the protocol, which everyone agrees to by using) through a process called &quot;mining&quot; which involves using a computer to solve a problem of varying difficulty <br />3. There will only ever be 21 million bitcoins generated; the problem difficulty is adjusted automatically so bitcoin creation follows a fairly stable and known inflation rate [1] <br />4. Bitcoins can be subdivided to 8 decimal places<br />5. Bitcoins obtain a value because people want them for different reasons, and they are scarce (the same way gold obtains value) <br />6. Bitcoins, if used properly, can provide anonymity for their use <br />7. Bitcoins can be used to transfer any amount of value around the world, almost instantly, by anyone, with little or no cost<br />8. The Bitcoin code has been reviewed by many qualified experts (it&#039;s open-source) and serious flaws, in terms of bugs, have yet to be found<br />9. It&#039;s unlikely any entity, such as a government, could entirely prevent the use or growth of Bitcoin without shutting down the entire Internet<br /><br />With those qualities one may begin to understand the potential Bitcoin brings, but who is supposed to use it and how? <br /><br />Bitcoin draws to it anyone wanting payment freedom. Bitcoin accounts can&#039;t be frozen, and anonymous payments are possible if precautions are taken. Bitcoins are also a global currency, so while their legal status is now in a gray area, should they ever be outlawed somewhere it wouldn&#039;t mean they were outlawed everywhere; that would put pressure on regimes doing the outlawing.&nbsp; <br /><br />More specifically, some Bitcoin users might be described as libertarian minded. Many of Bitcoin&#039;s proponents have even been called the digital equivalent of &quot;gold bugs&quot; because bitcoins work similar to gold as currency since they can&#039;t be arbitrarily inflated.<br /><br />While it may not be easy to understand bitcoins, it&#039;s straightforward to use them. All that&#039;s needed is a standard computer and Internet connection to download freely available &quot;wallet&quot; software from sources like bitcoin.org. Wallets use cryptographic keypairs, consisting of a public and private key, for account addresses (e.g. 175tWpb8K1S7NmH4Zx6rewF9WQrcZv245W) allowing users to send coins to one another almost instantly. Ease of use is compared to sending email.<br /><br />There are several ways to obtain bitcoins, including buying them, working or trading for them, or &quot;mining&quot; them. Mining is the term used to describe using a computer to solve the computational problem first and winning bitcoins, thereby bringing them into existence. Anyone can mine for bitcoins using software that is also freely available, but competition is now high. For many people it&#039;s easiest to buy bitcoins.<br /><br />Bitcoins are now exchanged 24/7 for all sorts of things as would be expected of any currency. The web page at https://en.bitcoin.it/wiki/Trade gives an idea of the type and variety of available goods and services there are for bitcoins.<br /><br />As word continues to spread about bitcoins, and their adoption grows there is a good chance their value will continue to rise - not just compared to fiat currency, but also for the variety of things for which they are accepted. That probably makes bitcoins a very good bet.<br /><br />[1] https://en.bitcoin.it/wiki/File:Total_bitcoins_over_time_graph.png<br /></div></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [MARKETING]Get ZeroHedge to publish an article about Bitcoin</b><br />
+					Post by: <b>DutchBrat</b> on <b>August 24, 2012, 09:25:00 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">I have a ZeroHedge account, but have never used it to submit an article<br /><br />I will look into it<br /><br />It&#039;s worth a shot, but don&#039;t be surprised if they don&#039;t publish it or shoot it down completely &nbsp;:D<br /><br />Edit: it seems I can send it to the site and have them review it and decide to post it, or post it as a forum post, but then it obviously won&#039;t come up on their front page</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [MARKETING]Get ZeroHedge to publish an article about Bitcoin</b><br />
+					Post by: <b>acoindr</b> on <b>August 24, 2012, 09:30:01 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=100699.msg1130535#msg1130535">Quote from: DutchBrat on August 24, 2012, 09:25:00 PM</a></div><div class="quote">I have a ZeroHedge account, but have never used it to submit an article<br /><br />I will look into it<br /><br />It&#039;s worth a shot, but don&#039;t be surprised if they don&#039;t publish it or shoot it down completely &nbsp;:D<br /></div><br />Really? Bitcoin seems <i>made</i> for their manifesto:<br /><br /><div class="quoteheader">Quote</div><div class="quote">our mission:<br /><br />to widen the scope of financial, economic and political information available to the professional investing public.<br />to skeptically examine and, where necessary, attack the flaccid institution that financial journalism has become.<br />to liberate oppressed knowledge.<br />to provide analysis uninhibited by political constraint.<br />to facilitate information&#039;s unending quest for freedom.<br /></div><br />Ah, well. It&#039;s worth a shot! Thanks :D</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [MARKETING]Get ZeroHedge to publish an article about Bitcoin</b><br />
+					Post by: <b>bb113</b> on <b>August 24, 2012, 09:43:13 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">I think it could be improved before submission. For example include some directions like this:<br /><br /><br />How to protect your bitcoins:<br />Rip out the hard drive and network card of an old laptop, boot from a live cd that includes bitaddress.org script, print out a list of numbers that someone would have to break the 2nd law of thermodynamics to guess. Next, print it out onto a transparency and use this acid ink trick to engrave it into a copper plate. Then piss on the plate to form a protective layer and put it in a safe place. You can transfer as many bitcoins there as you feel like. Now you are your own bank.<br />https://bitcointalk.org/index.php?topic=100899.0</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [MARKETING]Get ZeroHedge to publish an article about Bitcoin</b><br />
+					Post by: <b>bitcoinstarter</b> on <b>August 24, 2012, 09:44:52 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Good thinking!</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [MARKETING]Get ZeroHedge to publish an article about Bitcoin</b><br />
+					Post by: <b>n8rwJeTt8TrrLKPa55eU</b> on <b>August 24, 2012, 09:49:43 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Thank you for taking the initiative to get Bitcoin on ZeroHedge. &nbsp;Some thoughts:<br /><br />A large portion of the audience (or at least the commenters) are cynical goldbugs and preppers. &nbsp;Although an article introducing Bitcoin might work fine on less ideological audiences, I think that you might be more successful if you do a more ambitious two or three-part offering (or 3-section article) &nbsp;that, aside from introducing Bitcoin, also addresses up front the two main objections and misconceptions likely to come up from the commenter crowd.<br /><br />1. Bitcoin vs. Gold<br />Explaining how they complement each other, why both are necessary under different scenarios like border crossings, confiscation resilience of Bitcoin versus gold, how the stupid objections to gold (&#039;you can&#039;t eat it&#039;) also apply to Bitcoin and vice versa, pointing to George Selgin&#039;s work which correctly classifies Bitcoin as a new type of commodity.<br /><br />2. Bitcoin in a Mad-Max no-electricity no-Internet scenario.<br />Check out the article &quot;Bitcoin Under the Worst Possible Conditions&quot; from the first issue of Bitcoin Magazine. The possibility of resilient peer-to-peer mesh networks. &nbsp;Barter usage via Casascius gold/silver/bitcoin hybrid coins, Bitcoin paper bills, paper wallets, and other no-electricity physical bridges. &nbsp;Etcetera.<br /><br />But to be clear about these suggestions, even if you ignore or disagree with them, I&#039;ll still be grateful, any article is better than no article!</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [MARKETING]Get ZeroHedge to publish an article about Bitcoin</b><br />
+					Post by: <b>acoindr</b> on <b>August 24, 2012, 09:58:52 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=100699.msg1130625#msg1130625">Quote from: n8rwJeTt8TrrLKPa55eU on August 24, 2012, 09:49:43 PM</a></div><div class="quote">Thank you for taking the initiative to get Bitcoin on ZeroHedge. &nbsp;Some thoughts:<br /><br />A large portion of the audience (or at least the commenters) are cynical goldbugs and preppers. &nbsp;Although an article introducing Bitcoin might work fine on less ideological audiences, I think that you might be more successful if you do a more ambitious two or three-part offering (or 3-section article) &nbsp;that, aside from introducing Bitcoin, also addresses up front the two main objections and misconceptions likely to come up from the commenter crowd.<br /><br />1. Bitcoin vs. Gold<br />Explaining how they complement each other, why both are necessary under different scenarios like border crossings, confiscation resilience of Bitcoin versus gold, how the stupid objections to gold (&#039;you can&#039;t eat it&#039;) also apply to Bitcoin and vice versa, pointing to George Selgin&#039;s work which correctly classifies Bitcoin as a new type of commodity.<br /><br />2. Bitcoin in a Mad-Max no-electricity no-Internet scenario.<br />Check out the article &quot;Bitcoin Under the Worst Possible Conditions&quot; from the first issue of Bitcoin Magazine. The possibility of resilient peer-to-peer mesh networks. &nbsp;Barter usage via Casascius gold/silver/bitcoin hybrid coins, Bitcoin paper bills, paper wallets, and other no-electricity physical bridges. &nbsp;Etcetera.<br /><br />But to be clear about these suggestions, even if you ignore or disagree with them, I&#039;ll still be grateful, any article will be better than no article.<br /></div><br />This is good.<br /><br />I particularly like the &quot;Bitcoin vs. Gold&quot; angle. @DutchBrat and I are discussing sending in a draft to ZH to get their feedback, then possibly sending in a final article next week.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [MARKETING]Get ZeroHedge to publish an article about Bitcoin</b><br />
+					Post by: <b>n8rwJeTt8TrrLKPa55eU</b> on <b>August 24, 2012, 10:07:43 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=100699.msg1130648#msg1130648">Quote from: acoindr on August 24, 2012, 09:58:52 PM</a></div><div class="quote">This is good.<br /><br />I particularly like the &quot;Bitcoin vs. Gold&quot; angle. @DutchBrat and I are discussing sending in a draft to ZH to get their feedback, then possibly sending in a final article next week.<br /></div><br />Great!&nbsp; There&#039;s a lot of good material on the forum on the Bitcoin/Gold relationship, unfortunately it&#039;s dispersed across many threads (e.g. https://bitcointalk.org/index.php?topic=100065.0 (https://bitcointalk.org/index.php?topic=100065.0)), but hopefully it can be used as a starting point.&nbsp; There&#039;s some very sharp Bitcoin-loving gold writers (e.g. Trace Meyer) who might be able to help out as well.&nbsp; Not sure if Bitcoin Magazine has or is planning an article on the topic also, would be good to see one, and perhaps that could be leveraged onto ZeroHedge or viceversa, possibly whatever you write could also be published on the magazine.<br /><br />Thank you again for taking the initiative to get something done on the ZeroHedge front!<br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [MARKETING]Get ZeroHedge to publish an article about Bitcoin</b><br />
+					Post by: <b>acoindr</b> on <b>August 24, 2012, 10:26:03 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=100699.msg1130672#msg1130672">Quote from: n8rwJeTt8TrrLKPa55eU on August 24, 2012, 10:07:43 PM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=100699.msg1130648#msg1130648">Quote from: acoindr on August 24, 2012, 09:58:52 PM</a></div><div class="quote">This is good.<br /><br />I particularly like the &quot;Bitcoin vs. Gold&quot; angle. @DutchBrat and I are discussing sending in a draft to ZH to get their feedback, then possibly sending in a final article next week.<br /></div><br />Great! &nbsp;There&#039;s a lot of good material on the forum on the Bitcoin/Gold relationship, unfortunately it&#039;s dispersed across many threads (e.g. https://bitcointalk.org/index.php?topic=100065.0 (https://bitcointalk.org/index.php?topic=100065.0)), but hopefully it can be used as a starting point. &nbsp;There&#039;s some very sharp Bitcoin-loving gold writers (e.g. Trace Meyer) who might be able to help out as well. &nbsp;Not sure if Bitcoin Magazine has or is planning an article on the topic also, would be good to see one, and perhaps that could be leveraged onto ZeroHedge or viceversa, possibly whatever you write could also be published on the magazine.<br /><br />Thank you again for taking the initiative to get something done on the ZeroHedge front!<br /><br /></div><br />Awesome! Yeah, I think ZH has a great audience to get Bitcoin in front of. Let&#039;s see what we can do. It makes no sense not to try!</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [MARKETING]Get ZeroHedge to publish an article about Bitcoin</b><br />
+					Post by: <b>Melbustus</b> on <b>August 25, 2012, 07:09:04 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Sweet... Agree that ZeroHedge is a great outlet. Even if they shoot this attempt down, they&#039;ll be less likely to shoot the next one down, and after they&#039;ve heard about it enough, they&#039;ll eventually publish. Or they might just be cool with it from the start.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [MARKETING]Get ZeroHedge to publish an article about Bitcoin</b><br />
+					Post by: <b>perlboy</b> on <b>August 25, 2012, 08:40:01 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Agreed, I know some well capitalized people that read zerohedge as part of their bread and butter.<br /><br />+1, I&#039;d even write the article if we the group can get to a general consensus as to what should be said. :)<br /><br />Stu</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [MARKETING]Get ZeroHedge to publish an article about Bitcoin</b><br />
+					Post by: <b>Seal</b> on <b>August 25, 2012, 10:47:45 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=100699.msg1131534#msg1131534">Quote from: perlboy on August 25, 2012, 08:40:01 AM</a></div><div class="quote">Agreed, I know some well capitalized people that read zerohedge as part of their bread and butter.<br /><br />+1, I&#039;d even write the article if we the group can get to a general consensus as to what should be said. :)<br /><br />Stu<br /></div><br />Zh has a great audience. A huge number of financial professionals and funds make it a regular read as well as being on the top blog lists of all the major business publication sites.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [MARKETING]Get ZeroHedge to publish an article about Bitcoin</b><br />
+					Post by: <b>acoindr</b> on <b>August 25, 2012, 03:39:15 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=100699.msg1131816#msg1131816">Quote from: blablahblah on August 25, 2012, 11:59:44 AM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=100699.msg1130625#msg1130625">Quote from: n8rwJeTt8TrrLKPa55eU on August 24, 2012, 09:49:43 PM</a></div><div class="quote">Thank you for taking the initiative to get Bitcoin on ZeroHedge. &nbsp;Some thoughts:<br /><br />A large portion of the audience (or at least the commenters) are cynical goldbugs and preppers. &nbsp;Although an article introducing Bitcoin might work fine on less ideological audiences, I think that you might be more successful if you do a more ambitious two or three-part offering (or 3-section article) &nbsp;that, aside from introducing Bitcoin, also addresses up front the two main objections and misconceptions likely to come up from the commenter crowd.<br /><br />1. Bitcoin vs. Gold<br />Explaining how they complement each other, why both are necessary under different scenarios like border crossings, confiscation resilience of Bitcoin versus gold, how the stupid objections to gold (&#039;you can&#039;t eat it&#039;) also apply to Bitcoin and vice versa, pointing to George Selgin&#039;s work which correctly classifies Bitcoin as a new type of commodity.<br /><br />2. Bitcoin in a Mad-Max no-electricity no-Internet scenario.<br />Check out the article &quot;Bitcoin Under the Worst Possible Conditions&quot; from the first issue of Bitcoin Magazine. The possibility of resilient peer-to-peer mesh networks. &nbsp;Barter usage via Casascius gold/silver/bitcoin hybrid coins, Bitcoin paper bills, paper wallets, and other no-electricity physical bridges. &nbsp;Etcetera.<br /><br />But to be clear about these suggestions, even if you ignore or disagree with them, I&#039;ll still be grateful, any article is better than no article!<br /></div><br />+1<br />It&#039;s Fight Club! I always imagine the commenters to be a roomful of Max Keisers but without morals. One thought I had was making the article into a dialogue -- even a fictional &quot;Bitcoin versus Krugman&quot; shakedown of Fractional Reserve. Where&#039;s Matthew N. Wright when you need him??<br /><br />To <del>the OP</del> <b>acoindr</b>: it&#039;s a great start, and don&#039;t feel bad when people start ripping the draft to pieces. It&#039;s always easier to improve upon something than to lay the foundations yourself.<br /></div><br />Yeah, no worries. That&#039;s what it&#039;s meant to be, a foundation to get things moving. I think there is definitely room for improvement. It&#039;s a bit patchwork as I pulled things from different places. I was trying to both introduce bitcoins to newbies and answer unasked questions in a fairly short and concise way. It&#039;s just a starting point.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [MARKETING]Get ZeroHedge to publish an article about Bitcoin</b><br />
+					Post by: <b>apetersson</b> on <b>August 25, 2012, 05:35:28 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">you really have to address the &quot;if you don&#039;t hold it, you don&#039;t own it&quot; idea.<br /><br />if you alone have the private keys - you hold it. fullstop.<br /><br />unlike gold certificates. precious metals are substituted with paper very easily because they are hard to use in actual transactions. bitcoin overcomes this barrier because they are made to transact.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [MARKETING]Get ZeroHedge to publish an article about Bitcoin</b><br />
+					Post by: <b>unclescrooge</b> on <b>August 25, 2012, 05:41:52 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Thanks acoindr and others for making this. I really like the ideas thrown here!</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [MARKETING]Get ZeroHedge to publish an article about Bitcoin</b><br />
+					Post by: <b>acoindr</b> on <b>August 25, 2012, 06:00:22 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=100699.msg1132366#msg1132366">Quote from: apetersson on August 25, 2012, 05:35:28 PM</a></div><div class="quote">you really have to address the &quot;if you don&#039;t hold it, you don&#039;t own it&quot; idea.<br /><br />if you alone have the private keys - you hold it. fullstop.<br /><br />unlike gold certificates. precious metals are substituted with paper very easily because they are hard to use in actual transactions. bitcoin overcomes this barrier because they are made to transact.<br /></div><br />Good point. That could be a concern among traditional gold bugs.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [MARKETING]Get ZeroHedge to publish an article about Bitcoin</b><br />
+					Post by: <b>sippsnapp</b> on <b>August 25, 2012, 06:22:36 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Great idea indeed, brings bitcoin to the attention of a lot smart heads.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [MARKETING]Get ZeroHedge to publish an article about Bitcoin</b><br />
+					Post by: <b>marcus_of_augustus</b> on <b>August 27, 2012, 11:21:34 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">acoindr :<br /><br /><div class="quoteheader">Quote</div><div class="quote">Okay, I finally got around to completing an article for Zero Hedge. Please let me know any suggestions. Also, does anyone have a ZH account for submission? It looks like it takes 4 to 7 days for new account approval. If nobody has an account I&#039;ll create one there and submit. I hereby release this into the public domain. Please feel free to use as you like.</div><br />I can get this published at zerohedge if you still want to .... is that the final draft?</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [MARKETING]Get ZeroHedge to publish an article about Bitcoin</b><br />
+					Post by: <b>unclescrooge</b> on <b>August 27, 2012, 11:30:58 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=100699.msg1136305#msg1136305">Quote from: blablahblah on August 27, 2012, 08:17:24 AM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=100699.msg1132404#msg1132404">Quote from: acoindr on August 25, 2012, 06:00:22 PM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=100699.msg1132366#msg1132366">Quote from: apetersson on August 25, 2012, 05:35:28 PM</a></div><div class="quote">you really have to address the &quot;if you don&#039;t hold it, you don&#039;t own it&quot; idea.<br /><br />if you alone have the private keys - you hold it. fullstop.<br /><br />unlike gold certificates. precious metals are substituted with paper very easily because they are hard to use in actual transactions. bitcoin overcomes this barrier because they are made to transact.<br /></div><br />Good point. That could be a concern among traditional gold bugs.<br /></div><br />Question is, should we really be targetting the &quot;gold bug&quot; demographic? Zerohedge seems to have other groups in its audience as well, and marketing Bitcoin as being <i>too</i> similar to gold could put them off. A common misinterpretation of the &quot;21 million coins&quot; limit seems to be that the coins are indivisible. And how do we make newbies read the damn FAQ, when everyone thinks they&#039;re a financial guru?<br /><br />One suggestion that comes to mind is pitching the article as a call for more developers to join in, and really make positive use of Bitcoin&#039;s beta tag. Bitcoinica turned out to be a bit of an embarrassment, so here&#039;s an opportunity to do something better with Bitcoin.<br /><br />Edit: they seem to love busting scams at ZH, so let&#039;s get their brains working on something productive for once ;-)<br /></div><br />I think there are also on ZeroHegde an audience aware of the financial disaster coming, and it would be good to show how bitcoins feature can help them preserve their capital from this.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [MARKETING]Get ZeroHedge to publish an article about Bitcoin</b><br />
+					Post by: <b>marcus_of_augustus</b> on <b>August 27, 2012, 11:58:16 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Differentiating bitcoin from state-monopoly currencies issued by centrally-planned banking systems is a good way to draw a parallel with gold without attacking the shibboleth of the gold standard (also a state-sanctioned monopoly currency but best not go there with this article maybe) <br /><br />bitcoin = decentralised, free market-based currency.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [MARKETING]Get ZeroHedge to publish an article about Bitcoin</b><br />
+					Post by: <b>acoindr</b> on <b>August 27, 2012, 04:03:37 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Hey everyone,<br /><br />Thanks for the interest in this. <br /><br />@marcus_of_augustus: no I don&#039;t think it&#039;s a final draft. I believe @DutchBrat is submitting it to ZH to get their feedback on it to see if they would publish it, or perhaps prefer a different writing angle. If you know you can get any type article published that&#039;s awesome! We just need to figure out what that article should be.<br /><br />My goal with the article was introducing Bitcoin, which is an immensely information rich topic, in a fairly concise way while piquing newbie interest to explore it. I was conscious of article length. Everyone is coming up with great ideas for what the article might contain, but remember it can&#039;t contain everything. Typical ZH articles seem to be fairly short. That&#039;s a reason I didn&#039;t suggest using @evoorhees&#039;s Libertarian Primer on Bitcoin (https://bitcointalk.org/index.php?topic=76565.0) which I loved, and is comprehensive, but I think too long for ZH.<br /><br />So right now I&#039;m thinking we see how this week progresses, what kind of feedback we get from ZH about a Bitcoin article. I&#039;m really not familiar with their audience.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [MARKETING]Get ZeroHedge to publish an article about Bitcoin</b><br />
+					Post by: <b>bb113</b> on <b>August 27, 2012, 11:32:18 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">I really think it should be written from the perspective of &quot;be your own bank&quot;... and offer actionable info. Then again I don&#039;t feel like writing it so feel free to ignore me.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [MARKETING]Get ZeroHedge to publish an article about Bitcoin</b><br />
+					Post by: <b>acoindr</b> on <b>August 27, 2012, 11:48:01 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">@blablahblah - nice alternative article.<br /><br />I like the stylized edgy feel to it, and how it delivers in a roundabout witty way. I think it could definitely be well received if the ZH audience likes that style.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [MARKETING]Get ZeroHedge to publish an article about Bitcoin</b><br />
+					Post by: <b>TraderTimm</b> on <b>August 28, 2012, 12:35:47 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Not bad, it reaches a new audience readily enough. My tack would be a bit different. A lot of those guys are running trade desks and funds. I&#039;d put up a cost-analysis on trading the arb in bitcoin, and when you got to the friction involving moving funds to other exchanges, show how opening your own exchange in a country that doesn&#039;t require too much overhead would improve the total picture.<br /><br />That could whet the appetite for some of the financial types to start registering services, if only to trade it.<br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [MARKETING]Get ZeroHedge to publish an article about Bitcoin</b><br />
+					Post by: <b>labestiol</b> on <b>August 28, 2012, 01:16:10 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Thanks for your work guys ! That&#039;s indeed something we need to do.<br /><br />A few suggestions : <br /><br />Show the graph of currency supply. Also pointing that the supply is going to be cut in half soon could attract people.<br />In the part about the hacks, pointing that the problem was never the protocol/satoshi client<br />ZH is probably a good target for the &quot;Screw Banks&quot; videos, so we should use it. (http://www.youtube.com/watch?v=5CrOKDOyW-Y (http://www.youtube.com/watch?v=5CrOKDOyW-Y))<br />Don&#039;t remember who said that, but the analogy of bitcoin being both the blood and veins, ie both a currency and a transaction system is nice :P</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [MARKETING]Get ZeroHedge to publish an article about Bitcoin</b><br />
+					Post by: <b>Melbustus</b> on <b>August 28, 2012, 07:32:36 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Lots of good ideas... Below is my take, which approaches the introduction of bitcoin from a macro-economic &quot;the current system is broken&quot; standpoint. I read zerohedge somewhat often, and I believe this fits very nicely with the existing economic consensus of the zerohedge crowd, and also has the benefit of not requiring an up-front in-depth explanation of bitcoin. Obviously there is A LOT to potentially convey about bitcoin; far too much for a single introductory article. Positioning bitcoin as the solution to the current broken fiat money system seems like the right approach to me. The ZH crowd should agree with the background thesis by default, and therefore be, at minimum, intrigued by the theoretical notion of bitcoin, hopefully enough to look into it further:<br /><br /><br /><div class="quoteheader">Quote from: Melbustus</div><div class="quote"><br />Better Money<br /><br />As the world deals with $200 trillion in debt, with most &quot;advanced&quot; economies relying on a democracy-fiat system that represents a one-way mathematical function toward a debt spiral, it is obvious to many that our current worldwide money system is broken. The current run to US bonds is not a flight to &quot;safety,&quot; but a flight to the current &quot;lesser of evils.&quot; Politicians from Greece to the US promise more and more while allowing the free market to produce less and less. Rational people are seeing that the crash of &#039;08 is a mere precursor to the ultimate and inevitable worldwide sovereign debt disaster. A better system is needed. <br /><br />A better system starts with better money. Money that doesn&#039;t give election-cycle prioritizing politicians free reign to promise the world to the masses while delivering nothing but debt and inflation. Many advocate a return to the gold standard in order to tie politicians&#039; hands, while others propose various revisions to the Fed and other central banks. However, as is often the case, the market itself has developed, and is increasingly embracing, a powerful solution that&#039;s growing from the bottom up: bitcoin.<br /><br />Consider a monetary system that offers perfect information. A system that broadcasts its intentions to the world with mathematical perfection. A system whose formula cannot be manipulated by politicans (or anyone, for that matter), thereby eliminating the entire notion of monetary uncertainty. A system that offers what gold and other classical &quot;hard money&quot; offers: limited supply, divisibility, portability, homogeneity, recognizability, durability...but which is also fit for the modern electronic world where funds zip across the Internet and most money is simply an account entry &quot;in the books.&quot; <br /><br />Sound too good to be true? Perhaps. But while none of the world&#039;s debt problems have been solved and while Mr. Bernake contemplates buying up yet another round of Uncle Sam&#039;s bonds, the bitcoin experiment quietly grows, rejecting the entire theoretical basis of fiat currency and a politically-controlled elastic money supply. <br /><br />Bitcoin is a decentralized, mathematically fixed-supply currency. Through its use of indisputable cryptography, it has made possible, for the first time in human history, a money supply that cannot be altered by any central authority. It is also fully designed for the modern electronic era. Sending funds internationally no longer requires a hefty wire-transfer fee, several hours (if not days), and transmission of sensitive identity and account information through an insecure electronic banking system. Senders and receivers of bitcoin can be anywhere in the world.&nbsp; People can quickly, easily, securely, and psuedo-anonymously send bitcoin to each other over the Internet from myriad devices (computers, tablets, phones, etc). Bitcoin is how money should work in the modern economy.<br /><br />The bitcoin experiment is young, and its future is unknown. But it doesn&#039;t take too much vision to see that, like the fledgling Internet of the late 1980s, it has the power to disrupt the status quo like few innovations before it. Control of money need not be in the hands of government. The Internet democratized and decentralized information. Bitcoin democratizes and decentralizes money.<br /><br /></div></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [MARKETING]Get ZeroHedge to publish an article about Bitcoin</b><br />
+					Post by: <b>n8rwJeTt8TrrLKPa55eU</b> on <b>August 28, 2012, 09:42:31 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=100699.msg1139393#msg1139393">Quote from: Melbustus on August 28, 2012, 07:32:36 AM</a></div><div class="quote">Positioning bitcoin as the solution to the current broken fiat money system seems like the right approach to me.<br /></div><br />Agreed that Bitcoin is part of the solution, I would just expand that to Bitcoin+Gold and not Bitcoin by itself, as with that combo all possible armageddon insurance scenarios are covered and, most importantly, it will make the goldbug part of the ZH audience more receptive.&nbsp; They already understand why the system will fail, and why gold is needed as insurance.&nbsp; All we need to do is explain the scenarios where gold fails (transport, divisibility, detectability, storage) and how Bitcoin works well in those scenarios.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [MARKETING]Get ZeroHedge to publish an article about Bitcoin</b><br />
+					Post by: <b>Melbustus</b> on <b>August 28, 2012, 10:49:50 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=100699.msg1141025#msg1141025">Quote from: n8rwJeTt8TrrLKPa55eU on August 28, 2012, 09:42:31 PM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=100699.msg1139393#msg1139393">Quote from: Melbustus on August 28, 2012, 07:32:36 AM</a></div><div class="quote">Positioning bitcoin as the solution to the current broken fiat money system seems like the right approach to me.<br /></div><br />Agreed that Bitcoin is part of the solution, I would just expand that to Bitcoin+Gold and not Bitcoin by itself, as with that combo all possible armageddon insurance scenarios are covered and, most importantly, it will make the goldbug part of the ZH audience more receptive.&nbsp; They already understand why the system will fail, and why gold is needed as insurance.&nbsp; All we need to do is explain the scenarios where gold fails (transport, divisibility, detectability, storage) and how Bitcoin works well in those scenarios.<br /></div><br />Yeah, I did mention Gold as one potential solution. I didn&#039;t position bitcoin and gold as mutually-exclusive. I certainly see your point, but I think it&#039;s a bit laborious to get into the gold discussion at all. The point of the piece should be to simply explain what bitcoin is monetarily, thereby piquing their interest (hopefully). They can then do their own research/analysis to decide what&#039;s what wrt bitcoin+gold. Despite lots ZH readers being gold bugs, a lot are simply open-minded people who recognize that the current system is broken. Maybe this is optimistic (and it&#039;s definitely a very limited sample set), but the guys I know who read ZH regularly are genuinely interested in what&#039;s going on and are curious to read alternative economic viewpoints.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [MARKETING]Get ZeroHedge to publish an article about Bitcoin</b><br />
+					Post by: <b>istar</b> on <b>August 29, 2012, 07:08:39 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><br />Why should you learn everything you possibly can about Bitcoin?<br />Let me give you four reasons.<br /><br />1. As Bitcoin spreads like a viral each coin could easily go to $100-$5000.<br />You simply do not want to be left in the dust if/when that happens.<br />2. You and everyone around you need a digital system with sound electronic money, you own. Not the corrupt banking kartel. <br />A system of money not created out of thin air but out of energy.<br /><br />3. It might be unstoppable.<br /><br />As long as there is atleast one person who have downloaded the blockchain containing every single transaction. Which you do with the default program.<br />The network can allways start again.<br />Why? Because anyone can forward transactions by mining. This means that Bitcoin could<br />be virtually unstoppable.<br /><br /><br />Something like that.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [MARKETING]Get ZeroHedge to publish an article about Bitcoin</b><br />
+					Post by: <b>c0in$</b> on <b>August 29, 2012, 05:40:49 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">I have a draft of something that could be used for zerohedge as well.&nbsp; It would have to do with incentive restructuring, and the elimination of wealth concentration and centralization without requisite transparency that drives accountability and how bitcoin fits into this.&nbsp; I have a zero hedge account as well.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [MARKETING]Get ZeroHedge to publish an article about Bitcoin</b><br />
+					Post by: <b>WikileaksDude</b> on <b>August 29, 2012, 06:56:38 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=100699.msg1143844#msg1143844">Quote from: c0in&#036; on August 29, 2012, 05:40:49 PM</a></div><div class="quote">I have a draft of something that could be used for zerohedge as well.&nbsp; It would have to do with incentive restructuring, and the elimination of wealth concentration and centralization without requisite transparency that drives accountability and how bitcoin fits into this.&nbsp; I have a zero hedge account as well.<br /></div><br />That would be nice. Make sure to talk about the fees, how nobody can really profit from them on the transfers.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [MARKETING]Get ZeroHedge to publish an article about Bitcoin</b><br />
+					Post by: <b>n8rwJeTt8TrrLKPa55eU</b> on <b>August 29, 2012, 08:26:39 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Earlier today ZeroHedge had an exchange with John Aziz on Twitter, referencing Bitcoin.<br /><br />Aziz pro, ZH skeptical citing old Wired article as evidence:<br /><br />https://twitter.com/zerohedge/status/240766618622386176 (https://twitter.com/zerohedge/status/240766618622386176)<br /><br />Aziz then turned his tweet into an article, with a tiny side Bitcoin mention:<br /><br />http://www.zerohedge.com/news/guest-post-currency-competition (http://www.zerohedge.com/news/guest-post-currency-competition)<br /><br />But based on this evidence, it looks like any Bitcoin submission to ZeroHedge needs to include a paragraph pre-debunking the Wired article. &nbsp;And expect hostility.<br /><br />Maybe the title should be &quot;Why Bitcoin Is Needed, Is Maturing, and Isn&#039;t a Ponzi&quot; :)<br /><br />Addendum: 2 of the article comments ask for Bitcoin coverage:<br />http://www.zerohedge.com/news/guest-post-currency-competition#comment-2747740 (http://www.zerohedge.com/news/guest-post-currency-competition#comment-2747740)<br /><br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [MARKETING]Get ZeroHedge to publish an article about Bitcoin</b><br />
+					Post by: <b>k9quaint</b> on <b>August 29, 2012, 09:55:43 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">You should probably wait until the top 3 Bitcoin stories include something that is <b>not</b> a Ponzi scheme that swindled a bunch of people who are incapable of due diligence. <br /><br />A second order problem is that right now (AFAICS) Bitcoin&#039;s largest problem is that a large portion of it&#039;s user base is very susceptible to confidence scams. Recruiting extremophiles&nbsp; from ZeroHedge into the Bitcoin user base is probably not a solution to that problem and might even be counter-productive.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [MARKETING]Get ZeroHedge to publish an article about Bitcoin</b><br />
+					Post by: <b>labestiol</b> on <b>August 30, 2012, 12:21:26 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Actually, a story about a ponzi scheme in bitcoin may not be so much of a bad publicity for bitcoin. You can argue it&#039;s a definite proof it has value ;D And it&#039;s a good occasion to debunk the fact that bitcoin in itself is not a ponzi.<br />Also, attracting people from ZH might be a way to make the community less susceptible to scams. Pretty sure the average ZH reader would reach the good conclusion when he&#039;ll see 7%/weeks.<br /><br />I&#039;ve read the comments in the competing currencies posts, it seems to be getting better (except if all the commenters come from here &nbsp;;))<br /><br />Anyway, seems that the Tyler who responded on twitter is not confident about bitcoin. Maybe for now a better way to introduce bitcoin on ZH is through contributors (Thanks John Aziz if you read this)</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [MARKETING]Get ZeroHedge to publish an article about Bitcoin</b><br />
+					Post by: <b>k9quaint</b> on <b>August 30, 2012, 03:19:53 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=100699.msg1144887#msg1144887">Quote from: labestiol on August 30, 2012, 12:21:26 AM</a></div><div class="quote">Actually, a story about a ponzi scheme in bitcoin may not be so much of a bad publicity for bitcoin. You can argue it&#039;s a definite proof it has value ;D And it&#039;s a good occasion to debunk the fact that bitcoin in itself is not a ponzi.<br /></div><br />Inception ponzi. Maybe Bitcoin consists of ponzis within a ponzi?<br /><br /><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=100699.msg1144887#msg1144887">Quote from: labestiol on August 30, 2012, 12:21:26 AM</a></div><div class="quote">Also, attracting people from ZH might be a way to make the community less susceptible to scams. Pretty sure the average ZH reader would reach the good conclusion when he&#039;ll see 7%/weeks.<br /></div><br />They will probably come to the conclusion that Bitcoin consists of scammers shearing sheep and little else and stay away. Those who would come on board in the middle of such bad press worry me. A more fertile ground to recruit Bitcoiners might be Forex &amp; Currency arbitrage sites. There at least you can point to a legitimate use of BTC.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [MARKETING]Get ZeroHedge to publish an article about Bitcoin</b><br />
+					Post by: <b>marcus_of_augustus</b> on <b>August 30, 2012, 03:58:59 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader">Quote</div><div class="quote">There at least you can point to a legitimate use of BTC.</div><br />.... and by implication wealth protection and escape from oppressive monetary regimes (to name but a few) are not &quot;legitimate&quot; uses for BTC ... huh?</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [MARKETING]Get ZeroHedge to publish an article about Bitcoin</b><br />
+					Post by: <b>cypherdoc</b> on <b>August 30, 2012, 04:25:17 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=100699.msg1139393#msg1139393">Quote from: Melbustus on August 28, 2012, 07:32:36 AM</a></div><div class="quote">Lots of good ideas... Below is my take, which approaches the introduction of bitcoin from a macro-economic &quot;the current system is broken&quot; standpoint. I read zerohedge somewhat often, and I believe this fits very nicely with the existing economic consensus of the zerohedge crowd, and also has the benefit of not requiring an up-front in-depth explanation of bitcoin. Obviously there is A LOT to potentially convey about bitcoin; far too much for a single introductory article. Positioning bitcoin as the solution to the current broken fiat money system seems like the right approach to me. The ZH crowd should agree with the background thesis by default, and therefore be, at minimum, intrigued by the theoretical notion of bitcoin, hopefully enough to look into it further:<br /><br /><br /><div class="quoteheader">Quote from: Melbustus</div><div class="quote"><br />Better Money<br /><br />As the world deals with $200 trillion in debt, with most &quot;advanced&quot; economies relying on a democracy-fiat system that represents a one-way mathematical function toward a debt spiral, it is obvious to many that our current worldwide money system is broken. The current run to US bonds is not a flight to &quot;safety,&quot; but a flight to the current &quot;lesser of evils.&quot; Politicians from Greece to the US promise more and more while allowing the free market to produce less and less. Rational people are seeing that the crash of &#039;08 is a mere precursor to the ultimate and inevitable worldwide sovereign debt disaster. A better system is needed. <br /><br />A better system starts with better money. Money that doesn&#039;t give election-cycle prioritizing politicians free reign to promise the world to the masses while delivering nothing but debt and inflation. Many advocate a return to the gold standard in order to tie politicians&#039; hands, while others propose various revisions to the Fed and other central banks. However, as is often the case, the market itself has developed, and is increasingly embracing, a powerful solution that&#039;s growing from the bottom up: bitcoin.<br /><br />Consider a monetary system that offers perfect information. A system that broadcasts its intentions to the world with mathematical perfection. A system whose formula cannot be manipulated by politicans (or anyone, for that matter), thereby eliminating the entire notion of monetary uncertainty. A system that offers what gold and other classical &quot;hard money&quot; offers: limited supply, divisibility, portability, homogeneity, recognizability, durability...but which is also fit for the modern electronic world where funds zip across the Internet and most money is simply an account entry &quot;in the books.&quot; <br /><br />Sound too good to be true? Perhaps. But while none of the world&#039;s debt problems have been solved and while Mr. Bernake contemplates buying up yet another round of Uncle Sam&#039;s bonds, the bitcoin experiment quietly grows, rejecting the entire theoretical basis of fiat currency and a politically-controlled elastic money supply. <br /><br />Bitcoin is a decentralized, mathematically fixed-supply currency. Through its use of indisputable cryptography, it has made possible, for the first time in human history, a money supply that cannot be altered by any central authority. It is also fully designed for the modern electronic era. Sending funds internationally no longer requires a hefty wire-transfer fee, several hours (if not days), and transmission of sensitive identity and account information through an insecure electronic banking system. Senders and receivers of bitcoin can be anywhere in the world. &nbsp;People can quickly, easily, securely, and psuedo-anonymously send bitcoin to each other over the Internet from myriad devices (computers, tablets, phones, etc). Bitcoin is how money should work in the modern economy.<br /><br />The bitcoin experiment is young, and its future is unknown. But it doesn&#039;t take too much vision to see that, like the fledgling Internet of the late 1980s, it has the power to disrupt the status quo like few innovations before it. Control of money need not be in the hands of government. The Internet democratized and decentralized information. Bitcoin democratizes and decentralizes money.<br /><br /></div></div><br />this is by far the best of the three articles. &nbsp; all discussions of Bitcoin need to be placed into the context of defining what exactly is the problem with the current global monetary system. &nbsp;what we&#039;re going thru is a <i>fiat currency crisis</i> and this article articulates the problem clearly while proposing a new and revolutionary solution.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [MARKETING]Get ZeroHedge to publish an article about Bitcoin</b><br />
+					Post by: <b>Coinabul</b> on <b>August 30, 2012, 04:30:54 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">I&#039;ve attempted to contact ZH&#039;s admin before. I was met with a lot of resistance and the word Buttcoin was mentioned a couple of times...<br /><br />Good luck! :)</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [MARKETING]Get ZeroHedge to publish an article about Bitcoin</b><br />
+					Post by: <b>Gabi</b> on <b>August 30, 2012, 10:58:01 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">+1, to me these &quot;zerohedge&quot; people seems a bunch of idiots </div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [MARKETING]Get ZeroHedge to publish an article about Bitcoin</b><br />
+					Post by: <b>n8rwJeTt8TrrLKPa55eU</b> on <b>August 30, 2012, 12:49:03 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=100699.msg1145320#msg1145320">Quote from: Coinabul on August 30, 2012, 04:30:54 AM</a></div><div class="quote">I&#039;ve attempted to contact ZH&#039;s admin before. I was met with a lot of resistance and the word Buttcoin was mentioned a couple of times...<br /><br />Good luck! :)<br /></div><br />I guess if this happens, an alternative could be to write an article whose title and theme is about gold, but where Bitcoin is sneakily mentioned as supplementing gold.&nbsp; E.g. &quot;Physical Gold: Tricky Scenarios and Some Solutions&quot; and then discuss ways to manage situations where gold comes up short, such as 1933-style confiscation, international payments, online micropayments, violations of safety deposit boxes, metal detectors, border crossings, etc and presenting various kinds of wealth storage/transport solutions in those scenarios including Bitcoins.&nbsp; By the end of the article, the reader would draw his own conclusion that gold by itself wasn&#039;t sufficient, and he needed to consider getting himself some Bitcoins.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [MARKETING]Get ZeroHedge to publish an article about Bitcoin</b><br />
+					Post by: <b>Seal</b> on <b>August 30, 2012, 02:30:21 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Looks like there was an article just posted on ZH about bitcoin!</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [MARKETING]Get ZeroHedge to publish an article about Bitcoin</b><br />
+					Post by: <b>cypherdoc</b> on <b>August 30, 2012, 03:52:53 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=100699.msg1146374#msg1146374">Quote from: Seal on August 30, 2012, 02:30:21 PM</a></div><div class="quote">Looks like there was an article just posted on ZH about bitcoin!<br /></div><br />i don&#039;t see it.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [MARKETING]Get ZeroHedge to publish an article about Bitcoin</b><br />
+					Post by: <b>unclescrooge</b> on <b>August 31, 2012, 07:29:31 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">I thought they would be more open considering they &quot;apparently&quot; understand the current system is broken.<br /><br />But hey, it&#039;s some wall street guys after all, what did we expect :/</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [MARKETING]Get ZeroHedge to publish an article about Bitcoin</b><br />
+					Post by: <b>TECSHARE</b> on <b>August 31, 2012, 08:41:20 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">If anyone is interested I have a contact at Intelhub. If you produce a decent instructional and PM it to me I will introduce it to them.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [MARKETING]Get ZeroHedge to publish an article about Bitcoin</b><br />
+					Post by: <b>molecular</b> on <b>October 24, 2012, 03:33:14 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">These goddamn metal-blockheads!<br /><br />If they would think outside of their silver boxes for once, they would see the bitcoin light and buy in hordes. <br /><br />Seriously, it&#039;s such a perfect fit for their frame of mind... yet they have such an aversion to anything that is &quot;not real and tangible&quot; (which can even be argued to be the case for bitcoin) that they just <i>cannot</i>, for the <i>love</i> of their lives, even <i>consider</i> bitcoin.<br /><br />There seem to be exceptions, like Brother John F, who has been reporting on bitcoin and it&#039;s awesome features a couple of times in his show (&quot;Silver Update&quot; on youtube). Unfortunately he stopped doing it, because, I think, he received too much negative feedback from his viewers.<br /><br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [MARKETING]Get ZeroHedge to publish an article about Bitcoin</b><br />
+					Post by: <b>deeplink</b> on <b>October 24, 2012, 03:42:35 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=100699.msg1294944#msg1294944">Quote from: molecular on October 24, 2012, 03:33:14 PM</a></div><div class="quote">These goddamn metal-blockheads!<br /><br />If they would think outside of their silver boxes for once, they would see the bitcoin light and buy in hordes. <br /><br />Seriously, it&#039;s such a perfect fit for their frame of mind... yet they have such an aversion to anything that is &quot;not real and tangible&quot; (which can even be argued to be the case for bitcoin) that they just <i>cannot</i>, for the <i>love</i> of their lives, even <i>consider</i> bitcoin.<br /><br />There seem to be exceptions, like Brother John F, who has been reporting on bitcoin and it&#039;s awesome features a couple of times in his show (&quot;Silver Update&quot; on youtube). Unfortunately he stopped doing it, because, I think, he received too much negative feedback from his viewers.<br /><br /><br /></div><br />I think they are no early-adopters. They will follow eventually on the crypto-currency bandwagon.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [MARKETING]Get ZeroHedge to publish an article about Bitcoin</b><br />
+					Post by: <b>molecular</b> on <b>October 24, 2012, 03:48:31 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=100699.msg1294968#msg1294968">Quote from: deeplink on October 24, 2012, 03:42:35 PM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=100699.msg1294944#msg1294944">Quote from: molecular on October 24, 2012, 03:33:14 PM</a></div><div class="quote">These goddamn metal-blockheads!<br /><br />If they would think outside of their silver boxes for once, they would see the bitcoin light and buy in hordes. <br /><br />Seriously, it&#039;s such a perfect fit for their frame of mind... yet they have such an aversion to anything that is &quot;not real and tangible&quot; (which can even be argued to be the case for bitcoin) that they just <i>cannot</i>, for the <i>love</i> of their lives, even <i>consider</i> bitcoin.<br /><br />There seem to be exceptions, like Brother John F, who has been reporting on bitcoin and it&#039;s awesome features a couple of times in his show (&quot;Silver Update&quot; on youtube). Unfortunately he stopped doing it, because, I think, he received too much negative feedback from his viewers.<br /><br /><br /></div><br />I think they are no early-adopters. They will follow eventually on the <del>crypto-currency</del> crypto-money bandwagon.<br /></div><br />ftfy ;)</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [MARKETING]Get ZeroHedge to publish an article about Bitcoin</b><br />
+					Post by: <b>Roger_Murdock</b> on <b>October 24, 2012, 04:43:39 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=100699.msg1294944#msg1294944">Quote from: molecular on October 24, 2012, 03:33:14 PM</a></div><div class="quote">These goddamn metal-blockheads!<br /><br />If they would think outside of their silver boxes for once, they would see the bitcoin light and buy in hordes. <br /><br />Seriously, it&#039;s such a perfect fit for their frame of mind... yet they have such an aversion to anything that is &quot;not real and tangible&quot; (which can even be argued to be the case for bitcoin) that they just <i>cannot</i>, for the <i>love</i> of their lives, even <i>consider</i> bitcoin.<br /><br />There seem to be exceptions, like Brother John F, who has been reporting on bitcoin and it&#039;s awesome features a couple of times in his show (&quot;Silver Update&quot; on youtube). Unfortunately he stopped doing it, because, I think, he received too much negative feedback from his viewers.<br /><br /><br /></div>They&#039;re emotionally (and financially) invested in PM&#039;s. So even though Bitcoin is the enemy of fiat and should be seen as an ally a la &quot;the enemy of my enemy is my friend,&quot; Bitcoin also seems like the &quot;enemy&quot; of PM&#039;s. I think with this crowd, you need to present Bitcoin as a complement to PM&#039;s rather than a competitor. And I think that&#039;s totally fair. Bitcoin is so tiny now with such enormous potential upside that fiat skeptics / PM-bugs should at least consider taking a small position. If and when Bitcoin becomes big enough to steal significant market share from gold or silver, they won&#039;t care because their bitcoins will be worth so much. And if Bitcoin proves to be a flop, who cares if you only invested say 1% of your savings?<br /><br />I mean, I can understand skepticism of the &quot;it&#039;s new and it will probably fail&quot; variety, but to be completely dismissive of Bitcoin? To not be at least a little excited about its revolutionary and disruptive potential? That I don&#039;t get.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [MARKETING]Get ZeroHedge to publish an article about Bitcoin</b><br />
+					Post by: <b>allthingsluxury</b> on <b>October 24, 2012, 07:43:07 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">This definitely would be huge, they generate a huge amount of traffic and a large amount of their viewer base is libertarian.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [MARKETING]Get ZeroHedge to publish an article about Bitcoin</b><br />
+					Post by: <b>acoindr</b> on <b>October 24, 2012, 08:31:58 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=100699.msg1295115#msg1295115">Quote from: Roger_Murdock on October 24, 2012, 04:43:39 PM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=100699.msg1294944#msg1294944">Quote from: molecular on October 24, 2012, 03:33:14 PM</a></div><div class="quote">These goddamn metal-blockheads!<br /><br />If they would think outside of their silver boxes for once, they would see the bitcoin light and buy in hordes. <br /><br />Seriously, it&#039;s such a perfect fit for their frame of mind... yet they have such an aversion to anything that is &quot;not real and tangible&quot; (which can even be argued to be the case for bitcoin) that they just <i>cannot</i>, for the <i>love</i> of their lives, even <i>consider</i> bitcoin.<br /><br />There seem to be exceptions, like Brother John F, who has been reporting on bitcoin and it&#039;s awesome features a couple of times in his show (&quot;Silver Update&quot; on youtube). Unfortunately he stopped doing it, because, I think, he received too much negative feedback from his viewers.<br /><br /><br /></div>They&#039;re emotionally (and financially) invested in PM&#039;s. So even though Bitcoin is the enemy of fiat and should be seen as an ally a la &quot;the enemy of my enemy is my friend,&quot; Bitcoin also seems like the &quot;enemy&quot; of PM&#039;s. I think with this crowd, you need to present Bitcoin as a complement to PM&#039;s rather than a competitor. And I think that&#039;s totally fair. Bitcoin is so tiny now with such enormous potential upside that fiat skeptics / PM-bugs should at least consider taking a small position. If and when Bitcoin becomes big enough to steal significant market share from gold or silver, they won&#039;t care because their bitcoins will be worth so much. And if Bitcoin proves to be a flop, who cares if you only invested say 1% of your savings?<br /><br />I mean, I can understand skepticism of the &quot;it&#039;s new and it will probably fail&quot; variety, but to be completely dismissive of Bitcoin? To not be at least a little excited about its revolutionary and disruptive potential? That I don&#039;t get.<br /></div><br />Bitcoin/cryptocurrencies won&#039;t steal market share away from precious metals. Not the way I see it. I&#039;m writing a post that explains it. <br /><br />I believe the world will return to gold as the primary store of value. Central banks around the world already hold it, and people worldwide continue to recognize gold&#039;s value even if it&#039;s not easily exchanged. Currently the world pegs everything against the dollar, which is the world&#039;s reserve currency. That is ending. <br /><br />The dollar fiat is self-destructing, and will probably take most other fiat with it. It&#039;s an interesting time...<br /><br />I say interesting because if fiat wasn&#039;t already self-destructing this revolutionary currency technology we&#039;re all a part of would soon likely do the job anyway. Fiat currency can&#039;t compete. It&#039;s a choice between currency which can be inflated and manipulated or currency, such as gold or bitcoins, which can&#039;t. So the timing is right on. Fiat will take a back seat or disappear altogether and gold and precious metals will take the lead.<br /><br />The reason cryptocurrencies won&#039;t replace precious metals is their value will be volatile for many reasons which I&#039;ll explain in my post. People will, IMO, hold precious metals for their primary store of value and use cryptocurrencies to trade.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [MARKETING]Get ZeroHedge to publish an article about Bitcoin</b><br />
+					Post by: <b>molecular</b> on <b>October 25, 2012, 12:33:17 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=100699.msg1295115#msg1295115">Quote from: Roger_Murdock on October 24, 2012, 04:43:39 PM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=100699.msg1294944#msg1294944">Quote from: molecular on October 24, 2012, 03:33:14 PM</a></div><div class="quote">These goddamn metal-blockheads!<br /><br />If they would think outside of their silver boxes for once, they would see the bitcoin light and buy in hordes. <br /><br />Seriously, it&#039;s such a perfect fit for their frame of mind... yet they have such an aversion to anything that is &quot;not real and tangible&quot; (which can even be argued to be the case for bitcoin) that they just <i>cannot</i>, for the <i>love</i> of their lives, even <i>consider</i> bitcoin.<br /><br />There seem to be exceptions, like Brother John F, who has been reporting on bitcoin and it&#039;s awesome features a couple of times in his show (&quot;Silver Update&quot; on youtube). Unfortunately he stopped doing it, because, I think, he received too much negative feedback from his viewers.<br /><br /><br /></div>They&#039;re emotionally (and financially) invested in PM&#039;s. So even though Bitcoin is the enemy of fiat and should be seen as an ally a la &quot;the enemy of my enemy is my friend,&quot; Bitcoin also seems like the &quot;enemy&quot; of PM&#039;s. I think with this crowd, you need to present Bitcoin as a complement to PM&#039;s rather than a competitor. And I think that&#039;s totally fair. Bitcoin is so tiny now with such enormous potential upside that fiat skeptics / PM-bugs should at least consider taking a small position. If and when Bitcoin becomes big enough to steal significant market share from gold or silver, they won&#039;t care because their bitcoins will be worth so much. And if Bitcoin proves to be a flop, who cares if you only invested say 1% of your savings?<br /></div><br />that&#039;s usually how I approach it: tell them I have gold and silver. Then tell them I also have bitcoin and suggest to put up to 5% into bitcoin.<br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [MARKETING]Get ZeroHedge to publish an article about Bitcoin</b><br />
+					Post by: <b>molecular</b> on <b>October 25, 2012, 12:35:08 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=100699.msg1295614#msg1295614">Quote from: acoindr on October 24, 2012, 08:31:58 PM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=100699.msg1295115#msg1295115">Quote from: Roger_Murdock on October 24, 2012, 04:43:39 PM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=100699.msg1294944#msg1294944">Quote from: molecular on October 24, 2012, 03:33:14 PM</a></div><div class="quote">These goddamn metal-blockheads!<br /><br />If they would think outside of their silver boxes for once, they would see the bitcoin light and buy in hordes. <br /><br />Seriously, it&#039;s such a perfect fit for their frame of mind... yet they have such an aversion to anything that is &quot;not real and tangible&quot; (which can even be argued to be the case for bitcoin) that they just <i>cannot</i>, for the <i>love</i> of their lives, even <i>consider</i> bitcoin.<br /><br />There seem to be exceptions, like Brother John F, who has been reporting on bitcoin and it&#039;s awesome features a couple of times in his show (&quot;Silver Update&quot; on youtube). Unfortunately he stopped doing it, because, I think, he received too much negative feedback from his viewers.<br /><br /><br /></div>They&#039;re emotionally (and financially) invested in PM&#039;s. So even though Bitcoin is the enemy of fiat and should be seen as an ally a la &quot;the enemy of my enemy is my friend,&quot; Bitcoin also seems like the &quot;enemy&quot; of PM&#039;s. I think with this crowd, you need to present Bitcoin as a complement to PM&#039;s rather than a competitor. And I think that&#039;s totally fair. Bitcoin is so tiny now with such enormous potential upside that fiat skeptics / PM-bugs should at least consider taking a small position. If and when Bitcoin becomes big enough to steal significant market share from gold or silver, they won&#039;t care because their bitcoins will be worth so much. And if Bitcoin proves to be a flop, who cares if you only invested say 1% of your savings?<br /><br />I mean, I can understand skepticism of the &quot;it&#039;s new and it will probably fail&quot; variety, but to be completely dismissive of Bitcoin? To not be at least a little excited about its revolutionary and disruptive potential? That I don&#039;t get.<br /></div><br />Bitcoin/cryptocurrencies won&#039;t steal market share away from precious metals. Not the way I see it. I&#039;m writing a post that explains it. <br /><br />I believe the world will return to gold as the primary store of value. Central banks around the world already hold it, and people worldwide continue to recognize gold&#039;s value even if it&#039;s not easily exchanged. Currently the world pegs everything against the dollar, which is the world&#039;s reserve currency. That is ending. <br /><br />The dollar fiat is self-destructing, and will probably take most other fiat with it. It&#039;s an interesting time...<br /><br />I say interesting because if fiat wasn&#039;t already self-destructing this revolutionary currency technology we&#039;re all a part of would soon likely do the job anyway. Fiat currency can&#039;t compete. It&#039;s a choice between currency which can be inflated and manipulated or currency, such as gold or bitcoins, which can&#039;t. So the timing is right on. Fiat will take a back seat or disappear altogether and gold and precious metals will take the lead.<br /><br />The reason cryptocurrencies won&#039;t replace precious metals is their value will be volatile for many reasons which I&#039;ll explain in my post. People will, IMO, hold precious metals for their primary store of value and use cryptocurrencies to trade.<br /></div><br />I would like to read that post and join the discussion, please point us here to it once you posted.<br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [MARKETING]Get ZeroHedge to publish an article about Bitcoin</b><br />
+					Post by: <b>n8rwJeTt8TrrLKPa55eU</b> on <b>November 02, 2012, 10:39:20 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Well, it has now kinda happened. &nbsp;Indirect humorous Bitcoin article on ZH, covering ECB report. &nbsp;Surprisingly neutral (or perhaps even positive) Bitcoin mentions, as opposed to past dismissive &amp; skeptical tone:<br /><br />ZeroHedge: Friday Humor: The ECB Explains What A Ponzi Scheme Is; Awkward Silence Follows<br />https://bitcointalk.org/index.php?topic=122131.0<br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [MARKETING]Get ZeroHedge to publish an article about Bitcoin</b><br />
+					Post by: <b>elendir</b> on <b>November 02, 2012, 10:53:04 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Awesome, it&#039;s on!</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [MARKETING]Get ZeroHedge to publish an article about Bitcoin</b><br />
+					Post by: <b>Coinabul</b> on <b>November 02, 2012, 10:54:53 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=100699.msg1313899#msg1313899">Quote from: n8rwJeTt8TrrLKPa55eU on November 02, 2012, 10:39:20 PM</a></div><div class="quote">Well, it has now kinda happened. &nbsp;Indirect humorous Bitcoin article on ZH, covering ECB report. &nbsp;Surprisingly neutral (or perhaps even positive) Bitcoin mentions, as opposed to past dismissive &amp; skeptical tone:<br /><br />ZeroHedge: Friday Humor: The ECB Explains What A Ponzi Scheme Is; Awkward Silence Follows<br />https://bitcointalk.org/index.php?topic=122131.0<br /><br /></div><br />&quot;Bash Bitcoin Boondoggle&quot;<br /><br />It&#039;s more of a bash against conventional banks.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [MARKETING]Get ZeroHedge to publish an article about Bitcoin</b><br />
+					Post by: <b>marcus_of_augustus</b> on <b>November 04, 2012, 02:25:12 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">The enemy of our enemy is our friend .... ECB bashing bitcoin just made us some valuable allies I think.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [MARKETING]Get ZeroHedge to publish an article about Bitcoin</b><br />
+					Post by: <b>n8rwJeTt8TrrLKPa55eU</b> on <b>November 04, 2012, 06:09:34 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">New article just posted:<br /><br />http://www.zerohedge.com/news/2012-11-04/bitcoin-seen-through-eyes-central-banker<br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [MARKETING]Get ZeroHedge to publish an article about Bitcoin</b><br />
+					Post by: <b>Stephen Gornick</b> on <b>November 04, 2012, 06:11:18 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=100699.msg1316502#msg1316502">Quote from: n8rwJeTt8TrrLKPa55eU on November 04, 2012, 06:09:34 PM</a></div><div class="quote">New article just posted:<br /><br />http://www.zerohedge.com/news/2012-11-04/bitcoin-seen-through-eyes-central-banker<br /></div><br />The article that post is about can be viewed via web-viewers:<br /><br />&nbsp;- http://bit.ly/U2hOUC (Web-view of PDF via Google Docs)<br />&nbsp;- http://www.scribd.com/doc/112086564/Gloon-of-Central-Banking (Web-view of PDF via Scribd)<br /><br />And the original PDF:<br />&nbsp;- http://www.zerohedge.com/sites/default/files/images/user5/imageroot/2012/10-2/gloom%20of%20central%20banking.pdf (PDF)<br /><br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [MARKETING]Get ZeroHedge to publish an article about Bitcoin</b><br />
+					Post by: <b>evoorhees</b> on <b>November 04, 2012, 06:33:44 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Wow two ZeroHedge articles in three days... this is excellent!&nbsp; @ZeroHedge also tweets these out, and they have over 100,000 followers just on Twitter. This is very big exposure. I&#039;ve been waiting for ZH to wake up to this forever, and now they see BTC is an enemy of central banks, and because they are enemies of central banks as well, perhaps they&#039;ll realize that Bitcoin is an ally.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [MARKETING]Get ZeroHedge to publish an article about Bitcoin</b><br />
+					Post by: <b>n8rwJeTt8TrrLKPa55eU</b> on <b>November 04, 2012, 06:57:28 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=100699.msg1316548#msg1316548">Quote from: evoorhees on November 04, 2012, 06:33:44 PM</a></div><div class="quote">now they see BTC is an enemy of central banks, and because they are enemies of central banks as well, perhaps they&#039;ll realize that Bitcoin is an ally.<br /></div><br />Yes, undoubtedly the &quot;enemy of your enemy is your friend&quot; is the best line of persuasion with hard-money people who are skeptical of Bitcoin due to lack of tangibility.<br /><br />I predict the US Fed, IMF, and major economists will, in 2013, put out papers on the Bitcoin topic. &nbsp;Central bankers and academics have lemming characteristics, and many will jump onto this bandwagon now that it&#039;s been legitimised as a &quot;respectable&quot; area of research by a &quot;serious&quot; institution. &nbsp;Floodgates have been opened.<br /><br />It&#039;s a beautiful virtuous circle for Bitcoin, and a beautiful vicious circle for government fiat. &nbsp;The more they talk about Bitcoin, the more acceptable and established it becomes, the more it will undermine and expose them, and the more they will have to talk about it.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [MARKETING]Get ZeroHedge to publish an article about Bitcoin</b><br />
+					Post by: <b>TraderTimm</b> on <b>November 04, 2012, 09:04:07 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Read through the comments on each, and something has changed over there. Most mentions of bitcoin prior to that had a lot of trolls and one-offs very cynical about the entire idea. Now, I see that there are people actually discussing it, and willing to put forth explanations to those with the &#039;newbie&#039; questions on bitcoin.<br /><br />I suggested over there that someone setup a gold/bitcoin service for Precious Metals hoarders. Perhaps a light bulb will light up for someone who already has &#039;stacked&#039; their stash, but wants to trade some excess.<br /><br />Exciting times, for sure.<br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [MARKETING]Get ZeroHedge to publish an article about Bitcoin</b><br />
+					Post by: <b>sunnankar</b> on <b>November 04, 2012, 09:34:00 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=100699.msg1316748#msg1316748">Quote from: TraderTimm on November 04, 2012, 09:04:07 PM</a></div><div class="quote">Read through the comments on each, and something has changed over there. Most mentions of bitcoin prior to that had a lot of trolls and one-offs very cynical about the entire idea. Now, I see that there are people actually discussing it, and willing to put forth explanations to those with the &#039;newbie&#039; questions on bitcoin.<br /></div><br /><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=122341.msg1316685#msg1316685">Quote from: Wekkel on November 04, 2012, 08:13:25 PM</a></div><div class="quote">The comments show that the ZH public is very well aware of the concept.<br /></div><br />Now that people are increasingly aware of Bitcoin I think the next step is to start calling people out who <i>pontificate</i> about Bitcoin but have <i>never actually engaged</i> in a transaction. It would be as simple as: &quot;Well, have you ever sent a bitcoin? No? Are you sure you know what you are talking about?&quot;</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [MARKETING]Get ZeroHedge to publish an article about Bitcoin</b><br />
+					Post by: <b>Gabi</b> on <b>November 04, 2012, 09:41:00 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Gold certificate=paper, it&#039;s totally worthless. </div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [MARKETING]Get ZeroHedge to publish an article about Bitcoin</b><br />
+					Post by: <b>molecular</b> on <b>November 04, 2012, 10:05:05 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=100699.msg1316507#msg1316507">Quote from: Stephen Gornick on November 04, 2012, 06:11:18 PM</a></div><div class="quote">And the original PDF:<br />&nbsp;- http://www.zerohedge.com/sites/default/files/images/user5/imageroot/2012/10-2/gloom%20of%20central%20banking.pdf (PDF)<br /></div><br />tldr; Title: &quot;The Gloom of Central Banking&quot; by Tuur Demeester. They are well aware and sincerely afraid of Bitcoin and they don&#039;t know what to do about it. A nice read.<br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [MARKETING]Get ZeroHedge to publish an article about Bitcoin</b><br />
+					Post by: <b>DoomDumas</b> on <b>November 05, 2012, 02:53:19 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Nice job guys/gals !!!<br /><br />A large audience like that exposed to BTC !&nbsp; that&#039;s really great !&nbsp; &nbsp;At least, I beleive in this marketing : &quot;speak of it good or bad, does&#039;nt matter, as long as you speak of it&quot; :)<br /><br />I&#039;m pretty sure we&#039;ll see, in the next month or two some variance in demand/volume in various BTC exchange due to this new large audience !<br /><br />Well done<br /><br />two thumbs up :D<br /><br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [MARKETING]Get ZeroHedge to publish an article about Bitcoin</b><br />
+					Post by: <b>Coinabul</b> on <b>November 05, 2012, 03:07:27 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=100699.msg1316748#msg1316748">Quote from: TraderTimm on November 04, 2012, 09:04:07 PM</a></div><div class="quote">Read through the comments on each, and something has changed over there. Most mentions of bitcoin prior to that had a lot of trolls and one-offs very cynical about the entire idea. Now, I see that there are people actually discussing it, and willing to put forth explanations to those with the &#039;newbie&#039; questions on bitcoin.<br /><br />I suggested over there that someone setup a gold/bitcoin service for Precious Metals hoarders. Perhaps a light bulb will light up for someone who already has &#039;stacked&#039; their stash, but wants to trade some excess.<br /><br />Exciting times, for sure.<br /><br /></div>Coinabul.com</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [MARKETING]Get ZeroHedge to publish an article about Bitcoin</b><br />
+					Post by: <b>DoomDumas</b> on <b>November 05, 2012, 03:27:30 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">+1 Coinabul<br /><br />Very nice PDF from Tuur Demeester &quot;The Gloom of Central Banking&quot; as stated by molecular !<br />http://www.zerohedge.com/sites/default/files/images/user5/imageroot/2012/10-2/gloom%20of%20central%20banking.pdf (http://www.zerohedge.com/sites/default/files/images/user5/imageroot/2012/10-2/gloom%20of%20central%20banking.pdf)<br /><br />First part about actual banking system, a bit of history, can read fast if you&#039;re used to the stuff.. <br /><br />Second part about Bitcoin :D&nbsp; &nbsp;really interesting, and I&#039;m pretty sur A LOT of folks not knowing Bitcoins will dig a lot more into the stuff :D<br /><br />a must read for enthousiat !</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [MARKETING]Get ZeroHedge to publish an article about Bitcoin</b><br />
+					Post by: <b>molecular</b> on <b>November 05, 2012, 05:44:37 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=100699.msg1317196#msg1317196">Quote from: Coinabul on November 05, 2012, 03:07:27 AM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=100699.msg1316748#msg1316748">Quote from: TraderTimm on November 04, 2012, 09:04:07 PM</a></div><div class="quote">Read through the comments on each, and something has changed over there. Most mentions of bitcoin prior to that had a lot of trolls and one-offs very cynical about the entire idea. Now, I see that there are people actually discussing it, and willing to put forth explanations to those with the &#039;newbie&#039; questions on bitcoin.<br /><br />I suggested over there that someone setup a gold/bitcoin service for Precious Metals hoarders. Perhaps a light bulb will light up for someone who already has &#039;stacked&#039; their stash, but wants to trade some excess.<br /><br />Exciting times, for sure.<br /><br /></div>Coinabul.com<br /></div><br />can the metal-blockheads SELL some of their precious coins/bars on coinabul.com and GET some precious bits for them? These folk tend to be low on fiat.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [MARKETING]Get ZeroHedge to publish an article about Bitcoin</b><br />
+					Post by: <b>molecular</b> on <b>November 05, 2012, 04:16:25 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">the zerohedge article about the ECB paper triggered <b>BrotherJohnF</b> (a sort of silver evangelist, has &gt; 10,000 subscribers on his main channel) to revive his <b>bitcoin channel</b>, for the following reason.<br /><br /><div class="quoteheader">Quote from: brotherjohnf</div><div class="quote">Zerohedge has been pretty much silent about the <b>Bitcoin</b> for a very long time and that&#039;s the reason why I&#039;m reviving this channel because we&#039;re now <b>breaking into the mainstream</b><br /></div><br />to kind of sum up his stance let me quote from the beginning of the vid:<br /><br /><div class="quoteheader">Quote from: brotherjohnf</div><div class="quote">It is a war of the central bankers against the people, a <b>war of the people against the central bankers</b>. In my opinion silver and Bitcoin really are both the number one and two weapon against the central bankers that people can use as very important votes. Much more important votes than the ones you are going to be casting in the following days for the presidency because that is already a rigged game.<br /></div><br />http://www.youtube.com/watch?v=yBBw7BFeGek&amp;feature=g-user-u<br /><br />I have to agree with previous commentators that ZH picking up bitcoin is pretty huge.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [MARKETING]Get ZeroHedge to publish an article about Bitcoin</b><br />
+					Post by: <b>TraderTimm</b> on <b>November 06, 2012, 01:43:08 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Molecular, I agree - it is a big step. A lot of radars got &#039;pinged&#039; today just having those articles appear on Zerohedge.<br /><br />I also agree with the statement about voting with bitcoin versus in the election - in fact, I tell that to people (who can handle new ideas) that I&#039;m doing just that.<br /><br />It is the only hope of freedom I have at the moment.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [MARKETING]Get ZeroHedge to publish an article about Bitcoin</b><br />
+					Post by: <b>Melbustus</b> on <b>November 04, 2013, 04:19:18 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">I read another Zerohedge post about bitcoin today, which reminded me of this thread. Seems like ZH is running an article or two a week about (or referencing) bitcoin these days. <br /><br />We&#039;ve come a long way. </div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [MARKETING]Get ZeroHedge to publish an article about Bitcoin</b><br />
+					Post by: <b>molecular</b> on <b>November 04, 2013, 05:07:16 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=100699.msg3476206#msg3476206">Quote from: Melbustus on November 04, 2013, 04:19:18 AM</a></div><div class="quote">I read another Zerohedge post about bitcoin today, which reminded me of this thread. Seems like ZH is running an article or two a week about (or referencing) bitcoin these days. <br /><br />We&#039;ve come a long way. <br /></div><br />indeed. Even ebay can&#039;t be silent any more.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [MARKETING]Get ZeroHedge to publish an article about Bitcoin</b><br />
+					Post by: <b>Melbustus</b> on <b>July 12, 2015, 05:22:30 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">This tweet from yesterday: <br /><br /><a href="http://i.imgur.com/HaM6njA.png">http://i.imgur.com/HaM6njA.png</a><br /><br /><br />...reminded me of this thread. </div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [MARKETING]Get ZeroHedge to publish an article about Bitcoin</b><br />
+					Post by: <b>molecular</b> on <b>July 12, 2015, 06:28:15 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=100699.msg1294968#msg1294968">Quote from: deeplink on October 24, 2012, 03:42:35 PM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=100699.msg1294944#msg1294944">Quote from: molecular on October 24, 2012, 03:33:14 PM</a></div><div class="quote">These goddamn metal-blockheads!<br /><br />If they would think outside of their silver boxes for once, they would see the bitcoin light and buy in hordes. <br /><br />Seriously, it&#039;s such a perfect fit for their frame of mind... yet they have such an aversion to anything that is &quot;not real and tangible&quot; (which can even be argued to be the case for bitcoin) that they just <i>cannot</i>, for the <i>love</i> of their lives, even <i>consider</i> bitcoin.<br /><br />There seem to be exceptions, like Brother John F, who has been reporting on bitcoin and it&#039;s awesome features a couple of times in his show (&quot;Silver Update&quot; on youtube). Unfortunately he stopped doing it, because, I think, he received too much negative feedback from his viewers.<br /><br /><br /></div><br />I think they are no early-adopters. They will follow eventually on the crypto-currency bandwagon.<br /></div><br />looks like it, yes.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [MARKETING]Get ZeroHedge to publish an article about Bitcoin</b><br />
+					Post by: <b>gogxmagog</b> on <b>July 12, 2015, 06:37:59 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Keep in mind, ZH is a financial NEWS site. Btc is not news anymore. Even the events that get us bitcoiners all excited isn&#039;t news worthy to the plebes. It&#039;s still very much a niche thing. There needs to be verifiable facts behind the news. Most of what gets published in the btc-centric news outlets is conjecture, opinion, or rumours. This won&#039;t fly with a traditional hard news agency.<br /><br />That said, I&#039;m guessing someone at ZH is strongly anti-btc because you would think with their left of centre stance and generally libertarian views that they would promote the btc like crazy.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [MARKETING]Get ZeroHedge to publish an article about Bitcoin</b><br />
+					Post by: <b>nextgencoin</b> on <b>July 12, 2015, 06:54:58 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">ZH is warming slowley to Bitcoin. Generally the negativity comes from Gold Bug posters who tend to see it as an attack on their personal belief that only Gold is money. <br /><br />I think many there are getting that Bitcoin is actually serving the role Gold is susposed to do is picking up on rumbles in the financial system, inflation and currency debasement etc.<br /><br />I think ZH just had a laugh at the bubble that formed and the foolishness of late investors to a parabolic run up in the charts.<br /><br /><br />I agree there should some actual positive Bitcoin articles on there, I think I saw one the other day. Don&#039;t forget ZH is not just one poster, many are rumoured to post under Tyler Durden name so there can be an inconsistency on Bitcoin on the site.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [MARKETING]Get ZeroHedge to publish an article about Bitcoin</b><br />
+					Post by: <b>marcus_of_augustus</b> on <b>July 13, 2015, 01:43:58 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=100699.msg11861842#msg11861842">Quote from: gogxmagog on July 12, 2015, 06:37:59 PM</a></div><div class="quote">Keep in mind, ZH is a financial NEWS site. Btc is not news anymore. Even the events that get us bitcoiners all excited isn&#039;t news worthy to the plebes. It&#039;s still very much a niche thing. There needs to be verifiable facts behind the news. Most of what gets published in the btc-centric news outlets is conjecture, opinion, or rumours. This won&#039;t fly with a traditional hard news agency.<br /><br />That said, I&#039;m guessing someone at ZH is strongly anti-btc because you would think with their left of centre stance and generally libertarian views that they would promote the btc like crazy.<br /></div><br />Pretty sure that Tyler Durden is a creation of Peter Schiff&#039;s marketing department. They let it slip in some of the earlier articles by the references and knowledge exhibited. The whole tenor and missive of Zerohedge fits Schiffs also.</div>
+					<br /><br />
+					<div align="center" class="smalltext">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank">Powered by SMF 1.1.19</a> | 
+<a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank">SMF &copy; 2006-2009, Simple Machines</a>
+		</span></div>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

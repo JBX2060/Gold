@@ -1,0 +1,98 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+		<link rel="canonical" href="https://bitcointalk.org/index.php?topic=138009.0" />
+		<title>Print Page - ssl help!</title>
+		<style type="text/css">
+			body
+			{
+				color: black;
+				background-color: white;
+			}
+			body, td, .normaltext
+			{
+				font-family: Verdana, arial, helvetica, serif;
+				font-size: small;
+			}
+			*, a:link, a:visited, a:hover, a:active
+			{
+				color: black !important;
+			}
+			table
+			{
+				empty-cells: show;
+			}
+			.code
+			{
+				font-size: x-small;
+				font-family: monospace;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.quote
+			{
+				font-size: x-small;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.smalltext, .quoteheader, .codeheader
+			{
+				font-size: x-small;
+			}
+			.largetext
+			{
+				font-size: large;
+			}
+			hr
+			{
+				height: 1px;
+				border: 0;
+				color: black;
+				background-color: black;
+			}
+		</style>
+	</head>
+	<body>
+		<h1 class="largetext">Bitcoin Forum</h1>
+		<h2 class="normaltext">Bitcoin => Bitcoin Technical Support => Topic started by: cnbtcnews on January 22, 2013, 02:45:29 PM</h2>
+
+		<table width="90%" cellpadding="0" cellspacing="0" border="0">
+			<tr>
+				<td>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>ssl help!</b><br />
+					Post by: <b>cnbtcnews</b> on <b>January 22, 2013, 02:45:29 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">what does it meaning?<br /><br />Client setup<br /><br />Once the server is accepting https connections, to be secure you should make sure the client is actually connecting to the bitcoin server and not an attacker trying to hijack the connection.<br />If you can, you should copy the server.cert certificate chain file to the client machine and use it to validate the OpenSSL connection. For example, in php you would call stream_context_create() with the &#039;verify_peer&#039; and &#039;ca_file&#039; options and then call stream_context_set_default().<br />If you can&#039;t validate using the server certificate, you should connect to the server using its IP address instead of its host name.<br /><br /><br />I want to connet bitcoind througt ssl with PHP page. How can I do?</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: ssl help!</b><br />
+					Post by: <b>onpdm</b> on <b>January 23, 2013, 08:51:44 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">I set up a Bitcoind Server 2 weeks ago and switched to SSL connection, but I didn&#039;t need any configuration of client.<br /><br />Just make the configuration with the OpenSSL on your server described in wiki and connect via PHPrpc with https. If you change your PHPrpc back to http, connection will be refused.<br /><br />Hope this is correct anyway... but it works.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: ssl help!</b><br />
+					Post by: <b>BitcoinSuite</b> on <b>January 30, 2013, 05:25:22 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=138009.msg1474091#msg1474091">Quote from: onpdm on January 23, 2013, 08:51:44 PM</a></div><div class="quote">I set up a Bitcoind Server 2 weeks ago and switched to SSL connection, but I didn&#039;t need any configuration of client.<br /></div><br />You should, the instructions above mention copying the cert so it is validated with the one on YOUR server.<br /><br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: ssl help!</b><br />
+					Post by: <b>kjj</b> on <b>January 31, 2013, 06:14:53 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Yes, make sure that you set the client up to validate the certificate.&nbsp; If you skip this step, you might as well not be using SSL at all.</div>
+					<br /><br />
+					<div align="center" class="smalltext">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank">Powered by SMF 1.1.19</a> | 
+<a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank">SMF &copy; 2006-2009, Simple Machines</a>
+		</span></div>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

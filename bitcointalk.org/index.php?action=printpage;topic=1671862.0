@@ -1,0 +1,104 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+		<link rel="canonical" href="https://bitcointalk.org/index.php?topic=1671862.0" />
+		<title>Print Page - What's going on with the Testnet?</title>
+		<style type="text/css">
+			body
+			{
+				color: black;
+				background-color: white;
+			}
+			body, td, .normaltext
+			{
+				font-family: Verdana, arial, helvetica, serif;
+				font-size: small;
+			}
+			*, a:link, a:visited, a:hover, a:active
+			{
+				color: black !important;
+			}
+			table
+			{
+				empty-cells: show;
+			}
+			.code
+			{
+				font-size: x-small;
+				font-family: monospace;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.quote
+			{
+				font-size: x-small;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.smalltext, .quoteheader, .codeheader
+			{
+				font-size: x-small;
+			}
+			.largetext
+			{
+				font-size: large;
+			}
+			hr
+			{
+				height: 1px;
+				border: 0;
+				color: black;
+				background-color: black;
+			}
+		</style>
+	</head>
+	<body>
+		<h1 class="largetext">Bitcoin Forum</h1>
+		<h2 class="normaltext">Bitcoin => Development &amp; Technical Discussion => Topic started by: lukew on November 05, 2016, 08:56:22 PM</h2>
+
+		<table width="90%" cellpadding="0" cellspacing="0" border="0">
+			<tr>
+				<td>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>What's going on with the Testnet?</b><br />
+					Post by: <b>lukew</b> on <b>November 05, 2016, 08:56:22 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">A few days ago I had trouble sending all the Testnet coins from my phone to development machine. Today I send some back to the phone after re-installing the app, and they&#039;ve not turned up. The transaction also has 30 confirmations, however it was made about 10 minutes ago.<br /><br />Has the Testnet forked and left my phone on one fork, and my dev machine using the other?</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: What's going on with the Testnet?</b><br />
+					Post by: <b>achow101</b> on <b>November 05, 2016, 09:12:21 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Nope, someone just turned on a lot of mining power onto testnet briefly. This tends to happen since the difficulty is so low. At one point I remember there being several blocks being mined every second.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: What's going on with the Testnet?</b><br />
+					Post by: <b>lukew</b> on <b>November 05, 2016, 09:18:59 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Problem is the block that my transaction was first included in only contains one transaction, and it isn&#039;t mine.<br /><br />The check transaction function in my software (which has worked perfectly during 6+ months of development) shows block 1029856 as the block it was first included in, however BlockCypher disagrees, and so does my testnet Android wallet. I&#039;ll drag the txid from the database and post it up here in a few minutes.<br /><br />Edit:<br /><br />Okay, something&#039;s gone a bit screwed up. I must have screwed up the block height code when I re-wrote the GUI, but the transaction still hasn&#039;t appeared on my phone, and re-syncing it hasn&#039;t helped either.<br /><br />Just as I&#039;m typing it appears, ah well, non-existant problem solved. It&#039;s been one of those days!</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: What's going on with the Testnet?</b><br />
+					Post by: <b>johoe</b> on <b>November 06, 2016, 01:48:50 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">I also have problems with testnet.&nbsp; Some transactions I sent a few days ago still show as unconfirmed in Mycelium even though they have 4800 confirmations on blockr.io.<br /><br />And then I have sent a Segwit transaction.&nbsp; I first sent it without fee and later resent it with 5000 Satoshi fee. That still hasn&#039;t been confirmed after almost 2000 blocks have past.&nbsp; It is not displayed on tbtc.blockr.io nor on test-insight.bitpay.com (and I can&#039;t push it to blockr.io, because their push interface can&#039;t parse witnesses). <br /><br />Or is something wrong with it?<br /><br /><div class="codeheader">Code:</div><div class="code">&gt; bitcoin-cli getrawtransaction 35aafd22054d15bcb4f2444de56989b18fd9765f3c33fbb8b89ff12092d611f6<br /><br />0100000000010100675e46bdcd69821fbdc43abea61c1ba081469b6e53e3f8007073bf96be9fb20100000000ffffffff01388be605000000001976a914d6dcdaddc4208548846583ef1162c199309d3dc488ac02473044022018d165ad5cc04701eb0d19149bd48451775cbd0abcdb93232b167058952061ed02200279f0e9764e7aa555a83a05b19ab600d76afc60995c31e3dd6f7e63bfcfbb2301210279be667ef9dcbbac55a06295ce870b07029bfcdb2dce28d959f2815b16f8179800000000<br /></div></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: What's going on with the Testnet?</b><br />
+					Post by: <b>lukew</b> on <b>November 06, 2016, 02:26:09 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=1671862.msg16793159#msg16793159">Quote from: johoe on November 06, 2016, 01:48:50 PM</a></div><div class="quote">I also have problems with testnet.&nbsp; Some transactions I sent a few days ago still show as unconfirmed in Mycelium even though they have 4800 confirmations on blockr.io.<br /><br />And then I have sent a Segwit transaction.&nbsp; I first sent it without fee and later resent it with 5000 Satoshi fee. That still hasn&#039;t been confirmed after almost 2000 blocks have past.&nbsp; It is not displayed on tbtc.blockr.io nor on test-insight.bitpay.com (and I can&#039;t push it to blockr.io, because their push interface can&#039;t parse witnesses). <br /><br />Or is something wrong with it?<br /><br /><div class="codeheader">Code:</div><div class="code">&gt; bitcoin-cli getrawtransaction 35aafd22054d15bcb4f2444de56989b18fd9765f3c33fbb8b89ff12092d611f6<br /><br />0100000000010100675e46bdcd69821fbdc43abea61c1ba081469b6e53e3f8007073bf96be9fb20100000000ffffffff01388be605000000001976a914d6dcdaddc4208548846583ef1162c199309d3dc488ac02473044022018d165ad5cc04701eb0d19149bd48451775cbd0abcdb93232b167058952061ed02200279f0e9764e7aa555a83a05b19ab600d76afc60995c31e3dd6f7e63bfcfbb2301210279be667ef9dcbbac55a06295ce870b07029bfcdb2dce28d959f2815b16f8179800000000<br /></div><br /></div>I just ran that through my application and there&#039;s nothing there, it threw an exception. The transaction doesn&#039;t exist. I&#039;ve actually been having issues with sending Bitcoin to paper wallets. One feature of my system is that it can print a paper wallet, then send Bitcoin to it. Sometimes it took weeks before scanning the WIF code gave a balance, others have never worked even though the transaction is there on the blockchain.</div>
+					<br /><br />
+					<div align="center" class="smalltext">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank">Powered by SMF 1.1.19</a> | 
+<a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank">SMF &copy; 2006-2009, Simple Machines</a>
+		</span></div>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

@@ -1,0 +1,1337 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+	<meta name="description" content="Bitcoin Forum - Index" />
+	
+	<meta name="keywords" content="bitcoin, forum, bitcoin forum, bitcointalk" />
+	<script language="JavaScript" type="text/javascript" src="https://bitcointalk.org/Themes/default/script.js"></script>
+	<script language="JavaScript" type="text/javascript"><!-- // --><![CDATA[
+		var smf_theme_url = "https://bitcointalk.org/Themes/custom1";
+		var smf_images_url = "https://bitcointalk.org/Themes/custom1/images";
+		var smf_scripturl = "https://bitcointalk.org/index.php";
+		var smf_iso_case_folding = false;
+		var smf_charset = "ISO-8859-1";
+	// ]]></script>
+	<title>Bitcoin Forum - Index</title><!--4ac81d7858c3a5e3aa6f89791db06a02185237dfcd4ec4e9b377a5e3aa6f89791db06a02185237dfcd4e70a1c6fba799780659ba5e3aa6f89791db06a02185237dfcd4e13bde34ca8d81c06a5e3aa6f89791db06a02185237dfcd4e4e73-->
+	<link rel="stylesheet" type="text/css" href="https://bitcointalk.org/Themes/custom1/style.css" />
+	 <!--[if !IE]> -->
+	 <link rel="stylesheet" type="text/css" media="only screen and (min-device-width: 320px) and (max-device-width: 650px)" href="https://bitcointalk.org/Themes/custom1/mobile.css" />
+	 <!-- <![endif]-->
+	<link rel="stylesheet" type="text/css" href="https://bitcointalk.org/Themes/default/print.css" media="print" /><style type="text/css">
+.IssphxyPsjPXPwCrEyfVfQ > td {background-color: #E5E5E8; text-align:center;}
+.IssphxyPsjPXPwCrEyfVfQ > td > table {margin-top:-5px}
+.IssphxyPsjPXPwCrEyfVfQ .EslRILxOsjiXlFhsUhDfYg {display:inline-block;max-width:100%; min-width:100%; max-height:47px; overflow:hidden}
+.IssphxyPsjPXPwCrEyfVfQ table,.IssphxyPsjPXPwCrEyfVfQ tbody,.IssphxyPsjPXPwCrEyfVfQ tr,.IssphxyPsjPXPwCrEyfVfQ td {display:inline-block;max-width:100%; min-width:100%; overflow:hidden}
+.IssphxyPsjPXPwCrEyfVfQ .EslRILxOsjiXlFhsUhDfYg table,.IssphxyPsjPXPwCrEyfVfQ .EslRILxOsjiXlFhsUhDfYg tbody,.IssphxyPsjPXPwCrEyfVfQ .EslRILxOsjiXlFhsUhDfYg tr,.IssphxyPsjPXPwCrEyfVfQ .EslRILxOsjiXlFhsUhDfYg td {display:initial; max-width:none;min-width:none;overflow:visible}
+.vbBmfkRBLNchatBhDeHulA {display:none !important}
+.nAnxnwyzXMkanDhzVImjBA {display:none}
+.XMKFGjRjenalvNfhhycHMw {padding: 1px 1px 0 1px;}
+.GWwnhyXNznXLcGgdfbhZUg{color:#699C62; font-weight:bold; font-size:18px}
+.GWwnhyXNznXLcGgdfbhZUg:link{color:#699C62; font-weight:bold; font-size:18px}
+.GWwnhyXNznXLcGgdfbhZUg:visited{color:#699C62; font-weight:bold; font-size:18px}
+.BEycELOlioaKpgqyqUJyzQ{color:#00F30C;font-size:15px;font-weight:bold}
+.BEycELOlioaKpgqyqUJyzQ:link{color:#00F30C;font-size:15px;font-weight:bold}
+.BEycELOlioaKpgqyqUJyzQ:visited{color:#00F30C;font-size:15px;font-weight:bold}
+
+.ePRQhdbYuGfSNyBXbnhljg:link {font-size:22px;font-weight:bold;color:orange}
+.ePRQhdbYuGfSNyBXbnhljg:active {font-size:22px;font-weight:bold;color:orange}
+.ePRQhdbYuGfSNyBXbnhljg:visited {font-size:22px;font-weight:bold;color:orange}
+.ePRQhdbYuGfSNyBXbnhljg:hover {text-decoration:none !important;color:red}
+.kWiftnLWiebscjLPbqGczA:link {font-size:24px;font-weight:bold;color:rgb(250,180,75)}
+.kWiftnLWiebscjLPbqGczA:active {font-size:24px;font-weight:bold;color:rgb(250,180,75)}
+.kWiftnLWiebscjLPbqGczA:visited {font-size:24px;font-weight:bold;color:rgb(250,180,75)}
+.kWiftnLWiebscjLPbqGczA:hover {text-decoration:none !important;color:white;background-color:rgb(181,204,222)}
+.kWiftnLWiebscjLPbqGczA {display:inline-block;margin: 3px;0;3px;0}
+.tzVJbspxcOpoXnpdKxAaow:hover {text-decoration:none !important;}
+.tzVJbspxcOpoXnpdKxAaow {font-size:22px;font-weight:bold;}
+.GgVzOVrdFNiLkxvHZqiwAQ {   width: 900px;   height: 44px;   max-width: 100%;   background: #5CB9F7;   display: flex;   justify-content: space-between;   align-items: center;   text-decoration: none !important;   font-size: 16px;   color: #fff !important;   font-family: arial, sans-serif;   overflow: hidden; }    .GgVzOVrdFNiLkxvHZqiwAQ button {     border: none;     background: #8EE000;     color: #fff;     outline: none;     font-size: 1em;     padding: 0.5em 1.2em;     margin-left: 0.3em;     border-radius: 2em;     text-transform: uppercase;     font-weight: 600;     pointer-events: none;   }    .GgVzOVrdFNiLkxvHZqiwAQ:hover .LHakZnpEpyUcNsmiJIfcDQ span {   display: none; }  .GgVzOVrdFNiLkxvHZqiwAQ:hover .LHakZnpEpyUcNsmiJIfcDQ span:nth-child(2) {   display: block; }  .LHakZnpEpyUcNsmiJIfcDQ {   display: flex;   align-items: center; }    .LHakZnpEpyUcNsmiJIfcDQ span {   margin-left: 0.1em;   font-size: 1em;   font-weight: 700;   letter-spacing: 0.5px;   font-size: 20px;   width: 11em;   text-align: center; }  .wvexjGxJbzRNjYvcmkeNbg {   display: inline-block; }  .LHakZnpEpyUcNsmiJIfcDQ span:nth-child(2) {   display: none; }  .QfHggwhaPiLhcbmbaMQbcA {   display: flex;   background: #586A91;   height: 44px;   align-items: center;   justify-content: center;   padding: 0 1em 0 0.5em;   position: relative;   z-index: 2; }    .QfHggwhaPiLhcbmbaMQbcA:after {   position: absolute;   right: 100%;   top: 50%;   content: "";   width: 36px;   height: 36px;   background: #586A91;   border-radius: 0.5em;   transform: translate(50%, -50%) rotate(45deg);   z-index: -1; }    .QfHggwhaPiLhcbmbaMQbcA > span {   margin-right: 1em;   font-weight: 600;   font-size: 16px;   letter-spacing: 0.5px;   margin-top: 0.1em; }  @media (max-width: 725px) {   .GgVzOVrdFNiLkxvHZqiwAQ button {     display: none;   }   .LHakZnpEpyUcNsmiJIfcDQ {     margin-left: 1em;   } }   @media (max-width: 550px) {   .QfHggwhaPiLhcbmbaMQbcA span span {     display: none;   } }  @media (max-width: 465px) {   .QfHggwhaPiLhcbmbaMQbcA {     display: none;   }   .GgVzOVrdFNiLkxvHZqiwAQ {     justify-content: center;   } }
+.KrOhpcEpKbSIgyeHavQgdQ {   width: 900px;   height: 44px;   max-width: 100%;   background: #5CB9F7;   display: flex;   justify-content: space-between;   align-items: center;   text-decoration: none !important;   font-size: 16px;   color: #fff !important;   font-family: arial, sans-serif;   overflow: hidden; }    .KrOhpcEpKbSIgyeHavQgdQ button {     border: none;     background: #8EE000;     color: #fff;     outline: none;     font-size: 1em;     padding: 0.5em 1.2em;     margin-left: 0.4em;     border-radius: 2em;     text-transform: uppercase;     font-weight: 600; cursor:pointer; transition: all 0.3s;   } button:hover{transform: scale(1.05);}    .LSigExfDkJBEsqyfJixxPA:hover span{   display: none; }  .LSigExfDkJBEsqyfJixxPA:hover span:nth-child(2) {   display: block; }  .LSigExfDkJBEsqyfJixxPA {   display: flex;   align-items: center; color:#fff}    .LSigExfDkJBEsqyfJixxPA span {   margin-left: 0.1em;   font-size: 1em;   font-weight: 700;   letter-spacing: 0.5px;   font-size: 20px;   width: 11em;   text-align: center; }  .hieqHHVSeGbqfLEchrZubQ {   display: inline-block; }  .LSigExfDkJBEsqyfJixxPA span:nth-child(2) {   display: none; }  .rbxiliZZEkZefiRQGgseYw {   display: flex;   background: #586A91;   height: 44px;   align-items: center;   justify-content: center;   padding: 0 1em 0 0.5em;   position: relative;   z-index: 2; }    .rbxiliZZEkZefiRQGgseYw:after {   position: absolute;   right: 100%;   top: 50%;   content: "";   width: 36px;   height: 36px;   background: #586A91;   border-radius: 0.5em;   transform: translate(50%, -50%) rotate(45deg);   z-index: -1; }    .rbxiliZZEkZefiRQGgseYw > span {   margin-right: 1em;   font-weight: 600;   font-size: 16px;   letter-spacing: 0.5px;   margin-top: 0.1em; }  @media (max-width: 725px) {   .KrOhpcEpKbSIgyeHavQgdQ button {     display: none;   }   .LSigExfDkJBEsqyfJixxPA {     margin-left: 1em;   } }   @media (max-width: 550px) {   .rbxiliZZEkZefiRQGgseYw span span {     display: none;   } }  @media (max-width: 465px) {   .rbxiliZZEkZefiRQGgseYw {     display: none;   }   .KrOhpcEpKbSIgyeHavQgdQ {     justify-content: center;   } }
+.GgVzOVrdFNiLkxvHZqiwAQ {   width: 900px;   height: 44px;   max-width: 100%;   background: #5CB9F7;   display: flex;   justify-content: space-between;   align-items: center;   text-decoration: none !important;   font-size: 16px;   color: #fff !important;   font-family: arial, sans-serif;   overflow: hidden; }    .GgVzOVrdFNiLkxvHZqiwAQ button {   border: none;   background: #8EE000;   color: #fff;   outline: none;   font-size: 1em;   padding: 0.5em 1.2em;   margin-left: 0.4em;   border-radius: 2em;   text-transform: uppercase;   font-weight: 600;   cursor: pointer;   transition: all 0.3s; }  button:hover {   transform: scale(1.05); }  .LHakZnpEpyUcNsmiJIfcDQ:hover span {   display: none; }  .LHakZnpEpyUcNsmiJIfcDQ:hover span:nth-child(2) {   display: block; }  .LHakZnpEpyUcNsmiJIfcDQ {   display: flex;   align-items: center;   color: #fff; }    .LHakZnpEpyUcNsmiJIfcDQ span {   margin-left: 0.1em;   font-size: 1em;   font-weight: 700;   letter-spacing: 0.5px;   font-size: 20px;   width: 11em;   text-align: center; }  .wvexjGxJbzRNjYvcmkeNbg {   display: inline-block; }  .LHakZnpEpyUcNsmiJIfcDQ span:nth-child(2) {   display: none; }  .QfHggwhaPiLhcbmbaMQbcA {   display: flex;   background: #586A91;   height: 44px;   align-items: center;   justify-content: center;   padding: 0 1em 0 0.5em;   position: relative;   z-index: 2; }    .QfHggwhaPiLhcbmbaMQbcA:after {   position: absolute;   right: 100%;   top: 50%;   content: "";   width: 36px;   height: 36px;   background: #586A91;   border-radius: 0.5em;   transform: translate(50%, -50%) rotate(45deg);   z-index: -1; }    .QfHggwhaPiLhcbmbaMQbcA > span {   margin-right: 1em;   font-weight: 600;   font-size: 16px;   letter-spacing: 0.5px;   margin-top: 0.1em; }  @media (max-width: 725px) {   .GgVzOVrdFNiLkxvHZqiwAQ button {     display: none;   }   .LHakZnpEpyUcNsmiJIfcDQ {     margin-left: 1em;   } }   @media (max-width: 550px) {   .QfHggwhaPiLhcbmbaMQbcA span span {     display: none;   } }  @media (max-width: 465px) {   .QfHggwhaPiLhcbmbaMQbcA {     display: none;   }   .GgVzOVrdFNiLkxvHZqiwAQ {     justify-content: center;   } }
+.KrOhpcEpKbSIgyeHavQgdQ {   width: 900px;   height: 44px;   max-width: 100%;   background: #fff;   display: flex;   justify-content: space-between;   align-items: center;   text-decoration: none !important;   font-size: 16px;   color: #fff !important;   font-family: arial, sans-serif;   overflow: hidden; }    .KrOhpcEpKbSIgyeHavQgdQ button {   border: none;   background: #8EE000;   color: #fff;   outline: none;   font-size: 1em;   padding: 0.5em 1.2em;   margin-left: 0.4em;   border-radius: 2em;   text-transform: uppercase;   font-weight: 600;   cursor: pointer;   transition: all 0.3s; }  button:hover {   transform: scale(1.05); }  .LSigExfDkJBEsqyfJixxPA:hover span {   display: none; }  .LSigExfDkJBEsqyfJixxPA:hover span:nth-child(2) {   display: block; }  .LSigExfDkJBEsqyfJixxPA {   display: flex;   align-items: center;   color: #5CB9F7; }    .LSigExfDkJBEsqyfJixxPA span {   margin-left: 0.1em;   font-size: 1em;   font-weight: 700;   letter-spacing: 0.5px;   font-size: 20px;   width: 11em;   text-align: center; }  .hieqHHVSeGbqfLEchrZubQ {   display: inline-block; }  .LSigExfDkJBEsqyfJixxPA span:nth-child(2) {   display: none; }  .rbxiliZZEkZefiRQGgseYw {   display: flex;   background: #586A91;   height: 44px;   align-items: center;   justify-content: center;   padding: 0 1em 0 0.5em;   position: relative;   z-index: 2; }    .rbxiliZZEkZefiRQGgseYw:after {   position: absolute;   right: 100%;   top: 50%;   content: "";   width: 36px;   height: 36px;   background: #586A91;   border-radius: 0.5em;   transform: translate(50%, -50%) rotate(45deg);   z-index: -1; }    .rbxiliZZEkZefiRQGgseYw > span {   margin-right: 1em;   font-weight: 600;   font-size: 16px;   letter-spacing: 0.5px;   margin-top: 0.1em; }  @media (max-width: 725px) {   .KrOhpcEpKbSIgyeHavQgdQ button {     display: none;   }   .LSigExfDkJBEsqyfJixxPA {     margin-left: 1em;   } }   @media (max-width: 550px) {   .rbxiliZZEkZefiRQGgseYw span span {     display: none;   } }  @media (max-width: 465px) {   .rbxiliZZEkZefiRQGgseYw {     display: none;   }   .KrOhpcEpKbSIgyeHavQgdQ {     justify-content: center;   } }
+.TdgeackaqsjEjbCyxdiYaw {   width: 900px;   height: 44px;   margin: 0 auto;   background: #fff;   max-width: 100%;   display: flex;   justify-content: space-between;   align-items: center;   text-decoration: none !important;   color: #000 !important;   font-family: arial, sans-serif;   overflow: hidden; } .TdgeackaqsjEjbCyxdiYaw:hover {   color: #fff;   background: #715AD0; } .TdgeackaqsjEjbCyxdiYaw:hover .EGxisdwmaxYQjtqirVUaIA span:nth-child(1) {   display: none; } .TdgeackaqsjEjbCyxdiYaw:hover .EGxisdwmaxYQjtqirVUaIA span:nth-child(2) {   display: block; } .TdgeackaqsjEjbCyxdiYaw:hover .dYXLOSJMKWHZdFeyzTKOPQ span:nth-child(1) {   display: none;   color: #000; } .TdgeackaqsjEjbCyxdiYaw:hover .dYXLOSJMKWHZdFeyzTKOPQ span:nth-child(2) {   display: block;   color: #000; } .TdgeackaqsjEjbCyxdiYaw:hover .EGxisdwmaxYQjtqirVUaIA {   background: #fff;   color: #000; } .TdgeackaqsjEjbCyxdiYaw:hover .dYXLOSJMKWHZdFeyzTKOPQ {   background: #fff;   color: #000; } .TdgeackaqsjEjbCyxdiYaw:hover .EGxisdwmaxYQjtqirVUaIA:after {   background: #715AD0; } .TdgeackaqsjEjbCyxdiYaw:hover .EGxisdwmaxYQjtqirVUaIA:before {   background: #715AD0; } .TdgeackaqsjEjbCyxdiYaw:hover .EGxisdwmaxYQjtqirVUaIA span {   color: #000; } .TdgeackaqsjEjbCyxdiYaw:hover .dYXLOSJMKWHZdFeyzTKOPQ:after {   background: #715AD0; } .TdgeackaqsjEjbCyxdiYaw:hover .dYXLOSJMKWHZdFeyzTKOPQ:before {   background: #715AD0; } .TdgeackaqsjEjbCyxdiYaw:hover .DpTznNbkyzfefTYwymBjnQ {   color: #fff; } .TdgeackaqsjEjbCyxdiYaw:hover .DpTznNbkyzfefTYwymBjnQ:before {   background: #fff; } .TdgeackaqsjEjbCyxdiYaw:hover .DpTznNbkyzfefTYwymBjnQ:after {   background: #fff; } .TdgeackaqsjEjbCyxdiYaw .DpTznNbkyzfefTYwymBjnQ {   display: flex;   height: 32px;   align-items: center;   justify-content: center;   border-radius: 5px;   padding: 0 1em;   position: relative;   z-index: 2;   font-size: 18px;   color: #000;   width: 160px; } .TdgeackaqsjEjbCyxdiYaw .DpTznNbkyzfefTYwymBjnQ:after{   position: absolute;   right: 98%;   top: 50%;   content: "";   width: 25px;   height: 25px;   background: #715AD0;   border-radius: 0.3em;   transform: translate(50%, -50%) rotate(45deg);   z-index: -1; } .TdgeackaqsjEjbCyxdiYaw .DpTznNbkyzfefTYwymBjnQ:before{   position: absolute;   right: 2%;   top: 50%;   content: "";   width: 25px;   height: 25px;   background: #715AD0;   border-radius: 0.3em;   transform: translate(50%, -50%) rotate(45deg);   z-index: -1; } .TdgeackaqsjEjbCyxdiYaw .DpTznNbkyzfefTYwymBjnQ span {   font-size: 26px;   font-family: Existence;   font-weight: 600; } .TdgeackaqsjEjbCyxdiYaw .DpTznNbkyzfefTYwymBjnQ span:hover {   color: #fff;   text-decoration: none; } .TdgeackaqsjEjbCyxdiYaw .EGxisdwmaxYQjtqirVUaIA {   display: flex;   background: #715AD0;   height: 30px;   align-items: center;   justify-content: center;   border-radius: 5px;   padding: 0 1em;   margin-left: 1em;   position: relative;   z-index: 2;   font-size: 14px;   color: #fff;   width: 220px } .TdgeackaqsjEjbCyxdiYaw .EGxisdwmaxYQjtqirVUaIA:after{   position: absolute;   right: 102%;   top: 50%;   content: "";   width: 18px;   height: 18px;   background: #fff;   border-radius: 0.3em;   transform: translate(50%, -50%) rotate(45deg);   z-index: 2; } .TdgeackaqsjEjbCyxdiYaw .EGxisdwmaxYQjtqirVUaIA:before{   position: absolute;   right: -2%;   top: 50%;   content: "";   width: 18px;   height: 18px;   background: #fff;   border-radius: 0.3em;   transform: translate(50%, -50%) rotate(45deg);   z-index: 3; } .TdgeackaqsjEjbCyxdiYaw .EGxisdwmaxYQjtqirVUaIA span {   color: #fff;   font-size: 13px;   line-height: 13px; } .TdgeackaqsjEjbCyxdiYaw .EGxisdwmaxYQjtqirVUaIA span:nth-child(2) {   display: none; } .TdgeackaqsjEjbCyxdiYaw .dYXLOSJMKWHZdFeyzTKOPQ{   display: flex;   flex-direction: column;   height: 44px;   align-items: center;   justify-content: center;   padding: 0 1em;   position: relative;   z-index: 2;   width: 220px; } .TdgeackaqsjEjbCyxdiYaw .dYXLOSJMKWHZdFeyzTKOPQ span {   color: #fff;   font-size: 13px;   line-height: 13px; } .TdgeackaqsjEjbCyxdiYaw .dYXLOSJMKWHZdFeyzTKOPQ span:nth-child(2) {   display: none; } .TdgeackaqsjEjbCyxdiYaw .dYXLOSJMKWHZdFeyzTKOPQ {   display: flex;   background: #715AD0;   height: 30px;   align-items: center;   justify-content: center;   border-radius: 5px;   padding: 0 1em;   margin-right: 1em;   position: relative;   z-index: 2;   font-size: 14px;   color: #fff;   width: 220px } .TdgeackaqsjEjbCyxdiYaw .dYXLOSJMKWHZdFeyzTKOPQ:after{   position: absolute;   right: 102%;   top: 50%;   content: "";   width: 18px;   height: 18px;   background: #fff;   border-radius: 0.3em;   transform: translate(50%, -50%) rotate(45deg);   z-index: 2; } .TdgeackaqsjEjbCyxdiYaw .dYXLOSJMKWHZdFeyzTKOPQ:before{   position: absolute;   right: -2%;   top: 50%;   content: "";   width: 18px;   height: 18px;   background: #fff;   border-radius: 0.3em;   transform: translate(50%, -50%) rotate(45deg);   z-index: 3; }
+.ZqvPxexpaxdxKwgSQjKKfA {   width: 900px;   height: 44px;   margin: 0 auto;   background: #715AD0;   max-width: 100%;   display: flex;   justify-content: space-between;   align-items: center;   text-decoration: none !important;   color: #fff !important;   font-family: arial, sans-serif;   overflow: hidden; } .ZqvPxexpaxdxKwgSQjKKfA:hover {   color: #fff; } .ZqvPxexpaxdxKwgSQjKKfA:hover .empEpjKoiPieceRJZcAjdw span:nth-child(1) {   display: none; } .ZqvPxexpaxdxKwgSQjKKfA:hover .empEpjKoiPieceRJZcAjdw span:nth-child(2) {   display: block; } .ZqvPxexpaxdxKwgSQjKKfA:hover .SqBYeARkyVSAGiAywJuyNg span:nth-child(2) {   display: none; } .ZqvPxexpaxdxKwgSQjKKfA:hover .SqBYeARkyVSAGiAywJuyNg span:nth-child(3) {   display: block; } .ZqvPxexpaxdxKwgSQjKKfA .whyMSeJGnCbLWqaHPRrgxA {   display: flex;   background: #fff;   height: 32px;   align-items: center;   justify-content: center;   border-radius: 5px;   padding: 0 1em;   margin-right: 1em;   position: relative;   z-index: 2;   font-size: 18px;   color: #000;   width: 150px } // forma mid 1 .ZqvPxexpaxdxKwgSQjKKfA .whyMSeJGnCbLWqaHPRrgxA:after{   position: absolute;   right: 90%;   top: 115%;   content: "";   width: 22px;   height: 22px;   background: #715AD0;   border-radius: 0.3em;   transform: translate(50%, -50%) rotate(45deg);   z-index: -1; } .ZqvPxexpaxdxKwgSQjKKfA .whyMSeJGnCbLWqaHPRrgxA:before{   position: absolute;   right: 10%;   top: -15%;   content: "";   width: 22px;   height: 22px;   background: #715AD0;   border-radius: 0.3em;   transform: translate(50%, -50%) rotate(45deg);   z-index: -1; } // forma mid 2 .ZqvPxexpaxdxKwgSQjKKfA .whyMSeJGnCbLWqaHPRrgxA:after{   position: absolute;   right: 98%;   top: 50%;   content: "";   width: 25px;   height: 25px;   background: #fff;   border-radius: 0.3em;   transform: translate(50%, -50%) rotate(45deg);   z-index: -1; } .ZqvPxexpaxdxKwgSQjKKfA .whyMSeJGnCbLWqaHPRrgxA:before{   position: absolute;   right: 2%;   top: 50%;   content: "";   width: 25px;   height: 25px;   background: #fff;   border-radius: 0.3em;   transform: translate(50%, -50%) rotate(45deg);   z-index: -1; } .ZqvPxexpaxdxKwgSQjKKfA .whyMSeJGnCbLWqaHPRrgxA span {   font-size: 24px;   font-family: Existence;   font-weight: 600; } .ZqvPxexpaxdxKwgSQjKKfA .whyMSeJGnCbLWqaHPRrgxA span:hover {   color: #000;   text-decoration: none; } .ZqvPxexpaxdxKwgSQjKKfA .empEpjKoiPieceRJZcAjdw {   display: flex;   height: 44px;   flex-direction: column;   align-items: center;   justify-content: center;   padding: 0 1em;   position: relative;   z-index: 2;   width: 230px; } .ZqvPxexpaxdxKwgSQjKKfA .empEpjKoiPieceRJZcAjdw:after{   position: absolute;   right: 81%;   top: 70%;   content: "";   width: 14px;   height: 14px;   background: #715AD0;   border-radius: 0.3em;   transform: translate(50%, -50%) rotate(45deg);   z-index: 2; } .ZqvPxexpaxdxKwgSQjKKfA .empEpjKoiPieceRJZcAjdw:before{   position: absolute;   right: 19%;   top: 70%;   content: "";   width: 14px;   height: 14px;   background: #715AD0;   border-radius: 0.3em;   transform: translate(50%, -50%) rotate(45deg);   z-index: 3; } .ZqvPxexpaxdxKwgSQjKKfA .empEpjKoiPieceRJZcAjdw span:nth-child(3) {   display: flex;   background: #fff;   height: 18px;   align-items: center;   justify-content: center;   border-radius: 5px;   padding: 0 1em;   margin-top: 0.35em;   position: relative;   z-index: 2;   font-size: 14px;   color: #000;   width: 130px } .ZqvPxexpaxdxKwgSQjKKfA .empEpjKoiPieceRJZcAjdw span {   color: #fff;   font-size: 13px;   line-height: 13px; } .ZqvPxexpaxdxKwgSQjKKfA .empEpjKoiPieceRJZcAjdw span:nth-child(2) {   display: none; } .ZqvPxexpaxdxKwgSQjKKfA .SqBYeARkyVSAGiAywJuyNg{   display: flex;   flex-direction: column;   height: 44px;   align-items: center;   justify-content: center;   padding: 0 1em;   position: relative;   z-index: 2;   width: 230px; } .ZqvPxexpaxdxKwgSQjKKfA .SqBYeARkyVSAGiAywJuyNg span {   color: #fff;   font-size: 13px;   line-height: 13px; } .ZqvPxexpaxdxKwgSQjKKfA .SqBYeARkyVSAGiAywJuyNg span:nth-child(3) {   display: none; } .ZqvPxexpaxdxKwgSQjKKfA .SqBYeARkyVSAGiAywJuyNg span:nth-child(1) {   display: flex;   background: #fff;   height: 18px;   align-items: center;   justify-content: center;   border-radius: 5px;   margin-bottom: 0.35em;   padding: 0 1em;   position: relative;   z-index: 2;   font-size: 14px;   color: #000;   width: 130px } .ZqvPxexpaxdxKwgSQjKKfA .SqBYeARkyVSAGiAywJuyNg:after{   position: absolute;   right: 81%;   top: 30%;   content: "";   width: 14px;   height: 14px;   background: #715AD0;   border-radius: 0.3em;   transform: translate(50%, -50%) rotate(45deg);   z-index: 2; } .ZqvPxexpaxdxKwgSQjKKfA .SqBYeARkyVSAGiAywJuyNg:before{   position: absolute;   right: 19%;   top: 30%;   content: "";   width: 14px;   height: 14px;   background: #715AD0;   border-radius: 0.3em;   transform: translate(50%, -50%) rotate(45deg);   z-index: 3; }
+.DqGqxxYOefilfVKfiWbPjw {   background-color:#142155;   width:912px;   height:42px;   display:flex;   justify-content:flex-start;   align-items:center;   position:relative;   padding-left: 20px;   overflow: hidden; }  .DqGqxxYOefilfVKfiWbPjw > a {   position: absolute;   width: 932px;   height: 42px;   margin-left: -20px;   z-index: 44; }  .DqGqxxYOefilfVKfiWbPjw > img:nth-child(2) {   margin-right: 48px;   margin-bottom: 4px; }  .DqGqxxYOefilfVKfiWbPjw > img:nth-child(3) {   margin-right: 48px;   opacity: 1;   transition: opacity 0.2s linear, margin-left 0.2s cubic-bezier(0.05, 0.8, 0.05, 0.8) 0.1s, margin-right 0.2s cubic-bezier(0.05, 0.8, 0.05, 0.8) 0.3s; }  .DqGqxxYOefilfVKfiWbPjw > img:nth-child(4) {   margin-right: 14px;   transition: opacity 0.3s linear; }  .DqGqxxYOefilfVKfiWbPjw > .xLXxfjTjobsufjseqARYfg {    background-color:#fff;    width:48px;    height:16px;    padding:4px 8px;    transition: opacity 0.3s linear; }  .DqGqxxYOefilfVKfiWbPjw > .xLXxfjTjobsufjseqARYfg > img {    width:48px; }  .DqGqxxYOefilfVKfiWbPjw > svg {    position:absolute;    top:0;    left:-184px; }  .DqGqxxYOefilfVKfiWbPjw:hover > .DgxcNTuuxkDWheGxEJyvDg > .xMZHBaSchxqkGNhjGLKdgA {   right: 0;   transition: all 0.3s cubic-bezier(0.05, 0.8, 0.05, 0.8); } .DqGqxxYOefilfVKfiWbPjw:hover > img:nth-child(3) {   opacity: 0;   margin-left: 880px;   margin-right: 600px; } .DqGqxxYOefilfVKfiWbPjw:hover > img:nth-child(4) {   opacity: 0; } .DqGqxxYOefilfVKfiWbPjw:hover > .xLXxfjTjobsufjseqARYfg {   opacity: 0; }  .DgxcNTuuxkDWheGxEJyvDg {   position:absolute;   top:0;   right:0;   height:42px;   width:800px;   overflow: hidden; }  .DgxcNTuuxkDWheGxEJyvDg > .xMZHBaSchxqkGNhjGLKdgA {   position: absolute;   height:42px;   width:760px;   right: -820px;   top: 0;   background-color:#fff;   transition: all 0.2s cubic-bezier(0.8, 0.3, 0.8, 0.3); }  .DgxcNTuuxkDWheGxEJyvDg > .xMZHBaSchxqkGNhjGLKdgA::after {   content: "";   position: absolute;   border: 0px solid transparent;   border-top: 40px solid #fff;   border-left: 42px solid transparent;   width: 0;   height: 0;   top: 1px;   left: -40px;   transform: rotate(90deg); }  .DgxcNTuuxkDWheGxEJyvDg > .xMZHBaSchxqkGNhjGLKdgA > img {   margin-left: 185px;   margin-top: 11px; }
+.nounderline:hover {text-decoration:none}
+.exempttable {display:inline-table !important}
+.bbca table, .bbca tbody, .bbca tr, .bbca td{
+	display: inline-block !important;
+	min-width: 0px !important;
+	text-align: center !important;
+}
+.gunbot td{text-align:left !important}
+.olddiv{display:block}
+.cryptokg {display:inline-block;padding:2px;font-size:17px;height:42px;width:500px;background-color:white; font-weight:700;color:orange} .cryptokg a:link{color:orange} .cryptokg a:hover{color:orange} .cryptokg a:visited{color:orange}
+</style>
+<link rel="stylesheet" type="text/css" href="https://bitcointalk.org/extra2.css" />
+<link rel="stylesheet" type="text/css" href="https://bitcointalk.org/extra3.css" />
+<link rel="stylesheet" type="text/css" href="https://bitcointalk.org/extra.css" />
+
+	<link rel="help" href="https://bitcointalk.org/index.php?action=help" target="_blank" />
+	<link rel="search" href="https://bitcointalk.org/index.php?action=search" />
+	<link rel="contents" href="https://bitcointalk.org/index.php" />
+	<link rel="alternate" type="application/rss+xml" title="Bitcoin Forum - RSS" href="https://bitcointalk.org/index.php?type=rss;action=.xml" /><meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+
+	<script language="JavaScript" type="text/javascript"><!-- // --><![CDATA[
+		var current_header = false;
+
+		function shrinkHeader(mode)
+		{
+			document.cookie = "upshrink=" + (mode ? 1 : 0);
+			document.getElementById("upshrink").src = smf_images_url + (mode ? "/upshrink2.gif" : "/upshrink.gif");
+
+			document.getElementById("upshrinkHeader").style.display = mode ? "none" : "";
+			document.getElementById("upshrinkHeader2").style.display = mode ? "none" : "";
+
+			current_header = mode;
+		}
+	// ]]></script>
+		<script language="JavaScript" type="text/javascript"><!-- // --><![CDATA[
+			var current_header_ic = false;
+
+			function shrinkHeaderIC(mode)
+			{
+				document.cookie = "upshrinkIC=" + (mode ? 1 : 0);
+				document.getElementById("upshrink_ic").src = smf_images_url + (mode ? "/expand.gif" : "/collapse.gif");
+
+				document.getElementById("upshrinkHeaderIC").style.display = mode ? "none" : "";
+
+				current_header_ic = mode;
+			}
+		// ]]></script></head>
+<body>
+	<div class="tborder" >
+		<table width="100%" cellpadding="0" cellspacing="0" border="0" id="smfheader">
+			<tr>
+				<td class="catbg" height="32">
+					<span style="font-family: Verdana, sans-serif; font-size: 140%; ">Bitcoin Forum</span>
+				</td>
+				<td align="right" class="catbg">
+					<img src="https://bitcointalk.org/Themes/custom1/images/smflogo.gif" style="margin: 2px;" alt="" />
+				</td>
+			</tr>
+		</table>
+		<table width="100%" cellpadding="0" cellspacing="0" border="0" >
+			<tr>
+				<td class="titlebg2" height="32" align="right">
+					<span class="smalltext">April 30, 2019, 09:47:17 PM</span>
+					<a href="#" onclick="shrinkHeader(!current_header); return false;"><img id="upshrink" src="https://bitcointalk.org/Themes/custom1/images/upshrink.gif" alt="*" title="Shrink or expand the header." align="bottom" style="margin: 0 1ex;" /></a>
+				</td>
+			</tr>
+			<tr id="upshrinkHeader">
+				<td valign="top" colspan="2">
+					<table width="100%" class="bordercolor" cellpadding="8" cellspacing="1" border="0" style="margin-top: 1px;">
+						<tr>
+							<td colspan="2" width="100%" valign="top" class="windowbg2" id="variousheadlinks"><span class="middletext">Welcome, <b>Guest</b>. Please <a href="https://bitcointalk.org/index.php?action=login">login</a> or <a href="https://bitcointalk.org/index.php?action=register">register</a>.				</span>
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</table>
+		<table id="upshrinkHeader2" width="100%" cellpadding="4" cellspacing="0" border="0">
+			<tr>
+				<td width="90%" class="titlebg2">
+					<span class="smalltext"><b>News</b>: Latest Bitcoin Core release: <a class="ul" href="https://bitcoin.org/en/download">0.17.1</a> [<a class="ul" href="https://bitcointalk.org/bitcoin-0.17.1.torrent">Torrent</a>]</span>
+				</td>
+				<td class="titlebg2" align="right" nowrap="nowrap" valign="top">
+					<form action="https://bitcointalk.org/index.php?action=search2" method="post" accept-charset="ISO-8859-1" style="margin: 0;">
+						<a href="https://bitcointalk.org/index.php?action=search;advanced"><img src="https://bitcointalk.org/Themes/custom1/images/filter.gif" align="middle" style="margin: 0 1ex;" alt="" /></a>
+						<input type="text" name="search" value="" style="width: 190px;" />&nbsp;
+						<input type="submit" name="submit" value="Search" style="width: 11ex;" />
+						<input type="hidden" name="advanced" value="0" />
+					</form>
+				</td>
+			</tr>
+		</table>
+	</div>
+			<table cellpadding="0" cellspacing="0" border="0" style="margin-left: 10px;">
+				<tr>
+					<td class="maintab_first">&nbsp;</td><td class="maintab_active_first">&nbsp;</td>
+				<td valign="top" class="maintab_active_back">
+					<a href="https://bitcointalk.org/index.php">Home</a>
+				</td><td class="maintab_active_last">&nbsp;</td>
+				<td valign="top" class="maintab_back">
+					<a href="https://bitcointalk.org/index.php?action=help">Help</a>
+				</td>
+				<td valign="top" class="maintab_back">
+					<a href="https://bitcointalk.org/index.php?action=search">Search</a>
+				</td>
+				<td valign="top" class="maintab_back">
+					<a href="https://bitcointalk.org/index.php?action=login">Login</a>
+				</td>
+				<td valign="top" class="maintab_back">
+					<a href="https://bitcointalk.org/index.php?action=register">Register</a>
+				</td>
+                                <td valign="top" class="maintab_back">
+                                        <a href="/more.php">More</a>
+                                </td>
+				<td class="maintab_last">&nbsp;</td>
+			</tr>
+		</table>
+	<div id="bodyarea" style="padding: 1ex 0px 2ex 0px;">
+	<table width="100%" cellpadding="0" cellspacing="0">
+		<tr>
+			<td valign="bottom"><div class="nav" style="font-size: smaller; margin-bottom: 2ex; margin-top: 2ex;"><b><a href="https://bitcointalk.org/index.php" class="nav">Bitcoin Forum</a></b></div></td>
+			<td align="right">
+			</td>
+		</tr>
+	</table>
+	<div class="tborder" style="margin-top: 0;">
+		<div class="catbg" style="padding: 5px 5px 5px 10px;">
+				<a name="1" href="https://bitcointalk.org/index.php#1">Bitcoin</a>
+		</div>
+		<table border="0" width="100%" cellspacing="1" cellpadding="5" class="bordercolor" style="margin-top: 1px;">
+			<tr>
+				<td rowspan="2" class="windowbg" width="6%" align="center" valign="top"><a href="https://bitcointalk.org/index.php?action=unread;board=1.0"><img src="https://bitcointalk.org/Themes/custom1/images/off.gif" alt="No New Posts" title="No New Posts" /></a>
+				</td>
+				<td class="windowbg2">
+					<b><a href="https://bitcointalk.org/index.php?board=1.0" name="b1">Bitcoin Discussion</a></b><br />
+						General discussion about the Bitcoin ecosystem that doesn't fit better elsewhere. News, the Bitcoin community, innovations, the general environment, etc. Discussion of specific Bitcoin-related services usually belongs in other sections.
+					<div style="padding-top: 1px;" class="smalltext"><i>Moderator: <a href="https://bitcointalk.org/index.php?action=profile;u=164822" title="Board Moderator">hilariousandco</a></i></div>
+				</td>
+				<td class="windowbg" valign="middle" align="center" style="width: 12ex;"><span class="smalltext">
+					2105752 Posts <br />
+					87926 Topics
+				</span></td>
+				<td class="windowbg2" valign="middle" width="22%">
+					<span class="smalltext">
+						<b>Last post</b>  by <a href="https://bitcointalk.org/index.php?action=profile;u=26401">n0ne</a><br />
+						in <a href="https://bitcointalk.org/index.php?topic=5137358.msg50843387#new" title="Re: Youtubers promoting bitcoin unexpectedly">Re: Youtubers promoting ...</a><br />
+						on <b>Today</b> at 09:45:04 PM
+					</span>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="3" class="windowbg3">
+					<span class="smalltext"><b>Child Boards</b>: <a href="https://bitcointalk.org/index.php?board=74.0" title="No New Posts (Topics: 2143, Posts: 50395)">Legal</a>, <a href="https://bitcointalk.org/index.php?board=77.0" title="No New Posts (Topics: 34039, Posts: 116279)">Press</a>, <a href="https://bitcointalk.org/index.php?board=86.0" title="No New Posts (Topics: 1529, Posts: 11964)">Meetups</a>, <a href="https://bitcointalk.org/index.php?board=87.0" title="No New Posts (Topics: 53, Posts: 128)">Important Announcements</a></span>
+				</td>
+			</tr>
+			<tr>
+				<td rowspan="2" class="windowbg" width="6%" align="center" valign="top"><a href="https://bitcointalk.org/index.php?action=unread;board=6.0"><img src="https://bitcointalk.org/Themes/custom1/images/off.gif" alt="No New Posts" title="No New Posts" /></a>
+				</td>
+				<td class="windowbg2">
+					<b><a href="https://bitcointalk.org/index.php?board=6.0" name="b6">Development &amp; Technical Discussion</a></b><br />
+						Technical discussion about Satoshi's Bitcoin client and the Bitcoin network in general. No third-party sites/clients, bug reports that do not require much discussion (use github), or support requests.
+					<div style="padding-top: 1px;" class="smalltext"><i>Moderators: <a href="https://bitcointalk.org/index.php?action=profile;u=11425" title="Board Moderator">gmaxwell</a>, <a href="https://bitcointalk.org/index.php?action=profile;u=290195" title="Board Moderator">achow101</a></i></div>
+				</td>
+				<td class="windowbg" valign="middle" align="center" style="width: 12ex;"><span class="smalltext">
+					232420 Posts <br />
+					18986 Topics
+				</span></td>
+				<td class="windowbg2" valign="middle" width="22%">
+					<span class="smalltext">
+						<b>Last post</b>  by <a href="https://bitcointalk.org/index.php?action=profile;u=93844">legendster</a><br />
+						in <a href="https://bitcointalk.org/index.php?topic=5136143.msg50843387#new" title="Re: Wallet name suggestion">Re: Wallet name suggesti...</a><br />
+						on <b>Today</b> at 09:13:33 PM
+					</span>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="3" class="windowbg3">
+					<span class="smalltext"><b>Child Boards</b>: <a href="https://bitcointalk.org/index.php?board=37.0" title="No New Posts (Topics: 8222, Posts: 91096)">Wallet software</a></span>
+				</td>
+			</tr>
+			<tr>
+				<td rowspan="2" class="windowbg" width="6%" align="center" valign="top"><a href="https://bitcointalk.org/index.php?action=unread;board=14.0"><img src="https://bitcointalk.org/Themes/custom1/images/off.gif" alt="No New Posts" title="No New Posts" /></a>
+				</td>
+				<td class="windowbg2">
+					<b><a href="https://bitcointalk.org/index.php?board=14.0" name="b14">Mining</a></b><br />
+						Generating bitcoins.
+					<div style="padding-top: 1px;" class="smalltext"><i>Moderators: <a href="https://bitcointalk.org/index.php?action=profile;u=11425" title="Board Moderator">gmaxwell</a>, <a href="https://bitcointalk.org/index.php?action=profile;u=19971" title="Board Moderator">-ck</a>, <a href="https://bitcointalk.org/index.php?action=profile;u=988740" title="Board Moderator">frodocooper</a></i></div>
+				</td>
+				<td class="windowbg" valign="middle" align="center" style="width: 12ex;"><span class="smalltext">
+					1095933 Posts <br />
+					26787 Topics
+				</span></td>
+				<td class="windowbg2" valign="middle" width="22%">
+					<span class="smalltext">
+						<b>Last post</b>  by <a href="https://bitcointalk.org/index.php?action=profile;u=289817">NotFuzzyWarm</a><br />
+						in <a href="https://bitcointalk.org/index.php?topic=2835834.msg50843387#new" title="Re: Red lights on Antminer S9">Re: Red lights on Antmin...</a><br />
+						on <b>Today</b> at 08:04:56 PM
+					</span>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="3" class="windowbg3">
+					<span class="smalltext"><b>Child Boards</b>: <a href="https://bitcointalk.org/index.php?board=40.0" title="No New Posts (Topics: 6240, Posts: 53271)">Mining support</a>, <a href="https://bitcointalk.org/index.php?board=41.0" title="No New Posts (Topics: 1948, Posts: 204530)">Pools</a>, <a href="https://bitcointalk.org/index.php?board=42.0" title="No New Posts (Topics: 1439, Posts: 58406)">Mining software (miners)</a>, <a href="https://bitcointalk.org/index.php?board=76.0" title="No New Posts (Topics: 8331, Posts: 628764)">Hardware</a>, <a href="https://bitcointalk.org/index.php?board=81.0" title="No New Posts (Topics: 3629, Posts: 71887)">Mining speculation</a></span>
+				</td>
+			</tr>
+			<tr>
+				<td  class="windowbg" width="6%" align="center" valign="top"><a href="https://bitcointalk.org/index.php?action=unread;board=4.0"><img src="https://bitcointalk.org/Themes/custom1/images/off.gif" alt="No New Posts" title="No New Posts" /></a>
+				</td>
+				<td class="windowbg2">
+					<b><a href="https://bitcointalk.org/index.php?board=4.0" name="b4">Bitcoin Technical Support</a></b><br />
+						Questions regarding issues with Bitcoin Core, nodes, the Bitcoin network, transactions, and addresses.
+					<div style="padding-top: 1px;" class="smalltext"><i>Moderator: <a href="https://bitcointalk.org/index.php?action=profile;u=290195" title="Board Moderator">achow101</a></i></div>
+				</td>
+				<td class="windowbg" valign="middle" align="center" style="width: 12ex;"><span class="smalltext">
+					88933 Posts <br />
+					10780 Topics
+				</span></td>
+				<td class="windowbg2" valign="middle" width="22%">
+					<span class="smalltext">
+						<b>Last post</b>  by <a href="https://bitcointalk.org/index.php?action=profile;u=2587747">Peloponnesian</a><br />
+						in <a href="https://bitcointalk.org/index.php?topic=5136843.msg50843387#new" title="Re: More Lightning Questions">Re: More Lightning Quest...</a><br />
+						on April 29, 2019, 10:57:03 PM
+					</span>
+				</td>
+			</tr>
+			<tr>
+				<td  class="windowbg" width="6%" align="center" valign="top"><a href="https://bitcointalk.org/index.php?action=unread;board=12.0"><img src="https://bitcointalk.org/Themes/custom1/images/off.gif" alt="No New Posts" title="No New Posts" /></a>
+				</td>
+				<td class="windowbg2">
+					<b><a href="https://bitcointalk.org/index.php?board=12.0" name="b12">Project Development</a></b><br />
+						Organization of Bitcoin and related projects, bounty campaigns, advertising etc.
+				</td>
+				<td class="windowbg" valign="middle" align="center" style="width: 12ex;"><span class="smalltext">
+					164625 Posts <br />
+					14415 Topics
+				</span></td>
+				<td class="windowbg2" valign="middle" width="22%">
+					<span class="smalltext">
+						<b>Last post</b>  by <a href="https://bitcointalk.org/index.php?action=profile;u=2591724">ephemeralname</a><br />
+						in <a href="https://bitcointalk.org/index.php?topic=5137947.msg50843387#new" title="Airtext: Create your own decentralized blog with one click">Airtext: Create your own...</a><br />
+						on <b>Today</b> at 09:13:23 PM
+					</span>
+				</td>
+			</tr>
+		</table>
+	</div>
+	<div class="tborder" style="margin-top: 1ex;">
+		<div class="catbg" style="padding: 5px 5px 5px 10px;">
+				<a name="3" href="https://bitcointalk.org/index.php#3">Economy</a>
+		</div>
+		<table border="0" width="100%" cellspacing="1" cellpadding="5" class="bordercolor" style="margin-top: 1px;">
+			<tr>
+				<td rowspan="2" class="windowbg" width="6%" align="center" valign="top"><a href="https://bitcointalk.org/index.php?action=unread;board=7.0"><img src="https://bitcointalk.org/Themes/custom1/images/off.gif" alt="No New Posts" title="No New Posts" /></a>
+				</td>
+				<td class="windowbg2">
+					<b><a href="https://bitcointalk.org/index.php?board=7.0" name="b7">Economics</a></b><br />
+						
+				</td>
+				<td class="windowbg" valign="middle" align="center" style="width: 12ex;"><span class="smalltext">
+					2207128 Posts <br />
+					29018 Topics
+				</span></td>
+				<td class="windowbg2" valign="middle" width="22%">
+					<span class="smalltext">
+						<b>Last post</b>  by <a href="https://bitcointalk.org/index.php?action=profile;u=1004188">Bagaji</a><br />
+						in <a href="https://bitcointalk.org/index.php?topic=5137585.msg50843387#new" title="Re: Big risk ,big results.">Re: Big risk ,big result...</a><br />
+						on <b>Today</b> at 09:46:38 PM
+					</span>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="3" class="windowbg3">
+					<span class="smalltext"><b>Child Boards</b>: <a href="https://bitcointalk.org/index.php?board=57.0" title="No New Posts (Topics: 19108, Posts: 1387117)">Speculation</a></span>
+				</td>
+			</tr>
+			<tr>
+				<td rowspan="2" class="windowbg" width="6%" align="center" valign="top"><a href="https://bitcointalk.org/index.php?action=unread;board=5.0"><img src="https://bitcointalk.org/Themes/custom1/images/off.gif" alt="No New Posts" title="No New Posts" /></a>
+				</td>
+				<td class="windowbg2">
+					<b><a href="https://bitcointalk.org/index.php?board=5.0" name="b5">Marketplace</a></b><br />
+						General marketplace discussion.
+					<div style="padding-top: 1px;" class="smalltext"><i>Moderators: <a href="https://bitcointalk.org/index.php?action=profile;u=78147" title="Board Moderator">Cyrus</a>, <a href="https://bitcointalk.org/index.php?action=profile;u=164822" title="Board Moderator">hilariousandco</a></i></div>
+				</td>
+				<td class="windowbg" valign="middle" align="center" style="width: 12ex;"><span class="smalltext">
+					7339763 Posts <br />
+					382284 Topics
+				</span></td>
+				<td class="windowbg2" valign="middle" width="22%">
+					<span class="smalltext">
+						<b>Last post</b>  by <a href="https://bitcointalk.org/index.php?action=profile;u=816893">blockman</a><br />
+						in <a href="https://bitcointalk.org/index.php?topic=5110093.msg50843387#new" title="Re: Stake.com - A signature campaign for everyone! Earn up to 0.1 BTC weekly">Re: Stake.com - A signat...</a><br />
+						on <b>Today</b> at 09:46:59 PM
+					</span>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="3" class="windowbg3">
+					<span class="smalltext"><b>Child Boards</b>: <a href="https://bitcointalk.org/index.php?board=51.0" title="No New Posts (Topics: 203809, Posts: 1673268)">Goods</a>, <a href="https://bitcointalk.org/index.php?board=52.0" title="No New Posts (Topics: 33385, Posts: 629346)">Services</a>, <a href="https://bitcointalk.org/index.php?board=53.0" title="No New Posts (Topics: 24814, Posts: 175677)">Currency exchange</a>, <a href="https://bitcointalk.org/index.php?board=56.0" title="No New Posts (Topics: 34471, Posts: 2968197)">Gambling</a>, <a href="https://bitcointalk.org/index.php?board=65.0" title="No New Posts (Topics: 10395, Posts: 183533)">Lending</a>, <a href="https://bitcointalk.org/index.php?board=78.0" title="No New Posts (Topics: 2255, Posts: 208113)">Securities</a>, <a href="https://bitcointalk.org/index.php?board=73.0" title="No New Posts (Topics: 10233, Posts: 121834)">Auctions</a>, <a href="https://bitcointalk.org/index.php?board=84.0" title="No New Posts (Topics: 25541, Posts: 623291)">Service Announcements</a>, <a href="https://bitcointalk.org/index.php?board=85.0" title="No New Posts (Topics: 31079, Posts: 633982)">Service Discussion</a></span>
+				</td>
+			</tr>
+			<tr>
+				<td rowspan="2" class="windowbg" width="6%" align="center" valign="top"><a href="https://bitcointalk.org/index.php?action=unread;board=8.0"><img src="https://bitcointalk.org/Themes/custom1/images/off.gif" alt="No New Posts" title="No New Posts" /></a>
+				</td>
+				<td class="windowbg2">
+					<b><a href="https://bitcointalk.org/index.php?board=8.0" name="b8">Trading Discussion</a></b><br />
+						Discussion about doing business with Bitcoin. Best trading practices, delivery methods etc.
+					<div style="padding-top: 1px;" class="smalltext"><i>Moderator: <a href="https://bitcointalk.org/index.php?action=profile;u=78147" title="Board Moderator">Cyrus</a></i></div>
+				</td>
+				<td class="windowbg" valign="middle" align="center" style="width: 12ex;"><span class="smalltext">
+					685127 Posts <br />
+					27194 Topics
+				</span></td>
+				<td class="windowbg2" valign="middle" width="22%">
+					<span class="smalltext">
+						<b>Last post</b>  by <a href="https://bitcointalk.org/index.php?action=profile;u=1119943">Best Dreams</a><br />
+						in <a href="https://bitcointalk.org/index.php?topic=5054195.msg50843387#new" title="Re: Why you buy Cryptocurrency ?">Re: Why you buy Cryptocu...</a><br />
+						on <b>Today</b> at 09:44:43 PM
+					</span>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="3" class="windowbg3">
+					<span class="smalltext"><b>Child Boards</b>: <a href="https://bitcointalk.org/index.php?board=83.0" title="No New Posts (Topics: 10186, Posts: 177146)">Scam Accusations</a>, <a href="https://bitcointalk.org/index.php?board=129.0" title="No New Posts (Topics: 3556, Posts: 52867)">Reputation</a></span>
+				</td>
+			</tr>
+		</table>
+	</div>
+	<div class="tborder" style="margin-top: 1ex;">
+		<div class="catbg" style="padding: 5px 5px 5px 10px;">
+				<a name="4" href="https://bitcointalk.org/index.php#4">Other</a>
+		</div>
+		<table border="0" width="100%" cellspacing="1" cellpadding="5" class="bordercolor" style="margin-top: 1px;">
+			<tr>
+				<td rowspan="2" class="windowbg" width="6%" align="center" valign="top"><a href="https://bitcointalk.org/index.php?action=unread;board=24.0"><img src="https://bitcointalk.org/Themes/custom1/images/off.gif" alt="No New Posts" title="No New Posts" /></a>
+				</td>
+				<td class="windowbg2">
+					<b><a href="https://bitcointalk.org/index.php?board=24.0" name="b24">Meta</a></b><br />
+						Discussion about the Bitcoin Forum.
+				</td>
+				<td class="windowbg" valign="middle" align="center" style="width: 12ex;"><span class="smalltext">
+					276838 Posts <br />
+					15964 Topics
+				</span></td>
+				<td class="windowbg2" valign="middle" width="22%">
+					<span class="smalltext">
+						<b>Last post</b>  by <a href="https://bitcointalk.org/index.php?action=profile;u=1580039">asche</a><br />
+						in <a href="https://bitcointalk.org/index.php?topic=5137765.msg50843387#new" title="Re: Is it possible?">Re: Is it possible?</a><br />
+						on <b>Today</b> at 09:46:50 PM
+					</span>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="3" class="windowbg3">
+					<span class="smalltext"><b>Child Boards</b>: <a href="https://bitcointalk.org/index.php?board=167.0" title="No New Posts (Topics: 398, Posts: 4589)">New forum software</a>, <a href="https://bitcointalk.org/index.php?board=168.0" title="No New Posts (Topics: 73, Posts: 1696)">Bitcoin Wiki</a></span>
+				</td>
+			</tr>
+			<tr>
+				<td  class="windowbg" width="6%" align="center" valign="top"><a href="https://bitcointalk.org/index.php?action=unread;board=34.0"><img src="https://bitcointalk.org/Themes/custom1/images/off.gif" alt="No New Posts" title="No New Posts" /></a>
+				</td>
+				<td class="windowbg2">
+					<b><a href="https://bitcointalk.org/index.php?board=34.0" name="b34">Politics &amp; Society</a></b><br />
+						
+					<div style="padding-top: 1px;" class="smalltext"><i>Moderator: <a href="https://bitcointalk.org/index.php?action=profile;u=79608" title="Board Moderator">Flying Hellfish</a></i></div>
+				</td>
+				<td class="windowbg" valign="middle" align="center" style="width: 12ex;"><span class="smalltext">
+					438265 Posts <br />
+					13650 Topics
+				</span></td>
+				<td class="windowbg2" valign="middle" width="22%">
+					<span class="smalltext">
+						<b>Last post</b>  by <a href="https://bitcointalk.org/index.php?action=profile;u=2480995">TimeBits</a><br />
+						in <a href="https://bitcointalk.org/index.php?topic=5134945.msg50843387#new" title="Re: How do you imagine ideal society?">Re: How do you imagine i...</a><br />
+						on <b>Today</b> at 09:41:47 PM
+					</span>
+				</td>
+			</tr>
+			<tr>
+				<td  class="windowbg" width="6%" align="center" valign="top"><a href="https://bitcointalk.org/index.php?action=unread;board=39.0"><img src="https://bitcointalk.org/Themes/custom1/images/off.gif" alt="No New Posts" title="No New Posts" /></a>
+				</td>
+				<td class="windowbg2">
+					<b><a href="https://bitcointalk.org/index.php?board=39.0" name="b39">Beginners &amp; Help</a></b><br />
+						
+					<div style="padding-top: 1px;" class="smalltext"><i>Moderator: <a href="https://bitcointalk.org/index.php?action=profile;u=14001" title="Board Moderator">MiningBuddy</a></i></div>
+				</td>
+				<td class="windowbg" valign="middle" align="center" style="width: 12ex;"><span class="smalltext">
+					689765 Posts <br />
+					53681 Topics
+				</span></td>
+				<td class="windowbg2" valign="middle" width="22%">
+					<span class="smalltext">
+						<b>Last post</b>  by <a href="https://bitcointalk.org/index.php?action=profile;u=1146509">jdarren</a><br />
+						in <a href="https://bitcointalk.org/index.php?topic=5087296.msg50843387#new" title="Re: Warning to all newbies concerning wallets">Re: Warning to all newbi...</a><br />
+						on <b>Today</b> at 09:34:48 PM
+					</span>
+				</td>
+			</tr>
+			<tr>
+				<td  class="windowbg" width="6%" align="center" valign="top"><a href="https://bitcointalk.org/index.php?action=unread;board=9.0"><img src="https://bitcointalk.org/Themes/custom1/images/off.gif" alt="No New Posts" title="No New Posts" /></a>
+				</td>
+				<td class="windowbg2">
+					<b><a href="https://bitcointalk.org/index.php?board=9.0" name="b9">Off-topic</a></b><br />
+						Other topics that might be of interest to bitcoiners.
+				</td>
+				<td class="windowbg" valign="middle" align="center" style="width: 12ex;"><span class="smalltext">
+					799996 Posts <br />
+					28019 Topics
+				</span></td>
+				<td class="windowbg2" valign="middle" width="22%">
+					<span class="smalltext">
+						<b>Last post</b>  by <a href="https://bitcointalk.org/index.php?action=profile;u=882214">Darooghe</a><br />
+						in <a href="https://bitcointalk.org/index.php?topic=1009045.msg50843387#new" title="Re: Flat Earth">Re: Flat Earth</a><br />
+						on <b>Today</b> at 09:33:52 PM
+					</span>
+				</td>
+			</tr>
+			<tr>
+				<td rowspan="2" class="windowbg" width="6%" align="center" valign="top"><a href="https://bitcointalk.org/index.php?action=unread;board=250.0"><img src="https://bitcointalk.org/Themes/custom1/images/off.gif" alt="No New Posts" title="No New Posts" /></a>
+				</td>
+				<td class="windowbg2">
+					<b><a href="https://bitcointalk.org/index.php?board=250.0" name="b250">Serious discussion</a></b><br />
+						More serious discussion. No advertising of any kind. No junk posts.
+				</td>
+				<td class="windowbg" valign="middle" align="center" style="width: 12ex;"><span class="smalltext">
+					8868 Posts <br />
+					667 Topics
+				</span></td>
+				<td class="windowbg2" valign="middle" width="22%">
+					<span class="smalltext">
+						<b>Last post</b>  by <a href="https://bitcointalk.org/index.php?action=profile;u=826326">Zedpastin</a><br />
+						in <a href="https://bitcointalk.org/index.php?topic=5137817.msg50843387#new" title="Re: Will lightning network make monero useless?">Re: Will lightning netwo...</a><br />
+						on <b>Today</b> at 07:17:32 PM
+					</span>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="3" class="windowbg3">
+					<span class="smalltext"><b>Child Boards</b>: <a href="https://bitcointalk.org/index.php?board=251.0" title="No New Posts (Topics: 129, Posts: 1455)">Ivory Tower</a></span>
+				</td>
+			</tr>
+			<tr>
+				<td rowspan="2" class="windowbg" width="6%" align="center" valign="top"><a href="https://bitcointalk.org/index.php?action=unread;board=59.0"><img src="https://bitcointalk.org/Themes/custom1/images/off.gif" alt="No New Posts" title="No New Posts" /></a>
+				</td>
+				<td class="windowbg2">
+					<b><a href="https://bitcointalk.org/index.php?board=59.0" name="b59">Archival</a></b><br />
+						Old stuff.
+				</td>
+				<td class="windowbg" valign="middle" align="center" style="width: 12ex;"><span class="smalltext">
+					252469 Posts <br />
+					14061 Topics
+				</span></td>
+				<td class="windowbg2" valign="middle" width="22%">
+					<span class="smalltext">
+						<b>Last post</b>  by <a href="https://bitcointalk.org/index.php?action=profile;u=2340148">Maggiordomo</a><br />
+						in <a href="https://bitcointalk.org/index.php?topic=5062028.msg50843387#new" title="Re: [NTF] You say WHAT? ... notification thread[@Piggy bot]">Re: [NTF] You say WHAT? ...</a><br />
+						on <b>Today</b> at 09:47:03 PM
+					</span>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="3" class="windowbg3">
+					<span class="smalltext"><b>Child Boards</b>: <a href="https://bitcointalk.org/index.php?board=92.0" title="No New Posts (Topics: 332, Posts: 12467)">&#1050;&#1086;&#1088;&#1079;&#1080;&#1085;&#1072;</a>, <a href="https://bitcointalk.org/index.php?board=44.0" title="No New Posts (Topics: 4232, Posts: 61380)">CPU/GPU Bitcoin mining hardware</a>, <a href="https://bitcointalk.org/index.php?board=17.0" title="No New Posts (Topics: 88, Posts: 561)">Chinese students</a>, <a href="https://bitcointalk.org/index.php?board=25.0" title="No New Posts (Topics: 401, Posts: 2545)">Obsolete (buying)</a>, <a href="https://bitcointalk.org/index.php?board=26.0" title="No New Posts (Topics: 1539, Posts: 9170)">Obsolete (selling)</a>, <a href="https://bitcointalk.org/index.php?board=99.0" title="No New Posts (Topics: 1089, Posts: 8334)">MultiBit</a></span>
+				</td>
+			</tr>
+		</table>
+	</div>
+	<div class="tborder" style="margin-top: 1ex;">
+		<div class="catbg" style="padding: 5px 5px 5px 10px;">
+				<a name="6" href="https://bitcointalk.org/index.php#6">Alternate cryptocurrencies</a>
+		</div>
+		<table border="0" width="100%" cellspacing="1" cellpadding="5" class="bordercolor" style="margin-top: 1px;">
+			<tr>
+				<td  class="windowbg" width="6%" align="center" valign="top"><a href="https://bitcointalk.org/index.php?action=unread;board=67.0"><img src="https://bitcointalk.org/Themes/custom1/images/off.gif" alt="No New Posts" title="No New Posts" /></a>
+				</td>
+				<td class="windowbg2">
+					<b><a href="https://bitcointalk.org/index.php?board=67.0" name="b67">Altcoin Discussion</a></b><br />
+						Discussion of cryptocurrencies other than Bitcoin. Note that discussion of how these currencies *relate to* Bitcoin may fit in other categories.
+					<div style="padding-top: 1px;" class="smalltext"><i>Moderator: <a href="https://bitcointalk.org/index.php?action=profile;u=51173" title="Board Moderator">mprep</a></i></div>
+				</td>
+				<td class="windowbg" valign="middle" align="center" style="width: 12ex;"><span class="smalltext">
+					2783014 Posts <br />
+					90972 Topics
+				</span></td>
+				<td class="windowbg2" valign="middle" width="22%">
+					<span class="smalltext">
+						<b>Last post</b>  by <a href="https://bitcointalk.org/index.php?action=profile;u=324128">Youghoor</a><br />
+						in <a href="https://bitcointalk.org/index.php?topic=5137176.msg50843387#new" title="Re: Is IEO Profitable than ICO's?">Re: Is IEO Profitable th...</a><br />
+						on <b>Today</b> at 09:45:49 PM
+					</span>
+				</td>
+			</tr>
+			<tr>
+				<td rowspan="2" class="windowbg" width="6%" align="center" valign="top"><a href="https://bitcointalk.org/index.php?action=unread;board=159.0"><img src="https://bitcointalk.org/Themes/custom1/images/off.gif" alt="No New Posts" title="No New Posts" /></a>
+				</td>
+				<td class="windowbg2">
+					<b><a href="https://bitcointalk.org/index.php?board=159.0" name="b159">Announcements (Altcoins)</a></b><br />
+						
+					<div style="padding-top: 1px;" class="smalltext"><i>Moderators: <a href="https://bitcointalk.org/index.php?action=profile;u=51173" title="Board Moderator">mprep</a>, <a href="https://bitcointalk.org/index.php?action=profile;u=84521" title="Board Moderator">Welsh</a></i></div>
+				</td>
+				<td class="windowbg" valign="middle" align="center" style="width: 12ex;"><span class="smalltext">
+					8424232 Posts <br />
+					42177 Topics
+				</span></td>
+				<td class="windowbg2" valign="middle" width="22%">
+					<span class="smalltext">
+						<b>Last post</b>  by <a href="https://bitcointalk.org/index.php?action=profile;u=1091065">jibrelnetwork</a><br />
+						in <a href="https://bitcointalk.org/index.php?topic=2057487.msg50843387#new" title="Re: [ANN] Jibrel Network | Traditional financial assets on-chain">Re: [ANN] Jibrel Network...</a><br />
+						on <b>Today</b> at 09:46:13 PM
+					</span>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="3" class="windowbg3">
+					<span class="smalltext"><b>Child Boards</b>: <a href="https://bitcointalk.org/index.php?board=240.0" title="No New Posts (Topics: 6329, Posts: 1440401)">Tokens (Altcoins)</a></span>
+				</td>
+			</tr>
+			<tr>
+				<td rowspan="2" class="windowbg" width="6%" align="center" valign="top"><a href="https://bitcointalk.org/index.php?action=unread;board=160.0"><img src="https://bitcointalk.org/Themes/custom1/images/off.gif" alt="No New Posts" title="No New Posts" /></a>
+				</td>
+				<td class="windowbg2">
+					<b><a href="https://bitcointalk.org/index.php?board=160.0" name="b160">Mining (Altcoins)</a></b><br />
+						
+					<div style="padding-top: 1px;" class="smalltext"><i>Moderator: <a href="https://bitcointalk.org/index.php?action=profile;u=51173" title="Board Moderator">mprep</a></i></div>
+				</td>
+				<td class="windowbg" valign="middle" align="center" style="width: 12ex;"><span class="smalltext">
+					777904 Posts <br />
+					29822 Topics
+				</span></td>
+				<td class="windowbg2" valign="middle" width="22%">
+					<span class="smalltext">
+						<b>Last post</b>  by <a href="https://bitcointalk.org/index.php?action=profile;u=73499">casper77</a><br />
+						in <a href="https://bitcointalk.org/index.php?topic=2683343.msg50843387#new" title="Re: Best CPU Mineable Coins in 2019 and CPU Mining Guides [UPDATED!]">Re: Best CPU Mineable Co...</a><br />
+						on <b>Today</b> at 09:45:50 PM
+					</span>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="3" class="windowbg3">
+					<span class="smalltext"><b>Child Boards</b>: <a href="https://bitcointalk.org/index.php?board=199.0" title="No New Posts (Topics: 3014, Posts: 112837)">Pools (Altcoins)</a></span>
+				</td>
+			</tr>
+			<tr>
+				<td rowspan="2" class="windowbg" width="6%" align="center" valign="top"><a href="https://bitcointalk.org/index.php?action=unread;board=161.0"><img src="https://bitcointalk.org/Themes/custom1/images/off.gif" alt="No New Posts" title="No New Posts" /></a>
+				</td>
+				<td class="windowbg2">
+					<b><a href="https://bitcointalk.org/index.php?board=161.0" name="b161">Marketplace (Altcoins)</a></b><br />
+						
+					<div style="padding-top: 1px;" class="smalltext"><i>Moderators: <a href="https://bitcointalk.org/index.php?action=profile;u=51173" title="Board Moderator">mprep</a>, <a href="https://bitcointalk.org/index.php?action=profile;u=84521" title="Board Moderator">Welsh</a></i></div>
+				</td>
+				<td class="windowbg" valign="middle" align="center" style="width: 12ex;"><span class="smalltext">
+					7411459 Posts <br />
+					37361 Topics
+				</span></td>
+				<td class="windowbg2" valign="middle" width="22%">
+					<span class="smalltext">
+						<b>Last post</b>  by <a href="https://bitcointalk.org/index.php?action=profile;u=2479183">olaemi</a><br />
+						in <a href="https://bitcointalk.org/index.php?topic=5128303.msg50843387#new" title="Re: &#128293;[BOUNTY]&#128293;[AIRDROP]&#128293; AMANPURI - Ultimate exchange &#128293;$336,000 in rewards&#128293;">Re: &#128293;[BOUNTY]&#128293;[AIRDROP]&#128293;...</a><br />
+						on <b>Today</b> at 09:47:11 PM
+					</span>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="3" class="windowbg3">
+					<span class="smalltext"><b>Child Boards</b>: <a href="https://bitcointalk.org/index.php?board=197.0" title="No New Posts (Topics: 5196, Posts: 165493)">Service Announcements (Altcoins)</a>, <a href="https://bitcointalk.org/index.php?board=198.0" title="No New Posts (Topics: 5303, Posts: 164644)">Service Discussion (Altcoins)</a>, <a href="https://bitcointalk.org/index.php?board=238.0" title="No New Posts (Topics: 11649, Posts: 6871798)">Bounties (Altcoins)</a></span>
+				</td>
+			</tr>
+			<tr>
+				<td  class="windowbg" width="6%" align="center" valign="top"><a href="https://bitcointalk.org/index.php?action=unread;board=224.0"><img src="https://bitcointalk.org/Themes/custom1/images/off.gif" alt="No New Posts" title="No New Posts" /></a>
+				</td>
+				<td class="windowbg2">
+					<b><a href="https://bitcointalk.org/index.php?board=224.0" name="b224">Speculation (Altcoins)</a></b><br />
+						
+					<div style="padding-top: 1px;" class="smalltext"><i>Moderator: <a href="https://bitcointalk.org/index.php?action=profile;u=51173" title="Board Moderator">mprep</a></i></div>
+				</td>
+				<td class="windowbg" valign="middle" align="center" style="width: 12ex;"><span class="smalltext">
+					847104 Posts <br />
+					11997 Topics
+				</span></td>
+				<td class="windowbg2" valign="middle" width="22%">
+					<span class="smalltext">
+						<b>Last post</b>  by <a href="https://bitcointalk.org/index.php?action=profile;u=1004807">rijaljun</a><br />
+						in <a href="https://bitcointalk.org/index.php?topic=5137323.msg50843387#new" title="Re: MEW wallet anomaly?">Re: MEW wallet anomaly?</a><br />
+						on <b>Today</b> at 09:46:05 PM
+					</span>
+				</td>
+			</tr>
+		</table>
+	</div>
+	<div class="tborder" style="margin-top: 1ex;">
+		<div class="catbg" style="padding: 5px 5px 5px 10px;">
+				<a name="5" href="https://bitcointalk.org/index.php#5">Local</a>
+		</div>
+		<table border="0" width="100%" cellspacing="1" cellpadding="5" class="bordercolor" style="margin-top: 1px;">
+			<tr>
+				<td rowspan="2" class="windowbg" width="6%" align="center" valign="top"><a href="https://bitcointalk.org/index.php?action=unread;board=241.0"><img src="https://bitcointalk.org/Themes/custom1/images/off.gif" alt="No New Posts" title="No New Posts" /></a>
+				</td>
+				<td class="windowbg2">
+					<b><a href="https://bitcointalk.org/index.php?board=241.0" name="b241">&#1575;&#1604;&#1593;&#1585;&#1576;&#1610;&#1577; (Arabic)</a></b><br />
+						
+					<div style="padding-top: 1px;" class="smalltext"><i>Moderator: <a href="https://bitcointalk.org/index.php?action=profile;u=375981" title="Board Moderator">OmegaStarScream</a></i></div>
+				</td>
+				<td class="windowbg" valign="middle" align="center" style="width: 12ex;"><span class="smalltext">
+					32221 Posts <br />
+					3726 Topics
+				</span></td>
+				<td class="windowbg2" valign="middle" width="22%">
+					<span class="smalltext">
+						<b>Last post</b>  by <a href="https://bitcointalk.org/index.php?action=profile;u=2059898">airdrop991</a><br />
+						in <a href="https://bitcointalk.org/index.php?topic=5136182.msg50843387#new" title="Re: &#1587;&#1572;&#1575;&#1604; &#1593;&#1606; &#1573;&#1581;&#1589;&#1575;&#1574;&#1610;&#1575;&#1578; &#1608;&#1606;&#1588;&#1575;&#1591; &#1581;&#1587;&#1575;&#1576;&#1610; ">Re: &#1587;&#1572;&#1575;&#1604; &#1593;&#1606; &#1573;&#1581;&#1589;&#1575;&#1574;&#1610;&#1575;&#1578; &#1608;&#1606;&#1588;...</a><br />
+						on <b>Today</b> at 09:44:16 PM
+					</span>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="3" class="windowbg3">
+					<span class="smalltext"><b>Child Boards</b>: <a href="https://bitcointalk.org/index.php?board=242.0" title="No New Posts (Topics: 1956, Posts: 16034)">&#1575;&#1604;&#1593;&#1605;&#1604;&#1575;&#1578; &#1575;&#1604;&#1576;&#1583;&#1610;&#1604;&#1577; (Altcoins)</a>, <a href="https://bitcointalk.org/index.php?board=253.0" title="No New Posts (Topics: 231, Posts: 1482)">&#1573;&#1587;&#1578;&#1601;&#1587;&#1575;&#1585;&#1575;&#1578; &#1608; &#1571;&#1587;&#1574;&#1604;&#1577; &#1575;&#1604;&#1605;&#1576;&#1578;&#1583;&#1574;&#1610;&#1606;</a></span>
+				</td>
+			</tr>
+			<tr>
+				<td rowspan="2" class="windowbg" width="6%" align="center" valign="top"><a href="https://bitcointalk.org/index.php?action=unread;board=191.0"><img src="https://bitcointalk.org/Themes/custom1/images/off.gif" alt="No New Posts" title="No New Posts" /></a>
+				</td>
+				<td class="windowbg2">
+					<b><a href="https://bitcointalk.org/index.php?board=191.0" name="b191">Bahasa Indonesia (Indonesian)</a></b><br />
+						
+					<div style="padding-top: 1px;" class="smalltext"><i>Moderators: <a href="https://bitcointalk.org/index.php?action=profile;u=153634" title="Board Moderator">dbshck</a>, <a href="https://bitcointalk.org/index.php?action=profile;u=347141" title="Board Moderator">sapta</a></i></div>
+				</td>
+				<td class="windowbg" valign="middle" align="center" style="width: 12ex;"><span class="smalltext">
+					1030153 Posts <br />
+					12156 Topics
+				</span></td>
+				<td class="windowbg2" valign="middle" width="22%">
+					<span class="smalltext">
+						<b>Last post</b>  by <a href="https://bitcointalk.org/index.php?action=profile;u=917403">jikurpa</a><br />
+						in <a href="https://bitcointalk.org/index.php?topic=4738272.msg50843387#new" title="Re: [ANN] ADAB - Bursa Kripto pertama, berbasis norma syariah">Re: [ANN] ADAB - Bursa K...</a><br />
+						on <b>Today</b> at 09:46:39 PM
+					</span>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="3" class="windowbg3">
+					<span class="smalltext"><b>Child Boards</b>: <a href="https://bitcointalk.org/index.php?board=193.0" title="No New Posts (Topics: 1940, Posts: 19933)">Jual Beli</a>, <a href="https://bitcointalk.org/index.php?board=194.0" title="No New Posts (Topics: 617, Posts: 15790)">Mining (Bahasa Indonesia)</a>, <a href="https://bitcointalk.org/index.php?board=192.0" title="No New Posts (Topics: 5553, Posts: 511830)">Altcoins (Bahasa Indonesia)</a></span>
+				</td>
+			</tr>
+			<tr>
+				<td rowspan="2" class="windowbg" width="6%" align="center" valign="top"><a href="https://bitcointalk.org/index.php?action=unread;board=27.0"><img src="https://bitcointalk.org/Themes/custom1/images/off.gif" alt="No New Posts" title="No New Posts" /></a>
+				</td>
+				<td class="windowbg2">
+					<b><a href="https://bitcointalk.org/index.php?board=27.0" name="b27">Español (Spanish)</a></b><br />
+						
+					<div style="padding-top: 1px;" class="smalltext"><i>Moderator: <a href="https://bitcointalk.org/index.php?action=profile;u=225121" title="Board Moderator">franckuestein</a></i></div>
+				</td>
+				<td class="windowbg" valign="middle" align="center" style="width: 12ex;"><span class="smalltext">
+					196802 Posts <br />
+					16247 Topics
+				</span></td>
+				<td class="windowbg2" valign="middle" width="22%">
+					<span class="smalltext">
+						<b>Last post</b>  by <a href="https://bitcointalk.org/index.php?action=profile;u=2591666">Venjumea</a><br />
+						in <a href="https://bitcointalk.org/index.php?topic=5134853.msg50843387#new" title="Re: Ahora se puede pagar con 'lightning network' en Amazon">Re: Ahora se puede pagar...</a><br />
+						on <b>Today</b> at 09:29:48 PM
+					</span>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="3" class="windowbg3">
+					<span class="smalltext"><b>Child Boards</b>: <a href="https://bitcointalk.org/index.php?board=31.0" title="No New Posts (Topics: 2622, Posts: 35538)">Mercado y Economía</a>, <a href="https://bitcointalk.org/index.php?board=32.0" title="No New Posts (Topics: 1410, Posts: 16416)">Hardware y Minería</a>, <a href="https://bitcointalk.org/index.php?board=33.0" title="No New Posts (Topics: 1180, Posts: 16717)">Esquina Libre</a>, <a href="https://bitcointalk.org/index.php?board=101.0" title="No New Posts (Topics: 1716, Posts: 8396)">Mercadillo</a>, <a href="https://bitcointalk.org/index.php?board=130.0" title="No New Posts (Topics: 1434, Posts: 10526)">Primeros pasos y ayuda</a>, <a href="https://bitcointalk.org/index.php?board=151.0" title="No New Posts (Topics: 5104, Posts: 67294)">Altcoins (criptomonedas alternativas)</a></span>
+				</td>
+			</tr>
+			<tr>
+				<td rowspan="2" class="windowbg" width="6%" align="center" valign="top"><a href="https://bitcointalk.org/index.php?action=unread;board=30.0"><img src="https://bitcointalk.org/Themes/custom1/images/off.gif" alt="No New Posts" title="No New Posts" /></a>
+				</td>
+				<td class="windowbg2">
+					<b><a href="https://bitcointalk.org/index.php?board=30.0" name="b30">&#20013;&#25991; (Chinese)</a></b><br />
+						
+					<div style="padding-top: 1px;" class="smalltext"><i>Moderator: <a href="https://bitcointalk.org/index.php?action=profile;u=779106" title="Board Moderator">Barcode_</a></i></div>
+				</td>
+				<td class="windowbg" valign="middle" align="center" style="width: 12ex;"><span class="smalltext">
+					713700 Posts <br />
+					100907 Topics
+				</span></td>
+				<td class="windowbg2" valign="middle" width="22%">
+					<span class="smalltext">
+						<b>Last post</b>  by <a href="https://bitcointalk.org/index.php?action=profile;u=31289">andy3</a><br />
+						in <a href="https://bitcointalk.org/index.php?topic=3313576.msg50843387#new" title="Re: &#128293; [&#20986;&#21806;] &#128293; &#38750;&#29616;&#37329;&#32467;&#31639;&#30340;&#27604;&#29305;&#24065;[&#22823;&#39069;] &#128293; 100 - 300 000 coins BTC &#128293;">Re: &#128293; [&#20986;&#21806;] &#128293; &#38750;&#29616;&#37329;&#32467;&#31639;&#30340;&#27604;&#29305;&#24065;[&#22823;...</a><br />
+						on <b>Today</b> at 09:08:34 PM
+					</span>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="3" class="windowbg3">
+					<span class="smalltext"><b>Child Boards</b>: <a href="https://bitcointalk.org/index.php?board=117.0" title="No New Posts (Topics: 1726, Posts: 24376)">&#36339;&#34468;&#24066;&#22330;</a>, <a href="https://bitcointalk.org/index.php?board=118.0" title="No New Posts (Topics: 9835, Posts: 151992)">&#23665;&#23528;&#24065;</a>, <a href="https://bitcointalk.org/index.php?board=119.0" title="No New Posts (Topics: 19030, Posts: 66005)">&#23186;&#20307;</a>, <a href="https://bitcointalk.org/index.php?board=146.0" title="No New Posts (Topics: 1096, Posts: 12347)">&#25366;&#30719;</a>, <a href="https://bitcointalk.org/index.php?board=196.0" title="No New Posts (Topics: 51722, Posts: 149957)">&#31163;&#39064;&#19975;&#37324;</a></span>
+				</td>
+			</tr>
+			<tr>
+				<td rowspan="2" class="windowbg" width="6%" align="center" valign="top"><a href="https://bitcointalk.org/index.php?action=unread;board=201.0"><img src="https://bitcointalk.org/Themes/custom1/images/off.gif" alt="No New Posts" title="No New Posts" /></a>
+				</td>
+				<td class="windowbg2">
+					<b><a href="https://bitcointalk.org/index.php?board=201.0" name="b201">Hrvatski (Croatian)</a></b><br />
+						
+				</td>
+				<td class="windowbg" valign="middle" align="center" style="width: 12ex;"><span class="smalltext">
+					36273 Posts <br />
+					1675 Topics
+				</span></td>
+				<td class="windowbg2" valign="middle" width="22%">
+					<span class="smalltext">
+						<b>Last post</b>  by <a href="https://bitcointalk.org/index.php?action=profile;u=1759251">Dzeronimo</a><br />
+						in <a href="https://bitcointalk.org/index.php?topic=3124917.msg50843387#new" title="Re: electroneum rudarenje">Re: electroneum rudarenj...</a><br />
+						on <b>Today</b> at 09:21:44 PM
+					</span>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="3" class="windowbg3">
+					<span class="smalltext"><b>Child Boards</b>: <a href="https://bitcointalk.org/index.php?board=220.0" title="No New Posts (Topics: 141, Posts: 465)">Trgovina</a>, <a href="https://bitcointalk.org/index.php?board=221.0" title="No New Posts (Topics: 912, Posts: 14946)">Altcoins (Hrvatski)</a></span>
+				</td>
+			</tr>
+			<tr>
+				<td rowspan="2" class="windowbg" width="6%" align="center" valign="top"><a href="https://bitcointalk.org/index.php?action=unread;board=16.0"><img src="https://bitcointalk.org/Themes/custom1/images/off.gif" alt="No New Posts" title="No New Posts" /></a>
+				</td>
+				<td class="windowbg2">
+					<b><a href="https://bitcointalk.org/index.php?board=16.0" name="b16">Deutsch (German)</a></b><br />
+						
+				</td>
+				<td class="windowbg" valign="middle" align="center" style="width: 12ex;"><span class="smalltext">
+					462470 Posts <br />
+					25354 Topics
+				</span></td>
+				<td class="windowbg2" valign="middle" width="22%">
+					<span class="smalltext">
+						<b>Last post</b>  by <a href="https://bitcointalk.org/index.php?action=profile;u=2143453">1miau</a><br />
+						in <a href="https://bitcointalk.org/index.php?topic=5130614.msg50843387#new" title="Re: Test: Brave Browser mit integrierten Wallet und BATs durch Werbeeinblendungen">Re: Test: Brave Browser ...</a><br />
+						on <b>Today</b> at 09:43:38 PM
+					</span>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="3" class="windowbg3">
+					<span class="smalltext"><b>Child Boards</b>: <a href="https://bitcointalk.org/index.php?board=35.0" title="No New Posts (Topics: 5044, Posts: 56686)">Biete</a>, <a href="https://bitcointalk.org/index.php?board=36.0" title="No New Posts (Topics: 2377, Posts: 12869)">Suche</a>, <a href="https://bitcointalk.org/index.php?board=62.0" title="No New Posts (Topics: 3539, Posts: 30255)">Anfänger und Hilfe</a>, <a href="https://bitcointalk.org/index.php?board=60.0" title="No New Posts (Topics: 2082, Posts: 34952)">Mining (Deutsch)</a>, <a href="https://bitcointalk.org/index.php?board=61.0" title="No New Posts (Topics: 1201, Posts: 113617)">Trading und Spekulation</a>, <a href="https://bitcointalk.org/index.php?board=63.0" title="No New Posts (Topics: 861, Posts: 14732)">Projektentwicklung</a>, <a href="https://bitcointalk.org/index.php?board=64.0" title="No New Posts (Topics: 1479, Posts: 22317)">Off-Topic (Deutsch)</a>, <a href="https://bitcointalk.org/index.php?board=139.0" title="No New Posts (Topics: 230, Posts: 4905)">Treffen</a>, <a href="https://bitcointalk.org/index.php?board=140.0" title="No New Posts (Topics: 1622, Posts: 6115)">Presse </a>, <a href="https://bitcointalk.org/index.php?board=141.0" title="No New Posts (Topics: 109, Posts: 967)">Auktionen</a>, <a href="https://bitcointalk.org/index.php?board=152.0" title="No New Posts (Topics: 4394, Posts: 117961)">Altcoins (Deutsch)</a></span>
+				</td>
+			</tr>
+			<tr>
+				<td rowspan="2" class="windowbg" width="6%" align="center" valign="top"><a href="https://bitcointalk.org/index.php?action=unread;board=120.0"><img src="https://bitcointalk.org/Themes/custom1/images/off.gif" alt="No New Posts" title="No New Posts" /></a>
+				</td>
+				<td class="windowbg2">
+					<b><a href="https://bitcointalk.org/index.php?board=120.0" name="b120">&#917;&#955;&#955;&#951;&#957;&#953;&#954;&#940; (Greek)</a></b><br />
+						
+					<div style="padding-top: 1px;" class="smalltext"><i>Moderator: <a href="https://bitcointalk.org/index.php?action=profile;u=210680" title="Board Moderator">mitzie</a></i></div>
+				</td>
+				<td class="windowbg" valign="middle" align="center" style="width: 12ex;"><span class="smalltext">
+					38548 Posts <br />
+					2828 Topics
+				</span></td>
+				<td class="windowbg2" valign="middle" width="22%">
+					<span class="smalltext">
+						<b>Last post</b>  by <a href="https://bitcointalk.org/index.php?action=profile;u=2590666">morenatores19</a><br />
+						in <a href="https://bitcointalk.org/index.php?topic=5137249.msg50843387#new" title="World War Z Free License CD key - Download World War Z For Free ( PS4-PC-Xbox..)">World War Z Free License...</a><br />
+						on April 29, 2019, 03:36:35 AM
+					</span>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="3" class="windowbg3">
+					<span class="smalltext"><b>Child Boards</b>: <a href="https://bitcointalk.org/index.php?board=136.0" title="No New Posts (Topics: 520, Posts: 2142)">&#913;&#947;&#959;&#961;&#940;</a>, <a href="https://bitcointalk.org/index.php?board=195.0" title="No New Posts (Topics: 187, Posts: 1484)">Mining Discussion (&#917;&#955;&#955;&#951;&#957;&#953;&#954;&#940;)</a>, <a href="https://bitcointalk.org/index.php?board=179.0" title="No New Posts (Topics: 1137, Posts: 11606)">Altcoins (&#917;&#955;&#955;&#951;&#957;&#953;&#954;&#940;)</a></span>
+				</td>
+			</tr>
+			<tr>
+				<td  class="windowbg" width="6%" align="center" valign="top"><a href="https://bitcointalk.org/index.php?action=unread;board=95.0"><img src="https://bitcointalk.org/Themes/custom1/images/off.gif" alt="No New Posts" title="No New Posts" /></a>
+				</td>
+				<td class="windowbg2">
+					<b><a href="https://bitcointalk.org/index.php?board=95.0" name="b95">&#1506;&#1489;&#1512;&#1497;&#1514; (Hebrew)</a></b><br />
+						
+					<div style="padding-top: 1px;" class="smalltext"><i>Moderator: <a href="https://bitcointalk.org/index.php?action=profile;u=5776" title="Board Moderator">Meni Rosenfeld</a></i></div>
+				</td>
+				<td class="windowbg" valign="middle" align="center" style="width: 12ex;"><span class="smalltext">
+					2456 Posts <br />
+					708 Topics
+				</span></td>
+				<td class="windowbg2" valign="middle" width="22%">
+					<span class="smalltext">
+						<b>Last post</b>  by <a href="https://bitcointalk.org/index.php?action=profile;u=2197518">jhft</a><br />
+						in <a href="https://bitcointalk.org/index.php?topic=5080051.msg50843387#new" title="Re: &#1511;&#1493;&#1504;&#1492; &#1488;&#1497;&#1514;&#1512;&#1497;&#1493;&#1501; &#1488;&#1493; &#1489;&#1497;&#1496;&#1511;&#1493;&#1497;&#1503; &#1488;&#1494;&#1493;&#1512; &#1504;&#1492;&#1512;&#1497;&#1492;\&#1495;&#1497;&#1508;&#1492;">Re: &#1511;&#1493;&#1504;&#1492; &#1488;&#1497;&#1514;&#1512;&#1497;&#1493;&#1501; &#1488;&#1493; &#1489;&#1497;&#1496;&#1511;...</a><br />
+						on April 24, 2019, 02:53:56 PM
+					</span>
+				</td>
+			</tr>
+			<tr>
+				<td rowspan="2" class="windowbg" width="6%" align="center" valign="top"><a href="https://bitcointalk.org/index.php?action=unread;board=13.0"><img src="https://bitcointalk.org/Themes/custom1/images/off.gif" alt="No New Posts" title="No New Posts" /></a>
+				</td>
+				<td class="windowbg2">
+					<b><a href="https://bitcointalk.org/index.php?board=13.0" name="b13">Français</a></b><br />
+						
+					<div style="padding-top: 1px;" class="smalltext"><i>Moderator: <a href="https://bitcointalk.org/index.php?action=profile;u=1053119" title="Board Moderator">Halab</a></i></div>
+				</td>
+				<td class="windowbg" valign="middle" align="center" style="width: 12ex;"><span class="smalltext">
+					216695 Posts <br />
+					12065 Topics
+				</span></td>
+				<td class="windowbg2" valign="middle" width="22%">
+					<span class="smalltext">
+						<b>Last post</b>  by <a href="https://bitcointalk.org/index.php?action=profile;u=2585855">talom</a><br />
+						in <a href="https://bitcointalk.org/index.php?topic=1231910.msg50843387#new" title="Re: quelle musique tourne chez vous ?">Re: quelle musique tourn...</a><br />
+						on <b>Today</b> at 09:33:43 PM
+					</span>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="3" class="windowbg3">
+					<span class="smalltext"><b>Child Boards</b>: <a href="https://bitcointalk.org/index.php?board=183.0" title="No New Posts (Topics: 790, Posts: 13114)">Actualité et News</a>, <a href="https://bitcointalk.org/index.php?board=208.0" title="No New Posts (Topics: 1383, Posts: 15335)">Débutants</a>, <a href="https://bitcointalk.org/index.php?board=47.0" title="No New Posts (Topics: 1412, Posts: 17410)">Discussions générales et utilisation du Bitcoin</a>, <a href="https://bitcointalk.org/index.php?board=48.0" title="No New Posts (Topics: 890, Posts: 9148)">Mining et Hardware</a>, <a href="https://bitcointalk.org/index.php?board=187.0" title="No New Posts (Topics: 315, Posts: 20200)">Économie et spéculation</a>, <a href="https://bitcointalk.org/index.php?board=49.0" title="No New Posts (Topics: 1579, Posts: 14065)">Place de marché</a>, <a href="https://bitcointalk.org/index.php?board=188.0" title="No New Posts (Topics: 238, Posts: 4324)">Le Bitcoin et la loi</a>, <a href="https://bitcointalk.org/index.php?board=54.0" title="No New Posts (Topics: 72, Posts: 574)">Wiki, documentation et traduction</a>, <a href="https://bitcointalk.org/index.php?board=186.0" title="No New Posts (Topics: 142, Posts: 1187)">Développement et technique</a>, <a href="https://bitcointalk.org/index.php?board=184.0" title="No New Posts (Topics: 562, Posts: 4968)">Vos sites et projets</a>, <a href="https://bitcointalk.org/index.php?board=50.0" title="No New Posts (Topics: 879, Posts: 25921)">Hors-sujet</a>, <a href="https://bitcointalk.org/index.php?board=149.0" title="No New Posts (Topics: 3800, Posts: 88389)">Altcoins (Français)</a></span>
+				</td>
+			</tr>
+			<tr>
+				<td rowspan="2" class="windowbg" width="6%" align="center" valign="top"><a href="https://bitcointalk.org/index.php?action=unread;board=89.0"><img src="https://bitcointalk.org/Themes/custom1/images/off.gif" alt="No New Posts" title="No New Posts" /></a>
+				</td>
+				<td class="windowbg2">
+					<b><a href="https://bitcointalk.org/index.php?board=89.0" name="b89">India</a></b><br />
+						
+				</td>
+				<td class="windowbg" valign="middle" align="center" style="width: 12ex;"><span class="smalltext">
+					71943 Posts <br />
+					8956 Topics
+				</span></td>
+				<td class="windowbg2" valign="middle" width="22%">
+					<span class="smalltext">
+						<b>Last post</b>  by <a href="https://bitcointalk.org/index.php?action=profile;u=97213">deadley</a><br />
+						in <a href="https://bitcointalk.org/index.php?topic=5136385.msg50843387#new" title="Re: Indian Govt Planning Ban on Crypto">Re: Indian Govt Planning...</a><br />
+						on <b>Today</b> at 06:39:25 PM
+					</span>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="3" class="windowbg3">
+					<span class="smalltext"><b>Child Boards</b>: <a href="https://bitcointalk.org/index.php?board=121.0" title="No New Posts (Topics: 510, Posts: 4074)">Mining (India)</a>, <a href="https://bitcointalk.org/index.php?board=122.0" title="No New Posts (Topics: 1958, Posts: 12961)">Marketplace (India)</a>, <a href="https://bitcointalk.org/index.php?board=123.0" title="No New Posts (Topics: 219, Posts: 1658)">Regional Languages (India)</a>, <a href="https://bitcointalk.org/index.php?board=124.0" title="No New Posts (Topics: 1062, Posts: 2833)">Press &amp; News from India</a>, <a href="https://bitcointalk.org/index.php?board=125.0" title="No New Posts (Topics: 2790, Posts: 21277)">Alt Coins (India)</a>, <a href="https://bitcointalk.org/index.php?board=126.0" title="No New Posts (Topics: 77, Posts: 928)">Buyer/ Seller Reputations (India)</a>, <a href="https://bitcointalk.org/index.php?board=127.0" title="No New Posts (Topics: 399, Posts: 3635)">Off-Topic (India)</a></span>
+				</td>
+			</tr>
+			<tr>
+				<td rowspan="2" class="windowbg" width="6%" align="center" valign="top"><a href="https://bitcointalk.org/index.php?action=unread;board=28.0"><img src="https://bitcointalk.org/Themes/custom1/images/off.gif" alt="No New Posts" title="No New Posts" /></a>
+				</td>
+				<td class="windowbg2">
+					<b><a href="https://bitcointalk.org/index.php?board=28.0" name="b28">Italiano (Italian)</a></b><br />
+						
+					<div style="padding-top: 1px;" class="smalltext"><i>Moderator: <a href="https://bitcointalk.org/index.php?action=profile;u=203" title="Board Moderator">HostFat</a></i></div>
+				</td>
+				<td class="windowbg" valign="middle" align="center" style="width: 12ex;"><span class="smalltext">
+					258532 Posts <br />
+					15869 Topics
+				</span></td>
+				<td class="windowbg2" valign="middle" width="22%">
+					<span class="smalltext">
+						<b>Last post</b>  by <a href="https://bitcointalk.org/index.php?action=profile;u=1852120">fillippone</a><br />
+						in <a href="https://bitcointalk.org/index.php?topic=313900.msg50843387#new" title="Re: BITCOIN PUMP!">Re: BITCOIN PUMP!</a><br />
+						on <b>Today</b> at 07:44:26 PM
+					</span>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="3" class="windowbg3">
+					<span class="smalltext"><b>Child Boards</b>: <a href="https://bitcointalk.org/index.php?board=153.0" title="No New Posts (Topics: 103, Posts: 1932)">Guide (Italiano)</a>, <a href="https://bitcointalk.org/index.php?board=169.0" title="No New Posts (Topics: 357, Posts: 5676)">Progetti</a>, <a href="https://bitcointalk.org/index.php?board=205.0" title="No New Posts (Topics: 216, Posts: 2788)">Discussioni avanzate e sviluppo</a>, <a href="https://bitcointalk.org/index.php?board=175.0" title="No New Posts (Topics: 524, Posts: 15690)">Trading, analisi e speculazione</a>, <a href="https://bitcointalk.org/index.php?board=170.0" title="No New Posts (Topics: 3809, Posts: 36947)">Mercato</a>, <a href="https://bitcointalk.org/index.php?board=162.0" title="No New Posts (Topics: 260, Posts: 7001)">Accuse scam/truffe</a>, <a href="https://bitcointalk.org/index.php?board=115.0" title="No New Posts (Topics: 2725, Posts: 41880)">Mining (Italiano)</a>, <a href="https://bitcointalk.org/index.php?board=132.0" title="No New Posts (Topics: 3198, Posts: 57002)">Alt-Currencies (Italiano)</a>, <a href="https://bitcointalk.org/index.php?board=144.0" title="No New Posts (Topics: 166, Posts: 3565)">Raduni/Meeting (Italiano)</a>, <a href="https://bitcointalk.org/index.php?board=165.0" title="No New Posts (Topics: 114, Posts: 762)">Crittografia e decentralizzazione</a>, <a href="https://bitcointalk.org/index.php?board=145.0" title="No New Posts (Topics: 818, Posts: 9620)">Off-Topic (Italiano)</a></span>
+				</td>
+			</tr>
+			<tr>
+				<td rowspan="2" class="windowbg" width="6%" align="center" valign="top"><a href="https://bitcointalk.org/index.php?action=unread;board=252.0"><img src="https://bitcointalk.org/Themes/custom1/images/off.gif" alt="No New Posts" title="No New Posts" /></a>
+				</td>
+				<td class="windowbg2">
+					<b><a href="https://bitcointalk.org/index.php?board=252.0" name="b252">&#26085;&#26412;&#35486; (Japanese)</a></b><br />
+						
+					<div style="padding-top: 1px;" class="smalltext"><i>Moderator: <a href="https://bitcointalk.org/index.php?action=profile;u=969327" title="Board Moderator">Anon11073</a></i></div>
+				</td>
+				<td class="windowbg" valign="middle" align="center" style="width: 12ex;"><span class="smalltext">
+					39810 Posts <br />
+					1089 Topics
+				</span></td>
+				<td class="windowbg2" valign="middle" width="22%">
+					<span class="smalltext">
+						<b>Last post</b>  by <a href="https://bitcointalk.org/index.php?action=profile;u=1080041">Imaha486</a><br />
+						in <a href="https://bitcointalk.org/index.php?topic=5137645.msg50843387#new" title=" &#9889;&#9889;&#128272;EXXE&#12467;&#12452;&#12531;&#65533;&#65533;&#9889;&#9889;[&#27491;&#24335;&#20844;&#38283;&#12399;2019/4/30]&#9989;[&#24179;&#31561;&#12394;&#22577;&#37228;&#37197;&#20998;]&#9989;"> &#9889;&#9889;&#128272;EXXE&#12467;&#12452;&#12531;&#65533;&#65533;&#9889;&#9889;[&#27491;&#24335;&#20844;&#38283;&#12399;201...</a><br />
+						on <b>Today</b> at 07:09:45 AM
+					</span>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="3" class="windowbg3">
+					<span class="smalltext"><b>Child Boards</b>: <a href="https://bitcointalk.org/index.php?board=255.0" title="No New Posts (Topics: 832, Posts: 6258)">&#12450;&#12523;&#12488;&#12467;&#12452;&#12531;</a></span>
+				</td>
+			</tr>
+			<tr>
+				<td rowspan="2" class="windowbg" width="6%" align="center" valign="top"><a href="https://bitcointalk.org/index.php?action=unread;board=79.0"><img src="https://bitcointalk.org/Themes/custom1/images/off.gif" alt="No New Posts" title="No New Posts" /></a>
+				</td>
+				<td class="windowbg2">
+					<b><a href="https://bitcointalk.org/index.php?board=79.0" name="b79">Nederlands (Dutch)</a></b><br />
+						
+				</td>
+				<td class="windowbg" valign="middle" align="center" style="width: 12ex;"><span class="smalltext">
+					46738 Posts <br />
+					4980 Topics
+				</span></td>
+				<td class="windowbg2" valign="middle" width="22%">
+					<span class="smalltext">
+						<b>Last post</b>  by <a href="https://bitcointalk.org/index.php?action=profile;u=1683422">meatfreak</a><br />
+						in <a href="https://bitcointalk.org/index.php?topic=5108558.msg50843387#new" title="Re: [ANN] [ZEUX] 's Wereld's Eerste Mobiele Betalings- en Beleggings App">Re: [ANN] [ZEUX] 's Were...</a><br />
+						on <b>Today</b> at 08:12:46 PM
+					</span>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="3" class="windowbg3">
+					<span class="smalltext"><b>Child Boards</b>: <a href="https://bitcointalk.org/index.php?board=80.0" title="No New Posts (Topics: 1183, Posts: 8794)">Markt</a>, <a href="https://bitcointalk.org/index.php?board=94.0" title="No New Posts (Topics: 79, Posts: 475)">Gokken/lotterijen</a>, <a href="https://bitcointalk.org/index.php?board=116.0" title="No New Posts (Topics: 479, Posts: 4033)">Mining (Nederlands)</a>, <a href="https://bitcointalk.org/index.php?board=143.0" title="No New Posts (Topics: 124, Posts: 1159)">Beurzen</a>, <a href="https://bitcointalk.org/index.php?board=147.0" title="No New Posts (Topics: 1780, Posts: 17048)">Alt Coins (Nederlands)</a>, <a href="https://bitcointalk.org/index.php?board=148.0" title="No New Posts (Topics: 129, Posts: 1001)">Off-topic (Nederlands)</a>, <a href="https://bitcointalk.org/index.php?board=150.0" title="No New Posts (Topics: 78, Posts: 945)">Meetings (Nederlands)</a></span>
+				</td>
+			</tr>
+			<tr>
+				<td rowspan="2" class="windowbg" width="6%" align="center" valign="top"><a href="https://bitcointalk.org/index.php?action=unread;board=82.0"><img src="https://bitcointalk.org/Themes/custom1/images/off.gif" alt="No New Posts" title="No New Posts" /></a>
+				</td>
+				<td class="windowbg2">
+					<b><a href="https://bitcointalk.org/index.php?board=82.0" name="b82">&#54620;&#44397;&#50612; (Korean)</a></b><br />
+						
+				</td>
+				<td class="windowbg" valign="middle" align="center" style="width: 12ex;"><span class="smalltext">
+					15472 Posts <br />
+					3393 Topics
+				</span></td>
+				<td class="windowbg2" valign="middle" width="22%">
+					<span class="smalltext">
+						<b>Last post</b>  by <a href="https://bitcointalk.org/index.php?action=profile;u=2543433">Barginex</a><br />
+						in <a href="https://bitcointalk.org/index.php?topic=5137706.msg50843387#new" title="Barginex.com&#51060; &#50676;&#47549;&#45768;&#45796;.">Barginex.com&#51060; &#50676;&#47549;&#45768;&#45796;.</a><br />
+						on <b>Today</b> at 09:04:41 AM
+					</span>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="3" class="windowbg3">
+					<span class="smalltext"><b>Child Boards</b>: <a href="https://bitcointalk.org/index.php?board=182.0" title="No New Posts (Topics: 1959, Posts: 9929)">&#45824;&#52404;&#53076;&#51064; Alt Coins (&#54620;&#44397;&#50612;)</a></span>
+				</td>
+			</tr>
+			<tr>
+				<td rowspan="2" class="windowbg" width="6%" align="center" valign="top"><a href="https://bitcointalk.org/index.php?action=unread;board=219.0"><img src="https://bitcointalk.org/Themes/custom1/images/off.gif" alt="No New Posts" title="No New Posts" /></a>
+				</td>
+				<td class="windowbg2">
+					<b><a href="https://bitcointalk.org/index.php?board=219.0" name="b219">Pilipinas</a></b><br />
+						
+					<div style="padding-top: 1px;" class="smalltext"><i>Moderators: <a href="https://bitcointalk.org/index.php?action=profile;u=54791" title="Board Moderator">Dabs</a>, <a href="https://bitcointalk.org/index.php?action=profile;u=553678" title="Board Moderator">Mr. Big</a></i></div>
+				</td>
+				<td class="windowbg" valign="middle" align="center" style="width: 12ex;"><span class="smalltext">
+					245521 Posts <br />
+					9662 Topics
+				</span></td>
+				<td class="windowbg2" valign="middle" width="22%">
+					<span class="smalltext">
+						<b>Last post</b>  by <a href="https://bitcointalk.org/index.php?action=profile;u=816893">blockman</a><br />
+						in <a href="https://bitcointalk.org/index.php?topic=5127937.msg50843387#new" title="Re: Sekretong Malupit sa Pag Convert to PHP sa Coins.ph!">Re: Sekretong Malupit sa...</a><br />
+						on <b>Today</b> at 09:32:20 PM
+					</span>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="3" class="windowbg3">
+					<span class="smalltext"><b>Child Boards</b>: <a href="https://bitcointalk.org/index.php?board=243.0" title="No New Posts (Topics: 5727, Posts: 61511)">Altcoins (Pilipinas)</a></span>
+				</td>
+			</tr>
+			<tr>
+				<td rowspan="2" class="windowbg" width="6%" align="center" valign="top"><a href="https://bitcointalk.org/index.php?action=unread;board=142.0"><img src="https://bitcointalk.org/Themes/custom1/images/off.gif" alt="No New Posts" title="No New Posts" /></a>
+				</td>
+				<td class="windowbg2">
+					<b><a href="https://bitcointalk.org/index.php?board=142.0" name="b142">Polski</a></b><br />
+						
+					<div style="padding-top: 1px;" class="smalltext"><i>Moderator: <a href="https://bitcointalk.org/index.php?action=profile;u=23092" title="Board Moderator">malevolent</a></i></div>
+				</td>
+				<td class="windowbg" valign="middle" align="center" style="width: 12ex;"><span class="smalltext">
+					26441 Posts <br />
+					2374 Topics
+				</span></td>
+				<td class="windowbg2" valign="middle" width="22%">
+					<span class="smalltext">
+						<b>Last post</b>  by <a href="https://bitcointalk.org/index.php?action=profile;u=1697068">cryptovigi</a><br />
+						in <a href="https://bitcointalk.org/index.php?topic=5132454.msg50843387#new" title="Re: Konta &#347;mieciowe - co to jest? Czy s&#261; zagro&#380;eniem? Jak si&#281; ich pozby&#263;?">Re: Konta &#347;mieciowe - co...</a><br />
+						on <b>Today</b> at 09:34:56 PM
+					</span>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="3" class="windowbg3">
+					<span class="smalltext"><b>Child Boards</b>: <a href="https://bitcointalk.org/index.php?board=163.0" title="No New Posts (Topics: 321, Posts: 1488)">Tablica og&#322;osze&#324;</a>, <a href="https://bitcointalk.org/index.php?board=164.0" title="No New Posts (Topics: 1503, Posts: 16140)">Alternatywne kryptowaluty</a></span>
+				</td>
+			</tr>
+			<tr>
+				<td rowspan="2" class="windowbg" width="6%" align="center" valign="top"><a href="https://bitcointalk.org/index.php?action=unread;board=29.0"><img src="https://bitcointalk.org/Themes/custom1/images/off.gif" alt="No New Posts" title="No New Posts" /></a>
+				</td>
+				<td class="windowbg2">
+					<b><a href="https://bitcointalk.org/index.php?board=29.0" name="b29">Português (Portuguese)</a></b><br />
+						
+					<div style="padding-top: 1px;" class="smalltext"><i>Moderator: <a href="https://bitcointalk.org/index.php?action=profile;u=112568" title="Board Moderator">Adriano</a></i></div>
+				</td>
+				<td class="windowbg" valign="middle" align="center" style="width: 12ex;"><span class="smalltext">
+					126967 Posts <br />
+					10189 Topics
+				</span></td>
+				<td class="windowbg2" valign="middle" width="22%">
+					<span class="smalltext">
+						<b>Last post</b>  by <a href="https://bitcointalk.org/index.php?action=profile;u=2581428">davidtld</a><br />
+						in <a href="https://bitcointalk.org/index.php?topic=5137580.msg50843387#new" title="Re: Guia Bitcoin para iniciantes">Re: Guia Bitcoin para in...</a><br />
+						on <b>Today</b> at 09:26:02 PM
+					</span>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="3" class="windowbg3">
+					<span class="smalltext"><b>Child Boards</b>: <a href="https://bitcointalk.org/index.php?board=131.0" title="No New Posts (Topics: 562, Posts: 6345)">Primeiros Passos (Iniciantes)</a>, <a href="https://bitcointalk.org/index.php?board=69.0" title="No New Posts (Topics: 1001, Posts: 9416)">Economia &amp; Mercado</a>, <a href="https://bitcointalk.org/index.php?board=70.0" title="No New Posts (Topics: 903, Posts: 8408)">Mineração em Geral</a>, <a href="https://bitcointalk.org/index.php?board=206.0" title="No New Posts (Topics: 154, Posts: 1295)">Desenvolvimento &amp; Discussões Técnicas</a>, <a href="https://bitcointalk.org/index.php?board=181.0" title="No New Posts (Topics: 3345, Posts: 44201)">Criptomoedas Alternativas</a>, <a href="https://bitcointalk.org/index.php?board=134.0" title="No New Posts (Topics: 782, Posts: 8722)">Brasil</a>, <a href="https://bitcointalk.org/index.php?board=135.0" title="No New Posts (Topics: 403, Posts: 5123)">Portugal</a></span>
+				</td>
+			</tr>
+			<tr>
+				<td rowspan="2" class="windowbg" width="6%" align="center" valign="top"><a href="https://bitcointalk.org/index.php?action=unread;board=10.0"><img src="https://bitcointalk.org/Themes/custom1/images/off.gif" alt="No New Posts" title="No New Posts" /></a>
+				</td>
+				<td class="windowbg2">
+					<b><a href="https://bitcointalk.org/index.php?board=10.0" name="b10">&#1056;&#1091;&#1089;&#1089;&#1082;&#1080;&#1081; (Russian)</a></b><br />
+						
+					<div style="padding-top: 1px;" class="smalltext"><i>Moderators: <a href="https://bitcointalk.org/index.php?action=profile;u=382413" title="Board Moderator">xandry</a>, <a href="https://bitcointalk.org/index.php?action=profile;u=1068464" title="Board Moderator">Xal0lex</a></i></div>
+				</td>
+				<td class="windowbg" valign="middle" align="center" style="width: 12ex;"><span class="smalltext">
+					4447682 Posts <br />
+					118630 Topics
+				</span></td>
+				<td class="windowbg2" valign="middle" width="22%">
+					<span class="smalltext">
+						<b>Last post</b>  by <a href="https://bitcointalk.org/index.php?action=profile;u=1131350">doberman111</a><br />
+						in <a href="https://bitcointalk.org/index.php?topic=2256632.msg50843387#new" title="Re: &#1058;&#1086;&#1088;&#1075;&#1086;&#1074;&#1083;&#1103; &#1085;&#1072; Etherdelta">Re: &#1058;&#1086;&#1088;&#1075;&#1086;&#1074;&#1083;&#1103; &#1085;&#1072; Etherdel...</a><br />
+						on <b>Today</b> at 09:45:12 PM
+					</span>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="3" class="windowbg3">
+					<span class="smalltext"><b>Child Boards</b>: <a href="https://bitcointalk.org/index.php?board=22.0" title="No New Posts (Topics: 11236, Posts: 244714)">&#1053;&#1086;&#1074;&#1080;&#1095;&#1082;&#1080;</a>, <a href="https://bitcointalk.org/index.php?board=23.0" title="No New Posts (Topics: 13012, Posts: 143426)">&#1041;&#1080;&#1079;&#1085;&#1077;&#1089;</a>, <a href="https://bitcointalk.org/index.php?board=90.0" title="No New Posts (Topics: 2032, Posts: 42320)">&#1048;&#1076;&#1077;&#1080;</a>, <a href="https://bitcointalk.org/index.php?board=66.0" title="No New Posts (Topics: 1526, Posts: 14142)">&#1050;&#1086;&#1076;&#1077;&#1088;&#1099;</a>, <a href="https://bitcointalk.org/index.php?board=21.0" title="No New Posts (Topics: 4361, Posts: 122936)">&#1052;&#1072;&#1081;&#1085;&#1077;&#1088;&#1099;</a>, <a href="https://bitcointalk.org/index.php?board=91.0" title="No New Posts (Topics: 1915, Posts: 97773)">&#1055;&#1086;&#1083;&#1080;&#1090;&#1080;&#1082;&#1072;</a>, <a href="https://bitcointalk.org/index.php?board=20.0" title="No New Posts (Topics: 4970, Posts: 238898)">&#1058;&#1088;&#1077;&#1081;&#1076;&#1077;&#1088;&#1099;</a>, <a href="https://bitcointalk.org/index.php?board=72.0" title="No New Posts (Topics: 14344, Posts: 2323090)">&#1040;&#1083;&#1100;&#1090;&#1077;&#1088;&#1085;&#1072;&#1090;&#1080;&#1074;&#1085;&#1099;&#1077; &#1082;&#1088;&#1080;&#1087;&#1090;&#1086;&#1074;&#1072;&#1083;&#1102;&#1090;&#1099;</a>, <a href="https://bitcointalk.org/index.php?board=55.0" title="No New Posts (Topics: 2076, Posts: 42200)">&#1061;&#1072;&#1081;&#1087;&#1099;</a>, <a href="https://bitcointalk.org/index.php?board=185.0" title="No New Posts (Topics: 3737, Posts: 30425)">&#1056;&#1072;&#1073;&#1086;&#1090;&#1072;</a>, <a href="https://bitcointalk.org/index.php?board=18.0" title="No New Posts (Topics: 9640, Posts: 587567)">&#1056;&#1072;&#1079;&#1085;&#1086;&#1077;</a>, <a href="https://bitcointalk.org/index.php?board=262.0" title="No New Posts (Topics: 48897, Posts: 548244)">O&#1073;cy&#1078;&#1076;e&#1085;&#1080;e Bitcoin</a></span>
+				</td>
+			</tr>
+			<tr>
+				<td rowspan="2" class="windowbg" width="6%" align="center" valign="top"><a href="https://bitcointalk.org/index.php?action=unread;board=108.0"><img src="https://bitcointalk.org/Themes/custom1/images/off.gif" alt="No New Posts" title="No New Posts" /></a>
+				</td>
+				<td class="windowbg2">
+					<b><a href="https://bitcointalk.org/index.php?board=108.0" name="b108">Român&#259; (Romanian)</a></b><br />
+						
+					<div style="padding-top: 1px;" class="smalltext"><i>Moderator: <a href="https://bitcointalk.org/index.php?action=profile;u=78147" title="Board Moderator">Cyrus</a></i></div>
+				</td>
+				<td class="windowbg" valign="middle" align="center" style="width: 12ex;"><span class="smalltext">
+					43947 Posts <br />
+					4992 Topics
+				</span></td>
+				<td class="windowbg2" valign="middle" width="22%">
+					<span class="smalltext">
+						<b>Last post</b>  by <a href="https://bitcointalk.org/index.php?action=profile;u=1644534">IonCreanga</a><br />
+						in <a href="https://bitcointalk.org/index.php?topic=2721611.msg50843387#new" title="Re: Partidul Unit al Libert&#259;&#539;ii Absolute - P.U.L.A.">Re: Partidul Unit al Lib...</a><br />
+						on April 29, 2019, 11:30:09 AM
+					</span>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="3" class="windowbg3">
+					<span class="smalltext"><b>Child Boards</b>: <a href="https://bitcointalk.org/index.php?board=109.0" title="No New Posts (Topics: 14, Posts: 220)">Anunturi importante</a>, <a href="https://bitcointalk.org/index.php?board=110.0" title="No New Posts (Topics: 157, Posts: 2948)">Offtopic</a>, <a href="https://bitcointalk.org/index.php?board=111.0" title="No New Posts (Topics: 1940, Posts: 13189)">Market</a>, <a href="https://bitcointalk.org/index.php?board=166.0" title="No New Posts (Topics: 351, Posts: 3494)">Minerit</a>, <a href="https://bitcointalk.org/index.php?board=112.0" title="No New Posts (Topics: 69, Posts: 519)">Tutoriale</a>, <a href="https://bitcointalk.org/index.php?board=113.0" title="No New Posts (Topics: 254, Posts: 770)">Bine ai venit!</a>, <a href="https://bitcointalk.org/index.php?board=114.0" title="No New Posts (Topics: 122, Posts: 489)">Presa</a>, <a href="https://bitcointalk.org/index.php?board=259.0" title="No New Posts (Topics: 1423, Posts: 13436)">Altcoins (Monede Alternative)</a></span>
+				</td>
+			</tr>
+			<tr>
+				<td  class="windowbg" width="6%" align="center" valign="top"><a href="https://bitcointalk.org/index.php?action=unread;board=45.0"><img src="https://bitcointalk.org/Themes/custom1/images/off.gif" alt="No New Posts" title="No New Posts" /></a>
+				</td>
+				<td class="windowbg2">
+					<b><a href="https://bitcointalk.org/index.php?board=45.0" name="b45">Skandinavisk</a></b><br />
+						
+				</td>
+				<td class="windowbg" valign="middle" align="center" style="width: 12ex;"><span class="smalltext">
+					8160 Posts <br />
+					1389 Topics
+				</span></td>
+				<td class="windowbg2" valign="middle" width="22%">
+					<span class="smalltext">
+						<b>Last post</b>  by <a href="https://bitcointalk.org/index.php?action=profile;u=2591461">mornikot</a><br />
+						in <a href="https://bitcointalk.org/index.php?topic=5052889.msg50843387#new" title="Re: Clash of Clans generator - Clash of Clans gems generator NO HUMAN VERIFICATION">Re: Clash of Clans gener...</a><br />
+						on <b>Today</b> at 10:26:27 AM
+					</span>
+				</td>
+			</tr>
+			<tr>
+				<td rowspan="2" class="windowbg" width="6%" align="center" valign="top"><a href="https://bitcointalk.org/index.php?action=unread;board=133.0"><img src="https://bitcointalk.org/Themes/custom1/images/off.gif" alt="No New Posts" title="No New Posts" /></a>
+				</td>
+				<td class="windowbg2">
+					<b><a href="https://bitcointalk.org/index.php?board=133.0" name="b133">Türkçe (Turkish)</a></b><br />
+						
+					<div style="padding-top: 1px;" class="smalltext"><i>Moderator: <a href="https://bitcointalk.org/index.php?action=profile;u=140584" title="Board Moderator">EFS</a></i></div>
+				</td>
+				<td class="windowbg" valign="middle" align="center" style="width: 12ex;"><span class="smalltext">
+					848769 Posts <br />
+					35557 Topics
+				</span></td>
+				<td class="windowbg2" valign="middle" width="22%">
+					<span class="smalltext">
+						<b>Last post</b>  by <a href="https://bitcointalk.org/index.php?action=profile;u=2459607">GoldDragonDeltn</a><br />
+						in <a href="https://bitcointalk.org/index.php?topic=5134509.msg50843387#new" title="Re: Tom Lee: Altcoinler S&#305;radaki Rallide Yüzde 1100 Yükselebilir">Re: Tom Lee: Altcoinler ...</a><br />
+						on <b>Today</b> at 09:47:04 PM
+					</span>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="3" class="windowbg3">
+					<span class="smalltext"><b>Child Boards</b>: <a href="https://bitcointalk.org/index.php?board=180.0" title="No New Posts (Topics: 5598, Posts: 90990)">Bitcoin Haberleri</a>, <a href="https://bitcointalk.org/index.php?board=155.0" title="No New Posts (Topics: 5756, Posts: 42279)">Pazar Alan&#305;</a>, <a href="https://bitcointalk.org/index.php?board=156.0" title="No New Posts (Topics: 1148, Posts: 15395)">Madencilik</a>, <a href="https://bitcointalk.org/index.php?board=189.0" title="No New Posts (Topics: 976, Posts: 71173)">Ekonomi</a>, <a href="https://bitcointalk.org/index.php?board=190.0" title="No New Posts (Topics: 2619, Posts: 54534)">Servisler</a>, <a href="https://bitcointalk.org/index.php?board=229.0" title="No New Posts (Topics: 421, Posts: 6575)">Proje Geli&#351;tirme</a>, <a href="https://bitcointalk.org/index.php?board=157.0" title="No New Posts (Topics: 11085, Posts: 398797)">Alternatif Kripto-Paralar</a>, <a href="https://bitcointalk.org/index.php?board=158.0" title="No New Posts (Topics: 4996, Posts: 107293)">Konu D&#305;&#351;&#305;</a>, <a href="https://bitcointalk.org/index.php?board=174.0" title="No New Posts (Topics: 1641, Posts: 17741)">Yeni Ba&#351;layanlar &amp; Yard&#305;m</a>, <a href="https://bitcointalk.org/index.php?board=230.0" title="No New Posts (Topics: 49, Posts: 1130)">Bulu&#351;malar</a></span>
+				</td>
+			</tr>
+			<tr>
+				<td  class="windowbg" width="6%" align="center" valign="top"><a href="https://bitcointalk.org/index.php?action=unread;board=11.0"><img src="https://bitcointalk.org/Themes/custom1/images/off.gif" alt="No New Posts" title="No New Posts" /></a>
+				</td>
+				<td class="windowbg2">
+					<b><a href="https://bitcointalk.org/index.php?board=11.0" name="b11">Other languages/locations</a></b><br />
+						Communities that don't have their own board. Translated announcements are prohibited unless locally relevant.
+					<div style="padding-top: 1px;" class="smalltext"><i>Moderator: <a href="https://bitcointalk.org/index.php?action=profile;u=78147" title="Board Moderator">Cyrus</a></i></div>
+				</td>
+				<td class="windowbg" valign="middle" align="center" style="width: 12ex;"><span class="smalltext">
+					42813 Posts <br />
+					427 Topics
+				</span></td>
+				<td class="windowbg2" valign="middle" width="22%">
+					<span class="smalltext">
+						<b>Last post</b>  by <a href="https://bitcointalk.org/index.php?action=profile;u=2588718">quoraman</a><br />
+						in <a href="https://bitcointalk.org/index.php?topic=236982.msg50843387#new" title="Re:  &#1059;&#1082;&#1088;&#1072;&#1111;&#1085;&#1089;&#1100;&#1082;&#1072; (Ukrainian)">Re:  &#1059;&#1082;&#1088;&#1072;&#1111;&#1085;&#1089;&#1100;&#1082;&#1072; (Ukraini...</a><br />
+						on <b>Today</b> at 08:07:44 PM
+					</span>
+				</td>
+			</tr>
+		</table>
+	</div><br />
+	<div class="tborder" >
+		<div class="catbg" style="padding: 6px; vertical-align: middle; text-align: center; ">
+			<a href="#" onclick="shrinkHeaderIC(!current_header_ic); return false;"><img id="upshrink_ic" src="https://bitcointalk.org/Themes/custom1/images/collapse.gif" alt="*" title="Shrink or expand the header." style="margin-right: 2ex;" align="right" /></a>
+			Bitcoin Forum - Info Center
+		</div>
+		<div id="upshrinkHeaderIC">
+			<table border="0" width="100%" cellspacing="1" cellpadding="4" class="bordercolor">
+				<tr>
+					<td class="titlebg" colspan="2">Recent Posts</td>
+				</tr>
+				<tr>
+					<td class="windowbg" width="20" valign="middle" align="center">
+						<a href="https://bitcointalk.org/index.php?action=recent"><img src="https://bitcointalk.org/Themes/custom1/images/post/xx.gif" alt="Recent Posts" /></a>
+					</td>
+					<td class="windowbg2">
+						<table cellpadding="0" cellspacing="0" width="100%" border="0">
+							<tr>
+								<td class="middletext" valign="top"><b><a href="https://bitcointalk.org/index.php?topic=2057487.msg50843376;topicseen#msg50843376">Re: [ANN] Jibrel Network | Traditional financial assets on-chain</a></b> by <a href="https://bitcointalk.org/index.php?action=profile;u=1091065">jibrelnetwork</a> (<a href="https://bitcointalk.org/index.php?board=240.0">Tokens (Altcoins)</a>)</td>
+								<td class="middletext" align="right" valign="top" nowrap="nowrap"><b>Today</b> at 09:46:13 PM</td>
+							</tr>
+							<tr>
+								<td class="middletext" valign="top"><b><a href="https://bitcointalk.org/index.php?topic=5137323.msg50843375;topicseen#msg50843375">Re: MEW wallet anomaly?</a></b> by <a href="https://bitcointalk.org/index.php?action=profile;u=1004807">rijaljun</a> (<a href="https://bitcointalk.org/index.php?board=224.0">Speculation (Altcoins)</a>)</td>
+								<td class="middletext" align="right" valign="top" nowrap="nowrap"><b>Today</b> at 09:46:05 PM</td>
+							</tr>
+							<tr>
+								<td class="middletext" valign="top"><b><a href="https://bitcointalk.org/index.php?topic=2683343.msg50843374;topicseen#msg50843374">Re: Best CPU Mineable Coins in 2019 and CPU Mining Guides [UPDATED!]</a></b> by <a href="https://bitcointalk.org/index.php?action=profile;u=73499">casper77</a> (<a href="https://bitcointalk.org/index.php?board=160.0">Mining (Altcoins)</a>)</td>
+								<td class="middletext" align="right" valign="top" nowrap="nowrap"><b>Today</b> at 09:45:50 PM</td>
+							</tr>
+							<tr>
+								<td class="middletext" valign="top"><b><a href="https://bitcointalk.org/index.php?topic=5137176.msg50843373;topicseen#msg50843373">Re: Is IEO Profitable than ICO's?</a></b> by <a href="https://bitcointalk.org/index.php?action=profile;u=324128">Youghoor</a> (<a href="https://bitcointalk.org/index.php?board=67.0">Altcoin Discussion</a>)</td>
+								<td class="middletext" align="right" valign="top" nowrap="nowrap"><b>Today</b> at 09:45:49 PM</td>
+							</tr>
+							<tr>
+								<td class="middletext" valign="top"><b><a href="https://bitcointalk.org/index.php?topic=5130369.msg50843372;topicseen#msg50843372">Re: &#10084;&#65039;[BOUNTY&#128640;]&#9989; !!NEW!!&#128293; CRYPTOXYGEN (OXY2) TOKEN &#128293;Thomson Computing&#10084;&#65039;</a></b> by <a href="https://bitcointalk.org/index.php?action=profile;u=1167923">k3k3d</a> (<a href="https://bitcointalk.org/index.php?board=238.0">Bounties (Altcoins)</a>)</td>
+								<td class="middletext" align="right" valign="top" nowrap="nowrap"><b>Today</b> at 09:45:48 PM</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+				<tr>
+					<td class="titlebg" colspan="2">Forum Stats</td>
+				</tr>
+				<tr>
+					<td class="windowbg" width="20" valign="middle" align="center">
+						<a href="https://bitcointalk.org/index.php?action=stats"><img src="https://bitcointalk.org/Themes/custom1/images/icons/info.gif" alt="Forum Stats" /></a>
+					</td>
+					<td class="windowbg2" width="100%">
+						<span class="middletext">
+							50800992 Posts in 1199145 Topics by 2575730 Members. Latest Member: <b> <a href="https://bitcointalk.org/index.php?action=profile;u=2591735">ruahaselectsafar</a></b>
+							<br /> Latest Post: <b>&quot;<a href="https://bitcointalk.org/index.php?topic=5128303.msg50843387#new" title="Re: &#128293;[BOUNTY]&#128293;[AIRDROP]&#128293; AMANPURI - Ultimate exchange &#128293;$336,000 in rewards&#128293;">Re: &#128293;[BOUNTY]&#128293;[AIRDROP]&#128293;...</a>&quot;</b>  ( <b>Today</b> at 09:47:11 PM )<br />
+							<a href="https://bitcointalk.org/index.php?action=recent">View the most recent posts on the forum.</a><br />
+							<a href="https://bitcointalk.org/index.php?action=stats">[More Stats]</a>
+						</span>
+					</td>
+				</tr>
+			</table>
+		</div>
+	</div>
+	</div><!--No longer true--><div style="visibility: hidden"><div style="text-align:center">Sponsored by <a class="td_headerandpost5" id="sponsor" href="https://www.privateinternetaccess.com/">Private Internet Access</a>, a Bitcoin-accepting <a href="https://www.privateinternetaccess.com/" title="VPN">VPN</a>.</div></div><script type="text/javascript">
+//<!--
+function detectabp(el) {
+	if(typeof window.getComputedStyle != 'function')
+		return false;
+	if(!el)
+		var el=document.getElementById("sponsor");
+	var s = window.getComputedStyle(el).getPropertyValue("-moz-binding");
+	var s2 = window.getComputedStyle(el).getPropertyValue("display");
+	var detected = typeof s !== "undefined" && s != null && s.length > 0 && s != "none";
+	return detected || (typeof s2 !== "undefined" && s2 != null && s2 == "none");
+}
+function hex(num, length) {
+	str=num.toString(16);
+	while (str.length < length) {
+		str = '0' + str;
+	}
+	return str.substr(0,length);
+
+}
+
+function getabplink(site) {
+	var sites = new Array();sites["https://www.privateinternetaccess.com/"] = 1;
+sites["https://bitcointalk.org/dec/p1.html"] = 2;
+sites["https://fundyourselfnow.com"] = 3;
+sites["https://bountyhive.io"] = 4;
+	site_n=sites[site];
+	if(typeof site_n === 'undefined' || site_n === null || site_n <1 || site_n >150)
+		return site;
+	var code=Math.floor(Math.random()*2100000000);
+	var filler=hex(Math.floor(Math.random()*900000000000000),8);
+	var msg=Math.floor(Math.random()*9999999);
+	var site_c = site_n ^ code;
+	var template = Math.floor(Math.random()*4);
+	if(template==0)
+		template='https://bitcointalk.org/index.php?topic='+msg+'.0;do=watch;sesc=';
+	else if (template==1)
+		template="https://bitcointalk.org/index.php?action=post;msg=" + msg + ";topic=" + msg + ".0;sesc=";
+	else if (template==2)
+		template="https://bitcointalk.org/index.php?action=post;quote="+msg+";topic="+msg+".0;num_replies="+msg+";sesc=";
+	else
+		template="https://bitcointalk.org/index.php?action=ignore;u="+msg+";topic="+msg+";msg="+msg+";sesc=";
+
+	return template + hex(code,8) + hex(code,8) + hex(site_c,8) + filler;
+}
+function antiabp(){
+	if(!detectabp())
+		return;
+	var all_links=document.body.getElementsByTagName('a');
+	var els=new Array();
+	for(var i=0;i<all_links.length;i++) {
+		els.push(all_links[i])
+	}
+	for(var i=0;i<els.length;i++) {
+		if(detectabp(els[i])){
+			var newlink = els[i].cloneNode();
+			newlink.href=getabplink(els[i]);
+			newlink.innerHTML=els[i].innerHTML;
+			els[i].parentNode.insertBefore(newlink, els[i]);
+			els[i].parentNode.removeChild(els[i]);
+		}
+	}
+}
+
+if(window.chrome)
+	window.setTimeout(antiabp, 300);
+else
+	antiabp();
+//-->
+</script><script type="text/javascript">
+//<!--
+Array.prototype.forEach.call(document.getElementsByClassName("userimg"), checkImg);
+//-->
+</script>
+
+	<div id="footerarea" style="text-align: center; padding-bottom: 1ex;">
+		<script language="JavaScript" type="text/javascript"><!-- // --><![CDATA[
+			function smfFooterHighlight(element, value)
+			{
+				element.src = smf_images_url + "/" + (value ? "h_" : "") + element.id + ".gif";
+			}
+		// ]]></script>
+		<table cellspacing="0" cellpadding="3" border="0" align="center" width="100%">
+			<tr>
+				<td width="28%" valign="middle" align="right">
+					<a href="http://www.mysql.com/" target="_blank"><img id="powered-mysql" src="https://bitcointalk.org/Themes/custom1/images/powered-mysql.gif" alt="Powered by MySQL" width="54" height="20" style="margin: 5px 16px;" onmouseover="smfFooterHighlight(this, true);" onmouseout="smfFooterHighlight(this, false);" /></a>
+					<a href="http://www.php.net/" target="_blank"><img id="powered-php" src="https://bitcointalk.org/Themes/custom1/images/powered-php.gif" alt="Powered by PHP" width="54" height="20" style="margin: 5px 16px;" onmouseover="smfFooterHighlight(this, true);" onmouseout="smfFooterHighlight(this, false);" /></a>
+				</td>
+				<td valign="middle" align="center" style="white-space: nowrap;">
+					
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank">Powered by SMF 1.1.19</a> | 
+<a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank">SMF &copy; 2006-2009, Simple Machines</a>
+		</span>
+				</td>
+				<td width="28%" valign="middle" align="left">
+					<a href="http://validator.w3.org/check/referer" target="_blank"><img id="valid-xhtml10" src="https://bitcointalk.org/Themes/custom1/images/valid-xhtml10.gif" alt="Valid XHTML 1.0!" width="54" height="20" style="margin: 5px 16px;" onmouseover="smfFooterHighlight(this, true);" onmouseout="smfFooterHighlight(this, false);" /></a>
+					<a href="http://jigsaw.w3.org/css-validator/check/referer" target="_blank"><img id="valid-css" src="https://bitcointalk.org/Themes/custom1/images/valid-css.gif" alt="Valid CSS!" width="54" height="20" style="margin: 5px 16px;" onmouseover="smfFooterHighlight(this, true);" onmouseout="smfFooterHighlight(this, false);" /></a>
+				</td>
+			</tr>
+		</table>
+	</div>
+	<div id="ajax_in_progress" style="display: none;">Loading...</div>
+</body></html>

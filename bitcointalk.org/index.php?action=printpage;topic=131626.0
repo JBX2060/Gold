@@ -1,0 +1,92 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+		<link rel="canonical" href="https://bitcointalk.org/index.php?topic=131626.0" />
+		<title>Print Page - GUIMiner and Home Network lag... driving kids and wifey nutz!</title>
+		<style type="text/css">
+			body
+			{
+				color: black;
+				background-color: white;
+			}
+			body, td, .normaltext
+			{
+				font-family: Verdana, arial, helvetica, serif;
+				font-size: small;
+			}
+			*, a:link, a:visited, a:hover, a:active
+			{
+				color: black !important;
+			}
+			table
+			{
+				empty-cells: show;
+			}
+			.code
+			{
+				font-size: x-small;
+				font-family: monospace;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.quote
+			{
+				font-size: x-small;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.smalltext, .quoteheader, .codeheader
+			{
+				font-size: x-small;
+			}
+			.largetext
+			{
+				font-size: large;
+			}
+			hr
+			{
+				height: 1px;
+				border: 0;
+				color: black;
+				background-color: black;
+			}
+		</style>
+	</head>
+	<body>
+		<h1 class="largetext">Bitcoin Forum</h1>
+		<h2 class="normaltext">Bitcoin => Bitcoin Technical Support => Topic started by: pulp on December 19, 2012, 04:36:42 PM</h2>
+
+		<table width="90%" cellpadding="0" cellspacing="0" border="0">
+			<tr>
+				<td>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>GUIMiner and Home Network lag... driving kids and wifey nutz!</b><br />
+					Post by: <b>pulp</b> on <b>December 19, 2012, 04:36:42 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Hi fellahs,<br /><br />Really love this proggy and everything works great on MY end but.... the wife and 2 kids are not happy. &nbsp;::) ;D The kids&#039; ping while gaming and the wife streaming video on the iPad suffers GREATLY, to useless at times. From reading around.... this shouldn&#039;t really be happening; low bandwidth, not an unusual amount of connections etc... &nbsp;<br /><br />Do you also have problems on your network while running GUIMiner, if so, is there a solution? &nbsp;???<br /><br />WIN7<br />Intel Core i7 CPU 950 @ 3.07GHz<br />ATI Radeon HD 5770 Series<br />DIR-655 Router<br />50Mbps/1Mbps solid cable line<br /><br />Kids - wireless WIN7 PC&#039;s<br />Wifey - iPad</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: GUIMiner and Home Network lag... driving kids and wifey nutz!</b><br />
+					Post by: <b>John (John K.)</b> on <b>December 19, 2012, 05:10:45 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">No. You can try using cgminer + stratum though, they take up a miniscule amount of the network traffic, unless you&#039;re still running on dial-up.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: GUIMiner and Home Network lag... driving kids and wifey nutz!</b><br />
+					Post by: <b>pulp</b> on <b>December 19, 2012, 05:12:06 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">It says I am using stratum.... I believe!&nbsp; 8)<br /><br />Listener for &quot;pulp&quot;: api2.bitcoin.cz:8332 19/12/2012 01:49:06, checking for stratum...<br />Listener for &quot;pulp&quot;: api2.bitcoin.cz:8332 19/12/2012 01:49:07, diverted to stratum on api-stratum.bitcoin.cz:3333<br /><br />Thanks for replying. &nbsp;:)</div>
+					<br /><br />
+					<div align="center" class="smalltext">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank">Powered by SMF 1.1.19</a> | 
+<a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank">SMF &copy; 2006-2009, Simple Machines</a>
+		</span></div>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

@@ -1,0 +1,122 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+		<link rel="canonical" href="https://bitcointalk.org/index.php?topic=105631.0" />
+		<title>Print Page - Looking for a security consultant</title>
+		<style type="text/css">
+			body
+			{
+				color: black;
+				background-color: white;
+			}
+			body, td, .normaltext
+			{
+				font-family: Verdana, arial, helvetica, serif;
+				font-size: small;
+			}
+			*, a:link, a:visited, a:hover, a:active
+			{
+				color: black !important;
+			}
+			table
+			{
+				empty-cells: show;
+			}
+			.code
+			{
+				font-size: x-small;
+				font-family: monospace;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.quote
+			{
+				font-size: x-small;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.smalltext, .quoteheader, .codeheader
+			{
+				font-size: x-small;
+			}
+			.largetext
+			{
+				font-size: large;
+			}
+			hr
+			{
+				height: 1px;
+				border: 0;
+				color: black;
+				background-color: black;
+			}
+		</style>
+	</head>
+	<body>
+		<h1 class="largetext">Bitcoin Forum</h1>
+		<h2 class="normaltext">Bitcoin => Bitcoin Technical Support => Topic started by: Eisenhower34 on September 03, 2012, 03:02:48 PM</h2>
+
+		<table width="90%" cellpadding="0" cellspacing="0" border="0">
+			<tr>
+				<td>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Looking for a security consultant</b><br />
+					Post by: <b>Eisenhower34</b> on <b>September 03, 2012, 03:02:48 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Bitcoin-Insurance.com is ready to launch, but I would feel much saver with one or two other people checking the code for security holes.<br /><br />The code is written in php with codeigniter, so some knowledge there is usefull.<br /><br />As backend we use a bitcoind running on the server and ABE to read the chain and load the data into a mysqlDB from which its read later (abe in no server mode). The wallet is kept offline. I didnt write the code myself this time and to be honest I dont trust my friend who coded the backend nor myself to find all security holes he may have left there.<br /><br />Edit: Those who are interested, could they summarize small a bit why they are qualified for something like said? I dont want to send my code to everybody and therfor I only want to pick trustworthy people with some years experience in this field.<br /><br />A thousand thanks upfront!</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Looking for a security consultant</b><br />
+					Post by: <b>Lethos</b> on <b>September 03, 2012, 03:22:13 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">I could investigate the code.<br />However I&#039;m sure you were hoping for someone with more reputation for doing such things.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Looking for a security consultant</b><br />
+					Post by: <b>Eisenhower34</b> on <b>September 03, 2012, 06:24:15 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Thanks for your offer. Im hoping for someone with some experience in this field, but i would message you in case noone else replies.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Looking for a security consultant</b><br />
+					Post by: <b>notme</b> on <b>September 03, 2012, 06:40:21 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Be careful.&nbsp; Announcing you have something you are worried about protecting and offering a stranger access to see how protected it is may attract black hats.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Looking for a security consultant</b><br />
+					Post by: <b>Eisenhower34</b> on <b>September 03, 2012, 06:52:05 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=105631.msg1157330#msg1157330">Quote from: notme on September 03, 2012, 06:40:21 PM</a></div><div class="quote">Be careful.&nbsp; Announcing you have something you are worried about protecting and offering a stranger access to see how protected it is may attract black hats.<br /></div><br />A software should be secure, no matter if the source is revealed or not. :) But I understand your concern thats why I prefer trustworthy people :)</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Looking for a security consultant</b><br />
+					Post by: <b>notme</b> on <b>September 03, 2012, 06:59:31 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=105631.msg1157357#msg1157357">Quote from: Eisenhower34 on September 03, 2012, 06:52:05 PM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=105631.msg1157330#msg1157330">Quote from: notme on September 03, 2012, 06:40:21 PM</a></div><div class="quote">Be careful.&nbsp; Announcing you have something you are worried about protecting and offering a stranger access to see how protected it is may attract black hats.<br /></div><br />A software should be secure, no matter if the source is revealed or not. :) But I understand your concern thats why I prefer trustworthy people :)<br /></div><br />While that is true, if yours is not secure a black hat could pretend to secure it, fix a few things and leave one tiny hole he can later exploit.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Looking for a security consultant</b><br />
+					Post by: <b>cedivad</b> on <b>September 03, 2012, 07:09:44 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">You better talk with a specialized company that does this and this alone.<br />You could pm me the code and I would be happy to give it a look for free, but I wouldn&#039;t if I where in you. <br /><br />Btw why ci and not kohana? That&#039;s an awesome framework! :)<br /><br />Btw-2, security trought obscurity works well.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Looking for a security consultant</b><br />
+					Post by: <b>Lethos</b> on <b>September 03, 2012, 08:05:49 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=105631.msg1157297#msg1157297">Quote from: Eisenhower34 on September 03, 2012, 06:24:15 PM</a></div><div class="quote">Thanks for your offer. Im hoping for someone with some experience in this field, but i would message you in case noone else replies.<br /></div><br />I have the experience in this field, just not the reputation, so I have no problem if you choose someone else.<br />Goodluck.</div>
+					<br /><br />
+					<div align="center" class="smalltext">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank">Powered by SMF 1.1.19</a> | 
+<a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank">SMF &copy; 2006-2009, Simple Machines</a>
+		</span></div>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

@@ -1,0 +1,110 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+		<link rel="canonical" href="https://bitcointalk.org/index.php?topic=118621.0" />
+		<title>Print Page - Determining the account associated with a given txid+vout</title>
+		<style type="text/css">
+			body
+			{
+				color: black;
+				background-color: white;
+			}
+			body, td, .normaltext
+			{
+				font-family: Verdana, arial, helvetica, serif;
+				font-size: small;
+			}
+			*, a:link, a:visited, a:hover, a:active
+			{
+				color: black !important;
+			}
+			table
+			{
+				empty-cells: show;
+			}
+			.code
+			{
+				font-size: x-small;
+				font-family: monospace;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.quote
+			{
+				font-size: x-small;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.smalltext, .quoteheader, .codeheader
+			{
+				font-size: x-small;
+			}
+			.largetext
+			{
+				font-size: large;
+			}
+			hr
+			{
+				height: 1px;
+				border: 0;
+				color: black;
+				background-color: black;
+			}
+		</style>
+	</head>
+	<body>
+		<h1 class="largetext">Bitcoin Forum</h1>
+		<h2 class="normaltext">Bitcoin => Bitcoin Technical Support => Topic started by: jon_smark on October 15, 2012, 05:37:43 PM</h2>
+
+		<table width="90%" cellpadding="0" cellspacing="0" border="0">
+			<tr>
+				<td>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Determining the account associated with a given txid+vout</b><br />
+					Post by: <b>jon_smark</b> on <b>October 15, 2012, 05:37:43 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Calling <tt>listunspent</tt> gives me a list of {txid,vout,spk,amount,conf}.&nbsp; I also want to determine the account associated with each item in that list.&nbsp; This can be done in two steps: 1) calling <tt>getrawtransaction txid</tt> will get me the address associated with a txid+vout combination; 2) calling <tt>getaccount addr</tt> will finally get me the associated account.<br /><br />This works, but is awfully convoluted.&nbsp; Is there a more straightforward way?&nbsp; I thought about calling <tt>gettransaction txid</tt>, which does provide account information associated with each &quot;receive&quot; address, but I&#039;m not sure whether I can rely on the array order being exactly the same as the original vout.<br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Determining the account associated with a given txid+vout</b><br />
+					Post by: <b>kjj</b> on <b>October 16, 2012, 01:04:25 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Why do you want to know?</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Determining the account associated with a given txid+vout</b><br />
+					Post by: <b>jon_smark</b> on <b>October 17, 2012, 01:14:39 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=118621.msg1275832#msg1275832">Quote from: kjj on October 16, 2012, 01:04:25 PM</a></div><div class="quote">Why do you want to know?<br /></div><br />Because I want to forward unspent transactions to a cold-wallet, and knowing the account would let me know immediately which cold-wallet to use.&nbsp; Though I can derive this information by going through my databases, if Bitcoin were to tell me the associated account that would save me the costly database access...<br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Determining the account associated with a given txid+vout</b><br />
+					Post by: <b>kjj</b> on <b>October 17, 2012, 06:33:34 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">The database is going to be your best bet.<br /><br />Also, you might want to consider using the cold wallet to protect the hot wallet, not to protect individual accounts.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Determining the account associated with a given txid+vout</b><br />
+					Post by: <b>jon_smark</b> on <b>October 17, 2012, 08:47:43 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=118621.msg1278963#msg1278963">Quote from: kjj on October 17, 2012, 06:33:34 PM</a></div><div class="quote">The database is going to be your best bet.<br /></div><br />Way too expensive.&nbsp; I reckon my original plan might be the cheapest option yet, even if convoluted.<br /><br /><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=118621.msg1278963#msg1278963">Quote from: kjj on October 17, 2012, 06:33:34 PM</a></div><div class="quote">Also, you might want to consider using the cold wallet to protect the hot wallet, not to protect individual accounts.<br /></div><br />I may be missing what you intended to say, but the cold wallet <b>is</b> used to protect the hot wallet, which happens to have several accounts.&nbsp; Note that these accounts are not associated with external users; they all belong to me, and are just separate for administrative/accounting purposes.<br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Determining the account associated with a given txid+vout</b><br />
+					Post by: <b>kjj</b> on <b>October 18, 2012, 04:37:47 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=118621.msg1279295#msg1279295">Quote from: jon_smark on October 17, 2012, 08:47:43 PM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=118621.msg1278963#msg1278963">Quote from: kjj on October 17, 2012, 06:33:34 PM</a></div><div class="quote">The database is going to be your best bet.<br /></div><br />Way too expensive.&nbsp; I reckon my original plan might be the cheapest option yet, even if convoluted.<br /><br /><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=118621.msg1278963#msg1278963">Quote from: kjj on October 17, 2012, 06:33:34 PM</a></div><div class="quote">Also, you might want to consider using the cold wallet to protect the hot wallet, not to protect individual accounts.<br /></div><br />I may be missing what you intended to say, but the cold wallet <b>is</b> used to protect the hot wallet, which happens to have several accounts.&nbsp; Note that these accounts are not associated with external users; they all belong to me, and are just separate for administrative/accounting purposes.<br /></div><br />I can&#039;t imagine any possible database where a single query is going to be more expensive than a RPC call to bitcoind.<br /><br />Change your administrative plan.&nbsp; :)&nbsp; What you are trying to do isn&#039;t worth it.&nbsp; Set your policies based on the wallets, not the accounts.</div>
+					<br /><br />
+					<div align="center" class="smalltext">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank">Powered by SMF 1.1.19</a> | 
+<a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank">SMF &copy; 2006-2009, Simple Machines</a>
+		</span></div>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

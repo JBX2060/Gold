@@ -1,0 +1,98 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+		<link rel="canonical" href="https://bitcointalk.org/index.php?topic=120631.0" />
+		<title>Print Page - bitcoin-qt email notification when payment sent or received possible?</title>
+		<style type="text/css">
+			body
+			{
+				color: black;
+				background-color: white;
+			}
+			body, td, .normaltext
+			{
+				font-family: Verdana, arial, helvetica, serif;
+				font-size: small;
+			}
+			*, a:link, a:visited, a:hover, a:active
+			{
+				color: black !important;
+			}
+			table
+			{
+				empty-cells: show;
+			}
+			.code
+			{
+				font-size: x-small;
+				font-family: monospace;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.quote
+			{
+				font-size: x-small;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.smalltext, .quoteheader, .codeheader
+			{
+				font-size: x-small;
+			}
+			.largetext
+			{
+				font-size: large;
+			}
+			hr
+			{
+				height: 1px;
+				border: 0;
+				color: black;
+				background-color: black;
+			}
+		</style>
+	</head>
+	<body>
+		<h1 class="largetext">Bitcoin Forum</h1>
+		<h2 class="normaltext">Bitcoin => Bitcoin Technical Support => Topic started by: Maidak on October 26, 2012, 03:05:38 AM</h2>
+
+		<table width="90%" cellpadding="0" cellspacing="0" border="0">
+			<tr>
+				<td>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>bitcoin-qt email notification when payment sent or received possible?</b><br />
+					Post by: <b>Maidak</b> on <b>October 26, 2012, 03:05:38 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">I was wondering if theres a way to set this up using bitcoin-qt ? I know other wallets have this support.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: bitcoin-qt email notification when payment sent or received possible?</b><br />
+					Post by: <b>helloworld</b> on <b>October 26, 2012, 03:25:52 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=120631.msg1298489#msg1298489">Quote from: Maidak on October 26, 2012, 03:05:38 AM</a></div><div class="quote">I was wondering if theres a way to set this up using bitcoin-qt ? I know other wallets have this support.<br /></div><br />Hmmmm step one would be to have it running in server mode (-server) with a password set up in your bitcoin.conf<br /><br />Step two would be to have a cron running that periodically checked a list of addresses for changes in their balance.<br /><br />And step three, get it to email you if it detects a change.<br /><br /><br />I don&#039;t think you can do all this just with bitcoin-qt. You need to have a few other tools on your computer talking to bitcoin-qt and doing the checking/emailing.<br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: bitcoin-qt email notification when payment sent or received possible?</b><br />
+					Post by: <b>Stephen Gornick</b> on <b>October 26, 2012, 07:13:46 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=120631.msg1298489#msg1298489">Quote from: Maidak on October 26, 2012, 03:05:38 AM</a></div><div class="quote">I was wondering if theres a way to set this up using bitcoin-qt ? I know other wallets have this support.<br /></div><br />And there are third-party services which provide this:<br />&nbsp;- http://www.bitcoinmonitor.net<br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: bitcoin-qt email notification when payment sent or received possible?</b><br />
+					Post by: <b>BitBlitz</b> on <b>October 26, 2012, 03:35:20 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">I do this with my blockchain.info account.&nbsp; Just add your local wallet address to the blockchain account as &quot;Watch Only&quot; and enable email or SMS notification.</div>
+					<br /><br />
+					<div align="center" class="smalltext">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank">Powered by SMF 1.1.19</a> | 
+<a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank">SMF &copy; 2006-2009, Simple Machines</a>
+		</span></div>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

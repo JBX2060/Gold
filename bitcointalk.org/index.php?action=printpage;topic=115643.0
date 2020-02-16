@@ -1,0 +1,134 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+		<link rel="canonical" href="https://bitcointalk.org/index.php?topic=115643.0" />
+		<title>Print Page - What is the best client version so far?</title>
+		<style type="text/css">
+			body
+			{
+				color: black;
+				background-color: white;
+			}
+			body, td, .normaltext
+			{
+				font-family: Verdana, arial, helvetica, serif;
+				font-size: small;
+			}
+			*, a:link, a:visited, a:hover, a:active
+			{
+				color: black !important;
+			}
+			table
+			{
+				empty-cells: show;
+			}
+			.code
+			{
+				font-size: x-small;
+				font-family: monospace;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.quote
+			{
+				font-size: x-small;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.smalltext, .quoteheader, .codeheader
+			{
+				font-size: x-small;
+			}
+			.largetext
+			{
+				font-size: large;
+			}
+			hr
+			{
+				height: 1px;
+				border: 0;
+				color: black;
+				background-color: black;
+			}
+		</style>
+	</head>
+	<body>
+		<h1 class="largetext">Bitcoin Forum</h1>
+		<h2 class="normaltext">Bitcoin => Bitcoin Technical Support => Topic started by: johnyj on October 05, 2012, 08:39:37 PM</h2>
+
+		<table width="90%" cellpadding="0" cellspacing="0" border="0">
+			<tr>
+				<td>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>What is the best client version so far?</b><br />
+					Post by: <b>johnyj</b> on <b>October 05, 2012, 08:39:37 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">I&#039;ve never tried those new clients, always used 0.3.24, is there a best version when it comes to download blockchain speed and with less transaction fee?</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: What is the best client version so far?</b><br />
+					Post by: <b>Grix</b> on <b>October 05, 2012, 09:18:33 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">The newest? I haven&#039;t noticed anything but advantages with every new version, and older versions have severe problems such as DDoS vulnerabilities.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: What is the best client version so far?</b><br />
+					Post by: <b>MysteryMiner</b> on <b>October 05, 2012, 09:45:10 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">For me it is 0.3.21<br /><br />Pros:<br />+ No forced transaction fees for tx over 0.01<br />+ Nice looking GUI<br />+ CPU and room heating feature a.k.a CPU mining is still there<br /><br />Cons:<br />- rare DoS vulnerability<br />- rare bugs causing application to hang<br />- longer initial blockchain download<br /><br />Using 0.4.1 right now but it sucks, it forces to add tx fee when sending new coins. Tx fee are bad when you are playing satoshi dice.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: What is the best client version so far?</b><br />
+					Post by: <b>betatest512</b> on <b>October 06, 2012, 07:41:04 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">0.7</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: What is the best client version so far?</b><br />
+					Post by: <b>SistaS0uljah</b> on <b>October 09, 2012, 08:47:29 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=115643.msg1248451#msg1248451">Quote from: MysteryMiner on October 05, 2012, 09:45:10 PM</a></div><div class="quote">For me it is 0.3.21<br /><br />Pros:<br />+ No forced transaction fees for tx over 0.01<br />+ Nice looking GUI<br />+ CPU and room heating feature a.k.a CPU mining is still there<br /><br />Cons:<br />- rare DoS vulnerability<br />- rare bugs causing application to hang<br />- longer initial blockchain download<br /><br />Using 0.4.1 right now but it sucks, it forces to add tx fee when sending new coins. Tx fee are bad when you are playing satoshi dice.<br /></div>Does that version have the wallet encryption feature?&nbsp; If not, how do you encrypt your wallet?&nbsp; And why in the world would you need the CPU Mining option?&nbsp; How many decades do you expect to wait to mine 0.00000001 BTC with CPU hashing power?&nbsp; ???</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: What is the best client version so far?</b><br />
+					Post by: <b>Pieter Wuille</b> on <b>October 11, 2012, 12:28:09 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Even 0.7.0 still has CPU mining. Just not accessible through the GUI.<br /><br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: What is the best client version so far?</b><br />
+					Post by: <b>MysteryMiner</b> on <b>October 11, 2012, 07:36:45 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=115643.msg1260329#msg1260329">Quote from: SistaS0uljah on October 09, 2012, 08:47:29 PM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=115643.msg1248451#msg1248451">Quote from: MysteryMiner on October 05, 2012, 09:45:10 PM</a></div><div class="quote">For me it is 0.3.21<br /><br />Pros:<br />+ No forced transaction fees for tx over 0.01<br />+ Nice looking GUI<br />+ CPU and room heating feature a.k.a CPU mining is still there<br /><br />Cons:<br />- rare DoS vulnerability<br />- rare bugs causing application to hang<br />- longer initial blockchain download<br /><br />Using 0.4.1 right now but it sucks, it forces to add tx fee when sending new coins. Tx fee are bad when you are playing satoshi dice.<br /></div>Does that version have the wallet encryption feature?&nbsp; If not, how do you encrypt your wallet?&nbsp; And why in the world would you need the CPU Mining option?&nbsp; How many decades do you expect to wait to mine 0.00000001 BTC with CPU hashing power?&nbsp; ???<br /></div>It does not have wallet encryption feature. And the feature of later versions are largely useless because the malware can easily intercept the passphrase protecting wallet. I encrypt my whole system disk with TrueCrypt in case if my computers gets confiscated or stolen. The CPU miner option are almost useless for mining bitcoins but it is a good to have it as a stability test because various CPU benchmark programs test only parts of CPU for overclock stability or to additionally heat room in cold winter days.<div class="quoteheader">Quote</div><div class="quote">Even 0.7.0 still has CPU mining. Just not accessible through the GUI.</div>Was not it removed from code also in 0.5.0 version? I can&#039;t get it running trough bitcoin.conf since 0.5.0</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: What is the best client version so far?</b><br />
+					Post by: <b>Luke-Jr</b> on <b>October 20, 2012, 10:58:14 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=115643.msg1248451#msg1248451">Quote from: MysteryMiner on October 05, 2012, 09:45:10 PM</a></div><div class="quote">Cons:<br />- rare DoS vulnerability<br />- rare bugs causing application to hang<br />- longer initial blockchain download</div>Don&#039;t forget the very easy netsplit exploit (https://en.bitcoin.it/wiki/CVEs#CVE-2012-2459) and who knows how many other unnoted vulnerabilities due to non-maintenance...<br /><br /><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=115643.msg1248451#msg1248451">Quote from: MysteryMiner on October 05, 2012, 09:45:10 PM</a></div><div class="quote">Using 0.4.1 right now but it sucks, it forces to add tx fee when sending new coins.</div>So don&#039;t send new coins? Why use 0.4.1 instead of 0.4.7 or 0.4.8rc4?<br /><br /><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=115643.msg1248451#msg1248451">Quote from: MysteryMiner on October 05, 2012, 09:45:10 PM</a></div><div class="quote">Tx fee are bad when you are playing satoshi dice.</div>Well, that&#039;s your own fault for participating in a DDoS against Bitcoin.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: What is the best client version so far?</b><br />
+					Post by: <b>nobbynobbynoob</b> on <b>October 20, 2012, 11:12:26 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=115643.msg1265588#msg1265588">Quote from: MysteryMiner on October 11, 2012, 07:36:45 PM</a></div><div class="quote">It does not have wallet encryption feature. And the feature of later versions are largely useless because the malware can easily intercept the passphrase protecting wallet.<br /></div><br />There are other benefits to wallet encryption. If perchance my USB-stick backup finds itself mislaid, I could be glad my wallet&#039;s encrypted. (TrueCrypt does the job though.) If one is truly paranoid about being keylogged one could input the passphrase using a virtual keyboard (Windows, Kaspersky...). Now the malware needs to be wallet-stealing, keylogging <i>and</i> screendumping. Oh, and not intercepted by AV or firewall. Still, I wouldn&#039;t keep &gt;&gt;<span class="BTC">BTC</span>1.000 in a live wallet unless I had at least some intentions of actively using those funds imminently.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: What is the best client version so far?</b><br />
+					Post by: <b>MysteryMiner</b> on <b>October 21, 2012, 11:06:30 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader">Quote</div><div class="quote">Don&#039;t forget the very easy netsplit exploit and who knows how many other unnoted vulnerabilities due to non-maintenance...</div>None actually does this exploit right now because of no profit from it and the lulz will be minimal too. Non use actually makes a little bit safer, none is looking for new vulnerabilities if he is not specifically targeting one computer or one person. But I consider this a security-trough-obscurity and I think it is a bad practice!<div class="quoteheader">Quote</div><div class="quote">Well, that&#039;s your own fault for participating in a DDoS against Bitcoin.</div>The people who have written automatic scripts that play using Martingale system with very small starting bets like 0.001 are the ddosers! And they are losers also! I started to play Satoshi Dice with approx 4 bitcoins from spare wallet, I have won 3 digit number of bitcoins! With these coins I have purchased all necessary top-end components for my new desktop computer (except HD7970 crossfire and PSU that I already owned)! I will not tell how much it cost to me or how much bitcoins I won using Satoshi Dice because none will believe.<br /><br />How much for me this gamble for new computer cost in transaction fees? Probably slightly less than 1BTC. I will calculate this exact number in spare time for my own reference. Are someone willing to get almost 1BTC extra if all they need to do is install different Bitcoin version without forced tx fees?</div>
+					<br /><br />
+					<div align="center" class="smalltext">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank">Powered by SMF 1.1.19</a> | 
+<a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank">SMF &copy; 2006-2009, Simple Machines</a>
+		</span></div>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

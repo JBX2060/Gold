@@ -1,0 +1,412 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+	<meta name="description" content="SMF User Help: Searching" />
+	
+	<meta name="keywords" content="bitcoin, forum, bitcoin forum, bitcointalk" />
+	<script language="JavaScript" type="text/javascript" src="https://bitcointalk.org/Themes/default/script.js"></script>
+	<script language="JavaScript" type="text/javascript"><!-- // --><![CDATA[
+		var smf_theme_url = "https://bitcointalk.org/Themes/custom1";
+		var smf_images_url = "https://bitcointalk.org/Themes/custom1/images";
+		var smf_scripturl = "https://bitcointalk.org/index.php";
+		var smf_iso_case_folding = false;
+		var smf_charset = "ISO-8859-1";
+	// ]]></script>
+	<title>SMF User Help: Searching</title><!--268bbdb7faceeb903f0ad421e3af27a575a3b582196ab69bdb7faceeb903f0ad421e3af27a575a35149-->
+	<link rel="stylesheet" type="text/css" href="https://bitcointalk.org/Themes/custom1/style.css" />
+	 <!--[if !IE]> -->
+	 <link rel="stylesheet" type="text/css" media="only screen and (min-device-width: 320px) and (max-device-width: 650px)" href="https://bitcointalk.org/Themes/custom1/mobile.css" />
+	 <!-- <![endif]-->
+	<link rel="stylesheet" type="text/css" href="https://bitcointalk.org/Themes/default/print.css" media="print" /><style type="text/css">
+.yfgDqbGgHsGSFwjknQYyyQ > td {background-color: #E5E5E8; text-align:center;}
+.yfgDqbGgHsGSFwjknQYyyQ > td > table {margin-top:-5px}
+.yfgDqbGgHsGSFwjknQYyyQ .JnWjpDEwJNUeOAKHrCFDxw {display:inline-block;max-width:100%; min-width:100%; max-height:47px; overflow:hidden}
+.yfgDqbGgHsGSFwjknQYyyQ table,.yfgDqbGgHsGSFwjknQYyyQ tbody,.yfgDqbGgHsGSFwjknQYyyQ tr,.yfgDqbGgHsGSFwjknQYyyQ td {display:inline-block;max-width:100%; min-width:100%; overflow:hidden}
+.yfgDqbGgHsGSFwjknQYyyQ .JnWjpDEwJNUeOAKHrCFDxw table,.yfgDqbGgHsGSFwjknQYyyQ .JnWjpDEwJNUeOAKHrCFDxw tbody,.yfgDqbGgHsGSFwjknQYyyQ .JnWjpDEwJNUeOAKHrCFDxw tr,.yfgDqbGgHsGSFwjknQYyyQ .JnWjpDEwJNUeOAKHrCFDxw td {display:initial; max-width:none;min-width:none;overflow:visible}
+.tlseWaIFOwexFaUKeIwXSg {display:none !important}
+.sbLZEPoaaymhZdOqEGOQyw {display:none}
+.NeJrZPwVhfEwxoUlfLMqdg {padding: 1px 1px 0 1px;}
+.EKxUKqtBNEIOWJEdfdhLmQ{color:#699C62; font-weight:bold; font-size:18px}
+.EKxUKqtBNEIOWJEdfdhLmQ:link{color:#699C62; font-weight:bold; font-size:18px}
+.EKxUKqtBNEIOWJEdfdhLmQ:visited{color:#699C62; font-weight:bold; font-size:18px}
+.baaVogTsGyXcqAQccwgxgw{color:#00F30C;font-size:15px;font-weight:bold}
+.baaVogTsGyXcqAQccwgxgw:link{color:#00F30C;font-size:15px;font-weight:bold}
+.baaVogTsGyXcqAQccwgxgw:visited{color:#00F30C;font-size:15px;font-weight:bold}
+
+.pxwujsyBwmCUhziHAVmxAQ:link {font-size:22px;font-weight:bold;color:orange}
+.pxwujsyBwmCUhziHAVmxAQ:active {font-size:22px;font-weight:bold;color:orange}
+.pxwujsyBwmCUhziHAVmxAQ:visited {font-size:22px;font-weight:bold;color:orange}
+.pxwujsyBwmCUhziHAVmxAQ:hover {text-decoration:none !important;color:red}
+.CffupIswftavydbAoydobQ:link {font-size:24px;font-weight:bold;color:rgb(250,180,75)}
+.CffupIswftavydbAoydobQ:active {font-size:24px;font-weight:bold;color:rgb(250,180,75)}
+.CffupIswftavydbAoydobQ:visited {font-size:24px;font-weight:bold;color:rgb(250,180,75)}
+.CffupIswftavydbAoydobQ:hover {text-decoration:none !important;color:white;background-color:rgb(181,204,222)}
+.CffupIswftavydbAoydobQ {display:inline-block;margin: 3px;0;3px;0}
+.jMVWLujEcwNAhUdcRYMOgA:hover {text-decoration:none !important;}
+.jMVWLujEcwNAhUdcRYMOgA {font-size:22px;font-weight:bold;}
+.NQwixVgPcbdNyjDhsTITfw {   width: 900px;   height: 44px;   max-width: 100%;   background: #5CB9F7;   display: flex;   justify-content: space-between;   align-items: center;   text-decoration: none !important;   font-size: 16px;   color: #fff !important;   font-family: arial, sans-serif;   overflow: hidden; }    .NQwixVgPcbdNyjDhsTITfw button {     border: none;     background: #8EE000;     color: #fff;     outline: none;     font-size: 1em;     padding: 0.5em 1.2em;     margin-left: 0.3em;     border-radius: 2em;     text-transform: uppercase;     font-weight: 600;     pointer-events: none;   }    .NQwixVgPcbdNyjDhsTITfw:hover .sdNwyIejfYxbxBLPuPPETg span {   display: none; }  .NQwixVgPcbdNyjDhsTITfw:hover .sdNwyIejfYxbxBLPuPPETg span:nth-child(2) {   display: block; }  .sdNwyIejfYxbxBLPuPPETg {   display: flex;   align-items: center; }    .sdNwyIejfYxbxBLPuPPETg span {   margin-left: 0.1em;   font-size: 1em;   font-weight: 700;   letter-spacing: 0.5px;   font-size: 20px;   width: 11em;   text-align: center; }  .kpPbFUsDmEViyYHdFoQZVw {   display: inline-block; }  .sdNwyIejfYxbxBLPuPPETg span:nth-child(2) {   display: none; }  .bEebZfiVANmxzpjhfmgPgA {   display: flex;   background: #586A91;   height: 44px;   align-items: center;   justify-content: center;   padding: 0 1em 0 0.5em;   position: relative;   z-index: 2; }    .bEebZfiVANmxzpjhfmgPgA:after {   position: absolute;   right: 100%;   top: 50%;   content: "";   width: 36px;   height: 36px;   background: #586A91;   border-radius: 0.5em;   transform: translate(50%, -50%) rotate(45deg);   z-index: -1; }    .bEebZfiVANmxzpjhfmgPgA > span {   margin-right: 1em;   font-weight: 600;   font-size: 16px;   letter-spacing: 0.5px;   margin-top: 0.1em; }  @media (max-width: 725px) {   .NQwixVgPcbdNyjDhsTITfw button {     display: none;   }   .sdNwyIejfYxbxBLPuPPETg {     margin-left: 1em;   } }   @media (max-width: 550px) {   .bEebZfiVANmxzpjhfmgPgA span span {     display: none;   } }  @media (max-width: 465px) {   .bEebZfiVANmxzpjhfmgPgA {     display: none;   }   .NQwixVgPcbdNyjDhsTITfw {     justify-content: center;   } }
+.KbCKxQqVrGOiDKBijpZdYw {   width: 900px;   height: 44px;   max-width: 100%;   background: #5CB9F7;   display: flex;   justify-content: space-between;   align-items: center;   text-decoration: none !important;   font-size: 16px;   color: #fff !important;   font-family: arial, sans-serif;   overflow: hidden; }    .KbCKxQqVrGOiDKBijpZdYw button {     border: none;     background: #8EE000;     color: #fff;     outline: none;     font-size: 1em;     padding: 0.5em 1.2em;     margin-left: 0.4em;     border-radius: 2em;     text-transform: uppercase;     font-weight: 600; cursor:pointer; transition: all 0.3s;   } button:hover{transform: scale(1.05);}    .eKGcfLgaLFYyjhdVoeCcKw:hover span{   display: none; }  .eKGcfLgaLFYyjhdVoeCcKw:hover span:nth-child(2) {   display: block; }  .eKGcfLgaLFYyjhdVoeCcKw {   display: flex;   align-items: center; color:#fff}    .eKGcfLgaLFYyjhdVoeCcKw span {   margin-left: 0.1em;   font-size: 1em;   font-weight: 700;   letter-spacing: 0.5px;   font-size: 20px;   width: 11em;   text-align: center; }  .OOPcwdWHMcIULujrTtNhMw {   display: inline-block; }  .eKGcfLgaLFYyjhdVoeCcKw span:nth-child(2) {   display: none; }  .rjAjbIazcOqcsgNWVsiddw {   display: flex;   background: #586A91;   height: 44px;   align-items: center;   justify-content: center;   padding: 0 1em 0 0.5em;   position: relative;   z-index: 2; }    .rjAjbIazcOqcsgNWVsiddw:after {   position: absolute;   right: 100%;   top: 50%;   content: "";   width: 36px;   height: 36px;   background: #586A91;   border-radius: 0.5em;   transform: translate(50%, -50%) rotate(45deg);   z-index: -1; }    .rjAjbIazcOqcsgNWVsiddw > span {   margin-right: 1em;   font-weight: 600;   font-size: 16px;   letter-spacing: 0.5px;   margin-top: 0.1em; }  @media (max-width: 725px) {   .KbCKxQqVrGOiDKBijpZdYw button {     display: none;   }   .eKGcfLgaLFYyjhdVoeCcKw {     margin-left: 1em;   } }   @media (max-width: 550px) {   .rjAjbIazcOqcsgNWVsiddw span span {     display: none;   } }  @media (max-width: 465px) {   .rjAjbIazcOqcsgNWVsiddw {     display: none;   }   .KbCKxQqVrGOiDKBijpZdYw {     justify-content: center;   } }
+.NQwixVgPcbdNyjDhsTITfw {   width: 900px;   height: 44px;   max-width: 100%;   background: #5CB9F7;   display: flex;   justify-content: space-between;   align-items: center;   text-decoration: none !important;   font-size: 16px;   color: #fff !important;   font-family: arial, sans-serif;   overflow: hidden; }    .NQwixVgPcbdNyjDhsTITfw button {   border: none;   background: #8EE000;   color: #fff;   outline: none;   font-size: 1em;   padding: 0.5em 1.2em;   margin-left: 0.4em;   border-radius: 2em;   text-transform: uppercase;   font-weight: 600;   cursor: pointer;   transition: all 0.3s; }  button:hover {   transform: scale(1.05); }  .sdNwyIejfYxbxBLPuPPETg:hover span {   display: none; }  .sdNwyIejfYxbxBLPuPPETg:hover span:nth-child(2) {   display: block; }  .sdNwyIejfYxbxBLPuPPETg {   display: flex;   align-items: center;   color: #fff; }    .sdNwyIejfYxbxBLPuPPETg span {   margin-left: 0.1em;   font-size: 1em;   font-weight: 700;   letter-spacing: 0.5px;   font-size: 20px;   width: 11em;   text-align: center; }  .kpPbFUsDmEViyYHdFoQZVw {   display: inline-block; }  .sdNwyIejfYxbxBLPuPPETg span:nth-child(2) {   display: none; }  .bEebZfiVANmxzpjhfmgPgA {   display: flex;   background: #586A91;   height: 44px;   align-items: center;   justify-content: center;   padding: 0 1em 0 0.5em;   position: relative;   z-index: 2; }    .bEebZfiVANmxzpjhfmgPgA:after {   position: absolute;   right: 100%;   top: 50%;   content: "";   width: 36px;   height: 36px;   background: #586A91;   border-radius: 0.5em;   transform: translate(50%, -50%) rotate(45deg);   z-index: -1; }    .bEebZfiVANmxzpjhfmgPgA > span {   margin-right: 1em;   font-weight: 600;   font-size: 16px;   letter-spacing: 0.5px;   margin-top: 0.1em; }  @media (max-width: 725px) {   .NQwixVgPcbdNyjDhsTITfw button {     display: none;   }   .sdNwyIejfYxbxBLPuPPETg {     margin-left: 1em;   } }   @media (max-width: 550px) {   .bEebZfiVANmxzpjhfmgPgA span span {     display: none;   } }  @media (max-width: 465px) {   .bEebZfiVANmxzpjhfmgPgA {     display: none;   }   .NQwixVgPcbdNyjDhsTITfw {     justify-content: center;   } }
+.KbCKxQqVrGOiDKBijpZdYw {   width: 900px;   height: 44px;   max-width: 100%;   background: #fff;   display: flex;   justify-content: space-between;   align-items: center;   text-decoration: none !important;   font-size: 16px;   color: #fff !important;   font-family: arial, sans-serif;   overflow: hidden; }    .KbCKxQqVrGOiDKBijpZdYw button {   border: none;   background: #8EE000;   color: #fff;   outline: none;   font-size: 1em;   padding: 0.5em 1.2em;   margin-left: 0.4em;   border-radius: 2em;   text-transform: uppercase;   font-weight: 600;   cursor: pointer;   transition: all 0.3s; }  button:hover {   transform: scale(1.05); }  .eKGcfLgaLFYyjhdVoeCcKw:hover span {   display: none; }  .eKGcfLgaLFYyjhdVoeCcKw:hover span:nth-child(2) {   display: block; }  .eKGcfLgaLFYyjhdVoeCcKw {   display: flex;   align-items: center;   color: #5CB9F7; }    .eKGcfLgaLFYyjhdVoeCcKw span {   margin-left: 0.1em;   font-size: 1em;   font-weight: 700;   letter-spacing: 0.5px;   font-size: 20px;   width: 11em;   text-align: center; }  .OOPcwdWHMcIULujrTtNhMw {   display: inline-block; }  .eKGcfLgaLFYyjhdVoeCcKw span:nth-child(2) {   display: none; }  .rjAjbIazcOqcsgNWVsiddw {   display: flex;   background: #586A91;   height: 44px;   align-items: center;   justify-content: center;   padding: 0 1em 0 0.5em;   position: relative;   z-index: 2; }    .rjAjbIazcOqcsgNWVsiddw:after {   position: absolute;   right: 100%;   top: 50%;   content: "";   width: 36px;   height: 36px;   background: #586A91;   border-radius: 0.5em;   transform: translate(50%, -50%) rotate(45deg);   z-index: -1; }    .rjAjbIazcOqcsgNWVsiddw > span {   margin-right: 1em;   font-weight: 600;   font-size: 16px;   letter-spacing: 0.5px;   margin-top: 0.1em; }  @media (max-width: 725px) {   .KbCKxQqVrGOiDKBijpZdYw button {     display: none;   }   .eKGcfLgaLFYyjhdVoeCcKw {     margin-left: 1em;   } }   @media (max-width: 550px) {   .rjAjbIazcOqcsgNWVsiddw span span {     display: none;   } }  @media (max-width: 465px) {   .rjAjbIazcOqcsgNWVsiddw {     display: none;   }   .KbCKxQqVrGOiDKBijpZdYw {     justify-content: center;   } }
+.iYcghMBQdAIqtHcFDcqexg {   width: 900px;   height: 44px;   margin: 0 auto;   background: #fff;   max-width: 100%;   display: flex;   justify-content: space-between;   align-items: center;   text-decoration: none !important;   color: #000 !important;   font-family: arial, sans-serif;   overflow: hidden; } .iYcghMBQdAIqtHcFDcqexg:hover {   color: #fff;   background: #715AD0; } .iYcghMBQdAIqtHcFDcqexg:hover .COpeMQxkBggfcXjUTcYFWA span:nth-child(1) {   display: none; } .iYcghMBQdAIqtHcFDcqexg:hover .COpeMQxkBggfcXjUTcYFWA span:nth-child(2) {   display: block; } .iYcghMBQdAIqtHcFDcqexg:hover .rdLYMausxbLReVQyifHerA span:nth-child(1) {   display: none;   color: #000; } .iYcghMBQdAIqtHcFDcqexg:hover .rdLYMausxbLReVQyifHerA span:nth-child(2) {   display: block;   color: #000; } .iYcghMBQdAIqtHcFDcqexg:hover .COpeMQxkBggfcXjUTcYFWA {   background: #fff;   color: #000; } .iYcghMBQdAIqtHcFDcqexg:hover .rdLYMausxbLReVQyifHerA {   background: #fff;   color: #000; } .iYcghMBQdAIqtHcFDcqexg:hover .COpeMQxkBggfcXjUTcYFWA:after {   background: #715AD0; } .iYcghMBQdAIqtHcFDcqexg:hover .COpeMQxkBggfcXjUTcYFWA:before {   background: #715AD0; } .iYcghMBQdAIqtHcFDcqexg:hover .COpeMQxkBggfcXjUTcYFWA span {   color: #000; } .iYcghMBQdAIqtHcFDcqexg:hover .rdLYMausxbLReVQyifHerA:after {   background: #715AD0; } .iYcghMBQdAIqtHcFDcqexg:hover .rdLYMausxbLReVQyifHerA:before {   background: #715AD0; } .iYcghMBQdAIqtHcFDcqexg:hover .xlamyeyYHalLHKoeWfigJQ {   color: #fff; } .iYcghMBQdAIqtHcFDcqexg:hover .xlamyeyYHalLHKoeWfigJQ:before {   background: #fff; } .iYcghMBQdAIqtHcFDcqexg:hover .xlamyeyYHalLHKoeWfigJQ:after {   background: #fff; } .iYcghMBQdAIqtHcFDcqexg .xlamyeyYHalLHKoeWfigJQ {   display: flex;   height: 32px;   align-items: center;   justify-content: center;   border-radius: 5px;   padding: 0 1em;   position: relative;   z-index: 2;   font-size: 18px;   color: #000;   width: 160px; } .iYcghMBQdAIqtHcFDcqexg .xlamyeyYHalLHKoeWfigJQ:after{   position: absolute;   right: 98%;   top: 50%;   content: "";   width: 25px;   height: 25px;   background: #715AD0;   border-radius: 0.3em;   transform: translate(50%, -50%) rotate(45deg);   z-index: -1; } .iYcghMBQdAIqtHcFDcqexg .xlamyeyYHalLHKoeWfigJQ:before{   position: absolute;   right: 2%;   top: 50%;   content: "";   width: 25px;   height: 25px;   background: #715AD0;   border-radius: 0.3em;   transform: translate(50%, -50%) rotate(45deg);   z-index: -1; } .iYcghMBQdAIqtHcFDcqexg .xlamyeyYHalLHKoeWfigJQ span {   font-size: 26px;   font-family: Existence;   font-weight: 600; } .iYcghMBQdAIqtHcFDcqexg .xlamyeyYHalLHKoeWfigJQ span:hover {   color: #fff;   text-decoration: none; } .iYcghMBQdAIqtHcFDcqexg .COpeMQxkBggfcXjUTcYFWA {   display: flex;   background: #715AD0;   height: 30px;   align-items: center;   justify-content: center;   border-radius: 5px;   padding: 0 1em;   margin-left: 1em;   position: relative;   z-index: 2;   font-size: 14px;   color: #fff;   width: 220px } .iYcghMBQdAIqtHcFDcqexg .COpeMQxkBggfcXjUTcYFWA:after{   position: absolute;   right: 102%;   top: 50%;   content: "";   width: 18px;   height: 18px;   background: #fff;   border-radius: 0.3em;   transform: translate(50%, -50%) rotate(45deg);   z-index: 2; } .iYcghMBQdAIqtHcFDcqexg .COpeMQxkBggfcXjUTcYFWA:before{   position: absolute;   right: -2%;   top: 50%;   content: "";   width: 18px;   height: 18px;   background: #fff;   border-radius: 0.3em;   transform: translate(50%, -50%) rotate(45deg);   z-index: 3; } .iYcghMBQdAIqtHcFDcqexg .COpeMQxkBggfcXjUTcYFWA span {   color: #fff;   font-size: 13px;   line-height: 13px; } .iYcghMBQdAIqtHcFDcqexg .COpeMQxkBggfcXjUTcYFWA span:nth-child(2) {   display: none; } .iYcghMBQdAIqtHcFDcqexg .rdLYMausxbLReVQyifHerA{   display: flex;   flex-direction: column;   height: 44px;   align-items: center;   justify-content: center;   padding: 0 1em;   position: relative;   z-index: 2;   width: 220px; } .iYcghMBQdAIqtHcFDcqexg .rdLYMausxbLReVQyifHerA span {   color: #fff;   font-size: 13px;   line-height: 13px; } .iYcghMBQdAIqtHcFDcqexg .rdLYMausxbLReVQyifHerA span:nth-child(2) {   display: none; } .iYcghMBQdAIqtHcFDcqexg .rdLYMausxbLReVQyifHerA {   display: flex;   background: #715AD0;   height: 30px;   align-items: center;   justify-content: center;   border-radius: 5px;   padding: 0 1em;   margin-right: 1em;   position: relative;   z-index: 2;   font-size: 14px;   color: #fff;   width: 220px } .iYcghMBQdAIqtHcFDcqexg .rdLYMausxbLReVQyifHerA:after{   position: absolute;   right: 102%;   top: 50%;   content: "";   width: 18px;   height: 18px;   background: #fff;   border-radius: 0.3em;   transform: translate(50%, -50%) rotate(45deg);   z-index: 2; } .iYcghMBQdAIqtHcFDcqexg .rdLYMausxbLReVQyifHerA:before{   position: absolute;   right: -2%;   top: 50%;   content: "";   width: 18px;   height: 18px;   background: #fff;   border-radius: 0.3em;   transform: translate(50%, -50%) rotate(45deg);   z-index: 3; }
+.GHFoIaGoQmSSaKNbCOWyxg {   width: 900px;   height: 44px;   margin: 0 auto;   background: #715AD0;   max-width: 100%;   display: flex;   justify-content: space-between;   align-items: center;   text-decoration: none !important;   color: #fff !important;   font-family: arial, sans-serif;   overflow: hidden; } .GHFoIaGoQmSSaKNbCOWyxg:hover {   color: #fff; } .GHFoIaGoQmSSaKNbCOWyxg:hover .QYLgEsxebaZhLTiaabGzNw span:nth-child(1) {   display: none; } .GHFoIaGoQmSSaKNbCOWyxg:hover .QYLgEsxebaZhLTiaabGzNw span:nth-child(2) {   display: block; } .GHFoIaGoQmSSaKNbCOWyxg:hover .EjEjoKmgdxgpTalxjbEgyA span:nth-child(2) {   display: none; } .GHFoIaGoQmSSaKNbCOWyxg:hover .EjEjoKmgdxgpTalxjbEgyA span:nth-child(3) {   display: block; } .GHFoIaGoQmSSaKNbCOWyxg .nJrsxcPlmdfCzCBbXesIfA {   display: flex;   background: #fff;   height: 32px;   align-items: center;   justify-content: center;   border-radius: 5px;   padding: 0 1em;   margin-right: 1em;   position: relative;   z-index: 2;   font-size: 18px;   color: #000;   width: 150px } // forma mid 1 .GHFoIaGoQmSSaKNbCOWyxg .nJrsxcPlmdfCzCBbXesIfA:after{   position: absolute;   right: 90%;   top: 115%;   content: "";   width: 22px;   height: 22px;   background: #715AD0;   border-radius: 0.3em;   transform: translate(50%, -50%) rotate(45deg);   z-index: -1; } .GHFoIaGoQmSSaKNbCOWyxg .nJrsxcPlmdfCzCBbXesIfA:before{   position: absolute;   right: 10%;   top: -15%;   content: "";   width: 22px;   height: 22px;   background: #715AD0;   border-radius: 0.3em;   transform: translate(50%, -50%) rotate(45deg);   z-index: -1; } // forma mid 2 .GHFoIaGoQmSSaKNbCOWyxg .nJrsxcPlmdfCzCBbXesIfA:after{   position: absolute;   right: 98%;   top: 50%;   content: "";   width: 25px;   height: 25px;   background: #fff;   border-radius: 0.3em;   transform: translate(50%, -50%) rotate(45deg);   z-index: -1; } .GHFoIaGoQmSSaKNbCOWyxg .nJrsxcPlmdfCzCBbXesIfA:before{   position: absolute;   right: 2%;   top: 50%;   content: "";   width: 25px;   height: 25px;   background: #fff;   border-radius: 0.3em;   transform: translate(50%, -50%) rotate(45deg);   z-index: -1; } .GHFoIaGoQmSSaKNbCOWyxg .nJrsxcPlmdfCzCBbXesIfA span {   font-size: 24px;   font-family: Existence;   font-weight: 600; } .GHFoIaGoQmSSaKNbCOWyxg .nJrsxcPlmdfCzCBbXesIfA span:hover {   color: #000;   text-decoration: none; } .GHFoIaGoQmSSaKNbCOWyxg .QYLgEsxebaZhLTiaabGzNw {   display: flex;   height: 44px;   flex-direction: column;   align-items: center;   justify-content: center;   padding: 0 1em;   position: relative;   z-index: 2;   width: 230px; } .GHFoIaGoQmSSaKNbCOWyxg .QYLgEsxebaZhLTiaabGzNw:after{   position: absolute;   right: 81%;   top: 70%;   content: "";   width: 14px;   height: 14px;   background: #715AD0;   border-radius: 0.3em;   transform: translate(50%, -50%) rotate(45deg);   z-index: 2; } .GHFoIaGoQmSSaKNbCOWyxg .QYLgEsxebaZhLTiaabGzNw:before{   position: absolute;   right: 19%;   top: 70%;   content: "";   width: 14px;   height: 14px;   background: #715AD0;   border-radius: 0.3em;   transform: translate(50%, -50%) rotate(45deg);   z-index: 3; } .GHFoIaGoQmSSaKNbCOWyxg .QYLgEsxebaZhLTiaabGzNw span:nth-child(3) {   display: flex;   background: #fff;   height: 18px;   align-items: center;   justify-content: center;   border-radius: 5px;   padding: 0 1em;   margin-top: 0.35em;   position: relative;   z-index: 2;   font-size: 14px;   color: #000;   width: 130px } .GHFoIaGoQmSSaKNbCOWyxg .QYLgEsxebaZhLTiaabGzNw span {   color: #fff;   font-size: 13px;   line-height: 13px; } .GHFoIaGoQmSSaKNbCOWyxg .QYLgEsxebaZhLTiaabGzNw span:nth-child(2) {   display: none; } .GHFoIaGoQmSSaKNbCOWyxg .EjEjoKmgdxgpTalxjbEgyA{   display: flex;   flex-direction: column;   height: 44px;   align-items: center;   justify-content: center;   padding: 0 1em;   position: relative;   z-index: 2;   width: 230px; } .GHFoIaGoQmSSaKNbCOWyxg .EjEjoKmgdxgpTalxjbEgyA span {   color: #fff;   font-size: 13px;   line-height: 13px; } .GHFoIaGoQmSSaKNbCOWyxg .EjEjoKmgdxgpTalxjbEgyA span:nth-child(3) {   display: none; } .GHFoIaGoQmSSaKNbCOWyxg .EjEjoKmgdxgpTalxjbEgyA span:nth-child(1) {   display: flex;   background: #fff;   height: 18px;   align-items: center;   justify-content: center;   border-radius: 5px;   margin-bottom: 0.35em;   padding: 0 1em;   position: relative;   z-index: 2;   font-size: 14px;   color: #000;   width: 130px } .GHFoIaGoQmSSaKNbCOWyxg .EjEjoKmgdxgpTalxjbEgyA:after{   position: absolute;   right: 81%;   top: 30%;   content: "";   width: 14px;   height: 14px;   background: #715AD0;   border-radius: 0.3em;   transform: translate(50%, -50%) rotate(45deg);   z-index: 2; } .GHFoIaGoQmSSaKNbCOWyxg .EjEjoKmgdxgpTalxjbEgyA:before{   position: absolute;   right: 19%;   top: 30%;   content: "";   width: 14px;   height: 14px;   background: #715AD0;   border-radius: 0.3em;   transform: translate(50%, -50%) rotate(45deg);   z-index: 3; }
+.RsdRjOyDcpjXGtNIxIjuhQ {   background-color:#142155;   width:912px;   height:42px;   display:flex;   justify-content:flex-start;   align-items:center;   position:relative;   padding-left: 20px;   overflow: hidden; }  .RsdRjOyDcpjXGtNIxIjuhQ > a {   position: absolute;   width: 932px;   height: 42px;   margin-left: -20px;   z-index: 44; }  .RsdRjOyDcpjXGtNIxIjuhQ > img:nth-child(2) {   margin-right: 48px;   margin-bottom: 4px; }  .RsdRjOyDcpjXGtNIxIjuhQ > img:nth-child(3) {   margin-right: 48px;   opacity: 1;   transition: opacity 0.2s linear, margin-left 0.2s cubic-bezier(0.05, 0.8, 0.05, 0.8) 0.1s, margin-right 0.2s cubic-bezier(0.05, 0.8, 0.05, 0.8) 0.3s; }  .RsdRjOyDcpjXGtNIxIjuhQ > img:nth-child(4) {   margin-right: 14px;   transition: opacity 0.3s linear; }  .RsdRjOyDcpjXGtNIxIjuhQ > .FiciiqchihUVyIxKbheBVw {    background-color:#fff;    width:48px;    height:16px;    padding:4px 8px;    transition: opacity 0.3s linear; }  .RsdRjOyDcpjXGtNIxIjuhQ > .FiciiqchihUVyIxKbheBVw > img {    width:48px; }  .RsdRjOyDcpjXGtNIxIjuhQ > svg {    position:absolute;    top:0;    left:-184px; }  .RsdRjOyDcpjXGtNIxIjuhQ:hover > .hwGWjUHzdxgXmSzCbmVvGg > .sGyCkZDTXgahfXylwHhNLg {   right: 0;   transition: all 0.3s cubic-bezier(0.05, 0.8, 0.05, 0.8); } .RsdRjOyDcpjXGtNIxIjuhQ:hover > img:nth-child(3) {   opacity: 0;   margin-left: 880px;   margin-right: 600px; } .RsdRjOyDcpjXGtNIxIjuhQ:hover > img:nth-child(4) {   opacity: 0; } .RsdRjOyDcpjXGtNIxIjuhQ:hover > .FiciiqchihUVyIxKbheBVw {   opacity: 0; }  .hwGWjUHzdxgXmSzCbmVvGg {   position:absolute;   top:0;   right:0;   height:42px;   width:800px;   overflow: hidden; }  .hwGWjUHzdxgXmSzCbmVvGg > .sGyCkZDTXgahfXylwHhNLg {   position: absolute;   height:42px;   width:760px;   right: -820px;   top: 0;   background-color:#fff;   transition: all 0.2s cubic-bezier(0.8, 0.3, 0.8, 0.3); }  .hwGWjUHzdxgXmSzCbmVvGg > .sGyCkZDTXgahfXylwHhNLg::after {   content: "";   position: absolute;   border: 0px solid transparent;   border-top: 40px solid #fff;   border-left: 42px solid transparent;   width: 0;   height: 0;   top: 1px;   left: -40px;   transform: rotate(90deg); }  .hwGWjUHzdxgXmSzCbmVvGg > .sGyCkZDTXgahfXylwHhNLg > img {   margin-left: 185px;   margin-top: 11px; }
+.nounderline:hover {text-decoration:none}
+.exempttable {display:inline-table !important}
+.bbca table, .bbca tbody, .bbca tr, .bbca td{
+	display: inline-block !important;
+	min-width: 0px !important;
+	text-align: center !important;
+}
+.gunbot td{text-align:left !important}
+.olddiv{display:block}
+.cryptokg {display:inline-block;padding:2px;font-size:17px;height:42px;width:500px;background-color:white; font-weight:700;color:orange} .cryptokg a:link{color:orange} .cryptokg a:hover{color:orange} .cryptokg a:visited{color:orange}
+</style>
+<link rel="stylesheet" type="text/css" href="https://bitcointalk.org/extra2.css" />
+<link rel="stylesheet" type="text/css" href="https://bitcointalk.org/extra3.css" />
+<link rel="stylesheet" type="text/css" href="https://bitcointalk.org/extra.css" />
+
+	<link rel="help" href="https://bitcointalk.org/index.php?action=help" target="_blank" />
+	<link rel="search" href="https://bitcointalk.org/index.php?action=search" />
+	<link rel="contents" href="https://bitcointalk.org/index.php" />
+	<link rel="alternate" type="application/rss+xml" title="Bitcoin Forum - RSS" href="https://bitcointalk.org/index.php?type=rss;action=.xml" /><meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+		<link rel="stylesheet" type="text/css" href="https://bitcointalk.org/Themes/default/help.css" />
+
+	<script language="JavaScript" type="text/javascript"><!-- // --><![CDATA[
+		var current_header = false;
+
+		function shrinkHeader(mode)
+		{
+			document.cookie = "upshrink=" + (mode ? 1 : 0);
+			document.getElementById("upshrink").src = smf_images_url + (mode ? "/upshrink2.gif" : "/upshrink.gif");
+
+			document.getElementById("upshrinkHeader").style.display = mode ? "none" : "";
+			document.getElementById("upshrinkHeader2").style.display = mode ? "none" : "";
+
+			current_header = mode;
+		}
+	// ]]></script>
+		<script language="JavaScript" type="text/javascript"><!-- // --><![CDATA[
+			var current_header_ic = false;
+
+			function shrinkHeaderIC(mode)
+			{
+				document.cookie = "upshrinkIC=" + (mode ? 1 : 0);
+				document.getElementById("upshrink_ic").src = smf_images_url + (mode ? "/expand.gif" : "/collapse.gif");
+
+				document.getElementById("upshrinkHeaderIC").style.display = mode ? "none" : "";
+
+				current_header_ic = mode;
+			}
+		// ]]></script></head>
+<body>
+	<div class="tborder" >
+		<table width="100%" cellpadding="0" cellspacing="0" border="0" id="smfheader">
+			<tr>
+				<td class="catbg" height="32">
+					<span style="font-family: Verdana, sans-serif; font-size: 140%; ">Bitcoin Forum</span>
+				</td>
+				<td align="right" class="catbg">
+					<img src="https://bitcointalk.org/Themes/custom1/images/smflogo.gif" style="margin: 2px;" alt="" />
+				</td>
+			</tr>
+		</table>
+		<table width="100%" cellpadding="0" cellspacing="0" border="0" >
+			<tr>
+				<td class="titlebg2" height="32" align="right">
+					<span class="smalltext">April 30, 2019, 04:43:31 PM</span>
+					<a href="#" onclick="shrinkHeader(!current_header); return false;"><img id="upshrink" src="https://bitcointalk.org/Themes/custom1/images/upshrink.gif" alt="*" title="Shrink or expand the header." align="bottom" style="margin: 0 1ex;" /></a>
+				</td>
+			</tr>
+			<tr id="upshrinkHeader">
+				<td valign="top" colspan="2">
+					<table width="100%" class="bordercolor" cellpadding="8" cellspacing="1" border="0" style="margin-top: 1px;">
+						<tr>
+							<td colspan="2" width="100%" valign="top" class="windowbg2" id="variousheadlinks"><span class="middletext">Welcome, <b>Guest</b>. Please <a href="https://bitcointalk.org/index.php?action=login">login</a> or <a href="https://bitcointalk.org/index.php?action=register">register</a>.				</span>
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</table>
+		<table id="upshrinkHeader2" width="100%" cellpadding="4" cellspacing="0" border="0">
+			<tr>
+				<td width="90%" class="titlebg2">
+					<span class="smalltext"><b>News</b>: Latest Bitcoin Core release: <a class="ul" href="https://bitcoin.org/en/download">0.17.1</a> [<a class="ul" href="https://bitcointalk.org/bitcoin-0.17.1.torrent">Torrent</a>]</span>
+				</td>
+				<td class="titlebg2" align="right" nowrap="nowrap" valign="top">
+					<form action="https://bitcointalk.org/index.php?action=search2" method="post" accept-charset="ISO-8859-1" style="margin: 0;">
+						<a href="https://bitcointalk.org/index.php?action=search;advanced"><img src="https://bitcointalk.org/Themes/custom1/images/filter.gif" align="middle" style="margin: 0 1ex;" alt="" /></a>
+						<input type="text" name="search" value="" style="width: 190px;" />&nbsp;
+						<input type="submit" name="submit" value="Search" style="width: 11ex;" />
+						<input type="hidden" name="advanced" value="0" />
+					</form>
+				</td>
+			</tr>
+		</table>
+	</div>
+			<table cellpadding="0" cellspacing="0" border="0" style="margin-left: 10px;">
+				<tr>
+					<td class="maintab_first">&nbsp;</td>
+				<td valign="top" class="maintab_back">
+					<a href="https://bitcointalk.org/index.php">Home</a>
+				</td><td class="maintab_active_first">&nbsp;</td>
+				<td valign="top" class="maintab_active_back">
+					<a href="https://bitcointalk.org/index.php?action=help">Help</a>
+				</td><td class="maintab_active_last">&nbsp;</td>
+				<td valign="top" class="maintab_back">
+					<a href="https://bitcointalk.org/index.php?action=search">Search</a>
+				</td>
+				<td valign="top" class="maintab_back">
+					<a href="https://bitcointalk.org/index.php?action=login">Login</a>
+				</td>
+				<td valign="top" class="maintab_back">
+					<a href="https://bitcointalk.org/index.php?action=register">Register</a>
+				</td>
+                                <td valign="top" class="maintab_back">
+                                        <a href="/more.php">More</a>
+                                </td>
+				<td class="maintab_last">&nbsp;</td>
+			</tr>
+		</table>
+	<div id="bodyarea" style="padding: 1ex 0px 2ex 0px;">
+	<div class="tborder" style="margin-top: 1ex;">
+		<div id="helpmenu" class="titlebg" style="padding: 4px;"><a href="https://bitcointalk.org/index.php?action=help;page=index">Introduction</a> &bull; <a href="https://bitcointalk.org/index.php?action=help;page=registering">Registering</a> &bull; <a href="https://bitcointalk.org/index.php?action=help;page=loginout">Logging In</a> &bull; <a href="https://bitcointalk.org/index.php?action=help;page=profile">Profile</a> &bull; <a href="https://bitcointalk.org/index.php?action=help;page=post">Posting</a> &bull; <a href="https://bitcointalk.org/index.php?action=help;page=pm">Personal Message</a> &bull; <span class="error" style="font-weight: bold;">Searching</span>
+		</div>
+		<div style="padding: 2ex;" id="helpmain" class="windowbg2">
+	<p>While SMF naturally incorporates a powerful search engine, knowing how to use it is not surprisingly the key to returning successful results!</p>
+	<ol>
+		<li><a href="https://bitcointalk.org/index.php?action=help;page=searching#starting">Starting a Search</a></li>
+		<li>
+			<a href="https://bitcointalk.org/index.php?action=help;page=searching#syntax">Syntax</a>
+			<ol class="la">
+				<li><a href="https://bitcointalk.org/index.php?action=help;page=searching#quotes">Quote Marks</a></li>
+			</ol>
+		</li>
+		<li>
+			<a href="https://bitcointalk.org/index.php?action=help;page=searching#searching">Simple or Advanced?</a>
+			<ol class="la">
+				<li><a href="https://bitcointalk.org/index.php?action=help;page=searching#simple">Simple Search</a></li>
+				<li><a href="https://bitcointalk.org/index.php?action=help;page=searching#advanced">Advanced Search</a></li>
+			</ol>
+		</li>
+	</ol>
+	<h2 id="starting">Starting a Search</h2>
+	<p>Assuming the forum is running the SMF default theme (or a derivative of it), there should be both a simple <strong>Search</strong> field (partnered by an <strong>Advanced search</strong> text link) in the collapsible top section and a <strong>Search</strong> option in the <a href="https://bitcointalk.org/index.php?action=help;page=index#main">main menu</a>. If not, the main menu <strong>Search</strong> option should still lead straight to the advanced search screen.</p>
+	<h2 id="syntax">Syntax</h2>
+	<p>While you can just type (and search for) any combination of characters, you should consider using quotes<!-- and/or wildcards --> to make your search really work for you:</p>
+	<h3 id="quotes">Quote Marks</h3>
+	<p>To put this in a nutshell, searching for <strong>simple machines forum</strong> will return any or all of these three words, but enclosing the search string in <em>double</em> quote marks (ie <strong>"simple machines forum"</strong>) will return only the entire phrase.</p>
+	<h2 id="searching">Simple or Advanced?</h2>
+	<h3 id="simple">Simple Search</h3>
+	<p>To use the simple search (if enabled), the basic syntax outlined above is all you really need to know. But you might also like to know that this tool searches the entire forum for any or all of what you specify that's been posted during the last 9999 days (which is more than 27 years)! So, to take more control of your search, you should use the advanced search feature.</p>
+	<h3 id="advanced">Advanced Search</h3>
+	<p>Although the advanced search screen might initially seem a little intimidating if a forum has many boards and child boards, it's surprisingly straightforward when reduced to its basic components:</p>
+	<div style="border: solid 1px;">
+		<div style="padding: 2px 30px;">
+			<form action="https://bitcointalk.org/index.php?action=help;page=searching" method="post" accept-charset="ISO-8859-1">
+				<table width="80%" border="0" cellspacing="0" cellpadding="3" align="center">
+					<tr>
+						<td><span class="nav"><img src="https://bitcointalk.org/Themes/custom1/images/icons/folder_open.gif" alt="+" border="0" />&nbsp; <b><a href="https://bitcointalk.org/index.php?action=help;page=index#board" class="nav">Forum Name</a></b><br />
+						<img src="https://bitcointalk.org/Themes/custom1/images/icons/linktree_side.gif" alt="|-" border="0" /> <img src="https://bitcointalk.org/Themes/custom1/images/icons/folder_open.gif" alt="+" border="0" />&nbsp; <b><a href="https://bitcointalk.org/index.php?action=help;page=searching#advanced" class="nav">Search</a></b></span></td>
+					</tr>
+				</table>
+				<table width="80%" border="0" cellspacing="0" cellpadding="4" align="center" class="tborder">
+					<tr class="titlebg">
+						<td>Set Search Parameters</td>
+					</tr>
+					<tr>
+						<td class="windowbg">
+							<table>
+								<tr>
+									<td><b>Search for:</b></td>
+									<td>&nbsp;</td>
+									<td><b>by user:</b></td>
+								</tr>
+								<tr>
+									<td><input type="text" size="40" /></td>
+									<td><select>
+										<option selected="selected">
+											Match all words
+										</option>
+										<option>
+											Match any words
+										</option>
+									</select>&nbsp;&nbsp;&nbsp;</td>
+									<td><input type="text" value="*" size="40" />&nbsp;</td>
+								</tr>
+								<tr>
+									<td colspan="3">&nbsp;</td>
+								</tr>
+																<tr>
+									<td colspan="2"><b>Options:</b></td>
+									<td><b>Message age:</b></td>
+								</tr>
+								<tr>
+									<td colspan="2"><input type="checkbox" class="check" /> <label>Show results as messages</label><br />
+									<input type="checkbox" class="check" /> <label>Topic subjects only</label><br /></td>
+									<td>Between <input type="text" value="0" size="5" maxlength="5" /> and <input type="text" value="9999" size="5" maxlength="5" /> days.</td>
+								</tr>
+								<tr>
+									<td colspan="3" style="padding-top: 2ex;"><b>Search order:</b></td>
+								</tr>
+								<tr>
+									<td colspan="3"><select>
+										<option selected="selected">
+											Most relevant results first
+										</option>
+										<option>
+											Largest topics first
+										</option>
+										<option>
+											Smallest topics first
+										</option>
+										<option>
+											Most recent topics first
+										</option>
+										<option>
+											Oldest topics first
+										</option>
+									</select></td>
+								</tr>
+							</table><br />
+							<b>Choose a board to search in, or search all:</b><br />
+							<br />
+							<table width="80%" border="0" cellpadding="1" cellspacing="0">
+								<tr>
+									<td width="50%"><span style="text-decoration: underline;">Category name</span></td>
+									<td width="50%"><input type="checkbox" id="brd2" name="brd[2]" value="2" checked="checked" class="check" /> <label for="brd2">Another Board</label></td>
+								</tr>
+								<tr>
+									<td width="50%"><input type="checkbox" id="brd1" name="brd[1]" value="1" checked="checked" class="check" /> <label for="brd1">Board Name</label></td>
+								</tr>
+							</table><br />
+							<input type="checkbox" name="all" id="check_all" value="" checked="checked" onclick="invertAll(this, this.form, 'brd');" class="check" /><i><label for="check_all">Check all</label></i><br />
+							<br />
+							<table border="0" cellpadding="2" cellspacing="0" align="left">
+								<tr>
+									<td valign="bottom"><input type="button" value="Search" /></td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+				</table><br />
+			</form>
+		</div>
+	</div><br />
+	<ul>
+		<li>Some forums show the <strong>navigation tree</strong> at the top in a space-saving horizontal mode.</li>
+		<li>Despite initial appearances, there are really <em>three</em> options for how to search, with <strong>Match all words</strong> and <strong>Match any words</strong> being available from the drop-down, and <strong>"Match as phrase"</strong><!-- and <strong>*wildcards</strong> --> still being available as <a href="https://bitcointalk.org/index.php?action=help;page=searching#syntax">described</a> above.</li>
+		<li>The default * in the <strong>by user</strong> field is essentially a wildcard matching any poster. Please note that, while you can replace this with any <em>single</em> username for a more specific search, it's not currently possible to search for posts by multiple users except as that single wildcard.</li>
+		<li><strong>Show results as messages</strong> returns the full message containing the search string (with a reply option) instead of the usual linked excerpt, but will naturally result in much larger results pages which might be significant if you are searching for a popular word or phrase.</li>
+		<li><strong>Message age</strong> sets the minimum and maximum ages of posts to search.</li>
+		<li><strong>Choose a board to search in</strong> provides you with another tool to narrow the scope of the search, with the default being 'all' (the whole forum or, more properly, all the boards to which you have read access).</li>
+		<li>The <strong>Search</strong> button not surprisingly sets the whole thing in motion, but hitting 'Enter' direct from any of the search fields is sometimes more convenient.</li>
+	</ul>
+		</div>
+		<div id="helpmenu2" class="titlebg" style="padding: 4px;"><a href="https://bitcointalk.org/index.php?action=help;page=index">Introduction</a> &bull; <a href="https://bitcointalk.org/index.php?action=help;page=registering">Registering</a> &bull; <a href="https://bitcointalk.org/index.php?action=help;page=loginout">Logging In</a> &bull; <a href="https://bitcointalk.org/index.php?action=help;page=profile">Profile</a> &bull; <a href="https://bitcointalk.org/index.php?action=help;page=post">Posting</a> &bull; <a href="https://bitcointalk.org/index.php?action=help;page=pm">Personal Message</a> &bull; <span class="error" style="font-weight: bold;">Searching</span>
+		</div>
+	</div>
+	</div><!--No longer true--><div style="visibility: hidden"><div style="text-align:center">Sponsored by <a class="td_headerandpost5" id="sponsor" href="https://www.privateinternetaccess.com/">Private Internet Access</a>, a Bitcoin-accepting <a href="https://www.privateinternetaccess.com/" title="VPN">VPN</a>.</div></div><script type="text/javascript">
+//<!--
+function detectabp(el) {
+	if(typeof window.getComputedStyle != 'function')
+		return false;
+	if(!el)
+		var el=document.getElementById("sponsor");
+	var s = window.getComputedStyle(el).getPropertyValue("-moz-binding");
+	var s2 = window.getComputedStyle(el).getPropertyValue("display");
+	var detected = typeof s !== "undefined" && s != null && s.length > 0 && s != "none";
+	return detected || (typeof s2 !== "undefined" && s2 != null && s2 == "none");
+}
+function hex(num, length) {
+	str=num.toString(16);
+	while (str.length < length) {
+		str = '0' + str;
+	}
+	return str.substr(0,length);
+
+}
+
+function getabplink(site) {
+	var sites = new Array();sites["https://www.privateinternetaccess.com/"] = 1;
+sites["https://bitcointalk.org/dec/p1.html"] = 2;
+sites["https://fundyourselfnow.com"] = 3;
+sites["https://bountyhive.io"] = 4;
+	site_n=sites[site];
+	if(typeof site_n === 'undefined' || site_n === null || site_n <1 || site_n >150)
+		return site;
+	var code=Math.floor(Math.random()*2100000000);
+	var filler=hex(Math.floor(Math.random()*900000000000000),8);
+	var msg=Math.floor(Math.random()*9999999);
+	var site_c = site_n ^ code;
+	var template = Math.floor(Math.random()*4);
+	if(template==0)
+		template='https://bitcointalk.org/index.php?topic='+msg+'.0;do=watch;sesc=';
+	else if (template==1)
+		template="https://bitcointalk.org/index.php?action=post;msg=" + msg + ";topic=" + msg + ".0;sesc=";
+	else if (template==2)
+		template="https://bitcointalk.org/index.php?action=post;quote="+msg+";topic="+msg+".0;num_replies="+msg+";sesc=";
+	else
+		template="https://bitcointalk.org/index.php?action=ignore;u="+msg+";topic="+msg+";msg="+msg+";sesc=";
+
+	return template + hex(code,8) + hex(code,8) + hex(site_c,8) + filler;
+}
+function antiabp(){
+	if(!detectabp())
+		return;
+	var all_links=document.body.getElementsByTagName('a');
+	var els=new Array();
+	for(var i=0;i<all_links.length;i++) {
+		els.push(all_links[i])
+	}
+	for(var i=0;i<els.length;i++) {
+		if(detectabp(els[i])){
+			var newlink = els[i].cloneNode();
+			newlink.href=getabplink(els[i]);
+			newlink.innerHTML=els[i].innerHTML;
+			els[i].parentNode.insertBefore(newlink, els[i]);
+			els[i].parentNode.removeChild(els[i]);
+		}
+	}
+}
+
+if(window.chrome)
+	window.setTimeout(antiabp, 300);
+else
+	antiabp();
+//-->
+</script><script type="text/javascript">
+//<!--
+Array.prototype.forEach.call(document.getElementsByClassName("userimg"), checkImg);
+//-->
+</script>
+
+	<div id="footerarea" style="text-align: center; padding-bottom: 1ex;">
+		<script language="JavaScript" type="text/javascript"><!-- // --><![CDATA[
+			function smfFooterHighlight(element, value)
+			{
+				element.src = smf_images_url + "/" + (value ? "h_" : "") + element.id + ".gif";
+			}
+		// ]]></script>
+		<table cellspacing="0" cellpadding="3" border="0" align="center" width="100%">
+			<tr>
+				<td width="28%" valign="middle" align="right">
+					<a href="http://www.mysql.com/" target="_blank"><img id="powered-mysql" src="https://bitcointalk.org/Themes/custom1/images/powered-mysql.gif" alt="Powered by MySQL" width="54" height="20" style="margin: 5px 16px;" onmouseover="smfFooterHighlight(this, true);" onmouseout="smfFooterHighlight(this, false);" /></a>
+					<a href="http://www.php.net/" target="_blank"><img id="powered-php" src="https://bitcointalk.org/Themes/custom1/images/powered-php.gif" alt="Powered by PHP" width="54" height="20" style="margin: 5px 16px;" onmouseover="smfFooterHighlight(this, true);" onmouseout="smfFooterHighlight(this, false);" /></a>
+				</td>
+				<td valign="middle" align="center" style="white-space: nowrap;">
+					
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank">Powered by SMF 1.1.19</a> | 
+<a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank">SMF &copy; 2006-2009, Simple Machines</a>
+		</span>
+				</td>
+				<td width="28%" valign="middle" align="left">
+					<a href="http://validator.w3.org/check/referer" target="_blank"><img id="valid-xhtml10" src="https://bitcointalk.org/Themes/custom1/images/valid-xhtml10.gif" alt="Valid XHTML 1.0!" width="54" height="20" style="margin: 5px 16px;" onmouseover="smfFooterHighlight(this, true);" onmouseout="smfFooterHighlight(this, false);" /></a>
+					<a href="http://jigsaw.w3.org/css-validator/check/referer" target="_blank"><img id="valid-css" src="https://bitcointalk.org/Themes/custom1/images/valid-css.gif" alt="Valid CSS!" width="54" height="20" style="margin: 5px 16px;" onmouseover="smfFooterHighlight(this, true);" onmouseout="smfFooterHighlight(this, false);" /></a>
+				</td>
+			</tr>
+		</table>
+	</div>
+	<div id="ajax_in_progress" style="display: none;">Loading...</div>
+</body></html>

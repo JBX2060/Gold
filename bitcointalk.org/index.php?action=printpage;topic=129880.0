@@ -1,0 +1,200 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+		<link rel="canonical" href="https://bitcointalk.org/index.php?topic=129880.0" />
+		<title>Print Page - Sending fake coins?</title>
+		<style type="text/css">
+			body
+			{
+				color: black;
+				background-color: white;
+			}
+			body, td, .normaltext
+			{
+				font-family: Verdana, arial, helvetica, serif;
+				font-size: small;
+			}
+			*, a:link, a:visited, a:hover, a:active
+			{
+				color: black !important;
+			}
+			table
+			{
+				empty-cells: show;
+			}
+			.code
+			{
+				font-size: x-small;
+				font-family: monospace;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.quote
+			{
+				font-size: x-small;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.smalltext, .quoteheader, .codeheader
+			{
+				font-size: x-small;
+			}
+			.largetext
+			{
+				font-size: large;
+			}
+			hr
+			{
+				height: 1px;
+				border: 0;
+				color: black;
+				background-color: black;
+			}
+		</style>
+	</head>
+	<body>
+		<h1 class="largetext">Bitcoin Forum</h1>
+		<h2 class="normaltext">Bitcoin => Bitcoin Technical Support => Topic started by: farlack on December 09, 2012, 04:11:56 AM</h2>
+
+		<table width="90%" cellpadding="0" cellspacing="0" border="0">
+			<tr>
+				<td>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Sending fake coins?</b><br />
+					Post by: <b>farlack</b> on <b>December 09, 2012, 04:11:56 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">I read everywhere when receiving coins, wait for at least 6 blocks, whats this about? Is it possible to send fake coins, have them show up in my wallet, and go away later?<br /><br />Normally I get the coins within 60 seconds, can they be reversed?</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Sending fake coins?</b><br />
+					Post by: <b>CIYAM</b> on <b>December 09, 2012, 04:23:05 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Understand that the confirmations are required in order to prevent a &quot;double-spend&quot;.<br /><br />So although you can never receive a &quot;fake&quot; bitcoin (either the tx output is valid or not) it is possible (although not highly probable) that you could be sent a tx that later becomes &quot;invalid&quot; due to another tx using the same input having been sent at roughly the same time.<br /><br />Certainly for high value txs I would recommend waiting for at least 6 confirmations.<br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Sending fake coins?</b><br />
+					Post by: <b>farlack</b> on <b>December 09, 2012, 04:24:16 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">So if the coins are in my wallet, they&#039;re okay? Or can they disappear?</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Sending fake coins?</b><br />
+					Post by: <b>CIYAM</b> on <b>December 09, 2012, 04:27:10 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=129880.msg1387718#msg1387718">Quote from: farlack on December 09, 2012, 04:24:16 AM</a></div><div class="quote">So if the coins are in my wallet, they&#039;re okay? Or can they disappear?<br /></div><br />They can indeed &quot;disappear&quot; if they are later detected as being double-spends.<br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Sending fake coins?</b><br />
+					Post by: <b>farlack</b> on <b>December 09, 2012, 04:38:34 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=129880.msg1387723#msg1387723">Quote from: CIYAM Pty. Ltd. on December 09, 2012, 04:27:10 AM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=129880.msg1387718#msg1387718">Quote from: farlack on December 09, 2012, 04:24:16 AM</a></div><div class="quote">So if the coins are in my wallet, they&#039;re okay? Or can they disappear?<br /></div><br />They can indeed &quot;disappear&quot; if they are later detected as being double-spends.<br /><br /></div><br />Cool, thanks that&#039;s all I needed to know.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Sending fake coins?</b><br />
+					Post by: <b>Rudd-O</b> on <b>December 09, 2012, 04:40:42 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">If the coins appear in your wallet and remain there after six confirmations, they can never be taken away.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Sending fake coins?</b><br />
+					Post by: <b>John (John K.)</b> on <b>December 09, 2012, 04:59:11 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=129880.msg1387742#msg1387742">Quote from: Rudd-O on December 09, 2012, 04:40:42 AM</a></div><div class="quote">If the coins appear in your wallet and remain there after six confirmations, they can never be taken away.<br /></div>They can. However, the more confirmations you have, the less possibility of this happening.&nbsp; Every &#039;confirmation&#039; adds a level of security to the transaction, and a massive amount of resources would be needed to turn back each transaction. For daily uses and moderate transactions - say 1000 BTC and below - 1-2 confirmations are what you&#039;ll only probably need.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Sending fake coins?</b><br />
+					Post by: <b>Rudd-O</b> on <b>December 09, 2012, 10:31:42 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=129880.msg1387763#msg1387763">Quote from: John (johnthedong) on December 09, 2012, 04:59:11 AM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=129880.msg1387742#msg1387742">Quote from: Rudd-O on December 09, 2012, 04:40:42 AM</a></div><div class="quote">If the coins appear in your wallet and remain there after six confirmations, they can never be taken away.<br /></div>They can. However, the more confirmations you have, the less possibility of this happening.&nbsp; Every &#039;confirmation&#039; adds a level of security to the transaction, and a massive amount of resources would be needed to turn back each transaction. For daily uses and moderate transactions - say 1000 BTC and below - 1-2 confirmations are what you&#039;ll only probably need.<br /></div><br />Statistically, the Sun is more likely to &quot;turn off&quot; tomorrow than such an event happening.&nbsp; For all practical purposes and intents, <b>no one can scam people after six confirmations</b>.<br /><br />This is why I feel justified in saying, with near absolute certainty, &quot;those coins can never be taken&quot;.<br /><br />If you do not believe this is true, you should not be using Bitcoin.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Sending fake coins?</b><br />
+					Post by: <b>CIYAM</b> on <b>December 09, 2012, 10:53:36 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">I don&#039;t believe that this is correct in the case of a successful &gt;50% attack.<br /><br />AFAIA if someone has enough hashing resources that they can mine blocks much faster than the rest of the network combined then if they simply keep mining new blocks (even with no tx&#039;s if they like) without publishing them they can let the blockchain grow as many blocks as they like and then suddenly announce a longer chain (this attack can only go back as far as a &quot;checkpoint&quot; AFAIA).<br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Sending fake coins?</b><br />
+					Post by: <b>FreeMoney</b> on <b>December 09, 2012, 11:03:25 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=129880.msg1388063#msg1388063">Quote from: Rudd-O on December 09, 2012, 10:31:42 AM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=129880.msg1387763#msg1387763">Quote from: John (johnthedong) on December 09, 2012, 04:59:11 AM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=129880.msg1387742#msg1387742">Quote from: Rudd-O on December 09, 2012, 04:40:42 AM</a></div><div class="quote">If the coins appear in your wallet and remain there after six confirmations, they can never be taken away.<br /></div>They can. However, the more confirmations you have, the less possibility of this happening.&nbsp; Every &#039;confirmation&#039; adds a level of security to the transaction, and a massive amount of resources would be needed to turn back each transaction. For daily uses and moderate transactions - say 1000 BTC and below - 1-2 confirmations are what you&#039;ll only probably need.<br /></div><br />Statistically, the Sun is more likely to &quot;turn off&quot; tomorrow than such an event happening.&nbsp; For all practical purposes and intents, <b>no one can scam people after six confirmations</b>.<br /><br />This is why I feel justified in saying, with near absolute certainty, &quot;those coins can never be taken&quot;.<br /><br />If you do not believe this is true, you should not be using Bitcoin.<br /></div><br />It&#039;s not true. If some entity has more hashing power than all honest miners they can eventually catch up from any number of blocks. It is no where near the level of &quot;sun turning off&quot;.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Sending fake coins?</b><br />
+					Post by: <b>Rudd-O</b> on <b>December 09, 2012, 11:40:08 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=129880.msg1388093#msg1388093">Quote from: FreeMoney on December 09, 2012, 11:03:25 AM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=129880.msg1388063#msg1388063">Quote from: Rudd-O on December 09, 2012, 10:31:42 AM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=129880.msg1387763#msg1387763">Quote from: John (johnthedong) on December 09, 2012, 04:59:11 AM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=129880.msg1387742#msg1387742">Quote from: Rudd-O on December 09, 2012, 04:40:42 AM</a></div><div class="quote">If the coins appear in your wallet and remain there after six confirmations, they can never be taken away.<br /></div>They can. However, the more confirmations you have, the less possibility of this happening. &nbsp;Every &#039;confirmation&#039; adds a level of security to the transaction, and a massive amount of resources would be needed to turn back each transaction. For daily uses and moderate transactions - say 1000 BTC and below - 1-2 confirmations are what you&#039;ll only probably need.<br /></div><br />Statistically, the Sun is more likely to &quot;turn off&quot; tomorrow than such an event happening. &nbsp;For all practical purposes and intents, <b>no one can scam people after six confirmations</b>.<br /><br />This is why I feel justified in saying, with near absolute certainty, &quot;those coins can never be taken&quot;.<br /><br />If you do not believe this is true, you should not be using Bitcoin.<br /></div><br />It&#039;s not true. If some entity has more hashing power than all honest miners they can eventually catch up from any number of blocks. It is no where near the level of &quot;sun turning off&quot;.<br /></div><br />You two are changing the subject.<br /><br />The question wasn&#039;t &quot;under what circumstances is the Bitcoin system compromised&quot; -- it was &quot;given the <b>current</b> circumstances, how likely it is that I will be scammed out of my coins <b>now</b> after they have received six confirmations.<br /><br />So, you two need to be Bayesians, respond to OP honestly, and stop introducing nonsensical speculation to a question that didn&#039;t ask for it.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Sending fake coins?</b><br />
+					Post by: <b>CIYAM</b> on <b>December 09, 2012, 11:44:11 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=129880.msg1388126#msg1388126">Quote from: Rudd-O on December 09, 2012, 11:40:08 AM</a></div><div class="quote">So, you two need to be Bayesians, respond to OP honestly, and stop introducing nonsensical speculation to a question that didn&#039;t ask for it.<br /></div><br />Hmm... am not quite sure how to be a &quot;Bayesian&quot; (although I am guessing you might be referring to the Baysian equation algos used for identifying spam).<br /><br />It isn&#039;t actually as nonsensical as you think - one of the core devs was just posting the other day about the weakness of the Bitcoin network.<br /><br />Don&#039;t kid yourselves - if the PRC government decided to prevent the export of ASIC and keep it to use on Bitcoin mining themselves then the &gt;50% could happen in as little as one month.<br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Sending fake coins?</b><br />
+					Post by: <b>Rudd-O</b> on <b>December 09, 2012, 11:53:15 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Being a Bayesian means not reasoning from priors not requested in the question.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Sending fake coins?</b><br />
+					Post by: <b>tiberiandusk</b> on <b>December 09, 2012, 11:54:14 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=129880.msg1388129#msg1388129">Quote from: CIYAM Pty. Ltd. on December 09, 2012, 11:44:11 AM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=129880.msg1388126#msg1388126">Quote from: Rudd-O on December 09, 2012, 11:40:08 AM</a></div><div class="quote">So, you two need to be Bayesians, respond to OP honestly, and stop introducing nonsensical speculation to a question that didn&#039;t ask for it.<br /></div><br />Hmm... am not quite sure how to be a &quot;Bayesian&quot; (although I am guessing you might be referring to the Baysian equation algos used for identifying spam).<br /><br />It isn&#039;t actually as nonsensical as you think - one of the core devs was just posting the other day about the weakness of the Bitcoin network.<br /><br />Don&#039;t kid yourselves - if the PRC government decided to prevent the export of ASIC and keep it to use on Bitcoin mining themselves then the &gt;50% could happen in as little as one month.<br /><br /></div><br />Jokes on the PRC. They don&#039;t exist.&nbsp; ;)</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Sending fake coins?</b><br />
+					Post by: <b>CIYAM</b> on <b>December 09, 2012, 11:58:16 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=129880.msg1388138#msg1388138">Quote from: Rudd-O on December 09, 2012, 11:53:15 AM</a></div><div class="quote">Being a Bayesian means not reasoning from priors not requested in the question.<br /></div><br />Okay - thanks for that (had never heard the expression before) - overall I hope the OP is not getting too worried that his bitcoins are not safe even after 6 confirmations but I do believe that it is at least important to try and explain clearly how the system works so people don&#039;t get too &quot;shocked&quot; if something occurred that they had been told was &quot;less likely than the end of the sun&quot; (for this reason I would never recommend anyone to invest more in bitcoins than they are prepared to lose completely).<br /><br />OP - if I&#039;ve confused you further then sorry and feel free to ask for clarification.<br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Sending fake coins?</b><br />
+					Post by: <b>caffeinewriter</b> on <b>December 11, 2012, 07:11:15 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">In order to pull off a successful %51 attack, you&#039;d need to have an array of computers that could exceed 24.07 TeraHashes<sup>[1] (http://bitcoinwatch.com/)</sup>. That&#039;s the mining power of ~480 of the most powerful, announced, but as of yet <span style="text-decoration: underline;">unreleased</span> ASICs. When ASICs do come out, this will skyrocket, and will require a lot more processing power. For those of you that want this in FLOPS (Floating Point Operations per second), that&#039;s 305.63 PetaFLOPS per Second<sup>[1] (http://bitcoinwatch.com/)</sup>. The most powerful supercomputer in the world is only capable of 17.59 petaflops<sup>[2] (https://en.wikipedia.org/wiki/FLOPS#Records)</sup>. Which means you&#039;d need more than 17 of these supercomputers in order to pull off a %51 attack, (assuming they&#039;re optimized for Bitcoin Mining, which they&#039;re not.) You&#039;d also need over 54.5 times the amount of processing power of the Folding@home distributed computing network (5.6 Petaflops<sup>[3] (https://en.wikipedia.org/wiki/FLOPS#Distributed_computing_records)</sup>) That&#039;s a shit ton of computing power. All to double spend. It&#039;s just not feasible :P </div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Sending fake coins?</b><br />
+					Post by: <b>AndrewBUD</b> on <b>December 11, 2012, 07:14:47 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Your coins are fine.. No worries even after 1 confirmation :P </div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Sending fake coins?</b><br />
+					Post by: <b>caffeinewriter</b> on <b>December 11, 2012, 07:29:07 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=129880.msg1393047#msg1393047">Quote from: AndrewBUD on December 11, 2012, 07:14:47 PM</a></div><div class="quote">Your coins are fine.. No worries even after 1 confirmation :P <br /></div><br />Theoretically, with a bit of luck and skill, an attacker could taint a node so that it confirms the transaction, but not on the network as a whole. Highly unlikely though.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Sending fake coins?</b><br />
+					Post by: <b>AndrewBUD</b> on <b>December 11, 2012, 07:39:46 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Has it ever happened to you? or even anyone you know? <br /><br /><br />There is also a chance that you could be ass raped by a transvestite donkey.. :D</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Sending fake coins?</b><br />
+					Post by: <b>caffeinewriter</b> on <b>December 11, 2012, 07:43:01 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=129880.msg1393134#msg1393134">Quote from: AndrewBUD on December 11, 2012, 07:39:46 PM</a></div><div class="quote">Has it ever happened to you? or even anyone you know? <br /><br /><br />There is also a chance that you could be ass raped by a transvestite donkey.. :D<br /></div><br />Very true XD And no it hasn&#039;t. I think I&#039;m more likely to be gangbanged by a traveling group of talking transvestite gypsy donkeys.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Sending fake coins?</b><br />
+					Post by: <b>AndrewBUD</b> on <b>December 11, 2012, 07:50:50 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=129880.msg1393144#msg1393144">Quote from: caffeinewriter on December 11, 2012, 07:43:01 PM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=129880.msg1393134#msg1393134">Quote from: AndrewBUD on December 11, 2012, 07:39:46 PM</a></div><div class="quote">Has it ever happened to you? or even anyone you know? <br /><br /><br />There is also a chance that you could be ass raped by a transvestite donkey.. :D<br /></div><br />Very true XD And no it hasn&#039;t. I think I&#039;m more likely to be gangbanged by a traveling group of talking transvestite gypsy donkeys.<br /></div><br /><br />:D uh oh... Might be your lucky day! </div>
+					<br /><br />
+					<div align="center" class="smalltext">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank">Powered by SMF 1.1.19</a> | 
+<a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank">SMF &copy; 2006-2009, Simple Machines</a>
+		</span></div>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

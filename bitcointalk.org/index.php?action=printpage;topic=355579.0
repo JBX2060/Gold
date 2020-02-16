@@ -1,0 +1,194 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+		<link rel="canonical" href="https://bitcointalk.org/index.php?topic=355579.0" />
+		<title>Print Page - [BBQ][BQC] *Stratum**Vardiff**Idle Worker Notif**SSL**Mobile Site*** bbqpool.net</title>
+		<style type="text/css">
+			body
+			{
+				color: black;
+				background-color: white;
+			}
+			body, td, .normaltext
+			{
+				font-family: Verdana, arial, helvetica, serif;
+				font-size: small;
+			}
+			*, a:link, a:visited, a:hover, a:active
+			{
+				color: black !important;
+			}
+			table
+			{
+				empty-cells: show;
+			}
+			.code
+			{
+				font-size: x-small;
+				font-family: monospace;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.quote
+			{
+				font-size: x-small;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.smalltext, .quoteheader, .codeheader
+			{
+				font-size: x-small;
+			}
+			.largetext
+			{
+				font-size: large;
+			}
+			hr
+			{
+				height: 1px;
+				border: 0;
+				color: black;
+				background-color: black;
+			}
+		</style>
+	</head>
+	<body>
+		<h1 class="largetext">Bitcoin Forum</h1>
+		<h2 class="normaltext">Alternate cryptocurrencies => Altcoin Discussion => Topic started by: ocminer on December 03, 2013, 08:03:37 AM</h2>
+
+		<table width="90%" cellpadding="0" cellspacing="0" border="0">
+			<tr>
+				<td>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>[BBQ][BQC] *Stratum**Vardiff**Idle Worker Notif**SSL**Mobile Site*** bbqpool.net</b><br />
+					Post by: <b>ocminer</b> on <b>December 03, 2013, 08:03:37 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Hey folks,<br /><br />Join our BQC/BBQCoin Server with latest MPOS, a modified (stratum enabled) BBQCoind which will soon be released to the public and stratum-mining.<br /><br />The Server currently support:<br /><br />* Stratum Protocol<br />* Vardiff<br />* Optional Getwork Protocol<br />* Proportional Payout (NOT PPLNS!)<br />* Instant Cashout / Automatic Payout <br />* Idle Worker Notifs<br />* Many Statistics<br />* Optimized Version for Mobile Phones (try to access the site with your mobile!)<br />... and much more<br /><br />There is currently a very small 1% fee but everything else is completely free.<br /><br />Feel free to join the pool and please give me feedback in this thread or via PM, there are already a few kH/s running on the server, blocks are found, payouts are working etc.. So everything should be fine.<br /><br />You can access the pool via:<br /><br /><b>https://www.bbqpool.net</b><br /><br /><br />You can start mining by simply pointer cgminer i.e. to:<br />cgminer --scrypt -u username.worker -p workerpassword stratum+tcp://bbqpool.net:3333 &nbsp;<br /><br />or if you prefer the old getwork protocol (which you shouldn&#039;t)<br />cgminer --scrypt -u username.worker -p workerpassword bbqpool.net:8446<br /><br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [BBQ]Pool *Stratum**Vardiff**Idle Worker Notif**SSL**Mobile Site*** bbqpool.net</b><br />
+					Post by: <b>ocminer</b> on <b>December 03, 2013, 04:37:48 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">*Reserved*</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [BBQ]Pool *Stratum**Vardiff**Idle Worker Notif**SSL**Mobile Site*** bbqpool.net</b><br />
+					Post by: <b>israelazo</b> on <b>December 03, 2013, 05:53:37 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Mining Right now!<br /><br />let&#039;s see how it goes.<br /><br />BQC bPhfoS1ivVdfhyJxKW7RmGmsh8yDiREBno</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [BBQ]Pool *Stratum**Vardiff**Idle Worker Notif**SSL**Mobile Site*** bbqpool.net</b><br />
+					Post by: <b>israelazo</b> on <b>December 03, 2013, 07:32:22 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Hey<br /><br />i&#039;ve been trying to mine for about an hour but all my shares are dissapeared =/<br /><br />Est. Shares&nbsp;&nbsp;&nbsp;23422 (done: 0.67%)<br />Your Valid&nbsp;&nbsp;&nbsp;0<br />Your Invalid&nbsp;&nbsp;&nbsp;4 (0.06%)<br /><br />guiminer says all of them are accepted (over 20 yet) but the dashboard says I have only invalid shares and my workers are inactive.<br /><br />my hashrate is quite low but enough to mine here: one machine with 22mh/s and other with 40mh/s<br /><br />I don&#039;t see any errors in the GUIMiner console. This is what I have:<br /><br /><div class="codeheader">Code:</div><div class="code">2013-12-03 16:08:14: Running command: poclbm.exe XXXXX.1:x@www.bbqpool.net:3333 --device=0 --platform=0 --verbose -r1 -v -w 128<br />2013-12-03 16:08:14: Listener for &quot;bbgpool.net&quot; started<br />2013-12-03 16:08:16: Listener for &quot;bbgpool.net&quot;: www.bbqpool.net:3333 03/12/2013 16:08:16, started OpenCL miner on platform 0, device 0 (Caicos)<br />2013-12-03 16:08:16: Listener for &quot;bbgpool.net&quot;: www.bbqpool.net:3333 03/12/2013 16:08:16, checking for stratum...<br />2013-12-03 16:08:16: Listener for &quot;bbgpool.net&quot;: www.bbqpool.net:3333 03/12/2013 16:08:16, no response to getwork, using as stratum<br />2013-12-03 16:08:17: Listener for &quot;bbgpool.net&quot;: www.bbqpool.net:3333 03/12/2013 16:08:17, Setting new difficulty: 20<br /></div><br />any ideas?</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [BBQ]Pool *Stratum**Vardiff**Idle Worker Notif**SSL**Mobile Site*** bbqpool.net</b><br />
+					Post by: <b>Taxidermista</b> on <b>December 03, 2013, 08:21:05 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=355579.msg3810705#msg3810705">Quote from: israelazo on December 03, 2013, 07:32:22 PM</a></div><div class="quote">Hey<br /><br />i&#039;ve been trying to mine for about an hour but all my shares are dissapeared =/<br /><br />Est. Shares&nbsp;&nbsp;&nbsp;23422 (done: 0.67%)<br />Your Valid&nbsp;&nbsp;&nbsp;0<br />Your Invalid&nbsp;&nbsp;&nbsp;4 (0.06%)<br /><br />guiminer says all of them are accepted (over 20 yet) but the dashboard says I have only invalid shares and my workers are inactive.<br /><br />my hashrate is quite low but enough to mine here: one machine with 22mh/s and other with 40mh/s<br /></div><br />MH/s?? Do you have 40,000 KH/s in ONE rig?? That&#039;s not possible. Are you talking about MH/s or KH/s?</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [BBQ]Pool *Stratum**Vardiff**Idle Worker Notif**SSL**Mobile Site*** bbqpool.net</b><br />
+					Post by: <b>israelazo</b> on <b>December 03, 2013, 08:55:46 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=355579.msg3811254#msg3811254">Quote from: Taxidermista on December 03, 2013, 08:21:05 PM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=355579.msg3810705#msg3810705">Quote from: israelazo on December 03, 2013, 07:32:22 PM</a></div><div class="quote">Hey<br /><br />i&#039;ve been trying to mine for about an hour but all my shares are dissapeared =/<br /><br />Est. Shares&nbsp;&nbsp;&nbsp;23422 (done: 0.67%)<br />Your Valid&nbsp;&nbsp;&nbsp;0<br />Your Invalid&nbsp;&nbsp;&nbsp;4 (0.06%)<br /><br />guiminer says all of them are accepted (over 20 yet) but the dashboard says I have only invalid shares and my workers are inactive.<br /><br />my hashrate is quite low but enough to mine here: one machine with 22mh/s and other with 40mh/s<br /></div><br />MH/s?? Do you have 40,000 KH/s in ONE rig?? That&#039;s not possible. Are you talking about MH/s or KH/s?<br /></div><br />My bad, I was using the NON-Scrypt version of GUIMiner and it shows for some reason those values, sorry for the comfusion. I&#039;m getting now abou 18kh/s and 35kh/s<br /><br />thanks</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [BBQ]Pool *Stratum**Vardiff**Idle Worker Notif**SSL**Mobile Site*** bbqpool.net</b><br />
+					Post by: <b>Taxidermista</b> on <b>December 04, 2013, 12:23:00 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=355579.msg3803682#msg3803682">Quote from: ocminer on December 03, 2013, 08:03:37 AM</a></div><div class="quote">Hey folks,<br /><br />I&#039;m currently testing a new BQC/BBQCoin Server with latest MPOS, a modified (stratum enabled / getblocktemplate) BBQCoind which will soon be released to the public and stratum-mining.</div><br />The tag in the thread title is wrong, is BQC, not BBQ. It&#039;s harder to find like that.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [BBQ][BQC] *Stratum**Vardiff**Idle Worker Notif**SSL**Mobile Site*** bbqpool.net</b><br />
+					Post by: <b>ocminer</b> on <b>December 04, 2013, 08:00:37 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Thanks for your note, I&#039;ve changed the thread title to reflect both.<br /><br />Pool is running good so far, currently @ around 30.000 kH/s, my load is still very low, would need some more kH/s to test how far we can push it, stratum really helps a lot.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [BBQ][BQC] *Stratum**Vardiff**Idle Worker Notif**SSL**Mobile Site*** bbqpool.net</b><br />
+					Post by: <b>ocminer</b> on <b>December 05, 2013, 03:12:29 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">I had a small flaw in the hash rate detection which was off for around 200 kh/s for all users. That means that you were NOT credited too low, every user had a lower hash rate that means that every users still hat the same proportional amount on the block.<br /><br />So payouts were correct all the time.<br /><br />Pool is now hovering around 100.000 kh/s, I&#039;ve made some tweaks to the bbqcoind getwork code and the stratum var diff code, everything runs nicely and server load is around 15-20%, so if you got some more gpu&#039;s, point them to the pool :))<br /><br />I will begin migrating my ltc pool to the same codebase on a new server, so stay tuned for a new ltc pool very soon.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [BBQ][BQC] *Stratum**Vardiff**Idle Worker Notif**SSL**Mobile Site*** bbqpool.net</b><br />
+					Post by: <b>ocminer</b> on <b>December 10, 2013, 06:50:59 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">For you guys who asked for a ltcpool, you can now mine ltc using the same interface at https://www.ltcbox.net <br /><br />There is also a 5 LTC donation for the finder of the next block !</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [BBQ][BQC] *Stratum**Vardiff**Idle Worker Notif**SSL**Mobile Site*** bbqpool.net</b><br />
+					Post by: <b>ocminer</b> on <b>December 14, 2013, 07:48:35 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">FeatherCoin Pool now also available under:<br /><br />https://www.feathercoiners.com<br /><br />Already found two blocks, join now</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [BBQ][BQC] *Stratum**Vardiff**Idle Worker Notif**SSL**Mobile Site*** bbqpool.net</b><br />
+					Post by: <b>ocminer</b> on <b>December 24, 2013, 11:20:50 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Adding US Server soon, test us !</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [BBQ][BQC] *Stratum**Vardiff**Idle Worker Notif**SSL**Mobile Site*** bbqpool.net</b><br />
+					Post by: <b>ocminer</b> on <b>December 29, 2013, 09:10:55 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Now also with US Load-Balancing Server, if you like winter bbq&#039;s .. You&#039;re right ;)</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [BBQ][BQC] *Stratum**Vardiff**Idle Worker Notif**SSL**Mobile Site*** bbqpool.net</b><br />
+					Post by: <b>ocminer</b> on <b>January 03, 2014, 09:21:32 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">BQC is rising, get your miners in ! :)</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [BBQ][BQC] *Stratum**Vardiff**Idle Worker Notif**SSL**Mobile Site*** bbqpool.net</b><br />
+					Post by: <b>ocminer</b> on <b>January 13, 2014, 05:04:13 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=355579.msg4294828#msg4294828">Quote from: ocminer on January 03, 2014, 09:21:32 PM</a></div><div class="quote">BQC is rising, get your miners in ! :)<br /></div><br />+1<br /><br />load balancing server is up:<br /><br />https://www.bbqpool.net</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [BBQ][BQC] *Stratum**Vardiff**Idle Worker Notif**SSL**Mobile Site*** bbqpool.net</b><br />
+					Post by: <b>Philopolymath</b> on <b>February 15, 2014, 02:29:59 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">WARNING SCAM POOL ALERT<br />www.bbqpool.net<br /><br /><br />This pool has neglected to payout over 400 BBQ coins to me from Feb7&amp;8th<br /><br />I sent 3 emails to them over the past week and they have NOT responded.<br /><br />There is NO problem with my wallet it is synced fine and has been open and running fine for months.<br />I have no problem with other BBQ pools nor with sending coins to exchange</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [BBQ][BQC] *Stratum**Vardiff**Idle Worker Notif**SSL**Mobile Site*** bbqpool.net</b><br />
+					Post by: <b>ocminer</b> on <b>February 15, 2014, 03:59:04 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">I received not one e-mail in that time, you&#039;d also have had the possibility to simply message me here on the forums if there are any problems.<br /><br />You&#039;re the first I hear of with payout problems, whats wrong ? Auto-Payouts not working for you ? </div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [BBQ][BQC] *Stratum**Vardiff**Idle Worker Notif**SSL**Mobile Site*** bbqpool.net</b><br />
+					Post by: <b>Philopolymath</b> on <b>February 16, 2014, 07:09:40 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Ah so your email support is also not working or neglected<br />So there is an additional problem on top of the missing transaction payouts.<br /><br />I&#039;m sorry <br />I thought the neglect purposeful.<br />I have had so many problems with pools my patience has been stretched such that my temper voices hostility prematurely perhaps<br />Please excuse the frustration I was actually rather happy to find your pool and found it otherwise worthwhile after problems with other BBQ pools.<br />I had hoped to make your pool my Pool of choice for BBQcoins until I failed to receive the TX.<br /><br />The amount is not large and I knew it should not be difficult to have the tx cancelled and re-sent. Or resolved somehow.<br />It was mostly the lack of response from the support that enraged me.<br /><br />I will thank you to check your payout TX for two instances yet confirmed from the 7/8th of Feb. due to BBQPhilo bKjCsquagm5NaYRE5bzv1Ybns5y6nfntCD<br />I&#039;m pretty sure of the dates but the TX record no longer displays that far back.<br />Yes I had auto-payout set to 200. <br />If I remember correctly each TX should be just over 200. or perhaps 2 tx of 100 each<br />To be honest I have forgotten exactly and was prepared to write them of as I have had to do so many times before.<br /><br />I did see the TX listed but they never arrived...I waited 48 hours before sending the first email to support.<br />Of course I had the wallet open/running true in sync.<br />It was the first time using the pool and they should have been the first payouts..strange that I did receive some later payouts<br /><br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [BBQ][BQC] *Stratum**Vardiff**Idle Worker Notif**SSL**Mobile Site*** bbqpool.net</b><br />
+					Post by: <b>Philopolymath</b> on <b>February 16, 2014, 07:30:51 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">FYI I had 9.5Mh/s on your pool and the var diff seems to kill my has hash rate as it climbs 32/64/128 etc.<br />My rates also fluctuated greatly from as low as 3.6/4.6 OFTEN to a RARE high spike of 10-11Mh/s<br />I think the pool total peaked near 30Mh/s again if memory serves.<br />And I found the refresh rate a little slow and too infrequent. The query rate also spiked high a few times<br />I have great ISP service and usually never have latency problems<br />A time stamp would be helpful to know the delay on the pool reports..<br />And of course the Diff is always wrong and behind by a block.<br /><br />Again I still found your pool much better than some others and will return if we can resolve the payout problem.<br />And now that I know where to find attentive support<br /><br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: [BBQ][BQC] *Stratum**Vardiff**Idle Worker Notif**SSL**Mobile Site*** bbqpool.net</b><br />
+					Post by: <b>ocminer</b> on <b>February 16, 2014, 08:21:34 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=355579.msg5172904#msg5172904">Quote from: Philopolymath on February 16, 2014, 07:30:51 AM</a></div><div class="quote">FYI I had 9.5Mh/s on your pool and the var diff seems to kill my has hash rate as it climbs 32/64/128 etc.<br />My rates also fluctuated greatly from as low as 3.6/4.6 OFTEN to a RARE high spike of 10-11Mh/s<br />I think the pool total peaked near 30Mh/s again if memory serves.<br />And I found the refresh rate a little slow and too infrequent. The query rate also spiked high a few times<br />I have great ISP service and usually never have latency problems<br />A time stamp would be helpful to know the delay on the pool reports..<br />And of course the Diff is always wrong and behind by a block.<br /><br />Again I still found your pool much better than some others and will return if we can resolve the payout problem.<br />And now that I know where to find attentive support<br /><br /><br /></div>Hey !<br />&nbsp;<br /><br />I will look into that diff problems for sure, message/pm me your problems with the payouts and I&#039;ll be glad to help.</div>
+					<br /><br />
+					<div align="center" class="smalltext">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank">Powered by SMF 1.1.19</a> | 
+<a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank">SMF &copy; 2006-2009, Simple Machines</a>
+		</span></div>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

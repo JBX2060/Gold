@@ -1,0 +1,122 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+		<link rel="canonical" href="https://bitcointalk.org/index.php?topic=131522.0" />
+		<title>Print Page - No Fee-transactions take longer - Myth??</title>
+		<style type="text/css">
+			body
+			{
+				color: black;
+				background-color: white;
+			}
+			body, td, .normaltext
+			{
+				font-family: Verdana, arial, helvetica, serif;
+				font-size: small;
+			}
+			*, a:link, a:visited, a:hover, a:active
+			{
+				color: black !important;
+			}
+			table
+			{
+				empty-cells: show;
+			}
+			.code
+			{
+				font-size: x-small;
+				font-family: monospace;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.quote
+			{
+				font-size: x-small;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.smalltext, .quoteheader, .codeheader
+			{
+				font-size: x-small;
+			}
+			.largetext
+			{
+				font-size: large;
+			}
+			hr
+			{
+				height: 1px;
+				border: 0;
+				color: black;
+				background-color: black;
+			}
+		</style>
+	</head>
+	<body>
+		<h1 class="largetext">Bitcoin Forum</h1>
+		<h2 class="normaltext">Bitcoin => Bitcoin Technical Support => Topic started by: Spekulatius on December 19, 2012, 02:42:00 AM</h2>
+
+		<table width="90%" cellpadding="0" cellspacing="0" border="0">
+			<tr>
+				<td>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>No Fee-transactions take longer - Myth??</b><br />
+					Post by: <b>Spekulatius</b> on <b>December 19, 2012, 02:42:00 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><a href="http://anonymouse.org/cgi-bin/anon-www.cgi/http://img94.imageshack.us/img94/2347/unbenanntzww.png">http://anonymouse.org/cgi-bin/anon-www.cgi/http://img94.imageshack.us/img94/2347/unbenanntzww.png</a> (http://imageshack.us/photo/my-images/94/unbenanntzww.png/)<br /><br />http://bitcoinstats.org/<br /><br /><br />It seems that it doesnt matter and quite to the contrary even impede your chances of quick confirmations if you include a fee into your transaction.<br /><br />Thoughts?</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: No Fee-transactions take longer - Myth??</b><br />
+					Post by: <b>DannyHamilton</b> on <b>December 19, 2012, 02:50:44 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Given the resolution of the chart, I can&#039;t make a determination.&nbsp; Too much overlap in the blue &quot;fee paid&quot; area to tell what percentage of transactions were comfirmed within any given time frame under 50 minutes.<br /><br />Perhaps a simpler bar chart with less noise would make the point better.<br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: No Fee-transactions take longer - Myth??</b><br />
+					Post by: <b>crazyates</b> on <b>December 19, 2012, 08:52:24 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">&quot;Drag a box to zoom.&quot;</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: No Fee-transactions take longer - Myth??</b><br />
+					Post by: <b>kjj</b> on <b>December 20, 2012, 01:14:13 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">A histogram would be a more useful view.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: No Fee-transactions take longer - Myth??</b><br />
+					Post by: <b>niko</b> on <b>December 20, 2012, 01:47:55 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">&nbsp;It is unclear what y-axis refers to. It shows values up to several thousands of BTC, surely these are not transaction fees.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: No Fee-transactions take longer - Myth??</b><br />
+					Post by: <b>Maged</b> on <b>January 03, 2013, 10:12:28 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=131522.msg1408411#msg1408411">Quote from: Spekulatius on December 19, 2012, 02:42:00 AM</a></div><div class="quote">It seems that it doesnt matter and quite to the contrary even impede your chances of quick confirmations if you include a fee into your transaction.<br /><br />Thoughts?<br /></div>Before trying to conclude anything from this graph, you need to remember <i>why</i> fees were or were not paid. A strong majority of the transactions were likely made by clients that either require or highly suggest that you pay a fee <i>only</i> when the transaction would otherwise take a long time.<br /><br />A proper analysis would show time in terms of blocks and would use only their own pairs of transactions that have the same/similar priority when their isn&#039;t a fee where one of the pair is submitted with a fee and the other isn&#039;t.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: No Fee-transactions take longer - Myth??</b><br />
+					Post by: <b>deepceleron</b> on <b>January 03, 2013, 11:36:39 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Transactions either require a fee (because they are small or the coins aren&#039;t aged long enough) or they don&#039;t require a fee.<br /><br />Any analysis of fees should take into consideration (and discount) satoshidice transactions, as they are generally a house-of-cards, where one transaction relies on previously relayed coins that have no confirmations, these will languish until the original transactions are confirmed regardless of fee included. For example there is &nbsp;a transaction (http://bitcoincharts.com/bitcoin/txlist/#8c9374ebc8a1e8aed4aba6bc63ec3bd21eac3d03d5faf0844e6c4b140ef5bcd3) that has paid double the required fee but has not been included because it is funded by several other transactions which are also not confirmed.<br /><br />The inclusion of &quot;free&quot; transactions in blocks is up to miners (pools). Here is some of the parameters a pool can alter without needing to alter the Bitcoin client:<br /><div class="codeheader">Code:</div><div class="code"> -blockminsize=&lt;n&gt; &nbsp; &nbsp; &nbsp;Set minimum block size in bytes (default: 0)<br />&nbsp;-blockprioritysize=&lt;n&gt; Set maximum size of high-priority/low-fee transactions in bytes (default: 27000)</div><br />We should first look at how Bitcoin handles transactions that require a fee but don&#039;t include it (which can only be sent with an altered Bitcoin). The parameter &quot;minimum block size&quot; is a default value of zero, meaning <i>no</i> transactions not including the minimum per-kb fee will be included. If this is raised to a much higher value by a pool, this means that even spammy free transactions can be included anytime the block is smaller than this minimum after including all normal transactions. No pool I know of alters this (without some further code changes) because it just provides a free way to spam the blockchain with no benefit to anyone but the sender. Only pools like Eligius allow for some free small transactions, using their own rules, transactions that other Bitcoin peers generally won&#039;t even relay.<br /><br />Then lets examine how transactions that qualify to be free are handled: there is a &quot;free transaction&quot; window of 27KB (of a maximum block size of 500K). This is what makes high-priority transactions free. However, they must still compete for just a small part of a block with other high-priority transactions, ranked in order of priority, but this space reserved for high-priority transactions is rarely full, meaning that high-priority non-fee transactions are almost always included in the next block. The Bitcoin client doesn&#039;t even prompt for a fee when sending a high-priority transaction.<br /><br />Finally there are normal transactions, these are ones that pay at least the minimum fee as required. As of 0.7.0 (when run by a pool), they are sorted by fee, so that ones that pay more than the required fee are ranked more highly than minimum-fee-payers. This &quot;paid&quot; area also can include high-priority transactions that have volunteered a fee.<br /><br />In conclusion, one must properly analyze all available information about a transaction (priority, size, time relayed, funding source) before evaluating the effectiveness of paying more fees. However, one can simply examine the default rules of Bitcoin to determine if volunteering more fee is of benefit.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: No Fee-transactions take longer - Myth??</b><br />
+					Post by: <b>gmaxwell</b> on <b>January 04, 2013, 01:53:47 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">This data is also distorted by huge floods of &#039;free&#039; pool payment transactions which have fast/instant confirmation because they&#039;re minded by the paying pool, and by huge floods of other kinds of transactions that have fees which see higher delays because they are specifically blocked by some pools because they use the blockchain inefficiently.<br /><br />If these things were filtered out the results may be somewhat different.</div>
+					<br /><br />
+					<div align="center" class="smalltext">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank">Powered by SMF 1.1.19</a> | 
+<a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank">SMF &copy; 2006-2009, Simple Machines</a>
+		</span></div>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

@@ -1,0 +1,134 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+		<link rel="canonical" href="https://bitcointalk.org/index.php?topic=122206.0" />
+		<title>Print Page - How to give Bitcoin to someone as a gift who does not have a bitcoin client yet?</title>
+		<style type="text/css">
+			body
+			{
+				color: black;
+				background-color: white;
+			}
+			body, td, .normaltext
+			{
+				font-family: Verdana, arial, helvetica, serif;
+				font-size: small;
+			}
+			*, a:link, a:visited, a:hover, a:active
+			{
+				color: black !important;
+			}
+			table
+			{
+				empty-cells: show;
+			}
+			.code
+			{
+				font-size: x-small;
+				font-family: monospace;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.quote
+			{
+				font-size: x-small;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.smalltext, .quoteheader, .codeheader
+			{
+				font-size: x-small;
+			}
+			.largetext
+			{
+				font-size: large;
+			}
+			hr
+			{
+				height: 1px;
+				border: 0;
+				color: black;
+				background-color: black;
+			}
+		</style>
+	</head>
+	<body>
+		<h1 class="largetext">Bitcoin Forum</h1>
+		<h2 class="normaltext">Bitcoin => Bitcoin Technical Support => Topic started by: S3052 on November 03, 2012, 11:46:47 AM</h2>
+
+		<table width="90%" cellpadding="0" cellspacing="0" border="0">
+			<tr>
+				<td>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>How to give Bitcoin to someone as a gift who does not have a bitcoin client yet?</b><br />
+					Post by: <b>S3052</b> on <b>November 03, 2012, 11:46:47 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">I want to give some bitcoins to someones as a gift, but he does not know yet about bitcoins.<br />how can I do it?<br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: How to give Bitcoin to someone as a gift who does not have a bitcoin client yet?</b><br />
+					Post by: <b>flynn</b> on <b>November 03, 2012, 11:50:23 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">You may use http://printcoins.com/<br /><br />I never used that service tho. I have no idea if they are good or/and trustworthy</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: How to give Bitcoin to someone as a gift who does not have a bitcoin client yet?</b><br />
+					Post by: <b>S3052</b> on <b>November 03, 2012, 11:52:48 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">thanks . this is interesting but I can&#039;t wait to get it shipped or find out if they are thrustworthy.<br /><br />I need a solution today.<br /><br />I.e. can I print an QR code? But how does it work as a gift?</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: How to give Bitcoin to someone as a gift who does not have a bitcoin client yet?</b><br />
+					Post by: <b>flynn</b> on <b>November 03, 2012, 11:59:13 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">You can print an address along with it&#039;s the private key on a piece of paper<br /><br />./bitcoind dumpprivkey &lt;bitcoin address you want to give away&gt;<br /><br />=&gt; gives you the private key<br /><br />Your friend would just have to import that private key in his wallet &nbsp;=&gt;<br /><br />./bitcoind importprivkey &lt;private key you sent&gt; &quot;&quot;<br /><br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: How to give Bitcoin to someone as a gift who does not have a bitcoin client yet?</b><br />
+					Post by: <b>MadSweeney</b> on <b>November 03, 2012, 12:05:43 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=122206.msg1314579#msg1314579">Quote from: S3052 on November 03, 2012, 11:46:47 AM</a></div><div class="quote">I want to give some bitcoins to someones as a gift, but he does not know yet about bitcoins.<br />how can I do it?<br /><br /></div><br />Try coinapult.com<br /><br />From their FAQ:<br /><div class="quoteheader">Quote</div><div class="quote">Does the recipient need a Bitcoin account?<br />No, the recipient only needs an email address or mobile phone number. If the<br />recipient wishes to claim their new Bitcoins, they&#039;ll need a Bitcoin address to<br />send them to, but this can be done by them at any point. Launch a Bitcoin over to<br />your grandmother and see what happens!<br /></div></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: How to give Bitcoin to someone as a gift who does not have a bitcoin client yet?</b><br />
+					Post by: <b>CIYAM</b> on <b>November 03, 2012, 12:29:07 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=122206.msg1314600#msg1314600">Quote from: MadSweeney on November 03, 2012, 12:05:43 PM</a></div><div class="quote">Try coinapult.com<br /></div><br />I used this service to send a bitcoin to my nephew - worked perfectly and was very quick also.<br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: How to give Bitcoin to someone as a gift who does not have a bitcoin client yet?</b><br />
+					Post by: <b>S3052</b> on <b>November 03, 2012, 01:10:56 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=122206.msg1314621#msg1314621">Quote from: CIYAM Pty. Ltd. on November 03, 2012, 12:29:07 PM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=122206.msg1314600#msg1314600">Quote from: MadSweeney on November 03, 2012, 12:05:43 PM</a></div><div class="quote">Try coinapult.com<br /></div><br />I used this service to send a bitcoin to my nephew - worked perfectly and was very quick also.<br /><br /></div><br />great. that looks promising. I will try it out</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: How to give Bitcoin to someone as a gift who does not have a bitcoin client yet?</b><br />
+					Post by: <b>casascius</b> on <b>November 03, 2012, 01:56:46 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Print a banknote-style paper wallet at bitaddress.org.&nbsp; Fund the address printed on it.<br /><br />Easiest way to redeem it is at blockchain.info.&nbsp; You can import QR code privkeys directly though the webcam as they have a flash-based thing for doing it.<br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: How to give Bitcoin to someone as a gift who does not have a bitcoin client yet?</b><br />
+					Post by: <b>J-Norm</b> on <b>November 23, 2012, 01:32:27 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Blockchain.info has a &quot;send to email&quot; option.<br /><br />It creates a wallet for them and mails them a link explaining that they have been sent bitcoins. When they first click on the link they set their password and are in their wallet.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: How to give Bitcoin to someone as a gift who does not have a bitcoin client yet?</b><br />
+					Post by: <b>Xenland</b> on <b>November 23, 2012, 06:04:24 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=122206.msg1314587#msg1314587">Quote from: S3052 on November 03, 2012, 11:52:48 AM</a></div><div class="quote">thanks . this is interesting but I can&#039;t wait to get it shipped or find out if they are thrustworthy.<br /><br />I need a solution today.<br /><br />I.e. can I print an QR code? But how does it work as a gift?<br /></div><br />They are trustworthy I&#039;ve bought from them but yeah you can&#039;t wait so nvm</div>
+					<br /><br />
+					<div align="center" class="smalltext">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank">Powered by SMF 1.1.19</a> | 
+<a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank">SMF &copy; 2006-2009, Simple Machines</a>
+		</span></div>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

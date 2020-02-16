@@ -1,0 +1,128 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+		<link rel="canonical" href="https://bitcointalk.org/index.php?topic=108996.0" />
+		<title>Print Page - Need to upgrade?</title>
+		<style type="text/css">
+			body
+			{
+				color: black;
+				background-color: white;
+			}
+			body, td, .normaltext
+			{
+				font-family: Verdana, arial, helvetica, serif;
+				font-size: small;
+			}
+			*, a:link, a:visited, a:hover, a:active
+			{
+				color: black !important;
+			}
+			table
+			{
+				empty-cells: show;
+			}
+			.code
+			{
+				font-size: x-small;
+				font-family: monospace;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.quote
+			{
+				font-size: x-small;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.smalltext, .quoteheader, .codeheader
+			{
+				font-size: x-small;
+			}
+			.largetext
+			{
+				font-size: large;
+			}
+			hr
+			{
+				height: 1px;
+				border: 0;
+				color: black;
+				background-color: black;
+			}
+		</style>
+	</head>
+	<body>
+		<h1 class="largetext">Bitcoin Forum</h1>
+		<h2 class="normaltext">Bitcoin => Bitcoin Technical Support => Topic started by: Piper67 on September 12, 2012, 04:16:18 PM</h2>
+
+		<table width="90%" cellpadding="0" cellspacing="0" border="0">
+			<tr>
+				<td>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Need to upgrade?</b><br />
+					Post by: <b>Piper67</b> on <b>September 12, 2012, 04:16:18 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Hi all. <br /><br />I just checked my Satoshi client for the first time in weeks today (it&#039;s always running in the background) and I saw that the last downloaded block was received 17 days ago, as well as the warning message: Displayed transactions may not be correct! You may need to upgrade or other nodes may need to upgrade.<br /><br />Problem is, I&#039;m already running 0.6.3 in Windows, so I have nothing to upgrade to... or is this a different meaning of the word upgrade?<br /><br />What&#039;s going on?</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Need to upgrade?</b><br />
+					Post by: <b>Stephen Gornick</b> on <b>September 12, 2012, 09:28:55 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=108996.msg1185097#msg1185097">Quote from: Piper67 on September 12, 2012, 04:16:18 PM</a></div><div class="quote">Hi all. <br /><br />I just checked my Satoshi client for the first time in weeks today (it&#039;s always running in the background) and I saw that the last downloaded block was received 17 days ago, as well as the warning message: Displayed transactions may not be correct! You may need to upgrade or other nodes may need to upgrade.<br /><br />Problem is, I&#039;m already running 0.6.3 in Windows, so I have nothing to upgrade to... or is this a different meaning of the word upgrade?<br /><br />What&#039;s going on?<br /></div><br />That message simply means it realizes the blockhain is out of date and isn&#039;t updating.&nbsp; One of the possible reasons this occurs is if the version is too old.&nbsp; But that is not the case in your instance.<br /><br />Is it downloading blocks? &nbsp;If not, is there a connection problem? (the client shows the number of connections with a notification/status icon in the bottom right.)</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Need to upgrade?</b><br />
+					Post by: <b>Piper67</b> on <b>September 13, 2012, 12:32:36 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=108996.msg1185842#msg1185842">Quote from: Stephen Gornick on September 12, 2012, 09:28:55 PM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=108996.msg1185097#msg1185097">Quote from: Piper67 on September 12, 2012, 04:16:18 PM</a></div><div class="quote">Hi all. <br /><br />I just checked my Satoshi client for the first time in weeks today (it&#039;s always running in the background) and I saw that the last downloaded block was received 17 days ago, as well as the warning message: Displayed transactions may not be correct! You may need to upgrade or other nodes may need to upgrade.<br /><br />Problem is, I&#039;m already running 0.6.3 in Windows, so I have nothing to upgrade to... or is this a different meaning of the word upgrade?<br /><br />What&#039;s going on?<br /></div><br />That message simply means it realizes the blockhain is out of date and isn&#039;t updating.&nbsp; One of the possible reasons this occurs is if the version is too old.&nbsp; But that is not the case in your instance.<br /><br />Is it downloading blocks? &nbsp;If not, is there a connection problem? (the client shows the number of connections with a notification/status icon in the bottom right.)<br /></div><br />It wasn&#039;t downloading blocks. It said the last one was generated 17 days ago. But the connections were ok, it was showing ten, and full bars in the green. Why would it be connected yet unable to download blocks?</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Need to upgrade?</b><br />
+					Post by: <b>Stephen Gornick</b> on <b>September 13, 2012, 06:13:47 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=108996.msg1186305#msg1186305">Quote from: Piper67 on September 13, 2012, 12:32:36 AM</a></div><div class="quote">But the connections were ok, it was showing ten, and full bars in the green. Why would it be connected yet unable to download blocks?<br /></div><br />You&#039;ll probably need to get the last couple dozen lines from debug.log and see if it says what the problem is.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Need to upgrade?</b><br />
+					Post by: <b>Piper67</b> on <b>September 13, 2012, 10:57:14 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=108996.msg1187019#msg1187019">Quote from: Stephen Gornick on September 13, 2012, 06:13:47 AM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=108996.msg1186305#msg1186305">Quote from: Piper67 on September 13, 2012, 12:32:36 AM</a></div><div class="quote">But the connections were ok, it was showing ten, and full bars in the green. Why would it be connected yet unable to download blocks?<br /></div><br />You&#039;ll probably need to get the last couple dozen lines from debug.log and see if it says what the problem is.<br /></div><br />This is what I get... unfortunately, it might as well be hieroglyphs to me&nbsp; :)<br /><br />connected 50.31.74.233:8333<br />Added time data, samples 5, offset +47 (+0 minutes)<br />nTimeOffset = +52&nbsp; (+0 minutes)<br />Moving 50.31.74.233:8333 to tried<br />version message: version 60001, blocks=198574<br />trying connection 72.193.140.180:8333 lastseen=-7.6hrs<br />askfor tx 062533689d61d40ec28b&nbsp; &nbsp;0<br />sending getdata: tx 062533689d61d40ec28b<br />ERROR: FetchInputs() : 062533689d mempool Tx prev not found 17c8fd57d5<br />ERROR: CTxMemPool::accept() : FetchInputs failed 062533689d<br />stored orphan tx 062533689d (mapsz 23)<br />Added 321 addresses from 50.31.74.233: 3041 tried, 12134 new<br />Added 324 addresses from 50.31.74.233: 3041 tried, 12087 new<br />Added 181 addresses from 50.31.74.233: 3041 tried, 12071 new<br />askfor tx 5b1ce61242ef901ba945&nbsp; &nbsp;0<br />sending getdata: tx 5b1ce61242ef901ba945<br />ERROR: FetchInputs() : 5b1ce61242 mempool Tx prev not found 1bf3e23bf4<br />ERROR: CTxMemPool::accept() : FetchInputs failed 5b1ce61242<br />stored orphan tx 5b1ce61242 (mapsz 24)<br />connection timeout<br />trying connection 95.27.163.10:8333 lastseen=-4.5hrs<br />askfor tx 90eb17eae2105a36fe9e&nbsp; &nbsp;0<br />sending getdata: tx 90eb17eae2105a36fe9e<br />askfor tx 90eb17eae2105a36fe9e&nbsp; &nbsp;1347533693000000<br />ERROR: FetchInputs() : 90eb17eae2 mempool Tx prev not found c856d30f3b<br />ERROR: CTxMemPool::accept() : FetchInputs failed 90eb17eae2<br />stored orphan tx 90eb17eae2 (mapsz 25)</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Need to upgrade?</b><br />
+					Post by: <b>Stephen Gornick</b> on <b>September 14, 2012, 12:10:59 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=108996.msg1185097#msg1185097">Quote from: Piper67 on September 12, 2012, 04:16:18 PM</a></div><div class="quote">version message: version 60001, blocks=198574<br /></div><br />Are you sure it hasn&#039;t caught up? &nbsp;Block 198,574 would have been about current for the time you posted.<br /><br /><br /><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=108996.msg1185097#msg1185097">Quote from: Piper67 on September 12, 2012, 04:16:18 PM</a></div><div class="quote">(it&#039;s always running in the background)</div><br />Just checking... &nbsp;rule #1 with electronics and software says that when stuck, reboot. &nbsp; Have you tried closing the program and re-launching it? &nbsp;It is a shot in the dark, but who knows.<br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Need to upgrade?</b><br />
+					Post by: <b>Piper67</b> on <b>September 14, 2012, 10:31:22 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=108996.msg1189162#msg1189162">Quote from: Stephen Gornick on September 14, 2012, 12:10:59 AM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=108996.msg1185097#msg1185097">Quote from: Piper67 on September 12, 2012, 04:16:18 PM</a></div><div class="quote">version message: version 60001, blocks=198574<br /></div><br />Are you sure it hasn&#039;t caught up? &nbsp;Block 198,574 would have been about current for the time you posted.<br /><br /><br /><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=108996.msg1185097#msg1185097">Quote from: Piper67 on September 12, 2012, 04:16:18 PM</a></div><div class="quote">(it&#039;s always running in the background)</div><br />Just checking... &nbsp;rule #1 with electronics and software says that when stuck, reboot. &nbsp; Have you tried closing the program and re-launching it? &nbsp;It is a shot in the dark, but who knows.<br /><br /></div><br />Yes, but it&#039;s telling me the last block downloaded was 195775, about 18 days ago. It&#039;s connected to the network, but somehow it got stuck there and isn&#039;t downloading any more blocks.<br /><br />I&#039;ve restarted, I&#039;ve reinstalled, I&#039;ve uninstalled THEN reinstalled... nothing seems to work. Just hoping 0.7.0 will come out soon, so I can try installing it and see if that jumpstarts it.<br /><br />EDIT: OK, so I renamed all the blkindex files, started up again and now it&#039;s downloading the chain... it&#039;ll take a few hours, but we&#039;ll see what happens when it gets to 195775.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Need to upgrade?</b><br />
+					Post by: <b>zvs</b> on <b>September 14, 2012, 12:42:48 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=108996.msg1190165#msg1190165">Quote from: Piper67 on September 14, 2012, 10:31:22 AM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=108996.msg1189162#msg1189162">Quote from: Stephen Gornick on September 14, 2012, 12:10:59 AM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=108996.msg1185097#msg1185097">Quote from: Piper67 on September 12, 2012, 04:16:18 PM</a></div><div class="quote">version message: version 60001, blocks=198574<br /></div><br />Are you sure it hasn&#039;t caught up? &nbsp;Block 198,574 would have been about current for the time you posted.<br /><br /><br /><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=108996.msg1185097#msg1185097">Quote from: Piper67 on September 12, 2012, 04:16:18 PM</a></div><div class="quote">(it&#039;s always running in the background)</div><br />Just checking... &nbsp;rule #1 with electronics and software says that when stuck, reboot. &nbsp; Have you tried closing the program and re-launching it? &nbsp;It is a shot in the dark, but who knows.<br /><br /></div><br />Yes, but it&#039;s telling me the last block downloaded was 195775, about 18 days ago. It&#039;s connected to the network, but somehow it got stuck there and isn&#039;t downloading any more blocks.<br /><br />I&#039;ve restarted, I&#039;ve reinstalled, I&#039;ve uninstalled THEN reinstalled... nothing seems to work. Just hoping 0.7.0 will come out soon, so I can try installing it and see if that jumpstarts it.<br /><br />EDIT: OK, so I renamed all the blkindex files, started up again and now it&#039;s downloading the chain... it&#039;ll take a few hours, but we&#039;ll see what happens when it gets to 195775.<br /></div><br />start it from command line with -maxconnections=1 -connect=5.9.24.81<br /><br />then after the chain finishes downloading restart it as normal.&nbsp; &nbsp; &nbsp;i&#039;ve always found it much faster connecting to just 1 node when downloading the blockchain (otherwise you get spammed with all kinds of junk)<br /><br />just not something you&#039;d want to make as default in the client, for obvious reasons (re: server offering up bs blockchain etc)</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Need to upgrade?</b><br />
+					Post by: <b>betatest512</b> on <b>September 23, 2012, 02:05:31 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">i had the same problem with 0.6.3 and upgraded to 0.7.0</div>
+					<br /><br />
+					<div align="center" class="smalltext">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank">Powered by SMF 1.1.19</a> | 
+<a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank">SMF &copy; 2006-2009, Simple Machines</a>
+		</span></div>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

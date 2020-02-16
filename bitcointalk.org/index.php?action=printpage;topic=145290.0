@@ -1,0 +1,104 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+		<link rel="canonical" href="https://bitcointalk.org/index.php?topic=145290.0" />
+		<title>Print Page - 0.8: How many times do I need to &quot;reindex&quot;?</title>
+		<style type="text/css">
+			body
+			{
+				color: black;
+				background-color: white;
+			}
+			body, td, .normaltext
+			{
+				font-family: Verdana, arial, helvetica, serif;
+				font-size: small;
+			}
+			*, a:link, a:visited, a:hover, a:active
+			{
+				color: black !important;
+			}
+			table
+			{
+				empty-cells: show;
+			}
+			.code
+			{
+				font-size: x-small;
+				font-family: monospace;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.quote
+			{
+				font-size: x-small;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.smalltext, .quoteheader, .codeheader
+			{
+				font-size: x-small;
+			}
+			.largetext
+			{
+				font-size: large;
+			}
+			hr
+			{
+				height: 1px;
+				border: 0;
+				color: black;
+				background-color: black;
+			}
+		</style>
+	</head>
+	<body>
+		<h1 class="largetext">Bitcoin Forum</h1>
+		<h2 class="normaltext">Bitcoin => Bitcoin Technical Support => Topic started by: dree12 on February 20, 2013, 03:48:10 AM</h2>
+
+		<table width="90%" cellpadding="0" cellspacing="0" border="0">
+			<tr>
+				<td>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>0.8: How many times do I need to &quot;reindex&quot;?</b><br />
+					Post by: <b>dree12</b> on <b>February 20, 2013, 03:48:10 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">I had a full blockchain before the upgrade. After the upgrade, 0.8 reindexed the blockchain once. That&#039;s fine, I thought. Not much time later, the number of blocks remaining went up by ~8000 and the last ~8000 blocks needed to be reindexed <i>again</i>. And now, the number of blocks remaining went up by ~3000 and the last ~3000 blocks need to be reindexed one more time. How many reindicies should I expect? Is this normal behaviour?</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: 0.8: How many times do I need to &quot;reindex&quot;?</b><br />
+					Post by: <b>grue</b> on <b>February 20, 2013, 02:59:19 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">afaik, you only need to reindex once. if you&#039;re having problems, you can always delete everything except for wallet.dat, and resync using 0.8</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: 0.8: How many times do I need to &quot;reindex&quot;?</b><br />
+					Post by: <b>dree12</b> on <b>February 20, 2013, 09:33:19 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=145290.msg1542694#msg1542694">Quote from: grue on February 20, 2013, 02:59:19 PM</a></div><div class="quote">afaik, you only need to reindex once. if you&#039;re having problems, you can always delete everything except for wallet.dat, and resync using 0.8<br /></div><br />That&#039;s what I ended up doing after reindexing slowed to a block a minute. Turns out redownloading the chain isn&#039;t that bad anymore.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: 0.8: How many times do I need to &quot;reindex&quot;?</b><br />
+					Post by: <b>Digigami</b> on <b>February 20, 2013, 09:36:01 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Yeah I had to download the whole chain again, but this time complete download and verification took aprox 2.5 hours on a VM. Last time I went through that ordeal it was well in excess of 24 hours. The client certainly has come a long way with this most recent update. </div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: 0.8: How many times do I need to &quot;reindex&quot;?</b><br />
+					Post by: <b>dougiedj</b> on <b>March 07, 2013, 06:15:48 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">hew do i reindex as when i dun it from the debug window i get an error?</div>
+					<br /><br />
+					<div align="center" class="smalltext">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank">Powered by SMF 1.1.19</a> | 
+<a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank">SMF &copy; 2006-2009, Simple Machines</a>
+		</span></div>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

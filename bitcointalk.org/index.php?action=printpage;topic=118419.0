@@ -1,0 +1,338 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+		<link rel="canonical" href="https://bitcointalk.org/index.php?topic=118419.0" />
+		<title>Print Page - Point of Sale - WalletBit</title>
+		<style type="text/css">
+			body
+			{
+				color: black;
+				background-color: white;
+			}
+			body, td, .normaltext
+			{
+				font-family: Verdana, arial, helvetica, serif;
+				font-size: small;
+			}
+			*, a:link, a:visited, a:hover, a:active
+			{
+				color: black !important;
+			}
+			table
+			{
+				empty-cells: show;
+			}
+			.code
+			{
+				font-size: x-small;
+				font-family: monospace;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.quote
+			{
+				font-size: x-small;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.smalltext, .quoteheader, .codeheader
+			{
+				font-size: x-small;
+			}
+			.largetext
+			{
+				font-size: large;
+			}
+			hr
+			{
+				height: 1px;
+				border: 0;
+				color: black;
+				background-color: black;
+			}
+		</style>
+	</head>
+	<body>
+		<h1 class="largetext">Bitcoin Forum</h1>
+		<h2 class="normaltext">Bitcoin => Bitcoin Discussion => Topic started by: Kris on October 14, 2012, 05:27:43 PM</h2>
+
+		<table width="90%" cellpadding="0" cellspacing="0" border="0">
+			<tr>
+				<td>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Point of Sale - WalletBit</b><br />
+					Post by: <b>Kris</b> on <b>October 14, 2012, 05:27:43 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">So I am getting along quite nicely with Bitcoin Point of Sale system to allow brick-and-mortar stores accept bitcoin.<br /><br />I would like some feedback in terms of design and features. I need some inspiration ;), you are welcome to click around and I will hold your suggestions in high regard.<br /><br />Thanks!<br /><br />https://walletbit.com/pos/ (https://walletbit.com/pos/)<br /><br /><a href="https://cdn.walletbit.com/pos/includes/press/pos_screenshot.jpg">https://cdn.walletbit.com/pos/includes/press/pos_screenshot.jpg</a> (https://walletbit.com/pos/)<br /><br /><br /><a href="https://cdn.walletbit.com/pos/includes/pos.jpg">https://cdn.walletbit.com/pos/includes/pos.jpg</a> (https://walletbit.com/pos/)<br /><br /><a href="https://cdn.walletbit.com/includes/press/pos1.jpg">https://cdn.walletbit.com/includes/press/pos1.jpg</a> (https://walletbit.com/pos/)</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Point of Sale - WalletBit</b><br />
+					Post by: <b>BitcoinINV</b> on <b>October 14, 2012, 05:33:24 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">1 word FANFUCKINGTASTIC!</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Point of Sale - WalletBit</b><br />
+					Post by: <b>gweedo</b> on <b>October 14, 2012, 06:41:54 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Make sure that the person using that can run there own server, so they can run it on an intranet and just point my browser to that instead of going over the internet. It is a security thing. I would rather see a native app, so you can build in more security, cause if I ran a man in the middle would I be able to get enough stuff to build a url and login to empty the wallet?<br />Also how are you storing the wallet for these in a hot wallet, or in a cold wallet? <br /><br />The design is ok, not the best. I think the dark grey and light grey should be scrapped, and should be more of different colors they are too close together. The greens on the buttons are very different from the green on the + button maybe make those the same, plus the green is a little bright for the grey and black design.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Point of Sale - WalletBit</b><br />
+					Post by: <b>BitcoinINV</b> on <b>October 14, 2012, 06:48:31 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">As much as I think gweedo is a turdumus maxumus he brings up some great questions, but over all the idea is GREAT!</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Point of Sale - WalletBit</b><br />
+					Post by: <b>Kris</b> on <b>October 14, 2012, 07:20:29 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=118419.msg1271983#msg1271983">Quote from: gweedo on October 14, 2012, 06:41:54 PM</a></div><div class="quote">Make sure that the person using that can run there own server, so they can run it on an intranet and just point my browser to that instead of going over the internet. It is a security thing. I would rather see a native app, so you can build in more security, cause if I ran a man in the middle would I be able to get enough stuff to build a url and login to empty the wallet?<br /></div><br />I see your point, but with the security practices we employ at WalletBit, I don&#039;t foresee this to be the biggest problem. You will not be able to built an url or perform man in the middle attack very easy because of xss and csrf protection. I won&#039;t say you can&#039;t, but it will be very hard to perform this action. You might be thinking of InstaWallet or similar, where you get a unique url to your bitcoin wallet?<br /><br />It is built on top of WalletBit so you have all the security enhancements in placed from there, which includes Secure Card and Google Authenticator two-factor auth.<br /><br /><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=118419.msg1271983#msg1271983">Quote from: gweedo on October 14, 2012, 06:41:54 PM</a></div><div class="quote">Also how are you storing the wallet for these in a hot wallet, or in a cold wallet? <br /></div><br />There will be daily deposit of your accumulated balance to your bank account, so you could call it an enhanced cold wallet?<br /><br /><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=118419.msg1271983#msg1271983">Quote from: gweedo on October 14, 2012, 06:41:54 PM</a></div><div class="quote">The design is ok, not the best. I think the dark grey and light grey should be scrapped, and should be more of different colors they are too close together. The greens on the buttons are very different from the green on the + button maybe make those the same, plus the green is a little bright for the grey and black design.<br /></div><br />Noted, thank you!<br /><br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Point of Sale - WalletBit</b><br />
+					Post by: <b>Kris</b> on <b>October 14, 2012, 07:21:20 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=118419.msg1272004#msg1272004">Quote from: BitcoinINV on October 14, 2012, 06:48:31 PM</a></div><div class="quote">As much as I think gweedo is a turdumus maxumus he brings up some great questions, but over all the idea is GREAT!<br /></div><br />Don&#039;t know what a turdumus maxumus is&nbsp; :D, but indeed to the rest.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Point of Sale - WalletBit</b><br />
+					Post by: <b>BCB</b> on <b>October 14, 2012, 07:26:16 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Kris,<br /><br />Very slick. I&#039;ll check it out.&nbsp; Let me know if you need beta-testing.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Point of Sale - WalletBit</b><br />
+					Post by: <b>BitcoinINV</b> on <b>October 14, 2012, 07:36:54 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">If this works would you look for sales reps like they do for CC processors and pay a %? Like some CC processors do a service if you refer a service and sign up they pay you X percent of the fee would you be willing to do this? I live in a popular vacation spot and I would try to help you do this for a % like the CC providers do.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Point of Sale - WalletBit</b><br />
+					Post by: <b>Kris</b> on <b>October 14, 2012, 07:39:47 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=118419.msg1272085#msg1272085">Quote from: BCB on October 14, 2012, 07:26:16 PM</a></div><div class="quote">Kris,<br /><br />Very slick. I&#039;ll check it out.&nbsp; Let me know if you need beta-testing.<br /></div><br />Yes I would adore a little beta testing. But probably not until another month or so. There are still a lot of things that needs to be developed and finished up. But as I said, it is going quite nicely.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Point of Sale - WalletBit</b><br />
+					Post by: <b>Kris</b> on <b>October 14, 2012, 07:40:30 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=118419.msg1272108#msg1272108">Quote from: BitcoinINV on October 14, 2012, 07:36:54 PM</a></div><div class="quote">If this works would you look for sales reps like they do for CC processors and pay a %? Like some CC processors do a service if you refer a service and sign up they pay you X percent of the fee would you be willing to do this? I live in a popular vacation spot and I would try to help you do this for a % like the CC providers do.<br /></div><br />Yes.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Point of Sale - WalletBit</b><br />
+					Post by: <b>BitcoinINV</b> on <b>October 14, 2012, 07:41:29 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Email me to, I would like to test aswell. <br />Great this is exactly the kind of thing bitcoin needs to go wild!</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Point of Sale - WalletBit</b><br />
+					Post by: <b>Kris</b> on <b>October 14, 2012, 07:46:40 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=118419.msg1272117#msg1272117">Quote from: BitcoinINV on October 14, 2012, 07:41:29 PM</a></div><div class="quote">Email me to, I would like to test aswell. <br />Great this is exactly the kind of thing bitcoin needs to go wild!<br /></div><br />Will do when the time comes. Thank you.<br /><br />Yes I think it is what&#039;s needed. And my plan is to work towards this goal. I think that Merchant Solutions like BitPay, MtGox and WalletBit pretty much covered the whole spectrum of online bitcoin processing and web-shop eCommerce and it is time to move on to the landscape or in others words real POS solutions based on hardware to be setup in stores.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Point of Sale - WalletBit</b><br />
+					Post by: <b>evoorhees</b> on <b>October 15, 2012, 12:32:21 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Beautiful design work - really loving this :)</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Point of Sale - WalletBit</b><br />
+					Post by: <b>coincollectingenterprises</b> on <b>October 15, 2012, 01:01:29 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Friendly advice:<br /><br />One of the BIGGEST things to remember in the merchant services field is that companies that are brick and mortar usually have early termination fees for leaving behind their old service (at least here in the States). So it may be advantageous to note in your website that your services are complimentary to existing merchant setups and do not require the customer to leave their pre existing services.<br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Point of Sale - WalletBit</b><br />
+					Post by: <b>Sitarow</b> on <b>October 15, 2012, 02:16:40 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=118419.msg1272674#msg1272674">Quote from: coincollectingenterprises on October 15, 2012, 01:01:29 AM</a></div><div class="quote">Friendly advice:<br /><br />One of the BIGGEST things to remember in the merchant services field is that companies that are brick and mortar usually have early termination fees for leaving behind their old service (at least here in the States). So it may be advantageous to note in your website that your services are complimentary to existing merchant setups and do not require the customer to leave their pre existing services.<br /><br /></div><br />Good call.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Point of Sale - WalletBit</b><br />
+					Post by: <b>Kris</b> on <b>October 15, 2012, 03:02:16 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=118419.msg1272615#msg1272615">Quote from: evoorhees on October 15, 2012, 12:32:21 AM</a></div><div class="quote">Beautiful design work - really loving this :)<br /></div><br />Thanks.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Point of Sale - WalletBit</b><br />
+					Post by: <b>Kris</b> on <b>October 15, 2012, 03:13:26 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=118419.msg1272674#msg1272674">Quote from: coincollectingenterprises on October 15, 2012, 01:01:29 AM</a></div><div class="quote">Friendly advice:<br /><br />One of the BIGGEST things to remember in the merchant services field is that companies that are brick and mortar usually have early termination fees for leaving behind their old service (at least here in the States). So it may be advantageous to note in your website that your services are complimentary to existing merchant setups and do not require the customer to leave their pre existing services.<br /></div><br />Good idea, truly noted. I was also suggested that I&#039;ll make it work with existing solutions, so this is where I am currently heading.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Point of Sale - WalletBit</b><br />
+					Post by: <b>Daily Anarchist</b> on <b>October 15, 2012, 06:40:11 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=118419.msg1272114#msg1272114">Quote from: Kris on October 14, 2012, 07:40:30 PM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=118419.msg1272108#msg1272108">Quote from: BitcoinINV on October 14, 2012, 07:36:54 PM</a></div><div class="quote">If this works would you look for sales reps like they do for CC processors and pay a %? Like some CC processors do a service if you refer a service and sign up they pay you X percent of the fee would you be willing to do this? I live in a popular vacation spot and I would try to help you do this for a % like the CC providers do.<br /></div><br />Yes.<br /></div><br />Count me in too. I would love to do this for a living.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Point of Sale - WalletBit</b><br />
+					Post by: <b>Kris</b> on <b>October 15, 2012, 11:20:47 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=118419.msg1273084#msg1273084">Quote from: Daily Anarchist on October 15, 2012, 06:40:11 AM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=118419.msg1272114#msg1272114">Quote from: Kris on October 14, 2012, 07:40:30 PM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=118419.msg1272108#msg1272108">Quote from: BitcoinINV on October 14, 2012, 07:36:54 PM</a></div><div class="quote">If this works would you look for sales reps like they do for CC processors and pay a %? Like some CC processors do a service if you refer a service and sign up they pay you X percent of the fee would you be willing to do this? I live in a popular vacation spot and I would try to help you do this for a % like the CC providers do.<br /></div><br />Yes.<br /></div><br />Count me in too. I would love to do this for a living.<br /></div><br />Ok.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Point of Sale - WalletBit</b><br />
+					Post by: <b>Kris</b> on <b>October 16, 2012, 09:21:28 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=118419.msg1272778#msg1272778">Quote from: Sitarow on October 15, 2012, 02:16:40 AM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=118419.msg1272674#msg1272674">Quote from: coincollectingenterprises on October 15, 2012, 01:01:29 AM</a></div><div class="quote">Friendly advice:<br /><br />One of the BIGGEST things to remember in the merchant services field is that companies that are brick and mortar usually have early termination fees for leaving behind their old service (at least here in the States). So it may be advantageous to note in your website that your services are complimentary to existing merchant setups and do not require the customer to leave their pre existing services.<br /><br /></div><br />Good call.<br /></div><br />:)</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Point of Sale - WalletBit</b><br />
+					Post by: <b>coincollectingenterprises</b> on <b>October 16, 2012, 09:30:27 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Design Look:<br /><br />https://walletbit.com/pos/wallet<br /><br />Something about orange is throwing me off. Green is the color of money. Orange is like a pumpkin. The buttons could be okay but that giant orange bar at the bottom plays tricks on my eyes.<br /><br /><br />Page addition:<br /><br />Would strongly recommend adding at least to the bottom of every page in your footer an &quot;about us&quot; page and &quot;contact us&quot; page.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Point of Sale - WalletBit</b><br />
+					Post by: <b>WikileaksDude</b> on <b>October 16, 2012, 11:54:54 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=118419.msg1277000#msg1277000">Quote from: coincollectingenterprises on October 16, 2012, 09:30:27 PM</a></div><div class="quote">Design Look:<br /><br />https://walletbit.com/pos/wallet<br /><br />Something about orange is throwing me off. Green is the color of money. Orange is like a pumpkin. The buttons could be okay but that giant orange bar at the bottom plays tricks on my eyes.<br /><br /><br />Page addition:<br /><br />Would strongly recommend adding at least to the bottom of every page in your footer an &quot;about us&quot; page and &quot;contact us&quot; page.<br /></div><br />This.<br /><br />But still the design is delicious.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Point of Sale - WalletBit</b><br />
+					Post by: <b>Raoul Duke</b> on <b>October 16, 2012, 11:57:54 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">This looks great. It seems like a complete billing system for a small business. One problem in the EU is that it should support the IRS audit files, or else it&#039;s nothing more than a duplicate of the real billing system every business should have.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Point of Sale - WalletBit</b><br />
+					Post by: <b>Kris</b> on <b>October 17, 2012, 03:09:13 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=118419.msg1277000#msg1277000">Quote from: coincollectingenterprises on October 16, 2012, 09:30:27 PM</a></div><div class="quote">Design Look:<br /><br />https://walletbit.com/pos/wallet<br /><br />Something about orange is throwing me off. Green is the color of money. Orange is like a pumpkin. The buttons could be okay but that giant orange bar at the bottom plays tricks on my eyes.<br /></div><br />Got my inspiration from the bitcoin logo, I will see what I can do about it, thanks.<br /><br /><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=118419.msg1277000#msg1277000">Quote from: coincollectingenterprises on October 16, 2012, 09:30:27 PM</a></div><div class="quote">Page addition:<br /><br />Would strongly recommend adding at least to the bottom of every page in your footer an &quot;about us&quot; page and &quot;contact us&quot; page.<br /></div><br />Done. good idea, thank you.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Point of Sale - WalletBit</b><br />
+					Post by: <b>Kris</b> on <b>October 17, 2012, 03:09:35 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=118419.msg1277289#msg1277289">Quote from: WikileaksDude on October 16, 2012, 11:54:54 PM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=118419.msg1277000#msg1277000">Quote from: coincollectingenterprises on October 16, 2012, 09:30:27 PM</a></div><div class="quote">Design Look:<br /><br />https://walletbit.com/pos/wallet<br /><br />Something about orange is throwing me off. Green is the color of money. Orange is like a pumpkin. The buttons could be okay but that giant orange bar at the bottom plays tricks on my eyes.<br /><br /><br />Page addition:<br /><br />Would strongly recommend adding at least to the bottom of every page in your footer an &quot;about us&quot; page and &quot;contact us&quot; page.<br /></div><br />This.<br /><br />But still the design is delicious.<br /></div><br />&nbsp;:)</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Point of Sale - WalletBit</b><br />
+					Post by: <b>Kris</b> on <b>October 17, 2012, 03:12:14 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=118419.msg1277292#msg1277292">Quote from: psy on October 16, 2012, 11:57:54 PM</a></div><div class="quote">This looks great. It seems like a complete billing system for a small business. One problem in the EU is that it should support the IRS audit files, or else it&#039;s nothing more than a duplicate of the real billing system every business should have.<br /></div><br />It will be an almost complete billing system, in the way that it will complement their current system, be that Microsoft Dynamics, ERP or CRM system.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Point of Sale - WalletBit</b><br />
+					Post by: <b>ercolinux</b> on <b>October 17, 2012, 08:47:11 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=118419.msg1277000#msg1277000">Quote from: coincollectingenterprises on October 16, 2012, 09:30:27 PM</a></div><div class="quote">Design Look:<br /><br />https://walletbit.com/pos/wallet<br /><br />Something about orange is throwing me off. Green is the color of money. Orange is like a pumpkin. The buttons could be okay but that giant orange bar at the bottom plays tricks on my eyes.<br /><br /><br /></div><br />I like it. Green is the color of the money only in some country: in Europe Euro ranges from blu to yellow, and so is for many other countries; and orange is the bitcoin logo color.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Point of Sale - WalletBit</b><br />
+					Post by: <b>coincollectingenterprises</b> on <b>October 18, 2012, 03:26:16 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=118419.msg1279294#msg1279294">Quote from: ercolinux on October 17, 2012, 08:47:11 PM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=118419.msg1277000#msg1277000">Quote from: coincollectingenterprises on October 16, 2012, 09:30:27 PM</a></div><div class="quote">Design Look:<br /><br />https://walletbit.com/pos/wallet<br /><br />Something about orange is throwing me off. Green is the color of money. Orange is like a pumpkin. The buttons could be okay but that giant orange bar at the bottom plays tricks on my eyes.<br /><br /><br /></div><br />I like it. Green is the color of the money only in some country: in Europe Euro ranges from blu to yellow, and so is for many other countries; and orange is the bitcoin logo color.<br /></div><br />This is a fantastic point.<br /><br />Perhaps a &quot;where are you located&quot; button may be the right way to go so you can &quot;paint&quot; your website colors appropriate to the psychological affects of money based on the geographical location of the merchant.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Point of Sale - WalletBit</b><br />
+					Post by: <b>ercolinux</b> on <b>October 18, 2012, 03:42:20 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=118419.msg1281016#msg1281016">Quote from: coincollectingenterprises on October 18, 2012, 03:26:16 PM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=118419.msg1279294#msg1279294">Quote from: ercolinux on October 17, 2012, 08:47:11 PM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=118419.msg1277000#msg1277000">Quote from: coincollectingenterprises on October 16, 2012, 09:30:27 PM</a></div><div class="quote">Design Look:<br /><br />https://walletbit.com/pos/wallet<br /><br />Something about orange is throwing me off. Green is the color of money. Orange is like a pumpkin. The buttons could be okay but that giant orange bar at the bottom plays tricks on my eyes.<br /><br /><br /></div><br />I like it. Green is the color of the money only in some country: in Europe Euro ranges from blu to yellow, and so is for many other countries; and orange is the bitcoin logo color.<br /></div><br />This is a fantastic point.<br /><br />Perhaps a &quot;where are you located&quot; button may be the right way to go so you can &quot;paint&quot; your website colors appropriate to the psychological affects of money based on the geographical location of the merchant.<br /></div><br />Not so easy to find one: as I said before Euro is blue for 5 and 20 notes, red for 10, orange for 50, yellow for 200 and violet for 500, so what colour do you pick up? Other currency have the same problem of very wide range of colour too. Maybe is possible to make a css with some choice of colour (green for USA, orange for bitcoin lovers&nbsp; ;) and so on) but I still think that orange is the bitcoin colour</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Point of Sale - WalletBit</b><br />
+					Post by: <b>coincollectingenterprises</b> on <b>October 18, 2012, 03:59:33 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=118419.msg1281048#msg1281048">Quote from: ercolinux on October 18, 2012, 03:42:20 PM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=118419.msg1281016#msg1281016">Quote from: coincollectingenterprises on October 18, 2012, 03:26:16 PM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=118419.msg1279294#msg1279294">Quote from: ercolinux on October 17, 2012, 08:47:11 PM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=118419.msg1277000#msg1277000">Quote from: coincollectingenterprises on October 16, 2012, 09:30:27 PM</a></div><div class="quote">Design Look:<br /><br />https://walletbit.com/pos/wallet<br /><br />Something about orange is throwing me off. Green is the color of money. Orange is like a pumpkin. The buttons could be okay but that giant orange bar at the bottom plays tricks on my eyes.<br /><br /><br /></div><br />I like it. Green is the color of the money only in some country: in Europe Euro ranges from blu to yellow, and so is for many other countries; and orange is the bitcoin logo color.<br /></div><br />This is a fantastic point.<br /><br />Perhaps a &quot;where are you located&quot; button may be the right way to go so you can &quot;paint&quot; your website colors appropriate to the psychological affects of money based on the geographical location of the merchant.<br /></div><br />Not so easy to find one: as I said before Euro is blue for 5 and 20 notes, red for 10, orange for 50, yellow for 200 and violet for 500, so what colour do you pick up? Other currency have the same problem of very wide range of colour too. Maybe is possible to make a css with some choice of colour (green for USA, orange for bitcoin lovers&nbsp; ;) and so on) but I still think that orange is the bitcoin colour<br /></div><br />I was thinking to simply it with a button choice upon entry of the website and then it takes you to the an appropriate subdomain which is all cloned from the main site with the appropriate different color scheme. It&#039;d be very easy to implement without any real coding.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Point of Sale - WalletBit</b><br />
+					Post by: <b>CIYAM</b> on <b>October 18, 2012, 04:04:28 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">I used Walletbit in order to purchase a VPS and was very unimpressed by the following:<br /><br />1) I deposit the &quot;exact&quot; btc amount for my bill but you guys took a &quot;fee&quot; from it (you really think you can charge buyers?).<br /><br />2) What is the point of the silly password type thingy (why not just paste in a btc address?).<br /><br />I will not be using this website again and could not recommend it to any buyer at all sorry.<br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Point of Sale - WalletBit</b><br />
+					Post by: <b>WikileaksDude</b> on <b>October 18, 2012, 06:12:02 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=118419.msg1281087#msg1281087">Quote from: CIYAM Pty. Ltd. on October 18, 2012, 04:04:28 PM</a></div><div class="quote">I used Walletbit in order to purchase a VPS and was very unimpressed by the following:<br /><br /><b>1) I deposit the &quot;exact&quot; btc amount for my bill but you guys took a &quot;fee&quot; from it (you really think you can charge buyers?).</b><br /><br />2) What is the point of the silly password type thingy (why not just paste in a btc address?).<br /><br />I will not be using this website again and could not recommend it to any buyer at all sorry.<br /><br /></div><br />Thats not fair. Besides this information is not stated on the site.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Point of Sale - WalletBit</b><br />
+					Post by: <b>Kris</b> on <b>October 19, 2012, 07:07:14 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=118419.msg1281387#msg1281387">Quote from: WikileaksDude on October 18, 2012, 06:12:02 PM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=118419.msg1281087#msg1281087">Quote from: CIYAM Pty. Ltd. on October 18, 2012, 04:04:28 PM</a></div><div class="quote">I used Walletbit in order to purchase a VPS and was very unimpressed by the following:<br /><br /><b>1) I deposit the &quot;exact&quot; btc amount for my bill but you guys took a &quot;fee&quot; from it (you really think you can charge buyers?).</b><br /><br />2) What is the point of the silly password type thingy (why not just paste in a btc address?).<br /><br />I will not be using this website again and could not recommend it to any buyer at all sorry.<br /><br /></div><br />Thats not fair. Besides this information is not stated on the site.<br /></div><br />1) Sorry you feel this way. But every deposit will incur a fee. Once you deposited though, it is FREE to send bitcoin to anyone.<br />You are right in that we put the miners/transaction fee on the &quot;buyer/user&quot; if your transaction happens to incur this fee.<br /><br />2) The silly password type thingy is called Secure Card, and it is only for your protection. We don&#039;t want anyone else to be able to spend your bitcoins.<br /><br />--<br />Kris</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Point of Sale - WalletBit</b><br />
+					Post by: <b>CIYAM</b> on <b>October 19, 2012, 07:16:13 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Well best of luck with this model - I&#039;ll even gift you the extra amount I sent in order to be able to send the amount that I had wanted to send in the first place (I can look after my own bitcoins so won&#039;t be using this service again).<br /><br />:)<br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Point of Sale - WalletBit</b><br />
+					Post by: <b>Kris</b> on <b>October 19, 2012, 07:19:22 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=118419.msg1282764#msg1282764">Quote from: CIYAM Pty. Ltd. on October 19, 2012, 07:16:13 AM</a></div><div class="quote">Well best of luck with this model - I&#039;ll even gift you the extra amount I sent in order to be able to send the amount that I had wanted to send in the first place (I can look after my own bitcoins so won&#039;t be using this service again).<br /><br />:)<br /><br /></div><br />We are just trying to provide what is best for everyone, but sometimes this favors others instead. If you can keep your bitcoins safe yourself, I always strongly approved and recommend this!<br /><br />I have sent you a PM</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Point of Sale - WalletBit</b><br />
+					Post by: <b>CIYAM</b> on <b>October 19, 2012, 07:40:32 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=118419.msg1282769#msg1282769">Quote from: Kris on October 19, 2012, 07:19:22 AM</a></div><div class="quote">I have sent you a PM<br /></div><br />Thanks for that.<br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Point of Sale - WalletBit</b><br />
+					Post by: <b>Kris</b> on <b>October 20, 2012, 11:48:43 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">We have revised our fee structure and made it more accessible, renewing our commitment to transparency. Thank you for pointing out our shortcomings CIYAM Pty. Ltd. If anyone else has any suggestions or comments, we are always striving to improve the quality of our service at Walletbit.<br /><br />Please familiarize yourself with the improved and more accessible layout of WalletBit fees at https://walletbit.com/pricing. In many cases Walletbit is cheaper than our leading competitor.<br /><br /><a href="https://cdn.walletbit.com/includes/press/SimplePricingPlan.png">https://cdn.walletbit.com/includes/press/SimplePricingPlan.png</a><br /><br />Thank you</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Point of Sale - WalletBit</b><br />
+					Post by: <b>Zangelbert Bingledack</b> on <b>October 21, 2012, 05:34:13 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">No comma between &quot;simple&quot; and &quot;pricing.&quot; Should be: &quot;WalletBit provides a simple pricing model...&quot;</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Point of Sale - WalletBit</b><br />
+					Post by: <b>bittenbob</b> on <b>October 21, 2012, 05:44:37 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Thank you for your suggestion, it will be updated as soon as possible.<br /><br /><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=118419.msg1287191#msg1287191">Quote from: Zangelbert Bingledack on October 21, 2012, 05:34:13 AM</a></div><div class="quote">No comma between &quot;simple&quot; and &quot;pricing.&quot; Should be: &quot;WalletBit provides a simple pricing model...&quot;<br /></div></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Point of Sale - WalletBit</b><br />
+					Post by: <b>coincollectingenterprises</b> on <b>October 21, 2012, 06:18:02 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Sell me on your product as a business that sells online. Meaning, what is the benefit of going through your service which charges a re-occurring percent fee of my overall BTC income compared to paying a programmer a one-time fee to incorporate an API to accept BTC into a pre-existing cart system.<br /><br />Seriously. As a merchant, I&#039;m open to the idea. But I don&#039;t see the benefit from a cost-savings perspective based on what I see on your website.<br /><br />My needs are simple: During the checkout process of a pre-existing cart, I want a customer to be able to choose BTC as an option of payment where the only information I need is a U.S.-based confirmed shipping address.<br /><br /><br />EDIT: I also disagree with your view that Paypal is high fraud risk. Following their seller protection program, it actually is very low risk....</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Point of Sale - WalletBit</b><br />
+					Post by: <b>bittenbob</b> on <b>October 21, 2012, 11:17:11 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">WalletBit includes all business tools, email transfers and SMS transactions free of charge via ResponsePay. Our Point of Sale system, currently in beta phase, will also be available free of charge and includes an inventory system for your online business. <br /><br />Modules ready for use in many of the most popular commerce solutions are already available. Please see https://walletbit.com/shop (https://walletbit.com/shop) for more details. We may be able to provide additional support on a case by case basis.<br /><br />In defense of Paypal being high risk, if a transaction has anything to do with Bitcoin then Paypal has a tendency to reverse that payment and block the account.<br /><br /><br /><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=118419.msg1288201#msg1288201">Quote from: coincollectingenterprises on October 21, 2012, 06:18:02 PM</a></div><div class="quote">Sell me on your product as a business that sells online. Meaning, what is the benefit of going through your service which charges a re-occurring percent fee of my overall BTC income compared to paying a programmer a one-time fee to incorporate an API to accept BTC into a pre-existing cart system.<br /><br />Seriously. As a merchant, I&#039;m open to the idea. But I don&#039;t see the benefit from a cost-savings perspective based on what I see on your website.<br /><br />My needs are simple: During the checkout process of a pre-existing cart, I want a customer to be able to choose BTC as an option of payment where the only information I need is a U.S.-based confirmed shipping address.<br /><br /><br />EDIT: I also disagree with your view that Paypal is high fraud risk. Following their seller protection program, it actually is very low risk....<br /></div></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Point of Sale - WalletBit</b><br />
+					Post by: <b>Kris</b> on <b>November 01, 2012, 07:43:22 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">In case you missed it or want a brief summary of WalletBit&#039;s new features, here is what we are doing for Bitcoin.<br /><br /><span style="font-size: 12pt !important; line-height: 1.3em;">POS iPad</span><br />https://cdn.walletbit.com/includes/press/pos.jpg<br /><br /><span style="font-size: 12pt !important; line-height: 1.3em;">POS iPhone</span><br />https://cdn.walletbit.com/includes/press/mobile_checkout_phone.png<br /><br /><span style="font-size: 12pt !important; line-height: 1.3em;">Standard online shop Checkout</span><br />https://cdn.walletbit.com/includes/press/standard_checkout.jpg<br /><br /><span style="font-size: 12pt !important; line-height: 1.3em;">On-site payment Checkout</span><br />https://cdn.walletbit.com/includes/press/on-site_payment.jpg<br /><br /><span style="font-size: 12pt !important; line-height: 1.3em;">Mobile Checkout</span><br />https://cdn.walletbit.com/includes/press/mobile_checkout.jpg<br /><br /><span style="font-size: 10pt !important; line-height: 1.3em;">Send to Email or SMS (712 mobile networks in 212 countries)</span><br />https://walletbit.com/docs/api/sendto</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Point of Sale - WalletBit</b><br />
+					Post by: <b>Realpra</b> on <b>November 01, 2012, 09:29:05 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">So having done all of this I am assuming you are rather BTC savvy?<br /><br />Perhaps you could offer me some hints now and then - you see I am Danish myself and I&#039;m working on a BTC card, but I&#039;m having trouble with some things?<br /><br />I already plan to make everything open source, but in return for your help I could try to work towards letting your webapp support pure BTC smartcards also.<br /><br />All I need is a few pointers over PM or skype for instance in weekends now and then or something.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Point of Sale - WalletBit</b><br />
+					Post by: <b>Kris</b> on <b>November 07, 2012, 09:41:35 AM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=118419.msg1311745#msg1311745">Quote from: Realpra on November 01, 2012, 09:29:05 PM</a></div><div class="quote">So having done all of this I am assuming you are rather BTC savvy?<br /><br />Perhaps you could offer me some hints now and then - you see I am Danish myself and I&#039;m working on a BTC card, but I&#039;m having trouble with some things?<br /><br />I already plan to make everything open source, but in return for your help I could try to work towards letting your webapp support pure BTC smartcards also.<br /><br />All I need is a few pointers over PM or skype for instance in weekends now and then or something.<br /></div><br />Well not so much BTC savvy I think, but I know how to make software that communicates with and utilize bitcoin.<br /><br />You are welcome to add me to Skype. PM Sent.</div>
+					<br /><br />
+					<div align="center" class="smalltext">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank">Powered by SMF 1.1.19</a> | 
+<a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank">SMF &copy; 2006-2009, Simple Machines</a>
+		</span></div>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

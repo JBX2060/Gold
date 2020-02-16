@@ -1,0 +1,98 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+		<link rel="canonical" href="https://bitcointalk.org/index.php?topic=133514.0" />
+		<title>Print Page - Move my .dat file</title>
+		<style type="text/css">
+			body
+			{
+				color: black;
+				background-color: white;
+			}
+			body, td, .normaltext
+			{
+				font-family: Verdana, arial, helvetica, serif;
+				font-size: small;
+			}
+			*, a:link, a:visited, a:hover, a:active
+			{
+				color: black !important;
+			}
+			table
+			{
+				empty-cells: show;
+			}
+			.code
+			{
+				font-size: x-small;
+				font-family: monospace;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.quote
+			{
+				font-size: x-small;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.smalltext, .quoteheader, .codeheader
+			{
+				font-size: x-small;
+			}
+			.largetext
+			{
+				font-size: large;
+			}
+			hr
+			{
+				height: 1px;
+				border: 0;
+				color: black;
+				background-color: black;
+			}
+		</style>
+	</head>
+	<body>
+		<h1 class="largetext">Bitcoin Forum</h1>
+		<h2 class="normaltext">Bitcoin => Bitcoin Technical Support => Topic started by: yochdog on December 27, 2012, 02:53:42 PM</h2>
+
+		<table width="90%" cellpadding="0" cellspacing="0" border="0">
+			<tr>
+				<td>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Move my .dat file</b><br />
+					Post by: <b>yochdog</b> on <b>December 27, 2012, 02:53:42 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Hey folks.....could someone give me a quick tutorial on moving my .dat file to a network drive rather than my C:?<br /><br />I am filling up fast on my SSD, and need to get it moved to greener pastures.<br /><br />Any help is appreciated!&nbsp; </div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Move my .dat file</b><br />
+					Post by: <b>Stephen Gornick</b> on <b>December 27, 2012, 04:25:12 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=133514.msg1422103#msg1422103">Quote from: yochdog on December 27, 2012, 02:53:42 PM</a></div><div class="quote">Hey folks.....could someone give me a quick tutorial on moving my .dat file to a network drive rather than my C:?<br /><br />I am filling up fast on my SSD, and need to get it moved to greener pastures.<br /><br />Any help is appreciated! &nbsp;<br /></div><br />There is a lot of I/O that occurs. &nbsp;I don&#039;t know the performance using a remote share, but it can&#039;t be pretty.<br /><br />Anyway, the steps are:<br /><br />1.) Ensure you have a backup of your wallet.dat<br /><br />2.) Run Bitcoin-Qt to detach the DB at shut down.<br />(Right click on Menu -&gt; &nbsp;options, then mark the checkbox Detach Databases at Shutdown.)<br />Then close Bitcoin-Qt.<br /><br />Or, run from the command line:<br />&nbsp;&nbsp;C:\&gt; Bitcoin-Qt -detachdb=1<br /><br />3.) Copy (or move) the entire Bitcoin directory to the new location <br />[Edit: If copied instead of moved, you can then delete, or rename if unsure, the old directory location.]<br /><br />4.) Launch Bitcoin-Qt with the -datadir= specifying the new Bitcoin directory<br /><br />e.g, &nbsp;for use on drive Z: <br />&nbsp;&nbsp; C:\&gt; Bitcoin-Qt -datadir=Z:\Bitcoin<br /><br />5.) Profit.<br /><br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Move my .dat file</b><br />
+					Post by: <b>yochdog</b> on <b>December 27, 2012, 04:29:35 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=133514.msg1422204#msg1422204">Quote from: Stephen Gornick on December 27, 2012, 04:25:12 PM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=133514.msg1422103#msg1422103">Quote from: yochdog on December 27, 2012, 02:53:42 PM</a></div><div class="quote">Hey folks.....could someone give me a quick tutorial on moving my .dat file to a network drive rather than my C:?<br /><br />I am filling up fast on my SSD, and need to get it moved to greener pastures.<br /><br />Any help is appreciated! &nbsp;<br /></div><br />There is a lot of I/O that occurs. &nbsp;I don&#039;t know the performance using a remote share, but it can&#039;t be pretty.<br /><br />Anyway, the steps are:<br /><br />1.) Ensure you have a backup of your wallet.dat<br /><br />2.) Run Bitcoin-Qt to detach the DB at shut down.<br />(Right click on Menu -&gt; &nbsp;options, then mark the checkbox Detach Databases at Shutdown.)<br />Then close Bitcoin-Qt.<br /><br />Or, run from the command line:<br />&nbsp;&nbsp;C:\&gt; Bitcoin-Qt -detachdb=1<br /><br />3.) Copy (or move) the entire Bitcoin directory to the new location <br />[Edit: If copied instead of moved, you can then delete, or rename if unsure, the old directory location.]<br /><br />4.) Launch Bitcoin-Qt with the -datadir= specifying the new Bitcoin directory<br /><br />e.g, &nbsp;for use on drive Z: <br />&nbsp;&nbsp; C:\&gt; Bitcoin-Qt -datadir=Z:\Bitcoin<br /><br />5.) Profit.<br /><br /><br /></div><br />I am using a gigabit network to access the shared drive.......that should suffice, no?&nbsp; </div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: Move my .dat file</b><br />
+					Post by: <b>BitcoinSuite</b> on <b>January 30, 2013, 06:02:31 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><br /><br />I am using a gigabit network to access the shared drive.......that should suffice, no?&nbsp; <br />[/quote]<br />That&#039;s plenty. You can always use electrum if you don&#039;t want the full client.</div>
+					<br /><br />
+					<div align="center" class="smalltext">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank">Powered by SMF 1.1.19</a> | 
+<a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank">SMF &copy; 2006-2009, Simple Machines</a>
+		</span></div>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

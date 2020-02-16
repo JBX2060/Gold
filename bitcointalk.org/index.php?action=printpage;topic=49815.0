@@ -1,0 +1,134 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+		<link rel="canonical" href="https://bitcointalk.org/index.php?topic=49815.0" />
+		<title>Print Page - how can I get a copy of the original source (0.1.0)?</title>
+		<style type="text/css">
+			body
+			{
+				color: black;
+				background-color: white;
+			}
+			body, td, .normaltext
+			{
+				font-family: Verdana, arial, helvetica, serif;
+				font-size: small;
+			}
+			*, a:link, a:visited, a:hover, a:active
+			{
+				color: black !important;
+			}
+			table
+			{
+				empty-cells: show;
+			}
+			.code
+			{
+				font-size: x-small;
+				font-family: monospace;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.quote
+			{
+				font-size: x-small;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.smalltext, .quoteheader, .codeheader
+			{
+				font-size: x-small;
+			}
+			.largetext
+			{
+				font-size: large;
+			}
+			hr
+			{
+				height: 1px;
+				border: 0;
+				color: black;
+				background-color: black;
+			}
+		</style>
+	</head>
+	<body>
+		<h1 class="largetext">Bitcoin Forum</h1>
+		<h2 class="normaltext">Bitcoin => Development &amp; Technical Discussion => Topic started by: Blinken on October 25, 2011, 03:27:22 PM</h2>
+
+		<table width="90%" cellpadding="0" cellspacing="0" border="0">
+			<tr>
+				<td>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>how can I get a copy of the original source (0.1.0)?</b><br />
+					Post by: <b>Blinken</b> on <b>October 25, 2011, 03:27:22 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Hi, how can I get a copy of the original Bitcoin rar distributed Fri, 09 Jan 2009?<br /><br />Originally this was posted at:<br /><br />http://downloads.sourceforge.net/bitcoin/bitcoin-0.1.0.rar<br /><br />This link is no longer valid.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: how can I get a copy of the original source (0.1.0)?</b><br />
+					Post by: <b>dogisland</b> on <b>October 25, 2011, 03:52:21 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">The commits on Github go back to August 2009 so you might be able to get it there.<br /><br />https://github.com/bitcoin/bitcoin/commits/master?page=41</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: how can I get a copy of the original source (0.1.0)?</b><br />
+					Post by: <b>BitterTea</b> on <b>October 25, 2011, 03:52:52 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">I think the first release might have been 0.1.5, which is on the Sourceforge download page.<br /><br />This is the first instance of Bitcoin.org in the Internet Archive: http://web.archive.org/web/20090131115053/http://bitcoin.org/<br /><br />edit... nevermind, this is the first, and it lists 0.1.3: http://web.archive.org/web/20090131115053/http://bitcoin.org/</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: how can I get a copy of the original source (0.1.0)?</b><br />
+					Post by: <b>Blinken</b> on <b>October 25, 2011, 04:13:14 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">The current source directory has been trunked and the old code prior to August has been removed. I want the original rar, dated January 2009.<br /></div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: how can I get a copy of the original source (0.1.0)?</b><br />
+					Post by: <b>error</b> on <b>October 25, 2011, 05:38:46 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=49815.msg592831#msg592831">Quote from: Blinken on October 25, 2011, 04:13:14 PM</a></div><div class="quote">The current source directory has been trunked and the old code prior to August has been removed. I want the original rar, dated January 2009.<br /></div><br />I want 21 million bitcoins to magically appear in my wallet. Unfortunately I don&#039;t think either is going to happen.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: how can I get a copy of the original source (0.1.0)?</b><br />
+					Post by: <b>terrytibbs</b> on <b>October 25, 2011, 05:44:14 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">I&#039;ve still got 0.1.3, if that&#039;s of any interest to you.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: how can I get a copy of the original source (0.1.0)?</b><br />
+					Post by: <b>wareen</b> on <b>October 25, 2011, 08:23:36 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">According to this site (http://www.olis.or.kr/ossw/project/releaseList.do?pid=72520&amp;gid=113309), the file bitcoin-0.1.3.rar (http://www.f1cd.ru/soft/base/b/bitcoin/bitcoin_013_alpha/bitcoin-0.1.3.rar) was released only 4 days after bitcoin-0.1.0.rar and has the same filesize.<br /><br />According to this sourceforge page (http://en.sourceforge.jp/projects/sfnet_bitcoin/downloads/Bitcoin/bitcoin-0.1.0/bitcoin-0.1.0.rar/), both files also have the same md5sum, which is a bit surprising, because the included readme contains the version number &quot;BitCoin v0.1.3 ALPHA&quot;. It seems, the 0.1.0 rar was retroactively replaced with the 0.1.3 rar (brown-paper-bag bug?)<br /><br />You can probably consider this the original release for all practical purposes.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: how can I get a copy of the original source (0.1.0)?</b><br />
+					Post by: <b>terrytibbs</b> on <b>October 25, 2011, 08:29:17 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Here you go: http://www.mediafire.com/?wu5e1rum8e5dbhf<br /><br />Feel free to verify the checksum with the one posted above.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: how can I get a copy of the original source (0.1.0)?</b><br />
+					Post by: <b>Blinken</b> on <b>October 25, 2011, 08:52:08 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">Thanks very much, much appreciated.</div>
+					<br />
+					<hr size="2" width="100%" />
+					Title: <b>Re: how can I get a copy of the original source (0.1.0)?</b><br />
+					Post by: <b>remotemass</b> on <b>September 12, 2013, 03:10:14 PM</b>
+					<hr />
+					<div style="margin: 0 5ex;">http://www.bitcointrading.com/forum/bitcoin-clients/original-bitcoin-source-code-archives/ (http://www.bitcointrading.com/forum/bitcoin-clients/original-bitcoin-source-code-archives/)</div>
+					<br /><br />
+					<div align="center" class="smalltext">
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank">Powered by SMF 1.1.19</a> | 
+<a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank">SMF &copy; 2006-2009, Simple Machines</a>
+		</span></div>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>
