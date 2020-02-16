@@ -1,0 +1,212 @@
+(function( $ ) {
+	'use strict';
+
+	$(function() {
+
+		var tries = 0, baseMessageId, emailNotifyOpted = false;
+		var thanksMsg = 'Thanks, Your download is still in progress. <br />We will notify you once your website download zip is ready.';
+		var notifyMsg = 'It is going to take some time before the download finishes. <br />Please leave your e-mail address below so that we can notify you once your website download zip is ready.';
+
+		$( '#website' ).on( 'keyup', function() {
+			var showSettings = false;
+			var urlParts = $( this ).val().replace( 'https://', '' ).replace( 'http://', '' ).split( '/' );
+			if ( urlParts.length > 1 ) {
+				if ( urlParts[1].length > 0 ) {
+					showSettings = true;
+				}
+			}
+
+			$( '.website-to-download' ).text( urlParts[0] );
+
+			if ( showSettings ) {
+				$( '.form-download-settings' ).show();
+			} else {
+				$( '.form-download-settings' ).hide();
+			}
+		});
+
+		$( '.email-input > a' ).on( 'click', function(e){
+			e.preventDefault();
+			emailNotifyOpted = true;
+			$( '.result' ).html( thanksMsg );
+			var postData = {
+				action: "webdown_email_notify",
+				wdnonce: $("#wdnonce").val(),
+				inputEmail: $("#inputEmail").val(),
+				messageId: baseMessageId
+			};
+			$( '.email-input' ).remove();
+			$.post( '/wp-admin/admin-ajax.php', postData, function( msg ) {  } );
+		} );
+
+		$( 'form.website-downloader' ).on( 'submit', function(e){
+			e.preventDefault();
+
+			$( '#wd-io-progress' ).show();
+			analytics.track( 'Download Started', {
+				category: 'Download'
+			});
+
+			var btn = $( this ).find( '.btn' );
+
+			$( '.result' ).html( 'Downloading...' );
+
+			btn.prop( 'disabled', true );
+			$.post("/wp-admin/admin-ajax.php",
+				{ action: "webdown_fetch_website", wdnonce: $("#wdnonce").val(), website: $("#website").val(), skipVideos: 1, skipEntire: $("input[name='skipEntire']:checked").val() }, function( msg ) {
+					if ( msg.success ) {
+
+						analytics.track( 'Download Successful', {
+							category: 'Download'
+						});
+
+						// check if this is a new download or an existing download
+						if ( !isNaN( msg.message ) ) {
+
+							// existing download
+							top.location.href = wdSettings.websitePreviewUrl + "?id=" + escape( msg.message );
+
+						} else {
+
+							// new download
+							baseMessageId = escape( msg.message );
+							doPoll( escape( msg.message ), btn );
+						}
+					} else {
+
+						analytics.track( 'Download Failed', {
+							category: 'Download'
+						});
+						btn.prop( 'disabled', false );
+						$( '.result' ).text( msg.message );
+					}
+			});
+		});
+
+		function doPoll( messageId, buttonInstance ) {
+
+			// reset tries count
+			if ( tries > 99 ) {
+				tries = 0;
+				$( '.download-estimates-time' ).show();
+			}
+
+			tries++;
+
+			if ( !( $( '#wd-io-progress' ).is( ':visible' ) ) ) {
+				$( '#wd-io-progress' ).show();
+			}
+			$( '#wd-io-bar' ).css( 'width', ( tries + 1 ) + '%' );
+			$.post( "/wp-admin/admin-ajax.php",
+				{ action: "webdown_fetch_website_status", wdnonce: $("#wdnonce").val(), messageId: messageId }, function( msg ) {
+					if ( msg.success ) {
+
+						top.location.href = wdSettings.websitePreviewUrl + "?id=" + escape( msg.message );
+
+						setInterval( function() {
+							$( '#wd-io-bar' ).css( 'width', ( tries + 1 ) + '%' );
+							tries++;
+						}, 10);
+
+					} else {
+
+						// continue polling if it is still pending
+						if ( msg.message === 'pending' ) {
+
+							if ( tries >= 20 ) {
+
+								if ( emailNotifyOpted ) {
+									// email notify opted for
+									$( '.result' ).html( thanksMsg );
+								} else {
+									// Notify user after a minute that he / she will get an email with the zip
+									$( '.result' ).html( notifyMsg );
+									$( '.email-input' ).show();
+								}
+							}
+
+							setTimeout( function() {
+								doPoll( escape( messageId ), buttonInstance );
+							},
+							3000 );
+						} else {
+
+							// final error messages
+							buttonInstance.prop( 'disabled', false );
+							$( '#wd-io-progress' ).hide();
+							$( '.result' ).text( msg.message );
+						}
+
+					}
+			});
+		}
+
+		/**
+		 * Theme preview
+		 */
+
+		$( '#get-zip-btn' ).on( 'click', function (e) {
+			analytics.track( 'Get Zip Button Clicked', {
+				category: 'Preview'
+			});
+		});
+
+		$( '#get-zip-btn-2' ).on( 'click', function (e) {
+			$( '.back-wd-asset-list-link' ).hide();
+			analytics.track( 'Get Zip Button on Files List Clicked', {
+				category: 'Preview'
+			});
+		});
+
+		$( '.js-dashboard-link' ).on( 'click', function (e) {
+			analytics.track( 'Go Back Clicked', {
+				category: 'Preview'
+			});
+		});
+
+		$( '.zip-download-link' ).on( 'click', function (e) {
+			analytics.track( 'Download Link Clicked', {
+				category: 'WD Payments'
+			});
+		});
+
+		$( '.pay-button' ).on( 'click', function (e) {
+			analytics.track( 'Pay Button Clicked', {
+				category: 'WD Payments'
+			});
+		});
+
+		$( '.show-asset-list' ).on( 'click', function(e) {
+			analytics.track( 'Files List Shown', {
+				category: 'Preview'
+			});
+			$('#assets-area').modal('show');
+		});
+
+		$( '#show-files-list-2' ).on( 'click', function(e) {
+			$( '.back-wd-asset-list-link' ).show();
+			$('#assets-area').modal('show');
+			$('#payments-area').modal('hide');
+			analytics.track( 'Files List Shown', {
+				category: 'Preview'
+			});
+		});
+
+		$( '.back-wd-asset-list-link' ).on( 'click', function(e){
+			$( this ).hide();
+			$('#assets-area').modal('hide');
+			$('#payments-area').modal('show');
+		});
+
+		$( '#assets-area .close' ).on( 'click', function(e) {
+			$( '.back-wd-asset-list-link' ).hide();
+		} );
+
+		// var start = new Date;
+
+		// setInterval(function() {
+		//     $('.checkout-timer').text((new Date - start) / 1000 + " Seconds");
+		// }, 1000);
+
+	});
+})( jQuery );

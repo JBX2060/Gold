@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: /offline-plugin-app-shell-fallback/
+Disallow: /error/
+Disallow: /callback/
+Disallow: /preview-download/
+Disallow: /wayback-machine-downloader/preview-download/
+Sitemap: https://websitedownloader.io/sitemap.xml
+Host: https://websitedownloader.io
